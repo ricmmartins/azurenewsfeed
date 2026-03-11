@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azure News Feed</title>
+  <meta name="description" content="Daily aggregated news from 31 Azure blogs — search, filter, bookmark, and share.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☁️</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <svg width="36" height="36" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M27.2 69.6L47.6 24H58.8L34 69.6H27.2ZM20 69.6L40.4 24H51.6L26.8 69.6H20ZM56.4 69.6L64 54.4L70.4 40L76 69.6H56.4Z" fill="white"/>
+        </svg>
+        <div>
+          <h1>Azure News Feed</h1>
+          <span class="subtitle">Daily updates from 31 Azure blogs</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off">
+        </div>
+        <button id="bookmarks-toggle" title="Show bookmarked articles">⭐ Bookmarks</button>
+        <button id="theme-toggle" title="Toggle dark mode">🌙</button>
+      </div>
+    </div>
+    <div class="stats-bar">
+      <span id="last-updated">Loading...</span>
+      <span id="total-count"></span>
+    </div>
+  </header>
+
+  <div class="filters">
+    <div class="filter-scroll">
+      <div class="filter-pills" id="filter-pills">
+        <button class="pill active" data-filter="all">All</button>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="controls">
+      <span id="showing-count"></span>
+      <div class="controls-right">
+        <select id="date-filter">
+          <option value="all">All Time</option>
+          <option value="today">Today</option>
+          <option value="week">This Week</option>
+          <option value="month">This Month</option>
+        </select>
+        <select id="sort-by">
+          <option value="date-desc">Newest First</option>
+          <option value="date-asc">Oldest First</option>
+          <option value="blog">By Blog</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="loading" class="loading">
+      <div class="loading-spinner"></div>
+      <p>Loading feeds...</p>
+    </div>
+
+    <div id="no-results" class="no-results">
+      <p>🔍 No articles found matching your criteria.</p>
+      <p>Try adjusting your filters or search terms.</p>
+    </div>
+
+    <div class="articles-grid" id="articles-grid"></div>
+  </main>
+
+  <div class="toast" id="toast"></div>
+
+  <footer>
+    <p>☁️ Azure News Feed &bull; Updated daily via <a href="https://github.com/ricmmartins/azurenewsfeed" target="_blank" rel="noopener">GitHub Actions</a></p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

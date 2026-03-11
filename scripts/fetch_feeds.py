@@ -1,0 +1,207 @@
+#!/usr/bin/env python3
+"""
+Azure News Feed - RSS Feed Fetcher
+Fetches articles from Azure blog RSS feeds and generates a JSON data file.
+"""
+
+import feedparser
+import json
+import os
+import re
+import time
+from datetime import datetime, timezone
+from html import unescape
+
+# Blog definitions: board_id -> display name
+BLOGS = {
+    "analyticsonazure": "Analytics on Azure",
+    "appsonazureblog": "Apps on Azure",
+    "azurearcblog": "Azure Arc",
+    "azurearchitectureblog": "Azure Architecture",
+    "azurecommunicationservicesblog": "Communication Services",
+    "azurecompute": "Azure Compute",
+    "azureconfidentialcomputingblog": "Confidential Computing",
+    "azure-databricks": "Azure Databricks",
+    "azure-events": "Azure Events",
+    "azuregovernanceandmanagementblog": "Governance & Management",
+    "azure-customer-innovation-blog": "Customer Innovation",
+    "azurehighperformancecomputingblog": "High Performance Computing",
+    "azureinfrastructureblog": "Azure Infrastructure",
+    "integrationsonazureblog": "Integrations on Azure",
+    "azuremapsblog": "Azure Maps",
+    "azuremigrationblog": "Azure Migration",
+    "azurenetworkingblog": "Azure Networking",
+    "azureobservabilityblog": "Azure Observability",
+    "azurepaasblog": "Azure PaaS",
+    "azurestackblog": "Azure Stack",
+    "azurestorageblog": "Azure Storage",
+    "finopsblog": "FinOps",
+    "azuretoolsblog": "Azure Tools",
+    "azurevirtualdesktopblog": "Azure Virtual Desktop",
+    "linuxandopensourceblog": "Linux & Open Source",
+    "messagingonazureblog": "Messaging on Azure",
+    "telecommunications-industry-blog": "Telecommunications",
+    "azuredevcommunityblog": "Azure Dev Community",
+    "oracleonazureblog": "Oracle on Azure",
+    "microsoft-planetary-computer-blog": "Planetary Computer",
+}
+
+TC_RSS_URL = (
+    "https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/"
+    "custom-blog-rss?board={board}&size=25"
+)
+AKS_BLOG_FEED = "https://blog.aks.azure.com/feed/"
+
+
+def clean_html(text):
+    """Remove HTML tags and clean up text."""
+    if not text:
+        return ""
+    clean = re.sub(r"<[^>]+>", "", text)
+    clean = unescape(clean)
+    clean = re.sub(r"\s+", " ", clean).strip()
+    return clean
+
+
+def truncate(text, max_length=300):
+    """Truncate text to max_length, ending at a word boundary."""
+    if len(text) <= max_length:
+        return text
+    truncated = text[:max_length].rsplit(" ", 1)[0]
+    return truncated + "..."
+
+
+def parse_date(entry):
+    """Parse date from feed entry, return ISO format string."""
+    for field in ["published_parsed", "updated_parsed"]:
+        parsed = entry.get(field)
+        if parsed:
+            try:
+                dt = datetime(*parsed[:6], tzinfo=timezone.utc)
+                return dt.isoformat()
+            except (ValueError, TypeError):
+                continue
+
+    for field in ["published", "updated"]:
+        date_str = entry.get(field, "")
+        if date_str:
+            return date_str
+
+    return datetime.now(timezone.utc).isoformat()
+
+
+def fetch_tech_community_feeds():
+    """Fetch articles from Tech Community blogs."""
+    articles = []
+
+    for board_id, blog_name in BLOGS.items():
+        url = TC_RSS_URL.format(board=board_id)
+        print(f"Fetching: {blog_name} ({board_id})...")
+
+        try:
+            feed = feedparser.parse(url)
+
+            if feed.bozo and not feed.entries:
+                print(f"  Warning: Could not parse feed for {blog_name}")
+                continue
+
+            count = 0
+            for entry in feed.entries:
+                summary = clean_html(entry.get("summary", ""))
+                articles.append(
+                    {
+                        "title": clean_html(entry.get("title", "Untitled")),
+                        "link": entry.get("link", ""),
+                        "published": parse_date(entry),
+                        "summary": truncate(summary),
+                        "blog": blog_name,
+                        "blogId": board_id,
+                        "author": entry.get("author", "Microsoft"),
+                    }
+                )
+                count += 1
+
+            print(f"  Found {count} articles")
+
+        except Exception as e:
+            print(f"  Error fetching {blog_name}: {e}")
+
+        time.sleep(0.5)
+
+    return articles
+
+
+def fetch_aks_blog():
+    """Fetch articles from the AKS blog."""
+    articles = []
+    print("Fetching: AKS Blog...")
+
+    try:
+        feed = feedparser.parse(AKS_BLOG_FEED)
+
+        if feed.bozo and not feed.entries:
+            print("  Warning: Could not parse AKS blog feed")
+            return articles
+
+        count = 0
+        for entry in feed.entries:
+            summary = clean_html(entry.get("summary", ""))
+            articles.append(
+                {
+                    "title": clean_html(entry.get("title", "Untitled")),
+                    "link": entry.get("link", ""),
+                    "published": parse_date(entry),
+                    "summary": truncate(summary),
+                    "blog": "AKS Blog",
+                    "blogId": "aksblog",
+                    "author": entry.get("author", "Microsoft"),
+                }
+            )
+            count += 1
+
+        print(f"  Found {count} articles")
+
+    except Exception as e:
+        print(f"  Error fetching AKS blog: {e}")
+
+    return articles
+
+
+def main():
+    print("=" * 60)
+    print("Azure News Feed - Fetching RSS Feeds")
+    print("=" * 60)
+
+    all_articles = []
+    all_articles.extend(fetch_tech_community_feeds())
+    all_articles.extend(fetch_aks_blog())
+
+    # Sort by date, newest first
+    all_articles.sort(key=lambda x: x.get("published", ""), reverse=True)
+
+    # Remove duplicates by link
+    seen_links = set()
+    unique_articles = []
+    for article in all_articles:
+        if article["link"] and article["link"] not in seen_links:
+            seen_links.add(article["link"])
+            unique_articles.append(article)
+
+    data = {
+        "lastUpdated": datetime.now(timezone.utc).isoformat(),
+        "totalArticles": len(unique_articles),
+        "articles": unique_articles,
+    }
+
+    os.makedirs("data", exist_ok=True)
+    output_path = os.path.join("data", "feeds.json")
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print(f"\n{'=' * 60}")
+    print(f"Done! {len(unique_articles)} unique articles saved to {output_path}")
+    print(f"{'=' * 60}")
+
+
+if __name__ == "__main__":
+    main()
