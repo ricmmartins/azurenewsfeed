@@ -9,7 +9,7 @@ import json
 import os
 import re
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from html import unescape
 
 # Blog definitions: board_id -> display name
@@ -178,13 +178,19 @@ def main():
     # Sort by date, newest first
     all_articles.sort(key=lambda x: x.get("published", ""), reverse=True)
 
-    # Remove duplicates by link
+    # Remove duplicates by link and discard articles older than 30 days
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=30)).isoformat()
     seen_links = set()
     unique_articles = []
     for article in all_articles:
         if article["link"] and article["link"] not in seen_links:
-            seen_links.add(article["link"])
-            unique_articles.append(article)
+            if article.get("published", "") >= cutoff:
+                seen_links.add(article["link"])
+                unique_articles.append(article)
+
+    discarded = len(all_articles) - len(unique_articles)
+    if discarded:
+        print(f"Filtered out {discarded} duplicate/older-than-30-days articles")
 
     data = {
         "lastUpdated": datetime.now(timezone.utc).isoformat(),
