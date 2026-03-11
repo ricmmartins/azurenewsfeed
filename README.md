@@ -1,18 +1,18 @@
 # ☁️ Azure News Feed
 
-A daily-updated Azure blog aggregator hosted on GitHub Pages. Collects articles from 31 Azure blogs and presents them in a clean, searchable interface.
+A daily-updated Azure blog aggregator hosted on GitHub Pages. Collects articles from Azure blogs and presents them in a clean, searchable interface — last 30 days only.
 
-**Live site:** [ricmmartins.github.io/azurenewsfeed](https://ricmmartins.github.io/azurenewsfeed)
+**Live site:** [ricardomartins.com.br/azurenewsfeed](https://ricardomartins.com.br/azurenewsfeed)
 
 ## Features
 
 - 📰 **31 Azure blog sources** — Infrastructure, Compute, Networking, Storage, and more
 - 🔍 **Search & filter** — Find articles by keyword, blog category, or date range
-- 📋 **Copy for LinkedIn** — One-click LinkedIn post generation
-- ⭐ **Bookmarks** — Save articles for later (stored locally)
+- ⭐ **Bookmarks** — Save articles for later (stored locally per browser)
 - 🌙 **Dark mode** — Easy on the eyes
 - 📱 **Responsive** — Works on desktop, tablet, and mobile
-- 🤖 **Auto-updated** — GitHub Actions fetches new articles daily at 8 AM UTC
+- 🤖 **Auto-updated** — GitHub Actions fetches new articles daily at 7 AM EST (12 PM UTC)
+- 📅 **Last 30 days** — Keeps only recent articles for a lean, fast experience
 
 ## Blog Sources
 
@@ -73,9 +73,9 @@ Open [http://localhost:8000](http://localhost:8000) in your browser.
 
 ## How It Works
 
-1. **GitHub Actions** runs daily at 8 AM UTC (or manually)
+1. **GitHub Actions** runs daily at 7 AM EST / 12 PM UTC (or manually)
 2. **Python script** fetches RSS feeds from all 31 Azure blogs
-3. Articles are deduplicated, sorted, and saved to `data/feeds.json`
+3. Articles from the last 30 days are deduplicated, sorted, and saved to `data/feeds.json`
 4. The commit triggers **GitHub Pages** to redeploy
 5. The **static frontend** loads the JSON and renders the feed
 
