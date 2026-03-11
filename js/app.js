@@ -314,14 +314,6 @@
       '<p class="article-summary">' +
       escapeHtml(article.summary) +
       "</p>" +
-      '<div class="card-actions">' +
-      '<a href="' +
-      escapeHtml(article.link) +
-      '" target="_blank" rel="noopener" class="btn btn-primary">📖 Read</a>' +
-      '<button class="btn btn-secondary" data-action="linkedin" data-link="' +
-      encodedLink +
-      '">📋 LinkedIn</button>' +
-      "</div>" +
       "</article>"
     );
   }
