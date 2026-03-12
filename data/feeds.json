@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-03-11T22:28:39.839643+00:00",
-  "totalArticles": 98,
+  "lastUpdated": "2026-03-12T12:57:37.888245+00:00",
+  "totalArticles": 96,
   "articles": [
+    {
+      "title": "Building a Multi-Agent On-Call Copilot with Microsoft Agent Framework",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-multi-agent-on-call-copilot-with-microsoft-agent/ba-p/4499962",
+      "published": "2026-03-12T07:00:00+00:00",
+      "summary": "Four AI agents, one incident payload, structured triage in under 60 seconds powered by Microsoft Agent Framework and Foundry Hosted Agents. Multi-Agent Microsoft Agent Framework Foundry Hosted Agents Python SRE / Incident Response When an incident fires at 3 AM, every second the on-call engineer...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
     {
       "title": "Azure Copilot Migration Agent",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/azure-copilot-migration-agent/ba-p/4501292",
@@ -786,15 +795,6 @@
       "author": "hcamposu"
     },
     {
-      "title": "Building a Smart Building HVAC Digital Twin with AI Copilot Using Foundry Local",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-smart-building-hvac-digital-twin-with-ai-copilot/ba-p/4490784",
-      "published": "2026-02-17T08:00:00+00:00",
-      "summary": "Introduction Building operations teams face a constant challenge: optimizing HVAC systems for energy efficiency while maintaining occupant comfort and air quality. Traditional building management systems display raw sensor data, temperatures, pressures, CO₂ levels—but translating this into...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
       "title": "DCasv6 and ECasv6 confidential VMs in Azure Government Cloud",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/dcasv6-and-ecasv6-confidential-vms-in-azure-government-cloud/ba-p/4494604",
       "published": "2026-02-17T00:27:19+00:00",
@@ -865,24 +865,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "GeertVanTeylingen"
-    },
-    {
-      "title": "Azure Arc Jumpstart Template for Hybrid Logic Apps Deployment",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-arc-jumpstart-template-for-hybrid-logic-apps-deployment/ba-p/4493996",
-      "published": "2026-02-10T03:43:20+00:00",
-      "summary": "Today I’m sharing a new Azure Arc Jumpstart template (Jumpstart Drop) that implements a hybrid deployment for Azure Logic Apps (Standard) on Azure Arc-enabled AKS cluster which enables deployment with a single command that sets up a complete, working environment for testing your scenarios....",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Shree_Divya_M_V"
-    },
-    {
-      "title": "Announcing Application Insights SDK 3.x for .NET",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/announcing-application-insights-sdk-3-x-for-net/ba-p/4493988",
-      "published": "2026-02-10T00:25:02+00:00",
-      "summary": "Microsoft remains committed to making OpenTelemetry the foundation of modern observability on Azure. Today, we’re excited to take the next step on that journey with a major release of the Application Insights SDK 3.x for .NET. Migrate to OpenTelemetry with a Major Version Bump With Application...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "MattMc"
     }
   ]
 }
