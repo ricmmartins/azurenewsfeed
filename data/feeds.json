@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-03-12T14:43:51.305739+00:00",
+  "lastUpdated": "2026-03-13T12:56:31.345184+00:00",
   "totalArticles": 136,
   "articles": [
+    {
+      "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enterprise-identity-meets-secure-file-transfer-entra-id-public/ba-p/4501937",
+      "published": "2026-03-13T10:37:25+00:00",
+      "summary": "We are excited to announce the public preview of Entra ID-based access for Azure Blob Storage SFTP. This new capability enables you to use Microsoft Entra ID (formerly Azure Active Directory) identities (including guest users via Entra External Identities) to securely connect to Azure Blob Storage...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "JeevanManoj"
+    },
+    {
+      "title": "Azure Arc Server Feb 2026 Forum Recap",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-server-feb-2026-forum-recap/ba-p/4501793",
+      "published": "2026-03-12T23:24:03+00:00",
+      "summary": "Please find the recording for the monthly Azure Arc Server Forum at YouTube! During the February 2026 Azure Arc Server Forum, we discussed: Arc Server Reporting & Dashboard (Jeff Pigot, Sr. Solution Engineer): Check out this awesome visual reporting bringing together different management services...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Aurnov_Chattopadhyay"
+    },
+    {
+      "title": "Proactive Health Monitoring and Auto-Communication Now Available for Azure Container Registry",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/proactive-health-monitoring-and-auto-communication-now-available/ba-p/4501378",
+      "published": "2026-03-12T22:54:28+00:00",
+      "summary": "Today, we're introducing Azure Container Registry's (ACR) latest service health enhancement: automated auto-communication through Azure Service Health alerts. When ACR detects degradation in critical operations—authentication, image push, and pull—your teams are now proactively notified through...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "FeynmanZhou"
+    },
+    {
+      "title": "Azure Copilot Migration Agent",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/azure-copilot-migration-agent/ba-p/4501292",
+      "published": "2026-03-12T17:21:59+00:00",
+      "summary": "Migration and modernization are complex, involving multiple decisions that determine cost, risk, and long‑term success. The timelines stretch and momentum is lost due to fragmented tools and manual planning. For most organizations, this is a continuous motion driven by shifting demands, security...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "shashban"
+    },
     {
       "title": "Building a Multi-Agent On-Call Copilot with Microsoft Agent Framework",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-multi-agent-on-call-copilot-with-microsoft-agent/ba-p/4499962",
@@ -19,15 +55,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Laura Jiang"
-    },
-    {
-      "title": "Azure Copilot Migration Agent",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/azure-copilot-migration-agent/ba-p/4501292",
-      "published": "2026-03-11T17:13:06+00:00",
-      "summary": "Migration and modernization are complex, involving multiple decisions that determine cost, risk, and long‑term success. The timelines stretch and momentum is lost due to fragmented tools and manual planning. For most organizations, this is a continuous motion driven by shifting demands, security...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "shashban"
     },
     {
       "title": "A Look Ahead at Azure Cosmos DB Conf 2026: From AI Agents to Global Scale",
@@ -840,15 +867,6 @@
       "author": "Xiang Yan"
     },
     {
-      "title": "Rethinking Ingress on Azure: Application Gateway for Containers Explained",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/rethinking-ingress-on-azure-application-gateway-for-containers/ba-p/4492277",
-      "published": "2026-02-23T10:49:29+00:00",
-      "summary": "Introduction Azure Application Gateway for Containers is a managed Azure service designed to handle incoming traffic for container-based applications. It brings Layer-7 load balancing, routing, TLS termination, and web application protection outside of the Kubernetes cluster and into an...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "rgarofalo"
-    },
-    {
       "title": "Logic Apps Agentic Workflows with SAP - Part 2: AI Agents",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-agentic-workflows-with-sap-part-2-ai-agents/ba-p/4492362",
       "published": "2026-02-23T07:15:00+00:00",
@@ -966,6 +984,15 @@
       "author": "Fernando_Aznar"
     },
     {
+      "title": "Navigating the 2025 holiday season: Insights into Azure’s DDoS defense",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/navigating-the-2025-holiday-season-insights-into-azure-s-ddos/ba-p/4495741",
+      "published": "2026-02-18T20:30:34+00:00",
+      "summary": "The holiday season continues to be one of the most demanding periods for online businesses. Traffic surges, higher transaction volumes, and user expectations for seamless digital experiences all converge, making reliability a non-negotiable requirement. For attackers, this same period presents an...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "Jdasari"
+    },
+    {
       "title": "Private Preview: Azure Managed Prometheus on VM / VMSS",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/private-preview-azure-managed-prometheus-on-vm-vmss/ba-p/4473472",
       "published": "2026-02-18T20:00:31+00:00",
@@ -1009,6 +1036,15 @@
       "blog": "Telecommunications",
       "blogId": "telecommunications-industry-blog",
       "author": "Yongguang Zhang"
+    },
+    {
+      "title": "A Practical Guide to Azure DDoS Protection Cost Optimization",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/a-practical-guide-to-azure-ddos-protection-cost-optimization/ba-p/4495199",
+      "published": "2026-02-18T13:55:49+00:00",
+      "summary": "Introduction Azure provides infrastructure-level DDoS protection by default to protect Azure’s own platform and services. However, this protection does not extend to customer workloads or non-Microsoft managed resources like Application Gateway, Azure Firewall, or virtual machines with public IPs....",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "SaleemBseeu"
     },
     {
       "title": "Reimagining Network Operations: How Microsoft NetAI Tackles Hyperscale Challenges",
@@ -1189,42 +1225,6 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Iria Osara"
-    },
-    {
-      "title": "Accelerating SCOM to Azure Monitor Migrations with Automated Analysis and ARM Template Generation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/accelerating-scom-to-azure-monitor-migrations-with-automated/ba-p/4493593",
-      "published": "2026-02-11T08:59:53+00:00",
-      "summary": "Accelerating SCOM to Azure Monitor Migrations with Automated Analysis and ARM Template Generation Azure Monitor has become the foundation for modern, cloud-scale monitoring on Azure. Built to handle massive volumes of telemetry across infrastructure, applications, and services, it provides a...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "OREN_SALZBERG"
-    },
-    {
-      "title": "February Patches for Azure DevOps Server",
-      "link": "https://devblogs.microsoft.com/devops/february-patches-for-azure-devops-server-5/",
-      "published": "2026-02-10T20:21:41+00:00",
-      "summary": "We are releasing patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay on the latest, most secure version of Azure DevOps Server. The latest release, Azure DevOps Server, is available from the download page. To make it easier to find and apply the...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales"
-    },
-    {
-      "title": "Building AI-Powered Apps with Azure Cosmos DB and the Vercel AI SDK",
-      "link": "https://devblogs.microsoft.com/cosmosdb/building-ai-powered-apps-azure-cosmos-db-vercel-ai-sdk/",
-      "published": "2026-02-10T18:27:15+00:00",
-      "summary": "The Vercel AI SDK is an open-source TypeScript toolkit that provides the core building blocks for integrating AI into any JavaScript application. It works with 20+ AI providers out of the box—including OpenAI, Azure OpenAI, Anthropic, Google, Mistral, and more—so you can write your code once and...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai"
-    },
-    {
-      "title": "Unlocking Advanced Data Analytics & AI with Azure NetApp Files object REST API",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/unlocking-advanced-data-analytics-ai-with-azure-netapp-files/ba-p/4486098",
-      "published": "2026-02-10T17:49:14+00:00",
-      "summary": "Table of Contents Abstract Introduction Technical Primer: What is the Azure NetApp Files object REST API? Applying object REST API in Practice: Integration Scenarios and Use Cases Quick Bytes: Azure NetApp Files object REST API Overview How-to: Azure NetApp Files object REST API How-to: Integrating...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "GeertVanTeylingen"
     }
   ]
 }
