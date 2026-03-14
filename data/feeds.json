@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-03-13T12:56:31.345184+00:00",
-  "totalArticles": 136,
+  "lastUpdated": "2026-03-14T12:49:09.591981+00:00",
+  "totalArticles": 135,
   "articles": [
+    {
+      "title": "March Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-4/",
+      "published": "2026-03-13T21:41:24+00:00",
+      "summary": "We are releasing patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay on the latest, most secure version of Azure DevOps Server. The latest release, Azure DevOps Server, is available from the download page. This patch addresses an issue introduced...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales"
+    },
+    {
+      "title": "The Human Scale Problem in Platform Engineering",
+      "link": "https://devblogs.microsoft.com/all-things-azure/the-human-scale-problem-in-platform-engineering/",
+      "published": "2026-03-13T20:22:49+00:00",
+      "summary": "We keep doing this thing where we solve a problem, celebrate the victory, then realize we’ve created three new problems we didn’t even know existed. Remember when manually configuring servers was the bottleneck? So we built containers. Great! Now we’re orchestrating thousands of them. Remember when...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Diego Casati, Ray Kao"
+    },
+    {
+      "title": "Azure Developer CLI (azd): Debug hosted AI agents from your terminal",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-ai-agent-logs-status/",
+      "published": "2026-03-13T19:19:52+00:00",
+      "summary": "New azd ai agent show and monitor commands help you diagnose hosted AI agent failures directly from the CLI. The post Azure Developer CLI (azd): Debug hosted AI agents from your terminal appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "PuiChee (PC) Chan"
+    },
+    {
+      "title": "Introducing Azure Managed Grafana 12",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/introducing-azure-managed-grafana-12/ba-p/4500673",
+      "published": "2026-03-13T16:54:19+00:00",
+      "summary": "In this release, Azure Managed Grafana makes it easier to tighten access with current-user Entra authentication, speed up Azure Monitor logs exploration, and level up Prometheus and database monitoring experiences. What’s new in Azure Managed Grafana 12 Use current-user Entra authentication for...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "aayodeji"
+    },
+    {
+      "title": "A Practical Path Forward for Heroku Customers with Azure",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-practical-path-forward-for-heroku-customers-with-azure/ba-p/4501797",
+      "published": "2026-03-13T15:00:00+00:00",
+      "summary": "On February 6, 2026, Heroku announced it is moving to a sustaining engineering model focused on stability, security, reliability, and ongoing support. Many customers are now reassessing how their application platforms will support today’s workloads and future innovation. Microsoft is committed to...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "NagaSurendran"
+    },
     {
       "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enterprise-identity-meets-secure-file-transfer-entra-id-public/ba-p/4501937",
@@ -822,15 +867,6 @@
       "author": "wanjing"
     },
     {
-      "title": "Building MCP Apps with Azure Functions MCP Extension",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/building-mcp-apps-with-azure-functions-mcp-extension/ba-p/4496536",
-      "published": "2026-02-24T23:27:21+00:00",
-      "summary": "Today, we are thrilled to announce the release of MCP App support in the Azure Functions MCP (Model Context Protocol) extension! You can now build MCP Apps using the Functions MCP Extension in Python, TypeScript, and .NET. What are MCP Apps Until now, MCP has primarily been a way for AI agents to...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "lily-ma"
-    },
-    {
       "title": "Visual Studio February Update",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-february-update/",
       "published": "2026-02-24T22:16:30+00:00",
@@ -1180,51 +1216,6 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Jasmine Greenaway"
-    },
-    {
-      "title": "Securing A Multi-Agent AI Solution Focused on User Context & the Complexities of On-Behalf-Of.",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/securing-a-multi-agent-ai-solution-focused-on-user-context-the/ba-p/4493308",
-      "published": "2026-02-12T07:47:13+00:00",
-      "summary": "How we built an enterprise-grade multi-agent system that preserves user identity across AI agents and Databricks Introduction When building AI-powered applications for the enterprise, a common challenge emerges: how do you maintain user identity and access controls when an AI agent queries backend...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Charles_Chukwudozie"
-    },
-    {
-      "title": "Beyond the Prompt – Why and How to Fine-tune Your Own Models",
-      "link": "https://devblogs.microsoft.com/foundry/beyond-the-prompt-why-and-how-to-fine-tune-your-own-models/",
-      "published": "2026-02-11T17:29:15+00:00",
-      "summary": "Large Language Models (LLMs) have reached a point where general intelligence is no longer the bottleneck. The real challenge in enterprise AI systems behavioral alignment ensuring models that produce consistent, reliable, policy-compliant outputs on a scale. Prompt engineering and...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Radhika Bollineni"
-    },
-    {
-      "title": "Unlock language-specific rich symbol context using new find_symbol tool",
-      "link": "https://devblogs.microsoft.com/visualstudio/unlock-language-specific-rich-symbol-context-using-new-find_symbol-tool/",
-      "published": "2026-02-11T15:29:15+00:00",
-      "summary": "Refactoring at scale is a time-consuming and error-prone process for developers. In large codebases, developers have relied on manual searches and incremental edits across multiple files to accomplish these tasks. Modern development workflows depend on fast and accurate code navigation to avoid...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Sinem Akinci, Hannah Hong (SHE/HER)"
-    },
-    {
-      "title": "Deploy to Azure App Service deployment slots with azd",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azd-app-service-slot/",
-      "published": "2026-02-11T14:59:15+00:00",
-      "summary": "azd now supports direct deployments to Azure App Service slots—quick, clear, and slot-aware for the first time. The post Deploy to Azure App Service deployment slots with azd appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan"
-    },
-    {
-      "title": "Maximize Azure Cosmos DB Performance with Azure Advisor Recommendations",
-      "link": "https://devblogs.microsoft.com/cosmosdb/maximize-azure-cosmos-db-performance-with-azure-advisor-recommendations/",
-      "published": "2026-02-11T13:00:43+00:00",
-      "summary": "In the first post of this series, we introduced how Azure Advisor helps Azure Cosmos DB users uncover opportunities to optimize efficiency and make smarter decisions. This follow-up dives deeper into one of the most important categories of guidance: performance. If you’ve ever dealt with skewed...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Iria Osara"
     }
   ]
 }
