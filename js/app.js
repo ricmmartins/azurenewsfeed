@@ -11,6 +11,16 @@
     "Operations": ["azuregovernanceandmanagementblog", "azureobservabilityblog", "finopsblog", "azuretoolsblog", "azuremigrationblog", "azuredevops"],
     "Community": ["azuredevcommunityblog", "azure-events", "linuxandopensourceblog", "allthingsazure", "msdevblog"],
     "Developer Tools": ["visualstudio", "vscodeblog", "commandline", "developfromthecloud"],
+    "Security": [
+    "microsoftsentinelblog",
+    "microsoftthreatprotectionblog",
+    "microsoftdefendercloudblog",
+    "microsoftdefenderatpblog",
+    "azureadvancedthreatprotection",
+    "microsoftdefenderforoffice365blog",
+    "msrc",
+    "mssecurity"
+    ],
     "Specialized": ["azurecommunicationservicesblog", "azureconfidentialcomputingblog", "azuremapsblog", "telecommunications-industry-blog", "microsoft-planetary-computer-blog"]
   };
 

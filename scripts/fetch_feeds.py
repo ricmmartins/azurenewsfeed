@@ -45,6 +45,22 @@ BLOGS = {
     "azuredevcommunityblog": "Azure Dev Community",
     "oracleonazureblog": "Oracle on Azure",
     "microsoft-planetary-computer-blog": "Planetary Computer",
+    # Security blogs
+    "microsoftsentinelblog": "Microsoft Sentinel",
+    "microsoftthreatprotectionblog": "Microsoft Defender XDR",
+    "microsoftdefendercloudblog": "Microsoft Defender for Cloud",
+    "microsoftdefenderatpblog": "Microsoft Defender for Endpoint",
+    "azureadvancedthreatprotection": "Azure Advanced Threat Protection",
+    "microsoftdefenderforoffice365blog": "Microsoft Defender for Office 365",
+}
+
+SECURITY_BLOGS = {
+    "microsoftsentinelblog",
+    "microsoftthreatprotectionblog",
+    "microsoftdefendercloudblog",
+    "microsoftdefenderatpblog",
+    "azureadvancedthreatprotection",
+    "microsoftdefenderforoffice365blog",
 }
 
 TC_RSS_URL = (
@@ -69,6 +85,16 @@ DEVBLOGS = {
     "azuresqlblog": ("Azure SQL Dev Corner", "https://devblogs.microsoft.com/azure-sql/feed/"),
 }
 
+SECURITY_FEEDS = {
+    "msrc": (
+        "Microsoft Security Response Center",
+        "https://api.msrc.microsoft.com/update-guide/rss"
+    ),
+    "mssecurity": (
+        "Microsoft Security Blog",
+        "https://www.microsoft.com/security/blog/feed/"
+    ),
+}
 
 def clean_html(text):
     """Remove HTML tags and clean up text."""
@@ -224,6 +250,55 @@ def fetch_devblogs_feeds():
     return articles
 
 
+def fetch_security_feeds():
+    """Fetch articles from Microsoft security blogs."""
+    articles = []
+
+    for blog_id, (blog_name, feed_url) in SECURITY_FEEDS.items():
+        print(f"Fetching: {blog_name}...")
+
+        try:
+            feed = feedparser.parse(feed_url)
+
+            if feed.bozo and not feed.entries:
+                print(f"  Warning: Could not parse {blog_name} feed")
+                continue
+
+            entries = feed.entries
+
+            # Get the newest entries
+            entries = sorted(entries, key=lambda e: parse_date(e), reverse=True)
+
+            # MSRC publishes thousands of CVEs — limit to newest 20
+            if blog_id == "msrc":
+                entries = entries[:20]
+
+            count = 0
+            for entry in entries:
+                summary = clean_html(entry.get("summary", ""))
+                articles.append(
+                    {
+                        "title": clean_html(entry.get("title", "Untitled")),
+                        "link": entry.get("link", ""),
+                        "published": parse_date(entry),
+                        "summary": truncate(summary),
+                        "blog": blog_name,
+                        "blogId": blog_id,
+                        "author": entry.get("author", "Microsoft"),
+                    }
+                )
+                count += 1
+
+            print(f"  Found {count} articles")
+
+        except Exception as e:
+            print(f"  Error fetching {blog_name}: {e}")
+
+        time.sleep(0.5)
+
+    return articles
+
+
 def generate_rss_feed(articles):
     """Generate an RSS feed XML file from the aggregated articles."""
     from xml.etree.ElementTree import Element, SubElement, tostring
@@ -320,6 +395,7 @@ def main():
     all_articles.extend(fetch_tech_community_feeds())
     all_articles.extend(fetch_aks_blog())
     all_articles.extend(fetch_devblogs_feeds())
+    all_articles.extend(fetch_security_feeds())
 
     # Sort by date, newest first
     all_articles.sort(key=lambda x: x.get("published", ""), reverse=True)
