@@ -1,7 +1,241 @@
 {
-  "lastUpdated": "2026-03-13T12:56:31.345184+00:00",
-  "totalArticles": 136,
+  "lastUpdated": "2026-03-14T02:15:07.526597+00:00",
+  "totalArticles": 191,
   "articles": [
+    {
+      "title": "Chromium: CVE-2026-3910 Inappropriate implementation in V8",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3910",
+      "published": "2026-03-14T05:11:14+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information. Google is aware that an exploit for CVE-2026-3910 exists in the wild.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3942 Incorrect security UI in PictureInPicture",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3942",
+      "published": "2026-03-14T01:20:30+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3941 Insufficient policy enforcement in DevTools",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3941",
+      "published": "2026-03-14T01:20:29+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3940 Insufficient policy enforcement in DevTools",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3940",
+      "published": "2026-03-14T01:20:28+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3939 Use after free in WebView",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3939",
+      "published": "2026-03-14T01:20:27+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3938 Insufficient policy enforcement in Clipboard",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3938",
+      "published": "2026-03-14T01:20:26+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3937 Incorrect security UI in Downloads",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3937",
+      "published": "2026-03-14T01:20:25+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3936 Use after free in WebView",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3936",
+      "published": "2026-03-14T01:20:24+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3935 Incorrect security UI in WebAppInstalls",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3935",
+      "published": "2026-03-14T01:20:23+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3934 Insufficient policy enforcement in ChromeDriver",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3934",
+      "published": "2026-03-14T01:20:22+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3932 Insufficient policy enforcement in PDF",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3932",
+      "published": "2026-03-14T01:20:21+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3931 Heap buffer overflow in Skia",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3931",
+      "published": "2026-03-14T01:20:20+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3930 Unsafe navigation in Navigation",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3930",
+      "published": "2026-03-14T01:20:19+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3929 Side-channel information leakage in ResourceTiming",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3929",
+      "published": "2026-03-14T01:20:18+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3928 Insufficient policy enforcement in Extensions",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3928",
+      "published": "2026-03-14T01:20:17+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3927 Incorrect security UI in PictureInPicture",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3927",
+      "published": "2026-03-14T01:20:16+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3926 Out of bounds read in V8",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3926",
+      "published": "2026-03-14T01:20:15+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3925 Incorrect security UI in LookalikeChecks",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3925",
+      "published": "2026-03-14T01:20:14+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3924 Use after free in WindowDialog",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3924",
+      "published": "2026-03-14T01:20:13+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Chromium: CVE-2026-3923 Use after free in WebMIDI",
+      "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-3923",
+      "published": "2026-03-14T01:20:12+00:00",
+      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2021) for more information.",
+      "blog": "Microsoft Security Response Center",
+      "blogId": "msrc",
+      "author": "Microsoft"
+    },
+    {
+      "title": "March Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-4/",
+      "published": "2026-03-13T21:41:24+00:00",
+      "summary": "We are releasing patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay on the latest, most secure version of Azure DevOps Server. The latest release, Azure DevOps Server, is available from the download page. This patch addresses an issue introduced...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales"
+    },
+    {
+      "title": "Accelerate your move to Microsoft Sentinel with the new AI Powered SIEM migration experience",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/accelerate-your-move-to-microsoft-sentinel-with-the-new-ai/ba-p/4488505",
+      "published": "2026-03-13T20:58:10+00:00",
+      "summary": "Migrating from one SIEM to another is a critical decision—and often one of the hardest to execute. Legacy SIEM migrations are complex, resource-heavy, and time-consuming, often taking up to 15 months with extensive manual effort and cross-team coordination. Organizations face hurdles like...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "yohasson"
+    },
+    {
+      "title": "The Human Scale Problem in Platform Engineering",
+      "link": "https://devblogs.microsoft.com/all-things-azure/the-human-scale-problem-in-platform-engineering/",
+      "published": "2026-03-13T20:22:49+00:00",
+      "summary": "We keep doing this thing where we solve a problem, celebrate the victory, then realize we’ve created three new problems we didn’t even know existed. Remember when manually configuring servers was the bottleneck? So we built containers. Great! Now we’re orchestrating thousands of them. Remember when...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Diego Casati, Ray Kao"
+    },
+    {
+      "title": "Azure Developer CLI (azd): Debug hosted AI agents from your terminal",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-ai-agent-logs-status/",
+      "published": "2026-03-13T19:19:52+00:00",
+      "summary": "New azd ai agent show and monitor commands help you diagnose hosted AI agent failures directly from the CLI. The post Azure Developer CLI (azd): Debug hosted AI agents from your terminal appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "PuiChee (PC) Chan"
+    },
+    {
+      "title": "Introducing Azure Managed Grafana 12",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/introducing-azure-managed-grafana-12/ba-p/4500673",
+      "published": "2026-03-13T16:54:19+00:00",
+      "summary": "In this release, Azure Managed Grafana makes it easier to tighten access with current-user Entra authentication, speed up Azure Monitor logs exploration, and level up Prometheus and database monitoring experiences. What’s new in Azure Managed Grafana 12 Use current-user Entra authentication for...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "aayodeji"
+    },
+    {
+      "title": "A Practical Path Forward for Heroku Customers with Azure",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-practical-path-forward-for-heroku-customers-with-azure/ba-p/4501797",
+      "published": "2026-03-13T15:00:00+00:00",
+      "summary": "On February 6, 2026, Heroku announced it is moving to a sustaining engineering model focused on stability, security, reliability, and ongoing support. Many customers are now reassessing how their application platforms will support today’s workloads and future innovation. Microsoft is committed to...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "NagaSurendran"
+    },
     {
       "title": "Enterprise Identity Meets Secure File Transfer: Entra ID Public Preview on Azure Blob Storage SFTP",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enterprise-identity-meets-secure-file-transfer-entra-id-public/ba-p/4501937",
@@ -39,6 +273,33 @@
       "author": "shashban"
     },
     {
+      "title": "Storm-2561 uses SEO poisoning to distribute fake VPN clients for credential theft",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/12/storm-2561-uses-seo-poisoning-to-distribute-fake-vpn-clients-for-credential-theft/",
+      "published": "2026-03-12T17:00:00+00:00",
+      "summary": "Storm-2561 uses SEO poisoning to push fake VPN downloads that install signed trojans and steal VPN credentials. Active since 2025, Storm-2561 mimics trusted brands and abuses legitimate services. This post reviews TTPs, IOCs, and mitigation guidance. The post Storm-2561 uses SEO poisoning to...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "mssecurity",
+      "author": "Microsoft Threat Intelligence and Microsoft Defender Experts"
+    },
+    {
+      "title": "From transparency to action: What the latest Microsoft email security benchmark reveals",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/12/from-transparency-to-action-what-the-latest-microsoft-email-security-benchmark-reveals/",
+      "published": "2026-03-12T16:00:00+00:00",
+      "summary": "The latest Microsoft benchmarking data reveals how Microsoft Defender mitigates modern email threats compared to SEG and ICES vendors. The post From transparency to action: What the latest Microsoft email security benchmark reveals appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "mssecurity",
+      "author": "Jeff Pinkston"
+    },
+    {
+      "title": "Detecting and analyzing prompt abuse in AI tools",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/12/detecting-analyzing-prompt-abuse-in-ai-tools/",
+      "published": "2026-03-12T14:00:00+00:00",
+      "summary": "Hidden instructions in content can subtly bias AI, and our scenario shows how prompt injection works, highlighting the need for oversight and a structured response playbook. The post Detecting and analyzing prompt abuse in AI tools appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "mssecurity",
+      "author": "Microsoft Incident Response"
+    },
+    {
       "title": "Building a Multi-Agent On-Call Copilot with Microsoft Agent Framework",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-multi-agent-on-call-copilot-with-microsoft-agent/ba-p/4499962",
       "published": "2026-03-12T07:00:00+00:00",
@@ -57,6 +318,24 @@
       "author": "Laura Jiang"
     },
     {
+      "title": "Contagious Interview: Malware delivered through fake developer job interviews",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/11/contagious-interview-malware-delivered-through-fake-developer-job-interviews/",
+      "published": "2026-03-11T21:00:50+00:00",
+      "summary": "The Contagious Interview campaign weaponizes job recruitment to target developers. Threat actors pose as recruiters from crypto and AI companies and deliver backdoors such as OtterCookie and FlexibleFerret through fake coding assessments. The malware then steals API tokens, cloud credentials,...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "mssecurity",
+      "author": "Microsoft Defender Experts and Microsoft Defender Security Research Team"
+    },
+    {
+      "title": "Modern Database Protection: From Visibility to Threat Detection with Microsoft Defender for Cloud",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/modern-database-protection-from-visibility-to-threat-detection/ba-p/4501289",
+      "published": "2026-03-11T17:51:24+00:00",
+      "summary": "Databases sit at the heart of modern businesses. They support everyday apps, reports and AI tools. For example, any time you engage a site that requires a username and password, there is a database at the back end that stores your login information. As organizations adopt multi-cloud and hybrid...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "Yura_Lee"
+    },
+    {
       "title": "A Look Ahead at Azure Cosmos DB Conf 2026: From AI Agents to Global Scale",
       "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-conf-2026-preview/",
       "published": "2026-03-11T16:07:38+00:00",
@@ -64,6 +343,15 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Jay Gordon"
+    },
+    {
+      "title": "Microsoft partners with DataBahn to accelerate enterprise deployments for Microsoft Sentinel",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-partners-with-databahn-to-accelerate-enterprise/ba-p/4501055",
+      "published": "2026-03-11T15:12:47+00:00",
+      "summary": "Enterprise security teams are collecting more telemetry than ever across cloud platforms, endpoints, SaaS applications, and on-premises infrastructure. Security teams want broader data coverage and longer retention without losing control of cost and data quality. This post explains the new DataBahn...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "JamesAde"
     },
     {
       "title": "From Single Apps to Scale Solutions: How AI Agents Scale Modernization",
@@ -273,6 +561,15 @@
       "author": "justinyoo"
     },
     {
+      "title": "Introducing effective settings: See security configurations enforced on your device",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/introducing-effective-settings-see-security-configurations/ba-p/4499551",
+      "published": "2026-03-09T16:00:00+00:00",
+      "summary": "See exactly which security configurations are enforced on your device Security teams spend significant time defining policies for Microsoft Defender security settings. But when it comes to investigations or troubleshooting, the real question is often simple: what is currently being enforced on this...",
+      "blog": "Microsoft Defender for Endpoint",
+      "blogId": "microsoftdefenderatpblog",
+      "author": "ArielMichaeli1"
+    },
+    {
       "title": "Visual Studio Dev Essentials: Free, Practical Tools for Every Developer",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-dev-essentials-free-practical-tools-for-every-developer/",
       "published": "2026-03-09T15:35:00+00:00",
@@ -289,6 +586,15 @@
       "blog": "Azure Compute",
       "blogId": "azurecompute",
       "author": "AjKundnani"
+    },
+    {
+      "title": "Secure agentic AI for your Frontier Transformation",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/09/secure-agentic-ai-for-your-frontier-transformation/",
+      "published": "2026-03-09T13:00:00+00:00",
+      "summary": "Learn how Microsoft Agent 365 and Microsoft 365 E7 can help secure your Frontier Transformation. The post Secure agentic AI for your Frontier Transformation appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "mssecurity",
+      "author": "Vasu Jakkal"
     },
     {
       "title": "AI Inferencing in Air-Gapped Environments",
@@ -343,6 +649,15 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Nick Brady"
+    },
+    {
+      "title": "AI as tradecraft: How threat actors operationalize AI",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/06/ai-as-tradecraft-how-threat-actors-operationalize-ai/",
+      "published": "2026-03-06T17:00:00+00:00",
+      "summary": "Threat actors are operationalizing AI to scale and sustain malicious activity, accelerating tradecraft and increasing risk for defenders, as illustrated by recent activity from North Korean groups such as Jasper Sleet and Coral Sleet (formerly Storm-1877). The post AI as tradecraft: How threat...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "mssecurity",
+      "author": "Microsoft Threat Intelligence"
     },
     {
       "title": "MCP vs mcp-cli: Dynamic Tool Discovery for Token-Efficient AI Agents",
@@ -408,6 +723,24 @@
       "author": "CollinBrian"
     },
     {
+      "title": "Women’s History Month: Encouraging women in cybersecurity at every career stage",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/05/womens-history-month-encouraging-women-in-cybersecurity-at-every-career-stage/",
+      "published": "2026-03-05T17:00:00+00:00",
+      "summary": "This Women’s History Month, we explore ways to support the next generation of female defenders at every career stage. The post Women’s History Month: Encouraging women in cybersecurity at every career stage appeared first on Microsoft Security Blog.",
+      "blog": "Microsoft Security Blog",
+      "blogId": "mssecurity",
+      "author": "Vasu Jakkal"
+    },
+    {
+      "title": "Malicious AI Assistant Extensions Harvest LLM Chat Histories",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/05/malicious-ai-assistant-extensions-harvest-llm-chat-histories/",
+      "published": "2026-03-05T16:02:12+00:00",
+      "summary": "Malicious AI browser extensions collected LLM chat histories and browsing data from platforms such as ChatGPT and DeepSeek. With nearly 900,000 installs and activity across more than 20,000 enterprise tenants, the campaign highlights the growing risk of data exposure through browser extensions. The...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "mssecurity",
+      "author": "Microsoft Defender Security Research Team"
+    },
+    {
       "title": "GenRec Direct Learning: Moving Ranking from Feature Pipelines to Token-Native Sequence Modeling",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/genrec-direct-learning-moving-ranking-from-feature-pipelines-to/ba-p/4494252",
       "published": "2026-03-05T13:17:16+00:00",
@@ -444,6 +777,15 @@
       "author": "Aditya Badramraju"
     },
     {
+      "title": "What’s New in Microsoft Sentinel: March 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-march-2026/ba-p/4499508",
+      "published": "2026-03-04T20:21:05+00:00",
+      "summary": "March brings a set of updates to Microsoft Sentinel focused on helping your SOC automate faster, onboard data with less friction, and detect threats across more of your environment. This month's updates include natural-language playbook generation for more flexible SOAR workflows, streamlined...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "NogaRonen"
+    },
+    {
       "title": "Phi-4-Reasoning-Vision-15B: Use Cases In-Depth",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/phi-4-reasoning-vision-15b-use-cases-in-depth/ba-p/4499210",
       "published": "2026-03-04T18:00:00+00:00",
@@ -460,6 +802,24 @@
       "blog": "Azure Maps",
       "blogId": "azuremapsblog",
       "author": "sinnypan"
+    },
+    {
+      "title": "Inside Tycoon2FA: How a leading AiTM phishing kit operated at scale",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/04/inside-tycoon2fa-how-a-leading-aitm-phishing-kit-operated-at-scale/",
+      "published": "2026-03-04T16:04:24+00:00",
+      "summary": "Tycoon2FA has become a leading phishing-as-a-service (PhaaS) platforms, enabling campaigns that reach over 500,000 organizations monthly, prompting Microsoft’s Digital Crimes Unit (DCU) to work with Europol and industry partners to facilitate a disruption of Tycoon2FA’s infrastructure and...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "mssecurity",
+      "author": "Microsoft Threat Intelligence and Microsoft Defender Security Research Team"
+    },
+    {
+      "title": "Defending Container Runtime from Malware with Microsoft Defender for Containers",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/defending-container-runtime-from-malware-with-microsoft-defender/ba-p/4499264",
+      "published": "2026-03-04T12:49:58+00:00",
+      "summary": "In cloud-native environments, malware protection is no longer traditional antivirus — it is runtime workload security, ensuring containerized applications remain safe throughout their lifecycle. Many organizations focus on scanning container images before deployment. While image scanning is...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "Vasavi_Pasula"
     },
     {
       "title": "Building Generative Pages in Power Platform",
@@ -507,6 +867,15 @@
       "author": "dbandaru"
     },
     {
+      "title": "Signed malware impersonating workplace apps deploys RMM backdoors",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/03/03/signed-malware-impersonating-workplace-apps-deploys-rmm-backdoors/",
+      "published": "2026-03-03T21:11:03+00:00",
+      "summary": "Signed malware backed by a stolen EV certificate deployed legitimate RMM tools to gain persistent access inside enterprise environments. Organizations must harden certificate controls and monitor RMM activity to reduce exposure. The post Signed malware impersonating workplace apps deploys RMM...",
+      "blog": "Microsoft Security Blog",
+      "blogId": "mssecurity",
+      "author": "Microsoft Defender Security Research Team"
+    },
+    {
       "title": "Azure Developer CLI (azd): One command to swap Azure App Service slots",
       "link": "https://devblogs.microsoft.com/azure-sdk/azd-appservice-swap/",
       "published": "2026-03-03T21:10:01+00:00",
@@ -525,6 +894,24 @@
       "author": "reynaldom"
     },
     {
+      "title": "Microsoft Defender for Cloud Customer Newsletter",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4498717",
+      "published": "2026-03-03T15:30:22+00:00",
+      "summary": "Check out monthly news for the rest of the MTP suite here! What's new in Defender for Cloud? Now in public preview, Defender for Cloud provides threat protection for AI agents built with Foundry, as part of the Defender for AI Services plan. Learn more about this in our documentation. Defender for...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "Yura_Lee"
+    },
+    {
+      "title": "Malware scan results now in blob tags (ADLS Gen2 HNS | Public Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/malware-scan-results-now-in-blob-tags-adls-gen2-hns-public/ba-p/4498822",
+      "published": "2026-03-03T15:00:17+00:00",
+      "summary": "If you’ve been using Defender for Storage malware scanning with ADLS Gen2 storage accounts that have Hierarchical Namespace (HNS), you probably know that the scan happens, but the result isn’t easy to see right where the file lives. That changes now. Azure Storage just released a public preview...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "Fernanda_Vela"
+    },
+    {
       "title": "Giving Your AI Agents Reliable Skills with the Agent Skills SDK",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/giving-your-ai-agents-reliable-skills-with-the-agent-skills-sdk/ba-p/4497074",
       "published": "2026-03-03T08:00:00+00:00",
@@ -541,6 +928,15 @@
       "blog": "Azure Databricks",
       "blogId": "azure-databricks",
       "author": "AnaviNahar"
+    },
+    {
+      "title": "Transparent and customizable onboarding for modern and legacy Windows devices",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/transparent-and-customizable-onboarding-for-modern-and-legacy/ba-p/4498827",
+      "published": "2026-03-03T03:25:40+00:00",
+      "summary": "Onboarding all devices in your estate is paramount for strong security posture. In fact, Microsoft Threat Intelligence research shows that in the majority of ransomware attacks, the spreader machine was a device that was not yet onboarded. But customers often struggle to follow complex steps that...",
+      "blog": "Microsoft Defender for Endpoint",
+      "blogId": "microsoftdefenderatpblog",
+      "author": "Sinclaire_Hamilton"
     },
     {
       "title": "ExpressRoute Gateway Microsoft initiated migration",
@@ -579,6 +975,15 @@
       "author": "WSilveira"
     },
     {
+      "title": "Monthly news - March 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/monthly-news-march-2026/ba-p/4498458",
+      "published": "2026-03-02T12:13:48+00:00",
+      "summary": "Microsoft DefenderMonthly news - March 2026 Edition This is our monthly \"What's new\" blog post, summarizing product updates and various new assets we released over the past month across our Defender products. In this edition, we are looking at all the goodness from February 2026. We are now...",
+      "blog": "Microsoft Defender XDR",
+      "blogId": "microsoftthreatprotectionblog",
+      "author": "HeikeRitter"
+    },
+    {
       "title": "Using Azure API Management with Azure Front Door for Global, Multi‑Region Architectures",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/using-azure-api-management-with-azure-front-door-for-global/ba-p/4492384",
       "published": "2026-03-02T08:00:00+00:00",
@@ -595,6 +1000,15 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem"
+    },
+    {
+      "title": "Top 5 Microsoft Sentinel Queries for Threat Hunting",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/top-5-microsoft-sentinel-queries-for-threat-hunting/ba-p/4497667",
+      "published": "2026-02-27T16:00:00+00:00",
+      "summary": "Threat hunting in Microsoft Sentinel goes beyond relying on scheduled analytics rules. It’s about proactively asking better questions of your data to uncover stealthy or emerging attacker behavior before it turns into an incident. Effective hunting helps security teams spot activity that may never...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "SonjaEd"
     },
     {
       "title": "Evolving the Network Operations Agent Framework: Driving the Next Wave of Autonomous Networks",
@@ -667,6 +1081,15 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "dbandaru"
+    },
+    {
+      "title": "Unlocking value with Microsoft Sentinel data lake",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/unlocking-value-with-microsoft-sentinel-data-lake/ba-p/4497660",
+      "published": "2026-02-26T22:28:54+00:00",
+      "summary": "As security telemetry explodes and AI‑driven defense becomes the norm, it is critical to centralize and retain massive volumes of data for deep analysis and long‑term insights. Security teams are fundamentally rethinking how they manage, analyze, and act on security data. The Microsoft Sentinel...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "atennant"
     },
     {
       "title": "Oracle Database@Azure Is Now Generally Available in West Europe (Amsterdam)",
@@ -822,15 +1245,6 @@
       "author": "wanjing"
     },
     {
-      "title": "Building MCP Apps with Azure Functions MCP Extension",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/building-mcp-apps-with-azure-functions-mcp-extension/ba-p/4496536",
-      "published": "2026-02-24T23:27:21+00:00",
-      "summary": "Today, we are thrilled to announce the release of MCP App support in the Azure Functions MCP (Model Context Protocol) extension! You can now build MCP Apps using the Functions MCP Extension in Python, TypeScript, and .NET. What are MCP Apps Until now, MCP has primarily been a way for AI agents to...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "lily-ma"
-    },
-    {
       "title": "Visual Studio February Update",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-february-update/",
       "published": "2026-02-24T22:16:30+00:00",
@@ -840,6 +1254,15 @@
       "author": "Mark Downie"
     },
     {
+      "title": "Accelerate Your UEBA Journey: Introducing the Microsoft Sentinel Behaviors Workbook",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/accelerate-your-ueba-journey-introducing-the-microsoft-sentinel/ba-p/4488278",
+      "published": "2026-02-24T18:22:56+00:00",
+      "summary": "In our recent announcement, we introduced the UEBA Behaviors layer - a breakthrough capability that transforms noisy, high-volume security telemetry into clear, human-readable behavioral insights. The Behaviors layer answers the critical question: \"Who did what to whom, and why does it matter?\" by...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "MichalShechter"
+    },
+    {
       "title": "Introducing Run Oracle Your Way on Oracle Database@Azure – a new technical webinar series",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/introducing-run-oracle-your-way-on-oracle-database-azure-a-new/ba-p/4496593",
       "published": "2026-02-24T17:12:37+00:00",
@@ -847,6 +1270,15 @@
       "blog": "Oracle on Azure",
       "blogId": "oracleonazureblog",
       "author": "RamKakani"
+    },
+    {
+      "title": "Disrupt AWS attacks automatically in Microsoft Sentinel",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/disrupt-aws-attacks-automatically-in-microsoft-sentinel/ba-p/4488276",
+      "published": "2026-02-24T17:00:00+00:00",
+      "summary": "Attacks move faster than security teams can react. They spread across identities, endpoints, and SaaS apps in minutes, overwhelming analysts with signals and leaving little time to act. By the time an incident is investigated, the attacker has often already moved on escalating impact and business...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "eyalh"
     },
     {
       "title": "On-Premises Manufacturing Intelligence",
@@ -865,6 +1297,15 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Xiang Yan"
+    },
+    {
+      "title": "Introducing the next generation of SOC automation: Sentinel playbook generator",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-the-next-generation-of-soc-automation-sentinel/ba-p/4494438",
+      "published": "2026-02-24T00:04:46+00:00",
+      "summary": "Security teams today operate under constant pressure. They are expected to respond faster, automate more, and do so without sacrificing precision. Traditional security orchestration, automation and response (SOAR) approaches have helped, but they still rely heavily on rigid templates, limited...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "ShiranShuster"
     },
     {
       "title": "Logic Apps Agentic Workflows with SAP - Part 2: AI Agents",
@@ -939,6 +1380,15 @@
       "author": "Rhea Patel, Kelly Fam"
     },
     {
+      "title": "Three ways to run KQL on Microsoft Sentinel data lake: Interactive, Async, or Jobs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/three-ways-to-run-kql-on-microsoft-sentinel-data-lake/ba-p/4494657",
+      "published": "2026-02-19T16:00:00+00:00",
+      "summary": "SOC analysts often face complex challenges during investigations. They often need to investigate incidents that span weeks or even months, not just hours or days. This requires correlating multiple high-volume data sources such as sign-ins, network traffic, endpoint activity, and logs. Analysts...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Zeinab Mokhtarian Koorabbasloo"
+    },
+    {
       "title": "Building HIPAA-Compliant Medical Transcription with Local AI",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-hipaa-compliant-medical-transcription-with-local-ai/ba-p/4490777",
       "published": "2026-02-19T08:00:00+00:00",
@@ -993,6 +1443,15 @@
       "author": "Jdasari"
     },
     {
+      "title": "Announcing public preview: Uncovering hidden threats with the Dynamic Threat Detection Agent",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/announcing-public-preview-uncovering-hidden-threats-with-the/ba-p/4475313",
+      "published": "2026-02-18T20:25:32+00:00",
+      "summary": "Co-author: Amir Gharib At Ignite, we announced the Security Copilot Dynamic Threat Detection Agent in Microsoft Defender: an always on, adaptive backend agent that uncovers hidden threats across Defender and Microsoft Sentinel environments. Today we are excited to share that the customers who meet...",
+      "blog": "Microsoft Defender XDR",
+      "blogId": "microsoftthreatprotectionblog",
+      "author": "scottfreitas"
+    },
+    {
       "title": "Private Preview: Azure Managed Prometheus on VM / VMSS",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/private-preview-azure-managed-prometheus-on-vm-vmss/ba-p/4473472",
       "published": "2026-02-18T20:00:31+00:00",
@@ -1018,6 +1477,15 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon"
+    },
+    {
+      "title": "Unlocking the power of Notebooks with Microsoft Sentinel data lake",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/unlocking-the-power-of-notebooks-with-microsoft-sentinel-data/ba-p/4494656",
+      "published": "2026-02-18T17:00:00+00:00",
+      "summary": "Co-authors: Vandana Mahtani, Ashwin Patil Security operations are rapidly evolving, driven by AI and the need for scalable, cost-effective analytics. A key differentiator of the Sentinel data lake is its native integration with Jupyter Notebooks, which brings powerful data science and machine...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Zeinab Mokhtarian Koorabbasloo"
     },
     {
       "title": "TFVC Remove Existing Obsolete Policies ASAP",
@@ -1056,6 +1524,15 @@
       "author": "rickliev"
     },
     {
+      "title": "Introducing AI-powered incident prioritization in Microsoft Defender",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/introducing-ai-powered-incident-prioritization-in-microsoft/ba-p/4483834",
+      "published": "2026-02-17T21:18:38+00:00",
+      "summary": "Co-Authored by: Scott Freitas & Maayan Magenheim Every SOC analyst knows the moment when the incident queue fills up fast. Multiple alerts arrive with the same severity but different sources. When everything looks equally urgent, the real question becomes what do you investigate first? And how do...",
+      "blog": "Microsoft Defender XDR",
+      "blogId": "microsoftthreatprotectionblog",
+      "author": "agharib"
+    },
+    {
       "title": "JMESPath support comes to azd JSON output",
       "link": "https://devblogs.microsoft.com/azure-sdk/azd-jmespath-query-support/",
       "published": "2026-02-17T18:19:18+00:00",
@@ -1063,6 +1540,15 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Scott Addie"
+    },
+    {
+      "title": "Introducing library management in Microsoft Defender",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/introducing-library-management-in-microsoft-defender/ba-p/4494434",
+      "published": "2026-02-17T17:52:18+00:00",
+      "summary": "In dynamic investigation environments, preparation and agility are key. Security analysts working with live response in Microsoft Defender often rely on scripts and tools to triage, investigate, and remediate threats. Until now, these assets had to be uploaded during active sessions, limiting...",
+      "blog": "Microsoft Defender for Endpoint",
+      "blogId": "microsoftdefenderatpblog",
+      "author": "amibarayev"
     },
     {
       "title": "Public Preview: Automatic zone balance for Virtual Machine Scale Sets",
@@ -1128,6 +1614,15 @@
       "author": "Dan Hellem"
     },
     {
+      "title": "Update: Changing the Account Name Entity Mapping in Microsoft Sentinel",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/update-changing-the-account-name-entity-mapping-in-microsoft/ba-p/4489040",
+      "published": "2026-02-15T14:32:23+00:00",
+      "summary": "The upcoming update introduces more consistent and predictable entity data across analytics, incidents, and automation by standardizing how the Account Name property is populated when using UPN‑based mappings in analytic rules. Going forward, Account Name property will consistently contain only the...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "sagiyagen365"
+    },
+    {
       "title": "DPO Fine-Tuning Using Microsoft Foundry SDK",
       "link": "https://devblogs.microsoft.com/foundry/dpo-fine-tuning-using-microsoft-foundry-sdk/",
       "published": "2026-02-13T23:13:44+00:00",
@@ -1144,6 +1639,15 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "hcamposu"
+    },
+    {
+      "title": "Public Preview Announcement: Empower Real-Time Security with Microsoft Sentinel’s CCF Push Feature",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/public-preview-announcement-empower-real-time-security-with/ba-p/4483884",
+      "published": "2026-02-13T18:26:33+00:00",
+      "summary": "In today’s rapidly evolving threat landscape, organizations need security solutions that deliver actionable insights in real time, not minutes or hours after the fact. Microsoft Sentinel continues to expand its capabilities, driven by a commitment to empower customers and partners with cutting-edge...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Krishna_Sagar_B_V"
     },
     {
       "title": "Scaling Anyscale Ray Workloads on AKS",
@@ -1173,6 +1677,33 @@
       "author": "srhulsus"
     },
     {
+      "title": "Protection against multi-modal attacks with Microsoft Defender",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/protection-against-multi-modal-attacks-with-microsoft-defender/ba-p/4438786",
+      "published": "2026-02-12T20:06:00+00:00",
+      "summary": "Multi-modal (or hybrid) attacks are increasingly used by threat actors to orchestrate multi-phase campaigns. In Part 1 of our blog series, we explored how attackers use email bombing as a distraction technique to overwhelm users and bypass security controls. Today, we’re expanding that conversation...",
+      "blog": "Microsoft Defender for Office 365",
+      "blogId": "microsoftdefenderforoffice365blog",
+      "author": "birchj"
+    },
+    {
+      "title": "Protection Against Email Bombs with Microsoft Defender for Office 365",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-office/protection-against-email-bombs-with-microsoft-defender-for/ba-p/4418048",
+      "published": "2026-02-12T20:03:29+00:00",
+      "summary": "In today's digital age, email remains a critical communication tool for businesses and individuals. However, with the increasing sophistication of cyberattacks, email security has become more important than ever. One such threat that has been growing is the email bombing, a form of net abuse that...",
+      "blog": "Microsoft Defender for Office 365",
+      "blogId": "microsoftdefenderforoffice365blog",
+      "author": "UrjaGandhi"
+    },
+    {
+      "title": "What’s new in Microsoft Sentinel: February 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-february-2026/ba-p/4494218",
+      "published": "2026-02-12T19:27:16+00:00",
+      "summary": "February brings a set of new innovations to Sentinel that helps you work with security content across your SOC. This month’s updates focus on how security teams ingest, manage, and operationalize content, with new connectors, multi-tenant content distribution capabilities, and an enhanced UEBA...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Sowmys"
+    },
+    {
       "title": "Build Intelligent Apps with SQL: Join the SQL + AI Datathon",
       "link": "https://devblogs.microsoft.com/azure-sql/build-intelligent-apps-with-sql-join-the-sql-ai-datathon/",
       "published": "2026-02-12T17:35:41+00:00",
@@ -1189,42 +1720,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "Charles_Chukwudozie"
-    },
-    {
-      "title": "Beyond the Prompt – Why and How to Fine-tune Your Own Models",
-      "link": "https://devblogs.microsoft.com/foundry/beyond-the-prompt-why-and-how-to-fine-tune-your-own-models/",
-      "published": "2026-02-11T17:29:15+00:00",
-      "summary": "Large Language Models (LLMs) have reached a point where general intelligence is no longer the bottleneck. The real challenge in enterprise AI systems behavioral alignment ensuring models that produce consistent, reliable, policy-compliant outputs on a scale. Prompt engineering and...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Radhika Bollineni"
-    },
-    {
-      "title": "Unlock language-specific rich symbol context using new find_symbol tool",
-      "link": "https://devblogs.microsoft.com/visualstudio/unlock-language-specific-rich-symbol-context-using-new-find_symbol-tool/",
-      "published": "2026-02-11T15:29:15+00:00",
-      "summary": "Refactoring at scale is a time-consuming and error-prone process for developers. In large codebases, developers have relied on manual searches and incremental edits across multiple files to accomplish these tasks. Modern development workflows depend on fast and accurate code navigation to avoid...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Sinem Akinci, Hannah Hong (SHE/HER)"
-    },
-    {
-      "title": "Deploy to Azure App Service deployment slots with azd",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azd-app-service-slot/",
-      "published": "2026-02-11T14:59:15+00:00",
-      "summary": "azd now supports direct deployments to Azure App Service slots—quick, clear, and slot-aware for the first time. The post Deploy to Azure App Service deployment slots with azd appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan"
-    },
-    {
-      "title": "Maximize Azure Cosmos DB Performance with Azure Advisor Recommendations",
-      "link": "https://devblogs.microsoft.com/cosmosdb/maximize-azure-cosmos-db-performance-with-azure-advisor-recommendations/",
-      "published": "2026-02-11T13:00:43+00:00",
-      "summary": "In the first post of this series, we introduced how Azure Advisor helps Azure Cosmos DB users uncover opportunities to optimize efficiency and make smarter decisions. This follow-up dives deeper into one of the most important categories of guidance: performance. If you’ve ever dealt with skewed...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Iria Osara"
     }
   ]
 }
