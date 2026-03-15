@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-03-14T12:49:09.591981+00:00",
-  "totalArticles": 135,
+  "lastUpdated": "2026-03-15T12:51:29.655838+00:00",
+  "totalArticles": 131,
   "articles": [
+    {
+      "title": "The Agent that investigates itself",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/the-agent-that-investigates-itself/ba-p/4500073",
+      "published": "2026-03-14T16:23:57+00:00",
+      "summary": "Azure SRE Agent handles tens of thousands of incident investigations each week for internal Microsoft services and external teams running it for their own systems. Last month, one of those incidents was about the agent itself. Our KV cache hit rate alert started firing. Cached token percentage was...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "sanchitmehta"
+    },
     {
       "title": "March Patches for Azure DevOps Server",
       "link": "https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-4/",
@@ -127,15 +136,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "SajalMukherjee"
-    },
-    {
-      "title": "The Agent that investigates itself",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/the-agent-that-investigates-itself/ba-p/4500073",
-      "published": "2026-03-10T19:31:50+00:00",
-      "summary": "Azure SRE Agent handles tens of thousands of incident investigations each week for internal Microsoft services and external teams running it for their own systems. Last month, one of those incidents was about the agent itself. Our KV cache hit rate alert started firing. Cached token percentage was...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "sanchitmehta"
     },
     {
       "title": "Understanding the Standard HDD I/O unit size update and what it means for your workloads",
@@ -1180,42 +1180,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "hcamposu"
-    },
-    {
-      "title": "Scaling Anyscale Ray Workloads on AKS",
-      "link": "https://blog.aks.azure.com/2026/02/13/scaling-ray-aks",
-      "published": "2026-02-13T00:00:00+00:00",
-      "summary": "Learn how to run production-grade Ray workloads on Azure Kubernetes Service with multi-cluster multi-region, unified storage, and automated credential management for AI",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Modernizing for the AI Era: Accelerating Application Transformation with Agentic Tools",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/modernizing-for-the-ai-era-accelerating-application/ba-p/4490596",
-      "published": "2026-02-12T23:41:09+00:00",
-      "summary": "Organizations are entering a new phase of digital transformation where AI is not simply an enhancement—it is a fundamental change in how applications are designed, delivered, and operated. Yet many companies still rely on aging, monolithic, or poorly documented applications that were never built to...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "MarcoB"
-    },
-    {
-      "title": "Azure Landing Zone and compliance for Banks (Indian Banks)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/azure-landing-zone-and-compliance-for-banks-indian-banks/ba-p/4491951",
-      "published": "2026-02-12T23:41:04+00:00",
-      "summary": "1. Azure Landing Zone for Banks Azure Landing Zone (ALZ) is a predefined, policy-driven cloud foundation that enables banks to securely host regulated workloads while meeting governance, security, audit, and compliance mandates. Core ALZ Principles Subscription isolation by environment and risk...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "srhulsus"
-    },
-    {
-      "title": "Build Intelligent Apps with SQL: Join the SQL + AI Datathon",
-      "link": "https://devblogs.microsoft.com/azure-sql/build-intelligent-apps-with-sql-join-the-sql-ai-datathon/",
-      "published": "2026-02-12T17:35:41+00:00",
-      "summary": "The SQL + AI Datathon is a hands‑on challenge designed to show how the foundations for building modern, intelligent applications with SQL. Over a set of guided missions and a focused open hack, you’ll learn how to combine SQL with embeddings, semantic search, and Retrieval Augmented Generation...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jasmine Greenaway"
     }
   ]
 }
