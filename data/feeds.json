@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-03-15T12:51:29.655838+00:00",
-  "totalArticles": 131,
+  "lastUpdated": "2026-03-16T13:09:21.349211+00:00",
+  "totalArticles": 130,
   "articles": [
+    {
+      "title": "Now Generally Available: Cosmos DB Mirroring in Microsoft Fabric with Private Networks",
+      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-mirroring-fabric-private-networks-ga/",
+      "published": "2026-03-16T13:00:06+00:00",
+      "summary": "We’re excited to announce the general availability of private network support for Azure Cosmos DB mirroring in Microsoft Fabric, enabling customers to replicate operational data into Fabric from Azure Cosmos DB accounts secured with private endpoints or virtual networks while continuing to operate...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Jai Maldonado"
+    },
+    {
+      "title": "From Prototype to Production: Building a Hosted Agent with AI Toolkit & Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-prototype-to-production-building-a-hosted-agent-with-ai/ba-p/4501969",
+      "published": "2026-03-16T07:00:00+00:00",
+      "summary": "From Prototype to Production: Building a Hosted Agent with AI Toolkit & Microsoft Foundry Agentic AI is no longer a future concept — it’s quickly becoming the backbone of intelligent, action-oriented applications. But while it’s easy to prototype an AI agent, taking it all the way to production...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "carlottacaste"
+    },
     {
       "title": "The Agent that investigates itself",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/the-agent-that-investigates-itself/ba-p/4500073",
@@ -289,15 +307,6 @@
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
       "author": "Chris Harris"
-    },
-    {
-      "title": "On-demand webinar: Maximize the Cost Efficiency of AI Agents on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/on-demand-webinar-maximize-the-cost-efficiency-of-ai-agents-on/ba-p/4493923",
-      "published": "2026-03-09T19:12:13+00:00",
-      "summary": "AI agents are quickly becoming central to how organizations automate work, engage customers, and unlock new insights. But as adoption accelerates, so do questions about cost, ROI, and long-term sustainability. That’s exactly what the Maximize the Cost Efficiency of AI Agents on Azure webinar is...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "carlottacaste"
     },
     {
       "title": "Microsoft Agent Framework, Microsoft Foundry, MCP, Aspire を使った実践的な AI アプリを構築するサンプルが登場",
@@ -1162,24 +1171,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem"
-    },
-    {
-      "title": "DPO Fine-Tuning Using Microsoft Foundry SDK",
-      "link": "https://devblogs.microsoft.com/foundry/dpo-fine-tuning-using-microsoft-foundry-sdk/",
-      "published": "2026-02-13T23:13:44+00:00",
-      "summary": "In the rapidly evolving landscape of large language models (LLMs), achieving precise control over model behavior while maintaining quality has become a critical challenge. While models like GPT-4 demonstrate impressive capabilities, ensuring their outputs align with human preferences—whether for...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Jayesh Tanna"
-    },
-    {
-      "title": "A BizTalk Migration Tool: From Orchestrations to Logic Apps Workflows",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/a-biztalk-migration-tool-from-orchestrations-to-logic-apps/ba-p/4494876",
-      "published": "2026-02-13T19:03:08+00:00",
-      "summary": "As organizations move toward cloud-native architecture, this project addresses one of the most challenging aspects of modernization: converting existing BizTalk artifacts into their Azure Logic Apps equivalents while preserving business logic and integration patterns. Architecture and Components...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "hcamposu"
     }
   ]
 }
