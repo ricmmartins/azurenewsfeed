@@ -54,6 +54,7 @@ TC_RSS_URL = (
     "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id={board}"
 )
 AKS_BLOG_FEED = "https://blog.aks.azure.com/rss.xml"
+AZURE_UPDATES_FEED = "https://azure.microsoft.com/en-us/updates/feed/"
 
 # DevBlogs definitions: slug -> (display name, feed URL)
 DEVBLOGS = {
@@ -227,6 +228,42 @@ def fetch_devblogs_feeds():
     return articles
 
 
+def fetch_azure_updates_feed():
+    """Fetch articles from Azure Updates RSS feed."""
+    articles = []
+    print("Fetching: Azure Updates...")
+
+    try:
+        feed = feedparser.parse(AZURE_UPDATES_FEED)
+
+        if feed.bozo and not feed.entries:
+            print("  Warning: Could not parse Azure Updates feed")
+            return articles
+
+        count = 0
+        for entry in feed.entries:
+            summary = clean_html(entry.get("summary", ""))
+            articles.append(
+                {
+                    "title": clean_html(entry.get("title", "Untitled")),
+                    "link": entry.get("link", ""),
+                    "published": parse_date(entry),
+                    "summary": truncate(summary),
+                    "blog": "Azure Updates",
+                    "blogId": "azureupdates",
+                    "author": entry.get("author", "Microsoft"),
+                }
+            )
+            count += 1
+
+        print(f"  Found {count} articles")
+
+    except Exception as e:
+        print(f"  Error fetching Azure Updates feed: {e}")
+
+    return articles
+
+
 def generate_rss_feed(articles):
     """Generate an RSS feed XML file from the aggregated articles."""
     from xml.etree.ElementTree import Element, SubElement, tostring
@@ -323,6 +360,7 @@ def main():
     all_articles.extend(fetch_tech_community_feeds())
     all_articles.extend(fetch_aks_blog())
     all_articles.extend(fetch_devblogs_feeds())
+    all_articles.extend(fetch_azure_updates_feed())
 
     # Sort by date, newest first
     all_articles.sort(key=lambda x: x.get("published", ""), reverse=True)
