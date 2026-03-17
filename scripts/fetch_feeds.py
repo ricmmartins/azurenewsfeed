@@ -54,7 +54,7 @@ TC_RSS_URL = (
     "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id={board}"
 )
 AKS_BLOG_FEED = "https://blog.aks.azure.com/rss.xml"
-AZURE_UPDATES_FEED = "https://azure.microsoft.com/en-us/updates/feed/"
+AZURE_UPDATES_FEED = "https://www.microsoft.com/releasecommunications/api/v2/azure/rss"
 
 # DevBlogs definitions: slug -> (display name, feed URL)
 DEVBLOGS = {
