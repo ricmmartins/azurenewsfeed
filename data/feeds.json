@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17T16:10:06.240210+00:00",
+  "lastUpdated": "2026-03-17T16:25:55.360396+00:00",
   "totalArticles": 190,
   "articles": [
     {
@@ -1712,6 +1712,5 @@
       "blogId": "azuredevops",
       "author": "Dan Hellem"
     }
-  ],
-  "summary": "Microsoft announced a **public preview of the Azure DevOps Remote MCP Server**, enabling external AI agents and tools to securely interact with Azure DevOps resources, while the **Foundry IQ series** launches to help developers understand and use Azure AI Foundry capabilities. Architecture guidance highlights **resiliency patterns for Azure Front Door**, sharing real-world strategies for failover, health probes, and multi-region design. Additional posts cover **enterprise-scale LLM inference as a capital allocation and infrastructure optimization challenge** on Azure, and a migration case study showing how **GitHub Copilot helped detect and fix silent endianness corruption when porting C++ workloads from IBM Power to x86**."
+  ]
 }
