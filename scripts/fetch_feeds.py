@@ -341,13 +341,36 @@ def generate_ai_summary(articles):
             print("No articles published today, skipping AI summary")
             return None
 
+        azure_updates_articles = [
+            a for a in today_articles if a.get("blogId") == "azureupdates"
+        ]
+        if azure_updates_articles:
+            today_articles = azure_updates_articles
+        else:
+            print(
+                "No Azure Updates entries published today; skipping AI summary"
+            )
+            return None
+
         titles = "\n".join(
-            ["- " + a["title"] + " (" + a["blog"] + ")" for a in today_articles[:20]]
+            [
+                "- "
+                + a["title"]
+                + " | source="
+                + a["blog"]
+                + " | blogId="
+                + a.get("blogId", "")
+                for a in today_articles[:20]
+            ]
         )
         prompt = (
-            "You are a concise tech news editor. Summarize today's Azure blog posts "
-            "in 2-3 sentences highlighting the most important themes and announcements. "
-            "Be specific about technologies mentioned. Here are the articles:\n\n"
+            "You are an Azure Updates lifecycle editor. Summarize only items from Azure "
+            "Updates (prioritize entries where blogId is azureupdates). Build a short "
+            "structured summary with exactly 3 bullets using these headings: 'In preview', "
+            "'Launched / Generally Available', and 'In development'. Use status labels in "
+            "titles (for example '[In preview]') to classify each item, and call out key "
+            "services or features. If a category has no matching items, write 'none today'. "
+            "Here are today's Azure Updates items:\n\n"
             + titles
         )
 
