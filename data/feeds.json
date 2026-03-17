@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-03-17T13:09:51.154259+00:00",
-  "totalArticles": 152,
+  "lastUpdated": "2026-03-17T14:49:39.286465+00:00",
+  "totalArticles": 153,
   "articles": [
+    {
+      "title": "Azure DevOps Remote MCP Server (public preview)",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-remote-mcp-server-public-preview/",
+      "published": "2026-03-17T13:52:29+00:00",
+      "summary": "When we released the local Azure DevOps MCP Server, it gave customers a way to connect Azure DevOps data with tools like Visual Studio and Visual Studio Code through GitHub Copilot Chat. The next step was to make this experience easier to get started with and to enable it for services that support...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem"
+    },
     {
       "title": "Resiliency Patterns for Azure Front Door: Field Lessons",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/resiliency-patterns-for-azure-front-door-field-lessons/ba-p/4501252",
@@ -118,6 +127,15 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "carlottacaste"
+    },
+    {
+      "title": "Scaling multi-node LLM inference with NVIDIA Dynamo and NVIDIA GPUs on AKS (Part 3)",
+      "link": "https://blog.aks.azure.com/2026/03/16/dynamo-on-aks-part-3",
+      "published": "2026-03-16T00:00:00+00:00",
+      "summary": "Learn how NVIDIA Dynamo's KV Router optimizes multi-worker LLM inference on AKS with H100 GPUs, achieving 25% lower p99 latency through intelligent routing.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "The Agent that investigates itself",
@@ -1360,15 +1378,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem"
-    },
-    {
-      "title": "Update: Changing the Account Name Entity Mapping in Microsoft Sentinel",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/update-changing-the-account-name-entity-mapping-in-microsoft/ba-p/4489040",
-      "published": "2026-02-15T14:32:23+00:00",
-      "summary": "The upcoming update introduces more consistent and predictable entity data across analytics, incidents, and automation by standardizing how the Account Name property is populated when using UPN‑based mappings in analytic rules. Going forward, Account Name property will consistently contain only the...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "sagiyagen365"
     }
   ]
 }
