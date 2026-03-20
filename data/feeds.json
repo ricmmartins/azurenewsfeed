@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-03-19T13:02:38.735609+00:00",
-  "totalArticles": 172,
+  "lastUpdated": "2026-03-20T12:57:33.643499+00:00",
+  "totalArticles": 169,
   "articles": [
+    {
+      "title": "Designing an Azure Disaster Recovery Strategy for Enterprise Workloads",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/designing-an-azure-disaster-recovery-strategy-for-enterprise/ba-p/4504142",
+      "published": "2026-03-20T10:08:28+00:00",
+      "summary": "Introduction As organizations accelerate their cloud adoption journey, ensuring resiliency and disaster recovery (DR) becomes a foundational requirement for maintaining business continuity. In large-scale Azure environments, customers often operate critical workloads in a primary region and later...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Shikhaghildiyal"
+    },
+    {
+      "title": "Power Apps Vibe Experience: Build Business Apps at the Speed of Ideas",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/power-apps-vibe-experience-build-business-apps-at-the-speed-of/ba-p/4502347",
+      "published": "2026-03-20T07:00:00+00:00",
+      "summary": "Power Apps Vibe Experience: Building Business Applications with AI in Minutes Organizations today operate in a fast-paced digital environment where new business challenges emerge constantly. Whether it’s managing internal workflows, tracking projects, or collecting customer feedback, businesses...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "harshul05"
+    },
+    {
+      "title": "Centralized Monitoring in Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/centralized-monitoring-in-azure/ba-p/4504027",
+      "published": "2026-03-20T06:17:50+00:00",
+      "summary": "Centralized Monitoring in Azure: Automating Diagnostic Settings Across All Resources Introduction In modern cloud environments, observability is not optional—it’s foundational. As organizations scale their Azure footprint, ensuring consistent monitoring across hundreds (or thousands) of resources...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Shikhaghildiyal"
+    },
+    {
+      "title": "Heroku Set the Standard. We're Just Removing the Ceiling",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/heroku-set-the-standard-we-re-just-removing-the-ceiling/ba-p/4504021",
+      "published": "2026-03-20T05:15:54+00:00",
+      "summary": "For a generation of developers, Heroku was where it clicked — the moment you realized shipping software didn't have to mean fighting infrastructure. Push your code, get a URL, focus on your product. That idea changed an industry, and a lot of us built our first real apps on it. Now that Heroku has...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "simonjj"
+    },
+    {
+      "title": "Introducing Azure Managed Grafana MCP: The Managed Telemetry Gateway for AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/introducing-azure-managed-grafana-mcp-the-managed-telemetry/ba-p/4503619",
+      "published": "2026-03-19T20:10:08+00:00",
+      "summary": "AI agents are rapidly becoming a core part of how teams build, operate, and improve cloud systems, from coding assistants to autonomous remediation workflows. To deliver on that promise in the enterprise, agents need a secure, governed way to access real production telemetry. Azure Managed Grafana...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "aayodeji"
+    },
+    {
+      "title": "Building an Enterprise Platform for Inference at Scale",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/building-an-enterprise-platform-for-inference-at-scale/ba-p/4498820",
+      "published": "2026-03-19T19:43:23+00:00",
+      "summary": "Architecture Decisions With the optimization stack in place, the next layer of decisions is architectural — how you distribute compute across GPUs, nodes, and deployment environments to match your model size and traffic profile. GPU Parallelism Strategy on AKS Strategy How It Works When to Use...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "bobmital"
+    },
+    {
+      "title": "Remote MCP Server preview in Microsoft Foundry",
+      "link": "https://devblogs.microsoft.com/devops/remote-mcp-server-preview-in-microsoft-foundry/",
+      "published": "2026-03-19T17:48:10+00:00",
+      "summary": "Earlier this week we release the public preview for our Azure DevOps MCP Server. Today we are excited to let you know that the Azure DevOps MCP Server is now available to use in Microsoft Foundry. For those who are new to Foundry, Microsoft Foundry is a unified platform for building and managing AI...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem"
+    },
+    {
+      "title": "Azure Front Door: Resiliency Series – Part 2: Faster recovery (RTO)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-resiliency-series-part-2-faster-recovery-rto/ba-p/4503091",
+      "published": "2026-03-19T17:00:54+00:00",
+      "summary": "In Part 1 of this blog series, we outlined our four‑pillar strategy for resiliency in Azure Front Door: configuration resiliency, data plane resiliency, tenant isolation, and accelerated Recovery Time Objective (RTO). Together, these pillars help Azure Front Door remain continuously available and...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "AbhishekTiwari"
+    },
+    {
+      "title": "Migrating to the next generation of Virtual Nodes on Azure Container Instances (ACI)",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/migrating-to-the-next-generation-of-virtual-nodes-on-azure/ba-p/4496565",
+      "published": "2026-03-19T16:55:56+00:00",
+      "summary": "What is ACI/Virtual Nodes? Azure Container Instances (ACI) is a fully-managed serverless container platform which gives you the ability to run containers on-demand without provisioning infrastructure. Virtual Nodes on ACI allows you to run Kubernetes pods managed by an AKS cluster in a serverless...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "adamsharif-msft"
+    },
+    {
+      "title": "Azure Bastion: Enterprise-grade secure access made simple",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-bastion-enterprise-grade-secure-access-made-simple/ba-p/4503833",
+      "published": "2026-03-19T14:32:39+00:00",
+      "summary": "Managing secure remote access to virtual machines traditionally means juggling public IP addresses, configuring jump boxes, deploying VPN infrastructure, and managing complex firewall rules. Each layer adds cost, complexity, and potential security vulnerabilities. Azure Bastion changes everything....",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "ShabazShaik"
+    },
     {
       "title": "Building Knowledge-Grounded AI Agents with Foundry IQ",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-knowledge-grounded-ai-agents-with-foundry-iq/ba-p/4499683",
@@ -19,15 +109,6 @@
       "blog": "ISE Developer Blog",
       "blogId": "iseblog",
       "author": "Maho Pacheco"
-    },
-    {
-      "title": "Introducing Azure Managed Grafana MCP: The Managed Data Gateway for AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/introducing-azure-managed-grafana-mcp-the-managed-data-gateway/ba-p/4503619",
-      "published": "2026-03-18T23:30:40+00:00",
-      "summary": "AI agents are rapidly becoming a core part of how teams build, operate, and improve cloud systems, from coding assistants to autonomous remediation workflows. To deliver on that promise in the enterprise, agents need a secure, governed way to access real production telemetry. Azure Managed Grafana...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "aayodeji"
     },
     {
       "title": "Azure NCv6 Virtual Machines: Enhancements and GA Transition",
@@ -138,15 +219,6 @@
       "author": "Yo-Lei Chen, Tauseef Siddique, Carlos Robles"
     },
     {
-      "title": "Azure Front Door: Resiliency Series – Part 2: Faster recovery (RTO)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-resiliency-series-part-2-faster-recovery-rto/ba-p/4503091",
-      "published": "2026-03-18T15:51:35+00:00",
-      "summary": "In Part 1 of this blog series, we outlined our four‑pillar strategy for resiliency in Azure Front Door: configuration resiliency, data plane resiliency, tenant isolation, and accelerated Recovery Time Objective (RTO). Together, these pillars help Azure Front Door remain continuously available and...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "AbhishekTiwari"
-    },
-    {
       "title": "Announcing savings plan for databases: flexible savings for modern, evolving workloads",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/announcing-savings-plan-for-databases-flexible-savings-for/ba-p/4503107",
       "published": "2026-03-18T13:05:06+00:00",
@@ -214,15 +286,6 @@
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/the-llm-inference-optimization-stack-a-prioritized-playbook-for/ba-p/4498818",
       "published": "2026-03-17T18:29:02+00:00",
       "summary": "The Solutions — An Optimization Stack for Enterprise Inference The optimizations below are ordered by implementation priority — starting with the highest-leverage. The Three-Layer Serving Stack Most enterprise LLM deployments operate across three layers, each responsible for a different part of the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "bobmital"
-    },
-    {
-      "title": "Building an Enterprise Platform for Inference at Scale",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/building-an-enterprise-platform-for-inference-at-scale/ba-p/4498820",
-      "published": "2026-03-17T18:28:24+00:00",
-      "summary": "Architecture Decisions With the optimization stack in place, the next layer of decisions is architectural — how you distribute compute across GPUs, nodes, and deployment environments to match your model size and traffic profile. GPU Parallelism Strategy on AKS Strategy How It Works When to Use...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "bobmital"
@@ -337,7 +400,7 @@
     },
     {
       "title": "Azure Cosmos DB at FOSSASIA Summit 2026: Sessions, Conversations, and Community",
-      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-at-fossasia-summit-2026-sessions-conversations-and-community/",
+      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-at-fossasia-summit-2026-sessions-community/",
       "published": "2026-03-16T16:24:05+00:00",
       "summary": "The FOSSASIA Summit 2026 was an incredible gathering of developers, open-source contributors, startups, and technology enthusiasts from across the region. This year, Azure Cosmos DB and Azure DocumentDB were present at the summit with both technical sessions and a dedicated booth, giving us a great...",
       "blog": "Azure Cosmos DB Blog",
@@ -613,15 +676,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Mayunk_Jain"
-    },
-    {
-      "title": "Migrating to the next generation of Virtual Nodes on Azure Container Instances (ACI)",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/migrating-to-the-next-generation-of-virtual-nodes-on-azure/ba-p/4496565",
-      "published": "2026-03-10T13:13:05+00:00",
-      "summary": "What is ACI/Virtual Nodes? Azure Container Instances (ACI) is a fully-managed serverless container platform which gives you the ability to run containers on-demand without provisioning infrastructure. Virtual Nodes on ACI allows you to run Kubernetes pods managed by an AKS cluster in a serverless...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "adamsharif-msft"
     },
     {
       "title": "Building Reusable Custom Images for Azure Confidential VMs Using Azure Compute Gallery",
@@ -1065,15 +1119,6 @@
       "author": "Lee_Stott"
     },
     {
-      "title": "Get started with PagerDuty MCP server and PagerDuty SRE Agent in Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/get-started-with-pagerduty-mcp-server-and-pagerduty-sre-agent-in/ba-p/4497124",
-      "published": "2026-02-27T01:39:14+00:00",
-      "summary": "Overview The PagerDuty MCP server is a cloud-hosted bridge between your PagerDuty account and Azure SRE Agent. Once configured, it enables real-time interaction with incidents, on-call schedules, services, teams, escalation policies, event orchestration, incident workflows, status pages, and more...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dbandaru"
-    },
-    {
       "title": "Azure DocumentDB: A Fully Managed MongoDB-Compatible Database",
       "link": "https://devblogs.microsoft.com/cosmosdb/azure-documentdb-mongodb-compatible/",
       "published": "2026-02-27T00:58:03+00:00",
@@ -1189,15 +1234,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "Lee_Stott"
-    },
-    {
-      "title": "Building a Dual Sidecar Pod: Combining GitHub Copilot SDK with Skill Server on Kubernetes",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-a-dual-sidecar-pod-combining-github-copilot-sdk-with/ba-p/4497080",
-      "published": "2026-02-26T08:00:00+00:00",
-      "summary": "Why the Sidecar Pattern? In Kubernetes, a Pod is the smallest deployable unit — a single Pod can contain multiple containers that share the same network namespace and storage volumes. The Sidecar pattern places auxiliary containers alongside the main application container within the same Pod. These...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
     },
     {
       "title": "Building a Secure MCP Server with OAuth 2.1 and Azure AD: Lessons from the Field",
@@ -1486,69 +1522,6 @@
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
       "author": "SaleemBseeu"
-    },
-    {
-      "title": "Reimagining Network Operations: How Microsoft NetAI Tackles Hyperscale Challenges",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/reimagining-network-operations-how-microsoft-netai-tackles/ba-p/4470572",
-      "published": "2026-02-18T10:41:47+00:00",
-      "summary": "The Business Imperative: Why Network Operations Must Change Modern network operators face a perfect storm of challenges: Exponential Growth in Events and Maintenance Network events and maintenance activities are increasing at an unprecedented rate. According to Microsoft’s analysis, weekly network...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "rickliev"
-    },
-    {
-      "title": "JMESPath support comes to azd JSON output",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azd-jmespath-query-support/",
-      "published": "2026-02-17T18:19:18+00:00",
-      "summary": "Run JMESPath queries on azd JSON output, including error messages. The post JMESPath support comes to azd JSON output appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Scott Addie"
-    },
-    {
-      "title": "Public Preview: Automatic zone balance for Virtual Machine Scale Sets",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-automatic-zone-balance-for-virtual-machine-scale/ba-p/4494476",
-      "published": "2026-02-17T17:30:00+00:00",
-      "summary": "We're excited to announce the public preview of automatic zone balance for Azure Virtual Machine Scale Sets. This new capability helps you maintain zone-resilient workloads with zero manual intervention. Automatic zone balance continuously monitors your scale set and redistributes VMs across...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "HilaryWang"
-    },
-    {
-      "title": "Dear Copilot, can you help me with SQL?",
-      "link": "https://devblogs.microsoft.com/azure-sql/dear-copilot-azure-sql/",
-      "published": "2026-02-17T17:00:59+00:00",
-      "summary": "Perhaps we missed it at first, but Copilot is more than comfortable with SQL. This goes beyond autocomplete. This is moving from nothing to a working database without leaving our tools. Have we really arrived? Yes, sort of. For database engineers and app engineers alike, we have crossed an...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
-    },
-    {
-      "title": "RDP Shortpath (UDP) over Private Link is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/rdp-shortpath-udp-over-private-link-is-now-generally-available/ba-p/4494644",
-      "published": "2026-02-17T17:00:00+00:00",
-      "summary": "UDP support over Private Link for Azure Virtual Desktop is now generally available. This release enables a direct, high‑performance, UDP‑based RDP connection between AVD session hosts and clients over Azure Private Link using RDP Shortpath for managed networks. This capability complements the...",
-      "blog": "Azure Virtual Desktop",
-      "blogId": "azurevirtualdesktopblog",
-      "author": "Rinku_Dalwani"
-    },
-    {
-      "title": "Azure API Management - Unified AI Gateway Design Pattern",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-management-unified-ai-gateway-design-pattern/ba-p/4495436",
-      "published": "2026-02-17T16:21:27+00:00",
-      "summary": "Scaling AI adoption requires a unified control plane As organizations scale generative AI adoption, they face growing complexity managing multiple AI providers, models, API formats, and rapid release cycles. Without a unified control plane, enterprises risk fragmented governance, inconsistent...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "nicolehaugen"
-    },
-    {
-      "title": "Microsoft BizTalk Server Product Lifecycle Update",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/microsoft-biztalk-server-product-lifecycle-update/ba-p/4478559",
-      "published": "2026-02-17T15:38:15+00:00",
-      "summary": "For more than 25 years, Microsoft BizTalk Server has supported mission-critical integration workloads for organizations around the world. From business process automation and B2B messaging to connectivity across industries such as financial services, healthcare, manufacturing, and government,...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "hcamposu"
     }
   ]
 }
