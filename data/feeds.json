@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-03-24T13:09:30.769958+00:00",
-  "totalArticles": 171,
+  "lastUpdated": "2026-03-25T13:08:01.972364+00:00",
+  "totalArticles": 175,
   "articles": [
+    {
+      "title": "🚀GitHub Copilot CLI: AI Assistance from the Command Line for Infrastructure Deployments",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/github-copilot-cli-ai-assistance-from-the-command-line-for/ba-p/4500796",
+      "published": "2026-03-25T09:43:34+00:00",
+      "summary": "What is GitHub Copilot CLI? GitHub Copilot CLI is an AI-powered assistant that runs directly inside your terminal. Instead of manually writing commands, scripts, or debugging issues, you can simply describe what you want — and Copilot executes it. Here’s the shift: Traditional CLI Copilot CLI You...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ibrahimbaig"
+    },
+    {
+      "title": "Microsoft Foundry Labs: A Practical Fast Lane from Research to Real Developer Work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-foundry-labs-a-practical-fast-lane-from-research-to/ba-p/4502127",
+      "published": "2026-03-25T07:00:00+00:00",
+      "summary": "Why developers need a fast lane from research → prototypes AI engineering has a speed problem, but it is not a shortage of announcements. The hard part is turning research into a useful prototype before the next wave of models, tools, or agent patterns shows up. That gap matters. AI engineers want...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Vectorless Reasoning-Based RAG: A New Approach to Retrieval-Augmented Generation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/vectorless-reasoning-based-rag-a-new-approach-to-retrieval/ba-p/4502238",
+      "published": "2026-03-25T07:00:00+00:00",
+      "summary": "Introduction Retrieval-Augmented Generation (RAG) has become a widely adopted architecture for building AI applications that combine Large Language Models (LLMs) with external knowledge sources. Traditional RAG pipelines rely heavily on vector embeddings and similarity search to retrieve relevant...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Rajapriya"
+    },
+    {
+      "title": "🚀 Securing Enterprise AI: From Red Teaming to Risk Cards and Azure Guardrails",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/securing-enterprise-ai-from-red-teaming-to-risk-cards-and-azure/ba-p/4505388",
+      "published": "2026-03-25T05:03:42+00:00",
+      "summary": "AI is no longer experimental—it’s deeply embedded into critical business workflows. From copilots to decision intelligence systems, organizations are rapidly adopting large language models (LLMs). But here’s the reality: AI is not just another application layer—it’s a new attack surface. 🧠 Why...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "adityakumar60"
+    },
+    {
+      "title": "Your Entire Engineering Floor Just Stopped Coding",
+      "link": "https://devblogs.microsoft.com/all-things-azure/your-entire-engineering-floor-just-stopped-coding/",
+      "published": "2026-03-25T03:38:23+00:00",
+      "summary": "And the developers running Claude Code and GitHub Copilot CLI didn’t notice… Status Page Says ‘Operational.’ Your Subagents Say Otherwise. If you’re running autonomous agents in any serious capacity, you’ve experienced this: model provider outages aren’t edge cases — they’re part of the operating...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Desi Villanueva"
+    },
+    {
+      "title": "HTTP Triggers in Azure SRE Agent: From Jira Ticket to Automated Investigation",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/http-triggers-in-azure-sre-agent-from-jira-ticket-to-automated/ba-p/4504960",
+      "published": "2026-03-24T21:09:11+00:00",
+      "summary": "Introduction Many teams run their observability, incident management, ticketing, and deployment on platforms outside of Azure—Jira, Opsgenie, Grafana, Zendesk, GitLab, Jenkins, Harness, or homegrown internal tools. These are the systems where alerts fire, tickets get filed, deployments happen, and...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Vineela-Suri"
+    },
+    {
+      "title": "Hosted Containers and AI Agent Solutions",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/hosted-containers-and-ai-agent-solutions/ba-p/4500627",
+      "published": "2026-03-24T18:32:11+00:00",
+      "summary": "If you have built a proof-of-concept AI agent on your laptop and wondered how to turn it into something other people can actually use, you are not alone. The gap between a working prototype and a production-ready service is where most agent projects stall. Hosted containers close that gap faster...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Unlock More Power in Your Development Workflow: Syncfusion for Visual Studio Subscribers",
+      "link": "https://devblogs.microsoft.com/visualstudio/syncfusion-for-visual-studio/",
+      "published": "2026-03-24T15:00:12+00:00",
+      "summary": "A few months ago, I was talking with a developer who said something that stuck with me: “I love building apps. I just don’t love rebuilding the same UI controls over and over again.” That’s the reality for a lot of teams. You want to focus on your business logic, your architecture, your...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Jim Harrer"
+    },
+    {
+      "title": "Automating Azure OpenAI Cost Control Using Budgets, Action Groups, and Automation Runbooks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-azure-openai-cost-control-using-budgets-action-groups/ba-p/4505164",
+      "published": "2026-03-24T13:28:40+00:00",
+      "summary": "Introduction As organizations increasingly adopt Azure OpenAI for use cases such as generative AI, analytics, and experimentation, cost governance becomes a critical operational concern. Azure OpenAI workloads can scale quickly, and without proper controls, unmonitored usage may lead to unexpected...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "trisha1302"
+    },
     {
       "title": "Synchronizing Azure Storage Across Isolated Private Endpoint Networks",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/synchronizing-azure-storage-across-isolated-private-endpoint/ba-p/4504564",
@@ -28,15 +109,6 @@
       "blog": "Oracle on Azure",
       "blogId": "oracleonazureblog",
       "author": "SparshAgrawat"
-    },
-    {
-      "title": "Hosted Containers and AI Agent Solutions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/hosted-containers-and-ai-agent-solutions/ba-p/4500627",
-      "published": "2026-03-24T07:00:00+00:00",
-      "summary": "If you have built a proof-of-concept AI agent on your laptop and wondered how to turn it into something other people can actually use, you are not alone. The gap between a working prototype and a production-ready service is where most agent projects stall. Hosted containers close that gap faster...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
     },
     {
       "title": "Take Control of Every Message: Partial Failure Handling for Service Bus Triggers in Azure Functions",
@@ -507,6 +579,15 @@
       "author": "saikishor"
     },
     {
+      "title": "Announcing Gateway API support for App Routing (preview)",
+      "link": "https://blog.aks.azure.com/2026/03/18/app-routing-gateway-api",
+      "published": "2026-03-18T00:00:00+00:00",
+      "summary": "The AKS app routing add-on now supports the Kubernetes Gateway API via a meshless Istio control plane — the recommended path to migrate from Ingress-NGINX.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
       "title": "From 150 Unread to Zero Stress: Automating Inbox Triage with MCP and GitHub Copilot",
       "link": "https://devblogs.microsoft.com/all-things-azure/from-150-unread-to-zero-stress-automating-inbox-triage-with-mcp-and-github-copilot/",
       "published": "2026-03-17T21:54:09+00:00",
@@ -541,15 +622,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "samcogan"
-    },
-    {
-      "title": "The LLM Inference Optimization Stack: A Prioritized Playbook for Enterprise Teams",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/the-llm-inference-optimization-stack-a-prioritized-playbook-for/ba-p/4498818",
-      "published": "2026-03-17T18:29:02+00:00",
-      "summary": "The Solutions — An Optimization Stack for Enterprise Inference The optimizations below are ordered by implementation priority — starting with the highest-leverage. The Three-Layer Serving Stack Most enterprise LLM deployments operate across three layers, each responsible for a different part of the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "bobmital"
     },
     {
       "title": "PowerToys 0.98 is here: new Keyboard Manager UX, the Command Palette Dock and better CursorWrap!",
@@ -1110,15 +1182,6 @@
       "author": "CollinBrian"
     },
     {
-      "title": "GenRec Direct Learning: Moving Ranking from Feature Pipelines to Token-Native Sequence Modeling",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/genrec-direct-learning-moving-ranking-from-feature-pipelines-to/ba-p/4494252",
-      "published": "2026-03-05T13:17:16+00:00",
-      "summary": "Authors: Chunlong Yu, Han Zheng, Jie Zhu, I-Hong Jhuo, Neal Zhang, Li Xia, Lin Zhu, Sawyer Shen, Yulan Yan TL;DR Most modern ranking stacks rely on large generative models as feature extractors, flattening their outputs into vectors that are then fed into downstream rankers. While effective, this...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "chunlongyu"
-    },
-    {
       "title": "Building High-Performance Agentic Systems",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-high-performance-agentic-systems/ba-p/4497391",
       "published": "2026-03-05T08:00:00+00:00",
@@ -1252,15 +1315,6 @@
       "blog": "Microsoft Defender for Cloud",
       "blogId": "microsoftdefendercloudblog",
       "author": "Fernanda_Vela"
-    },
-    {
-      "title": "Giving Your AI Agents Reliable Skills with the Agent Skills SDK",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/giving-your-ai-agents-reliable-skills-with-the-agent-skills-sdk/ba-p/4497074",
-      "published": "2026-03-03T08:00:00+00:00",
-      "summary": "AI agents are becoming increasingly capable, but they often do not have the context they need to do real work reliably. Your agent can reason well, but it does not actually know how to do the specific things your team needs it to do. For example, it cannot follow your company's incident response...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "pratikpanda"
     },
     {
       "title": "Azure Databricks Lakebase is now generally available",
@@ -1522,24 +1576,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "ShiranShuster"
-    },
-    {
-      "title": "Logic Apps Agentic Workflows with SAP - Part 2: AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-agentic-workflows-with-sap-part-2-ai-agents/ba-p/4492362",
-      "published": "2026-02-23T07:15:00+00:00",
-      "summary": "Part 2 focuses on the AI-shaped portion of the destination workflows: how the Logic Apps Agent is configured, how it pulls business rules from SharePoint, and how its outputs are converted into concrete workflow artifacts. In Destination workflow #1, the agent produces three structured outputs—an...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Emmanuel_Abram_Profeta"
-    },
-    {
-      "title": "Logic Apps Agentic Workflows with SAP - Part 1: Infrastructure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-agentic-workflows-with-sap-part-1-infrastructure/ba-p/4491906",
-      "published": "2026-02-23T07:12:09+00:00",
-      "summary": "When you integrate Azure Logic Apps with SAP, the “hello world” part is usually easy. The part that bites you later is data quality. In SAP-heavy flows, validation isn’t a nice-to-have — it’s what makes the downstream results meaningful. If invalid data slips through, it can get expensive fast: you...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Emmanuel_Abram_Profeta"
     }
   ]
 }
