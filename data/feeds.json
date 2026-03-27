@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-03-26T13:13:41.001294+00:00",
-  "totalArticles": 178,
+  "lastUpdated": "2026-03-27T13:04:11.646083+00:00",
+  "totalArticles": 179,
   "articles": [
+    {
+      "title": "Building the agentic future together at JDConf 2026",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/building-the-agentic-future-together-at-jdconf-2026/ba-p/4505367",
+      "published": "2026-03-27T11:00:00+00:00",
+      "summary": "JDConf 2026 is just weeks away, and I’m excited to welcome Java developers, architects, and engineering leaders from around the world for two days of learning and connection. Now in its sixth year, JDConf has become a place where the Java community compares notes on their real-world production...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Mayunk_Jain"
+    },
+    {
+      "title": "Unit Testing Helm Charts with Terratest: A Pattern Guide for Type-Safe Validation",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/unit-testing-helm-charts-with-terratest-a-pattern-guide-for-type/ba-p/4506165",
+      "published": "2026-03-27T07:33:36+00:00",
+      "summary": "Helm charts are the de facto standard for packaging Kubernetes applications. But here's a question worth asking: how do you know your chart actually produces the manifests you expect, across every environment, before it reaches a cluster? If you're like most teams, the answer is some combination of...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "pratikpanda"
+    },
+    {
+      "title": "Building an Offline AI Interview Coach with Foundry Local, RAG, and SQLite",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-offline-ai-interview-coach-with-foundry-local-rag/ba-p/4500614",
+      "published": "2026-03-27T07:00:00+00:00",
+      "summary": "How to build a 100% offline, AI-powered interview preparation tool using Microsoft Foundry Local, Retrieval-Augmented Generation, and nothing but JavaScript. Foundry Local 100% Offline RAG + TF-IDF JavaScript / Node.js Contents Introduction What is RAG and Why Offline? Architecture Overview Setting...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Azure Maps Adds Support to Private Endpoints (Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-maps-blog/azure-maps-adds-support-to-private-endpoints-preview/ba-p/4505743",
+      "published": "2026-03-27T00:23:58+00:00",
+      "summary": "Location data is by nature sensitive and therefore needs to be managed securely. Today, we’re announcing the Public Preview of private endpoint support for Azure Maps, bringing enterprise-grade network isolation and data privacy to your location-aware applications. With Azure Private Link, your...",
+      "blog": "Azure Maps",
+      "blogId": "azuremapsblog",
+      "author": "PeterBr"
+    },
+    {
+      "title": "Introducing Skills in Azure API Center",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-skills-in-azure-api-center/ba-p/4506014",
+      "published": "2026-03-26T21:31:02+00:00",
+      "summary": "The problem Modern applications depend on more than APIs. A single AI workflow might call an LLM, invoke an MCP tool, integrate a third-party service, and reference a business capability spanning dozens of endpoints. Without a central inventory, these assets become impossible to discover, easy to...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "anishta"
+    },
+    {
+      "title": "Azure SDK Release (March 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-march-2026/",
+      "published": "2026-03-26T20:41:06+00:00",
+      "summary": "Azure SDK releases every month. In this post, you find this month's highlights and release notes. The post Azure SDK Release (March 2026) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Ronnie Geraghty"
+    },
+    {
+      "title": "Copy dashboards from Dashboards with Grafana to Azure Managed Grafana",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/copy-dashboards-from-dashboards-with-grafana-to-azure-managed/ba-p/4505710",
+      "published": "2026-03-26T17:28:43+00:00",
+      "summary": "Azure Monitor Dashboards with Grafana provides an in‑portal Grafana experience optimized for Azure Monitor and managed Prometheus data. For many teams, that simplicity is exactly what they need. As observability practices mature, teams often need more than visualization: broader data source...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "aayodeji"
+    },
+    {
+      "title": "TypeScript AppHost in Aspire 13.2: same app model, different syntax",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-typescript-apphost/",
+      "published": "2026-03-26T17:00:00+00:00",
+      "summary": "Aspire 13.2 enables TypeScript developers to define AppHosts directly in TypeScript, with the same streamlined Aspire application model. The post TypeScript AppHost in Aspire 13.2: same app model, different syntax appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Sebastien Ros"
+    },
+    {
+      "title": "Assess Azure DDoS Protection Status Across Your Environment",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/assess-azure-ddos-protection-status-across-your-environment/ba-p/4505969",
+      "published": "2026-03-26T15:36:26+00:00",
+      "summary": "Introduction Distributed Denial of Service (DDoS) attacks continue to be one of the most prevalent threats facing organizations with internet-facing workloads. Azure DDoS Protection provides cloud-scale protection against L3/4 volumetric attacks, helping ensure your applications remain available...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "SaleemBseeu"
+    },
     {
       "title": "Guardrails for Generative AI: Securing Developer Workflows",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/guardrails-for-generative-ai-securing-developer-workflows/ba-p/4505801",
@@ -1011,24 +1092,6 @@
       "author": "dchelupati"
     },
     {
-      "title": "Agent Hooks: Production-Grade Governance for Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/agent-hooks-production-grade-governance-for-azure-sre-agent/ba-p/4500292",
-      "published": "2026-03-10T14:08:35+00:00",
-      "summary": "Introduction Azure SRE Agent helps engineering teams automate incident response, diagnostics, and remediation tasks. But when you're giving an agent access to production systems—your databases, your Kubernetes clusters, your cloud resources—you need more than just automation. You need governance....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Vineela-Suri"
-    },
-    {
-      "title": "Azure SRE Agent Now Builds Expertise Like Your Best Engineer Introducing Deep Context",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-now-builds-expertise-like-your-best-engineer/ba-p/4500754",
-      "published": "2026-03-10T14:08:23+00:00",
-      "summary": "What if SRE Agent already knew your system before the next incident? Your most experienced SRE didn't become an expert overnight. Day one: reading runbooks, studying architecture diagrams, asking a lot of questions. Month three: knowing which services are fragile, which config changes cascade,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati"
-    },
-    {
       "title": "Building Reusable Custom Images for Azure Confidential VMs Using Azure Compute Gallery",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-reusable-custom-images-for-azure-confidential-vms-using/ba-p/4500880",
       "published": "2026-03-10T12:09:24+00:00",
@@ -1279,15 +1342,6 @@
       "blog": "Microsoft Defender for Cloud",
       "blogId": "microsoftdefendercloudblog",
       "author": "Vasavi_Pasula"
-    },
-    {
-      "title": "Building Generative Pages in Power Platform",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-generative-pages-in-power-platform/ba-p/4494062",
-      "published": "2026-03-04T08:00:00+00:00",
-      "summary": "Artificial Intelligence is now embedded across the Power Platform, and Generative Pages are among its most significant innovations. Instead of manually arranging controls, configuring forms, linking views, or writing Power Fx expressions, creators can now describe their requirements in plain...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "harshul05"
     },
     {
       "title": "New Azure API management service limits",
@@ -1558,51 +1612,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "KentWeareMSFT"
-    },
-    {
-      "title": "Visual Studio February Update",
-      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-february-update/",
-      "published": "2026-02-24T22:16:30+00:00",
-      "summary": "This month’s Visual Studio update continues our focus on helping you move faster and stay in flow, with practical improvements across AI assistance, debugging, testing, and modernization. Building on the momentum from January’s editor updates, the February release brings smarter diagnostics and...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mark Downie"
-    },
-    {
-      "title": "Accelerate Your UEBA Journey: Introducing the Microsoft Sentinel Behaviors Workbook",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/accelerate-your-ueba-journey-introducing-the-microsoft-sentinel/ba-p/4488278",
-      "published": "2026-02-24T18:22:56+00:00",
-      "summary": "In our recent announcement, we introduced the UEBA Behaviors layer - a breakthrough capability that transforms noisy, high-volume security telemetry into clear, human-readable behavioral insights. The Behaviors layer answers the critical question: \"Who did what to whom, and why does it matter?\" by...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "MichalShechter"
-    },
-    {
-      "title": "Introducing Run Oracle Your Way on Oracle Database@Azure – a new technical webinar series",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/introducing-run-oracle-your-way-on-oracle-database-azure-a-new/ba-p/4496593",
-      "published": "2026-02-24T17:12:37+00:00",
-      "summary": "Oracle Database@Azure was purpose-built to enable enterprises to bring Oracle databases to Azure. With this jointly engineered solution, customers can: Migrate existing Oracle databases to Azure for the same or better performance, resiliency, and microsecond latency without refactoring Continue...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "RamKakani"
-    },
-    {
-      "title": "Disrupt AWS attacks automatically in Microsoft Sentinel",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/disrupt-aws-attacks-automatically-in-microsoft-sentinel/ba-p/4488276",
-      "published": "2026-02-24T17:00:00+00:00",
-      "summary": "Attacks move faster than security teams can react. They spread across identities, endpoints, and SaaS apps in minutes, overwhelming analysts with signals and leaving little time to act. By the time an incident is investigated, the attacker has often already moved on escalating impact and business...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "eyalh"
-    },
-    {
-      "title": "Improved Python (PyPi/uvx) support in Azure MCP Server",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-better-python-support/",
-      "published": "2026-02-24T16:00:21+00:00",
-      "summary": "Azure MCP Server now offers first-class Python support via PyPI and uvx, making it easier than ever for Python developers to integrate Azure into their agentic workflows. The post Improved Python (PyPi/uvx) support in Azure MCP Server appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Xiang Yan"
     }
   ]
 }
