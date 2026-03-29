@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-28T12:53:26.657936+00:00",
-  "totalArticles": 174,
+  "lastUpdated": "2026-03-29T12:54:06.298220+00:00",
+  "totalArticles": 165,
   "articles": [
     {
       "title": "Autonomous Self-Healing for Azure VMware Solution Private Clouds",
@@ -1486,87 +1486,6 @@
       "blog": "Telecommunications",
       "blogId": "telecommunications-industry-blog",
       "author": "rickliev"
-    },
-    {
-      "title": "Azure DocumentDB: A Fully Managed MongoDB-Compatible Database",
-      "link": "https://devblogs.microsoft.com/cosmosdb/azure-documentdb-mongodb-compatible/",
-      "published": "2026-02-27T00:58:03+00:00",
-      "summary": "Running MongoDB at scale eventually forces a trade-off: invest heavily in managing your own infrastructure or move to a managed service and risk losing the compatibility and portability your team depends on. Azure DocumentDB is a fully managed, MongoDB-compatible database on Azure, built on an...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Khelan Modi"
-    },
-    {
-      "title": "Announcing new public preview capabilities in Azure Monitor pipeline",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/announcing-new-public-preview-capabilities-in-azure-monitor/ba-p/4488904",
-      "published": "2026-02-26T23:27:24+00:00",
-      "summary": "Azure Monitor pipeline, similar to ETL (Extract, Transform, Load) process, enhances traditional data collection methods. It streamlines data collection from various sources through a unified ingestion pipeline and utilizes a standardized configuration approach that is more efficient and scalable....",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "XemaPathak"
-    },
-    {
-      "title": "Public Preview: Azure Monitor pipeline transformations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-pipeline-transformations/ba-p/4491980",
-      "published": "2026-02-26T23:25:47+00:00",
-      "summary": "Overview The Azure Monitor pipeline extends the data collection capabilities of Azure Monitor to edge and multi-cloud environments. It enables at-scale data collection (data collection over 100k EPS), and routing of telemetry data before it's sent to the cloud. The pipeline can cache data locally...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "susaraswat4"
-    },
-    {
-      "title": "Unlocking value with Microsoft Sentinel data lake",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/unlocking-value-with-microsoft-sentinel-data-lake/ba-p/4497660",
-      "published": "2026-02-26T22:28:54+00:00",
-      "summary": "As security telemetry explodes and AI‑driven defense becomes the norm, it is critical to centralize and retain massive volumes of data for deep analysis and long‑term insights. Security teams are fundamentally rethinking how they manage, analyze, and act on security data. The Microsoft Sentinel...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "atennant"
-    },
-    {
-      "title": "Oracle Database@Azure Is Now Generally Available in West Europe (Amsterdam)",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/oracle-database-azure-is-now-generally-available-in-west-europe/ba-p/4497632",
-      "published": "2026-02-26T21:04:54+00:00",
-      "summary": "As organizations across Europe accelerate their cloud modernization and AI adoption, data locality, compliance, and performance remain critical decision factors. Over the past year, Microsoft and Oracle have worked closely to rapidly expand the global footprint of Oracle Database@Azure, bringing...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "SparshAgrawat"
-    },
-    {
-      "title": "Accelerating revenue in telecommunications through Agentic Sales Processes",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/accelerating-revenue-in-telecommunications-through-agentic-sales/ba-p/4496523",
-      "published": "2026-02-26T19:06:30+00:00",
-      "summary": "Executive Summary Telecommunications providers are under unprecedented pressure to reignite revenue growth amid market saturation, commoditization of core services, rising infrastructure costs, and intensifying competition from digital‑native players. At the same time, customers demand seamless,...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "rodekirk"
-    },
-    {
-      "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
-      "published": "2026-02-26T18:56:19+00:00",
-      "summary": "We’re excited to announce the general availability of Azure’s next generation of confidential virtual machines, powered by 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs make it easier than ever for organizations to move their most...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "simranparkhe"
-    },
-    {
-      "title": "Announcing Public Preview: Simplified Machine Provisioning for Azure Local",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-public-preview-simplified-machine-provisioning-for/ba-p/4496811",
-      "published": "2026-02-26T18:02:37+00:00",
-      "summary": "Deploying infrastructure at the edge has always been challenging. Whether it’s retail stores, factories, branch offices, or remote sites, getting servers racked, configured, and ready for workloads often require skilled IT staff on-site. That process is slow, expensive, and error-prone, especially...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "PragyaDwivedi"
-    },
-    {
-      "title": "Azure SDK Release (February 2026)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-february-2026/",
-      "published": "2026-02-26T16:00:26+00:00",
-      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (February 2026) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Ronnie Geraghty"
     }
   ]
 }
