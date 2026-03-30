@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-03-29T12:54:06.298220+00:00",
-  "totalArticles": 165,
+  "lastUpdated": "2026-03-30T13:17:21.776164+00:00",
+  "totalArticles": 164,
   "articles": [
+    {
+      "title": "CI/CD as a Platform: Shipping Microservices and AI Agents with Reusable GitHub Actions Workflows",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/ci-cd-as-a-platform-shipping-microservices-and-ai-agents-with/ba-p/4504550",
+      "published": "2026-03-30T10:48:39+00:00",
+      "summary": "The First Shift — Treating CI/CD as a Platform The first insight is straightforward but underused: Your CI/CD logic is infrastructure. It deserves the same design discipline as your application code. That means centralizing it. Versioning it. Exposing it as reusable, callable workflows — not...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "nasreensarah"
+    },
+    {
+      "title": "From Toil to Trust: How Azure SRE Agent Is Redefining Cloud Operations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-toil-to-trust-how-azure-sre-agent-is-redefining-cloud/ba-p/4505875",
+      "published": "2026-03-30T07:59:46+00:00",
+      "summary": "As Azure environments scale, infrastructure teams face a familiar challenge: operating reliably at scale.Outages are no longer caused by a single VM or misconfigured service—they emerge from complex dependencies across compute, networking, storage, and platform services. Azure SRE Agent is designed...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "siddhigupta"
+    },
+    {
+      "title": "Building Your First Local RAG Application with Foundry Local",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-your-first-local-rag-application-with-foundry-local/ba-p/4501968",
+      "published": "2026-03-30T07:00:00+00:00",
+      "summary": "A developer's guide to building an offline, mobile-responsive AI support agent using Retrieval-Augmented Generation, the Foundry Local SDK, and JavaScript. Imagine you are a gas field engineer standing beside a pipeline in a remote location. There is no Wi-Fi, no mobile signal, and you need a...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Gain Visibility into Cloud Browser Usage with Browser Activity Logs in Playwright Workspaces",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/gain-visibility-into-cloud-browser-usage-with-browser-activity/ba-p/4506706",
+      "published": "2026-03-30T06:28:43+00:00",
+      "summary": "Today, we're announcing a new feature to view the usage metrics for a browser session using the Browser Activity Logs in Playwright Workspaces. Modern test automation and browser-based workflows increasingly rely on cloud-hosted browsers. As teams scale their usage across test runs, automation...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "AbhinavPremsekhar"
+    },
+    {
+      "title": "Synchronizing Azure Storage Across Isolated Private Endpoint Networks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/synchronizing-azure-storage-across-isolated-private-endpoint/ba-p/4504564",
+      "published": "2026-03-30T05:17:31+00:00",
+      "summary": "Introduction In Azure repatriation programs, enterprises often need to migrate large volumes of blob data from a source Azure environment to a target Azure environment under strict security and network isolation constraints. A typical repatriation setup includes fully isolated source and target...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "deepakkumarv"
+    },
     {
       "title": "Autonomous Self-Healing for Azure VMware Solution Private Clouds",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/autonomous-self-healing-for-azure-vmware-solution-private-clouds/ba-p/4506374",
@@ -244,15 +289,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "trisha1302"
-    },
-    {
-      "title": "Synchronizing Azure Storage Across Isolated Private Endpoint Networks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/synchronizing-azure-storage-across-isolated-private-endpoint/ba-p/4504564",
-      "published": "2026-03-24T08:27:32+00:00",
-      "summary": "Introduction In Azure repatriation programs, enterprises often need to migrate large volumes of blob data from a source Azure environment to a target Azure environment under strict security and network isolation constraints. A typical repatriation setup includes fully isolated source and target...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "deepakkumarv"
     },
     {
       "title": "Announcing Public Preview of Argo CD extension on AKS and Azure Arc enabled Kubernetes clusters",
@@ -1083,15 +1119,6 @@
       "author": "Maddy Montaquila"
     },
     {
-      "title": "What It Takes to Give SRE Agent a Useful Starting Point",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-it-takes-to-give-sre-agent-a-useful-starting-point/ba-p/4500343",
-      "published": "2026-03-10T16:10:29+00:00",
-      "summary": "In our latest posts, The Agent that investigates itself and Azure SRE Agent Now Builds Expertise Like Your Best Engineer Introducing Deep Context, we wrote about a moment that changed how we think about agent systems. Azure SRE Agent investigated a regression in its own prompt cache, traced the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Dalibor_Kovacevic"
-    },
-    {
       "title": "Migrating On-prem Windows & Linux VMs to Azure Confidential Virtual Machines via Azure Migrate",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/migrating-on-prem-windows-linux-vms-to-azure-confidential/ba-p/4500898",
       "published": "2026-03-10T15:09:25+00:00",
@@ -1326,15 +1353,6 @@
       "author": "NogaRonen"
     },
     {
-      "title": "Phi-4-Reasoning-Vision-15B: Use Cases In-Depth",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/phi-4-reasoning-vision-15b-use-cases-in-depth/ba-p/4499210",
-      "published": "2026-03-04T18:00:00+00:00",
-      "summary": "Phi-4-Reasoning-vision-15B is Microsoft's latest vision reasoning model released on Microsoft Foundry. It combines high-resolution visual perception with selective, task-aware reasoning, making it the first model in the Phi-4 family to simultaneously achieve both \"seeing clearly\" and \"thinking...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
       "title": "Announcing the General Availability of the Azure Maps Geocode Autocomplete API",
       "link": "https://techcommunity.microsoft.com/t5/azure-maps-blog/announcing-the-general-availability-of-the-azure-maps-geocode/ba-p/4499242",
       "published": "2026-03-04T17:22:55+00:00",
@@ -1459,33 +1477,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "WSilveira"
-    },
-    {
-      "title": "Updates to Team Calendar extension",
-      "link": "https://devblogs.microsoft.com/devops/updates-to-team-calendar-extension/",
-      "published": "2026-02-27T18:30:30+00:00",
-      "summary": "We are excited to release a new update to the Team Calendar extension. This update includes a series of visual refinements across the extension, introducing a more consistent design language, smoother transitions when expanding and collapsing sections, improved contrast for better readability, an...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem"
-    },
-    {
-      "title": "Top 5 Microsoft Sentinel Queries for Threat Hunting",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/top-5-microsoft-sentinel-queries-for-threat-hunting/ba-p/4497667",
-      "published": "2026-02-27T16:00:00+00:00",
-      "summary": "Threat hunting in Microsoft Sentinel goes beyond relying on scheduled analytics rules. It’s about proactively asking better questions of your data to uncover stealthy or emerging attacker behavior before it turns into an incident. Effective hunting helps security teams spot activity that may never...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "SonjaEd"
-    },
-    {
-      "title": "Evolving the Network Operations Agent Framework: Driving the Next Wave of Autonomous Networks",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/evolving-the-network-operations-agent-framework-driving-the-next/ba-p/4496607",
-      "published": "2026-02-27T14:23:07+00:00",
-      "summary": "The original announcement of the Network Operations Agent (NOA) Framework outlined a bold mission: provide telecom operators with a modular, multiagent foundation to accelerate the journey toward autonomous networks. NOA combined intelligent agents, unified data access, and strong governance to...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "rickliev"
     }
   ]
 }
