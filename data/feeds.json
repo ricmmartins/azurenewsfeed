@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-03-30T13:17:21.776164+00:00",
-  "totalArticles": 164,
+  "lastUpdated": "2026-03-31T13:16:23.009563+00:00",
+  "totalArticles": 170,
   "articles": [
+    {
+      "title": "The Durable Task Scheduler Consumption SKU is now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/the-durable-task-scheduler-consumption-sku-is-now-generally/ba-p/4506682",
+      "published": "2026-03-31T12:00:00+00:00",
+      "summary": "Today, we're excited to announce that the Durable Task Scheduler Consumption SKU has reached General Availability. Developers can now run durable workflows and agents on Azure with pay-per-use pricing, no storage to manage, no capacity to plan, and no idle costs. Just create a scheduler, connect...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "greenie-msft"
+    },
+    {
+      "title": "Subscription Vending in Azure: An Implementation Overview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/subscription-vending-in-azure-an-implementation-overview/ba-p/4506350",
+      "published": "2026-03-31T07:48:15+00:00",
+      "summary": "Subscription vending is a process that enables the creation of multiple Azure subscriptions using code, based on organizational segregation or workload-specific requirements. Rather than relying on resource groups as the primary boundary, this approach treats subscriptions as the fundamental unit...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "abhilashasr"
+    },
+    {
+      "title": "Powering Event Driven Payments with Stripe and Azure Event Grid",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/powering-event-driven-payments-with-stripe-and-azure-event-grid/ba-p/4507094",
+      "published": "2026-03-31T04:00:52+00:00",
+      "summary": "Introduction Modern commerce systems are increasingly event-driven. Payments, subscriptions, refunds, disputes, and customer updates all generate signals that downstream systems must react quickly and reliably. Stripe events give developers real-time visibility into what is happening inside their...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "robece"
+    },
+    {
+      "title": "Azure Developer CLI (azd) – March 2026: Run and Debug AI Agents Locally, GitHub Copilot Integration, & Container App Jobs",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-march-2026/",
+      "published": "2026-03-31T03:31:29+00:00",
+      "summary": "Run, invoke, and monitor AI agents locally or in Microsoft Foundry with the new azd AI agent extension commands. Plus GitHub Copilot-powered project setup, Container App Jobs deployment, local preflight validation, and configurable timeouts. The post Azure Developer CLI (azd) – March 2026: Run and...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "PuiChee (PC) Chan"
+    },
+    {
+      "title": "VS Code Extension",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/vs-code-extension/ba-p/4500803",
+      "published": "2026-03-31T03:00:06+00:00",
+      "summary": "What is a VS Code Extension? A VS Code Extension is a small program that adds new features or enhances existing functionality in Visual Studio Code. Extensions allow developers to tailor the editor to their needs by adding support for new languages, tools, themes, debuggers, commands, and...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Shikhaghildiyal"
+    },
+    {
+      "title": "What’s new in Microsoft Sentinel: RSAC 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-rsac-2026/ba-p/4503971",
+      "published": "2026-03-30T21:38:31+00:00",
+      "summary": "Security is entering a new era, one defined by explosive data growth, increasingly sophisticated threats, and the rise of AI-enabled operations. To keep pace, security teams need an AI-powered approach to collect, reason over, and act on security data at scale. At RSA Conference 2026 (RSAC), we’re...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "spalani"
+    },
+    {
+      "title": "Public Preview: Ephemeral OS Disk with full caching for VM/VMSS",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-ephemeral-os-disk-with-full-caching-for-vm-vmss/ba-p/4500191",
+      "published": "2026-03-30T19:37:31+00:00",
+      "summary": "Today, we’re excited to announce the public preview of Ephemeral OS disk with full caching, a new feature designed to significantly enhance performance and reliability by utilizing local storage. This feature is ideal for IO-sensitive stateless workloads, as it eliminates dependency on remote...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "viveksingla"
+    },
+    {
+      "title": "ExpressRoute Gateway Microsoft initiated migration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/expressroute-gateway-microsoft-initiated-migration/ba-p/4497689",
+      "published": "2026-03-30T18:20:25+00:00",
+      "summary": "Important: Microsoft initiated Gateway migrations are temporarily paused. You will be notified when migrations resume. Objective The backend migration process is an automated upgrade performed by Microsoft to ensure your ExpressRoute gateways use the Standard IP SKU. This migration enhances gateway...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "MekaylaMoore"
+    },
+    {
+      "title": "Writing Azure service-related unit tests with Docker using Spring Cloud Azure",
+      "link": "https://devblogs.microsoft.com/azure-sdk/writing-azure-service-related-unit-tests-with-docker-using-spring-cloud-azure/",
+      "published": "2026-03-30T15:00:31+00:00",
+      "summary": "This post shows how to write Azure service-related unit tests with Docker using Spring Cloud Azure. The post Writing Azure service-related unit tests with Docker using Spring Cloud Azure appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Rujun Chen"
+    },
     {
       "title": "CI/CD as a Platform: Shipping Microservices and AI Agents with Reusable GitHub Actions Workflows",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/ci-cd-as-a-platform-shipping-microservices-and-ai-agents-with/ba-p/4504550",
@@ -460,15 +541,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "johnsonshi_msft"
-    },
-    {
-      "title": "What’s new in Microsoft Sentinel: RSAC 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-rsac-2026/ba-p/4503971",
-      "published": "2026-03-21T16:13:26+00:00",
-      "summary": "Security is entering a new era, one defined by explosive data growth, increasingly sophisticated threats, and the rise of AI-enabled operations. To keep pace, security teams need an AI-powered approach to collect, reason over, and act on security data at scale. At RSA Conference 2026 (RSAC), we’re...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "spalani"
     },
     {
       "title": "Detect, correlate, contain: New Azure Firewall IDPS detections in Microsoft Sentinel and XDR",
@@ -957,15 +1029,6 @@
       "author": "Microsoft"
     },
     {
-      "title": "The Agent that investigates itself",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/the-agent-that-investigates-itself/ba-p/4500073",
-      "published": "2026-03-14T16:23:57+00:00",
-      "summary": "Azure SRE Agent handles tens of thousands of incident investigations each week for internal Microsoft services and external teams running it for their own systems. Last month, one of those incidents was about the agent itself. Our KV cache hit rate alert started firing. Cached token percentage was...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "sanchitmehta"
-    },
-    {
       "title": "March Patches for Azure DevOps Server",
       "link": "https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-4/",
       "published": "2026-03-13T21:41:24+00:00",
@@ -1441,15 +1504,6 @@
       "blog": "Azure Databricks",
       "blogId": "azure-databricks",
       "author": "AnaviNahar"
-    },
-    {
-      "title": "ExpressRoute Gateway Microsoft initiated migration",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/expressroute-gateway-microsoft-initiated-migration/ba-p/4497689",
-      "published": "2026-03-03T00:58:14+00:00",
-      "summary": "Objective The backend migration process is an automated upgrade performed by Microsoft to ensure your ExpressRoute gateways use the Standard IP SKU. This migration enhances gateway reliability and availability while maintaining service continuity. You receive notifications about scheduled...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "MekaylaMoore"
     },
     {
       "title": "Running more with less: Multi-instance GPU (MIG) with Dynamic Resource Allocation (DRA) on AKS",
