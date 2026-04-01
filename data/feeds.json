@@ -1,7 +1,124 @@
 {
-  "lastUpdated": "2026-03-31T13:16:23.009563+00:00",
-  "totalArticles": 170,
+  "lastUpdated": "2026-04-01T13:19:47.681276+00:00",
+  "totalArticles": 179,
   "articles": [
+    {
+      "title": "How to revoke connection OAuth programmatically in Logic Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/how-to-revoke-connection-oauth-programmatically-in-logic-apps/ba-p/4506825",
+      "published": "2026-04-01T11:02:44+00:00",
+      "summary": "There are multiple ways to revoke the OAuth of an API Connection other than clicking on the Revoke button in the portal: For using the \"Invoke an HTTP request\": Get the connection name: Create a Logic App (Consumption), use a trigger of your liking, then add the “Invoke an HTTP request”...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Omar_Abu_Arisheh"
+    },
+    {
+      "title": "Agents League: Meet the Winners",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/agents-league-meet-the-winners/ba-p/4507503",
+      "published": "2026-04-01T07:00:00+00:00",
+      "summary": "Agents League brought together developers from around the world to build AI agents using Microsoft's developer tools. With 100+ submissions across three tracks, choosing winners was genuinely difficult. Today, we're proud to announce the category champions. 🎨 Creative Apps Winner: CodeSonify View...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "aycabas"
+    },
+    {
+      "title": "Assess Security risks with Insights in Azure Migrate",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/assess-security-risks-with-insights-in-azure-migrate/ba-p/4470866",
+      "published": "2026-04-01T05:05:22+00:00",
+      "summary": "Why Security matters in Migration Migrating to the cloud is not only about speed and cost efficiency, it's also about building a secure foundation on Azure. As organizations move workloads to Azure, security often slips down the priority list, overshadowed by migration tasks and timelines. But...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "Nikita_Bajaj"
+    },
+    {
+      "title": "Project Nighthawk: A Research Agent Built for Field Engineering",
+      "link": "https://devblogs.microsoft.com/all-things-azure/project-nighthawk-a-research-agent-built-for-field-engineering/",
+      "published": "2026-04-01T04:24:38+00:00",
+      "summary": "If you work in field engineering, you know the scenario. A customer is deploying AKS in a regulated environment. They hit an issue during node bootstrapping. They want to know exactly what happens when a node joins the cluster, which components run in which order, and whether the behaviour they’re...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Diego Casati, Ray Kao"
+    },
+    {
+      "title": "Resolving MachineWithSameBiosIdAndFqdnAlreadyExists During Azure Migrate Mobility Agent Registration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/resolving-machinewithsamebiosidandfqdnalreadyexists-during-azure/ba-p/4492307",
+      "published": "2026-04-01T00:24:27+00:00",
+      "summary": "While working on an Azure Migrate project, we encountered a failure during Mobility Agent registration with the error: <ErrorCode>MachineWithSameBiosIdAndFqdnAlreadyExists</ErrorCode> This error code is identified in C:\\ProgramData\\ASRSetupLogs\\ASRUnifiedAgentConfigurator.log file on Source Server....",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "vihegde"
+    },
+    {
+      "title": "AWS to Azure Migration — From the Cloud Economics & FinOps Lens",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/aws-to-azure-migration-from-the-cloud-economics-finops-lens/ba-p/4506746",
+      "published": "2026-04-01T00:09:32+00:00",
+      "summary": "“ROI fails when FinOps joins late.” That single pattern explains why many cloud migrations deliver technical success but financial disappointment. Workloads move. SLAs hold. Teams celebrate go‑live. Then the CFO asks: Where are the savings we modeled? In most cases, FinOps was engaged after...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "sakshimalhotra"
+    },
+    {
+      "title": "Building with Azure Skills",
+      "link": "https://devblogs.microsoft.com/all-things-azure/building-with-azure-skills/",
+      "published": "2026-03-31T23:52:21+00:00",
+      "summary": "Part 3 of the Azure Skills Plugin series Previously: How to Install the Azure Plugin You’ve installed the Azure Skills Plugin. The Azure MCP server is running. You have a huge collection of tools and skills at your disposal. So, now what do you actually say to it? This post is a prompt cookbook....",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Chris Harris"
+    },
+    {
+      "title": "Simplify troubleshooting at scale - Centralized Log Management for CycleCloud Workspace for Slurm",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/simplify-troubleshooting-at-scale-centralized-log-management-for/ba-p/4470658",
+      "published": "2026-03-31T21:17:04+00:00",
+      "summary": "Training large AI models on hundreds or thousands of nodes introduces a critical operational challenge: when a distributed job fails, quickly identifying the root cause across scattered logs can become incredibly time-consuming. This manual process delays recovery and reduces cluster utilization....",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "jesselopez"
+    },
+    {
+      "title": "Microsoft Sentinel is now supported in Unified RBAC with row-level access",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-sentinel-is-now-supported-in-unified-rbac-with-row/ba-p/4503121",
+      "published": "2026-03-31T20:25:27+00:00",
+      "summary": "Enabling streamlined, granular, and scalable permissions We’re excited to announce the Public Preview of Unified Role Based Access Control (URBAC) for Microsoft Sentinel, together with row-level access. This new capability, available in April, extends the Microsoft Defender Unified RBAC model to...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "tomasbeerthuis"
+    },
+    {
+      "title": "Powering Event Driven Payments with Stripe and Azure Event Grid",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/powering-event-driven-payments-with-stripe-and-azure-event-grid/ba-p/4507094",
+      "published": "2026-03-31T17:41:07+00:00",
+      "summary": "Introduction Modern commerce systems are increasingly event-driven. Payments, subscriptions, refunds, disputes, and customer updates all generate signals that downstream systems must react quickly and reliably. Stripe events give developers real-time visibility into what is happening inside their...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "robece"
+    },
+    {
+      "title": "Continued Investment in Azure App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/continued-investment-in-azure-app-service/ba-p/4507398",
+      "published": "2026-03-31T17:23:11+00:00",
+      "summary": "This blog was originally published to the App Service team blog Recent Investments Premium v4 (Pv4) Azure App Service Premium v4 delivers higher performance and scalability on newer Azure infrastructure while preserving the fully managed PaaS experience developers rely on. Premium v4 offers...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Byron Tardif"
+    },
+    {
+      "title": "Aspire 13.2: Dashboard Gets Smarter Export and Telemetry",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-dashboard-improvements-export-and-telemetry/",
+      "published": "2026-03-31T17:00:00+00:00",
+      "summary": "Aspire 13.2 brings powerful new dashboard features for exporting and importing telemetry, querying telemetry via API, and improved GenAI telemetry visualization. The post Aspire 13.2: Dashboard Gets Smarter Export and Telemetry appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "James Newton-King"
+    },
+    {
+      "title": "Visual Studio March Update – Build Your Own Custom Agents",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-march-update-build-your-own-custom-agents/",
+      "published": "2026-03-31T16:00:18+00:00",
+      "summary": "This month’s Visual Studio update gives you new ways to customize GitHub Copilot. Custom agents allow you to build specialized Copilot agents tailored to your team’s workflow, backed by the tools and knowledge sources that matter to your project. Alongside that, agent skills bring reusable...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie"
+    },
     {
       "title": "The Durable Task Scheduler Consumption SKU is now Generally Available",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/the-durable-task-scheduler-consumption-sku-is-now-generally/ba-p/4506682",
@@ -19,15 +136,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "abhilashasr"
-    },
-    {
-      "title": "Powering Event Driven Payments with Stripe and Azure Event Grid",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/powering-event-driven-payments-with-stripe-and-azure-event-grid/ba-p/4507094",
-      "published": "2026-03-31T04:00:52+00:00",
-      "summary": "Introduction Modern commerce systems are increasingly event-driven. Payments, subscriptions, refunds, disputes, and customer updates all generate signals that downstream systems must react quickly and reliably. Stripe events give developers real-time visibility into what is happening inside their...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "robece"
     },
     {
       "title": "Azure Developer CLI (azd) – March 2026: Run and Debug AI Agents Locally, GitHub Copilot Integration, & Container App Jobs",
@@ -433,15 +541,6 @@
       "blog": "Messaging on Azure",
       "blogId": "messagingonazureblog",
       "author": "Connected-Seth"
-    },
-    {
-      "title": "Microsoft Sentinel is now supported in Unified RBAC with row-level access",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-sentinel-is-now-supported-in-unified-rbac-with-row/ba-p/4503121",
-      "published": "2026-03-23T17:31:35+00:00",
-      "summary": "Enabling streamlined, granular, and scalable permissions We’re excited to announce the Public Preview of Unified Role Based Access Control (URBAC) for Microsoft Sentinel, together with row-level access. This new capability, available in April, extends the Microsoft Defender Unified RBAC model to...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "tomasbeerthuis"
     },
     {
       "title": "From code to cloud: Deploy an AI agent to Microsoft Foundry in minutes with azd",
@@ -1146,15 +1245,6 @@
       "author": "Jay Gordon"
     },
     {
-      "title": "From Single Apps to Scale Solutions: How AI Agents Scale Modernization",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-single-apps-to-scale-solutions-how-ai-agents-scale/ba-p/4500059",
-      "published": "2026-03-11T15:00:00+00:00",
-      "summary": "AI is rewriting the modernization playbook. Over the past few years, AI has changed software development faster than anything we’ve seen in decades. And it’s not just about writing code faster. AI is reducing the day-to-day friction that slows teams down: upgrades, migrations, test failures,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "mandywhaley"
-    },
-    {
       "title": "Implementing the Backend-for-Frontend (BFF) / Curated API Pattern Using Azure API Management",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/implementing-the-backend-for-frontend-bff-curated-api-pattern/ba-p/4499880",
       "published": "2026-03-11T07:00:00+00:00",
@@ -1378,15 +1468,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "CollinBrian"
-    },
-    {
-      "title": "Building High-Performance Agentic Systems",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-high-performance-agentic-systems/ba-p/4497391",
-      "published": "2026-03-05T08:00:00+00:00",
-      "summary": "Most enterprise chatbots fail in the same quiet way. They answer questions. They impress in demos. And then they stall in production. Knowledge goes stale. Answers cannot be audited. The system cannot act beyond generating text. When workflows require coordination, execution, or accountability, the...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "sgangaramani"
     },
     {
       "title": "Platform Engineering for the Agentic AI era",
