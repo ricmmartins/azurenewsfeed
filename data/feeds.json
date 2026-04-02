@@ -1,7 +1,160 @@
 {
-  "lastUpdated": "2026-04-01T13:19:47.681276+00:00",
-  "totalArticles": 179,
+  "lastUpdated": "2026-04-02T13:11:19.078829+00:00",
+  "totalArticles": 187,
   "articles": [
+    {
+      "title": "Unlocking AI-Ready Unstructured Data at Scale with Komprise and Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/unlocking-ai-ready-unstructured-data-at-scale-with-komprise-and/ba-p/4507422",
+      "published": "2026-04-02T09:53:30+00:00",
+      "summary": "Why Move Unstructured Data to Azure On-premises storage environments are often over-provisioned to accommodate future growth, driving costs and operational complexity. Azure’s cloud-based storage platform enables organizations to right-size their environments through elastic scaling and Microsoft’s...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "dmalbrough"
+    },
+    {
+      "title": "VS Code Custom Agents: AI-Powered Terraform Security Scanning in the IDE",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/vs-code-custom-agents-ai-powered-terraform-security-scanning-in/ba-p/4507903",
+      "published": "2026-04-02T09:30:08+00:00",
+      "summary": "GitHub Copilot is already a powerful coding assistant, but out of the box it knows nothing specific about your project's conventions, security requirements, or operational processes. Custom agents change that. They let you define specialized AI assistants that live inside your repository, carry...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "SundarBalajiA"
+    },
+    {
+      "title": "Build a Fully Offline AI App with Foundry Local and CAG",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-a-fully-offline-ai-app-with-foundry-local-and-cag/ba-p/4502124",
+      "published": "2026-04-02T07:00:00+00:00",
+      "summary": "A hands-on guide to building an on-device AI support agent using Context-Augmented Generation, JavaScript, and Foundry Local. You have probably heard the AI pitch: \"just call our API.\" But what happens when your application needs to work without an internet connection? Perhaps your users are field...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Understanding the Total Cost of Ownership",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/understanding-the-total-cost-of-ownership/ba-p/4419195",
+      "published": "2026-04-02T05:46:17+00:00",
+      "summary": "Whether you're just beginning your journey in Azure or are already managing workloads in the cloud, it's essential to ground your strategy in proven guidance. The Microsoft Cloud Adoption Framework for Azure offers a comprehensive set of best practices, documentation, and tools to help you align...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "MariaJoseF"
+    },
+    {
+      "title": "Orchestrating Intrusion Detection and Prevention Signature overrides in Azure Firewall Premium",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/orchestrating-intrusion-detection-and-prevention-signature/ba-p/4502213",
+      "published": "2026-04-01T23:08:21+00:00",
+      "summary": "Introduction: Azure Firewall Premium provides strong protection with a built-in Intrusion Detection and Prevention System (IDPS). It inspects inbound, outbound, and east-west traffic against Microsoft’s continuously updated signature set and can block threats before they reach your workloads. IDPS...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor"
+    },
+    {
+      "title": "Announcing Private Preview: Deploy Ansible Playbooks using Azure Policy via Machine Configuration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-private-preview-deploy-ansible-playbooks-using-azure/ba-p/4507848",
+      "published": "2026-04-01T23:01:53+00:00",
+      "summary": "Azure Arc is on a mission to unify security, compliance, and management for Windows and Linux machines—anywhere. By extending Azure’s control plane beyond the cloud, Azure Arc enables organizations to unify governance, compliance, security and management of servers across on‑premises, edge, and...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "alinetran"
+    },
+    {
+      "title": "Announcing AWS with Azure SRE Agent: Cross-Cloud Investigation using the brand new AWS DevOps Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-aws-with-azure-sre-agent-cross-cloud-investigation/ba-p/4507413",
+      "published": "2026-04-01T21:49:12+00:00",
+      "summary": "Overview Connect Azure SRE Agent to AWS services using the official AWS MCP server. Query AWS documentation, execute any of the 15,000+ AWS APIs, run operational workflows, and kick off incident investigations through AWS DevOps Agent, which is now generally available. The AWS MCP server connects...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dbandaru"
+    },
+    {
+      "title": "User delegation SAS for Azure Tables, Azure Files, and Azure Queues is now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/user-delegation-sas-for-azure-tables-azure-files-and-azure/ba-p/4485693",
+      "published": "2026-04-01T20:27:47+00:00",
+      "summary": "We’re excited to announce that user delegation (UD) SAS is now generally available for Azure Tables, Azure Files, and Azure Queues in all regions. User delegation SAS is already available for Azure Blobs, and we are now extending support to Azure Tables, Azure Files, and Azure Queues. This will...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "ellievail"
+    },
+    {
+      "title": "Announcing Microsoft Azure Network Adapter (MANA) support for Existing VM SKUs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/announcing-microsoft-azure-network-adapter-mana-support-for/ba-p/4493279",
+      "published": "2026-04-01T20:00:03+00:00",
+      "summary": "As a leader in cloud infrastructure, Microsoft ensures that Azure’s IaaS customers always have access to the latest hardware. Our goal is to consistently deliver technology to support business critical workloads with world class efficiency, reliability, and security. Customers benefit from...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ali_sheriff"
+    },
+    {
+      "title": "A third-party connector integrating Claude with Microsoft Sentinel is now available",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/a-third-party-connector-integrating-claude-with-microsoft/ba-p/4507013",
+      "published": "2026-04-01T19:28:30+00:00",
+      "summary": "Security teams are increasingly exploring how AI assistants can support them in investigating incidents, asking questions, and exploring their data. At the same time, protecting that data, and controlling how it’s accessed, remains critical. Today, we’re sharing how Sentinel can securely support a...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "mcasgrain"
+    },
+    {
+      "title": "DPDK 25.11 Performance on Azure for High-Speed Packet Workloads",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/dpdk-25-11-performance-on-azure-for-high-speed-packet-workloads/ba-p/4424905",
+      "published": "2026-04-01T18:37:04+00:00",
+      "summary": "At Microsoft Azure, performance is treated as an ongoing discipline grounded in careful engineering and real-world validation. As cloud workloads grow in scale and variety, customers depend on consistent, high-throughput networking. Technologies such as the Data Plane Development Kit (DPDK) play a...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "KashanK"
+    },
+    {
+      "title": "RSAC 2026: New Microsoft Sentinel Connectors Announcement",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/rsac-2026-new-microsoft-sentinel-connectors-announcement/ba-p/4503042",
+      "published": "2026-04-01T18:36:50+00:00",
+      "summary": "Microsoft Sentinel helps organizations detect, investigate, and respond to security threats across increasingly complex environments. With the rollout of the Microsoft Sentinel data lake in the fall, and the App Assure-backed Sentinel promise that supports it, customers now have access to...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "JesseKopavi"
+    },
+    {
+      "title": "Improving the Markdown Editor for Work Items",
+      "link": "https://devblogs.microsoft.com/devops/improving-the-markdown-editor-for-work-items/",
+      "published": "2026-04-01T17:17:11+00:00",
+      "summary": "We introduced the Markdown editor in July 2025 to bring Markdown support to large text fields in work items. Since then, we’ve received valuable customer feedback highlighting challenges with the editing experience, particularly when switching in and out of edit mode. Many users found the current...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem"
+    },
+    {
+      "title": "The Polyglot tax – Part 3",
+      "link": "https://devblogs.microsoft.com/azure-sql/the-polyglot-tax-part-3/",
+      "published": "2026-04-01T16:11:53+00:00",
+      "summary": "Vectors, Analytics, and the End of ETL Part 3 of 4 – The Multimodal Database Series In Part 1: The Polyglot Tax we laid out the fraud detection scenario: a transaction comes in, and before you approve or deny it you need five checks. Order history (relational). Device fingerprint (JSON)....",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Aditya Badramraju"
+    },
+    {
+      "title": "Proactive Reliability Series — Article 1: Fault Types in Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/proactive-reliability-series-article-1-fault-types-in-azure/ba-p/4507006",
+      "published": "2026-04-01T16:11:25+00:00",
+      "summary": "Welcome to the Proactive Reliability Series — a collection of articles dedicated to raising awareness about the importance of designing, implementing, and operating reliable solutions in Azure. Each article will focus on a specific area of reliability engineering: from identifying critical flows...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Zoran Jovanovic"
+    },
+    {
+      "title": "Migrating Azure SQL Database Across Tenants Using Subscription Transfer",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/migrating-azure-sql-database-across-tenants-using-subscription/ba-p/4507002",
+      "published": "2026-04-01T16:01:18+00:00",
+      "summary": "Moving an Azure subscription between Microsoft Entra ID (formerly Azure Active Directory) tenants is a common requirement during: Mergers and acquisitions Organizational restructuring Enterprise Agreement (EA) enrollment realignment Lighthouse or multi‑tenant operating model changes However, when...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "princy_rajpoot"
+    },
+    {
+      "title": "Bookmark Studio: evolving bookmarks in Visual Studio",
+      "link": "https://devblogs.microsoft.com/visualstudio/bookmark-studio-evolving-bookmarks-in-visual-studio/",
+      "published": "2026-04-01T14:09:58+00:00",
+      "summary": "Bookmarks in Visual Studio have always been a simple, reliable feature. Many developers use them regularly, and over the years we’ve heard consistent feedback from those users. Bookmarks were useful, but there were a few core gaps that kept them from being as effective and relevant as they could...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mads Kristensen"
+    },
     {
       "title": "How to revoke connection OAuth programmatically in Logic Apps",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/how-to-revoke-connection-oauth-programmatically-in-logic-apps/ba-p/4506825",
@@ -669,15 +822,6 @@
       "author": "MikeAdams"
     },
     {
-      "title": "RSAC 2026: New Microsoft Sentinel Connectors Announcement",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/rsac-2026-new-microsoft-sentinel-connectors-announcement/ba-p/4503042",
-      "published": "2026-03-20T18:45:22+00:00",
-      "summary": "Microsoft Sentinel helps organizations detect, investigate, and respond to security threats across increasingly complex environments. With the rollout of the Microsoft Sentinel data lake in the fall, and the App Assure-backed Sentinel promise that supports it, customers now have access to...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "JesseKopavi"
-    },
-    {
       "title": "How Granular Delegated Admin Privileges (GDAP) allows Sentinel customers to delegate access",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/how-granular-delegated-admin-privileges-gdap-allows-sentinel/ba-p/4503123",
       "published": "2026-03-20T16:15:00+00:00",
@@ -930,15 +1074,6 @@
       "author": "Pamela_Fox"
     },
     {
-      "title": "Orchestrating Intrusion Detection and Prevention Signature overrides in Azure Firewall Premium",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/orchestrating-intrusion-detection-and-prevention-signature/ba-p/4502213",
-      "published": "2026-03-18T04:37:40+00:00",
-      "summary": "Introduction: Azure Firewall Premium provides strong protection with a built-in Intrusion Detection and Prevention System (IDPS). It inspects inbound, outbound, and east-west traffic against Microsoft’s continuously updated signature set and can block threats before they reach your workloads. IDPS...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor"
-    },
-    {
       "title": "Announcing Gateway API support for App Routing (preview)",
       "link": "https://blog.aks.azure.com/2026/03/18/app-routing-gateway-api",
       "published": "2026-03-18T00:00:00+00:00",
@@ -955,15 +1090,6 @@
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
       "author": "Desi Villanueva"
-    },
-    {
-      "title": "Announcing Microsoft Azure Network Adapter (MANA) support for Existing VM SKUs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/announcing-microsoft-azure-network-adapter-mana-support-for/ba-p/4493279",
-      "published": "2026-03-17T21:32:59+00:00",
-      "summary": "As a leader in cloud infrastructure, Microsoft ensures that Azure’s IaaS customers always have access to the latest hardware. Our goal is to consistently deliver technology to support business critical workloads with world class efficiency, reliability, and security. Customers benefit from...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ali_sheriff"
     },
     {
       "title": "Azure Skills Plugin – Let’s Get Started!",
@@ -1191,15 +1317,6 @@
       "author": "Aurnov_Chattopadhyay"
     },
     {
-      "title": "Proactive Health Monitoring and Auto-Communication Now Available for Azure Container Registry",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/proactive-health-monitoring-and-auto-communication-now-available/ba-p/4501378",
-      "published": "2026-03-12T22:54:28+00:00",
-      "summary": "Today, we're introducing Azure Container Registry's (ACR) latest service health enhancement: automated auto-communication through Azure Service Health alerts. When ACR detects degradation in critical operations—authentication, image push, and pull—your teams are now proactively notified through...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "FeynmanZhou"
-    },
-    {
       "title": "Azure Copilot Migration Agent",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/azure-copilot-migration-agent/ba-p/4501292",
       "published": "2026-03-12T17:21:59+00:00",
@@ -1416,15 +1533,6 @@
       "author": "Nick Brady"
     },
     {
-      "title": "MCP vs mcp-cli: Dynamic Tool Discovery for Token-Efficient AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-vs-mcp-cli-dynamic-tool-discovery-for-token-efficient-ai/ba-p/4494272",
-      "published": "2026-03-06T08:00:00+00:00",
-      "summary": "Introduction The AI agent ecosystem is evolving rapidly, and with it comes a scaling challenge that many developers are hitting context window bloat. When building systems that integrate with multiple MCP (Model Context Protocol) servers, you're forced to load all tool definitions upfront—consuming...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "anbonagi"
-    },
-    {
       "title": "Using Agents to Setup Experiments",
       "link": "https://devblogs.microsoft.com/ise/using-agents-to-setup-experiments/",
       "published": "2026-03-06T08:00:00+00:00",
@@ -1576,42 +1684,6 @@
       "blog": "Microsoft Defender for Cloud",
       "blogId": "microsoftdefendercloudblog",
       "author": "Fernanda_Vela"
-    },
-    {
-      "title": "Azure Databricks Lakebase is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/azure-databricks-lakebase-is-now-generally-available/ba-p/4498779",
-      "published": "2026-03-03T03:34:11+00:00",
-      "summary": "Modern applications are built on real-time, intelligent, and increasingly powered by AI agents that need fast, reliable access to operational data—without sacrificing governance, scale, or simplicity. To solve for this, Azure Databricks Lakebase introduces a serverless, Postgres database...",
-      "blog": "Azure Databricks",
-      "blogId": "azure-databricks",
-      "author": "AnaviNahar"
-    },
-    {
-      "title": "Running more with less: Multi-instance GPU (MIG) with Dynamic Resource Allocation (DRA) on AKS",
-      "link": "https://blog.aks.azure.com/2026/03/03/multi-instance-gpu-with-dra-on-aks",
-      "published": "2026-03-03T00:00:00+00:00",
-      "summary": "Learn how to use dynamic resource allocation (DRA) to allocate right-sized multi-instance GPU (MIG) node partitions for your GPU-accelerated workloads on Azure Kubernetes Service (AKS).",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "What questions will you ask your data agent?",
-      "link": "https://devblogs.microsoft.com/azure-sql/data-api-builder-mcp-questions/",
-      "published": "2026-03-02T21:18:18+00:00",
-      "summary": "Data API builder (DAB) 1.7+ delivers secure MCP-based CRUD access with deterministic, policy-enforced query generation and an upcoming aggregate tool that enables complex, production-safe analytical questions without exposing raw SQL to AI agents. The post What questions will you ask your data...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
-    },
-    {
-      "title": "Logic Apps Aviators Newsletter - March 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-march-2026/ba-p/4498260",
-      "published": "2026-03-02T16:00:00+00:00",
-      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month March 2026's Ace Aviator: Lilan Sameera Lilan Sameera - Senior Consulltant @ Adaptiv What's your role and title? What are your responsibilities? I’m a Senior Consultant at Adaptiv,...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
     }
   ]
 }
