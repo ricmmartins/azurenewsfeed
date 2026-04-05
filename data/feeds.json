@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-04-04T12:53:36.487679+00:00",
-  "totalArticles": 188,
+  "lastUpdated": "2026-04-05T12:55:33.812997+00:00",
+  "totalArticles": 183,
   "articles": [
+    {
+      "title": "How we build Azure SRE Agent with agentic workflows",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-we-build-azure-sre-agent-with-agentic-workflows/ba-p/4508753",
+      "published": "2026-04-05T07:40:28+00:00",
+      "summary": "The Challenge: Ops is critical but takes time from innovation Microsoft operates always-on, mission-critical production systems at extraordinary scale. Thousands of services, millions of deployments, and constant change are the reality of modern cloud engineering. These are titan systems that power...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "saziz_msft"
+    },
     {
       "title": "Give your Foundry Agent Custom Tools with MCP Servers on Azure Functions",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-foundry-agent-custom-tools-with-mcp-servers-on-azure/ba-p/4507828",
@@ -1038,15 +1047,6 @@
       "author": "parulseth"
     },
     {
-      "title": "Heroku Entered Maintenance Mode — Here's Your Next Move",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/heroku-entered-maintenance-mode-here-s-your-next-move/ba-p/4504021",
-      "published": "2026-03-20T14:27:30+00:00",
-      "summary": "Heroku has entered sustaining engineering — no new features, no new enterprise contracts. If you're running production workloads on the platform, you're probably thinking about what comes next. Azure Container Apps is worth a serious look. Scale-to-zero pricing, event-driven autoscaling, built-in...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "simonjj"
-    },
-    {
       "title": "Designing an Azure Disaster Recovery Strategy for Enterprise Workloads",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/designing-an-azure-disaster-recovery-strategy-for-enterprise/ba-p/4504142",
       "published": "2026-03-20T10:08:28+00:00",
@@ -1648,51 +1648,6 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Nick Brady"
-    },
-    {
-      "title": "Using Agents to Setup Experiments",
-      "link": "https://devblogs.microsoft.com/ise/using-agents-to-setup-experiments/",
-      "published": "2026-03-06T08:00:00+00:00",
-      "summary": "When setting up an experiment is complex, agents can automate the process to make it faster and more reliable. The post Using Agents to Setup Experiments appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Peter Lasne"
-    },
-    {
-      "title": "Decision Matrix: API vs MCP Tools — The Great Integration Showdown 🥊",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/decision-matrix-api-vs-mcp-tools-the-great-integration-showdown/ba-p/4499385",
-      "published": "2026-03-06T06:48:28+00:00",
-      "summary": "Audience: Engineers + Stakeholders (and anyone who's ever argued about API architecture at lunch)Date: March 2026Author: Sabyasachi Samaddar Purpose Somewhere, right now, two engineers are arguing about the \"right\" way to call an API. One swears by raw HTTP. The other just discovered MCP and thinks...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Sabyasachi-Samaddar"
-    },
-    {
-      "title": "Dynamic Resource Allocation (DRA) with NVIDIA virtualized GPU (vGPU) on AKS",
-      "link": "https://blog.aks.azure.com/2026/03/06/dra-with-vGPUs-on-aks",
-      "published": "2026-03-06T00:00:00+00:00",
-      "summary": "Configure dynamic resource allocation (DRA) for NVIDIA vGPU workloads and learn the prerequisites with setup steps on Azure Kubernetes Service (AKS).",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Windows Terminal Preview 1.25 Release",
-      "link": "https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-25-release/",
-      "published": "2026-03-05T22:28:49+00:00",
-      "summary": "We briefly paused our quarterly release cycle to focus on reliability and performance, but now we’re back with Windows Terminal 1.25! We are also updating Windows Terminal stable to version 1.24, which will include all of the features from this previous blog post. Some notable features to call out...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Dustin Howett"
-    },
-    {
-      "title": "How Netstar Streamlined Fleet Monitoring and Reduced Custom Integrations with Drasi",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/how-netstar-streamlined-fleet-monitoring-and-reduced-custom/ba-p/4499592",
-      "published": "2026-03-05T19:23:46+00:00",
-      "summary": "When a high-value container goes silent between waystations, logistics teams lose critical visibility, risking delays that can cascade into port congestion and missed connections. Netstar, a connected fleet solutions provider supporting customers like Maersk, faced this challenge as its operations...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "CollinBrian"
     }
   ]
 }
