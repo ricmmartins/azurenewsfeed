@@ -1,15 +1,42 @@
 {
-  "lastUpdated": "2026-04-05T12:55:33.812997+00:00",
-  "totalArticles": 183,
+  "lastUpdated": "2026-04-06T13:07:45.803086+00:00",
+  "totalArticles": 181,
   "articles": [
+    {
+      "title": "Private DNS and Hub–Spoke Networking for Enterprise AI Workloads on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/private-dns-and-hub-spoke-networking-for-enterprise-ai-workloads/ba-p/4508835",
+      "published": "2026-04-06T07:56:39+00:00",
+      "summary": "Introduction As organizations deploy enterprise AI platforms on Azure, security requirements increasingly drive the adoption of private-first architectures. Private networking only Centralized firewalls or NVAs Hub–and–spoke virtual network architectures Private Endpoints for all PaaS services...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "deepthihr"
+    },
     {
       "title": "How we build Azure SRE Agent with agentic workflows",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-we-build-azure-sre-agent-with-agentic-workflows/ba-p/4508753",
-      "published": "2026-04-05T07:40:28+00:00",
+      "published": "2026-04-06T07:43:19+00:00",
       "summary": "The Challenge: Ops is critical but takes time from innovation Microsoft operates always-on, mission-critical production systems at extraordinary scale. Thousands of services, millions of deployments, and constant change are the reality of modern cloud engineering. These are titan systems that power...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "saziz_msft"
+    },
+    {
+      "title": "Building MCP servers with Entra ID and pre-authorized clients",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-mcp-servers-with-entra-id-and-pre-authorized-clients/ba-p/4508453",
+      "published": "2026-04-06T07:00:00+00:00",
+      "summary": "The Model Context Protocol (MCP) gives AI agents a standard way to call external tools, but things get more complicated when those tools need to know who the user is. In this post, I’ll show how to build an MCP server with the Python FastMCP package that authenticates users with Microsoft Entra ID...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox"
+    },
+    {
+      "title": "Building Cost-Aware Azure Infrastructure Pipelines: Estimate Costs Before You Deploy",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-cost-aware-azure-infrastructure-pipelines-estimate/ba-p/4508776",
+      "published": "2026-04-06T06:28:43+00:00",
+      "summary": "The Problem: Cost Is a Blind Spot in IaC Reviews Code reviews for Bicep or Terraform templates typically focus on correctness, security, and compliance. But cost is rarely part of the review process because: Developers don't have easy access to pricing data at review time Azure pricing depends on...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "whosocurious"
     },
     {
       "title": "Give your Foundry Agent Custom Tools with MCP Servers on Azure Functions",
@@ -1065,15 +1092,6 @@
       "author": "harshul05"
     },
     {
-      "title": "Centralized Monitoring in Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/centralized-monitoring-in-azure/ba-p/4504027",
-      "published": "2026-03-20T06:17:50+00:00",
-      "summary": "Centralized Monitoring in Azure: Automating Diagnostic Settings Across All Resources Introduction In modern cloud environments, observability is not optional—it’s foundational. As organizations scale their Azure footprint, ensuring consistent monitoring across hundreds (or thousands) of resources...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Shikhaghildiyal"
-    },
-    {
       "title": "Introducing Azure Managed Grafana MCP: The Managed Telemetry Gateway for AI Agents",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/introducing-azure-managed-grafana-mcp-the-managed-telemetry/ba-p/4503619",
       "published": "2026-03-19T20:10:08+00:00",
@@ -1533,15 +1551,6 @@
       "author": "Maddy Montaquila"
     },
     {
-      "title": "Migrating On-prem Windows & Linux VMs to Azure Confidential Virtual Machines via Azure Migrate",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/migrating-on-prem-windows-linux-vms-to-azure-confidential/ba-p/4500898",
-      "published": "2026-03-10T15:09:25+00:00",
-      "summary": "1. Executive Summary Enterprise cloud adoption increasingly prioritizes trust boundaries that extend beyond traditional infrastructure isolation. While encryption at rest and in transit are foundational, modern organizations must also ensure that data in use (data actively processed in CPU or...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "SamhithaGurumurthy"
-    },
-    {
       "title": "Scaling DNS on AKS with Cilium: NodeLocal DNSCache, LRP, and FQDN Policies",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/scaling-dns-on-aks-with-cilium-nodelocal-dnscache-lrp-and-fqdn/ba-p/4486323",
       "published": "2026-03-10T09:23:51+00:00",
@@ -1587,15 +1596,6 @@
       "author": "Chris Harris"
     },
     {
-      "title": "Microsoft Agent Framework, Microsoft Foundry, MCP, Aspire を使った実践的な AI アプリを構築するサンプルが登場",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-agent-framework-microsoft-foundry-mcp-aspire-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E5%AE%9F%E8%B7%B5%E7%9A%84%E3%81%AA/ba-p/4499972",
-      "published": "2026-03-09T17:00:00+00:00",
-      "summary": "AI エージェントを作ること自体は、以前よりも簡単になってきました。しかし、それらを実際の本番運用のアプリケーションの一部としてデプロイすること (複数のサービス、永続的な状態管理、本番向けのインフラを含めた形で運用すること) になると、途端に複雑になります。 .NET コミュニティの開発者からも、ローカル環境でもクラウドでも動作する、クラウドネイティブな実運用レベルのサンプルが見たいという声が多く寄せられていました。 その声に応え、私たちはオープンソースのサンプルアプリ『Interview Coach (面接コーチ)』を作りました。模擬就職面接を行う AI チャット web アプリです。...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Madoka Chiyoda"
-    },
-    {
       "title": "Visual Studio Dev Essentials: Free, Practical Tools for Every Developer",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-dev-essentials-free-practical-tools-for-every-developer/",
       "published": "2026-03-09T15:35:00+00:00",
@@ -1630,24 +1630,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "Sabyasachi-Samaddar"
-    },
-    {
-      "title": "Microsoft at NVIDIA GTC 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/microsoft-at-nvidia-gtc-2026/ba-p/4497670",
-      "published": "2026-03-06T23:44:35+00:00",
-      "summary": "Microsoft returns to NVIDIA GTC 2026 in San Jose with a strong presence across conference sessions, in‑booth theater talks, live demos, and executive‑level ancillary events. Together with NVIDIA and our partner ecosystem, Microsoft is showcasing how Azure AI infrastructure enables AI training,...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Fernando_Aznar"
-    },
-    {
-      "title": "What’s new in Microsoft Foundry | February 2026",
-      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-feb-2026/",
-      "published": "2026-03-06T23:08:31+00:00",
-      "summary": "February brings Anthropic's Claude Opus 4.6 and Sonnet 4.6 with 1M-token context, GPT-Realtime-1.5 and GPT-Audio-1.5, Grok 4.0 GA, the Microsoft Agent Framework reaching Release Candidate, and the Foundry REST API quietly going GA — laying the foundation for imminent SDK GA announcements across...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Nick Brady"
     }
   ]
 }
