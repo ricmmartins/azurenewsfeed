@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-04-06T13:07:45.803086+00:00",
-  "totalArticles": 181,
+  "lastUpdated": "2026-04-07T13:16:56.117096+00:00",
+  "totalArticles": 187,
   "articles": [
+    {
+      "title": "Discover and assess File Shares for migration to Azure Files with Azure Migrate",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/discover-and-assess-file-shares-for-migration-to-azure-files/ba-p/4509034",
+      "published": "2026-04-07T07:00:08+00:00",
+      "summary": "When organizations migrate to the cloud, applications are at the center of every decision. And behind every application is data, stored in file shares, accessed by users and services, and critical to keeping the application running. Moving that data seamlessly is not optional; it is a fundamental...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "ankitsurkar"
+    },
+    {
+      "title": "Why Data Platforms Must Become Intelligence Platforms for AI Agents to Work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/why-data-platforms-must-become-intelligence-platforms-for-ai/ba-p/4505653",
+      "published": "2026-04-07T07:00:00+00:00",
+      "summary": "The promise and the gap Your organization has invested in an AI agent. You ask it: \"Prepare a summary of Q3 revenue by region, including year-over-year trends and top product lines.\" The agent finds revenue numbers in a SQL warehouse, product metadata in Dataverse, regional mappings in SharePoint,...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "AnjaliSadhukhan"
+    },
+    {
+      "title": "Agentic IIS Migration to Managed Instance on Azure App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/agentic-iis-migration-to-managed-instance-on-azure-app-service/ba-p/4508969",
+      "published": "2026-04-06T23:58:35+00:00",
+      "summary": "Introduction Enterprises running ASP.NET Framework workloads on Windows Server with IIS face a familiar dilemma: modernize or stay put. The applications work, the infrastructure is stable, and nobody wants to be the person who breaks production during a cloud migration. But the cost of maintaining...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Gaurav-Seth"
+    },
+    {
+      "title": "Introducing the New Microsoft Sentinel Logstash Output Plugin (Public Preview!)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-the-new-microsoft-sentinel-logstash-output-plugin/ba-p/4508904",
+      "published": "2026-04-06T22:28:06+00:00",
+      "summary": "Many organizations rely on Logstash as a flexible, trusted data pipeline for collecting, transforming, and forwarding logs from on-premises and hybrid environments. Microsoft Sentinel has long supported a Logstash output plugin, enabling customers to send data directly into Sentinel as part of...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "JamesAde"
+    },
+    {
+      "title": "Announcing the end of support for Node.js 20.x in the Azure SDK for JavaScript",
+      "link": "https://devblogs.microsoft.com/azure-sdk/announcing-the-end-of-support-for-node-js-20-x-in-the-azure-sdk-for-javascript/",
+      "published": "2026-04-06T20:52:46+00:00",
+      "summary": "After July 9, 2026, the Azure SDK for JavaScript will no longer support Node.js 20.x. Upgrade to an Active Node.js Long Term Support (LTS) version to stay secure and up-to-date. The post Announcing the end of support for Node.js 20.x in the Azure SDK for JavaScript appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Minh-Anh Phan"
+    },
+    {
+      "title": "Announcing Public Preview for Essential Machine Management",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-public-preview-for-essential-machine-management/ba-p/4502721",
+      "published": "2026-04-06T18:54:19+00:00",
+      "summary": "Managing servers and VMs across Azure, on premises, and multi-cloud environments often means turning on core capabilities—monitoring, updates, inventory, and configuration—through separate setup experiences. We’ve heard feedback that this makes it harder to get visibility into machine state and...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "Meagan McCrory"
+    },
+    {
+      "title": "Give your Foundry Agent Custom Tools with MCP Servers on Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-foundry-agent-custom-tools-with-mcp-servers-on-azure/ba-p/4507828",
+      "published": "2026-04-06T15:32:41+00:00",
+      "summary": "This blog post is for developers who have an MCP server deployed to Azure Functions and want to connect it to Microsoft Foundry agents. It walks through why you'd want to do this, the different authentication options available, and how to get your agent calling your MCP tools. Connect your MCP...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "lily-ma"
+    },
+    {
+      "title": "MCP Apps on Azure Functions: Quickstart with TypeScript",
+      "link": "https://devblogs.microsoft.com/azure-sdk/mcp-apps-on-azure-functions-quickstart-with-typescript/",
+      "published": "2026-04-06T15:01:58+00:00",
+      "summary": "Learn how to build and deploy MCP (Model Context Protocol) apps on Azure Functions using TypeScript. This guide covers MCP tools, resources, local development, and serverless deployment with a practical weather app example. The post MCP Apps on Azure Functions: Quickstart with TypeScript appeared...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Swapnil Nagar"
+    },
+    {
+      "title": "Logic Apps Aviators Newsletter - April 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-april-2026/ba-p/4508804",
+      "published": "2026-04-06T15:00:00+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month April 2026's Ace Aviator: Marcelo Gomes Marcelo Gomes - Integration Team Leader @ COFCO International What’s your role and title? What are your responsibilities? I’m an Integration...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "Azure Red Hat OpenShift: Managed Identity and Workload Identity now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-red-hat-openshift-managed-identity-and-workload-identity/ba-p/4504940",
+      "published": "2026-04-06T14:44:45+00:00",
+      "summary": "Azure Red Hat OpenShift now supports managed identities and workload identities as a generally available capability, so you can run OpenShift clusters and applications on Azure without long-lived service principal credentials.​ ARO, identity, and Azure governance With GA support for managed...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "MelanieKraintz007"
+    },
     {
       "title": "Private DNS and Hub–Spoke Networking for Enterprise AI Workloads on Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/private-dns-and-hub-spoke-networking-for-enterprise-ai-workloads/ba-p/4508835",
@@ -37,15 +127,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "whosocurious"
-    },
-    {
-      "title": "Give your Foundry Agent Custom Tools with MCP Servers on Azure Functions",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-foundry-agent-custom-tools-with-mcp-servers-on-azure/ba-p/4507828",
-      "published": "2026-04-04T04:21:04+00:00",
-      "summary": "This blog post is for developers who have an MCP server deployed to Azure Functions and want to connect it to Microsoft Foundry agents. It walks through why you'd want to do this, the different authentication options available, and how to get your agent calling your MCP tools. Connect your MCP...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "lily-ma"
     },
     {
       "title": "MCP Apps on Azure Functions: Quick Start with TypeScript",
@@ -930,15 +1011,6 @@
       "author": "PuiChee (PC) Chan"
     },
     {
-      "title": "Migrating Ant Builds to Maven with GitHub Copilot app modernization",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/migrating-ant-builds-to-maven-with-github-copilot-app/ba-p/4491992",
-      "published": "2026-03-23T16:49:01+00:00",
-      "summary": "Many legacy Java applications still rely on Apache Ant for building, packaging, and dependency management. While Ant remains flexible, it lacks the structured lifecycle, dependency resolution, and ecosystem support that modern build tools like Maven provide. Migrating from Ant to Maven improves...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "ayangupta"
-    },
-    {
       "title": "Announcing Aspire 13.2",
       "link": "https://devblogs.microsoft.com/aspire/aspire-13-2-announcement/",
       "published": "2026-03-23T15:30:00+00:00",
@@ -946,15 +1018,6 @@
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
       "author": "Maddy Montaquila, David Fowler"
-    },
-    {
-      "title": "Code Optimizations for Azure App Service Now Available in VS Code",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/code-optimizations-for-azure-app-service-now-available-in-vs/ba-p/4504252",
-      "published": "2026-03-23T15:18:08+00:00",
-      "summary": "Today we shipped a feature in the Azure App Service extension for VS Code that answers both questions: Code Optimizations, powered by Application Insights profiler data and GitHub Copilot. The problem: production performance is a black box You've deployed your .NET app to Azure App Service....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "fiveisprime"
     },
     {
       "title": "Shaping the Next Era of Energy Decision Making with Geospatial Intelligence",
@@ -1558,15 +1621,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "Simone_Rodigari"
-    },
-    {
-      "title": "Getting Started with Behave: Writing Cucumber Tests in VS Code",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/getting-started-with-behave-writing-cucumber-tests-in-vs-code/ba-p/4496865",
-      "published": "2026-03-10T07:00:00+00:00",
-      "summary": "What is Behave? Behave is a BDD test framework for Python that allows you to write tests in plain English using Given–When–Then syntax, backed by Python step definitions. Key benefits: Human‑readable test scenarios using Gherkin Strong alignment between business requirements and test automation...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "sabappal"
     },
     {
       "title": "How to Access a Shared OneDrive Folder in Azure Logic Apps",
