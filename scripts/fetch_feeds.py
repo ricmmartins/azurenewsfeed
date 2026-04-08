@@ -48,6 +48,8 @@ BLOGS = {
     "microsoftsentinelblog": "Microsoft Sentinel",
     "microsoftdefendercloudblog": "Microsoft Defender for Cloud",
     "azureadvancedthreatprotection": "Azure Advanced Threat Protection",
+    "azure-ai-foundry-blog": "Azure AI Foundry",
+    "itopstalkblog": "ITOpsTalk",
 }
 
 TC_RSS_URL = (
