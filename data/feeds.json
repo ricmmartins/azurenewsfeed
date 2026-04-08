@@ -1,7 +1,115 @@
 {
-  "lastUpdated": "2026-04-07T13:16:56.117096+00:00",
-  "totalArticles": 187,
+  "lastUpdated": "2026-04-08T13:18:39.707330+00:00",
+  "totalArticles": 195,
   "articles": [
+    {
+      "title": "Build Your AI Agent in 5 Minutes with AI Toolkit for VS Code",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/build-your-ai-agent-in-5-minutes-with-ai-toolkit-for-vs-code/ba-p/4509578",
+      "published": "2026-04-08T09:59:38+00:00",
+      "summary": "What if building an AI agent was as easy as filling out a form? No frameworks to install. No boilerplate to copy-paste from GitHub. No YAML to debug at midnight. Just VS Code, one extension, and an idea. AI Toolkit for VS Code turns agent development into something anyone can do — whether you're a...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "isha_sahni"
+    },
+    {
+      "title": "AZD for Beginners: A Practical Introduction to Azure Developer CLI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/azd-for-beginners-a-practical-introduction-to-azure-developer/ba-p/4503747",
+      "published": "2026-04-08T07:00:00+00:00",
+      "summary": "If you are learning how to get an application from your machine into Azure without stitching together every deployment step by hand, Azure Developer CLI, usually shortened to azd, is one of the most useful tools to understand early. It gives developers a workflow-focused command line for...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Simplify Azure Arc Server Onboarding with Ansible and the New Onboarding Role",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplify-azure-arc-server-onboarding-with-ansible-and-the-new/ba-p/4509481",
+      "published": "2026-04-08T06:40:42+00:00",
+      "summary": "If you’re already using Ansible to manage your infrastructure, there’s now a simpler—and more secure—way to bring machines under Azure Arc management. We’ve introduced a new Azure Arc onboarding role designed specifically for automated scenarios like Ansible playbooks. This role follows the...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "alinetran"
+    },
+    {
+      "title": "Azure Container Storage v2.1.0: Now GA with Elastic SAN",
+      "link": "https://blog.aks.azure.com/2026/04/08/acstor-v2.1-ga",
+      "published": "2026-04-08T00:00:00+00:00",
+      "summary": "Explore what’s new in Azure Container Storage v2.1.0 with Elastic SAN integration, modular on-demand installation, and enhanced node selector support.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
+      "title": "3 Ways to Get More from Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/3-ways-to-get-more-from-azure-sre-agent/ba-p/4508993",
+      "published": "2026-04-07T23:33:10+00:00",
+      "summary": "When you first set up Azure SRE Agent, it’s tempting to give it everything. Connect all your alert sources, route every severity, set up scheduled tasks to poll your channels every 30 seconds. The agent can handle all of it. But a few simple configuration choices can help you get more value from...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dchelupati"
+    },
+    {
+      "title": "Azure Monitor in Azure SRE Agent: Autonomous Alert Investigation and Intelligent Merging",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-monitor-in-azure-sre-agent-autonomous-alert-investigation/ba-p/4509069",
+      "published": "2026-04-07T22:20:53+00:00",
+      "summary": "Azure Monitor is great at telling you something is wrong. But once the alert fires, the real work begins — someone has to open the portal, triage it, dig into logs, and figure out what happened. That takes time. And while they're investigating, the same alert keeps firing every few minutes,...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Vineela-Suri"
+    },
+    {
+      "title": "MCP as Easy as 1-2-3: Introducing the Fluent API for MCP Apps",
+      "link": "https://devblogs.microsoft.com/azure-sdk/mcp-as-easy-as-1-2-3-introducing-the-fluent-api-for-mcp-apps/",
+      "published": "2026-04-07T21:16:11+00:00",
+      "summary": "Build MCP tools with rich UI experiences using the new Fluent API for MCP Apps in the .NET isolated worker. Configure views, permissions, and security policies with just a few lines of code. The post MCP as Easy as 1-2-3: Introducing the Fluent API for MCP Apps appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Lilian Kasem (she/her)"
+    },
+    {
+      "title": "RSAC 2026: New Microsoft Sentinel Connectors Announcement",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/rsac-2026-new-microsoft-sentinel-connectors-announcement/ba-p/4503042",
+      "published": "2026-04-07T18:41:22+00:00",
+      "summary": "Microsoft Sentinel helps organizations detect, investigate, and respond to security threats across increasingly complex environments. With the rollout of the Microsoft Sentinel data lake in the fall, and the App Assure-backed Sentinel promise that supports it, customers now have access to...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "JesseKopavi"
+    },
+    {
+      "title": "Agentic development aspirations: build, run, observe — without more Markdown",
+      "link": "https://devblogs.microsoft.com/aspire/agentic-dev-aspirations/",
+      "published": "2026-04-07T17:00:00+00:00",
+      "summary": "AI agents can write code but struggle to run and test it. Aspire gives your agent a codified app model to build, run, and observe your whole stack. The post Agentic development aspirations: build, run, observe — without more Markdown appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Maddy Montaquila"
+    },
+    {
+      "title": "Logic Apps Aviators Newsletter - April 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-april-2026/ba-p/4508804",
+      "published": "2026-04-07T16:55:33+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month April 2026's Ace Aviator: Marcelo Gomes Marcelo Gomes - Integration Team Leader @ COFCO International What’s your role and title? What are your responsibilities? I’m an Integration...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "Scalable AI with Azure Cosmos DB: Tredence Intelligent Document Processing (IDP) | March 2026",
+      "link": "https://devblogs.microsoft.com/cosmosdb/scalable-ai-with-azure-cosmos-db-tredence-intelligent-document-processing-idp-march-2026/",
+      "published": "2026-04-07T16:46:06+00:00",
+      "summary": "Azure Cosmos DB enables scalable AI-driven document processing, addressing one of the biggest barriers to operational scale in today’s enterprise AI landscape. Organizations continue to manage massive volumes of structured and unstructured content—contracts, regulatory filings, operational records,...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Manish Sharma"
+    },
+    {
+      "title": "Take full control of your floating windows in Visual Studio",
+      "link": "https://devblogs.microsoft.com/visualstudio/take-full-control-of-your-floating-windows-in-visual-studio/",
+      "published": "2026-04-07T14:00:39+00:00",
+      "summary": "Make Visual Studio floating windows work perfectly with PowerToys FancyZones. Flip one option to get independent windows, better snapping, and less friction. The post Take full control of your floating windows in Visual Studio appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mads Kristensen"
+    },
     {
       "title": "Discover and assess File Shares for migration to Azure Files with Azure Migrate",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/discover-and-assess-file-shares-for-migration-to-azure-files/ba-p/4509034",
@@ -19,6 +127,42 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "AnjaliSadhukhan"
+    },
+    {
+      "title": "AI Inference on AKS enabled by Azure Arc: Predictive AI using Triton and ResNet-50",
+      "link": "https://blog.aks.azure.com/2026/04/07/ai-inference-on-aks-arc-part-4",
+      "published": "2026-04-07T00:01:03+00:00",
+      "summary": "Run predictive AI at the edge by deploying Triton with the ONNX backend on AKS enabled by Azure Arc for local ResNet 50 GPU inference without cloud dependency.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
+      "title": "AI Inference on AKS enabled by Azure Arc: Generative AI with Open‑Source LLM Server",
+      "link": "https://blog.aks.azure.com/2026/04/07/ai-inference-on-aks-arc-part-3",
+      "published": "2026-04-07T00:01:02+00:00",
+      "summary": "Run generative AI at the edge with Ollama and vLLM on AKS enabled by Azure Arc, enabling local LLM inference on GPU hardware without dependency or data egress.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
+      "title": "AI Inference on AKS enabled by Azure Arc: Series Introduction and Scope",
+      "link": "https://blog.aks.azure.com/2026/04/07/ai-inference-on-aks-arc-part-2",
+      "published": "2026-04-07T00:01:01+00:00",
+      "summary": "Scenario driven series for generative and predictive AI inference on AKS enabled by Azure Arc, across CPUs, GPUs, and NPUs in on-premises and edge environments.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
+      "title": "AI Inference on AKS enabled by Azure Arc: Bringing AI to the Edge and On‑Premises",
+      "link": "https://blog.aks.azure.com/2026/04/07/ai-inference-on-aks-arc-part-1",
+      "published": "2026-04-07T00:01:00+00:00",
+      "summary": "Learn how to bring AI inference closer to your data with AKS enabled by Azure Arc, with practical hybrid and edge scenarios for secure, low-latency workloads.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "Agentic IIS Migration to Managed Instance on Azure App Service",
@@ -73,15 +217,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Swapnil Nagar"
-    },
-    {
-      "title": "Logic Apps Aviators Newsletter - April 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-april-2026/ba-p/4508804",
-      "published": "2026-04-06T15:00:00+00:00",
-      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month April 2026's Ace Aviator: Marcelo Gomes Marcelo Gomes - Integration Team Leader @ COFCO International What’s your role and title? What are your responsibilities? I’m an Integration...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
     },
     {
       "title": "Azure Red Hat OpenShift: Managed Identity and Workload Identity now generally available",
@@ -406,15 +541,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "KashanK"
-    },
-    {
-      "title": "RSAC 2026: New Microsoft Sentinel Connectors Announcement",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/rsac-2026-new-microsoft-sentinel-connectors-announcement/ba-p/4503042",
-      "published": "2026-04-01T18:36:50+00:00",
-      "summary": "Microsoft Sentinel helps organizations detect, investigate, and respond to security threats across increasingly complex environments. With the rollout of the Microsoft Sentinel data lake in the fall, and the App Assure-backed Sentinel promise that supports it, customers now have access to...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "JesseKopavi"
     },
     {
       "title": "Improving the Markdown Editor for Work Items",
@@ -831,15 +957,6 @@
       "author": "ashish-chhabria"
     },
     {
-      "title": "Take Control of Every Message: Partial Failure Handling for Service Bus Triggers in Azure Functions",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/take-control-of-every-message-partial-failure-handling-for/ba-p/4504893",
-      "published": "2026-03-25T18:06:50+00:00",
-      "summary": "The Problem: All-or-Nothing Batch Processing in Azure Service Bus Azure Service Bus is one of the most widely used messaging services for building event-driven applications on Azure. When you use Azure Functions with a Service Bus trigger in batch mode, your function receives multiple messages at...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "swapnil_nagar"
-    },
-    {
       "title": "Azure Managed Redis & Azure Databricks: Real-time Feature Serving for Low-Latency Decisions",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/azure-managed-redis-azure-databricks-real-time-feature-serving/ba-p/4503116",
       "published": "2026-03-25T16:00:00+00:00",
@@ -984,15 +1101,6 @@
       "author": "Diego Casati, Ray Kao"
     },
     {
-      "title": "Get started with NeuBird Hawkeye MCP server in Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/get-started-with-neubird-hawkeye-mcp-server-in-azure-sre-agent/ba-p/4504860",
-      "published": "2026-03-23T18:07:39+00:00",
-      "summary": "Integrate NeuBird Hawkeye MCP with Azure SRE Agent TL;DR If your infrastructure spans multiple clouds say Azure and GCP, or Azure alongside any other cloud provider investigating incidents means jumping between completely separate consoles, log systems, and monitoring stacks. Azure SRE Agent now...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dbandaru"
-    },
-    {
       "title": "Azure Event Grid MQTT Broker: Enterprise-Grade Messaging for the Connected World",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/azure-event-grid-mqtt-broker-enterprise-grade-messaging-for-the/ba-p/4504246",
       "published": "2026-03-23T17:48:18+00:00",
@@ -1135,15 +1243,6 @@
       "blog": "Microsoft Defender for Cloud",
       "blogId": "microsoftdefendercloudblog",
       "author": "parulseth"
-    },
-    {
-      "title": "Designing an Azure Disaster Recovery Strategy for Enterprise Workloads",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/designing-an-azure-disaster-recovery-strategy-for-enterprise/ba-p/4504142",
-      "published": "2026-03-20T10:08:28+00:00",
-      "summary": "Introduction As organizations accelerate their cloud adoption journey, ensuring resiliency and disaster recovery (DR) becomes a foundational requirement for maintaining business continuity. In large-scale Azure environments, customers often operate critical workloads in a primary region and later...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Shikhaghildiyal"
     },
     {
       "title": "Power Apps Vibe Experience: Build Business Apps at the Speed of Ideas",
@@ -1587,15 +1686,6 @@
       "author": "Jay Gordon"
     },
     {
-      "title": "Implementing the Backend-for-Frontend (BFF) / Curated API Pattern Using Azure API Management",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/implementing-the-backend-for-frontend-bff-curated-api-pattern/ba-p/4499880",
-      "published": "2026-03-11T07:00:00+00:00",
-      "summary": "Modern digital applications rarely serve a single type of client. Web portals, mobile apps, partner integrations, and internal tools often consume the same backend services—yet each has different performance, payload, and UX requirements. Exposing backend APIs directly to all clients frequently...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "SajalMukherjee"
-    },
-    {
       "title": "Understanding the Standard HDD I/O unit size update and what it means for your workloads",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/understanding-the-standard-hdd-i-o-unit-size-update-and-what-it/ba-p/4499128",
       "published": "2026-03-10T18:00:00+00:00",
@@ -1666,24 +1756,6 @@
       "blog": "Azure Compute",
       "blogId": "azurecompute",
       "author": "AjKundnani"
-    },
-    {
-      "title": "AI Inferencing in Air-Gapped Environments",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/ai-inferencing-in-air-gapped-environments/ba-p/4498594",
-      "published": "2026-03-09T09:18:31+00:00",
-      "summary": "If you had to point out the top trends of IT these days, two strong candidates would be Generative AI and Cybersecurity. Especially around the latter, sophistication, reach and volume of cyberattacks have seen significant increases in the last years, with added ingredients such as advanced...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "damocelj"
-    },
-    {
-      "title": "Stop Burning Money in Azure Storage",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/stop-burning-money-in-azure-storage/ba-p/4500208",
-      "published": "2026-03-09T03:19:14+00:00",
-      "summary": "Audience: Engineers, Architects, FinOps teams (and anyone whose finance team sends \"friendly\" cost emails) Your blobs called. They want to talk about your spending habits. Look, we've all been there. You spin up a storage account, dump everything into Hot tier, and walk away feeling productive. Six...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Sabyasachi-Samaddar"
     }
   ]
 }
