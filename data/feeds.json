@@ -1,15 +1,69 @@
 {
-  "lastUpdated": "2026-04-10T13:07:15.600937+00:00",
+  "lastUpdated": "2026-04-11T12:55:36.782257+00:00",
   "totalArticles": 224,
   "articles": [
     {
+      "title": "From Toil to Trust: How Azure SRE Agent Is Redefining Cloud Operations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-toil-to-trust-how-azure-sre-agent-is-redefining-cloud/ba-p/4505875",
+      "published": "2026-04-11T05:36:05+00:00",
+      "summary": "As Azure environments scale, infrastructure teams face a familiar challenge: operating reliably at scale.Outages are no longer caused by a single VM or misconfigured service—they emerge from complex dependencies across compute, networking, storage, and platform services. Azure SRE Agent is designed...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "siddhigupta"
+    },
+    {
+      "title": "An update to the active flow billing model for Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/an-update-to-the-active-flow-billing-model-for-azure-sre-agent/ba-p/4507866",
+      "published": "2026-04-10T20:55:35+00:00",
+      "summary": "Earlier today, we announced that Azure SRE Agent now supports multiple AI model providers, starting with Anthropic. To support multi-model choice, and make active usage costs easier to understand, we’re updating how active flow usage is measured, effective April 15, 2026. At a glance What’s...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Mayunk_Jain"
+    },
+    {
+      "title": "A third-party connector integrating Claude with Microsoft Sentinel is now available",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/a-third-party-connector-integrating-claude-with-microsoft/ba-p/4507013",
+      "published": "2026-04-10T19:46:18+00:00",
+      "summary": "Security teams are increasingly exploring how AI assistants support them in investigating incidents, asking questions, and exploring their data. At the same time, controlling how data is accessed remains critical. Today, we’re sharing how Sentinel can support a third-party AI assistant like Claude...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "mcasgrain"
+    },
+    {
       "title": "Securing multicloud (Azure, AWS & GCP) with Microsoft Defender for Cloud: Connector best practices",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/securing-multicloud-azure-aws-gcp-with-microsoft-defender-for/ba-p/4508563",
-      "published": "2026-04-10T11:43:36+00:00",
+      "published": "2026-04-10T18:03:39+00:00",
       "summary": "Many organizations run workloads across multiple cloud providers and need to maintain a strong security posture while ensuring interoperability. Microsoft Defender for Cloud is a cloud-native application protection platform (CNAPP) solution that helps secure these environments by providing unified...",
       "blog": "Microsoft Defender for Cloud",
       "blogId": "microsoftdefendercloudblog",
       "author": "ckyalo"
+    },
+    {
+      "title": "Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation",
+      "link": "https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release/",
+      "published": "2026-04-10T17:16:10+00:00",
+      "summary": "Azure MCP Server 2.0 is now generally available, delivering first-class self-hosting, stronger security hardening, and a faster foundation for agentic workflows across Azure. The post Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation appeared first on Azure SDK...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Sandeep Sen"
+    },
+    {
+      "title": "Service Mesh-Aware Request Tracing in AKS with Istio and Application Insights",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/service-mesh-aware-request-tracing-in-aks-with-istio-and/ba-p/4509928",
+      "published": "2026-04-10T16:37:58+00:00",
+      "summary": "Introduction As platforms evolve toward microservice‑based architectures, observability becomes more complex than ever. In Azure Kubernetes Service (AKS), teams often rely on Istio to manage service‑to‑service communication and Azure Application Insights for application‑level telemetry. While both...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Siddhi_Singh"
+    },
+    {
+      "title": "How to Ingest Microsoft Intune Logs into Microsoft Sentinel",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/how-to-ingest-microsoft-intune-logs-into-microsoft-sentinel/ba-p/4508562",
+      "published": "2026-04-10T16:00:00+00:00",
+      "summary": "For many organizations using Microsoft Intune to manage devices, integrating Intune logs into Microsoft Sentinel is an essential for security operations (Incorporate the device into the SEIM). By routing Intune’s device management and compliance data into your central SIEM, you gain a unified view...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "PaulineMbabu"
     },
     {
       "title": "PHP 8.5 is now available on Azure App Service for Linux",
@@ -54,7 +108,7 @@
       "summary": "In Part 1 of this blog series set the stage for why platform engineering is being reshaped by agentic AI. (read it here) Basically we outline how instead of humans translating intent through layers of CLIs, SDKs, and bespoke workflows, capable agents can interpret natural-language goals and turn...",
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
-      "author": "Arnaud Lheureux, davidwright, sdaniels"
+      "author": "Arnaud Lheureux, davidwright, Suzanne Daniels"
     },
     {
       "title": "What’s new in Microsoft Foundry | March 2026",
@@ -199,6 +253,15 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "theringe"
+    },
+    {
+      "title": "AI Inference on AKS enabled by Azure Arc: Generative AI using Triton and TensorRT‑LLM",
+      "link": "https://blog.aks.azure.com/2026/04/09/ai-inference-on-aks-arc-part-5",
+      "published": "2026-04-09T00:00:00+00:00",
+      "summary": "Run local edge generative AI by deploying Triton with the TensorRT-LLM backend on AKS enabled by Azure Arc to serve Qwen2.5 7B Instruct with GPU acceleration.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "Designing Reliable Health Check Endpoints for IIS Behind Azure Application Gateway",
@@ -732,15 +795,6 @@
       "author": "vaibhavpandey"
     },
     {
-      "title": "An update to the active flow billing model for Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/an-update-to-the-active-flow-billing-model-for-azure-sre-agent/ba-p/4507866",
-      "published": "2026-04-02T22:53:51+00:00",
-      "summary": "Earlier today, we announced that Azure SRE Agent now supports multiple AI model providers, starting with Anthropic. To support multi-model choice, and make active usage costs easier to understand, we’re updating how active flow usage is measured, effective April 15, 2026. At a glance What’s...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Mayunk_Jain"
-    },
-    {
       "title": "Azure SRE Agent now supports multiple model providers, including Anthropic Claude",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-now-supports-multiple-model-providers-including/ba-p/4508111",
       "published": "2026-04-02T22:23:15+00:00",
@@ -865,15 +919,6 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "ellievail"
-    },
-    {
-      "title": "A third-party connector integrating Claude with Microsoft Sentinel is now available",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/a-third-party-connector-integrating-claude-with-microsoft/ba-p/4507013",
-      "published": "2026-04-01T19:28:30+00:00",
-      "summary": "Security teams are increasingly exploring how AI assistants can support them in investigating incidents, asking questions, and exploring their data. At the same time, protecting that data, and controlling how it’s accessed, remains critical. Today, we’re sharing how Sentinel can securely support a...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "mcasgrain"
     },
     {
       "title": "DPDK 25.11 Performance on Azure for High-Speed Packet Workloads",
@@ -1164,15 +1209,6 @@
       "author": "nasreensarah"
     },
     {
-      "title": "From Toil to Trust: How Azure SRE Agent Is Redefining Cloud Operations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-toil-to-trust-how-azure-sre-agent-is-redefining-cloud/ba-p/4505875",
-      "published": "2026-03-30T07:59:46+00:00",
-      "summary": "As Azure environments scale, infrastructure teams face a familiar challenge: operating reliably at scale.Outages are no longer caused by a single VM or misconfigured service—they emerge from complex dependencies across compute, networking, storage, and platform services. Azure SRE Agent is designed...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "siddhigupta"
-    },
-    {
       "title": "Building Your First Local RAG Application with Foundry Local",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-your-first-local-rag-application-with-foundry-local/ba-p/4501968",
       "published": "2026-03-30T07:00:00+00:00",
@@ -1306,15 +1342,6 @@
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Jason_Pereira"
-    },
-    {
-      "title": "🚀GitHub Copilot CLI: AI Assistance from the Command Line for Infrastructure Deployments",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/github-copilot-cli-ai-assistance-from-the-command-line-for/ba-p/4500796",
-      "published": "2026-03-25T09:43:34+00:00",
-      "summary": "What is GitHub Copilot CLI? GitHub Copilot CLI is an AI-powered assistant that runs directly inside your terminal. Instead of manually writing commands, scripts, or debugging issues, you can simply describe what you want — and Copilot executes it. Here’s the shift: Traditional CLI Copilot CLI You...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ibrahimbaig"
     },
     {
       "title": "Microsoft Foundry Labs: A Practical Fast Lane from Research to Real Developer Work",
@@ -1990,33 +2017,6 @@
       "blog": "Azure Migration",
       "blogId": "azuremigrationblog",
       "author": "shashban"
-    },
-    {
-      "title": "Temporary rollback: build identities can access Advanced Security: read alerts again",
-      "link": "https://devblogs.microsoft.com/devops/temporary-rollback-build-identities-can-access-advanced-security-read-alerts-again/",
-      "published": "2026-03-11T23:46:28+00:00",
-      "summary": "If you use build service identities like Project Collection Build Service to call Advanced Security APIs, the Advanced Security permission changes in Sprint 269 broke that. We restricted API access for build identities as a security improvement but failed to provide an early notice for customers...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Laura Jiang"
-    },
-    {
-      "title": "Modern Database Protection: From Visibility to Threat Detection with Microsoft Defender for Cloud",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/modern-database-protection-from-visibility-to-threat-detection/ba-p/4501289",
-      "published": "2026-03-11T17:51:24+00:00",
-      "summary": "Databases sit at the heart of modern businesses. They support everyday apps, reports and AI tools. For example, any time you engage a site that requires a username and password, there is a database at the back end that stores your login information. As organizations adopt multi-cloud and hybrid...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "Yura_Lee"
-    },
-    {
-      "title": "A Look Ahead at Azure Cosmos DB Conf 2026: From AI Agents to Global Scale",
-      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-conf-2026-preview/",
-      "published": "2026-03-11T16:07:38+00:00",
-      "summary": "Join us for Azure Cosmos DB Conf 2026, a free global, virtual developer event focused on building modern applications with Azure Cosmos DB. Date: April 28, 2026 Time: 9:00 AM–2:00 PM PT Where: Streaming live on the Microsoft Developer YouTube channel, with additional sessions available on demand....",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Jay Gordon"
     }
   ]
 }
