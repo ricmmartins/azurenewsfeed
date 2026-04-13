@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-04-12T12:59:17.625824+00:00",
-  "totalArticles": 221,
+  "lastUpdated": "2026-04-13T13:24:07.827243+00:00",
+  "totalArticles": 220,
   "articles": [
+    {
+      "title": "Connecting an ExpressRoute circuit to Megaport Virtual Edge",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/connecting-an-expressroute-circuit-to-megaport-virtual-edge/ba-p/4510770",
+      "published": "2026-04-13T13:18:18+00:00",
+      "summary": "Megaport is an ExpressRoute partner in many locations. The Megaport Cloud Router (MCR) allows ExpressRoute customers to connect leased lines to their on-premise locations, and to connect other Cloud Providers. MCR is easy to set up and operate, it even automatically configures the ExpressRoute...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Marc de Droog"
+    },
+    {
+      "title": "Migrate Data Ingestion from Data Collector to Log Ingestion",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-data-ingestion-from-data-collector-to-log-ingestion/ba-p/4510493",
+      "published": "2026-04-13T08:06:40+00:00",
+      "summary": "HTTP Data Collector API in Log Analytics workspaces is being deprecated, and will be totally out of support in September 2026. Data Collector actions in logic app using already created API connections (which uses workspace Id & Key) would still work against old custom log tables, however, newly...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "mshboul"
+    },
+    {
+      "title": "Introducing Wildcard Roles in Azure Web PubSub: simpler, smarter permissions for real-time apps",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-wildcard-roles-in-azure-web-pubsub-simpler-smarter/ba-p/4509524",
+      "published": "2026-04-13T07:11:33+00:00",
+      "summary": "Real-time interactivity is now a baseline expectation across industries, from collaborative dashboards to trading platforms, IoT monitoring, and live data visualizations. Developers need a way to broadcast data instantly to connected clients without worrying about connection management, scaling, or...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "kevinguo"
+    },
+    {
+      "title": "Automating Arc-enabled SQL Server license type configuration with Azure Policy",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/automating-arc-enabled-sql-server-license-type-configuration/ba-p/4500326",
+      "published": "2026-04-13T07:06:25+00:00",
+      "summary": "Azure Arc enables customers to onboard SQL Server instances - hosted on Linux or Windows - into Azure, regardless of where they are hosted: on‑premises, in multicloud environments, or at the edge. Once onboarded, these resources can be managed through the Azure Portal using services like Azure...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "TomClaes"
+    },
+    {
+      "title": "Passwordless AKS Secrets: Sync Azure Key Vault with ESO + Workload Identity",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/passwordless-aks-secrets-sync-azure-key-vault-with-eso-workload/ba-p/4509959",
+      "published": "2026-04-13T05:00:00+00:00",
+      "summary": "Architecture High-level flow The solution uses a User-Assigned Managed Identity (UAMI) federated to a Kubernetes Service Account via AKS OIDC—then ESO uses that identity to read secrets from Key Vault and write them into Kubernetes as Opaque secrets. Flow:Azure Key Vault → ESO → Kubernetes Secret...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "fenildoshi2510"
+    },
     {
       "title": "Azure Red Hat OpenShift: Managed Identity and Workload Identity now generally available",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-red-hat-openshift-managed-identity-and-workload-identity/ba-p/4504940",
@@ -1218,15 +1263,6 @@
       "author": "Lee_Stott"
     },
     {
-      "title": "Gain Visibility into Cloud Browser Usage with Browser Activity Logs in Playwright Workspaces",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/gain-visibility-into-cloud-browser-usage-with-browser-activity/ba-p/4506706",
-      "published": "2026-03-30T06:28:43+00:00",
-      "summary": "Today, we're announcing a new feature to view the usage metrics for a browser session using the Browser Activity Logs in Playwright Workspaces. Modern test automation and browser-based workflows increasingly rely on cloud-hosted browsers. As teams scale their usage across test runs, automation...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "AbhinavPremsekhar"
-    },
-    {
       "title": "Control where your pods land on AKS with NAP",
       "link": "https://blog.aks.azure.com/2026/03/20/node-provisioning-best-practice",
       "published": "2026-03-30T00:00:00+00:00",
@@ -1884,15 +1920,6 @@
       "author": "meenagowdar"
     },
     {
-      "title": "🚀 AI Toolkit for VS Code — March 2026 Update",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/ai-toolkit-for-vs-code-march-2026-update/ba-p/4502517",
-      "published": "2026-03-16T18:52:34+00:00",
-      "summary": "March brings another milestone for AI Toolkit! Version 0.32.0 is packed with new capabilities designed to help you ship production ready AI agents. This release brings a unified tree view experience, Agent Builder enhancements, and streamlined GitHub Copilot integration for agent development. 🗂️...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "junjieli"
-    },
-    {
       "title": "Awesome GitHub Copilot just got a website, and a learning hub, and plugins!",
       "link": "https://devblogs.microsoft.com/blog/awesome-github-copilot-just-got-a-website-and-a-learning-hub-and-plugins",
       "published": "2026-03-16T17:00:33+00:00",
@@ -1954,42 +1981,6 @@
       "blog": "AKS Blog",
       "blogId": "aksblog",
       "author": "Microsoft"
-    },
-    {
-      "title": "March Patches for Azure DevOps Server",
-      "link": "https://devblogs.microsoft.com/devops/march-patches-for-azure-devops-server-4/",
-      "published": "2026-03-13T21:41:24+00:00",
-      "summary": "We are releasing patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay on the latest, most secure version of Azure DevOps Server. The latest release, Azure DevOps Server, is available from the download page. This patch addresses an issue introduced...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales"
-    },
-    {
-      "title": "The Human Scale Problem in Platform Engineering",
-      "link": "https://devblogs.microsoft.com/all-things-azure/the-human-scale-problem-in-platform-engineering/",
-      "published": "2026-03-13T20:22:49+00:00",
-      "summary": "We keep doing this thing where we solve a problem, celebrate the victory, then realize we’ve created three new problems we didn’t even know existed. Remember when manually configuring servers was the bottleneck? So we built containers. Great! Now we’re orchestrating thousands of them. Remember when...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Diego Casati, Ray Kao"
-    },
-    {
-      "title": "Azure Developer CLI (azd): Debug hosted AI agents from your terminal",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azd-ai-agent-logs-status/",
-      "published": "2026-03-13T19:19:52+00:00",
-      "summary": "New azd ai agent show and monitor commands help you diagnose hosted AI agent failures directly from the CLI. The post Azure Developer CLI (azd): Debug hosted AI agents from your terminal appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan"
-    },
-    {
-      "title": "Introducing Azure Managed Grafana 12",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/introducing-azure-managed-grafana-12/ba-p/4500673",
-      "published": "2026-03-13T16:54:19+00:00",
-      "summary": "In this release, Azure Managed Grafana makes it easier to tighten access with current-user Entra authentication, speed up Azure Monitor logs exploration, and level up Prometheus and database monitoring experiences. What’s new in Azure Managed Grafana 12 Use current-user Entra authentication for...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "aayodeji"
     }
   ]
 }
