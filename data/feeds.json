@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-04-13T13:24:07.827243+00:00",
-  "totalArticles": 220,
+  "lastUpdated": "2026-04-14T13:23:30.528909+00:00",
+  "totalArticles": 221,
   "articles": [
+    {
+      "title": "Simplifying Image Classification with Azure AutoML for Images: A Practical Guide",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/simplifying-image-classification-with-azure-automl-for-images-a/ba-p/4479632",
+      "published": "2026-04-14T13:00:00+00:00",
+      "summary": "1. The Challenge of Traditional Image Classification Anyone who has worked with computer vision knows the drill: you need to classify images, so you dive into TensorFlow or PyTorch, spend days architecting a convolutional neural network, experiment with dozens of hyperparameters, and hope your...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Serge_Retkowsky"
+    },
+    {
+      "title": "Friends Don’t Let Friends Run Loops Sequentially",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/friends-don-t-let-friends-run-loops-sequentially/ba-p/4505815",
+      "published": "2026-04-14T11:37:06+00:00",
+      "summary": "Tamara Gaidar, Data Scientist, Microsoft Defender Security Research Team Maor Nissan, Principal Data Scientist, Microsoft Defender Security Research Team The situation I’m about to describe is one that will feel familiar to many data scientists. We were asked to run a quick comparative analysis and...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "tamaragaidar"
+    },
+    {
+      "title": "Bringing GigaTIME to Microsoft Foundry: Unlocking Tumor Microenvironment Insights with Multimodal AI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bringing-gigatime-to-microsoft-foundry-unlocking-tumor/ba-p/4509452",
+      "published": "2026-04-14T11:36:56+00:00",
+      "summary": "Expanding Microsoft Foundry for Scientific AI Workloads AI is increasingly being applied to model complex real-world systems, from climate and industrial processes to human biology. In healthcare, one of the biggest challenges is translating routinely available data into deeper biological insight...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Saumil-Shrivastava"
+    },
+    {
+      "title": "From CI/CD to Continuous AI: The Future of GitHub Automation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-ci-cd-to-continuous-ai-the-future-of-github-automation/ba-p/4507378",
+      "published": "2026-04-14T07:00:00+00:00",
+      "summary": "Introduction For over a decade, CI/CD (Continuous Integration and Continuous Deployment) has been the backbone of modern software engineering. It helped teams move from manual, error-prone deployments to automated, reliable pipelines. But today, we are standing at the edge of another...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Ravindra_Kumar_Vishwakarma"
+    },
+    {
+      "title": "Govern AI Agents on App Service with the Microsoft Agent Governance Toolkit",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/govern-ai-agents-on-app-service-with-the-microsoft-agent/ba-p/4510962",
+      "published": "2026-04-13T21:15:44+00:00",
+      "summary": "Part 3 of 3 — Multi-Agent AI on Azure App Service In Blog 1, we built a multi-agent travel planner with Microsoft Agent Framework 1.0 on App Service. In Blog 2, we added observability with OpenTelemetry and the new Application Insights Agents view. Now in Part 3, we secure those agents for...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
+      "title": "Now in Foundry: Microsoft Harrier and NVIDIA EGM-8B",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-microsoft-harrier-and-nvidia-egm-8b/ba-p/4510851",
+      "published": "2026-04-13T20:01:16+00:00",
+      "summary": "This week's Model Mondays edition highlights three models that share a common thread: each achieves results comparable to larger leading models, as a result of targeted training strategies rather than scale. Microsoft Research's harrier-oss-v1-0.6b from achieves state-of-the-art results on the...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Osi"
+    },
+    {
+      "title": "GA: DCasv6 and ECasv6 confidential VMs based on 4th Generation AMD EPYC™ processors",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/ga-dcasv6-and-ecasv6-confidential-vms-based-on-4th-generation/ba-p/4451460",
+      "published": "2026-04-13T15:29:32+00:00",
+      "summary": "Today, Azure has expanded its confidential computing offerings with the general availability of the DCasv6 and ECasv6 confidential VMs. Regional availability April 13 2026: West Europe Jan 30 2026: Canada Central, Canada East, Norway East, Norway West, Italy North, Germany North, France South,...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "Rakeshginjupalli"
+    },
     {
       "title": "Connecting an ExpressRoute circuit to Megaport Virtual Edge",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/connecting-an-expressroute-circuit-to-megaport-virtual-edge/ba-p/4510770",
@@ -327,15 +390,6 @@
       "author": "AjaySingh_"
     },
     {
-      "title": "Bringing GigaTIME to Microsoft Foundry: Unlocking Tumor Microenvironment Insights with Multimodal AI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bringing-gigatime-to-microsoft-foundry-unlocking-tumor/ba-p/4509452",
-      "published": "2026-04-08T22:00:00+00:00",
-      "summary": "Expanding Microsoft Foundry for Scientific AI Workloads AI is increasingly being applied to model complex real-world systems, from climate and industrial processes to human biology. In healthcare, one of the biggest challenges is translating routinely available data into deeper biological insight...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Saumil-Shrivastava"
-    },
-    {
       "title": "Enabling AI-Driven Enterprise Intelligence Using SAP and Microsoft 3-IQ Layers",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/enabling-ai-driven-enterprise-intelligence-using-sap-and/ba-p/4509721",
       "published": "2026-04-08T19:24:25+00:00",
@@ -489,7 +543,7 @@
       "author": "WSilveira"
     },
     {
-      "title": "Scalable AI with Azure Cosmos DB: Tredence Intelligent Document Processing (IDP) | March 2026",
+      "title": "Scalable AI with Azure Cosmos DB: Tredence Intelligent Document Processing (IDP)",
       "link": "https://devblogs.microsoft.com/cosmosdb/scalable-ai-with-azure-cosmos-db-tredence-intelligent-document-processing-idp-march-2026/",
       "published": "2026-04-07T16:46:06+00:00",
       "summary": "Azure Cosmos DB enables scalable AI-driven document processing, addressing one of the biggest barriers to operational scale in today’s enterprise AI landscape. Organizations continue to manage massive volumes of structured and unstructured content—contracts, regulatory filings, operational records,...",
@@ -631,15 +685,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Swapnil Nagar"
-    },
-    {
-      "title": "Friends Don’t Let Friends Run Loops Sequentially",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/friends-don-t-let-friends-run-loops-sequentially/ba-p/4505815",
-      "published": "2026-04-06T13:10:08+00:00",
-      "summary": "Tamara Gaidar, Data Scientist, Defender for Cloud Research Maor Nissan, Principal Data Scientist, Defender for Cloud Research The situation I’m about to describe is one that will feel familiar to many data scientists. We were asked to run a quick comparative analysis and report the results to...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "tamaragaidar"
     },
     {
       "title": "Tracking Every Token: Granular Cost and Usage Metrics for Microsoft Foundry Agents",
@@ -987,7 +1032,7 @@
       "title": "The Polyglot tax – Part 3",
       "link": "https://devblogs.microsoft.com/azure-sql/the-polyglot-tax-part-3/",
       "published": "2026-04-01T16:11:53+00:00",
-      "summary": "Vectors, Analytics, and the End of ETL Part 3 of 4 – The Multimodal Database Series In Part 1: The Polyglot Tax we laid out the fraud detection scenario: a transaction comes in, and before you approve or deny it you need five checks. Order history (relational). Device fingerprint (JSON)....",
+      "summary": "Vectors, Analytics, and the End of ETL Part 3 of 4 – The Multi-model Database Series In Part 1: The Polyglot Tax we laid out the fraud detection scenario: a transaction comes in, and before you approve or deny it you need five checks. Order history (relational). Device fingerprint (JSON)....",
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Aditya Badramraju"
@@ -1162,15 +1207,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "mhadiputro"
-    },
-    {
-      "title": "The Durable Task Scheduler Consumption SKU is now Generally Available",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/the-durable-task-scheduler-consumption-sku-is-now-generally/ba-p/4506682",
-      "published": "2026-03-31T12:00:00+00:00",
-      "summary": "Today, we're excited to announce that the Durable Task Scheduler Consumption SKU has reached General Availability. Developers can now run durable workflows and agents on Azure with pay-per-use pricing, no storage to manage, no capacity to plan, and no idle costs. Just create a scheduler, connect...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "greenie-msft"
     },
     {
       "title": "Subscription Vending in Azure: An Implementation Overview",
@@ -1468,15 +1504,6 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Iqra Shaikh"
-    },
-    {
-      "title": "Announcing Priority Processing in Microsoft Foundry for Performance-Sensitive AI Workloads",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/announcing-priority-processing-in-microsoft-foundry-for/ba-p/4504788",
-      "published": "2026-03-23T21:10:57+00:00",
-      "summary": "Authors: Sethu Raman, Chris Hoder As generative AI solutions move from experimentation to production, consistent performance under variable demand is becoming a critical requirement. Today, we are announcing Priority Processing is now generally available in Microsoft Foundry, a new capability...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Sethu_Raman"
     },
     {
       "title": "Agentic Platform Engineering with GitHub Copilot",
@@ -1812,15 +1839,6 @@
       "author": "Pamela_Fox"
     },
     {
-      "title": "Introducing OpenAI’s GPT-5.4 mini and GPT-5.4 nano for low-latency AI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-openai-s-gpt-5-4-mini-and-gpt-5-4-nano-for-low/ba-p/4500569",
-      "published": "2026-03-18T00:04:54+00:00",
-      "summary": "Imagine you’re a developer building a research assistant agent on top of GPT‑5.4. The agent retrieves documents, summarizes findings, and answers follow‑up questions across multiple turns. In early testing, the reasoning quality is strong, but as the agent chains together retrieval, tool calls, and...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
-    },
-    {
       "title": "Announcing Gateway API support for App Routing (preview)",
       "link": "https://blog.aks.azure.com/2026/03/18/app-routing-gateway-api",
       "published": "2026-03-18T00:00:00+00:00",
@@ -1891,15 +1909,6 @@
       "blog": "Azure Migration",
       "blogId": "azuremigrationblog",
       "author": "OsvaldoDaibert"
-    },
-    {
-      "title": "Announcing the IQ Series: Foundry IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/announcing-the-iq-series-foundry-iq/ba-p/4501862",
-      "published": "2026-03-17T07:00:00+00:00",
-      "summary": "AI agents are rapidly becoming a new way to build applications. But for agents to be truly useful, they need access to the knowledge and context that helps them reason about the world they operate in. That’s where Foundry IQ comes in. Today we’re announcing the IQ Series: Foundry IQ, a new set of...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "aycabas"
     },
     {
       "title": "Foundry Agent Service is GA: private networking, Voice Live, and enterprise-grade evaluations",
