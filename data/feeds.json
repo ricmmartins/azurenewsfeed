@@ -1,7 +1,169 @@
 {
-  "lastUpdated": "2026-04-16T13:27:47.122582+00:00",
-  "totalArticles": 234,
+  "lastUpdated": "2026-04-17T13:17:16.901525+00:00",
+  "totalArticles": 237,
   "articles": [
+    {
+      "title": "⚡Foundry Toolkit for VS Code: A Deep Dive on GA",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/foundry-toolkit-for-vs-code-a-deep-dive-on-ga/ba-p/4509510",
+      "published": "2026-04-17T07:06:47+00:00",
+      "summary": "As we shared in the announcement, Microsoft Foundry Toolkit for Visual Studio Code is now generally available. In this deep dive, we walk through everything that’s in the GA release — from the rebrand and extension consolidation, to model experimentation, agent development, evaluations, and...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "junjieli"
+    },
+    {
+      "title": "🏆 Agents League Winner Spotlight – Reasoning Agents Track",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/agents-league-winner-spotlight-reasoning-agents-track/ba-p/4511211",
+      "published": "2026-04-17T07:00:00+00:00",
+      "summary": "Agents League was designed to showcase what agentic AI can look like when developers move beyond single‑prompt interactions and start building systems that plan, reason, verify, and collaborate. Across three competitive tracks—Creative Apps, Reasoning Agents, and Enterprise Agents—participants had...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "carlottacaste"
+    },
+    {
+      "title": "Discoverable – Observable MCP Server",
+      "link": "https://devblogs.microsoft.com/ise/observable_discoverable_mcp_server/",
+      "published": "2026-04-17T07:00:00+00:00",
+      "summary": "How to build an observable MCP Server with discoverable tools and agents. The post Discoverable – Observable MCP Server appeared first on ISE Developer Blog.",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Colin Desmond"
+    },
+    {
+      "title": "New in Azure SRE Agent: Log Analytics and Application Insights Connectors",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/new-in-azure-sre-agent-log-analytics-and-application-insights/ba-p/4509649",
+      "published": "2026-04-17T02:14:28+00:00",
+      "summary": "Azure SRE Agent now supports Log Analytics and Application Insights as log providers, backed by the Azure MCP Server. Connect your workspaces and App Insights resources, and the agent can query them directly during investigations. Why This Matters Log Analytics and Application Insights are common...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Dalibor_Kovacevic"
+    },
+    {
+      "title": "Event-Driven IaC Operations with Azure SRE Agent: Terraform Drift Detection via HTTP Triggers",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/event-driven-iac-operations-with-azure-sre-agent-terraform-drift/ba-p/4512233",
+      "published": "2026-04-17T02:13:18+00:00",
+      "summary": "What Happens After terraform plan Finds Drift? If your team is like most, the answer looks something like this: A nightly terraform plan runs and finds 3 drifted resources A notification lands in Slack or Teams Someone files a ticket During the next sprint, an engineer opens 4 browser tabs —...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Vineela-Suri"
+    },
+    {
+      "title": "Introducing the plugin marketplace for Azure API Center",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-the-plugin-marketplace-for-azure-api-center/ba-p/4512231",
+      "published": "2026-04-17T00:50:01+00:00",
+      "summary": "Today, we're excited to announce the public preview of the plugin marketplace endpoint for Azure API Center. This new capability makes it easier than ever for developers to discover and install AI plugins — including MCP servers and skills — directly from the tools they already use, like Claude...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Sreekanth_Thirthala"
+    },
+    {
+      "title": "Best of Both Worlds for Agentic Refactoring: GitHub Copilot + MicroVMs via Docker Sandbox",
+      "link": "https://devblogs.microsoft.com/all-things-azure/best-of-both-worlds-for-agentic-refactoring-github-copilot-microvms-via-docker-sandbox/",
+      "published": "2026-04-16T22:09:53+00:00",
+      "summary": "Legacy codebases frequently contain hardcoded logic and complex build scripts that depend on specific filesystem structures, making them notoriously difficult to modernize in isolated environments. Docker Sandbox addresses this challenge through a bidirectional workspace sync that preserves the...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "cindywang"
+    },
+    {
+      "title": "Explaining what GitHub Copilot Modernization can (and cannot do)",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/explaining-what-github-copilot-modernization-can-and-cannot-do/ba-p/4511739",
+      "published": "2026-04-16T21:45:41+00:00",
+      "summary": "In the last post, we looked at the workflow: assess, plan, execute. You get reports you can review and the agent makes changes you can inspect. If you don’t know, GitHub Copilot Modernization is the new agentic tool that supports you to in modernizing older applications. Could it support you with...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "PabloLopes"
+    },
+    {
+      "title": "Introducing the Container Network Insights Agent for AKS: Now in Public Preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/introducing-the-container-network-insights-agent-for-aks-now-in/ba-p/4512197",
+      "published": "2026-04-16T21:05:45+00:00",
+      "summary": "We are thrilled to announce public preview of Container Network Insights Agent - Agentic AI network troubleshooting for your workloads running in Azure Kubernetes Service (AKS). The Challenge AKS networking is layered by design. Azure CNI, eBPF, Cilium, CoreDNS, NetworkPolicy, CiliumNetworkPolicy,...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "chandanAggarwal"
+    },
+    {
+      "title": "Microsoft Foundry Toolkit for VS Code is Now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-foundry-toolkit-for-vs-code-is-now-generally-available/ba-p/4511831",
+      "published": "2026-04-16T19:55:38+00:00",
+      "summary": "We are thrilled to announce that the Microsoft Foundry Toolkit for VS Code, formerly AI Toolkit, is now Generally Available (GA)! From first model prompt to production‑grade AI agents, Foundry Toolkit lets you build, debug, and ship AI end to end without ever leaving VS Code. Same Product. New...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "junjieli"
+    },
+    {
+      "title": "What’s New in Microsoft Foundry Fine-Tuning | April 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-foundry-finetune-april-2026/",
+      "published": "2026-04-16T19:34:46+00:00",
+      "summary": "April 2026 brings three major Reinforcement Fine-Tuning updates: Global Training for o4-mini with lower per-token rates across 12+ regions, new GPT-4.1 model graders for richer reward signals, and a comprehensive RFT best practices guide to help you ship specialized models faster. The post What’s...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Blanca Li"
+    },
+    {
+      "title": "Free Your Terminal with Detached Mode in Aspire 13.2",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-detached-mode-and-process-management/",
+      "published": "2026-04-16T17:00:00+00:00",
+      "summary": "Aspire 13.2 brings detached mode to the CLI. Run your AppHost in the background, free your terminal, and let coding agents start, inspect, and manage your app without blocking. The post Free Your Terminal with Detached Mode in Aspire 13.2 appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "James Newton-King"
+    },
+    {
+      "title": "Claude Opus 4.7 is available on Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-opus-4-7-is-available-on-microsoft-foundry/ba-p/4511759",
+      "published": "2026-04-16T16:20:43+00:00",
+      "summary": "Anthropic continues to push the frontier of AI for real-world, production work with its new model Claude Opus 4.7. Opus 4.7 is Anthropic’s most advanced generally available model. Teams building on Azure can access Claude Opus 4.7 through Microsoft Foundry , today. This model is designed for the...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal"
+    },
+    {
+      "title": "Bringing AI to the Factory Floor with Foundry Local - Now in Public Preview on Azure Local",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/bringing-ai-to-the-factory-floor-with-foundry-local-now-in/ba-p/4509951",
+      "published": "2026-04-16T16:08:12+00:00",
+      "summary": "Key capabilities in this preview Foundry Local exposes standard REST and OpenAI‑compatible APIs, enabling IT and AI teams to deploy and operate local AI workloads using familiar, cloud‑aligned patterns across edge and on‑prem environments. In this public preview, we deliver the following...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "liranlyabock_microsoft"
+    },
+    {
+      "title": "App attach in Azure Virtual Desktop now supports Windows Server 2025 and Windows Server 2022",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/app-attach-in-azure-virtual-desktop-now-supports-windows-server/ba-p/4511729",
+      "published": "2026-04-16T16:00:12+00:00",
+      "summary": "Managing applications in virtualized desktop and server environments has traditionally required IT teams to bake apps directly into base images, driving image sprawl, slower updates, and higher operational overhead. App attach in Azure Virtual Desktop changes that model by enabling applications to...",
+      "blog": "Azure Virtual Desktop",
+      "blogId": "azurevirtualdesktopblog",
+      "author": "Michelle_Moya"
+    },
+    {
+      "title": "From AI to .NET: 20 VS Live! Las Vegas Sessions You Can Watch Now",
+      "link": "https://devblogs.microsoft.com/visualstudio/from-ai-to-net-20-vs-live-las-vegas-sessions-you-can-watch-now/",
+      "published": "2026-04-16T15:00:04+00:00",
+      "summary": "In March 2026, developers came together at VS Live! Las Vegas for a full week of technical learning, hands-on exploration, and a lot of great conversations about where software development is headed next. From AI-assisted development to modern .NET, cloud-native apps, and developer productivity,...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Jim Harrer"
+    },
+    {
+      "title": "SQL Server enabled by Azure Arc Overview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/sql-server-enabled-by-azure-arc-overview/ba-p/4496399",
+      "published": "2026-04-16T15:00:00+00:00",
+      "summary": "Table of Contents What is Azure Arc-enabled SQL Server? Connecting SQL Server to Azure Arc (4-step onboarding) Your SQL Server is Now in Azure (unified management) SQL Best Practices Assessment Monitoring and Governance Troubleshooting Guide Azure Arc Demo What You Can Learn from This Article This...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "NaufalPrawironegoro"
+    },
+    {
+      "title": "How Granular Delegated Admin Privileges (GDAP) allows Sentinel customers to delegate access",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/how-granular-delegated-admin-privileges-gdap-allows-sentinel/ba-p/4503123",
+      "published": "2026-04-16T14:40:52+00:00",
+      "summary": "Simplifying Defender SIEM and XDR delegated access As Microsoft Sentinel and Defender converge into a unified experience, organizations face a fundamental challenge: the lack of a scalable, comprehensive, delegated access model that works seamlessly across Entra ID and Sentinel’s Azure Resource...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Yossi Basha"
+    },
     {
       "title": "Architecting Secure and Trustworthy AI Agents with Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/architecting-secure-and-trustworthy-ai-agents-with-microsoft/ba-p/4506580",
@@ -442,15 +604,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "siddhigupta"
-    },
-    {
-      "title": "An update to the active flow billing model for Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/an-update-to-the-active-flow-billing-model-for-azure-sre-agent/ba-p/4507866",
-      "published": "2026-04-10T20:55:35+00:00",
-      "summary": "Earlier today, we announced that Azure SRE Agent now supports multiple AI model providers, starting with Anthropic. To support multi-model choice, and make active usage costs easier to understand, we’re updating how active flow usage is measured, effective April 15, 2026. At a glance What’s...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Mayunk_Jain"
     },
     {
       "title": "A third-party connector integrating Claude with Microsoft Sentinel is now available",
@@ -1020,15 +1173,6 @@
       "author": "akankshaGahalout"
     },
     {
-      "title": "MCP Apps on Azure Functions: Quick Start with TypeScript",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/mcp-apps-on-azure-functions-quick-start-with-typescript/ba-p/4507859",
-      "published": "2026-04-03T20:23:40+00:00",
-      "summary": "Azure Functions makes hosting MCP apps simple: build locally, create a secure endpoint, and deploy fast with Azure Developer CLI (azd). This guide shows you how using a weather app example. What Are MCP Apps? MCP Apps let MCP servers return interactive HTML interfaces such as data visualizations,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "swapnil_nagar"
-    },
-    {
       "title": "Introducing TSGen: Automated TSG Generation @ Scale – Built by AI",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-tsgen-automated-tsg-generation-scale-built-by-ai/ba-p/4508191",
       "published": "2026-04-03T20:18:41+00:00",
@@ -1162,15 +1306,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "vaibhavpandey"
-    },
-    {
-      "title": "Azure SRE Agent now supports multiple model providers, including Anthropic Claude",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-now-supports-multiple-model-providers-including/ba-p/4508111",
-      "published": "2026-04-02T22:23:15+00:00",
-      "summary": "Today, Azure SRE Agent adds model provider selection—choose between Azure OpenAI and Anthropic to match the right AI provider to your incident workflow. SRE Agent has saved over 20,000 engineering hours by pulling together logs, deployments, and signals into a single investigation thread, turning...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati"
     },
     {
       "title": "Accelerate Agent Development: Hacks for Building with Microsoft Sentinel data lake",
@@ -1497,15 +1632,6 @@
       "author": "Shikhaghildiyal"
     },
     {
-      "title": "How Veris AI and Lume Security built a self-improving AI agent with Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-veris-ai-and-lume-security-built-a-self-improving-ai-agent/ba-p/4504424",
-      "published": "2026-03-30T22:47:32+00:00",
-      "summary": "Introduction AI agents are slowly moving from demos into production, where real users, messy systems, and long-tail edge cases lead to new unseen failure modes. Production monitoring can surface issues, but converting those into reliable improvements is slow and manual, bottlenecked by the low...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "andi-veris"
-    },
-    {
       "title": "Public Preview: Ephemeral OS Disk with full caching for VM/VMSS",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-ephemeral-os-disk-with-full-caching-for-vm-vmss/ba-p/4500191",
       "published": "2026-03-30T19:37:31+00:00",
@@ -1803,24 +1929,6 @@
       "author": "SwathiK"
     },
     {
-      "title": "Building real-world AI automation with Foundry Local and the Microsoft Agent Framework",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-real-world-ai-automation-with-foundry-local-and-the/ba-p/4501898",
-      "published": "2026-03-23T07:00:00+00:00",
-      "summary": "A hands-on guide to building real-world AI automation with Foundry Local, the Microsoft Agent Framework, and PyBullet. No cloud subscription, no API keys, no internet required. Why Developers Should Care About Offline AI Imagine telling a robot arm to \"pick up the cube\" and watching it execute the...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
-      "title": "Securing Azure AI Agents: Identity, Access Control, and Guardrails in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/securing-azure-ai-agents-identity-access-control-and-guardrails/ba-p/4500242",
-      "published": "2026-03-23T07:00:00+00:00",
-      "summary": "As AI agents evolve from simple chatbots to autonomous systems that access enterprise data, call APIs, and orchestrate workflows, security becomes non negotiable. Unlike traditional applications, AI agents introduce new risks — such as prompt injection, over privileged access, unsafe tool...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "SudhaS"
-    },
-    {
       "title": "Announcing public preview: Cilium mTLS encryption for Azure Kubernetes Service",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-cilium-mtls-encryption-for-azure/ba-p/4504423",
       "published": "2026-03-23T01:50:18+00:00",
@@ -1866,15 +1974,6 @@
       "author": "MikeAdams"
     },
     {
-      "title": "How Granular Delegated Admin Privileges (GDAP) allows Sentinel customers to delegate access",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/how-granular-delegated-admin-privileges-gdap-allows-sentinel/ba-p/4503123",
-      "published": "2026-03-20T16:15:00+00:00",
-      "summary": "Simplifying Defender SIEM and XDR delegated access As Microsoft Sentinel and Defender converge into a unified experience, organizations face a fundamental challenge: the lack of a scalable, comprehensive, delegated access model that works seamlessly across Entra ID and Sentinel’s Azure Resource...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Yossi Basha"
-    },
-    {
       "title": "Defending the AI Era: New Microsoft Capabilities to Protect AI",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/defending-the-ai-era-new-microsoft-capabilities-to-protect-ai/ba-p/4503885",
       "published": "2026-03-20T15:45:00+00:00",
@@ -1891,15 +1990,6 @@
       "blog": "Microsoft Defender for Cloud",
       "blogId": "microsoftdefendercloudblog",
       "author": "parulseth"
-    },
-    {
-      "title": "Power Apps Vibe Experience: Build Business Apps at the Speed of Ideas",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/power-apps-vibe-experience-build-business-apps-at-the-speed-of/ba-p/4502347",
-      "published": "2026-03-20T07:00:00+00:00",
-      "summary": "Power Apps Vibe Experience: Building Business Applications with AI in Minutes Organizations today operate in a fast-paced digital environment where new business challenges emerge constantly. Whether it’s managing internal workflows, tracking projects, or collecting customer feedback, businesses...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "harshul05"
     },
     {
       "title": "Introducing Azure Managed Grafana MCP: The Managed Telemetry Gateway for AI Agents",
@@ -2044,69 +2134,6 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Yo-Lei Chen, Tauseef Siddique, Carlos Robles"
-    },
-    {
-      "title": "Announcing savings plan for databases: flexible savings for modern, evolving workloads",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/announcing-savings-plan-for-databases-flexible-savings-for/ba-p/4503107",
-      "published": "2026-03-18T13:05:06+00:00",
-      "summary": "As organizations modernize their data platforms, database environments are constantly changing. Teams migrate between services, scale across regions, and evolve architectures to support new applications and AI driven workloads. But optimizing costs in these environments can be challenging,...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "kyleikeda"
-    },
-    {
-      "title": "Announcing Gateway API support for App Routing (preview)",
-      "link": "https://blog.aks.azure.com/2026/03/18/app-routing-gateway-api",
-      "published": "2026-03-18T00:00:00+00:00",
-      "summary": "The AKS app routing add-on now supports the Kubernetes Gateway API via a meshless Istio control plane — the recommended path to migrate from Ingress-NGINX.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "From 150 Unread to Zero Stress: Automating Inbox Triage with MCP and GitHub Copilot",
-      "link": "https://devblogs.microsoft.com/all-things-azure/from-150-unread-to-zero-stress-automating-inbox-triage-with-mcp-and-github-copilot/",
-      "published": "2026-03-17T21:54:09+00:00",
-      "summary": "Taming the Noisy Inbox: How I Used MCP to Automate Email and Teams Triage How the Model Context Protocol (MCP) turns your AI coding assistant into a workplace productivity engine — connecting Microsoft 365 data to your terminal workflow. The Problem We All Share If you work in a customer-facing...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Desi Villanueva"
-    },
-    {
-      "title": "Azure Skills Plugin – Let’s Get Started!",
-      "link": "https://devblogs.microsoft.com/all-things-azure/azure-skills-plugin-lets-get-started/",
-      "published": "2026-03-17T21:05:08+00:00",
-      "summary": "Part 2 of the Azure Skills Plugin series Previously: Announcing the Azure Skills Plugin This post is all about getting you up and running. I won’t go deep on capabilities, architecture or anything like that here – that’s coming in future posts in this series. The goal is to get the plugin...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Chris Harris"
-    },
-    {
-      "title": "PowerToys 0.98 is here: new Keyboard Manager UX, the Command Palette Dock and better CursorWrap!",
-      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-98-is-here-new-keyboard-manager-ux-the-command-palette-dock-and-better-cursorwrap/",
-      "published": "2026-03-17T17:47:43+00:00",
-      "summary": "We’re back with a fresh PowerToys release – PowerToys 0.98! This month introduces the new Command Palette Dock, along with a refreshed Keyboard Manager experience and many other improvements across the utilities. You can grab the update by checking for updates in PowerToys or by heading to the...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Niels Laute"
-    },
-    {
-      "title": "Introducing the Azure Cosmos DB Plugin for Cursor",
-      "link": "https://devblogs.microsoft.com/cosmosdb/introducing-the-azure-cosmos-db-plugin-for-cursor/",
-      "published": "2026-03-17T17:03:09+00:00",
-      "summary": "We’re excited to announce the Cursor plugin for Azure Cosmos DB bringing AI-powered database expertise, best practices guidance, and live database connectivity directly into your coding workflow. Whether you’re designing a new data model, optimizing queries, or building a RAG application with...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai"
-    },
-    {
-      "title": "Azure DevOps Remote MCP Server (public preview)",
-      "link": "https://devblogs.microsoft.com/devops/azure-devops-remote-mcp-server-public-preview/",
-      "published": "2026-03-17T13:52:29+00:00",
-      "summary": "When we released the local Azure DevOps MCP Server, it gave customers a way to connect Azure DevOps data with tools like Visual Studio and Visual Studio Code through GitHub Copilot Chat. The next step was to make this experience easier to get started with and to enable it for services that support...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem"
     }
   ]
 }
