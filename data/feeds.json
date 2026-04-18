@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-04-17T13:17:16.901525+00:00",
-  "totalArticles": 237,
+  "lastUpdated": "2026-04-18T13:00:08.495910+00:00",
+  "totalArticles": 225,
   "articles": [
+    {
+      "title": "Microsoft Fabric Operations Agent Step by Step Walkthrough",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/microsoft-fabric-operations-agent-step-by-step-walkthrough/ba-p/4512572",
+      "published": "2026-04-18T07:00:41+00:00",
+      "summary": "Fabric Capacity and Workspace You need a Microsoft Fabric workspace backed by a paid capacity. Trial capacities are not supported for Operations Agent. Your capacity must be provisioned in a supported region. As of April 2026, Operations Agent is available in all Microsoft Fabric regions except...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "NaufalPrawironegoro"
+    },
+    {
+      "title": "MCP Demystified: Tools vs Resources vs Prompts Explained Simply",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-demystified-tools-vs-resources-vs-prompts-explained-simply/ba-p/4508057",
+      "published": "2026-04-18T04:00:00+00:00",
+      "summary": "Introduction When developers start working with Model Context Protocol (MCP), one of the most confusing parts is understanding the difference between MCP Tools, Resources, and Prompts. All three are important components in modern AI application development, but they serve completely different...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Ravindra_Kumar_Vishwakarma"
+    },
+    {
+      "title": "Autonomous AKS Incident Response with Azure SRE Agent: From Alert to Verified Recovery in Minutes",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/autonomous-aks-incident-response-with-azure-sre-agent-from-alert/ba-p/4511343",
+      "published": "2026-04-17T20:31:11+00:00",
+      "summary": "When a Sev1 alert fires on an AKS cluster, detection is rarely the hard part. The hard part is what comes next: proving what broke, why it broke, and fixing it without widening the blast radius, all under time pressure, often at 2 a.m. Azure SRE Agent is designed to close that gap. It connects...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "hailukassa"
+    },
+    {
+      "title": "Bringing AI to the Factory Floor with Foundry Local - Now in Public Preview on Azure Local",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/bringing-ai-to-the-factory-floor-with-foundry-local-now-in/ba-p/4509951",
+      "published": "2026-04-17T15:23:10+00:00",
+      "summary": "Key capabilities in this preview Foundry Local exposes standard REST and OpenAI‑compatible APIs, enabling IT and AI teams to deploy and operate local AI workloads using familiar, cloud‑aligned patterns across edge and on‑prem environments. In this public preview, we deliver the following...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "liranlyabock_microsoft"
+    },
     {
       "title": "⚡Foundry Toolkit for VS Code: A Deep Dive on GA",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/foundry-toolkit-for-vs-code-a-deep-dive-on-ga/ba-p/4509510",
@@ -19,15 +55,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "carlottacaste"
-    },
-    {
-      "title": "Discoverable – Observable MCP Server",
-      "link": "https://devblogs.microsoft.com/ise/observable_discoverable_mcp_server/",
-      "published": "2026-04-17T07:00:00+00:00",
-      "summary": "How to build an observable MCP Server with discoverable tools and agents. The post Discoverable – Observable MCP Server appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Colin Desmond"
     },
     {
       "title": "New in Azure SRE Agent: Log Analytics and Application Insights Connectors",
@@ -118,15 +145,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "amar_badal"
-    },
-    {
-      "title": "Bringing AI to the Factory Floor with Foundry Local - Now in Public Preview on Azure Local",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/bringing-ai-to-the-factory-floor-with-foundry-local-now-in/ba-p/4509951",
-      "published": "2026-04-16T16:08:12+00:00",
-      "summary": "Key capabilities in this preview Foundry Local exposes standard REST and OpenAI‑compatible APIs, enabling IT and AI teams to deploy and operate local AI workloads using familiar, cloud‑aligned patterns across edge and on‑prem environments. In this public preview, we deliver the following...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "liranlyabock_microsoft"
     },
     {
       "title": "App attach in Azure Virtual Desktop now supports Windows Server 2025 and Windows Server 2022",
@@ -1299,15 +1317,6 @@
       "author": "srivastavani"
     },
     {
-      "title": "Bring Your Own Model (BYOM) for Azure AI Applications using Azure Machine Learning",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-own-model-byom-for-azure-ai-applications-using-azure/ba-p/4508211",
-      "published": "2026-04-03T02:00:40+00:00",
-      "summary": "Modern AI-powered applications running on Azure increasingly require flexibility in model choice. While managed model catalogs accelerate time to value, real-world enterprise applications often need to: Host open‑source or fine‑tuned models Deploy domain‑specific or regulated models inside a tenant...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vaibhavpandey"
-    },
-    {
       "title": "Accelerate Agent Development: Hacks for Building with Microsoft Sentinel data lake",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/accelerate-agent-development-hacks-for-building-with-microsoft/ba-p/4503039",
       "published": "2026-04-02T21:37:47+00:00",
@@ -1812,15 +1821,6 @@
       "author": "Desi Villanueva"
     },
     {
-      "title": "Hosted Containers and AI Agent Solutions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/hosted-containers-and-ai-agent-solutions/ba-p/4500627",
-      "published": "2026-03-24T18:32:11+00:00",
-      "summary": "If you have built a proof-of-concept AI agent on your laptop and wondered how to turn it into something other people can actually use, you are not alone. The gap between a working prototype and a production-ready service is where most agent projects stall. Hosted containers close that gap faster...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
       "title": "Unlock More Power in Your Development Workflow: Syncfusion for Visual Studio Subscribers",
       "link": "https://devblogs.microsoft.com/visualstudio/syncfusion-for-visual-studio/",
       "published": "2026-03-24T15:00:12+00:00",
@@ -2026,114 +2026,6 @@
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
       "author": "ShabazShaik"
-    },
-    {
-      "title": "From Azure IoT Operations Data Processor Pipelines to Dataflows",
-      "link": "https://devblogs.microsoft.com/ise/aio-data-processor-pipelines-to-dataflow-processing-data-in-the-edge/",
-      "published": "2026-03-19T07:00:00+00:00",
-      "summary": "In this post we explore the evolution from Azure IoT Operations Data Processor Pipelines to Dataflows, why we adopted a hybrid strategy with custom Rust pods, and the architectural lessons we learned building event detection systems at the edge. The post From Azure IoT Operations Data Processor...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Maho Pacheco"
-    },
-    {
-      "title": "Azure NCv6 Virtual Machines: Enhancements and GA Transition",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-ncv6-virtual-machines-enhancements-and-ga-transition/ba-p/4503578",
-      "published": "2026-03-18T20:08:51+00:00",
-      "summary": "NCv6 Virtual Machines are Azure's flexible, next generation platform enabling both leading-edge graphics and generative AI compute workloads. Featuring NVIDIA RTX PRO 6000 Blackwell Server Edition (BSE) GPUs, Intel Xeon™ 6 \"Granite Rapids\" 6900P series CPUs, and a suite of Microsoft Azure...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Fernando_Aznar"
-    },
-    {
-      "title": "Authentication Tokens Are Not a Data Contract",
-      "link": "https://devblogs.microsoft.com/devops/authentication-tokens-are-not-a-data-contract/",
-      "published": "2026-03-18T18:46:49+00:00",
-      "summary": "Authentication tokens exist to answer one question: is this caller authorized to do this? They are not intended to be a stable data interface, a schema you can depend on, or an input into application logic. If your application decodes tokens and reads claims from them, this is an important...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Angel Wong"
-    },
-    {
-      "title": "Announcing the New Home for the Azure Databricks Blog",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/announcing-the-new-home-for-the-azure-databricks-blog/ba-p/4503570",
-      "published": "2026-03-18T18:44:42+00:00",
-      "summary": "We’re excited to share that the Azure Databricks blog has moved to a new address on Microsoft Tech Community Hub! Azure Databricks | Microsoft Community Hub Our new blog home is designed to make it easier than ever for you to discover the latest product updates, deep technical insights, and...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "AnaviNahar"
-    },
-    {
-      "title": "Azure Developer CLI (azd): Run and test AI agents locally with azd",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azd-ai-agent-run-invoke/",
-      "published": "2026-03-18T17:49:36+00:00",
-      "summary": "New azd ai agent run and invoke commands let you start and test AI agents from your terminal—locally or in the cloud. The post Azure Developer CLI (azd): Run and test AI agents locally with azd appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "PuiChee (PC) Chan, Travis Angevine"
-    },
-    {
-      "title": "DiskANN Vector Index Improvements",
-      "link": "https://devblogs.microsoft.com/azure-sql/diskann-vector-index-improvements/",
-      "published": "2026-03-18T17:00:33+00:00",
-      "summary": "Remember when we announced the Public Preview of DiskANN vector indexes back in November and mentioned that once you created the index, your table became read‑only? Yeah… about that… 😅 We shipped early because the demand for Vector search in SQL was overwhelming. We knew the constraints weren’t...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Davide Mauri, Pooja Kamath"
-    },
-    {
-      "title": "Microsoft partners with DataBahn to accelerate enterprise deployments for Microsoft Sentinel",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-partners-with-databahn-to-accelerate-enterprise/ba-p/4501055",
-      "published": "2026-03-18T16:40:17+00:00",
-      "summary": "Enterprise security teams are collecting more telemetry than ever across cloud platforms, endpoints, SaaS applications, and on-premises infrastructure. Security teams want broader data coverage and longer retention without losing control of cost and data quality. This post explains the new DataBahn...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "JamesAde"
-    },
-    {
-      "title": "When Infrastructure Scales But Understanding Doesn’t",
-      "link": "https://devblogs.microsoft.com/all-things-azure/when-infrastructure-scales-but-understanding-doesnt/",
-      "published": "2026-03-18T16:22:59+00:00",
-      "summary": "We all know this, even if we don’t like to admit it: modern infrastructure can scale infinitely, but human understanding doesn’t. We’ve all seen it happen – organizations going from managing dozens of servers to thousands of containers, from deploying weekly to deploying hundreds of times per day,...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Diego Casati, Ray Kao"
-    },
-    {
-      "title": "Introducing Lakeflow Connect Free Tier, now available on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/introducing-lakeflow-connect-free-tier-now-available-on-azure/ba-p/4502755",
-      "published": "2026-03-18T16:00:00+00:00",
-      "summary": "We're excited to introduce the Lakeflow Connect Free Tier on Azure Databricks, so you can easily bring your enterprise data into your lakehouse to build analytics and AI applications faster. Modern applications require reliable access to operational data, especially for training analytics and AI...",
-      "blog": "Azure Databricks",
-      "blogId": "azure-databricks",
-      "author": "AnaviNahar"
-    },
-    {
-      "title": "Near–Real-Time CDC to Delta Lake for BI and ML with Lakeflow on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-databricks/near-real-time-cdc-to-delta-lake-for-bi-and-ml-with-lakeflow-on/ba-p/4502750",
-      "published": "2026-03-18T16:00:00+00:00",
-      "summary": "The Challenge: Too Many Tools, Not Enough Clarity Modern data teams on Azure often stitch together separate orchestrators, custom streaming consumers, hand-rolled transformation notebooks, and third-party connectors — each with its own monitoring UI, credential system, and failure modes. The result...",
-      "blog": "Azure Databricks",
-      "blogId": "azure-databricks",
-      "author": "AnaviNahar"
-    },
-    {
-      "title": "Turning historical patterns into actionable detection pipelines with Microsoft Sentinel data lake",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/turning-historical-patterns-into-actionable-detection-pipelines/ba-p/4503126",
-      "published": "2026-03-18T16:00:00+00:00",
-      "summary": "This article is part of the Sentinel data lake practitioner series. In part 1, we introduced the Operationalization Framework — a structured way to turn exploratory notebooks into reliable, scheduled Spark jobs within the Microsoft Sentinel data lake. Now in Part 2, we go from framework to function...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Ashwin_Patil"
-    },
-    {
-      "title": "MSSQL Extension for VS Code: SQL Notebooks, AI-Powered Schema Design, Data API builder & More",
-      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-march-2026/",
-      "published": "2026-03-18T15:55:12+00:00",
-      "summary": "The MSSQL extension for VS Code v1.41 continues to evolve, delivering features that make SQL development more integrated, more powerful, and more developer-friendly. In this release, we’re introducing the Public Preview of Schema Designer with GitHub Copilot, Data API builder, and SQL Notebooks,...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Yo-Lei Chen, Tauseef Siddique, Carlos Robles"
     }
   ]
 }
