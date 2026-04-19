@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-04-18T13:00:08.495910+00:00",
-  "totalArticles": 225,
+  "lastUpdated": "2026-04-19T12:59:24.533166+00:00",
+  "totalArticles": 221,
   "articles": [
+    {
+      "title": "Azure Virtual Desktop in the Perth Azure Extended Zone: A Real‑World Production Deployment",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-virtual-desktop-in-the-perth-azure-extended-zone-a-real/ba-p/4508550",
+      "published": "2026-04-19T10:03:32+00:00",
+      "summary": "Introduction Perth is one of the most geographically isolated major cities globally. For performance‑sensitive, graphics‑heavy engineering workloads, user experience can degrade significantly when desktops are hosted far from the user. For workloads such as subsurface modelling and GPU‑intensive...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "akashmishra"
+    },
     {
       "title": "Microsoft Fabric Operations Agent Step by Step Walkthrough",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/microsoft-fabric-operations-agent-step-by-step-walkthrough/ba-p/4512572",
@@ -613,15 +622,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "MelanieKraintz007"
-    },
-    {
-      "title": "From Toil to Trust: How Azure SRE Agent Is Redefining Cloud Operations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-toil-to-trust-how-azure-sre-agent-is-redefining-cloud/ba-p/4505875",
-      "published": "2026-04-11T05:36:05+00:00",
-      "summary": "As Azure environments scale, infrastructure teams face a familiar challenge: operating reliably at scale.Outages are no longer caused by a single VM or misconfigured service—they emerge from complex dependencies across compute, networking, storage, and platform services. Azure SRE Agent is designed...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "siddhigupta"
     },
     {
       "title": "A third-party connector integrating Claude with Microsoft Sentinel is now available",
@@ -1990,42 +1990,6 @@
       "blog": "Microsoft Defender for Cloud",
       "blogId": "microsoftdefendercloudblog",
       "author": "parulseth"
-    },
-    {
-      "title": "Introducing Azure Managed Grafana MCP: The Managed Telemetry Gateway for AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/introducing-azure-managed-grafana-mcp-the-managed-telemetry/ba-p/4503619",
-      "published": "2026-03-19T20:10:08+00:00",
-      "summary": "AI agents are rapidly becoming a core part of how teams build, operate, and improve cloud systems, from coding assistants to autonomous remediation workflows. To deliver on that promise in the enterprise, agents need a secure, governed way to access real production telemetry. Azure Managed Grafana...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "aayodeji"
-    },
-    {
-      "title": "Remote MCP Server preview in Microsoft Foundry",
-      "link": "https://devblogs.microsoft.com/devops/remote-mcp-server-preview-in-microsoft-foundry/",
-      "published": "2026-03-19T17:48:10+00:00",
-      "summary": "Earlier this week we release the public preview for our Azure DevOps MCP Server. Today we are excited to let you know that the Azure DevOps MCP Server is now available to use in Microsoft Foundry. For those who are new to Foundry, Microsoft Foundry is a unified platform for building and managing AI...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem"
-    },
-    {
-      "title": "Azure Front Door: Resiliency Series – Part 2: Faster recovery (RTO)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-resiliency-series-part-2-faster-recovery-rto/ba-p/4503091",
-      "published": "2026-03-19T17:00:54+00:00",
-      "summary": "In Part 1 of this blog series, we outlined our four‑pillar strategy for resiliency in Azure Front Door: configuration resiliency, data plane resiliency, tenant isolation, and accelerated Recovery Time Objective (RTO). Together, these pillars help Azure Front Door remain continuously available and...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "AbhishekTiwari"
-    },
-    {
-      "title": "Azure Bastion: Enterprise-grade secure access made simple",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-bastion-enterprise-grade-secure-access-made-simple/ba-p/4503833",
-      "published": "2026-03-19T14:32:39+00:00",
-      "summary": "Managing secure remote access to virtual machines traditionally means juggling public IP addresses, configuring jump boxes, deploying VPN infrastructure, and managing complex firewall rules. Each layer adds cost, complexity, and potential security vulnerabilities. Azure Bastion changes everything....",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "ShabazShaik"
     }
   ]
 }
