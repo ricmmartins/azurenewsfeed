@@ -1,7 +1,160 @@
 {
-  "lastUpdated": "2026-04-23T13:26:43.192036+00:00",
-  "totalArticles": 241,
+  "lastUpdated": "2026-04-24T13:21:26.246995+00:00",
+  "totalArticles": 250,
   "articles": [
+    {
+      "title": "Deploying an Agentic Service to Microsoft 365 Copilot with Delegated OBO Access",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deploying-an-agentic-service-to-microsoft-365-copilot-with/ba-p/4514197",
+      "published": "2026-04-24T13:00:00+00:00",
+      "summary": "You've built an agentic service. It works. It uses the framework you chose — maybe LangChain, maybe Semantic Kernel, maybe the Microsoft Agent Framework, maybe something entirely your own. It talks to your LLM, calls your downstream APIs, and manages multi-turn conversations the way you designed...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "JamesN"
+    },
+    {
+      "title": "Axios npm Supply Chain Compromise – Guidance for Azure Pipelines Customers",
+      "link": "https://devblogs.microsoft.com/devops/axios-npm-supply-chain-compromise-guidance-for-azure-pipelines-customers/",
+      "published": "2026-04-24T10:40:43+00:00",
+      "summary": "On March 31, 2026, malicious versions of the widely used JavaScript HTTP client library Axios were briefly published to the npm registry as part of a supply chain attack. The affected versions — 1.14.1 and 0.30.4 — included a hidden malicious dependency that executed during installation and...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Josef Sin"
+    },
+    {
+      "title": "When RAG Isn’t Enough: Moving from Retrieval to Relationship-Aware Systems in Enterprise AI:",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/when-rag-isn-t-enough-moving-from-retrieval-to-relationship/ba-p/4514185",
+      "published": "2026-04-24T07:04:57+00:00",
+      "summary": "The Problem In an enterprise AI scenario, the goal was to map structured feature data to relevant sections within large technical documents. At a glance, this appears to be a straightforward semantic matching problem. Initial results using semantic search were promising. However, as the system was...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "ankitasarkar"
+    },
+    {
+      "title": "When Anthropic’s Managed Agents Meet Microsoft Hosted Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-anthropic-s-managed-agents-meet-microsoft-hosted-agents/ba-p/4514337",
+      "published": "2026-04-24T07:00:00+00:00",
+      "summary": "Let’s start from a real engineering pain point. In their engineering blog Managed Agents, Anthropic describes a sobering observation: while building the agent scaffolding (the “harness”) for Claude Sonnet 4.5, they noticed the model suffered from “context anxiety,” so they added context-reset logic...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
+    {
+      "title": "Stop Experimenting, Start Building: AI Apps & Agents Dev Days Has You Covered",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/stop-experimenting-start-building-ai-apps-agents-dev-days-has/ba-p/4513651",
+      "published": "2026-04-24T05:57:58+00:00",
+      "summary": "The AI landscape has shifted. The question is no longer “Can we build AI applications?” it’s “Can we build AI applications that actually work in production?” Demos are easy. Reliable, scalable, resilient AI systems that handle real-world complexity? That’s where most teams struggle. If you’re an AI...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Join our free livestream series on hosting agents in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-our-free-livestream-series-on-hosting-agents-in-microsoft/ba-p/4508479",
+      "published": "2026-04-24T05:00:00+00:00",
+      "summary": "Join us for a new 3‑part livestream series where we deploy AI agents on Microsoft Foundry using Microsoft Agent Framework and LangChain/LangGraph, then level them up with tools, observability, and evals. You'll learn how to: Deploy Python agents to Foundry Hosted agents using the Azure Developer...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox"
+    },
+    {
+      "title": "How to Troubleshoot Azure Functions Host Startup Issue",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-troubleshoot-azure-functions-host-startup-issue/ba-p/4512966",
+      "published": "2026-04-24T03:50:54+00:00",
+      "summary": "Table of Contents Overview Understanding How the Host Starts Up Host Startup Sequence Host States Key Settings That Affect Startup Startup Failure Categories Common Causes and Solutions 1. Missing or Invalid FUNCTIONS_EXTENSION_VERSION 2. Missing or Mismatched FUNCTIONS_WORKER_RUNTIME 3. Storage...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "vikasgupta5"
+    },
+    {
+      "title": "Host a Microsoft Build //local host Event in Your City",
+      "link": "https://techcommunity.microsoft.com/t5/azure-events/host-a-microsoft-build-local-host-event-in-your-city/ba-p/4514274",
+      "published": "2026-04-23T22:18:07+00:00",
+      "summary": "Content at Microsoft Build will be grounded in technical depth, developer credibility, and hands-on learning and creation. There are a total of 16 sessions available to build your agenda, including 4 labs and 12 breakout sessions, listed below. Labs are approximately 75 minutes in length, while...",
+      "blog": "Azure Events",
+      "blogId": "azure-events",
+      "author": "GalimahB"
+    },
+    {
+      "title": "Centralizing Enterprise API Access for Agent-Based Architectures",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/centralizing-enterprise-api-access-for-agent-based-architectures/ba-p/4511792",
+      "published": "2026-04-23T21:43:23+00:00",
+      "summary": "Problem Statement When building AI agents or automation solutions, calling enterprise APIs directly often means configuring individual HTTP actions within each agent for every API. While this works for simple scenarios, it quickly becomes repetitive and difficult to manage as complexity grows. The...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "sbaskaran"
+    },
+    {
+      "title": "Automatic SSO Takeover in Azure AD B2C Custom Policies",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/automatic-sso-takeover-in-azure-ad-b2c-custom-policies/ba-p/4514167",
+      "published": "2026-04-23T21:34:55+00:00",
+      "summary": "Why This Matters As organizations modernize authentication, many shift toward Single Sign-On (SSO) using providers like Microsoft EntraID. But if you already have users in Azure AD B2C using local accounts (email + password), the transition isn’t straightforward. You’ll run into: Duplicate...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "anammalu"
+    },
+    {
+      "title": "Test Post",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/",
+      "published": "2026-04-23T20:56:27+00:00",
+      "summary": "Azure MCP Server is now available as an MCP Bundle (.mcpb), enabling one-click installation into Claude Desktop and other MCP-compatible clients. The post Test Post appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "saikumar"
+    },
+    {
+      "title": "The Microsoft Azure Infra Summit 2026 Schedule Is Live.",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/the-microsoft-azure-infra-summit-2026-schedule-is-live/ba-p/4513538",
+      "published": "2026-04-23T19:08:05+00:00",
+      "summary": "Hello Folks, I promised the full agenda would drop soon. Today’s the day. The schedule is locked in, the approved sessions are on the board, and I want to walk you through what three days of deep-technical, engineering-led Azure content looks like. A quick refresher before we get into the content:...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "GPT Capability in Understanding Coordinates: How GPT-5.4 Transforms Spatial Precision",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-capability-in-understanding-coordinates-how-gpt-5-4/ba-p/4506726",
+      "published": "2026-04-23T19:00:00+00:00",
+      "summary": "Why I Ran This Experiment This work started not as a benchmarking exercise, but as a practical problem: I needed to automatically extract panel regions from PDF-format electrical Single-Line Diagram (SLD) drawings using OpenAI models . All experiments were conducted using OpenAI models in Microsoft...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "jihyeseo"
+    },
+    {
+      "title": "Enabling Agentic Data Governance with Hybrid Cloud Flexibility in Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/enabling-agentic-data-governance-with-hybrid-cloud-flexibility/ba-p/4513511",
+      "published": "2026-04-23T18:17:35+00:00",
+      "summary": "The “Why” Do you manage data in a complex multi-cloud environment? Are you struggling with data silos, evolving regulations, and the pressure to maintain control and compliance across on-prem and multiple clouds? Do you ever wish an intelligent assistant could help shoulder the load of data...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Moaz_Mirza"
+    },
+    {
+      "title": "LangChain.js for Beginners: A Free Course to Build Agentic AI Apps with JavaScript",
+      "link": "https://devblogs.microsoft.com/blog/langchainjs-for-beginners",
+      "published": "2026-04-23T17:00:14+00:00",
+      "summary": "Want to build AI agents with JavaScript that go beyond basic chat completions? Agents that reason, call tools, and pull from knowledge bases on their own? We put together a free, open source course to help you get there. LangChain.js for Beginners is 8 chapters and 70+ runnable TypeScript examples....",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Yohan Lasorsa"
+    },
+    {
+      "title": "Microsoft 365 multi-agent workflow with Microsoft Agent Framework",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-365-multi-agent-workflow-with-microsoft-agent/ba-p/4514164",
+      "published": "2026-04-23T16:16:15+00:00",
+      "summary": "Most production AI tasks are too complex for a single agent. You need specialists that collaborate, a destination expert that researches the best places to visit, a budget analyst that breaks down costs, an activities curator that finds the best experiences, all coordinated by an orchestration...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Vincent_Giraud"
+    },
+    {
+      "title": "Automate Prior Authorization with AI Agents - Now Available as a Foundry Template",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/automate-prior-authorization-with-ai-agents-now-available-as-a/ba-p/4513432",
+      "published": "2026-04-23T16:00:00+00:00",
+      "summary": "By Amit Mukherjee · Principal Solutions Engineer, Microsoft Health & Life Sciences Lindsey Craft-Goins · Technology Leader - Cloud & AI Platforms, Health & Life Sciences Joel Borellis · Director Solutions Engineering - Cloud & AI Platforms, Health & Life Sciences Prior authorization (PA) is one of...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amimukherjee"
+    },
     {
       "title": "Azure Monitor Pipeline: A Modern Approach to Telemetry Ingestion at Scale",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-monitor-pipeline-a-modern-approach-to-telemetry-ingestion/ba-p/4513980",
@@ -30,13 +183,13 @@
       "author": "AndreasKapetaniou"
     },
     {
-      "title": "Stop Experimenting, Start Building: AI Apps & Agents Dev Days Has You Covered",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/stop-experimenting-start-building-ai-apps-agents-dev-days-has/ba-p/4513651",
+      "title": "Lessons Learned from Building a Well-Matching Intelligence Layer",
+      "link": "https://devblogs.microsoft.com/ise/lessons-learned-building-well-matching-intelligence-layer/",
       "published": "2026-04-23T07:00:00+00:00",
-      "summary": "The AI landscape has shifted. The question is no longer “Can we build AI applications?” it’s “Can we build AI applications that actually work in production?” Demos are easy. Reliable, scalable, resilient AI systems that handle real-world complexity? That’s where most teams struggle. If you’re an AI...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
+      "summary": "Key insights from the EDA and Ground Truth journey for solving well identity resolution in the Energy industry—challenges that extend to any entity matching problem across distributed systems. The post Lessons Learned from Building a Well-Matching Intelligence Layer appeared first on ISE Developer...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Emmeline Hoops, Oscar Fimbres, Kavitha Sreenath"
     },
     {
       "title": "Entra ID Login via Azure Bastion Fails After VM Recreation",
@@ -147,13 +300,13 @@
       "author": "Takuto Higuchi, jeffhollan, Lakshmi Ramakrishnan"
     },
     {
-      "title": "The Microsoft Azure Infra Summit 2026 Schedule Is Live.",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/the-microsoft-azure-infra-summit-2026-schedule-is-live/ba-p/4513538",
-      "published": "2026-04-22T17:02:48+00:00",
-      "summary": "Hello Folks, I promised the full agenda would drop soon. Today’s the day. The schedule is locked in, the approved sessions are on the board, and I want to walk you through what three days of deep-technical, engineering-led Azure content looks like. A quick refresher before we get into the content:...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
+      "title": "Securing MCP: A Control Plane for Agent Tool Execution",
+      "link": "https://devblogs.microsoft.com/blog/securing-mcp-a-control-plane-for-agent-tool-execution",
+      "published": "2026-04-22T17:00:09+00:00",
+      "summary": "The Model Context Protocol (MCP) is quickly becoming a common way for AI agents to discover and use tools. It provides a consistent interface to databases, APIs, file systems, and third-party services, which makes it easier to plug capabilities into agent workflows. However, MCP standardizes the...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Jack Batzner"
     },
     {
       "title": "Azure VNet Data Gateway for Secure Power BI & Power Platform Access in Enterprises",
@@ -235,6 +388,15 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "abbottkarl"
+    },
+    {
+      "title": "Securing Argo CD with Microsoft Entra ID: A Step-by-Step Guide",
+      "link": "https://blog.aks.azure.com/2026/04/22/argocd-extension-with-microsoft-entra",
+      "published": "2026-04-22T00:00:00+00:00",
+      "summary": "Learn how to secure the Argo CD extension for AKS with Microsoft Entra ID using Terraform, workload identity, OIDC, RBAC, and policy-based access control.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "Azure landing zones & Sovereign landing zones",
@@ -361,15 +523,6 @@
       "blog": "Azure PaaS",
       "blogId": "azurepaasblog",
       "author": "jainsourabh"
-    },
-    {
-      "title": "How to Troubleshoot Azure Functions Host Startup Issue",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-troubleshoot-azure-functions-host-startup-issue/ba-p/4512966",
-      "published": "2026-04-21T07:04:42+00:00",
-      "summary": "Overview Azure Functions is a powerful serverless compute service that enables you to run event-driven code without managing infrastructure. When you deploy a Function App, the Azure Functions host is the runtime process responsible for discovering your functions, loading extensions and bindings,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vikasgupta5"
     },
     {
       "title": "From Playwright Automation to Agent Driven Testing (GHCP in Action)",
@@ -1425,15 +1578,6 @@
       "author": "dchelupati"
     },
     {
-      "title": "Azure Monitor in Azure SRE Agent: Autonomous Alert Investigation and Intelligent Merging",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-monitor-in-azure-sre-agent-autonomous-alert-investigation/ba-p/4509069",
-      "published": "2026-04-07T22:20:53+00:00",
-      "summary": "Azure Monitor is great at telling you something is wrong. But once the alert fires, the real work begins — someone has to open the portal, triage it, dig into logs, and figure out what happened. That takes time. And while they're investigating, the same alert keeps firing every few minutes,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Vineela-Suri"
-    },
-    {
       "title": "MCP as Easy as 1-2-3: Introducing the Fluent API for MCP Apps",
       "link": "https://devblogs.microsoft.com/azure-sdk/mcp-as-easy-as-1-2-3-introducing-the-fluent-api-for-mcp-apps/",
       "published": "2026-04-07T21:16:11+00:00",
@@ -1596,15 +1740,6 @@
       "author": "Swapnil Nagar"
     },
     {
-      "title": "Tracking Every Token: Granular Cost and Usage Metrics for Microsoft Foundry Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/tracking-every-token-granular-cost-and-usage-metrics-for/ba-p/4503143",
-      "published": "2026-04-06T13:00:00+00:00",
-      "summary": "As organizations scale their use of AI agents, one question keeps surfacing: how much is each agent actually costing us? Not at the subscription level. Not at the resource group level. Per agent, per model, per request. This post walks through a solution that answers that question by combining...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Christian_Coello"
-    },
-    {
       "title": "Private DNS and Hub–Spoke Networking for Enterprise AI Workloads on Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/private-dns-and-hub-spoke-networking-for-enterprise-ai-workloads/ba-p/4508835",
       "published": "2026-04-06T07:56:39+00:00",
@@ -1630,24 +1765,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "whosocurious"
-    },
-    {
-      "title": "Vector Drift in Azure AI Search: Three Hidden Reasons Your RAG Accuracy Degrades After Deployment",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/vector-drift-in-azure-ai-search-three-hidden-reasons-your-rag/ba-p/4493031",
-      "published": "2026-04-04T15:00:00+00:00",
-      "summary": "What Is Vector Drift? Vector drift occurs when embeddings stored in a vector index no longer accurately represent the semantic intent of incoming queries. Because vector similarity search depends on relative semantic positioning, even small changes in models, data distribution, or preprocessing...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "akankshaGahalout"
-    },
-    {
-      "title": "Introducing TSGen: Automated TSG Generation @ Scale – Built by AI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-tsgen-automated-tsg-generation-scale-built-by-ai/ba-p/4508191",
-      "published": "2026-04-03T20:18:41+00:00",
-      "summary": "This post is a follow-up to the previous write-up at https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/the-future-of-ai-autonomous-agents-for-identifying-the-root-cause-of-cloud-servi/4412494?previewMessage=true. If you haven’t read it yet, it provides the background on why we started...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Daniel-Genkin-MSFT"
     },
     {
       "title": "Run the latest Azure Arc agent with Automatic Agent Upgrade (Public Preview)",
@@ -1740,15 +1857,6 @@
       "author": "kumaramit1"
     },
     {
-      "title": "oBeaver — A Beaver That Runs LLMs on Your Machine 🦫",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/obeaver-a-beaver-that-runs-llms-on-your-machine/ba-p/4507884",
-      "published": "2026-04-03T07:00:00+00:00",
-      "summary": "Hi there! I'm the creator of oBeaver. This project started from a pretty simple desire: I wanted to run large language models on my own computer. No data sent to the cloud. No API keys. No per-call charges. I'm guessing you've had the same thought. There are already great tools out there — Ollama...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
       "title": "Enterprise‑Scale Azure Subscription Vending Using Azure Verified Modules (AVM)",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/enterprise-scale-azure-subscription-vending-using-azure-verified/ba-p/4507751",
       "published": "2026-04-03T06:45:24+00:00",
@@ -1810,15 +1918,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "SundarBalajiA"
-    },
-    {
-      "title": "Build a Fully Offline AI App with Foundry Local and CAG",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-a-fully-offline-ai-app-with-foundry-local-and-cag/ba-p/4502124",
-      "published": "2026-04-02T07:00:00+00:00",
-      "summary": "A hands-on guide to building an on-device AI support agent using Context-Augmented Generation, JavaScript, and Foundry Local. You have probably heard the AI pitch: \"just call our API.\" But what happens when your application needs to work without an internet connection? Perhaps your users are field...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
     },
     {
       "title": "Understanding the Total Cost of Ownership",
@@ -2152,24 +2251,6 @@
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Jason_Pereira"
-    },
-    {
-      "title": "Your Entire Engineering Floor Just Stopped Coding",
-      "link": "https://devblogs.microsoft.com/all-things-azure/your-entire-engineering-floor-just-stopped-coding/",
-      "published": "2026-03-25T03:38:23+00:00",
-      "summary": "And the developers running Claude Code and GitHub Copilot CLI didn’t notice… Status Page Says ‘Operational.’ Your Subagents Say Otherwise. If you’re running autonomous agents in any serious capacity, you’ve experienced this: model provider outages aren’t edge cases — they’re part of the operating...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Desi Villanueva"
-    },
-    {
-      "title": "Unlock More Power in Your Development Workflow: Syncfusion for Visual Studio Subscribers",
-      "link": "https://devblogs.microsoft.com/visualstudio/syncfusion-for-visual-studio/",
-      "published": "2026-03-24T15:00:12+00:00",
-      "summary": "A few months ago, I was talking with a developer who said something that stuck with me: “I love building apps. I just don’t love rebuilding the same UI controls over and over again.” That’s the reality for a lot of teams. You want to focus on your business logic, your architecture, your...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Jim Harrer"
     }
   ]
 }
