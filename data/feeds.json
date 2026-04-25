@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-04-24T13:21:26.246995+00:00",
+  "lastUpdated": "2026-04-25T13:01:39.037264+00:00",
   "totalArticles": 250,
   "articles": [
+    {
+      "title": "Modernizing Industrial Safety and Inspection with AI-Driven Drone Automation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/modernizing-industrial-safety-and-inspection-with-ai-driven/ba-p/4514284",
+      "published": "2026-04-25T00:07:31+00:00",
+      "summary": "In large-scale manufacturing and infrastructure environments, maintaining structural integrity is a continuous operational challenge. Industrial facilities—from automotive plants to energy and infrastructure sites—depend on thousands of structural connection points such as bolts and fasteners to...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "PeterTHLee"
+    },
+    {
+      "title": "Azure MCP Server now available as an MCP Bundle (.mcpb)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/",
+      "published": "2026-04-24T20:32:49+00:00",
+      "summary": "Azure MCP Server is now available as an MCP Bundle (.mcpb), enabling one-click installation into Claude Desktop and other MCP-compatible clients. The post Azure MCP Server now available as an MCP Bundle (.mcpb) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Victor Colin Amador"
+    },
+    {
+      "title": "AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473",
+      "published": "2026-04-24T18:35:28+00:00",
+      "summary": "Co-authors: Jie Su, Abhinav Dua, Mukthar Ahmed, Dhruv Joshi, Dibyendu Mondal In a previous post, we shared how Azure Automated VM Recovery works to minimize virtual machine downtime through a three-stage approach: Detection, Diagnosis, and Mitigation. This post goes one layer deeper into how our...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "Jon_Andoni_Baranda"
+    },
+    {
+      "title": "Designing a Medallion Framework — A Decision Guide",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/designing-a-medallion-framework-a-decision-guide/ba-p/4514349",
+      "published": "2026-04-24T16:11:09+00:00",
+      "summary": "Everyone draws the same picture: Bronze → Silver → Gold. Three boxes, three arrows. Done. What that picture hides is the dozen design decisions you have to make inside each box — and the ones you make at the boundaries between them. Get those right and onboarding the 200th table feels like...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Subhajit1994"
+    },
+    {
+      "title": "Enhancing Enterprise AI Deployments with Zero Trust Networking",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/enhancing-enterprise-ai-deployments-with-zero-trust-networking/ba-p/4513662",
+      "published": "2026-04-24T16:08:22+00:00",
+      "summary": "Problem Statement Azure OpenAI is publicly accessible by default Azure OpenAI frequently asked questions | Microsoft Learn Any application with API access can call it from anywhere Violates: Enterprise security policies Zero Trust architecture Key principles of the Zero Trust network model...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "kirankumar_manchiwar04"
+    },
     {
       "title": "Deploying an Agentic Service to Microsoft 365 Copilot with Delegated OBO Access",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deploying-an-agentic-service-to-microsoft-365-copilot-with/ba-p/4514197",
@@ -91,15 +136,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "anammalu"
-    },
-    {
-      "title": "Test Post",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-mcpb-support/",
-      "published": "2026-04-23T20:56:27+00:00",
-      "summary": "Azure MCP Server is now available as an MCP Bundle (.mcpb), enabling one-click installation into Claude Desktop and other MCP-compatible clients. The post Test Post appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "saikumar"
     },
     {
       "title": "The Microsoft Azure Infra Summit 2026 Schedule Is Live.",
@@ -244,15 +280,6 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "aimeelittleton"
-    },
-    {
-      "title": "AI-Powered Downtime Investigation for Azure VMs: Automating Root Cause Analysis",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ai-powered-downtime-investigation-for-azure-vms-automating-root/ba-p/4513473",
-      "published": "2026-04-22T18:34:50+00:00",
-      "summary": "Co-authors: Jie Su, Abhinav Dua, Mukthar Ahmed, Dhruv Joshi In a previous post, we shared how Azure Automated VM Recovery works to minimize virtual machine downtime through a three-stage approach: Detection, Diagnosis, and Mitigation. This post goes one layer deeper into how our team is using AI to...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Jon_Andoni_Baranda"
     },
     {
       "title": "Optimizing Git policy management at scale",
@@ -2224,33 +2251,6 @@
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
       "author": "SaleemBseeu"
-    },
-    {
-      "title": "Building Search-Enabled Agents with Azure AI Foundry and Semantic Kernel and A2A",
-      "link": "https://devblogs.microsoft.com/ise/building-bing-search-enabled-agent-with-microsoft-foundry-and-semantic-kernel/",
-      "published": "2026-03-26T07:00:00+00:00",
-      "summary": "A step-by-step guide to enable search in the semantic kernel agents using bing grounding in Azure Foundry AI Agent using A2A. The post Building Search-Enabled Agents with Azure AI Foundry and Semantic Kernel and A2A appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Munish Malhotra"
-    },
-    {
-      "title": "\"No-Ops\" Kafka Experience: Why Event Hubs is Your Default Destination for Streaming on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/quot-no-ops-quot-kafka-experience-why-event-hubs-is-your-default/ba-p/4481501",
-      "published": "2026-03-25T22:28:51+00:00",
-      "summary": "For many engineering teams, the promise of real-time data streaming is often overshadowed by the \"operational tax\" of maintaining the infrastructure. Managing an Apache Kafka® cluster traditionally means wrestling with broker patches, Zookeeper (or KRaft) orchestration, disk rebalancing, and the...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "ashish-chhabria"
-    },
-    {
-      "title": "Azure Managed Redis & Azure Databricks: Real-time Feature Serving for Low-Latency Decisions",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/azure-managed-redis-azure-databricks-real-time-feature-serving/ba-p/4503116",
-      "published": "2026-03-25T16:00:00+00:00",
-      "summary": "This blog content has been a collective collaboration between the Azure Databricks and Azure Managed Redis Product and Product Marketing teams. Executive summary Modern decisioning systems, fraud scoring, payments authorization, personalization, and step-up authentication, must return answers in...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Jason_Pereira"
     }
   ]
 }
