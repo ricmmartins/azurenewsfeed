@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-04-25T13:01:39.037264+00:00",
-  "totalArticles": 250,
+  "lastUpdated": "2026-04-26T13:03:48.728679+00:00",
+  "totalArticles": 244,
   "articles": [
+    {
+      "title": "Microsoft’s New In‑House AI Models (MAI‑Transcribe, MAI‑Voice, MAI‑Image)",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-s-new-in-house-ai-models-mai-transcribe-mai-voice-mai/ba-p/4512731",
+      "published": "2026-04-26T11:56:35+00:00",
+      "summary": "What Are the New MAI Models? MAI‑Transcribe‑1 (Speech‑to‑Text) MAI‑Transcribe‑1 is Microsoft’s first‑generation in‑house speech recognition model. It supports 25 languages and is optimized for real‑world, noisy enterprise audio, such as meetings and call centers. Key highlights Enterprise‑grade...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "kumar_rahul"
+    },
+    {
+      "title": "Dev Containers for .NET in VS Code: A Beginner‑Friendly Guide That Actually Works",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/dev-containers-for-net-in-vs-code-a-beginner-friendly-guide-that/ba-p/4507785",
+      "published": "2026-04-26T05:00:00+00:00",
+      "summary": "What Dev Containers are really about At a high level, Dev Containers let you use a Docker container as your development environment inside VS Code. But the real idea is not “Docker for development”. The real idea is this: Move all environment complexity out of your laptop and into...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Debapriya"
+    },
+    {
+      "title": "Azure Key Vault Auto‑Rotation Practicle Guide",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-key-vault-auto-rotation-practicle-guide/ba-p/4513816",
+      "published": "2026-04-26T03:21:33+00:00",
+      "summary": "If you’ve ever been called into a Severity-1 issue because a certificate expired at midnight, you already understand why credential rotation matters. Keys, secrets, and certificates sit quietly in the background and when they expire, applications go dark, trust breaks, and teams scramble. This is...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ChandraHundigam_MSFT"
+    },
+    {
+      "title": "How ACR Artifact Cache Handles Multi-Arch Images: What Gets Cached and When Webhooks Fire",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-acr-artifact-cache-handles-multi-arch-images-what-gets/ba-p/4514744",
+      "published": "2026-04-25T19:37:56+00:00",
+      "summary": "By Johnson Shi (Senior Product Manager), Toddy Mladenov (Principal PM Manager), Luis Dieguez (Principal SWE Manager), Akash Singhal (Senior Software Engineer), Kiran Challa (Senior Software Engineer), Ren Shao (Senior Software Engineer) Introduction Three of the most common questions we hear from...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "johnsonshi_msft"
+    },
     {
       "title": "Modernizing Industrial Safety and Inspection with AI-Driven Drone Automation",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/modernizing-industrial-safety-and-inspection-with-ai-driven/ba-p/4514284",
@@ -1524,15 +1560,6 @@
       "author": "vaidyas"
     },
     {
-      "title": "Build and Host MCP Apps on Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-and-host-mcp-apps-on-azure-app-service/ba-p/4509705",
-      "published": "2026-04-08T18:10:03+00:00",
-      "summary": "MCP Apps are here, and they're a game-changer for building AI tools with interactive UIs. If you've been following the Model Context Protocol (MCP) ecosystem, you've probably heard about the MCP Apps spec — the first official MCP extension that lets your tools return rich, interactive UIs that...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig"
-    },
-    {
       "title": "Introducing SQL MCP Server",
       "link": "https://devblogs.microsoft.com/azure-sql/introducing-sql-mcp-server/",
       "published": "2026-04-08T16:01:37+00:00",
@@ -1594,15 +1621,6 @@
       "blog": "AKS Blog",
       "blogId": "aksblog",
       "author": "Microsoft"
-    },
-    {
-      "title": "3 Ways to Get More from Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/3-ways-to-get-more-from-azure-sre-agent/ba-p/4508993",
-      "published": "2026-04-07T23:33:10+00:00",
-      "summary": "When you first set up Azure SRE Agent, it’s tempting to give it everything. Connect all your alert sources, route every severity, set up scheduled tasks to poll your channels every 30 seconds. The agent can handle all of it. But a few simple configuration choices can help you get more value from...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "dchelupati"
     },
     {
       "title": "MCP as Easy as 1-2-3: Introducing the Fluent API for MCP Apps",
@@ -1774,15 +1792,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "deepthihr"
-    },
-    {
-      "title": "Building MCP servers with Entra ID and pre-authorized clients",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-mcp-servers-with-entra-id-and-pre-authorized-clients/ba-p/4508453",
-      "published": "2026-04-06T07:00:00+00:00",
-      "summary": "The Model Context Protocol (MCP) gives AI agents a standard way to call external tools, but things get more complicated when those tools need to know who the user is. In this post, I’ll show how to build an MCP server with the Python FastMCP package that authenticates users with Microsoft Entra ID...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox"
     },
     {
       "title": "Building Cost-Aware Azure Infrastructure Pipelines: Estimate Costs Before You Deploy",
@@ -2010,15 +2019,6 @@
       "author": "Zoran Jovanovic"
     },
     {
-      "title": "Migrating Azure SQL Database Across Tenants Using Subscription Transfer",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/migrating-azure-sql-database-across-tenants-using-subscription/ba-p/4507002",
-      "published": "2026-04-01T16:01:18+00:00",
-      "summary": "Moving an Azure subscription between Microsoft Entra ID (formerly Azure Active Directory) tenants is a common requirement during: Mergers and acquisitions Organizational restructuring Enterprise Agreement (EA) enrollment realignment Lighthouse or multi‑tenant operating model changes However, when...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "princy_rajpoot"
-    },
-    {
       "title": "Bookmark Studio: evolving bookmarks in Visual Studio",
       "link": "https://devblogs.microsoft.com/visualstudio/bookmark-studio-evolving-bookmarks-in-visual-studio/",
       "published": "2026-04-01T14:09:58+00:00",
@@ -2197,60 +2197,6 @@
       "blog": "Azure Migration",
       "blogId": "azuremigrationblog",
       "author": "RohanB"
-    },
-    {
-      "title": "Azure Maps Adds Support to Private Endpoints (Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-maps-blog/azure-maps-adds-support-to-private-endpoints-preview/ba-p/4505743",
-      "published": "2026-03-27T00:23:58+00:00",
-      "summary": "Location data is by nature sensitive and therefore needs to be managed securely. Today, we’re announcing the Public Preview of private endpoint support for Azure Maps, bringing enterprise-grade network isolation and data privacy to your location-aware applications. With Azure Private Link, your...",
-      "blog": "Azure Maps",
-      "blogId": "azuremapsblog",
-      "author": "PeterBr"
-    },
-    {
-      "title": "Introducing Skills in Azure API Center",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-skills-in-azure-api-center/ba-p/4506014",
-      "published": "2026-03-26T21:31:02+00:00",
-      "summary": "The problem Modern applications depend on more than APIs. A single AI workflow might call an LLM, invoke an MCP tool, integrate a third-party service, and reference a business capability spanning dozens of endpoints. Without a central inventory, these assets become impossible to discover, easy to...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "anishta"
-    },
-    {
-      "title": "Azure SDK Release (March 2026)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-march-2026/",
-      "published": "2026-03-26T20:41:06+00:00",
-      "summary": "Azure SDK releases every month. In this post, you find this month's highlights and release notes. The post Azure SDK Release (March 2026) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Ronnie Geraghty"
-    },
-    {
-      "title": "Copy dashboards from Dashboards with Grafana to Azure Managed Grafana",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/copy-dashboards-from-dashboards-with-grafana-to-azure-managed/ba-p/4505710",
-      "published": "2026-03-26T17:28:43+00:00",
-      "summary": "Azure Monitor Dashboards with Grafana provides an in‑portal Grafana experience optimized for Azure Monitor and managed Prometheus data. For many teams, that simplicity is exactly what they need. As observability practices mature, teams often need more than visualization: broader data source...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "aayodeji"
-    },
-    {
-      "title": "TypeScript AppHost in Aspire 13.2: same app model, different syntax",
-      "link": "https://devblogs.microsoft.com/aspire/aspire-typescript-apphost/",
-      "published": "2026-03-26T17:00:00+00:00",
-      "summary": "Aspire 13.2 enables TypeScript developers to define AppHosts directly in TypeScript, with the same streamlined Aspire application model. The post TypeScript AppHost in Aspire 13.2: same app model, different syntax appeared first on Aspire Blog.",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "Sebastien Ros"
-    },
-    {
-      "title": "Assess Azure DDoS Protection Status Across Your Environment",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/assess-azure-ddos-protection-status-across-your-environment/ba-p/4505969",
-      "published": "2026-03-26T15:36:26+00:00",
-      "summary": "Introduction Distributed Denial of Service (DDoS) attacks continue to be one of the most prevalent threats facing organizations with internet-facing workloads. Azure DDoS Protection provides cloud-scale protection against L3/4 volumetric attacks, helping ensure your applications remain available...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "SaleemBseeu"
     }
   ]
 }
