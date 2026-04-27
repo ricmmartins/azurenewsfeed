@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-04-26T13:03:48.728679+00:00",
-  "totalArticles": 244,
+  "lastUpdated": "2026-04-27T13:50:13.692906+00:00",
+  "totalArticles": 243,
   "articles": [
+    {
+      "title": "Dissecting LLM Container Cold-Start: Where the Time Actually Goes",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/dissecting-llm-container-cold-start-where-the-time-actually-goes/ba-p/4508831",
+      "published": "2026-04-27T11:36:05+00:00",
+      "summary": "Dissecting LLM Container Cold-Start: Where the Time Actually Goes Cold-start latency determines whether GPU clusters can scale to zero, how fast they can autoscale, and whether bursty or low-QPS workloads are economically viable. Most optimization effort targets the container pull path – faster...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "robcronin"
+    },
+    {
+      "title": "From Portal Edits to GitOps : Deploying Azure API Management Configuration with APIOps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-portal-edits-to-gitops-deploying-azure-api-management/ba-p/4514975",
+      "published": "2026-04-27T07:45:35+00:00",
+      "summary": "Introduction Modern enterprise platforms are increasingly built around APIs, and Azure API Management (APIM) sits at the heart of these systems as the control plane for enforcing policies, managing access, and routing traffic. While APIM provides a powerful interface through the Azure portal, many...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "aloormahesh"
+    },
+    {
+      "title": "Rethinking Data Modeling: How GitHub Copilot Is Changing the Way We Design Systems",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/rethinking-data-modeling-how-github-copilot-is-changing-the-way/ba-p/4509941",
+      "published": "2026-04-27T07:00:00+00:00",
+      "summary": "There is a point in every engineer’s journey where data modeling stops feeling intuitive. What starts as a clean schema becomes harder to reason about. Relationships blur. Query paths multiply. Small changes ripple across different steps. This is where data modeling reveals its real challenge: not...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "B_Manasa"
+    },
+    {
+      "title": "Azure AI Foundry vs Traditional ML Pipelines: What’s Different and Why It Matters",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-ai-foundry-vs-traditional-ml-pipelines-what-s-different/ba-p/4508897",
+      "published": "2026-04-27T06:06:18+00:00",
+      "summary": "The Traditional ML Pipeline: What It Was Built For Traditional ML pipelines typically look like this: Data ingestion and preparation Model training (often batch‑oriented) Model validation and versioning Deployment via APIs or batch jobs Monitoring focused on accuracy and drift This approach worked...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Parvathy_R_Pillai"
+    },
+    {
+      "title": "How to Troubleshoot Azure Functions Service Bus Trigger Issues",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-to-troubleshoot-azure-functions-service-bus-trigger-issues/ba-p/4514006",
+      "published": "2026-04-27T06:01:56+00:00",
+      "summary": "Table of Contents Overview Understanding How the Service Bus Trigger Works Message Processing Flow Key Concepts host.json Configuration Reference Issue Categories Common Causes and Solutions 1. Connection String or Configuration Errors 2. Authentication and Authorization Failures (RBAC / SAS) 3....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "vikasgupta5"
+    },
     {
       "title": "Microsoft’s New In‑House AI Models (MAI‑Transcribe, MAI‑Voice, MAI‑Image)",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-s-new-in-house-ai-models-mai-transcribe-mai-voice-mai/ba-p/4512731",
@@ -957,15 +1002,6 @@
       "author": "kirankumar_manchiwar04"
     },
     {
-      "title": "Dissecting LLM Container Cold-Start: Where the Time Actually Goes",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/dissecting-llm-container-cold-start-where-the-time-actually-goes/ba-p/4508831",
-      "published": "2026-04-15T22:38:11+00:00",
-      "summary": "Cold-start latency determines whether GPU clusters can scale to zero, how fast they can autoscale, and whether bursty or low-QPS workloads are economically viable. Most optimization effort targets the container pull path – faster registries, lazy-pull snapshotters, different compression formats....",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "robcronin"
-    },
-    {
       "title": "Enforce Cost Limits on KQL Queries and Notebooks in the Microsoft Sentinel Data Lake",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/enforce-cost-limits-on-kql-queries-and-notebooks-in-the/ba-p/4511329",
       "published": "2026-04-15T20:26:56+00:00",
@@ -1515,15 +1551,6 @@
       "author": "jayesh_mevada"
     },
     {
-      "title": "Deploying to Azure Web App from Azure DevOps Using UAMI",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/deploying-to-azure-web-app-from-azure-devops-using-uami/ba-p/4509800",
-      "published": "2026-04-09T05:53:29+00:00",
-      "summary": "TOC UAMI Configuration App Configuration Azure DevOps Configuration Logs UAMI Configuration Create a User Assigned Managed Identity with no additional configuration.This identity will be mentioned in later steps, especially at Object ID. App Configuration On an existing Azure Web App, enable...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "theringe"
-    },
-    {
       "title": "AI Inference on AKS enabled by Azure Arc: Generative AI using Triton and TensorRT‑LLM",
       "link": "https://blog.aks.azure.com/2026/04/09/ai-inference-on-aks-arc-part-5",
       "published": "2026-04-09T00:00:00+00:00",
@@ -1684,15 +1711,6 @@
       "blog": "Azure Migration",
       "blogId": "azuremigrationblog",
       "author": "ankitsurkar"
-    },
-    {
-      "title": "Why Data Platforms Must Become Intelligence Platforms for AI Agents to Work",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/why-data-platforms-must-become-intelligence-platforms-for-ai/ba-p/4505653",
-      "published": "2026-04-07T07:00:00+00:00",
-      "summary": "The promise and the gap Your organization has invested in an AI agent. You ask it: \"Prepare a summary of Q3 revenue by region, including year-over-year trends and top product lines.\" The agent finds revenue numbers in a SQL warehouse, product metadata in Dataverse, regional mappings in SharePoint,...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "AnjaliSadhukhan"
     },
     {
       "title": "AI Inference on AKS enabled by Azure Arc: Predictive AI using Triton and ResNet-50",
@@ -1893,15 +1911,6 @@
       "author": "kumaramit1"
     },
     {
-      "title": "Enterprise‑Scale Azure Subscription Vending Using Azure Verified Modules (AVM)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/enterprise-scale-azure-subscription-vending-using-azure-verified/ba-p/4507751",
-      "published": "2026-04-03T06:45:24+00:00",
-      "summary": "Why Subscription Vending Is Critical at Scale Azure subscriptions define the security, governance, and billing boundary for workloads. In large organizations, manual subscription creation often leads to: Inconsistent management group placement Delayed or missing policy enforcement Incorrect RBAC...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "kumaramit1"
-    },
-    {
       "title": "Blue‑Green Strategy for Always‑On TCP Workloads on Azure Container Apps",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/blue-green-strategy-for-always-on-tcp-workloads-on-azure/ba-p/4507894",
       "published": "2026-04-03T05:58:36+00:00",
@@ -1945,15 +1954,6 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "dmalbrough"
-    },
-    {
-      "title": "VS Code Custom Agents: AI-Powered Terraform Security Scanning in the IDE",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/vs-code-custom-agents-ai-powered-terraform-security-scanning-in/ba-p/4507903",
-      "published": "2026-04-02T09:30:08+00:00",
-      "summary": "GitHub Copilot is already a powerful coding assistant, but out of the box it knows nothing specific about your project's conventions, security requirements, or operational processes. Custom agents change that. They let you define specialized AI assistants that live inside your repository, carry...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "SundarBalajiA"
     },
     {
       "title": "Understanding the Total Cost of Ownership",
@@ -2188,15 +2188,6 @@
       "blog": "AKS Blog",
       "blogId": "aksblog",
       "author": "Microsoft"
-    },
-    {
-      "title": "Autonomous Self-Healing for Azure VMware Solution Private Clouds",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/autonomous-self-healing-for-azure-vmware-solution-private-clouds/ba-p/4506374",
-      "published": "2026-03-27T23:51:43+00:00",
-      "summary": "Overview Azure VMware Solution operates a global fleet of production private clouds, each running a full VMware NSX and vCenter Server control plane. As an example, when a VMware NSX Manager cluster loses quorum, NSX can surface multiple related alarms, but the documented impact is more specific...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "RohanB"
     }
   ]
 }
