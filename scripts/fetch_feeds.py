@@ -50,6 +50,7 @@ BLOGS = {
     "azureadvancedthreatprotection": "Azure Advanced Threat Protection",
     "azure-ai-foundry-blog": "Azure AI Foundry",
     "itopstalkblog": "ITOpsTalk",
+    "coreinfrastructureandsecurityblog": "Core Infrastructure & Security",
 }
 
 TC_RSS_URL = (
@@ -78,6 +79,7 @@ DEVBLOGS = {
 COMMUNITY_BLOGS = {
     "gbblog": ("Azure Global Black Belt Blog", "https://azureglobalblackbelts.com/rss.xml"),
     "azurecitadelblog": ("Azure Citadel Blog", "https://www.azurecitadel.com/blog/index.xml"),
+    "devtoazure": ("Dev.to Azure", "https://dev.to/feed/azure"),
 }
 
 
