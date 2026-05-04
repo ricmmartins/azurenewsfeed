@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-05-03T13:07:16.300130+00:00",
-  "totalArticles": 259,
+  "lastUpdated": "2026-05-04T13:57:04.428132+00:00",
+  "totalArticles": 256,
   "articles": [
+    {
+      "title": "Performance Tuning and Scaling Optimization for Large-Scale Azure Workloads",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/performance-tuning-and-scaling-optimization-for-large-scale/ba-p/4516788",
+      "published": "2026-05-04T13:41:07+00:00",
+      "summary": "Summary As cloud-native systems scale, performance challenges rarely stem from a single bottleneck. Instead, they emerge from the interaction between compute, orchestration, and data layers under load. This article captures a practical optimization journey of a high-volume Azure-based workload and...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "ruchitapradhan"
+    },
+    {
+      "title": "Running GitHub Actions Runners on Azure Container Apps with KEDA Autoscaling",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/running-github-actions-runners-on-azure-container-apps-with-keda/ba-p/4512980",
+      "published": "2026-05-04T13:03:30+00:00",
+      "summary": "GitHub-hosted runners work well for most scenarios. But as workloads grow, teams often need: Better cost optimization — pay only when jobs run More control over execution environments and installed tools Scalable parallel execution — run 10, 20, or 50 jobs simultaneously Network access to private...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "shubhijain"
+    },
+    {
+      "title": "From Drift to Self-Healing: Building a Multi-Repo Azure AI Infrastructure You Can Actually Trust",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-drift-to-self-healing-building-a-multi-repo-azure-ai/ba-p/4515315",
+      "published": "2026-05-04T09:58:14+00:00",
+      "summary": "A question before we begin Quick — what version of infrastructure is running in your production subscription right now? Not what your pipeline last deployed. Not what your tracking spreadsheet says. What's actually running — right now, this second — and can you prove it? If you had to think about...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Valini_Sunthwal"
+    },
+    {
+      "title": "High Availability Testing for Azure Kubernetes Service in a Single Region with Availability Zones",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/high-availability-testing-for-azure-kubernetes-service-in-a/ba-p/4509825",
+      "published": "2026-05-04T07:00:00+00:00",
+      "summary": "During migration testing engagements for enterprise workloads moving to Azure Kubernetes Service (AKS), we frequently validate high availability behavior under simulated infrastructure failures within a single Azure region using Availability Zones. In one such workload migration scenario involving...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "jiteshhp"
+    },
+    {
+      "title": "Announcing the public preview of Oracle Database built-in connector for Azure Logic Apps Standard",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-the-public-preview-of-oracle-database-built-in/ba-p/4516714",
+      "published": "2026-05-04T05:45:01+00:00",
+      "summary": "Announcing the public preview of Oracle Database built-in connector for Azure Logic Apps Standard Run Oracle Database operations natively in your Logic Apps Standard workflows. Today we’re excited to announce the public preview of Oracle Database built-in connector for Azure Logic Apps (Standard)....",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Shree_Divya_M_V"
+    },
+    {
+      "title": "Purpose For Your PKI (Practical PKI Part 3)",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/purpose-for-your-pki-practical-pki-part-3/ba-p/4512518",
+      "published": "2026-05-04T04:00:00+00:00",
+      "summary": "My name is Ron Arestia, and I am a Security Researcher with Microsoft’s Detection and Response Team (DART). We respond to customer cybersecurity incidents to assist with containment and recovery from threat actors. In this brief blog post, we will discuss the “why” behind your PKI. This is part 3...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "RonArestia"
+    },
+    {
+      "title": "Removing The Monkey Work of Migration",
+      "link": "https://devblogs.microsoft.com/all-things-azure/removing-the-monkey-work-of-migration-using-agentic-platform-engineering/",
+      "published": "2026-05-03T22:49:02+00:00",
+      "summary": "Removing The Monkey Work of Migration; in this post we show how Git-Ape analyses an AWS deployment repo and generates an Azure-native replacement, with design critique built in. This post walks through a real migration workflow: start with an AWS deployment repo and end with an Azure deployment...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "davidwright, Arnaud Lheureux, Suzanne Daniels"
+    },
     {
       "title": "How MS Discovery Is Empowering Scientists to Do More",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/how-ms-discovery-is-empowering-scientists-to-do-more/ba-p/4516670",
@@ -253,15 +316,6 @@
       "blog": "ISE Developer Blog",
       "blogId": "iseblog",
       "author": "Elena Vavilova"
-    },
-    {
-      "title": "From ServiceNow to Self-Healing Infrastructure: A Multi-Repo Azure AI Platform",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-servicenow-to-self-healing-infrastructure-a-multi-repo/ba-p/4515315",
-      "published": "2026-04-30T06:00:06+00:00",
-      "summary": "A question before we begin Quick — what version of infrastructure is running in your production subscription right now? Not what your pipeline last deployed. Not what your tracking spreadsheet says. What's actually running — right now, this second — and can you prove it? If you had to think about...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Valini_Sunthwal"
     },
     {
       "title": "Running Diffusion Models at Scale on AKS",
@@ -1452,15 +1506,6 @@
       "author": "Elanor92"
     },
     {
-      "title": "Azure Virtual Desktop in the Perth Azure Extended Zone: A Real‑World Production Deployment",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-virtual-desktop-in-the-perth-azure-extended-zone-a-real/ba-p/4508550",
-      "published": "2026-04-19T10:03:32+00:00",
-      "summary": "Introduction Perth is one of the most geographically isolated major cities globally. For performance‑sensitive, graphics‑heavy engineering workloads, user experience can degrade significantly when desktops are hosted far from the user. For workloads such as subsurface modelling and GPU‑intensive...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "akashmishra"
-    },
-    {
       "title": "Microsoft Fabric Operations Agent Step by Step Walkthrough",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/microsoft-fabric-operations-agent-step-by-step-walkthrough/ba-p/4512572",
       "published": "2026-04-18T07:00:41+00:00",
@@ -1641,15 +1686,6 @@
       "author": "Yossi Basha"
     },
     {
-      "title": "Architecting Secure and Trustworthy AI Agents with Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/architecting-secure-and-trustworthy-ai-agents-with-microsoft/ba-p/4506580",
-      "published": "2026-04-16T09:30:30+00:00",
-      "summary": "Co-Authored by Avneesh Kaushik Why Trust Matters for AI Agents Unlike static ML models, AI agents call tools and APIs, retrieve enterprise data, generate dynamic outputs, and can act autonomously based on their planning. This introduces expanded risk surfaces: prompt injection, data exfiltration,...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "PrabhKaur"
-    },
-    {
       "title": "Announcing One‑Command Backup Configuration for AKS with Azure Backup",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/announcing-one-command-backup-configuration-for-aks-with-azure/ba-p/4511852",
       "published": "2026-04-16T07:50:59+00:00",
@@ -1666,15 +1702,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Pranab_Mandal"
-    },
-    {
-      "title": "Using an AI Agent to Troubleshoot and Fix Azure Function App Issues",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/using-an-ai-agent-to-troubleshoot-and-fix-azure-function-app/ba-p/4511781",
-      "published": "2026-04-16T03:11:32+00:00",
-      "summary": "TOC Preparation Troubleshooting Workflow Conclusion Preparation Topic: Required tools AI agent: for example, Copilot CLI / OpenCode / Hermes / OpenClaw, etc. In this example, we use Copilot CLI. Model access: for example, Anthropic Claude Opus. Relevant skills: this example does not use skills, but...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "theringe"
     },
     {
       "title": "Production Cutover in Cloud-Native Migrations",
@@ -2278,60 +2305,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Swapnil Nagar"
-    },
-    {
-      "title": "Run the latest Azure Arc agent with Automatic Agent Upgrade (Public Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/run-the-latest-azure-arc-agent-with-automatic-agent-upgrade/ba-p/4508535",
-      "published": "2026-04-03T19:30:06+00:00",
-      "summary": "Customers managing large fleets of Azure Arc servers need a scalable way to ensure the Azure Arc agent stays up to date without manual intervention. Per server configuration does not scale, and gaps in upgrade coverage can lead to operational drift, missed features, and delayed security updates. To...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "yunishussein"
-    },
-    {
-      "title": "Secure HTTP‑Only AKS Ingress with Azure Front Door Premium, Firewall DNAT, and Private AGIC",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/secure-http-only-aks-ingress-with-azure-front-door-premium/ba-p/4508167",
-      "published": "2026-04-03T19:15:55+00:00",
-      "summary": "Reference architecture and runbook (Part 1: HTTP-only) for Hub-Spoke networking with private Application Gateway (AGIC), Azure Firewall DNAT, and Azure Front Door Premium (WAF) 0. When and Why to Use This Architecture Series note: This document is Part 1 and uses HTTP to keep the focus on routing...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "kkaushal"
-    },
-    {
-      "title": "From Discovery to Executive Presentation: Plan Your Migration with Azure Migrate in Hours",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/from-discovery-to-executive-presentation-plan-your-migration/ba-p/4508500",
-      "published": "2026-04-03T18:06:11+00:00",
-      "summary": "The migration planning bottleneck Every migration starts with the same question: what do we have, and where should it go? Getting from that question to a clear, executive-ready answer has traditionally taken weeks. You scan the environment, export spreadsheets, manually classify workloads, run...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "Shikher"
-    },
-    {
-      "title": "What’s new in Microsoft Sentinel: RSAC 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-rsac-2026/ba-p/4503971",
-      "published": "2026-04-03T17:54:06+00:00",
-      "summary": "Security is entering a new era, one defined by explosive data growth, increasingly sophisticated threats, and the rise of AI-enabled operations. To keep pace, security teams need an AI-powered approach to collect, reason over, and act on security data at scale. At RSA Conference 2026 (RSAC), we’re...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "spalani"
-    },
-    {
-      "title": "Announcing general availability of Network Security Perimeter for Azure Service Bus",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/announcing-general-availability-of-network-security-perimeter/ba-p/4508179",
-      "published": "2026-04-03T16:31:50+00:00",
-      "summary": "Today we are excited to announce the general availability of Network Security Perimeter (NSP) support for Azure Service Bus. Network Security Perimeter allows you to define a logical network boundary around your Service Bus namespaces and other Azure PaaS resources, restricting public network...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "EldertGrootenboer"
-    },
-    {
-      "title": "AKS cluster with AGIC hits the Azure Application Gateway backend pool limit (100)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/aks-cluster-with-agic-hits-the-azure-application-gateway-backend/ba-p/4508201",
-      "published": "2026-04-03T15:46:16+00:00",
-      "summary": "I’m writing this article to document a real-world scaling issue we hit while exposing many applications from an Azure Kubernetes Service (AKS) cluster using Application Gateway Ingress Controller (AGIC). The problem is easy to miss because Kubernetes resources keep applying successfully, but the...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "kkaushal"
     }
   ]
 }
