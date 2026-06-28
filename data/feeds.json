@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-27T13:29:12.154158+00:00",
-  "totalArticles": 263,
+  "lastUpdated": "2026-06-28T13:43:04.159854+00:00",
+  "totalArticles": 256,
   "articles": [
     {
       "title": "MCP for Beginners: Why Every AI Engineer and Developer Should Learn the Model Context Protocol",
@@ -2305,69 +2305,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "leereilly"
-    },
-    {
-      "title": "Azure DDoS Protection & Azure WAF: A Layered Defense for Modern DDoS Attacks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-ddos-protection-azure-waf-a-layered-defense-for-modern/ba-p/4523745",
-      "published": "2026-05-29T06:52:47+00:00",
-      "summary": "Introduction: The Need for Layered DDoS Defense Organizations today operate in an environment where Distributed Denial of Service (DDoS) attacks continue to evolve across both network and application layers. To help organizations build resilient, internet-facing applications and services, Microsoft...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor"
-    },
-    {
-      "title": "Training 100B+ Models on a Single GPU: What MegaTrain Changes - and What It Means for Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/training-100b-models-on-a-single-gpu-what-megatrain-changes-and/ba-p/4519562",
-      "published": "2026-05-29T06:08:50+00:00",
-      "summary": "The Paradigm Shift in Model Training The conventional wisdom in deep learning has been simple: bigger models require bigger infrastructure. Training a 100-billion parameter language model traditionally demands massive GPU clusters with terabytes of combined memory, where each GPU holds portions of...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "yuvmaz"
-    },
-    {
-      "title": "[Preview] CIS Benchmarks on Azure; Now for Windows Server",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/preview-cis-benchmarks-on-azure-now-for-windows-server/ba-p/4523432",
-      "published": "2026-05-28T23:33:29+00:00",
-      "summary": "For customers with machines managed by Azure (i.e., Arc-enabled machines and Azure VMs), last year we delivered built-in CIS Benchmarks for Linux. The feedback has been clear: “Excellent, now do Windows.” Today we're announcing that built-in CIS Benchmarks for Windows Server are coming to Azure...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "AmirB"
-    },
-    {
-      "title": "Governing AI Agents Against Every OWASP Agentic Risk: A Deep Dive with the Agent Governance Toolkit",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/governing-ai-agents-against-every-owasp-agentic-risk-a-deep-dive/ba-p/4523749",
-      "published": "2026-05-28T22:04:55+00:00",
-      "summary": "AI agents are moving from prototypes to production. They book flights, write code, negotiate contracts, and operate across enterprise systems with minimal human oversight. The attack surface is not theoretical: OWASP has catalogued the top 10 risks specific to agentic applications, and every one of...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "mosiddi"
-    },
-    {
-      "title": "[Now Generally Available] Customizable Security Baseline Policies in Machine Configuration!",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/now-generally-available-customizable-security-baseline-policies/ba-p/4523429",
-      "published": "2026-05-28T19:29:06+00:00",
-      "summary": "Background: Azure Machine Configuration remains committed to enabling greater security and simplicity in at-scale server management for all Azure customers. Machine Configuration (previously known as Azure Policy Guest Configuration) enables both built-in and custom configuration as code allowing...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "mutemwamasheke"
-    },
-    {
-      "title": "[Public Preview] Introducing Customizable Security Baseline Policies in Machine Configuration",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-introducing-customizable-security-baseline/ba-p/4469678",
-      "published": "2026-05-28T17:02:04+00:00",
-      "summary": "Background: Azure Machine Configuration remains committed to enabling greater security and simplicity in at-scale server management for all Azure customers. Machine Configuration (previously known as Azure Policy Guest Configuration) enables both built-in and custom configuration as code allowing...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "mutemwamasheke"
-    },
-    {
-      "title": "How Azure Chaos Studio ships with hermetic Aspire end-to-end tests",
-      "link": "https://devblogs.microsoft.com/aspire/hermetic-aspire-tests-chaos-studio/",
-      "published": "2026-05-28T17:00:00+00:00",
-      "summary": "Learn how the Azure Chaos Studio team uses Aspire.Hosting.Testing to run hermetic, per-PR end-to-end tests across four services — with emulators, stubs, and no shared environments. The post How Azure Chaos Studio ships with hermetic Aspire end-to-end tests appeared first on Aspire Blog.",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "Brent Rusinow"
     }
   ]
 }
