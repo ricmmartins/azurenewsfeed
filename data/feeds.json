@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-06-28T13:43:04.159854+00:00",
+  "lastUpdated": "2026-06-29T15:43:14.391215+00:00",
   "totalArticles": 256,
   "articles": [
+    {
+      "title": "WSL container is now available for public preview",
+      "link": "https://devblogs.microsoft.com/commandline/wsl-container-is-now-available-for-public-preview/",
+      "published": "2026-06-29T15:29:48+00:00",
+      "summary": "At Microsoft Build 2026, we introduced WSL containers, bringing Linux container development directly into Windows through the Windows Subsystem for Linux (WSL). Containers have become a foundational part of modern development – from cloud-native applications and AI workloads to testing and...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Craig Loewen"
+    },
+    {
+      "title": "Automating your Visual Studio extension builds with GitHub Actions",
+      "link": "https://devblogs.microsoft.com/visualstudio/automating-your-visual-studio-extension-builds-with-github-actions/",
+      "published": "2026-06-29T14:00:25+00:00",
+      "summary": "If you’re building and maintaining Visual Studio extensions, you’ve probably ended up with some sort of build and publishing workflow – whether it’s manual, scripted, or stitched together over time. This post is for extension authors who want a simple, repeatable way to build, version, and publish...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mads Kristensen"
+    },
+    {
+      "title": "Spring AI 2.0 is GA: Vector Search, Memory, and Agents on Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/spring-ai-2-0-is-ga-vector-search-memory-and-agents-on-azure-cosmos-db/",
+      "published": "2026-06-29T07:00:53+00:00",
+      "summary": "The wait is over. Spring AI 2.0 is generally available, and Azure Cosmos DB is right there with it. With this release, Spring AI graduates into a mature, production-ready framework for building AI applications in Java, and Azure Cosmos DB ships dedicated, vendor-maintained integrations that plug...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay"
+    },
     {
       "title": "MCP for Beginners: Why Every AI Engineer and Developer Should Learn the Model Context Protocol",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-for-beginners-why-every-ai-engineer-and-developer-should/ba-p/4530623",
@@ -2046,15 +2073,6 @@
       "author": "Sushant Rane"
     },
     {
-      "title": "Public Preview: AI-powered Azure Cosmos DB Migration Assistant for RDBMS to NoSQL",
-      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-migration-assistant-rdbms-to-nosql-public-preview/",
-      "published": "2026-06-02T19:15:36+00:00",
-      "summary": "Today, we are excited to announce the public preview of the Azure Cosmos DB Migration Assistant for RDBMS to NoSQL, now available in the Azure Cosmos DB extension for Visual Studio Code. 📈 Modernize with confidence Why migrate from RDBMS to Azure Cosmos DB? Modernizing relational workloads has...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sergiy Smyrnov, Anil Kota"
-    },
-    {
       "title": "Introducing GitHub Enterprise Local (Preview): DevOps for Sovereign and Private Cloud Environments",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-github-enterprise-local-preview-devops-for-sovereign/ba-p/4523046",
       "published": "2026-06-02T19:15:00+00:00",
@@ -2287,24 +2305,6 @@
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
       "author": "Maddy Montaquila"
-    },
-    {
-      "title": "Flexible Cooling for AI Growth: How Zonal Architecture Supports Diverse Hardware Needs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/flexible-cooling-for-ai-growth-how-zonal-architecture-supports/ba-p/4514042",
-      "published": "2026-05-29T20:01:33+00:00",
-      "summary": "By: Ricardo Bianchini, Steve Solomon, Brijesh Warrier, Martin Herbert, Jay Jochim, Husam Alissa, Pulkit Misra, Eric Peterson and Cam Turner Context - Microsoft is pioneering zonal cooling in its next-generation AI datacenters, enabling flexible, performant, efficient, and sustainable thermal...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "stsolo"
-    },
-    {
-      "title": "Four open source projects to explore at Microsoft Build",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/four-open-source-projects-to-explore-at-microsoft-build/ba-p/4523744",
-      "published": "2026-05-29T17:34:29+00:00",
-      "summary": "Open source is where developers experiment, collaborate, and turn new ideas into tools that others can build on. At Microsoft Build, we’re creating a dedicated space for that energy: the Open Source Zone. This year, the Open Source Zone will bring together maintainers, contributors, and developers...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "leereilly"
     }
   ]
 }
