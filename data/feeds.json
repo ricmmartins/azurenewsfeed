@@ -1,7 +1,106 @@
 {
-  "lastUpdated": "2026-06-30T14:15:20.292485+00:00",
-  "totalArticles": 259,
+  "lastUpdated": "2026-07-01T14:31:40.497123+00:00",
+  "totalArticles": 266,
   "articles": [
+    {
+      "title": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
+      "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric/",
+      "published": "2026-07-01T12:52:43+00:00",
+      "summary": "We’re halfway through 2026, and Microsoft SQL has not slowed down. Since SQLCon/FabCon in March (where we released a ton of things, and those updates can be found in this udpates video), we shipped a wave of updates across SQL Server, Azure SQL, and SQL database in Fabric, with Microsoft Build 2026...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman"
+    },
+    {
+      "title": "Smoke Test Microsoft Foundry Agents with GitHub Actions",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/smoke-test-microsoft-foundry-agents-with-github-actions/ba-p/4531912",
+      "published": "2026-07-01T07:33:14+00:00",
+      "summary": "Introduction This blog is the next part of a series discussing Foundry Hosted Agents and how to properly construct Continuous Integration and Continuous Delivery (CI/CD) for them. This post will specifically go over configuring smoke tests against your recently deployed hosted agents. You can...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "j_folberth"
+    },
+    {
+      "title": "Shaping Software While It Runs: A Canvas Scenario, Start to Finish",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/shaping-software-while-it-runs-a-canvas-scenario-start-to-finish/ba-p/4531457",
+      "published": "2026-07-01T07:00:00+00:00",
+      "summary": "There is a moment, the first time you open a GitHub Copilot App Canvas, when you reach for the wrong metaphor. You see panels, buttons, live status cards and you think \"dashboard.\" You start designing a DevOps board. We did exactly that. Then we watched the recording back, and we all agreed: it was...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Azure Container Apps Express for Shipping Container Apps Fast",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-express-for-shipping-container-apps-fast/ba-p/4531371",
+      "published": "2026-06-30T20:10:51+00:00",
+      "summary": "ACA Express Apps are a strong fit for teams that need to ship quickly and can't afford long platform setup cycles. This includes startups, internal platform teams, and product groups deploying APIs, web apps, or agent endpoints that scale with uneven demand. If the priority is fast...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "hetvip"
+    },
+    {
+      "title": "Compose your API surface with Data API builder custom paths",
+      "link": "https://devblogs.microsoft.com/azure-sql/data-api-builder-custom-rest-paths/",
+      "published": "2026-06-30T19:38:31+00:00",
+      "summary": "Data API builder (DAB) 2.0 adds compound paths for REST endpoints, giving developers more control over how their API surface is organized. Instead of mirroring database topology, endpoints can now reflect simple names, business areas, or schema ownership. The post Compose your API surface with Data...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon"
+    },
+    {
+      "title": "Claude Sonnet 5 Is Now Generally Available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-sonnet-5-is-now-generally-available-in-microsoft-foundry/ba-p/4530737",
+      "published": "2026-06-30T18:58:19+00:00",
+      "summary": "On June 29, 2026, we announced the general availability of Claude in Microsoft Foundry, giving enterprises a production-ready path to build with Claude models in the Azure ecosystem. Today, we’re continuing that momentum with the general availability of Claude Sonnet 5 in Microsoft Foundry. Claude...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal"
+    },
+    {
+      "title": "Microsoft Defender for Cloud expands multicloud coverage across AWS and Google Cloud",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-expands-multicloud-coverage-across/ba-p/4532200",
+      "published": "2026-06-30T17:36:56+00:00",
+      "summary": "Organizations are building and running applications across multiple cloud platforms and hybrid environments to move faster, improve resilience, and choose the services that best fit each workload. But that flexibility also changes how teams need to manage exposure. A risk may start with an...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "donnalee"
+    },
+    {
+      "title": "What’s new in Microsoft Sentinel: June 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-june-2026/ba-p/4531902",
+      "published": "2026-06-30T16:43:18+00:00",
+      "summary": "Welcome back to What's new in Microsoft Sentinel. In June, Sentinel SIEM’s Advanced Security Information Model (ASIM) broadens its normalization, so one analytic rule can reach more sources with less per-source work and, additionally, two new ASIM schemas can now bring asset inventory and AI agent...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "TomerBrand"
+    },
+    {
+      "title": "Visual Studio June Update – Track Your Usage, Trust Your Tools",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-june-update-track-your-usage-trust-your-tools/",
+      "published": "2026-06-30T16:00:45+00:00",
+      "summary": "The June update includes a Copilot Usage window refresh with proactive alerts as you approach your limits, MCP servers now get a trust check before they run anything new. The post Visual Studio June Update – Track Your Usage, Trust Your Tools appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie"
+    },
+    {
+      "title": "Behind the Build with Gigamon: Enriching Microsoft Sentinel with Network-Derived Telemetry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/behind-the-build-with-gigamon-enriching-microsoft-sentinel-with/ba-p/4530360",
+      "published": "2026-06-30T16:00:00+00:00",
+      "summary": "Behind the Build is an ongoing series spotlighting standout Microsoft partner collaborations. Each edition dives into the technical and strategic decisions that shape real-world integrations—highlighting engineering excellence, innovation, and the shared customer value created through partnership....",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Natee_Pretikul"
+    },
+    {
+      "title": "The AI-first SOC: Copilot, UEBA, threat intelligence, and SOC optimization",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/the-ai-first-soc-copilot-ueba-threat-intelligence-and-soc/ba-p/4528609",
+      "published": "2026-06-30T16:00:00+00:00",
+      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl The portal change was the easy part. The real upside is the operating model it unlocks—generative AI in every workflow, behavioral analytics across hybrid and multi-cloud, native threat intelligence, and SOC optimization...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Mohit_Kumar1"
+    },
     {
       "title": "GitHub Copilot App - Canvas Is Not a UI Builder",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/github-copilot-app-canvas-is-not-a-ui-builder/ba-p/4531451",
@@ -138,6 +237,15 @@
       "author": "bexelbie"
     },
     {
+      "title": "Your agent already has a plan",
+      "link": "https://devblogs.microsoft.com/blog/your-agent-already-has-a-plan",
+      "published": "2026-06-26T00:00:05+00:00",
+      "summary": "If an agent isn’t doing the right thing, the obvious move is to make the docs clearer. Add a tip, spell out the correct command, describe the right approach more prominently. You do all of that, and the agent still ignores it. It does what it had already decided to do. The tip wasn’t ignored […]",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Garry Trinder"
+    },
+    {
       "title": "The governance shift: RBAC, URBAC, data lake, and MSSP",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/the-governance-shift-rbac-urbac-data-lake-and-mssp/ba-p/4528607",
       "published": "2026-06-25T20:11:19+00:00",
@@ -154,6 +262,15 @@
       "blog": "Oracle on Azure",
       "blogId": "oracleonazureblog",
       "author": "RajyaLaxmiYellajosyula"
+    },
+    {
+      "title": "Learn from Microsoft: Transform software development through an agentic platform",
+      "link": "https://devblogs.microsoft.com/blog/learn-from-microsoft-transform-software-development-through-an-agentic-platform",
+      "published": "2026-06-25T18:00:30+00:00",
+      "summary": "See how Microsoft is transforming software development with agentic workflows, AI-powered automation, and specialized agents across the engineering lifecycle.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Poonam Gupta"
     },
     {
       "title": "Announcing the Path to Production for Agents Webinar Series",
@@ -1191,15 +1308,6 @@
       "author": "j_folberth"
     },
     {
-      "title": "Connecting Claude Clients with Azure API Management and Claude Models in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/connecting-claude-clients-with-azure-api-management-and-claude/ba-p/4525212",
-      "published": "2026-06-10T20:02:12+00:00",
-      "summary": "Summary You want to give your engineering org Claude Code without handing out Anthropic API keys, without per-developer billing sprawl, and without losing visibility into who is spending what. This post shows a battle-tested pattern: Claude models run in Microsoft Foundry, billed through your Azure...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MuraliKumanduri"
-    },
-    {
       "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
       "published": "2026-06-10T19:34:21+00:00",
@@ -1225,15 +1333,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Spec-Driven Development: A Spec-First Approach to AI-Native Engineering",
-      "link": "https://devblogs.microsoft.com/blog/spec-driven-development-ai-native-engineering",
-      "published": "2026-06-10T16:15:09+00:00",
-      "summary": "AI has made software delivery faster, but speed alone does not guarantee better outcomes. As teams adopt AI-native development, the real challenge is keeping requirements, design, implementation, and validation aligned so the final result still reflects the original intent. Spec-Driven Development...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Apoorv Gupta"
     },
     {
       "title": "We Gave Ourselves 20 Minutes to Build an AI Agent for a Lumber Company. The Timer's Still on Screen.",
@@ -1360,15 +1459,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Mayunk_Jain"
-    },
-    {
-      "title": "Microsoft Build 2026 recap: vision, launches, and top sessions",
-      "link": "https://devblogs.microsoft.com/blog/build-recap",
-      "published": "2026-06-08T22:15:00+00:00",
-      "summary": "Catch up on Microsoft Build 2026 with the vision lead-off, top developer announcements, and must-watch sessions across the Microsoft developer ecosystem.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Jon Galloway"
     },
     {
       "title": "Write Logic Apps in C#: introducing the Logic Apps Standard SDK",
@@ -1614,15 +1704,6 @@
       "author": "Sowmys"
     },
     {
-      "title": "Foundry Toolkit for VS Code at //build: Hosted Agents End-to-End, a Smarter Toolbox, and More",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/foundry-toolkit-for-vs-code-at-build-hosted-agents-end-to-end-a/ba-p/4524941",
-      "published": "2026-06-04T07:00:00+00:00",
-      "summary": "We’re excited to share what’s new for Foundry Toolkit for Visual Studio Code at //build 2026. Since going generally available, the toolkit has kept moving fast, and this release is a big one. The headline: a complete, end-to-end Hosted Agent experience, scaffold, run, deploy, and observe without...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "leoyao"
-    },
-    {
       "title": "How we Decide Between Keyword and Hybrid Search: 5 Enterprise Evaluation Criteria",
       "link": "https://devblogs.microsoft.com/ise/keyword-vs-hybrid-search/",
       "published": "2026-06-04T07:00:00+00:00",
@@ -1657,15 +1738,6 @@
       "blog": "Oracle on Azure",
       "blogId": "oracleonazureblog",
       "author": "RamKakani"
-    },
-    {
-      "title": "DevOps for Microsoft Hosted Agents: From Terraform Apply to Production-Grade Agent Delivery",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/devops-for-microsoft-hosted-agents-from-terraform-apply-to/ba-p/4523740",
-      "published": "2026-06-03T19:34:50+00:00",
-      "summary": "A companion piece to Infrastructure as Code for AI: Building and Deploying Microsoft Hosted Agents with Terraform. Just announced — source-code deploy (preview). Foundry has just added a second Hosted Agent deploy path alongside the container path this post covers. Instead of a container image, you...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "LZhang"
     },
     {
       "title": "What’s new in Observability at Build 2026",
@@ -1972,15 +2044,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "greenie-msft"
-    },
-    {
-      "title": "Announcing Anyscale on Azure public preview: Powered by Ray on AKS",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-anyscale-on-azure-public-preview-powered-by-ray-on/ba-p/4523704",
-      "published": "2026-06-02T19:30:00+00:00",
-      "summary": "What's new The defining workload of the cloud era is no longer a web service or a database. It is a distributed AI training or inference job that needs thousands of GPUs, a coherent data plane, and a way for a handful of engineers to operate all of it without losing their weekends. Getting there is...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Brendan Burns"
     },
     {
       "title": "What's new in Azure API Management at Microsoft Build 2026",
