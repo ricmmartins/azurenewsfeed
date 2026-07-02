@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-07-01T14:31:40.497123+00:00",
-  "totalArticles": 266,
+  "lastUpdated": "2026-07-02T13:56:22.561168+00:00",
+  "totalArticles": 261,
   "articles": [
+    {
+      "title": "Fundamentals of Azure DevOps with SQL projects",
+      "link": "https://devblogs.microsoft.com/azure-sql/fundamentals-of-azure-devops-with-sql-projects/",
+      "published": "2026-07-02T13:54:53+00:00",
+      "summary": "Building automated pipelines with your SQL database projects enables you to build a rich CI/CD ecosystem to ensure that your application is being deployed with good quality code and at high confidence of success. SQL Database Projects are compatible with just about every automation environment...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Drew Skwiers-Koballa"
+    },
+    {
+      "title": "Upcoming Change: NTLM Removal in Git (libcurl) – Impact to Azure DevOps Server Customers",
+      "link": "https://devblogs.microsoft.com/devops/upcoming-change-ntlm-removal-in-git-libcurl-impact-to-azure-devops-server-customers/",
+      "published": "2026-07-01T23:25:39+00:00",
+      "summary": "Overview In September 2026, NTLM support will be removed from libcurl, which is used by Git for HTTP(S) operations. As a result, Git operations over HTTPS against Azure DevOps Server (on-premises) will stop working for customers who rely on NTLM authentication. This change is part of a broader...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales"
+    },
+    {
+      "title": "Audit Frontier AI Agents with SQL MCP Server",
+      "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-obo-auth/",
+      "published": "2026-07-01T20:02:11+00:00",
+      "summary": "With On-Behalf-Of authentication, SQL MCP Server lets agents access Microsoft SQL without losing the user identity behind the request. Azure SQL can audit the signed-in user who invoked the operation, not just the agent, app, or MCP server that carried it out. The post Audit Frontier AI Agents with...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon"
+    },
+    {
+      "title": "Introducing kars - an Agent Reference Stack for Kubernetes",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/introducing-kars-an-agent-reference-stack-for-kubernetes/ba-p/4529800",
+      "published": "2026-07-01T15:35:28+00:00",
+      "summary": "kars is a Kubernetes-native runtime for AI agents on Azure. It treats every agent as untrusted code: per-pod kernel isolation, zero credentials in the agent process, end-to-end encrypted inter-agent mesh, and native consumption of the Microsoft Agent Governance Toolkit. Agents on any supported...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "pallakatos"
+    },
     {
       "title": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
       "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric/",
@@ -2314,87 +2350,6 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "KayodePrince"
-    },
-    {
-      "title": "Build, scale, and monetize apps and agents with Microsoft Marketplace",
-      "link": "https://devblogs.microsoft.com/all-things-azure/build-scale-and-monetize-apps-and-agents-with-microsoft-marketplace/",
-      "published": "2026-06-02T12:25:05+00:00",
-      "summary": "At Microsoft Build, we are sharing how Microsoft Marketplace brings development, distribution, and monetization together— so apps and agents move beyond prototyping into real-world usage at scale. Microsoft Marketplace connects tens of thousands of cloud and AI solutions built by software...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Cyril Belikoff"
-    },
-    {
-      "title": "Announcing the public preview of AKS on bare metal",
-      "link": "https://blog.aks.azure.com/2026/06/02/aks-baremetal-public-preview",
-      "published": "2026-06-02T00:00:00+00:00",
-      "summary": "AKS on bare metal is now available in public preview!",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Scaling multi-node LLM inference with NVIDIA Dynamo-Grove on AKS (Part 4)",
-      "link": "https://blog.aks.azure.com/2026/06/02/dynamo-on-aks-part-4",
-      "published": "2026-06-02T00:00:00+00:00",
-      "summary": "Learn how NVIDIA Grove scheduler works with Dynamo to schedule, start, and scale inference deployments to match the underlying inference architecture.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Terraform MCP Server update",
-      "link": "https://www.azurecitadel.com/blog/2026-06-02-terraform-mcp-server-update/",
-      "published": "2026-06-02T00:00:00+00:00",
-      "summary": "The Terraform MCP Server has evolved significantly since I covered it in the Fabric Terraform series. It has moved well beyond a simple registry lookup tool and is now at v0.5.2. Here is a summary of what has changed and how to think about which configuration is right for you. Note that this post...",
-      "blog": "Azure Citadel Blog",
-      "blogId": "azurecitadelblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "KT accelerates cloud and AI adoption with Azure Confidential Computing",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/kt-accelerates-cloud-and-ai-adoption-with-azure-confidential/ba-p/4515994",
-      "published": "2026-06-01T21:22:01+00:00",
-      "summary": "A leading South Korea telecom provider, KT Corporation, serves more than 20 million consumers and thousands of enterprise customers in finance, manufacturing, and the public sector. As businesses across the country undergo digital transformation, KT needed to expand its cloud offerings but faced...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "Rakeshginjupalli"
-    },
-    {
-      "title": "Public preview: Automatic OS Image Upgrades for VMSS Flex",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-automatic-os-image-upgrades-for-vmss-flex/ba-p/4523067",
-      "published": "2026-06-01T18:38:35+00:00",
-      "summary": "Automatic OS Image Upgrades for Virtual Machine Scale Sets (VMSS) using Flexible Orchestration Mode are now in public preview, helping you keep scale set instances current with less manual effort. This capability helps you apply operating system image updates more consistently across deployments...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "BMahboob"
-    },
-    {
-      "title": "Kubernetes Center: Security & LTS/Out-of-Support Version Insights Now Available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/kubernetes-center-security-lts-out-of-support-version-insights/ba-p/4524567",
-      "published": "2026-06-01T18:30:12+00:00",
-      "summary": "What's New Security Insights: The new Security page in Kubernetes Center gives you an immediate, all clusters or Kubernetes Fleet Manager-wide view of your security posture without leaving the portal. At the summary level you can see: Security vulnerabilities broken down by risk level Runtime...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Harsha_Nair"
-    },
-    {
-      "title": "Now Generally Available: Microsoft Defender for open source relational databases on AWS RDS",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/now-generally-available-microsoft-defender-for-open-source/ba-p/4514651",
-      "published": "2026-06-01T17:11:16+00:00",
-      "summary": "Securing multicloud databases to help reduce risks Open‑source (OSS) relational databases are becoming increasingly critical and increasingly targeted in organization of all sizes. As organizations adopt multicloud architectures, these databases often run across Azure and Amazon Web Services (AWS),...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "lisetteranga"
-    },
-    {
-      "title": "Aspire 13.4 is here",
-      "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-13-4/",
-      "published": "2026-06-01T17:00:00+00:00",
-      "summary": "Aspire 13.4 is here with TypeScript apphost GA, typed resource commands with results, server-side CLI log and telemetry search, more mature Kubernetes and AKS deployment, and more. The post Aspire 13.4 is here appeared first on Aspire Blog.",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "Maddy Montaquila"
     }
   ]
 }
