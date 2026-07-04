@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-07-03T13:59:51.222986+00:00",
-  "totalArticles": 220,
+  "lastUpdated": "2026-07-04T13:21:09.343895+00:00",
+  "totalArticles": 199,
   "articles": [
+    {
+      "title": "Azure landing zone (ALZ) enters its next chapter",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
+      "published": "2026-07-03T15:16:42+00:00",
+      "summary": "Hey all 👋 I’ve got a genuinely exciting update to share today, and it’s one that’s been a long time coming: Azure landing zone (ALZ) is now an official Microsoft product, owned by the Azure Migrate product team. A bit of history first For the past five or so years, ALZ has been built completely in...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "jtracey93msft"
+    },
     {
       "title": "Enabling MLflow OpenAI Autolog on PySpark Workers",
       "link": "https://devblogs.microsoft.com/ise/mlflow-autolog-pyspark-workers/",
@@ -10,6 +19,15 @@
       "blog": "ISE Developer Blog",
       "blogId": "iseblog",
       "author": "Jaya Kumar"
+    },
+    {
+      "title": "On the road to .NET 10 Support: Logic Apps Migration from In-Proc to Out-of-Proc hosting model",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/on-the-road-to-net-10-support-logic-apps-migration-from-in-proc/ba-p/4522386",
+      "published": "2026-07-03T00:25:23+00:00",
+      "summary": "We will begin this migration in the coming weeks. For most customers, the change will be automatic and require no action. However, some apps will need customer updates before they can move to the new hosting model. This exception is: Logic Apps that use the current NuGet-based deployment model If...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
     },
     {
       "title": "Microsoft Defender for Cloud Customer Newsletter",
@@ -712,15 +730,6 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "devanshirastogi"
-    },
-    {
-      "title": "On the road to .NET 10 Support: Logic Apps Migration from In-Proc to Out-of-Proc hosting model",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/on-the-road-to-net-10-support-logic-apps-migration-from-in-proc/ba-p/4522386",
-      "published": "2026-06-19T17:42:41+00:00",
-      "summary": "We will begin this migration in the coming weeks. For most customers, the change will be automatic and require no action. However, some apps will need customer updates before they can move to the new hosting model. This exception is: Logic Apps that use the current NuGet-based deployment model If...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
     },
     {
       "title": "ARM MCP Server: A Catalog of 24 PoCs",
@@ -1783,204 +1792,6 @@
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
       "author": "Jeff Liu"
-    },
-    {
-      "title": "Accelerate Edge AI Development with Foundry Local",
-      "link": "https://devblogs.microsoft.com/foundry/accelerate-edge-ai-development-with-foundry-local/",
-      "published": "2026-06-04T13:00:24+00:00",
-      "summary": "Why edge AI development is still hard AI is no longer confined to cloud experiments. Developers are increasingly expected to deliver AI inside apps, devices, and edge systems where responsiveness, privacy, resilience, and local control are essential. But building those experiences for production is...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "samkemp, Emma Ning, Inbal Sagiv"
-    },
-    {
-      "title": "What’s new in Microsoft Sentinel: May 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-may-2026/ba-p/4523419",
-      "published": "2026-06-04T10:07:32+00:00",
-      "summary": "Welcome to the May edition of What's new in Microsoft Sentinel. This month’s updates focus on unified role-based access control (RBAC), ecosystem breadth, AI-agent security, and high-assurance identity. RBAC and row-level scoping are now generally available, giving security teams a single, granular...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Sowmys"
-    },
-    {
-      "title": "How we Decide Between Keyword and Hybrid Search: 5 Enterprise Evaluation Criteria",
-      "link": "https://devblogs.microsoft.com/ise/keyword-vs-hybrid-search/",
-      "published": "2026-06-04T07:00:00+00:00",
-      "summary": "A data-driven framework we use in enterprise deployments to decide between vector-only keyword and hybrid search, based on five measurable evaluation criteria. The post How we Decide Between Keyword and Hybrid Search: 5 Enterprise Evaluation Criteria appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Beijie Zhang"
-    },
-    {
-      "title": "Build 2026: From observability to ROI for AI agents on any framework",
-      "link": "https://devblogs.microsoft.com/foundry/build-2026-from-observability-to-roi-for-ai-agents-on-any-framework/",
-      "published": "2026-06-03T22:44:01+00:00",
-      "summary": "9 min read · June 3, 2026 · Sebastian Kohlmeier Shipping an AI agent is the easy part. Keeping it accurate, safe, and accountable in production is where teams get stuck. Agents are non-deterministic. Their behavior shifts as models update, tools change, and traffic patterns evolve and most of that...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Sebastian Kohlmeier"
-    },
-    {
-      "title": "GA: DCasv6 and ECasv6 confidential VMs based on 4th Generation AMD EPYC™ processors",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/ga-dcasv6-and-ecasv6-confidential-vms-based-on-4th-generation/ba-p/4451460",
-      "published": "2026-06-03T20:27:15+00:00",
-      "summary": "Today, Azure has expanded its confidential computing offerings with the general availability of the DCasv6 and ECasv6 confidential VMs. Regional availability June 03 2026: Australia Central, Australia Central 2, Australia Southeast, Austria East, Belgium Central, Brazil South, Brazil Southeast,...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "Rakeshginjupalli"
-    },
-    {
-      "title": "Build Enterprise-Ready Agents with Microsoft IQ and Oracle AI Database@Azure — now with Oracle MCP",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/build-enterprise-ready-agents-with-microsoft-iq-and-oracle-ai/ba-p/4524935",
-      "published": "2026-06-03T19:50:40+00:00",
-      "summary": "We’re making it easier to bring Oracle data into intelligent applications with Microsoft IQ and Oracle AI Database@Azure. Oracle Managed Database MCP (Model Context Protocol) remote servers are now available in Microsoft Foundry—introducing a fully managed option that simplifies AI integration...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "RamKakani"
-    },
-    {
-      "title": "What’s new in Observability at Build 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/what-s-new-in-observability-at-build-2026/ba-p/4524927",
-      "published": "2026-06-03T19:02:31+00:00",
-      "summary": "Observability for AI and Agent Workloads AI agents are moving from prototype to production. To help teams ship and operate agents with the same rigor as the rest of their stack, Azure Monitor & Azure Copilot Observability agent brings end-to-end agent observability — grounded in OpenTelemetry so...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Priyanka Nanda"
-    },
-    {
-      "title": "How Microsoft is migrating repositories to GitHub",
-      "link": "https://devblogs.microsoft.com/devops/how-microsoft-is-migrating-repositories-to-github/",
-      "published": "2026-06-03T18:48:27+00:00",
-      "summary": "For the past decade, Azure DevOps has powered software development at Microsoft, supporting some of our largest repositories and most complex engineering workflows across Azure Repos, Boards, and Pipelines. Software development is being reshaped by AI, and where code lives now have a direct impact...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Poonam Gupta"
-    },
-    {
-      "title": "Announcing Confidential Live Migration in Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-confidential-live-migration-in-azure/ba-p/4524558",
-      "published": "2026-06-03T18:15:50+00:00",
-      "summary": "Authored by Caroline Perez-Vargas, Michael McReynolds Introduction Today at Build, Microsoft showcased Confidential Live Migration, a new capability that helps move Intel® TDX Confidential VMs to updated infrastructure with limited interruption while helping protect VM memory and execution context...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "mmcrey"
-    },
-    {
-      "title": "Azure Event Grid: Powering IoT and Event-Driven Applications at Scale",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/azure-event-grid-powering-iot-and-event-driven-applications-at/ba-p/4521403",
-      "published": "2026-06-03T17:23:07+00:00",
-      "summary": "Modern IoT and event-driven applications demand more than reliable messaging. They require the ability to handle larger payloads, efficiently route data at scale, and automatically adapt to changing workloads. Today, we're excited to introduce a new set of capabilities in Azure Event Grid Namespace...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "Connected-Seth"
-    },
-    {
-      "title": "Is 94% of your syslog just noise? Now you can filter it out before ingestion.",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/is-94-of-your-syslog-just-noise-now-you-can-filter-it-out-before/ba-p/4524600",
-      "published": "2026-06-03T17:19:40+00:00",
-      "summary": "At Microsoft Build 2026, we are announcing the public preview of multi-stage transformations for Azure Monitor Data Collection Rules (DCRs). Multi-stage transformations let you filter, aggregate, parse, and map your logs at the point of collection, before data is ingested into your workspace....",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Ivan_Varnitski"
-    },
-    {
-      "title": "When Telemetry Volume Gets Real: Azure Monitor pipeline’s Performance Story!",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/when-telemetry-volume-gets-real-azure-monitor-pipeline-s/ba-p/4524898",
-      "published": "2026-06-03T17:19:17+00:00",
-      "summary": "What is Azure Monitor pipeline? Azure Monitor pipeline provides centralized governance and a single point of control that runs close to your data sources, so you can filter, transform, aggregate, and route telemetry before it's sent to Azure Monitor. This approach helps you reduce ingestion volume,...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "susaraswat4"
-    },
-    {
-      "title": "Expanding the Reach of Document Translation – New Capabilities Announced at Microsoft Build",
-      "link": "https://devblogs.microsoft.com/foundry/document-translation-build-2026/",
-      "published": "2026-06-03T17:00:00+00:00",
-      "summary": "Learn how new Document Translation capabilities in Azure Translator, available in Foundry Tools, help developers translate images, PDFs, Office files, DITA, XLIFF, and future LLM-powered document workflows. The post Expanding the Reach of Document Translation – New Capabilities Announced at...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Swetha Machanavajhala"
-    },
-    {
-      "title": "Your first model deployment on Foundry Local on Azure Local: from catalog to inference in 10 minutes",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/your-first-model-deployment-on-foundry-local-on-azure-local-from/ba-p/4520640",
-      "published": "2026-06-03T16:25:52+00:00",
-      "summary": "Foundry Local on Azure Local lets you run open-source models directly on your own Azure Local cluster, behind an OpenAI-compatible AP. It's the same experience you've gotten used to in the cloud, but the inference runs on hardware you own. Foundry Local on Azure Local is in public preview at the...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "JonathanSchtechel"
-    },
-    {
-      "title": "Announcing Foundry Managed Compute: Run open models in Microsoft Foundry",
-      "link": "https://devblogs.microsoft.com/foundry/announcing-foundry-managed-compute/",
-      "published": "2026-06-03T16:00:54+00:00",
-      "summary": "Microsoft Foundry Managed Compute is a new GPU platform-as-a-service for hosting open-source and custom AI models behind the same endpoint, SDKs, and bill as frontier models. The post Announcing Foundry Managed Compute: Run open models in Microsoft Foundry appeared first on Microsoft Foundry Blog.",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Manoj Bableshwar"
-    },
-    {
-      "title": "Introducing Agent Optimizer in Foundry Agent Service",
-      "link": "https://devblogs.microsoft.com/foundry/agent-optimizer-build2026/",
-      "published": "2026-06-03T16:00:43+00:00",
-      "summary": "With hosted agents, we made it straightforward to build and deploy agents on Foundry. You write your logic, run azd deploy, and your agent is live. But “live” and “production-ready” aren’t the same thing. The gap shows up quickly. Your customer support agent handles requests, but it forgets to ask...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Luis Quintanilla, Victor Dibia"
-    },
-    {
-      "title": "Making agent memory more reliable, transparent, and production-ready",
-      "link": "https://devblogs.microsoft.com/foundry/memory-build2026/",
-      "published": "2026-06-03T16:00:30+00:00",
-      "summary": "Memory has always mattered for personalization and continuity. But as customers move agents from demos into production, another requirement becomes just as important: reliability. Enterprise teams need agents that not only remember facts, but also apply what they have learned to follow procedures...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Lewis Liu"
-    },
-    {
-      "title": "Discovery to Execution: Scaling Agents with Toolboxes and Routines in Microsoft Foundry",
-      "link": "https://devblogs.microsoft.com/foundry/toolbox-build-26/",
-      "published": "2026-06-03T16:00:15+00:00",
-      "summary": "Tooling doesn’t break at a small scale—it breaks when teams move to production. AI adoption accelerates, so does the number of tools available to them. Discovering, managing and securing the right tools has quickly become one of the biggest challenges in building production-grade agents. Today, we...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Linda Li, Maria Naggaga"
-    },
-    {
-      "title": "From Building Agents to Working with Them: Enterprise Agent Distribution in Microsoft Foundry",
-      "link": "https://devblogs.microsoft.com/foundry/from-building-agents-to-working-with-them-enterprise-agent-distribution-in-microsoft-foundry/",
-      "published": "2026-06-03T16:00:04+00:00",
-      "summary": "The past year was about building agents. The next year is about putting them to work. Organizations have moved quickly from experimenting with AI agents to building ones that perform complex business processes and execute long-running tasks. But the bottleneck has shifted. The challenge is no...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Amanda Foster"
-    },
-    {
-      "title": "Embed intelligence into physical systems with smaller form factor infrastructure (preview)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/embed-intelligence-into-physical-systems-with-smaller-form/ba-p/4524876",
-      "published": "2026-06-03T15:57:44+00:00",
-      "summary": "Written by Cosmos Darwin, Azure Edge PM, and Michael MacKenzie, VP of Digital Operations AI is transforming how we work, but so far it's mostly lived on your screen: agents and models assisting with information work. How can that intelligence take on physical work, too? Jobs that happen out in the...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Cosmos_Darwin"
-    },
-    {
-      "title": "Announcing Preview of Guest RDMA for Azure Boost",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-preview-of-guest-rdma-for-azure-boost/ba-p/4524589",
-      "published": "2026-06-03T15:54:48+00:00",
-      "summary": "We’re excited to announce Guest RDMA (Preview) in Azure, beginning today in our UK South region, bringing high-throughput, ultra-low latency networking directly into guest virtual machines anywhere within the same region. By using Azure Boost to enable RDMA capabilities on our frontend network...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "MengxiWu"
-    },
-    {
-      "title": "📢 Announcing Knowledge as a Service for Azure Logic Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-knowledge-as-a-service-for-azure-logic-apps/ba-p/4524601",
-      "published": "2026-06-03T15:32:29+00:00",
-      "summary": "Now in Public Preview Turn your documents into a ready-to-use knowledge base without custom RAG pipelines. Today at Microsoft Build 2026, we are announcing the Public Preview of Knowledge as a Service for Azure Logic Apps. It is a managed knowledge layer that transforms your documents into a...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "DivSwa"
     }
   ]
 }
