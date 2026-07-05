@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-07-04T13:21:09.343895+00:00",
-  "totalArticles": 199,
+  "lastUpdated": "2026-07-05T13:26:55.141060+00:00",
+  "totalArticles": 192,
   "articles": [
+    {
+      "title": "Windows 365 Boot",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/windows-365-boot/ba-p/4533696",
+      "published": "2026-07-04T17:01:23+00:00",
+      "summary": "Hi folks – Mike Hildebrand here! It’s the July 4th holiday here in the good 'ol USA and happens to also be our country’s 250th birthday … and where I live, that means it’s probably hot. VERY hot. So, I’m taking some time to enjoy the A/C and type up a ‘cool’ post about a ‘cool’ solution. In the...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "MichaelHildebrand"
+    },
     {
       "title": "Azure landing zone (ALZ) enters its next chapter",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
@@ -1720,78 +1729,6 @@
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
       "author": "alinetran"
-    },
-    {
-      "title": "Regional Endpoints for Azure Container Registry Geo-Replication — Now in Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/regional-endpoints-for-azure-container-registry-geo-replication/ba-p/4525717",
-      "published": "2026-06-05T06:12:53+00:00",
-      "summary": "By Johnson Shi, Zoey (Zhuyu) Li, Huangli Wu What's new Regional endpoints for geo-replicated Azure Container Registries are now in public preview. See the feature's official MS Learn documentation. If you've been following since the private preview announcement, here's what changed: No feature flag...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "johnsonshi_msft"
-    },
-    {
-      "title": "Preview of multiparty analytics with Azure Confidential Clean Rooms",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/preview-of-multiparty-analytics-with-azure-confidential-clean/ba-p/4523274",
-      "published": "2026-06-05T04:34:11+00:00",
-      "summary": "Today, we are excited to announce the preview of multiparty analytics feature of Azure Confidential Clean Rooms, a fully managed service that allows customers and their partners to securely analyze privacy-sensitive datasets from multiple parties. It uses confidential compute enabled Apache...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "Deepak_JV"
-    },
-    {
-      "title": "Azure Monitor Health Model (Preview): What's New!",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-health-model-preview-what-s-new/ba-p/4525707",
-      "published": "2026-06-05T01:30:56+00:00",
-      "summary": "Azure Monitor Health Model is a modern observability capability that brings together telemetry, architecture, and business context of your workloads to generate health insights. It continuously aggregates signals across dependencies, producing a single, actionable health state which reduces alert...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "shijain13"
-    },
-    {
-      "title": "Pod CIDR Expansion Generally Available and IP Address Planning on Azure CNI Overlay",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/pod-cidr-expansion-generally-available-and-ip-address-planning/ba-p/4521700",
-      "published": "2026-06-05T00:14:24+00:00",
-      "summary": "In networking with Azure CNI Overlay, the cluster-wide pod CIDR is logically partitioned into smaller “node” blocks where each node is assigned a fixed CIDR slice (/24) by Azure. This decouples pod networking from the VNet address space entirely because pods receive addresses from a private CIDR...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Sam_Foo"
-    },
-    {
-      "title": "Frameworks only matter when they force decisions",
-      "link": "https://devblogs.microsoft.com/all-things-azure/frameworks-only-matter-when-they-force-decisions/",
-      "published": "2026-06-04T22:30:25+00:00",
-      "summary": "Frameworks mean nothing, until they change what gets built! In this article we discuss how Git-Ape turns architecture and governance into delivery controls on Azure because, if frameworks do not shape delivery decisions, they are just decoration. Cloud teams do not have a framework problem. They...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "davidwright, Arnaud Lheureux, Suzanne Daniels"
-    },
-    {
-      "title": "Hosted MCP Servers in Connector Namespace (Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hosted-mcp-servers-in-connector-namespace-preview/ba-p/4524588",
-      "published": "2026-06-04T21:19:18+00:00",
-      "summary": "Imagine you've built an agent and you want to give it access to tools via MCP servers. Local servers won't work because your agent can't connect to them in production. Wouldn't it be great if you could quickly stand up secure, enterprise-ready remote MCP servers that your agent can use? This is...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "lily-ma"
-    },
-    {
-      "title": "Microsoft Defender for Cloud Customer Newsletter",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4525656",
-      "published": "2026-06-04T18:30:12+00:00",
-      "summary": "What's new in Defender for Cloud? Defender for Cloud is now integrated into the Defender portal to bring together cloud security posture management and threat protection in a single experience. Read more about it here. Cloud security reporting in the Defender portal is now in public preview...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "Yura_Lee"
-    },
-    {
-      "title": "Aspire Multi-repo Rollout at Scale with Agentic AI",
-      "link": "https://devblogs.microsoft.com/aspire/aspire-windows-365-part2/",
-      "published": "2026-06-04T17:05:00+00:00",
-      "summary": "This is part 2 blog of the windows 365 integration journey with Aspire. This blog focus to show how Windows 365 scaled Aspire adoption with reliability patterns and an agentic AI rollout system across 50+ repos. The post Aspire Multi-repo Rollout at Scale with Agentic AI appeared first on Aspire...",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "Jeff Liu"
     }
   ]
 }
