@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-07-05T13:26:55.141060+00:00",
+  "lastUpdated": "2026-07-06T15:28:16.652597+00:00",
   "totalArticles": 192,
   "articles": [
+    {
+      "title": "Securing message brokers takes more than turning off public access",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/securing-message-brokers-takes-more-than-turning-off-public/ba-p/4533257",
+      "published": "2026-07-06T14:00:00+00:00",
+      "summary": "Over the last few years, enterprises have done the hard work of locking down their cloud networks. Public endpoints get switched off. Traffic moves onto private IPs inside a virtual network. Shared secrets get replaced with identities that can be governed and revoked. This is the practical shape of...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer"
+    },
+    {
+      "title": "Need a different partition key in Azure Cosmos DB? Pick the right approach",
+      "link": "https://devblogs.microsoft.com/cosmosdb/need-a-different-partition-key-in-azure-cosmos-db-pick-the-right-approach/",
+      "published": "2026-07-06T13:37:33+00:00",
+      "summary": "Once you create a container, its partition key is fixed at creation, and you can’t change it in place. However, if your original key starts causing problems like cross-partition queries or hot partitions, you need to consider your options for changing it. This post explains the mechanics of...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Abhishek Gupta"
+    },
+    {
+      "title": "Token Economics: The New FinOps for Agentic AI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/token-economics-the-new-finops-for-agentic-ai/ba-p/4533743",
+      "published": "2026-07-06T07:00:00+00:00",
+      "summary": "In AI applications, tokens are now cost — and token economics deserves architectural attention For a long time, AI application design started with model capability: Can the model write code? Can it reason? Can it use tools? Can it handle long context? Those questions still matter, but in the age of...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
+    {
+      "title": "Azure SDK Release (June 2026)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-june-2026/",
+      "published": "2026-07-06T05:56:58+00:00",
+      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (June 2026) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Justin Bettencourt"
+    },
+    {
+      "title": "Automatically Route Azure Service Health Alerts to the Right Service Owners Using Agentic Logic Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/automatically-route-azure-service-health-alerts-to-the-right/ba-p/4531853",
+      "published": "2026-07-05T21:55:20+00:00",
+      "summary": "As organizations adopt more Azure services, operational ownership naturally becomes distributed across multiple teams. The platform team may own Azure Kubernetes Service (AKS), the database team may manage Azure SQL, while application teams are responsible for App Services and Logic Apps. Azure...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Arpit_MSFT"
+    },
     {
       "title": "Windows 365 Boot",
       "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/windows-365-boot/ba-p/4533696",
@@ -1572,7 +1617,7 @@
       "title": "Copilot Code Reviews for Azure Repos",
       "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos/",
       "published": "2026-06-09T15:12:40+00:00",
-      "summary": "🚨 ​​​​​​​Attention: We are accepting a final round of preview requests, with those organizations scheduled for enablement beginning the second week of July. Requests submitted after July 3 will not be accepted into the preview program. Over the last several years, we have encouraged customers to...",
+      "summary": "🚨 July 6 Update: This private preview is no longer accepting new sign-ups. We are working to expand availability and expect to open a public preview within the next few weeks. Over the last several years, we have encouraged customers to move their repositories from Azure Repos to GitHub to take...",
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem, Andrew Brenner"
@@ -1677,15 +1722,6 @@
       "author": "Sally_Dabbah"
     },
     {
-      "title": "Getting Secrets Out of YAML: Implementing Azure Key Vault CSI Driver on AKS with Workload Identity",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/getting-secrets-out-of-yaml-implementing-azure-key-vault-csi/ba-p/4522590",
-      "published": "2026-06-08T07:00:00+00:00",
-      "summary": "Table of Contents Why This Pattern Matters The Problem with Secrets in YAML What We Wanted to Achieve Architecture Overview How the Flow Works Implementation Prerequisites Step-by-Step Implementation Understanding the YAML Components Secret Rotation and Reloaders Common Pitfalls and Troubleshooting...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "anandranjan"
-    },
-    {
       "title": "Faster az login: introducing --skip-subscription-discovery and targeted --subscription",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/faster-az-login-introducing-skip-subscription-discovery-and/ba-p/4526116",
       "published": "2026-06-07T07:19:58+00:00",
@@ -1693,42 +1729,6 @@
       "blog": "Azure Tools",
       "blogId": "azuretoolsblog",
       "author": "Alex-wdy"
-    },
-    {
-      "title": "Govern AI Agents Using Agent Governance Toolkit and Azure Container App Sandboxes",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/govern-ai-agents-using-agent-governance-toolkit-and-azure/ba-p/4526011",
-      "published": "2026-06-05T22:40:19+00:00",
-      "summary": "When you let a model generate code and you actually execute it, you are handing the model a Python REPL on whatever machine runs the agent. That sounds alarmist — right up until a planner (yours, mine, or anyone else's) produces a snippet that reads as harmless on the first pass: # \"summarize the...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "amolravande"
-    },
-    {
-      "title": "New Capabilities to Observe Agents in Azure Monitor",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/new-capabilities-to-observe-agents-in-azure-monitor/ba-p/4524896",
-      "published": "2026-06-05T22:09:44+00:00",
-      "summary": "Over the last six months, we have been listening to you and building new capabilities to help you observe your agents. You’ve been sharing with us that quality issues are tricky and evaluation is critical, that agent reasoning needs to be understood, that humans must be in the loop to review select...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "MattMc"
-    },
-    {
-      "title": "Action required: Kerberos RC4 hardening may affect Azure Files Active Directory Domain Services",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/action-required-kerberos-rc4-hardening-may-affect-azure-files/ba-p/4518577",
-      "published": "2026-06-05T21:50:11+00:00",
-      "summary": "A Windows security hardening change beginning in April 2026 updates default Kerberos encryption behavior and may impact customers using Azure Files with Active Directory Domain Services (AD DS) authentication over SMB. If you created Azure Files shares prior to 2023, or chose RC4 encryption for...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "grace_kim"
-    },
-    {
-      "title": "Ansible + Azure Arc: Use Ansible modules to deploy and manage Azure Arc machine extensions at scale",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/ansible-azure-arc-use-ansible-modules-to-deploy-and-manage-azure/ba-p/4521689",
-      "published": "2026-06-05T18:05:16+00:00",
-      "summary": "We are making Azure Arc extensible and increasing the flexibility of the tooling you can use to operate your machines using Azure’s control plane. We are excited to announce new modules in Ansible Galaxy that make it easier to manage Azure Arc machine extensions at scale. With the latest updates to...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "alinetran"
     }
   ]
 }
