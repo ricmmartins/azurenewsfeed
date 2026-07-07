@@ -1,7 +1,79 @@
 {
-  "lastUpdated": "2026-07-06T15:28:16.652597+00:00",
-  "totalArticles": 192,
+  "lastUpdated": "2026-07-07T14:29:09.813738+00:00",
+  "totalArticles": 200,
   "articles": [
+    {
+      "title": "Azure Database Security Newsletter - July 2026",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-database-security-newsletter-july-2026/ba-p/4534477",
+      "published": "2026-07-07T11:47:08+00:00",
+      "summary": "AI agents are changing how applications interact with data, and database security needs to evolve with them. In this July 2026 edition of the Azure Database Platform Security Newsletter, we focus on what this shift means for identity, access, monitoring, and data protection, along with the latest...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "PieterVanhove"
+    },
+    {
+      "title": "Export historical data from Log Analytics workspace with Export Job (preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/export-historical-data-from-log-analytics-workspace-with-export/ba-p/4532425",
+      "published": "2026-07-07T09:53:09+00:00",
+      "summary": "Log Analytics Export Job is now available in public preview. It gives you a straightforward way to export historical log data from your workspace to Azure Blob Storage, without writing custom scripts or disrupting live operations. You submit a job including a query, time range, and the service...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "YossiY"
+    },
+    {
+      "title": "What’s New in Microsoft Foundry | June 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-june-2026/",
+      "published": "2026-07-07T07:10:25+00:00",
+      "summary": "Claude is now generally available in Microsoft Foundry. Here's everything else that shipped between Build 2026 and the end of June — autopilot agents, expanded Toolboxes and Routines, Agent Optimizer's private preview, and more. The post What’s New in Microsoft Foundry | June 2026 appeared first on...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nick Brady"
+    },
+    {
+      "title": "Modern Ingress for AKS: Introducing Application Gateway for Containers (AGC)",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/modern-ingress-for-aks-introducing-application-gateway-for/ba-p/4534200",
+      "published": "2026-07-07T07:00:00+00:00",
+      "summary": "Hello Folks! This Microsoft Azure Infra Summit 2026 sessions one is for everyone running production workloads on AKS. Jack Stromberg from the Application Gateway product team walked us through the entire history of load balancing in about ten minutes (no small feat) and then dropped the news that...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "Coding with Logic Apps Standard: Local Functions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/coding-with-logic-apps-standard-local-functions/ba-p/4534240",
+      "published": "2026-07-07T05:38:35+00:00",
+      "summary": "Welcome to the Series Welcome to the first article in the Coding with Logic Apps Standard series. This series is for integration developers, architects, and modernization teams who want to go beyond visual workflow design and use Azure Logic Apps Standard as a complete development platform for...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "hcamposu"
+    },
+    {
+      "title": "Teamcenter on Oracle AI Database@Azure: Architecture, Validation, and Results",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/teamcenter-on-oracle-ai-database-azure-architecture-validation/ba-p/4534252",
+      "published": "2026-07-07T03:00:27+00:00",
+      "summary": "Overview Manufacturing organizations depend on Product Lifecycle Management (PLM) platforms to manage engineering data, product structures, digital twins, and collaborative design processes. As enterprises modernize their infrastructure, many continue to require advanced Oracle database...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Sunita_AZ0708"
+    },
+    {
+      "title": "See our new Azure Cosmos DB Design Patterns",
+      "link": "https://devblogs.microsoft.com/cosmosdb/see-our-new-azure-cosmos-db-design-patterns/",
+      "published": "2026-07-06T20:20:06+00:00",
+      "summary": "Design patterns are where good data modeling lives or dies. In a NoSQL database like Azure Cosmos DB, the difference between a schema that scales to millions of operations per second and one that fights you at every turn usually comes down to a handful of well‑understood patterns: how you...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Mark Brown"
+    },
+    {
+      "title": "Logic Apps Aviators Newsletter - July 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-july-2026/ba-p/4533851",
+      "published": "2026-07-06T15:00:00+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month July 2026's Ace Aviator: Bill Chesnut Bill Chesnut - Cloud Platform and API Evangelist @ SixPivot What's your role and title? What are your responsibilities? Cloud Platform and API...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
     {
       "title": "Securing message brokers takes more than turning off public access",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/securing-message-brokers-takes-more-than-turning-off-public/ba-p/4533257",
@@ -19,6 +91,15 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Abhishek Gupta"
+    },
+    {
+      "title": "Turning Azure Policy Signals into Actionable Governance Insights",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/turning-azure-policy-signals-into-actionable-governance-insights/ba-p/4534126",
+      "published": "2026-07-06T12:40:50+00:00",
+      "summary": "Most Azure Policy reporting stops at compliance status. Useful, yes — but not enough. When a control fails, teams need to know what failed, why it matters, and who should act. That gap becomes obvious at enterprise scale. A failed policy evaluation is only a signal. By itself, it does not tell you...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "absharan"
     },
     {
       "title": "Token Economics: The New FinOps for Agentic AI",
@@ -199,6 +280,15 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "pallakatos"
+    },
+    {
+      "title": "What AI benchmarks are not telling you",
+      "link": "https://devblogs.microsoft.com/blog/what-ai-benchmarks-are-not-telling-you",
+      "published": "2026-07-01T14:31:55+00:00",
+      "summary": "This is the sixth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "Smoke Test Microsoft Foundry Agents with GitHub Actions",
@@ -873,7 +963,7 @@
       "summary": "Introduction Generative AI (GenAI) is poised to transform the construction industry by addressing chronic challenges such as low productivity, cost overruns, schedule delays, and labor shortages. By automating the analysis of drawings, specifications, contracts, and project documentation, GenAI can...",
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
-      "author": "its_gaurav_bhardwaj"
+      "author": "gauravbhardwaj"
     },
     {
       "title": "Microsoft Security Copilot: AI-Driven Security Operations at Greater Scale",
@@ -1515,15 +1605,6 @@
       "author": "Waldek Mastykarz"
     },
     {
-      "title": "Stop skillmaxxing, save your tokens",
-      "link": "https://devblogs.microsoft.com/blog/stop-skillmaxxing-save-your-tokens",
-      "published": "2026-06-10T18:00:15+00:00",
-      "summary": "You built a dozen skills for your technology: authentication, CRUD, error handling, deployment, testing, monitoring. Then you installed a cloud platform bundle with 15 more covering diagnostics, storage, compliance, and cost optimization. A design suite. A marketing pack. Document converters for...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
       "title": "We Gave Ourselves 20 Minutes to Build an AI Agent for a Lumber Company. The Timer's Still on Screen.",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/we-gave-ourselves-20-minutes-to-build-an-ai-agent-for-a-lumber/ba-p/4523428",
       "published": "2026-06-10T07:00:00+00:00",
@@ -1720,15 +1801,6 @@
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Sally_Dabbah"
-    },
-    {
-      "title": "Faster az login: introducing --skip-subscription-discovery and targeted --subscription",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/faster-az-login-introducing-skip-subscription-discovery-and/ba-p/4526116",
-      "published": "2026-06-07T07:19:58+00:00",
-      "summary": "TL;DR — If you belong to many tenants, or a tenant holds hundreds or thousands of subscriptions, az login can crawl — it tries to enumerate every subscription in every tenant before it returns. Two flags now let you skip that enumeration and make login near-instant: az login --tenant <TENANT_ID>...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "Alex-wdy"
     }
   ]
 }
