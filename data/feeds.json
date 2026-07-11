@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-07-10T14:22:12.427320+00:00",
-  "totalArticles": 198,
+  "lastUpdated": "2026-07-11T13:14:53.188588+00:00",
+  "totalArticles": 194,
   "articles": [
+    {
+      "title": "Secure Native Access to Azure Kubernetes Service (AKS) Private Clusters with Azure Bastion",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/secure-native-access-to-azure-kubernetes-service-aks-private/ba-p/4535123",
+      "published": "2026-07-11T06:39:04+00:00",
+      "summary": "Written in Collaboration with AvirupChat​ ShabazShaik​ Mohit_Kumar​ YuriDiogenes​ Introduction: As organizations move toward containerized workloads such as Azure Kubernetes Service (AKS), secure access to cluster resources becomes critical. Making the Kubernetes API server private, therefore,...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor"
+    },
+    {
+      "title": "Azure Front Door: Resiliency Series – Part 3: Tenant isolation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-resiliency-series-part-3-tenant-isolation/ba-p/4535866",
+      "published": "2026-07-10T22:08:29+00:00",
+      "summary": "Abhishek Tiwari, Vice President of Engineering, Azure NetworkingAmit Srivastava, Partner Director of PM, Azure NetworkingVarun Chawla, Partner Director of Engineering, Azure Networking Azure Front Door serves hundreds of thousands of tenants from hundreds of edge locations, densely sharing the...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "AbhishekTiwari"
+    },
+    {
+      "title": "Beyond the Canvas: The Azure Architecture Diagram Builder Becomes Agent-Ready",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/beyond-the-canvas-the-azure-architecture-diagram-builder-becomes/ba-p/4534590",
+      "published": "2026-07-10T21:40:06+00:00",
+      "summary": "AZURE ARCHITECTURE BLOG · 8 MIN READ Author: Arturo Quiroga, Senior Partner Solutions Architect — Microsoft Two months ago I published From Prompt to Production: Building Azure Architecture Diagrams with AI, introducing the open-source Azure Architecture Diagram Builder. The response was humbling —...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "arturoqu"
+    },
+    {
+      "title": "Shrinking Azure Pipeline task extensions using esbuild",
+      "link": "https://devblogs.microsoft.com/devops/shrinking-azure-pipeline-task-extensions-using-esbuild/",
+      "published": "2026-07-10T14:45:56+00:00",
+      "summary": "TL;DR We bundled an internal Azure Pipelines task extension into a single bundled JavaScript file using esbuild. The task package dropped from tens of megabytes and thousands of files to three files per task ( script.js , task.json , and icon.png ). The change took about 20 lines of build tooling....",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "David Paquette"
+    },
     {
       "title": "When Arc Goes Silent: Turning Visibility Gaps into SOC Action",
       "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/when-arc-goes-silent-turning-visibility-gaps-into-soc-action/ba-p/4535711",
@@ -34,15 +70,6 @@
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-ddos-protection-azure-waf-a-layered-defense-for-modern/ba-p/4523745",
       "published": "2026-07-09T21:33:51+00:00",
       "summary": "Introduction: The Need for Layered DDoS Defense Organizations today operate in an environment where Distributed Denial of Service (DDoS) attacks continue to evolve across both network and application layers. To help organizations build resilient, internet-facing applications and services, Microsoft...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor"
-    },
-    {
-      "title": "Secure Native Access to Azure Kubernetes Service (AKS) Private Clusters with Azure Bastion",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/secure-native-access-to-azure-kubernetes-service-aks-private/ba-p/4535123",
-      "published": "2026-07-09T18:07:27+00:00",
-      "summary": "Written in Collaboration with AvirupChat​ ShabazShaik​ Mohit_Kumar​ YuriDiogenes​ Introduction: As organizations move toward containerized workloads such as Azure Kubernetes Service (AKS), secure access to cluster resources becomes critical. Making the Kubernetes API server private, therefore,...",
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
       "author": "saikishor"
@@ -1720,69 +1747,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "ShubhamSachdeva99"
-    },
-    {
-      "title": "Debug App Startup Faster on Azure App Service for Linux with Startup Logs",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/debug-app-startup-faster-on-azure-app-service-for-linux-with/ba-p/4527521",
-      "published": "2026-06-11T12:34:17+00:00",
-      "summary": "When an app fails to start on Azure App Service for Linux, one of the first things you need is visibility into what happened during startup. This can include container initialization, runtime setup, startup command execution, application output, and warmup probe results. To make this easier, we...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "TulikaC"
-    },
-    {
-      "title": "Analyse Intune Diagnostics Logs with GitHub Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/analyse-intune-diagnostics-logs-with-github-copilot/ba-p/4527500",
-      "published": "2026-06-11T12:15:59+00:00",
-      "summary": "Hello everyone! I’m Stefan Röll, Cloud Solution Architect at Microsoft Germany for Cloud Endpoints. I work closely with IT Admins to improve their experience with everything around Intune, W365 and Windows. I know that troubleshooting an issue can be time consuming and challenging. In this blog I...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "StefanRöll"
-    },
-    {
-      "title": "Performance Tuning Cold Starts, Scaling Delays, and Startup Latency in Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/performance-tuning-cold-starts-scaling-delays-and-startup/ba-p/4518523",
-      "published": "2026-06-11T07:00:00+00:00",
-      "summary": "Introduction There is a particular kind of frustration that comes not when your application fails to start, but when it starts too slowly. The container is running, the health probes pass, your monitoring shows green — and yet every few minutes a user somewhere in the world hits a request that...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "BhaktiRath95"
-    },
-    {
-      "title": "At-Scale Failure Reporting for Azure Update Manager",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/at-scale-failure-reporting-for-azure-update-manager/ba-p/4527378",
-      "published": "2026-06-11T06:32:42+00:00",
-      "summary": "Introduction Azure Update Manager simplifies patching across Azure virtual machines and Azure Arc-enabled servers by providing a centralized platform for patch assessment and installation. However, as environments scale, a key challenge emerges—efficiently identifying and troubleshooting patch...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "rajeshkumar30"
-    },
-    {
-      "title": "Announcing Azure Linux 4.0: Purpose-Built for Azure, Now in Public Preview",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-azure-linux-4-0-purpose-built-for-azure-now-in-public/ba-p/4524267",
-      "published": "2026-06-10T20:56:42+00:00",
-      "summary": "Today at Microsoft Build, we're announcing the public preview of Azure Linux 4.0 - Microsoft's first party Linux distribution, purpose-built for Azure. Azure Linux 4.0 is available now for Azure Virtual Machines, VM Scale Sets, and container images – with Azure Kubernetes Service (AKS) support and...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "poorvinarang"
-    },
-    {
-      "title": "Deploying Foundry Hosted Agents from Source Code",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/deploying-foundry-hosted-agents-from-source-code/ba-p/4527285",
-      "published": "2026-06-10T20:27:17+00:00",
-      "summary": "Introduction At Microsoft Build, it was announced that Foundry Hosted Agents now support source-code deployments. Previously, Hosted Agents required application code to be packaged in a container for deployment. This new functionality allows you to deploy the agent from a `.zip` file instead of...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "j_folberth"
-    },
-    {
-      "title": "PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296",
-      "published": "2026-06-10T19:34:21+00:00",
-      "summary": "The Challenge of Platform Log Collection at Scale For many platform teams, Azure resource platform log collection starts simple—but becomes difficult to manage at enterprise scale. Imagine a team responsible for more than 8,000 Azure resources across 14 subscriptions. Every new resource needs a...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Mahesh_Sundaram"
     }
   ]
 }
