@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-11T13:14:53.188588+00:00",
-  "totalArticles": 194,
+  "lastUpdated": "2026-07-12T13:15:53.758147+00:00",
+  "totalArticles": 182,
   "articles": [
     {
       "title": "Secure Native Access to Azure Kubernetes Service (AKS) Private Clusters with Azure Bastion",
@@ -10,6 +10,15 @@
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
       "author": "saikishor"
+    },
+    {
+      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
+      "published": "2026-07-11T00:14:24+00:00",
+      "summary": "Author's: Aladdin Alchalabi, Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
     },
     {
       "title": "Azure Front Door: Resiliency Series – Part 3: Tenant isolation",
@@ -28,6 +37,15 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "arturoqu"
+    },
+    {
+      "title": "Welcome Back to AZ Update",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/welcome-back-to-az-update/ba-p/4535872",
+      "published": "2026-07-10T20:20:19+00:00",
+      "summary": "Hello Folks!Welcome Back to AZ Update A few years ago, Antony Bartolo and I launched a simple idea called AZ Update. The goal was to provide a place where IT professionals could quickly understand what was changing in Azure, why it mattered, and what they should pay attention to next. The show...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
     },
     {
       "title": "Shrinking Azure Pipeline task extensions using esbuild",
@@ -1002,15 +1020,6 @@
       "author": "Pierre_Roman"
     },
     {
-      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
-      "published": "2026-06-23T23:34:19+00:00",
-      "summary": "Author's: Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a well-architected solution...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
       "title": "Mistral Document AI (with OCR 4) and Mistral Medium 3.5 arrive in Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mistral-document-ai-with-ocr-4-and-mistral-medium-3-5-arrive-in/ba-p/4529863",
       "published": "2026-06-23T22:01:14+00:00",
@@ -1630,123 +1639,6 @@
       "blog": "AKS Blog",
       "blogId": "aksblog",
       "author": "Microsoft"
-    },
-    {
-      "title": "Troubleshooting ML Model Loading, GPU Issues, and Memory Pressure in Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/troubleshooting-ml-model-loading-gpu-issues-and-memory-pressure/ba-p/4518542",
-      "published": "2026-06-12T07:00:00+00:00",
-      "summary": "Introduction Deploying an AI application to Azure Container Apps is fundamentally different from deploying a web API. When you containerize a Django REST API, the application starts in a few seconds, the memory footprint is predictable, and the CPU usage scales linearly with requests. When you...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "BhaktiRath95"
-    },
-    {
-      "title": "Orchestration Patterns for Multi-Agent Systems: Performance and Trade-offs",
-      "link": "https://devblogs.microsoft.com/ise/coordinator-patterns-multi-agent-systems/",
-      "published": "2026-06-12T07:00:00+00:00",
-      "summary": "Real-world lessons from evolving a production chatbot into a coordinator-based multi-agent architecture, including performance trade-offs for enterprise-scale agent reuse. The post Orchestration Patterns for Multi-Agent Systems: Performance and Trade-offs appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Lily Jia"
-    },
-    {
-      "title": "June Patches for Azure DevOps Server",
-      "link": "https://devblogs.microsoft.com/devops/june-patches-for-azure-devops-server-5/",
-      "published": "2026-06-11T21:33:15+00:00",
-      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales"
-    },
-    {
-      "title": "Right‑sizing Azure Savings Plans, one hour at a time",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/right-sizing-azure-savings-plans-one-hour-at-a-time/ba-p/4527507",
-      "published": "2026-06-11T20:21:40+00:00",
-      "summary": "Most of us have, at some point, sized a commitment the same way we order food for a team offsite: estimate, round up, and hope nobody complains. It works for pizza. It is a less robust strategy for a three‑year Savings Plan. Azure Cost Management already produces commitment recommendations for you,...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "Dirk_Brinkmann"
-    },
-    {
-      "title": "A deep dive into Azure Bastion session recording",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/a-deep-dive-into-azure-bastion-session-recording/ba-p/4527583",
-      "published": "2026-06-11T19:38:25+00:00",
-      "summary": "If you’ve worked with Azure Bastion’s Premium SKU, you’ve likely encountered one of its most powerful security features: graphical session recording. Capturing RDP and SSH sessions end to end strengthens compliance, supports forensic investigations, and improves operational accountability. How you...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "juquint"
-    },
-    {
-      "title": "Modern VM monitoring, powered by OpenTelemetry",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/modern-vm-monitoring-powered-by-opentelemetry/ba-p/4527566",
-      "published": "2026-06-11T18:57:11+00:00",
-      "summary": "At Build 2026, we're announcing the general availability of OpenTelemetry (OTel) Guest OS metrics for Azure VMs and Arc-enabled Servers. OTel provides a standards-based foundation for VM monitoring with consistent metrics across Windows and Linux, richer Guest OS and per-process visibility, and...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "viviandiec"
-    },
-    {
-      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
-      "published": "2026-06-11T18:53:37+00:00",
-      "summary": "Microsoft's Cloud Architects: Paul Singh PaulSingh​, Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​, Peter Lo PeterLo​, Tim Orentlikher tim_orentlikher​, Ajmal Hossain ajmalhossain​, Chris Haynes Chris_Haynes​, and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "Azure Monitor SLIs now Generally Available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-slis-now-generally-available/ba-p/4523689",
-      "published": "2026-06-11T17:18:29+00:00",
-      "summary": "Azure Monitor SLIs are now generally available Service Level Indicators (SLIs) and Service Level Objectives (SLOs) in Azure Monitor are now generally available. Teams can now measure reliability based on customer experience, not just infrastructure signals. SLI: A quantitative measure of how well...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Sokuma"
-    },
-    {
-      "title": "Azure Monitor Metrics Export Generally Available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-metrics-export-generally-available/ba-p/4523712",
-      "published": "2026-06-11T17:17:35+00:00",
-      "summary": "Today, we’re excited to announce the general availability of Azure Monitor Metrics Export using data collection rules (DCRs). A scalable, flexible way to continuously export platform metrics with dimensional fidelity, lower latency, and more control over what you send downstream. Azure Monitor...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Sokuma"
-    },
-    {
-      "title": "Copilot Autofix for GitHub Advanced Security for Azure DevOps",
-      "link": "https://devblogs.microsoft.com/devops/copilot-autofix-for-github-advanced-security-for-azure-devops/",
-      "published": "2026-06-11T15:54:32+00:00",
-      "summary": "Over the last few years, we’ve encouraged customers to move their repositories from Azure Repos to GitHub, where the newest AI-powered and agentic development experiences land first. Migrating isn’t equally simple for everyone. A move to GitHub can range from straightforward to a multi-year...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Laura Jiang"
-    },
-    {
-      "title": "Review pull requests without leaving Visual Studio",
-      "link": "https://devblogs.microsoft.com/visualstudio/review-pull-requests-without-leaving-visual-studio/",
-      "published": "2026-06-11T15:00:02+00:00",
-      "summary": "Pull request integration in Visual Studio has been one of the most requested Git features. Developers have been asking for a way to open a PR, inspect the changes, discuss feedback, and finish the review without switching to the browser. The feedback on that request has played a big role in shaping...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Leah Tran"
-    },
-    {
-      "title": "Real-Time Simulation with Ansys Discovery on Azure AMD Radeon V710 GPUs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/real-time-simulation-with-ansys-discovery-on-azure-amd-radeon/ba-p/4527323",
-      "published": "2026-06-11T14:09:17+00:00",
-      "summary": "Overview of Synopsys-Ansys Discovery Ansys Discovery is an interactive engineering application that unifies 3D geometry modeling, real‑time simulation, and visual analysis into a single, immersive workspace. It is purpose‑built to accelerate early‑stage engineering exploration while maintaining...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Sunita_AZ0708"
-    },
-    {
-      "title": "Dynamic Connection Properties in Azure Logic Apps Standard",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/dynamic-connection-properties-in-azure-logic-apps-standard/ba-p/4527525",
-      "published": "2026-06-11T13:20:10+00:00",
-      "summary": "Switching Built-in Connections at Runtime The Problem Imagine your organization has a single Logic App workflow used by multiple teams. Each team has its own SFTP server, database, or service bus namespace. Traditionally, you'd need separate workflows or hardcode a single connection — neither...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "ShubhamSachdeva99"
     }
   ]
 }
