@@ -1,24 +1,51 @@
 {
-  "lastUpdated": "2026-07-12T13:15:53.758147+00:00",
-  "totalArticles": 182,
+  "lastUpdated": "2026-07-13T14:30:01.836761+00:00",
+  "totalArticles": 185,
   "articles": [
     {
       "title": "Secure Native Access to Azure Kubernetes Service (AKS) Private Clusters with Azure Bastion",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/secure-native-access-to-azure-kubernetes-service-aks-private/ba-p/4535123",
-      "published": "2026-07-11T06:39:04+00:00",
+      "published": "2026-07-13T07:37:52+00:00",
       "summary": "Written in Collaboration with AvirupChat​ ShabazShaik​ Mohit_Kumar​ YuriDiogenes​ Introduction: As organizations move toward containerized workloads such as Azure Kubernetes Service (AKS), secure access to cluster resources becomes critical. Making the Kubernetes API server private, therefore,...",
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
       "author": "saikishor"
     },
     {
-      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
-      "published": "2026-07-11T00:14:24+00:00",
-      "summary": "Author's: Aladdin Alchalabi, Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a...",
+      "title": "Optimizing GitHub Copilot Cost in the Usage-Based Billing Era",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/optimizing-github-copilot-cost-in-the-usage-based-billing-era/ba-p/4534186",
+      "published": "2026-07-13T04:15:00+00:00",
+      "summary": "GitHub Copilot has become a core part of the modern developer workflow. We use it to complete code, explain unfamiliar repositories, write tests, refactor legacy applications, review pull requests, generate documentation, and automate repetitive engineering work. But as GitHub Copilot moves further...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "ellisd4"
+    },
+    {
+      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
+      "published": "2026-07-13T02:35:23+00:00",
+      "summary": "Microsoft's Cloud Architects: Paul Singh PaulSingh​, Aladdin Alchalabi aalchalabi​, Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​, Peter Lo PeterLo​, Tim Orentlikher tim_orentlikher​, Ajmal Hossain ajmalhossain​, Chris Haynes Chris_Haynes​, and Rafia Aqil Rafia_Aqil​ Start Here: Engage...",
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
+      "published": "2026-07-13T02:32:29+00:00",
+      "summary": "Author's: Aladdin Alchalabi aalchalabi​, Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "The AI Agent Lifecycle: A Simple Guide",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/the-ai-agent-lifecycle-a-simple-guide/ba-p/4535729",
+      "published": "2026-07-13T00:52:49+00:00",
+      "summary": "The Bigger Picture Building an AI agent is fundamentally different from building traditional software. With a website or application, teams typically design, develop, test, and release. Once deployed, the focus shifts primarily to maintenance and feature enhancements. AI agents operate differently....",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "supriyas"
     },
     {
       "title": "Azure Front Door: Resiliency Series – Part 3: Tenant isolation",
