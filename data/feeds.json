@@ -1,7 +1,79 @@
 {
-  "lastUpdated": "2026-07-13T14:30:01.836761+00:00",
-  "totalArticles": 185,
+  "lastUpdated": "2026-07-14T13:39:04.255360+00:00",
+  "totalArticles": 194,
   "articles": [
+    {
+      "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-ai-adoption-to-ai-governance-using-apim-as-the-gateway-for/ba-p/4536247",
+      "published": "2026-07-14T08:19:35+00:00",
+      "summary": "Co-authored by Gaurav Jain (Senior Cloud Solution Architect @ Microsoft) and Abhishek Mittal (Cloud Solution Architect @ Microsoft) Enterprises move through three phases of AI adoption: evaluating models, building apps and agents, and operationalizing them in production. The first two are easier to...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Abhishek_Mittal"
+    },
+    {
+      "title": "Moving Petabytes Without the Panic: At-Scale Storage Assessments and Migrations to Azure",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/moving-petabytes-without-the-panic-at-scale-storage-assessments/ba-p/4534543",
+      "published": "2026-07-14T07:00:00+00:00",
+      "summary": "Hello Folks! If you have ever been asked to move all our file shares to the cloud ASAP. You already know that storage migration is one of those projects that looks easy on a slide and gets ugly in reality. In this session at the Microsoft Azure Infra Summit 2026, Anusha Subramanian and Madhuri...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "The Visual Studio Dev/Test Benefit: Freedom to Build, Test, and Experiment in Azure",
+      "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-dev-test-benefit-freedom-to-build-test-and-experiment-in-azure/",
+      "published": "2026-07-13T22:21:36+00:00",
+      "summary": "One of the best parts of a Visual Studio Subscription is discovering benefits that can make your day-to-day development work easier and more cost effective. One benefit that deserves more attention is Azure Dev/Test pricing. In fact, it’s one of the most valuable benefits included with a Visual...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt"
+    },
+    {
+      "title": "Check This Out! (CTO!) Guide (July 2026)",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/check-this-out-cto-guide-july-2026/ba-p/4536608",
+      "published": "2026-07-13T20:50:04+00:00",
+      "summary": "Member: TysonPaul | Microsoft Community Hub Triage vulnerabilities with the Vulnerability Remediation Agent, now in public preview Team Blog: Intune Customer Success Author: Intune_Support_Team Published: 06/16/2026 Summary: Microsoft has launched the Vulnerability Remediation Agent for Security...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "TysonPaul"
+    },
+    {
+      "title": "Upcoming Changes to Azure Relay IP Addresses and DNS Support",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/upcoming-changes-to-azure-relay-ip-addresses-and-dns-support/ba-p/4463597",
+      "published": "2026-07-13T20:04:04+00:00",
+      "summary": "Azure Relay is an integral part of modern hybrid cloud architectures, enabling seamless connectivity between on-premises and cloud resources. To ensure continued reliability and security, Microsoft is implementing important updates to the IP addresses and DNS naming conventions used by Azure Relay...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "ashish-chhabria"
+    },
+    {
+      "title": "Building toward an Agentic SOC: A Portable, Autonomous Malware Investigation Agent",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/building-toward-an-agentic-soc-a-portable-autonomous-malware/ba-p/4526872",
+      "published": "2026-07-13T19:09:25+00:00",
+      "summary": "Modern Security Operations Centers are not short on tools. They are short on continuity. Analysts jump from alert consoles to data exploration, from enrichment to investigation, and from evidence gathering to response—often across multiple interfaces and disconnected workflows. A single malware...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "absharan"
+    },
+    {
+      "title": "A message broker is only as reliable as the layer you stopped at",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/a-message-broker-is-only-as-reliable-as-the-layer-you-stopped-at/ba-p/4533259",
+      "published": "2026-07-13T14:00:00+00:00",
+      "summary": "Reliability is easy to reduce to a single number. You find the SLA, you put it on a slide, and you move on. But a service-level agreement describes an outcome, not the set of decisions that produce it. The same Azure Service Bus namespace can keep running when a single server fails, survive the...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer"
+    },
+    {
+      "title": "Creating Autonomous Teams Agents Using OpenClaw, MCP, and Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/creating-autonomous-teams-agents-using-openclaw-mcp-and-azure/ba-p/4536296",
+      "published": "2026-07-13T07:39:45+00:00",
+      "summary": "The one shift that changes everything For two years, \"AI coding\" meant autocomplete. A suggestion appears in your editor, you hit tab, you move on. The agent only existed while you were actively typing. That is no longer the only model. A new category of tools runs asynchronously and autonomously:...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
     {
       "title": "Secure Native Access to Azure Kubernetes Service (AKS) Private Clusters with Azure Bastion",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/secure-native-access-to-azure-kubernetes-service-aks-private/ba-p/4535123",
@@ -10,6 +82,15 @@
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
       "author": "saikishor"
+    },
+    {
+      "title": "Build and Optimize a Data Lakehouse for Unified Data Intelligence",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/build-and-optimize-a-data-lakehouse-for-unified-data/ba-p/4534535",
+      "published": "2026-07-13T07:00:00+00:00",
+      "summary": "Hello Folks! Welcome back to the ITOpsTalk Blog and the Microsoft Azure Infrastructure Summit 2026 series. In this session James Baker and Sai Runtham, both from the Azure Data Lake Storage product team, take us through what a modern Lakehouse actually is, how to design one on Azure, and then they...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
     },
     {
       "title": "Optimizing GitHub Copilot Cost in the Usage-Based Billing Era",
