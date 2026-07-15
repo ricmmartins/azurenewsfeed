@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-07-14T13:39:04.255360+00:00",
-  "totalArticles": 194,
+  "lastUpdated": "2026-07-15T13:39:44.542708+00:00",
+  "totalArticles": 198,
   "articles": [
+    {
+      "title": "Load testing Copilot Studio agents with Locust and Azure Load Testing",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/load-testing-copilot-studio-agents-with-locust-and-azure-load/ba-p/4535445",
+      "published": "2026-07-15T09:47:26+00:00",
+      "summary": "A conversational agent doesn't answer like an API. You send one message. The server returns 200 OK. And then nothing happens. The real answer is still coming, streaming back over a WebSocket as one reply or several. It might take two seconds, or three minutes while the agent thinks, calls a tool,...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Krishna-Roy"
+    },
+    {
+      "title": "Modernize VDI with Azure Files and Entra Cloud-Native Identities",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/modernize-vdi-with-azure-files-and-entra-cloud-native-identities/ba-p/4534545",
+      "published": "2026-07-15T07:00:00+00:00",
+      "summary": "Hello Folks! If you have ever run a Virtual Desktop Infrastructure (VDI) estate, you know the recurring riddle. The session hosts are designed to be stateless and pooled, yet every user expects a persistent Outlook profile, their OneDrive cache, their pinned apps, and a sub-ten-second logon. In...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "Orchestrate Azure Container Apps Jobs with Apache Airflow",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/orchestrate-azure-container-apps-jobs-with-apache-airflow/ba-p/4534607",
+      "published": "2026-07-14T21:41:26+00:00",
+      "summary": "Azure Container Apps (ACA) Jobs are a great way to run work that starts, does something, and finishes: nightly batch, data processing, ETL, ML scoring, report generation. They scale to zero, bill per execution, and run any container you give them. But the moment your \"one job\" becomes \"a set of...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "hetvip"
+    },
+    {
+      "title": "Introducing Azure Front Door edge actions - Bringing secure, programmable logic to the edge",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/introducing-azure-front-door-edge-actions-bringing-secure/ba-p/4531928",
+      "published": "2026-07-14T18:55:53+00:00",
+      "summary": "Modern web applications are expected to feel instant, secure, and personalized, no matter where users connect from or what device they use. Delivering that experience requires more than moving static content closer to users. It increasingly depends on making smart decisions at the edge, from...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "akhilkarmalkar"
+    },
+    {
+      "title": "Azure Front Door: Resiliency Series – Part 2: Faster recovery (RTO)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-resiliency-series-part-2-faster-recovery-rto/ba-p/4503091",
+      "published": "2026-07-14T17:56:55+00:00",
+      "summary": "Abhishek Tiwari, Vice President of Engineering, Azure NetworkingAmit Srivastava, Partner Director of PM, Azure NetworkingVarun Chawla, Partner Director of Engineering, Azure NetworkingKarthik Uthaman, Principal Engineer, Azure Networking In Part 1 of this blog series, we outlined our four‑pillar...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "AbhishekTiwari"
+    },
+    {
+      "title": "Azure landing zone (ALZ) enters its next chapter",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
+      "published": "2026-07-14T17:31:13+00:00",
+      "summary": "Azure landing zone (ALZ) is now maintained by the Azure Migrate team. Nothing has changed in relation to getting support and making requests; still head to aka.ms/alz/issues (GitHub) and file your ask. ALZ continues to be open-source, maintained by the Azure Migrate team 👍 This is only the Platform...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "jtracey93msft"
+    },
+    {
+      "title": "Built-in Agent Skills Bring .NET and Azure Expertise into Visual Studio",
+      "link": "https://devblogs.microsoft.com/visualstudio/built-in-agent-skills-in-visual-studio/",
+      "published": "2026-07-14T17:30:57+00:00",
+      "summary": "Visual Studio now includes built-in Agent Skills, created by experts from the .NET and Azure teams, to help you better customize your agentic workflow and complete development tasks more efficiently, starting with the 18.8 Release. Agent Skills are reusable capabilities that enable your agent to...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Simona Liao, Wendy Breiding (SHE/HER), Yun Jung Choi"
+    },
+    {
+      "title": "Hunting Local AI Tools on macOS with Microsoft Defender for Endpoint",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/hunting-local-ai-tools-on-macos-with-microsoft-defender-for/ba-p/4536965",
+      "published": "2026-07-14T16:42:42+00:00",
+      "summary": "AI tooling is moving fast. Developers are running models locally, agents are spinning up local servers, and frameworks are adding new ways to extend the endpoint with skills, tools, and memory. That creates a useful productivity surface, but it also presents new challenges for security and...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "Vytas_Boyev"
+    },
+    {
+      "title": "Beyond the Canvas: The Azure Architecture Diagram Builder Becomes Agent-Ready",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/beyond-the-canvas-the-azure-architecture-diagram-builder-becomes/ba-p/4534590",
+      "published": "2026-07-14T14:02:30+00:00",
+      "summary": "AZURE ARCHITECTURE BLOG · 8 MIN READ Author: Arturo Quiroga, Senior Partner Solutions Architect — Microsoft Two months ago I published From Prompt to Production: Building Azure Architecture Diagrams with AI, introducing the open-source Azure Architecture Diagram Builder. The response was humbling —...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "arturoqu"
+    },
     {
       "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-ai-adoption-to-ai-governance-using-apim-as-the-gateway-for/ba-p/4536247",
@@ -12,6 +93,15 @@
       "author": "Abhishek_Mittal"
     },
     {
+      "title": "Building AI Agents from Zero to Production",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-ai-agents-from-zero-to-production/ba-p/4536529",
+      "published": "2026-07-14T07:00:00+00:00",
+      "summary": "Building AI Agents from Zero to Production Most agent demos stop at \"it answered my question.\" Production doesn't. The gap between a notebook that calls an LLM and a governed, observable, multi-agent system your organisation can actually depend on is where real engineering happens, evaluation,...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
       "title": "Moving Petabytes Without the Panic: At-Scale Storage Assessments and Migrations to Azure",
       "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/moving-petabytes-without-the-panic-at-scale-storage-assessments/ba-p/4534543",
       "published": "2026-07-14T07:00:00+00:00",
@@ -19,6 +109,15 @@
       "blog": "ITOpsTalk",
       "blogId": "itopstalkblog",
       "author": "Pierre_Roman"
+    },
+    {
+      "title": "From Multi-Model Chaos to a Governed AI Gateway: Cost Optimization on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-multi-model-chaos-to-a-governed-ai-gateway-cost/ba-p/4531729",
+      "published": "2026-07-14T04:15:00+00:00",
+      "summary": "What is Multi-Model Chaos, and what cost and security challenges does it pose? Multi-model chaos describes the sprawl that emerges when an organization rapidly adopts many large language and foundation models—OpenAI, Anthropic, Meta Llama, Mistral, and a long tail of open-source and fine-tuned...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "jisunchoi"
     },
     {
       "title": "The Visual Studio Dev/Test Benefit: Freedom to Build, Test, and Experiment in Azure",
@@ -129,6 +228,15 @@
       "author": "supriyas"
     },
     {
+      "title": "Stream Model Weights to NVIDIA GPU (vLLM) from Azure Blob Storage using the RunAI Model Streamer",
+      "link": "https://blog.aks.azure.com/2026/07/13/runai-streamer-vllm",
+      "published": "2026-07-13T00:00:00+00:00",
+      "summary": "Stream LLM Model Weights to NVIDIA GPU running vLLM directly from Azure Blob Storage on AKS using the RunAI Model Streamer to cut cold starts and speed up autoscaling.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
       "title": "Azure Front Door: Resiliency Series – Part 3: Tenant isolation",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-resiliency-series-part-3-tenant-isolation/ba-p/4535866",
       "published": "2026-07-10T22:08:29+00:00",
@@ -136,15 +244,6 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "AbhishekTiwari"
-    },
-    {
-      "title": "Beyond the Canvas: The Azure Architecture Diagram Builder Becomes Agent-Ready",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/beyond-the-canvas-the-azure-architecture-diagram-builder-becomes/ba-p/4534590",
-      "published": "2026-07-10T21:40:06+00:00",
-      "summary": "AZURE ARCHITECTURE BLOG · 8 MIN READ Author: Arturo Quiroga, Senior Partner Solutions Architect — Microsoft Two months ago I published From Prompt to Production: Building Azure Architecture Diagrams with AI, introducing the open-source Azure Architecture Diagram Builder. The response was humbling —...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "arturoqu"
     },
     {
       "title": "Welcome Back to AZ Update",
@@ -316,6 +415,15 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "amah"
+    },
+    {
+      "title": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
+      "link": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event",
+      "published": "2026-07-08T17:30:28+00:00",
+      "summary": "Join us for a free online event series kicking off July 16 to learn how to get started with the GitHub Copilot App!",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Katie Savage"
     },
     {
       "title": "Azure Monitor Observability Agent goes autonomous (preview)",
@@ -550,15 +658,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "MichaelHildebrand"
-    },
-    {
-      "title": "Azure landing zone (ALZ) enters its next chapter",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
-      "published": "2026-07-03T15:16:42+00:00",
-      "summary": "Hey all 👋 I’ve got a genuinely exciting update to share today, and it’s one that’s been a long time coming: Azure landing zone (ALZ) is now an official Microsoft product, owned by the Azure Migrate product team. A bit of history first For the past five or so years, ALZ has been built completely in...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "jtracey93msft"
     },
     {
       "title": "Enabling MLflow OpenAI Autolog on PySpark Workers",
@@ -1497,15 +1596,6 @@
       "author": "derricklee"
     },
     {
-      "title": "When your agent extensions fight each other",
-      "link": "https://devblogs.microsoft.com/blog/when-your-agent-extensions-fight-each-other",
-      "published": "2026-06-17T14:55:53+00:00",
-      "summary": "This is the fourth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
       "title": "Azure Backup for Azure Cosmos DB Public Preview Adds Immutable Backups and Long-Term Retention",
       "link": "https://devblogs.microsoft.com/cosmosdb/azure-backup-for-azure-cosmos-db-public-preview-adds-immutable-backups-and-long-term-retention/",
       "published": "2026-06-17T13:58:46+00:00",
@@ -1693,60 +1783,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "TameikaL"
-    },
-    {
-      "title": "Automating Daily MDE Compliance Monitoring Across Azure VMs",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/automating-daily-mde-compliance-monitoring-across-azure-vms/ba-p/4528274",
-      "published": "2026-06-15T11:52:45+00:00",
-      "summary": "The Problem We’re Solving Most security teams have no automated way to know when a VM silently falls out of MDE coverage, whether because the agent stopped, the VM was newly provisioned without onboarding, or the device stopped reporting. This Logic App closes that gap and puts the right...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "SayanRoy"
-    },
-    {
-      "title": "Bringing Enterprise File Data to Users with Azure NetApp Files, Microsoft Foundry, and M365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/bringing-enterprise-file-data-to-users-with-azure-netapp-files/ba-p/4528002",
-      "published": "2026-06-15T07:37:24+00:00",
-      "summary": "Table of Contents Introduction Why the user experience layer matters in enterprise AI Microsoft Foundry: Orchestrating enterprise AI agents The Copilot agent as the enterprise user experience End‑to‑end user query flow Why this pattern works for regulated and complex environments Extending Copilot...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "GeertVanTeylingen"
-    },
-    {
-      "title": "From Enterprise File Storage to an AI-Ready Data Foundation using Azure NetApp Files and OneLake",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/from-enterprise-file-storage-to-an-ai-ready-data-foundation/ba-p/4527999",
-      "published": "2026-06-15T07:37:21+00:00",
-      "summary": "Table of Contents Introduction Why the data foundation matters Expanding beyond collaboration-centric data The zero‑copy data foundation pattern Why OneLake changes the model What this enables Key takeaway Learn more Introduction Enterprise AI is advancing rapidly, but many organizations are...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "GeertVanTeylingen"
-    },
-    {
-      "title": "From File Data to AI‑Powered Knowledge Pipelines using Azure NetApp Files object REST API",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/from-file-data-to-ai-powered-knowledge-pipelines-using-azure/ba-p/4528001",
-      "published": "2026-06-15T07:37:13+00:00",
-      "summary": "Table of Contents Introduction Why a knowledge pipeline is required Retrieval‑augmented generation (RAG) at enterprise scale Knowledge pipeline architecture overview Step 1: Indexing enterprise file content without moving it Step 2: Creating semantic meaning with embeddings Step 3: Retrieval at...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "GeertVanTeylingen"
-    },
-    {
-      "title": "Agents That Test Agents: A Cloud-Native Skill-Eval Harness on Foundry Hosted Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/agents-that-test-agents-a-cloud-native-skill-eval-harness-on/ba-p/4528085",
-      "published": "2026-06-15T07:00:00+00:00",
-      "summary": "Skills are an agent's must-have. So test them. A skill is the lightest way to give an agent durable, reusable behavior: a SKILL.md file you author once, store centrally in Foundry's versioned Skills API, and inject into a Hosted Agent's context — no code change, no redeploy. That's why skills have...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "Deploy Anyscale on Azure with Terraform: a step-by-step guide",
-      "link": "https://blog.aks.azure.com/2026/06/15/get-anyscale-on-azure-up-and-running-with-terraform",
-      "published": "2026-06-15T00:00:00+00:00",
-      "summary": "Deploy Anyscale on Azure end-to-end with Terraform, AKS managed Gateway API, Istio-based app routing, and the AzAPI provider for newly released services.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
     }
   ]
 }
