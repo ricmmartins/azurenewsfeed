@@ -1,7 +1,133 @@
 {
-  "lastUpdated": "2026-07-15T13:39:44.542708+00:00",
-  "totalArticles": 198,
+  "lastUpdated": "2026-07-16T13:46:14.780148+00:00",
+  "totalArticles": 201,
   "articles": [
+    {
+      "title": "Meet the IQ's: How Microsoft is Creating Context-Aware AI",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/meet-the-iq-s-how-microsoft-is-creating-context-aware-ai/ba-p/4537516",
+      "published": "2026-07-16T12:34:49+00:00",
+      "summary": "Microsoft Architect's: Lavanya Sreedhar LavanyaSreedhar​, Tom Dinh TomDinh​, Oviya Soundararajan oviyasound​, and Rafia Aqil Rafia_Aqil​ The AI era demands more than powerful language models. It demands context a deep understanding of what enterprise data means, how it connects, and how AI systems...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "When Compute Sits and Waits: Fixing the Hidden Storage Bottleneck in EDA and HPC with Azure NetApp Files",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/when-compute-sits-and-waits-fixing-the-hidden-storage-bottleneck/ba-p/4534550",
+      "published": "2026-07-16T07:00:00+00:00",
+      "summary": "Hello Folks! If you have ever stared at an HPC pipeline and wondered why the queue depth keeps climbing while every CPU graph looks lazy, this session from the Microsoft Azure Infrastructure Summit 2026 is going to feel very familiar. Ron Hogue from the Azure Storage team and Ranga Sankar from...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "How Microsoft 365 built a platform engineering layer on AKS to ship faster at global scale",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-microsoft-365-built-a-platform-engineering-layer-on-aks-to/ba-p/4537523",
+      "published": "2026-07-16T05:00:13+00:00",
+      "summary": "Challenge: Scaling success without increasing complexity Microsoft 365 runs a broad portfolio of services across global and sovereign clouds. At that scale, the platform has to do more than schedule workloads. It has to enforce security boundaries, meet enterprise compliance requirements, and...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Suma SaganeGowda"
+    },
+    {
+      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
+      "published": "2026-07-16T02:36:35+00:00",
+      "summary": "Author's: Aladdin Alchalabi aalchalabi​, Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Answers You Can Trust: Grounding Enterprise Agents with Foundry IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/answers-you-can-trust-grounding-enterprise-agents-with-foundry/ba-p/4536594",
+      "published": "2026-07-15T20:00:00+00:00",
+      "summary": "Enterprise AI has a trust problem, and it is not about fluency. A model will answer almost any question with confidence, whether or not it actually knows. The moment a legal or support team catches it inventing a policy that does not exist, they stop trusting it for anything that matters. What...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Paulo_Lacerda"
+    },
+    {
+      "title": "From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-policy-to-proof-governing-ai-to-scale-human-ambition-and/ba-p/4535137",
+      "published": "2026-07-15T19:51:51+00:00",
+      "summary": "Enterprises are moving from AI experiments to AI in production. Copilots are in the flow of daily work, custom applications are built on foundation models, and autonomous agents are beginning to take actions on behalf of the business. As organizations combine human ambition with machine...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "manasa_ramalinga"
+    },
+    {
+      "title": "Implementing Multi‑Agent Orchestration in Microsoft Copilot Studio",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/implementing-multi-agent-orchestration-in-microsoft-copilot/ba-p/4494717",
+      "published": "2026-07-15T18:35:54+00:00",
+      "summary": "As organizations move beyond simple Q&A copilots, a common challenge quickly emerges: single agents struggle to handle multi-step, cross-domain scenarios. In our work with customers using Microsoft Copilot Studio, this shows up when copilots are expected to combine reasoning, real-time data, and...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "LeoMa"
+    },
+    {
+      "title": "MSSQL Extension for VS Code: Shortcuts Configuration, Enhanced Results Grid Experience, and More",
+      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-july2026/",
+      "published": "2026-07-15T17:42:31+00:00",
+      "summary": "The MSSQL extension for VS Code v1.44 continues to improve the SQL development experience with features that help you work faster and customize your workflow. In this release, we’re introducing the Public Preview of Shortcuts Configuration and an Enhanced Results Grid experience. Together, these...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Yo-Lei Chen"
+    },
+    {
+      "title": "Give your AI agent two memories with Azure App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-ai-agent-two-memories-with-azure-app-service/ba-p/4537400",
+      "published": "2026-07-15T17:23:43+00:00",
+      "summary": "Agents feel continuous only when they can operate across two very different time horizons. They need the recent turns that make the current conversation coherent, and they need a smaller set of durable facts that can follow an authenticated user into a new conversation. This sample implements both...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
+      "title": "Announcing the ASIM Parser Creation Agentic Experience",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/announcing-the-asim-parser-creation-agentic-experience/ba-p/4532266",
+      "published": "2026-07-15T16:00:00+00:00",
+      "summary": "Creating high-quality ASIM parsers has always required deep knowledge about source data and ASIM schemas, careful KQL design, and repeated validation cycles. That process is meaningful to understand the whole Sentinel ecosystem, but it can be slow when you are starting from raw source data and...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "derricklee"
+    },
+    {
+      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
+      "published": "2026-07-15T15:54:55+00:00",
+      "summary": "Microsoft's Cloud Architects: Paul Singh PaulSingh​, Aladdin Alchalabi aalchalabi​, Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​, Peter Lo PeterLo​, Tim Orentlikher tim_orentlikher​, Ajmal Hossain ajmalhossain​, Chris Haynes Chris_Haynes​, and Rafia Aqil Rafia_Aqil​ Start Here: Engage...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Public Preview: Advanced platform metrics in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-advanced-platform-metrics-in-azure-monitor/ba-p/4536983",
+      "published": "2026-07-15T14:43:18+00:00",
+      "summary": "We are excited to announce the Public Preview of advanced platform metrics for Azure Monitor, delivering more granular telemetry to help customers monitor and optimize their workloads more effectively. This new capability builds on Azure Monitor platform metrics, which continue to provide broad...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "alyssaschimm"
+    },
+    {
+      "title": "Pick, manage, and get the most from your models",
+      "link": "https://devblogs.microsoft.com/visualstudio/pick-manage-and-get-the-most-from-your-models/",
+      "published": "2026-07-15T14:28:43+00:00",
+      "summary": "You open the model picker, scroll past a dozen options, and pause. How are these models different? Which one should you actually use? And once you’re a few hundred messages deep, how much capacity is even left before things start dropping off? We’ve all been there. These are the kinds of questions...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Rachel Kang (SHE/HER)"
+    },
+    {
+      "title": "Customer Offerings: Solution Optimization for GitHub Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/customer-offerings-solution-optimization-for-github-copilot/ba-p/4536886",
+      "published": "2026-07-15T13:41:27+00:00",
+      "summary": "Introduction As Microsoft Cloud Solution Architects, we are increasingly asked by engineering leaders, platform teams, finance stakeholders, and GitHub administrators how they can scale GitHub Copilot while keeping usage visible and costs predictable. The question is no longer simply how many...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "wernerrall"
+    },
     {
       "title": "Load testing Copilot Studio agents with Locust and Azure Load Testing",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/load-testing-copilot-studio-agents-with-locust-and-azure-load/ba-p/4535445",
@@ -10,6 +136,15 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Krishna-Roy"
+    },
+    {
+      "title": "Beyond text: Returning images and interactive apps from MCP servers",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-text-returning-images-and-interactive-apps-from-mcp/ba-p/4535865",
+      "published": "2026-07-15T08:33:51+00:00",
+      "summary": "The Model Context Protocol (MCP) is becoming a richer foundation for agent experiences. Though most servers return plain text from their tool calls, MCP servers can also return binary results and provide interactive apps in clients that support those features, like VS Code. In this post, I'll use...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox"
     },
     {
       "title": "Modernize VDI with Azure Files and Entra Cloud-Native Identities",
@@ -199,24 +334,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "ellisd4"
-    },
-    {
-      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
-      "published": "2026-07-13T02:35:23+00:00",
-      "summary": "Microsoft's Cloud Architects: Paul Singh PaulSingh​, Aladdin Alchalabi aalchalabi​, Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​, Peter Lo PeterLo​, Tim Orentlikher tim_orentlikher​, Ajmal Hossain ajmalhossain​, Chris Haynes Chris_Haynes​, and Rafia Aqil Rafia_Aqil​ Start Here: Engage...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
-      "published": "2026-07-13T02:32:29+00:00",
-      "summary": "Author's: Aladdin Alchalabi aalchalabi​, Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "The AI Agent Lifecycle: A Simple Guide",
@@ -1416,15 +1533,6 @@
       "author": "rayankhoury"
     },
     {
-      "title": "How to Score a User Simulator: Introducing USR-8",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-score-a-user-simulator-introducing-usr-8/ba-p/4523642",
-      "published": "2026-06-19T13:00:00+00:00",
-      "summary": "Authors: José Santos, Shuo Qiu, Morteza Ziyadi User simulators have become a standard part of the agent-building toolkit: cheaper than real-user pilots, faster than scripted dialogues, and the only way to push an agent through hundreds of plausible conversations between every code change. The hard...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "jcasantos"
-    },
-    {
       "title": "Migrating from MSEE Hairpin Routing to AVNM Mesh for Large-Scale VNet-to-VNet Connectivity",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/migrating-from-msee-hairpin-routing-to-avnm-mesh-for-large-scale/ba-p/4529320",
       "published": "2026-06-19T07:55:59+00:00",
@@ -1614,15 +1722,6 @@
       "author": "AvanishYadav"
     },
     {
-      "title": "Build an Automated SLA Risk Agent with Routines in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-an-automated-sla-risk-agent-with-routines-in-microsoft/ba-p/4528103",
-      "published": "2026-06-17T12:00:00+00:00",
-      "summary": "What if your support team could start every morning with an AI-generated summary of tickets most likely to breach SLA? This tutorial shows you how to build exactly that: a grounded agent in Microsoft Foundry that automatically analyzes your ticket data and surfaces risks. Using Routines in...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "LauraVerghote"
-    },
-    {
       "title": "Security Copilot RBAC for Embedded Experience in Unified Security Platform",
       "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/security-copilot-rbac-for-embedded-experience-in-unified/ba-p/4528833",
       "published": "2026-06-17T11:10:30+00:00",
@@ -1711,78 +1810,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "Mohit_Kumar1"
-    },
-    {
-      "title": "The Case for an Ontology Layer in Telecoms",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/the-case-for-an-ontology-layer-in-telecoms/ba-p/4527091",
-      "published": "2026-06-16T12:41:49+00:00",
-      "summary": "The Challenge: Data Without Context in the Telco AI Era GenAI and analytics tools and solutions pull data from applications and from downstream and external data sources. However, when data is decontextualized from the applications where it was created, it often loses the business meaning,...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "Alberto_Manuel"
-    },
-    {
-      "title": "Announcing General Availability of the Azure Cosmos DB Built-in Connector for Logic Apps Standard",
-      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-general-availability-of-the-azure-cosmos-db-built-in-connector-for-logic-apps-standard/",
-      "published": "2026-06-16T11:33:42+00:00",
-      "summary": "Today, we’re excited to announce the general availability of the Azure Cosmos DB built-in connector for Azure Logic Apps Standard. This connector gives you a native, high-performance way to integrate Azure Cosmos DB into your Standard logic app workflows, with better throughput, lower latency, and...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay"
-    },
-    {
-      "title": "Network security perimeter for Azure Service Bus & also now available in Azure Gov. Regions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/network-security-perimeter-for-azure-service-bus-also-now/ba-p/4526413",
-      "published": "2026-06-16T10:56:27+00:00",
-      "summary": "TL; DR Network security perimeter support for Azure Service Bus is now Generally Available. With this, you can now place your Service Bus namespace inside a central security boundary and apply perimeter-based governance for inbound/outbound network access—while keeping key PaaS-to-PaaS scenarios...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "shashankamalladi"
-    },
-    {
-      "title": "Azure Function App — Queue-Based Architecture for Long-Running Sync Jobs",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/azure-function-app-queue-based-architecture-for-long-running/ba-p/4524474",
-      "published": "2026-06-16T07:00:00+00:00",
-      "summary": "The Problem: HTTP Triggers and Long-Running Jobs Don't Mix Here's a situation you've probably run into: you have a job that needs to loop over dozens of Azure resources, call APIs, and do real work. You wrap it in an HTTP-triggered Azure Function so it can be called on demand. It works great and...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Jamesdld23"
-    },
-    {
-      "title": "Inside the Observability Agent: How Deep Investigations and Reasoning Work",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/inside-the-observability-agent-how-deep-investigations-and/ba-p/4527102",
-      "published": "2026-06-15T15:57:54+00:00",
-      "summary": "Incidents are rarely explained by one chart. A spike in request failures might be caused by a dependency timeout. A dependency timeout might come from a connection pool issue. And that connection pool issue might trace back to a deployment or a resource health event that started minutes earlier....",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "yalavi"
-    },
-    {
-      "title": "ArchAngel: Skilling the next developer generation for the Agentic transformation.",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836",
-      "published": "2026-06-15T15:24:42+00:00",
-      "summary": "AI is transforming the SDLC at speed but there's a quieter question following close behind. If the code is being written for your junior developers, when do they learn the skills to become senior ones and how can they use these tools without losing understanding of what they've made? Most tools try...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "RohitMadhavKrishnan"
-    },
-    {
-      "title": "Make Visual Studio look the way you want",
-      "link": "https://devblogs.microsoft.com/visualstudio/make-visual-studio-look-the-way-you-want/",
-      "published": "2026-06-15T14:00:40+00:00",
-      "summary": "Themes are personal. Some of us live in dark mode, some swear by high contrast, and some of us have very strong opinions about that one shade of blue from years ago. The new themes in Visual Studio 2026 are built on Fluent, which gives us a much more consistent and accessible foundation, but we […]...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mads Kristensen"
-    },
-    {
-      "title": "TLS Certificate Pinning and Best Practices in Azure Open-Source Relational Databases",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/tls-certificate-pinning-and-best-practices-in-azure-open-source/ba-p/4519531",
-      "published": "2026-06-15T13:42:38+00:00",
-      "summary": "TLS certificate pinning in Azure Database for PostgreSQL and MySQL Transport Layer Security (TLS) encrypts data in transit between client applications and the server and authenticates the service endpoint in client-server authentication. Azure Database server certificates are issued by well-known...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "TameikaL"
     }
   ]
 }
