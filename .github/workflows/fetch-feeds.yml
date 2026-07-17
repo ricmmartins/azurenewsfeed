@@ -29,9 +29,14 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python scripts/fetch_feeds.py
 
+      - name: Generate teleprompter script
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python scripts/generate_teleprompter.py
+
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/feeds.json data/feed.xml
+          git add data/feeds.json data/feed.xml data/teleprompter/
           git diff --staged --quiet || (git commit -m "📰 Update Azure blog feeds - $(date -u '+%Y-%m-%d %H:%M UTC')" && git push)
