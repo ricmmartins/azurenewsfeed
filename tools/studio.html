@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure News - Studio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: #1a1a2e;
+            color: #e0e0e0;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* === TOP: Presentation area (captured by OBS) === */
+        #presentation {
+            height: 60vh;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            border-bottom: 3px solid #e94560;
+        }
+
+        #presentation #header {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 12px 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid rgba(233, 69, 96, 0.4);
+        }
+
+        #header .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        #header .brand h1 {
+            font-size: 20px;
+            font-weight: 700;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        #header .date {
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        #header .counter {
+            font-size: 13px;
+            color: #666;
+        }
+
+        #slide-area {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 40px;
+        }
+
+        /* Article Card */
+        .article-card {
+            background: #ffffff;
+            border-radius: 14px;
+            padding: 32px 40px;
+            max-width: 680px;
+            width: 100%;
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
+            color: #333;
+            animation: cardIn 0.35s ease;
+        }
+
+        @keyframes cardIn {
+            from { opacity: 0; transform: translateY(12px) scale(0.97); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
+        .article-card .card-blog {
+            display: inline-block;
+            background: #e8f4fd;
+            color: #1a73e8;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+
+        .article-card .card-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1a1a1a;
+            line-height: 1.3;
+            margin-bottom: 10px;
+        }
+
+        .article-card .card-meta {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 12px;
+        }
+
+        .article-card .card-summary {
+            font-size: 15px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 14px;
+        }
+
+        .article-card .card-link {
+            font-size: 12px;
+            color: #1a73e8;
+            word-break: break-all;
+            padding: 8px 12px;
+            background: #f0f7ff;
+            border-radius: 6px;
+        }
+
+        /* Special slides */
+        .special-slide {
+            text-align: center;
+            animation: cardIn 0.35s ease;
+        }
+
+        .special-slide .big-title {
+            font-size: 36px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 12px;
+        }
+
+        .special-slide .sub-text {
+            font-size: 20px;
+            color: #aaa;
+        }
+
+        .special-slide .category-pill {
+            display: inline-block;
+            background: rgba(233, 69, 96, 0.2);
+            border: 1px solid #e94560;
+            border-radius: 20px;
+            padding: 6px 20px;
+            font-size: 13px;
+            color: #e94560;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 16px;
+        }
+
+        /* Progress bar */
+        #progress-bar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            transition: width 0.3s ease;
+        }
+
+        /* === BOTTOM: Teleprompter area (NOT captured) === */
+        #teleprompter-area {
+            height: 40vh;
+            background: #0a0a14;
+            overflow-y: auto;
+            padding: 20px 40px;
+            position: relative;
+        }
+
+        #teleprompter-area::before {
+            content: 'TELEPROMPTER — só você vê isso';
+            position: sticky;
+            top: 0;
+            display: block;
+            background: #0a0a14;
+            padding: 6px 0 10px;
+            font-size: 11px;
+            color: #444;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 1px solid #222;
+            margin-bottom: 12px;
+            z-index: 10;
+        }
+
+        #teleprompter-text {
+            font-size: 22px;
+            line-height: 1.7;
+            color: #ccc;
+        }
+
+        #teleprompter-text .section-title {
+            color: #e94560;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 20px 0 8px;
+            border-left: 3px solid #e94560;
+            padding-left: 10px;
+        }
+
+        #teleprompter-text .pause {
+            color: #f39c12;
+            font-size: 12px;
+            text-align: center;
+            margin: 12px 0;
+            letter-spacing: 3px;
+        }
+
+        #teleprompter-text .emphasis {
+            color: #fff;
+            font-weight: 700;
+        }
+
+        #teleprompter-text .current-block {
+            background: rgba(233, 69, 96, 0.08);
+            border-left: 3px solid #e94560;
+            padding: 8px 12px;
+            margin: 8px 0;
+            border-radius: 4px;
+        }
+
+        /* === SETUP SCREEN === */
+        #setup {
+            position: fixed;
+            inset: 0;
+            background: #1a1a2e;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            z-index: 9999;
+            padding: 40px;
+        }
+
+        #setup.hidden { display: none; }
+        #setup h1 { color: #e94560; font-size: 28px; }
+        #setup p { color: #aaa; max-width: 550px; text-align: center; line-height: 1.6; }
+
+        .setup-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .setup-row label { color: #aaa; font-size: 13px; }
+
+        .setup-row select, .setup-row input {
+            padding: 10px;
+            background: #0a0a1a;
+            color: #e0e0e0;
+            border: 1px solid #333;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .setup-row input { width: 320px; }
+
+        #start-btn {
+            padding: 14px 36px;
+            background: #e94560;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        #start-btn:hover { background: #ff6b6b; }
+        #setup-status { font-size: 13px; color: #666; }
+
+        /* Control bar between presentation and teleprompter */
+        #controls-bar {
+            background: #111;
+            padding: 8px 24px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            border-bottom: 1px solid #222;
+            flex-shrink: 0;
+        }
+
+        #controls-bar button {
+            padding: 6px 14px;
+            border: none;
+            border-radius: 5px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        #controls-bar .btn-play { background: #e94560; color: white; }
+        #controls-bar .btn-play:hover { background: #ff6b6b; }
+        #controls-bar .btn-nav { background: #222; color: #ccc; }
+        #controls-bar .btn-nav:hover { background: #333; }
+
+        #controls-bar .control-group {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            color: #888;
+        }
+
+        #controls-bar input[type="range"] {
+            width: 80px;
+            accent-color: #e94560;
+        }
+
+        #controls-bar .speed-val {
+            color: #e94560;
+            font-weight: 600;
+            min-width: 30px;
+        }
+
+        #controls-bar .separator {
+            width: 1px;
+            height: 20px;
+            background: #333;
+        }
+
+        #controls-bar .shortcut-hint {
+            font-size: 11px;
+            color: #444;
+            margin-left: auto;
+        }
+
+        #controls-bar .shortcut-hint kbd {
+            background: #222;
+            padding: 1px 5px;
+            border-radius: 3px;
+            color: #888;
+        }
+
+        /* Keyboard hints */
+        #hints {
+            position: fixed;
+            bottom: 8px;
+            right: 16px;
+            font-size: 10px;
+            color: #333;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+
+<!-- SETUP -->
+<div id="setup">
+    <h1>🎬 Azure News Studio</h1>
+    <p>Tudo-em-um: apresentação (capturada pelo OBS) + teleprompter (só pra você) na mesma tela.</p>
+    <p style="font-size:12px; color:#666;">No OBS: Window Capture → Crop para mostrar apenas os 60% de cima.</p>
+
+    <div class="setup-row">
+        <label>GitHub Token:</label>
+        <input type="password" id="gh-token" placeholder="ghp_... (traduz títulos + gera roteiro)">
+    </div>
+    <div class="setup-row">
+        <label>Período:</label>
+        <select id="days-select">
+            <option value="1">Últimas 24h</option>
+            <option value="2">Últimos 2 dias</option>
+            <option value="3">Últimos 3 dias</option>
+            <option value="7">Última semana</option>
+        </select>
+    </div>
+
+    <button id="start-btn" onclick="start()">🎬 Gerar e Iniciar</button>
+    <div id="setup-status"></div>
+</div>
+
+<!-- TOP: Presentation (OBS captures this) -->
+<div id="presentation">
+    <div id="header">
+        <div class="brand">
+            <span style="font-size:22px;">☁️</span>
+            <h1>Azure News Diário</h1>
+        </div>
+        <div class="date" id="date-display"></div>
+        <div class="counter" id="counter"></div>
+    </div>
+    <div id="slide-area"></div>
+    <div id="progress-bar"></div>
+</div>
+
+<!-- BOTTOM: Controls + Teleprompter (only you see this) -->
+<div id="controls-bar">
+    <button class="btn-play" id="play-btn" onclick="toggleAutoScroll()">▶ Play</button>
+    <div class="separator"></div>
+    <button class="btn-nav" onclick="showSlide(currentSlide - 1)">◀ Anterior</button>
+    <button class="btn-nav" onclick="showSlide(currentSlide + 1)">Próximo ▶</button>
+    <div class="separator"></div>
+    <div class="control-group">
+        <label>Velocidade:</label>
+        <input type="range" id="speed-slider" min="0.5" max="4" step="0.5" value="1.5">
+        <span class="speed-val" id="speed-val">1.5x</span>
+    </div>
+    <div class="separator"></div>
+    <div class="control-group">
+        <label>Fonte:</label>
+        <input type="range" id="font-slider" min="16" max="36" step="2" value="22">
+    </div>
+    <span class="shortcut-hint">
+        <kbd>Space</kbd> Play/Pause <kbd>→</kbd><kbd>←</kbd> Slides <kbd>↑</kbd><kbd>↓</kbd> Velocidade
+    </span>
+</div>
+
+<div id="teleprompter-area">
+    <div id="teleprompter-text"></div>
+</div>
+
+<div id="hints" style="display:none;"></div>
+
+<script>
+const FEED_URL = 'https://azurefeed.news/data/feeds.json';
+let slides = [];
+let currentSlide = 0;
+let teleprompterBlocks = [];
+let scrolling = false;
+let scrollSpeed = 1.5;
+let scrollAnimId = null;
+
+// Load saved token
+document.getElementById('gh-token').value = localStorage.getItem('studio_github_token') || '';
+
+// Auto-scroll controls
+function toggleAutoScroll() {
+    scrolling = !scrolling;
+    document.getElementById('play-btn').textContent = scrolling ? '⏸ Pause' : '▶ Play';
+    if (scrolling) startAutoScroll();
+    else stopAutoScroll();
+}
+
+function startAutoScroll() {
+    const teleEl = document.getElementById('teleprompter-area');
+    const scroll = () => {
+        if (!scrolling) return;
+        teleEl.scrollTop += scrollSpeed;
+        scrollAnimId = requestAnimationFrame(scroll);
+    };
+    scrollAnimId = requestAnimationFrame(scroll);
+}
+
+function stopAutoScroll() {
+    if (scrollAnimId) cancelAnimationFrame(scrollAnimId);
+}
+
+// Speed slider
+document.getElementById('speed-slider').addEventListener('input', (e) => {
+    scrollSpeed = parseFloat(e.target.value);
+    document.getElementById('speed-val').textContent = scrollSpeed + 'x';
+});
+
+// Font slider
+document.getElementById('font-slider').addEventListener('input', (e) => {
+    document.getElementById('teleprompter-text').style.fontSize = e.target.value + 'px';
+});
+
+async function start() {
+    const statusEl = document.getElementById('setup-status');
+    statusEl.textContent = '⏳ Carregando artigos...';
+
+    const token = document.getElementById('gh-token').value.trim();
+    if (token) localStorage.setItem('studio_github_token', token);
+
+    const daysBack = parseInt(document.getElementById('days-select').value);
+
+    try {
+        const resp = await fetch(FEED_URL);
+        if (!resp.ok) throw new Error(`Erro: ${resp.status}`);
+        const data = await resp.json();
+
+        const cutoff = new Date(Date.now() - daysBack * 86400000).toISOString();
+        let articles = (data.articles || []).filter(a => (a.published || '') >= cutoff);
+
+        if (!articles.length) {
+            statusEl.textContent = '⚠️ Nenhum artigo. Aumente o período.';
+            return;
+        }
+
+        // Translate titles if token available
+        if (token) {
+            statusEl.textContent = '🌐 Traduzindo títulos...';
+            const translations = await translateTitles(articles, token);
+            if (translations) {
+                translations.forEach((t, i) => { if (articles[i]) articles[i].titlePT = t; });
+            }
+        }
+
+        // Generate teleprompter script
+        if (token) {
+            statusEl.textContent = '🤖 Gerando roteiro em PT-BR...';
+            const script = await generateScript(articles, token);
+            if (script) buildTeleprompter(script);
+            else buildBasicTeleprompter(articles);
+        } else {
+            buildBasicTeleprompter(articles);
+        }
+
+        buildSlides(articles);
+        document.getElementById('setup').classList.add('hidden');
+        document.getElementById('date-display').textContent =
+            new Date().toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' });
+        showSlide(0);
+
+    } catch (err) {
+        statusEl.textContent = `❌ ${err.message}`;
+    }
+}
+
+async function translateTitles(articles, token) {
+    const titles = articles.map(a => a.title).slice(0, 40);
+    try {
+        const resp = await fetch('https://models.inference.ai.azure.com/chat/completions', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
+            body: JSON.stringify({
+                model: 'gpt-4o-mini',
+                messages: [{ role: 'user', content: `Traduza para PT-BR, mantendo termos técnicos. Retorne só JSON array:\n${JSON.stringify(titles)}` }],
+                max_tokens: 2000, temperature: 0.2
+            })
+        });
+        if (!resp.ok) return null;
+        const r = await resp.json();
+        const match = r.choices[0].message.content.match(/\[[\s\S]*\]/);
+        return match ? JSON.parse(match[0]) : null;
+    } catch (e) { return null; }
+}
+
+async function generateScript(articles, token) {
+    const grouped = {};
+    articles.forEach(a => { const c = a.blog || 'Geral'; if (!grouped[c]) grouped[c] = []; grouped[c].push(a); });
+
+    let articlesText = '';
+    for (const [blog, items] of Object.entries(grouped)) {
+        articlesText += `\n## ${blog}\n`;
+        items.slice(0, 4).forEach(item => {
+            articlesText += `- ${item.title}: ${(item.summary || '').slice(0, 150)}\n`;
+        });
+    }
+
+    const today = new Date().toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' });
+    const prompt = `Você apresenta um canal de YouTube sobre Azure. Gere roteiro em PT-BR para vídeo diário.
+
+Data: ${today} | ${articles.length} artigos
+
+${articlesText}
+
+REGRAS:
+- Frases curtas (max 12 palavras) para teleprompter
+- Marque [PAUSA] entre blocos
+- Marque [BLOCO: NomeCategoria] antes de cada grupo
+- Abertura breve cumprimentando
+- Encerramento pedindo like/inscrição
+- Para cada artigo: explique O QUE é e POR QUE importa (2-3 frases)
+- Duração: 5-7 min (~800 palavras)
+
+Gere:`;
+
+    try {
+        const resp = await fetch('https://models.inference.ai.azure.com/chat/completions', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
+            body: JSON.stringify({
+                model: 'gpt-4o',
+                messages: [{ role: 'user', content: prompt }],
+                max_tokens: 2500, temperature: 0.7
+            })
+        });
+        if (!resp.ok) return null;
+        const r = await resp.json();
+        return r.choices[0].message.content.trim();
+    } catch (e) { return null; }
+}
+
+function buildTeleprompter(script) {
+    const el = document.getElementById('teleprompter-text');
+    let html = '';
+    for (const line of script.split('\n')) {
+        const t = line.trim();
+        if (t.match(/^\[(ABERTURA|ENCERRAMENTO)\]$/)) {
+            html += `<div class="section-title">${t.replace(/[\[\]]/g, '')}</div>`;
+        } else if (t.match(/^\[BLOCO:\s*(.+)\]$/)) {
+            const name = t.match(/^\[BLOCO:\s*(.+)\]$/)[1];
+            html += `<div class="section-title">📌 ${name}</div>`;
+        } else if (t === '[PAUSA]') {
+            html += `<div class="pause">· · · PAUSA · · ·</div>`;
+        } else if (t) {
+            const processed = t.replace(/\*\*(.+?)\*\*/g, '<span class="emphasis">$1</span>');
+            html += `<div>${processed}</div>`;
+        }
+    }
+    el.innerHTML = html;
+}
+
+function buildBasicTeleprompter(articles) {
+    const el = document.getElementById('teleprompter-text');
+    const today = new Date().toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' });
+    const grouped = {};
+    articles.forEach(a => { const c = a.blog || 'Geral'; if (!grouped[c]) grouped[c] = []; grouped[c].push(a); });
+
+    let html = `<div class="section-title">ABERTURA</div>`;
+    html += `<div>E aí pessoal, tudo bem?</div>`;
+    html += `<div class="pause">· · · PAUSA · · ·</div>`;
+    html += `<div>Bem-vindos ao <span class="emphasis">Azure News Diário</span>.</div>`;
+    html += `<div>Hoje, ${today}, temos <span class="emphasis">${articles.length} atualizações</span>.</div>`;
+    html += `<div>Vamos lá.</div>`;
+    html += `<div class="pause">· · · PAUSA · · ·</div>`;
+
+    for (const [blog, items] of Object.entries(grouped)) {
+        html += `<div class="section-title">📌 ${blog}</div>`;
+        items.slice(0, 4).forEach(item => {
+            html += `<div>Novidade: <span class="emphasis">${item.titlePT || item.title}</span>.</div>`;
+            html += `<div>Publicado por ${item.author || 'Microsoft'}.</div>`;
+            html += `<div class="pause">· · ·</div>`;
+        });
+    }
+
+    html += `<div class="section-title">ENCERRAMENTO</div>`;
+    html += `<div>Essas foram as novidades de hoje.</div>`;
+    html += `<div>Links na descrição.</div>`;
+    html += `<div class="pause">· · · PAUSA · · ·</div>`;
+    html += `<div>Deixa o <span class="emphasis">like</span> e se inscreve.</div>`;
+    html += `<div>Até amanhã, valeu!</div>`;
+
+    el.innerHTML = html;
+}
+
+function buildSlides(articles) {
+    slides = [];
+    const grouped = {};
+    articles.forEach(a => { const c = a.blog || 'Geral'; if (!grouped[c]) grouped[c] = []; grouped[c].push(a); });
+
+    slides.push({ type: 'intro', category: 'ABERTURA', title: 'Azure News Diário', summary: `${articles.length} atualizações` });
+
+    for (const [blog, items] of Object.entries(grouped)) {
+        items.slice(0, 4).forEach(item => {
+            slides.push({
+                type: 'article',
+                category: blog,
+                title: item.titlePT || item.title,
+                titleOriginal: item.title,
+                summary: (item.summary || '').slice(0, 200),
+                author: item.author || 'Microsoft',
+                link: item.link || '',
+                date: item.published ? new Date(item.published).toLocaleDateString('pt-BR', { day: 'numeric', month: 'short', year: 'numeric' }) : ''
+            });
+        });
+    }
+
+    slides.push({ type: 'outro', category: 'ENCERRAMENTO', title: 'Isso é tudo por hoje!', summary: 'Like 👍 · Inscreva-se 🔔 · Até amanhã!' });
+}
+
+function showSlide(index) {
+    if (index < 0 || index >= slides.length) return;
+    currentSlide = index;
+    const slide = slides[index];
+    const area = document.getElementById('slide-area');
+    const counter = document.getElementById('counter');
+    const progress = document.getElementById('progress-bar');
+
+    counter.textContent = `${index + 1} / ${slides.length}`;
+    progress.style.width = `${((index + 1) / slides.length) * 100}%`;
+
+    if (slide.type === 'article') {
+        area.innerHTML = `
+            <div class="article-card">
+                <div class="card-blog">${slide.category}</div>
+                <div class="card-title">${slide.title}</div>
+                <div class="card-meta">
+                    <span>✍️ ${slide.author}</span>
+                    <span>📅 ${slide.date}</span>
+                </div>
+                <div class="card-summary">${slide.summary}</div>
+                ${slide.link ? `<div class="card-link">🔗 ${slide.link}</div>` : ''}
+            </div>`;
+    } else {
+        area.innerHTML = `
+            <div class="special-slide">
+                <div class="category-pill">${slide.category}</div>
+                <div class="big-title">${slide.title}</div>
+                <div class="sub-text">${slide.summary || ''}</div>
+            </div>`;
+    }
+
+    // Scroll teleprompter to matching section
+    scrollTeleprompterToSlide(index);
+}
+
+function scrollTeleprompterToSlide(index) {
+    const teleEl = document.getElementById('teleprompter-area');
+    const sections = teleEl.querySelectorAll('.section-title');
+    // Rough mapping: scroll proportionally
+    const ratio = index / Math.max(slides.length - 1, 1);
+    const scrollTarget = ratio * (teleEl.scrollHeight - teleEl.clientHeight);
+    teleEl.scrollTo({ top: scrollTarget, behavior: 'smooth' });
+}
+
+// Keyboard controls
+document.addEventListener('keydown', (e) => {
+    if (!document.getElementById('setup').classList.contains('hidden')) return;
+    switch (e.key) {
+        case ' ':
+            e.preventDefault();
+            toggleAutoScroll();
+            break;
+        case 'ArrowRight':
+            e.preventDefault();
+            showSlide(currentSlide + 1);
+            break;
+        case 'ArrowLeft':
+            e.preventDefault();
+            showSlide(currentSlide - 1);
+            break;
+        case 'ArrowUp':
+            e.preventDefault();
+            scrollSpeed = Math.min(4, scrollSpeed + 0.5);
+            document.getElementById('speed-slider').value = scrollSpeed;
+            document.getElementById('speed-val').textContent = scrollSpeed + 'x';
+            break;
+        case 'ArrowDown':
+            e.preventDefault();
+            scrollSpeed = Math.max(0.5, scrollSpeed - 0.5);
+            document.getElementById('speed-slider').value = scrollSpeed;
+            document.getElementById('speed-val').textContent = scrollSpeed + 'x';
+            break;
+        case 'f':
+        case 'F':
+            document.documentElement.requestFullscreen();
+            break;
+        case 'Home':
+            showSlide(0);
+            break;
+        case 'End':
+            showSlide(slides.length - 1);
+            break;
+    }
+});
+</script>
+</body>
+</html>

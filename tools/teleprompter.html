@@ -471,24 +471,29 @@ function generateBasicScript(articles, grouped) {
     lines.push('[PAUSA]');
     lines.push('');
 
+    let blockNum = 1;
     for (const [blog, items] of Object.entries(grouped)) {
         lines.push(`[BLOCO: ${blog}]`);
         lines.push('');
-        items.slice(0, 5).forEach(item => {
-            lines.push(`A primeira novidade é sobre **${item.title}**.`);
-            if (item.summary) {
-                const summary = item.summary.slice(0, 150);
-                lines.push(summary);
-            }
+        lines.push(`Vamos falar agora sobre novidades de **${blog}**.`);
+        lines.push('[PAUSA]');
+        lines.push('');
+        items.slice(0, 4).forEach((item, i) => {
+            lines.push(`Novidade ${i + 1}:`);
+            lines.push(`O artigo se chama **"${item.title}"**.`);
+            lines.push(`Publicado por ${item.author || 'Microsoft'}.`);
+            lines.push(`Vou deixar o link na descrição do vídeo.`);
             lines.push('[PAUSA]');
             lines.push('');
         });
+        blockNum++;
     }
 
     lines.push('[ENCERRAMENTO]');
     lines.push('');
     lines.push('E essas foram as novidades de hoje.');
     lines.push('[PAUSA]');
+    lines.push('Todos os links estão na descrição.');
     lines.push('Se esse conteúdo te ajudou,');
     lines.push('deixa o **like** e se inscreve no canal.');
     lines.push('[PAUSA]');

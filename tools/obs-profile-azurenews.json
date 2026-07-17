@@ -1,0 +1,111 @@
+{
+    "current_scene": "Azure News Teleprompter",
+    "scene_order": [
+        {"name": "Azure News Teleprompter"}
+    ],
+    "sources": [
+        {
+            "id": "window_capture",
+            "name": "Apresentação (tela principal)",
+            "settings": {
+                "window": "Azure News - Apresentação",
+                "capture_method": "auto",
+                "priority": 1
+            },
+            "position": { "x": 0, "y": 0 },
+            "size": { "width": 1920, "height": 1080 },
+            "notes": "Captura da janela presentation.html em fullscreen. Ocupa a tela toda."
+        },
+        {
+            "id": "dshow_input",
+            "name": "OBSBOT Tiny 2 (webcam canto)",
+            "settings": {
+                "video_device_id": "OBSBOT Tiny 2 StreamCamera",
+                "resolution": "1920x1080",
+                "fps": 30,
+                "video_format": 0,
+                "color_space": "709",
+                "color_range": "full",
+                "buffering": false
+            },
+            "position": { "x": 1520, "y": 700 },
+            "size": { "width": 380, "height": 214 },
+            "notes": "Webcam redimensionada no canto inferior direito (380x214px). Arredonde os cantos no OBS com filtro 'Rounded Rect'."
+        },
+        {
+            "id": "wasapi_input_capture",
+            "name": "Jabra Evolve2 65 Mic",
+            "settings": {
+                "device_id": "Headset (Jabra Evolve2 65 Hands-Free)",
+                "use_device_timing": true
+            },
+            "volume": 1.0,
+            "muted": false
+        }
+    ],
+    "scene_collection": {
+        "name": "Azure News Recording"
+    },
+    "profiles": [
+        {
+            "name": "Azure News 1080p",
+            "output": {
+                "mode": "Simple",
+                "simple_output": {
+                    "recording_path": "C:\\Users\\ricardomac\\Videos\\AzureNews",
+                    "recording_format": "mp4",
+                    "recording_quality": "High Quality, Medium File Size",
+                    "recording_encoder": "x264",
+                    "video_bitrate": 6000,
+                    "audio_bitrate": 192
+                }
+            },
+            "video": {
+                "base_resolution": "1920x1080",
+                "output_resolution": "1920x1080",
+                "fps_type": "Common FPS Values",
+                "fps": 30
+            },
+            "audio": {
+                "sample_rate": 48000,
+                "channels": "Stereo",
+                "desktop_audio_device": "disabled",
+                "desktop_audio_device_2": "disabled",
+                "mic_aux_device": "Headset (Jabra Evolve2 65 Hands-Free)",
+                "mic_aux_device_2": "disabled"
+            }
+        }
+    ],
+    "notes": {
+        "setup_instructions": [
+            "1. Abra OBS Studio",
+            "2. Crie uma Scene: 'Azure News Teleprompter'",
+            "3. Adicione Source > Window Capture > selecione 'Azure News - Apresentação' (presentation.html em fullscreen)",
+            "4. Redimensione para ocupar toda a tela (1920x1080)",
+            "5. Adicione Source > Video Capture Device > 'OBSBOT Tiny 2 StreamCamera'",
+            "6. Redimensione a webcam para ~380x214 e posicione no CANTO INFERIOR DIREITO",
+            "7. (Opcional) Adicione filtro 'Rounded Rect' na webcam para cantos arredondados",
+            "8. Adicione Source > Audio Input Capture > 'Headset (Jabra Evolve2 65 Hands-Free)'",
+            "9. MUTE o áudio da webcam (use só o Jabra)",
+            "10. Settings > Output > Recording Path: C:\\Users\\ricardomac\\Videos\\AzureNews",
+            "11. Settings > Output > Format: mp4, Quality: High Quality Medium File Size",
+            "12. Settings > Video > Base/Output Resolution: 1920x1080, FPS: 30"
+        ],
+        "recording_workflow": [
+            "1. Abra tools/presentation.html num monitor > Fullscreen (F) > Carregar artigos",
+            "2. Abra tools/teleprompter.html no OUTRO monitor (ou tablet) para ler",
+            "3. No OBS, verifique que a scene mostra a apresentação + webcam no canto",
+            "4. Clique 'Start Recording' no OBS",
+            "5. Use SETA DIREITA para avançar slides na apresentação conforme lê o teleprompter",
+            "6. Ao terminar, clique 'Stop Recording' no OBS",
+            "7. Arquivo salvo em C:\\Users\\ricardomac\\Videos\\AzureNews"
+        ],
+        "tips": [
+            "- OBSBOT Tiny 2: ative 'Head Tracking' no app OBSBOT para manter enquadramento",
+            "- Jabra: verifique se está no modo 'Headset' (não 'Stereo') para usar o mic",
+            "- Teleprompter: coloque na tela logo atrás/acima da OBSBOT",
+            "- Iluminação: luz na frente do rosto, nunca atrás",
+            "- Teste áudio: grave 10s e verifique nível no OBS (entre -20dB e -6dB no pico)"
+        ]
+    }
+}
