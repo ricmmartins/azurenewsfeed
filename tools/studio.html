@@ -285,6 +285,69 @@
         #start-btn:hover { background: #ff6b6b; }
         #setup-status { font-size: 13px; color: #666; }
 
+        /* Control bar between presentation and teleprompter */
+        #controls-bar {
+            background: #111;
+            padding: 8px 24px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            border-bottom: 1px solid #222;
+            flex-shrink: 0;
+        }
+
+        #controls-bar button {
+            padding: 6px 14px;
+            border: none;
+            border-radius: 5px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        #controls-bar .btn-play { background: #e94560; color: white; }
+        #controls-bar .btn-play:hover { background: #ff6b6b; }
+        #controls-bar .btn-nav { background: #222; color: #ccc; }
+        #controls-bar .btn-nav:hover { background: #333; }
+
+        #controls-bar .control-group {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            color: #888;
+        }
+
+        #controls-bar input[type="range"] {
+            width: 80px;
+            accent-color: #e94560;
+        }
+
+        #controls-bar .speed-val {
+            color: #e94560;
+            font-weight: 600;
+            min-width: 30px;
+        }
+
+        #controls-bar .separator {
+            width: 1px;
+            height: 20px;
+            background: #333;
+        }
+
+        #controls-bar .shortcut-hint {
+            font-size: 11px;
+            color: #444;
+            margin-left: auto;
+        }
+
+        #controls-bar .shortcut-hint kbd {
+            background: #222;
+            padding: 1px 5px;
+            border-radius: 3px;
+            color: #888;
+        }
+
         /* Keyboard hints */
         #hints {
             position: fixed;
@@ -336,21 +399,78 @@
     <div id="progress-bar"></div>
 </div>
 
-<!-- BOTTOM: Teleprompter (only you see this) -->
+<!-- BOTTOM: Controls + Teleprompter (only you see this) -->
+<div id="controls-bar">
+    <button class="btn-play" id="play-btn" onclick="toggleAutoScroll()">▶ Play</button>
+    <div class="separator"></div>
+    <button class="btn-nav" onclick="showSlide(currentSlide - 1)">◀ Anterior</button>
+    <button class="btn-nav" onclick="showSlide(currentSlide + 1)">Próximo ▶</button>
+    <div class="separator"></div>
+    <div class="control-group">
+        <label>Velocidade:</label>
+        <input type="range" id="speed-slider" min="0.5" max="4" step="0.5" value="1.5">
+        <span class="speed-val" id="speed-val">1.5x</span>
+    </div>
+    <div class="separator"></div>
+    <div class="control-group">
+        <label>Fonte:</label>
+        <input type="range" id="font-slider" min="16" max="36" step="2" value="22">
+    </div>
+    <span class="shortcut-hint">
+        <kbd>Space</kbd> Play/Pause <kbd>→</kbd><kbd>←</kbd> Slides <kbd>↑</kbd><kbd>↓</kbd> Velocidade
+    </span>
+</div>
+
 <div id="teleprompter-area">
     <div id="teleprompter-text"></div>
 </div>
 
-<div id="hints">→ Próximo | ← Anterior | F Fullscreen</div>
+<div id="hints" style="display:none;"></div>
 
 <script>
 const FEED_URL = 'https://azurefeed.news/data/feeds.json';
 let slides = [];
 let currentSlide = 0;
 let teleprompterBlocks = [];
+let scrolling = false;
+let scrollSpeed = 1.5;
+let scrollAnimId = null;
 
 // Load saved token
 document.getElementById('gh-token').value = localStorage.getItem('studio_github_token') || '';
+
+// Auto-scroll controls
+function toggleAutoScroll() {
+    scrolling = !scrolling;
+    document.getElementById('play-btn').textContent = scrolling ? '⏸ Pause' : '▶ Play';
+    if (scrolling) startAutoScroll();
+    else stopAutoScroll();
+}
+
+function startAutoScroll() {
+    const teleEl = document.getElementById('teleprompter-area');
+    const scroll = () => {
+        if (!scrolling) return;
+        teleEl.scrollTop += scrollSpeed;
+        scrollAnimId = requestAnimationFrame(scroll);
+    };
+    scrollAnimId = requestAnimationFrame(scroll);
+}
+
+function stopAutoScroll() {
+    if (scrollAnimId) cancelAnimationFrame(scrollAnimId);
+}
+
+// Speed slider
+document.getElementById('speed-slider').addEventListener('input', (e) => {
+    scrollSpeed = parseFloat(e.target.value);
+    document.getElementById('speed-val').textContent = scrollSpeed + 'x';
+});
+
+// Font slider
+document.getElementById('font-slider').addEventListener('input', (e) => {
+    document.getElementById('teleprompter-text').style.fontSize = e.target.value + 'px';
+});
 
 async function start() {
     const statusEl = document.getElementById('setup-status');
@@ -597,14 +717,29 @@ function scrollTeleprompterToSlide(index) {
 document.addEventListener('keydown', (e) => {
     if (!document.getElementById('setup').classList.contains('hidden')) return;
     switch (e.key) {
-        case 'ArrowRight':
         case ' ':
+            e.preventDefault();
+            toggleAutoScroll();
+            break;
+        case 'ArrowRight':
             e.preventDefault();
             showSlide(currentSlide + 1);
             break;
         case 'ArrowLeft':
             e.preventDefault();
             showSlide(currentSlide - 1);
+            break;
+        case 'ArrowUp':
+            e.preventDefault();
+            scrollSpeed = Math.min(4, scrollSpeed + 0.5);
+            document.getElementById('speed-slider').value = scrollSpeed;
+            document.getElementById('speed-val').textContent = scrollSpeed + 'x';
+            break;
+        case 'ArrowDown':
+            e.preventDefault();
+            scrollSpeed = Math.max(0.5, scrollSpeed - 0.5);
+            document.getElementById('speed-slider').value = scrollSpeed;
+            document.getElementById('speed-val').textContent = scrollSpeed + 'x';
             break;
         case 'f':
         case 'F':
