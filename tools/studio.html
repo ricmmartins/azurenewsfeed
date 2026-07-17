@@ -650,7 +650,6 @@ function buildSlides(articles) {
     slides.push({ type: 'intro', category: 'ABERTURA', title: 'Azure News Diário', summary: `${articles.length} atualizações` });
 
     for (const [blog, items] of Object.entries(grouped)) {
-        slides.push({ type: 'category', category: blog, title: blog, summary: `${items.length} artigo${items.length > 1 ? 's' : ''}` });
         items.slice(0, 4).forEach(item => {
             slides.push({
                 type: 'article',
