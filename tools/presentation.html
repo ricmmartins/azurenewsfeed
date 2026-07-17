@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure News - Apresentação</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: #ffffff;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header bar */
+        #header {
+            background: rgba(0, 0, 0, 0.4);
+            padding: 16px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #e94560;
+        }
+
+        #header .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        #header .brand h1 {
+            font-size: 24px;
+            font-weight: 700;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        #header .date {
+            font-size: 16px;
+            color: #aaa;
+        }
+
+        /* Main content area */
+        #main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 60px;
+            position: relative;
+        }
+
+        /* Current category */
+        #category-badge {
+            background: rgba(233, 69, 96, 0.2);
+            border: 1px solid #e94560;
+            border-radius: 20px;
+            padding: 8px 24px;
+            font-size: 14px;
+            color: #e94560;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 24px;
+            transition: all 0.5s ease;
+        }
+
+        /* Current article title */
+        #current-title {
+            font-size: 42px;
+            font-weight: 700;
+            text-align: center;
+            max-width: 900px;
+            line-height: 1.3;
+            margin-bottom: 20px;
+            transition: opacity 0.5s ease;
+        }
+
+        /* Article summary */
+        #current-summary {
+            font-size: 20px;
+            color: #ccc;
+            text-align: center;
+            max-width: 800px;
+            line-height: 1.6;
+            transition: opacity 0.5s ease;
+        }
+
+        /* Author */
+        #current-author {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #888;
+        }
+
+        /* Progress bar */
+        #progress-container {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        #progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+
+        /* Slide counter */
+        #slide-counter {
+            position: absolute;
+            bottom: 20px;
+            right: 40px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Intro/Outro slides */
+        .special-slide {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .special-slide .emoji {
+            font-size: 64px;
+        }
+
+        .special-slide .big-text {
+            font-size: 52px;
+            font-weight: 700;
+        }
+
+        .special-slide .sub-text {
+            font-size: 22px;
+            color: #aaa;
+        }
+
+        /* Article list sidebar */
+        #article-list {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            max-height: 60vh;
+            overflow: hidden;
+            width: 280px;
+        }
+
+        .article-item {
+            padding: 8px 12px;
+            font-size: 12px;
+            color: #555;
+            border-left: 2px solid transparent;
+            transition: all 0.3s;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .article-item.active {
+            color: #fff;
+            border-left-color: #e94560;
+            background: rgba(233, 69, 96, 0.1);
+        }
+
+        .article-item.done {
+            color: #444;
+            text-decoration: line-through;
+        }
+
+        /* Hidden controls */
+        #setup {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.95);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            z-index: 9999;
+        }
+
+        #setup.hidden { display: none; }
+
+        #setup h2 { color: #e94560; font-size: 28px; }
+        #setup p { color: #aaa; max-width: 500px; text-align: center; }
+
+        #setup button {
+            padding: 14px 32px;
+            background: #e94560;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        #setup select, #setup input {
+            padding: 10px;
+            background: #1a1a2e;
+            color: #e0e0e0;
+            border: 1px solid #333;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        /* Keyboard hint (hidden during recording) */
+        #hint {
+            position: fixed;
+            bottom: 40px;
+            left: 40px;
+            font-size: 11px;
+            color: #444;
+        }
+
+        #hint kbd {
+            background: #222;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="setup">
+    <h2>🎬 Apresentação - Azure News</h2>
+    <p>Esta tela mostra os artigos visualmente durante a gravação. Capture-a no OBS como "Window Capture" ou "Display Capture".</p>
+    <div style="display:flex; gap:12px; align-items:center;">
+        <label style="color:#aaa;">Dias:</label>
+        <select id="days-select">
+            <option value="1">Últimas 24h</option>
+            <option value="2">Últimos 2 dias</option>
+            <option value="3">Últimos 3 dias</option>
+            <option value="7">Última semana</option>
+        </select>
+    </div>
+    <button onclick="startPresentation()">▶ Carregar Artigos</button>
+    <p id="setup-status" style="font-size:13px; color:#666;"></p>
+</div>
+
+<div id="header">
+    <div class="brand">
+        <span style="font-size:28px;">☁️</span>
+        <h1>Azure News Diário</h1>
+    </div>
+    <div class="date" id="date-display"></div>
+</div>
+
+<div id="main">
+    <div id="category-badge">ABERTURA</div>
+    <div id="current-title">Azure News Diário</div>
+    <div id="current-summary"></div>
+    <div id="current-author"></div>
+
+    <div id="article-list"></div>
+
+    <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+    <div id="slide-counter"></div>
+</div>
+
+<div id="hint">
+    <kbd>→</kbd> Próximo &nbsp; <kbd>←</kbd> Anterior &nbsp; <kbd>F</kbd> Fullscreen &nbsp; <kbd>H</kbd> Esconder hint
+</div>
+
+<script>
+const FEED_URL = 'https://azurefeed.news/data/feeds.json';
+let slides = [];
+let currentSlide = 0;
+
+async function startPresentation() {
+    const statusEl = document.getElementById('setup-status');
+    statusEl.textContent = 'Carregando artigos...';
+
+    const daysBack = parseInt(document.getElementById('days-select').value);
+
+    try {
+        const resp = await fetch(FEED_URL);
+        const data = await resp.json();
+
+        const cutoff = new Date(Date.now() - daysBack * 86400000).toISOString();
+        const articles = (data.articles || []).filter(a => (a.published || '') >= cutoff);
+
+        if (!articles.length) {
+            statusEl.textContent = '⚠️ Nenhum artigo encontrado. Aumente os dias.';
+            return;
+        }
+
+        buildSlides(articles);
+        document.getElementById('setup').classList.add('hidden');
+        document.getElementById('date-display').textContent =
+            new Date().toLocaleDateString('pt-BR', { day: 'numeric', month: 'long', year: 'numeric' });
+        showSlide(0);
+
+    } catch (err) {
+        statusEl.textContent = `❌ Erro: ${err.message}`;
+    }
+}
+
+function buildSlides(articles) {
+    slides = [];
+
+    // Intro slide
+    slides.push({
+        type: 'intro',
+        category: 'ABERTURA',
+        title: 'Azure News Diário',
+        summary: `${articles.length} atualizações para hoje`,
+        author: ''
+    });
+
+    // Group by category
+    const grouped = {};
+    articles.forEach(a => {
+        const cat = a.blog || 'Geral';
+        if (!grouped[cat]) grouped[cat] = [];
+        grouped[cat].push(a);
+    });
+
+    // Category + article slides
+    for (const [blog, items] of Object.entries(grouped)) {
+        // Category intro
+        slides.push({
+            type: 'category',
+            category: blog,
+            title: blog,
+            summary: `${items.length} artigo${items.length > 1 ? 's' : ''}`,
+            author: ''
+        });
+
+        // Individual articles (max 4 per category)
+        items.slice(0, 4).forEach(item => {
+            slides.push({
+                type: 'article',
+                category: blog,
+                title: item.title,
+                summary: (item.summary || '').slice(0, 200),
+                author: item.author || 'Microsoft'
+            });
+        });
+    }
+
+    // Outro slide
+    slides.push({
+        type: 'outro',
+        category: 'ENCERRAMENTO',
+        title: 'Isso é tudo por hoje!',
+        summary: 'Like 👍 • Inscreva-se 🔔 • Até amanhã!',
+        author: ''
+    });
+
+    // Build sidebar list
+    const listEl = document.getElementById('article-list');
+    listEl.innerHTML = slides
+        .filter(s => s.type === 'article')
+        .map((s, i) => `<div class="article-item" data-index="${i}">${s.title}</div>`)
+        .join('');
+}
+
+function showSlide(index) {
+    if (index < 0 || index >= slides.length) return;
+    currentSlide = index;
+    const slide = slides[index];
+
+    const titleEl = document.getElementById('current-title');
+    const summaryEl = document.getElementById('current-summary');
+    const authorEl = document.getElementById('current-author');
+    const categoryEl = document.getElementById('category-badge');
+    const counterEl = document.getElementById('slide-counter');
+    const progressEl = document.getElementById('progress-bar');
+
+    // Fade out
+    titleEl.style.opacity = '0';
+    summaryEl.style.opacity = '0';
+
+    setTimeout(() => {
+        categoryEl.textContent = slide.category;
+        titleEl.textContent = slide.title;
+        summaryEl.textContent = slide.summary;
+        authorEl.textContent = slide.author ? `por ${slide.author}` : '';
+        counterEl.textContent = `${index + 1} / ${slides.length}`;
+        progressEl.style.width = `${((index + 1) / slides.length) * 100}%`;
+
+        // Fade in
+        titleEl.style.opacity = '1';
+        summaryEl.style.opacity = '1';
+    }, 250);
+
+    // Update sidebar
+    const items = document.querySelectorAll('.article-item');
+    let articleIdx = 0;
+    slides.forEach((s, i) => {
+        if (s.type === 'article') {
+            if (items[articleIdx]) {
+                items[articleIdx].classList.toggle('active', i === index);
+                items[articleIdx].classList.toggle('done', i < index);
+            }
+            articleIdx++;
+        }
+    });
+}
+
+// Keyboard controls
+document.addEventListener('keydown', (e) => {
+    switch (e.key) {
+        case 'ArrowRight':
+        case ' ':
+            e.preventDefault();
+            showSlide(currentSlide + 1);
+            break;
+        case 'ArrowLeft':
+            e.preventDefault();
+            showSlide(currentSlide - 1);
+            break;
+        case 'f':
+        case 'F':
+            document.documentElement.requestFullscreen();
+            break;
+        case 'h':
+        case 'H':
+            document.getElementById('hint').style.display = 'none';
+            break;
+        case 'Home':
+            showSlide(0);
+            break;
+        case 'End':
+            showSlide(slides.length - 1);
+            break;
+    }
+});
+</script>
+</body>
+</html>
