@@ -247,6 +247,10 @@
             <option value="7">Última semana</option>
         </select>
     </div>
+    <div style="display:flex; gap:12px; align-items:center;">
+        <label style="color:#aaa;">GitHub Token (para traduzir títulos):</label>
+        <input type="password" id="gh-token" placeholder="ghp_... (opcional)" style="width:300px;">
+    </div>
     <button onclick="startPresentation()">▶ Carregar Artigos</button>
     <p id="setup-status" style="font-size:13px; color:#666;"></p>
 </div>
@@ -282,11 +286,52 @@ const FEED_URL = 'https://azurefeed.news/data/feeds.json';
 let slides = [];
 let currentSlide = 0;
 
+// Load saved token
+document.getElementById('gh-token').value = localStorage.getItem('presentation_github_token') || '';
+
+async function translateTitles(articles, token) {
+    const titles = articles.map(a => a.title).slice(0, 50);
+    const prompt = `Traduza os seguintes títulos de artigos técnicos para português brasileiro.
+Mantenha termos técnicos em inglês (Azure, Kubernetes, API, etc).
+Retorne APENAS um JSON array com as traduções na mesma ordem.
+
+Títulos:
+${JSON.stringify(titles)}`;
+
+    try {
+        const resp = await fetch('https://models.inference.ai.azure.com/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${token}`
+            },
+            body: JSON.stringify({
+                model: 'gpt-4o-mini',
+                messages: [{ role: 'user', content: prompt }],
+                max_tokens: 2000,
+                temperature: 0.3
+            })
+        });
+
+        if (!resp.ok) return null;
+        const result = await resp.json();
+        const content = result.choices[0].message.content.trim();
+        // Extract JSON array from response
+        const match = content.match(/\[[\s\S]*\]/);
+        if (match) return JSON.parse(match[0]);
+    } catch (e) {
+        console.error('Tradução falhou:', e);
+    }
+    return null;
+}
+
 async function startPresentation() {
     const statusEl = document.getElementById('setup-status');
     statusEl.textContent = 'Carregando artigos...';
 
     const daysBack = parseInt(document.getElementById('days-select').value);
+    const token = document.getElementById('gh-token').value.trim();
+    if (token) localStorage.setItem('presentation_github_token', token);
 
     try {
         const resp = await fetch(FEED_URL);
@@ -298,6 +343,18 @@ async function startPresentation() {
         if (!articles.length) {
             statusEl.textContent = '⚠️ Nenhum artigo encontrado. Aumente os dias.';
             return;
+        }
+
+        // Translate titles if token provided
+        if (token) {
+            statusEl.textContent = '🌐 Traduzindo títulos para PT-BR...';
+            const translations = await translateTitles(articles, token);
+            if (translations && translations.length === articles.length) {
+                articles.forEach((a, i) => { a.title = translations[i]; });
+            } else if (translations) {
+                // Partial match - apply what we can
+                translations.forEach((t, i) => { if (articles[i]) articles[i].title = t; });
+            }
         }
 
         buildSlides(articles);
@@ -348,7 +405,7 @@ function buildSlides(articles) {
                 type: 'article',
                 category: blog,
                 title: item.title,
-                summary: (item.summary || '').slice(0, 200),
+                summary: '',
                 author: item.author || 'Microsoft'
             });
         });
