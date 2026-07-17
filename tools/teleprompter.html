@@ -259,10 +259,10 @@
     <p>Gera um roteiro diário em PT-BR a partir das atualizações do Azure para você gravar seus vídeos.</p>
 
     <div class="setup-option">
-        <h3>🤖 OpenAI API Key (opcional)</h3>
-        <p style="font-size:13px; color:#aaa;">Com a key, o roteiro fica mais natural e conversacional. Sem ela, gera um roteiro estruturado básico.</p>
-        <input type="password" id="api-key-input" placeholder="sk-... (salva localmente no browser)">
-        <div class="hint">Armazenada apenas no localStorage do seu browser. Nunca sai desta página além de chamadas à OpenAI.</div>
+        <h3>🐙 GitHub Token (opcional)</h3>
+        <p style="font-size:13px; color:#aaa;">Com o token, usa GitHub Models (GPT-4o) para gerar um roteiro conversacional. Sem ele, gera um roteiro estruturado básico.</p>
+        <input type="password" id="api-key-input" placeholder="ghp_... ou github_pat_... (salva localmente no browser)">
+        <div class="hint">Armazenado apenas no localStorage do seu browser. Usado apenas para chamar a API do GitHub Models.</div>
     </div>
 
     <div class="control-group">
@@ -326,13 +326,13 @@ let scrollSpeed = 1.5;
 let animationId = null;
 let articles = [];
 
-// Load saved API key
-document.getElementById('api-key-input').value = localStorage.getItem('teleprompter_apikey') || '';
+// Load saved GitHub token
+document.getElementById('api-key-input').value = localStorage.getItem('teleprompter_github_token') || '';
 
 function saveApiKey() {
     const key = document.getElementById('api-key-input').value.trim();
-    if (key) localStorage.setItem('teleprompter_apikey', key);
-    else localStorage.removeItem('teleprompter_apikey');
+    if (key) localStorage.setItem('teleprompter_github_token', key);
+    else localStorage.removeItem('teleprompter_github_token');
     return key;
 }
 
@@ -368,7 +368,7 @@ async function startTeleprompter() {
 
         let script;
         if (apiKey) {
-            loadingEl.textContent = '🤖 Gerando roteiro com IA...';
+            loadingEl.textContent = '🤖 Gerando roteiro com GitHub Models (GPT-4o)...';
             script = await generateWithAI(articles, grouped, apiKey);
         } else {
             script = generateBasicScript(articles, grouped);
@@ -433,7 +433,7 @@ FORMATO:
 
 Gere o roteiro completo:`;
 
-    const resp = await fetch('https://api.openai.com/v1/chat/completions', {
+    const resp = await fetch('https://models.inference.ai.azure.com/chat/completions', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -449,7 +449,7 @@ Gere o roteiro completo:`;
 
     if (!resp.ok) {
         const err = await resp.text();
-        throw new Error(`OpenAI erro: ${resp.status} - ${err.slice(0, 200)}`);
+        throw new Error(`GitHub Models erro: ${resp.status} - ${err.slice(0, 200)}`);
     }
 
     const result = await resp.json();

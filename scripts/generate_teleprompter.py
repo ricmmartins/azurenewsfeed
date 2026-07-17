@@ -34,10 +34,12 @@ def group_by_category(articles):
 
 
 def generate_script_with_ai(articles, grouped):
-    """Generate teleprompter script using OpenAI."""
-    api_key = os.environ.get("OPENAI_API_KEY", "")
-    if not api_key:
-        print("OPENAI_API_KEY não configurada. Gerando script básico sem IA...")
+    """Generate teleprompter script using GitHub Models API or OpenAI."""
+    github_token = os.environ.get("GITHUB_TOKEN", "")
+    openai_key = os.environ.get("OPENAI_API_KEY", "")
+
+    if not github_token and not openai_key:
+        print("Nenhum GITHUB_TOKEN ou OPENAI_API_KEY configurado. Gerando script básico...")
         return generate_basic_script(articles, grouped)
 
     try:
@@ -89,7 +91,16 @@ FORMATO:
 
 Gere o roteiro completo:"""
 
-        client = openai.OpenAI(api_key=api_key)
+        if github_token:
+            client = openai.OpenAI(
+                base_url="https://models.inference.ai.azure.com",
+                api_key=github_token,
+            )
+            print("Usando GitHub Models API...")
+        else:
+            client = openai.OpenAI(api_key=openai_key)
+            print("Usando OpenAI API...")
+
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=[{"role": "user", "content": prompt}],
