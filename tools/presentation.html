@@ -71,32 +71,106 @@
             transition: all 0.5s ease;
         }
 
-        /* Current article title */
-        #current-title {
+        /* Article Card */
+        #article-card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 40px 48px;
+            max-width: 750px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+            transition: opacity 0.4s ease, transform 0.4s ease;
+            color: #333;
+        }
+
+        #article-card.hidden {
+            opacity: 0;
+            transform: scale(0.95);
+        }
+
+        #article-card .card-blog {
+            display: inline-block;
+            background: #e8f4fd;
+            color: #1a73e8;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 4px 12px;
+            border-radius: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+        }
+
+        #article-card .card-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a1a1a;
+            line-height: 1.3;
+            margin-bottom: 12px;
+        }
+
+        #article-card .card-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 16px;
+        }
+
+        #article-card .card-meta .author {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        #article-card .card-meta .author::before {
+            content: '✍️';
+        }
+
+        #article-card .card-meta .date::before {
+            content: '📅 ';
+        }
+
+        #article-card .card-summary {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        #article-card .card-link {
+            font-size: 13px;
+            color: #1a73e8;
+            word-break: break-all;
+            padding: 10px 16px;
+            background: #f0f7ff;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        #article-card .card-link::before {
+            content: '🔗';
+        }
+
+        /* Special slides (intro/outro/category) - keep old styles */
+        #special-content {
+            text-align: center;
+            transition: opacity 0.4s ease;
+        }
+
+        #special-content .big-title {
             font-size: 42px;
             font-weight: 700;
-            text-align: center;
-            max-width: 900px;
-            line-height: 1.3;
-            margin-bottom: 20px;
-            transition: opacity 0.5s ease;
+            color: #fff;
+            margin-bottom: 16px;
         }
 
-        /* Article summary */
-        #current-summary {
-            font-size: 20px;
-            color: #ccc;
-            text-align: center;
-            max-width: 800px;
-            line-height: 1.6;
-            transition: opacity 0.5s ease;
-        }
-
-        /* Author */
-        #current-author {
-            margin-top: 20px;
-            font-size: 14px;
-            color: #888;
+        #special-content .sub-text {
+            font-size: 22px;
+            color: #aaa;
         }
 
         /* Progress bar */
@@ -265,9 +339,24 @@
 
 <div id="main">
     <div id="category-badge">ABERTURA</div>
-    <div id="current-title">Azure News Diário</div>
-    <div id="current-summary"></div>
-    <div id="current-author"></div>
+
+    <!-- Special slides (intro/outro/category) -->
+    <div id="special-content">
+        <div class="big-title"></div>
+        <div class="sub-text"></div>
+    </div>
+
+    <!-- Article card -->
+    <div id="article-card" class="hidden">
+        <div class="card-blog"></div>
+        <div class="card-title"></div>
+        <div class="card-meta">
+            <span class="author"></span>
+            <span class="date"></span>
+        </div>
+        <div class="card-summary"></div>
+        <div class="card-link"></div>
+    </div>
 
     <div id="article-list"></div>
 
@@ -405,8 +494,10 @@ function buildSlides(articles) {
                 type: 'article',
                 category: blog,
                 title: item.title,
-                summary: '',
-                author: item.author || 'Microsoft'
+                summary: (item.summary || '').slice(0, 250),
+                author: item.author || 'Microsoft',
+                link: item.link || '',
+                date: item.published ? new Date(item.published).toLocaleDateString('pt-BR', { day: 'numeric', month: 'short', year: 'numeric' }) : ''
             });
         });
     }
@@ -433,29 +524,36 @@ function showSlide(index) {
     currentSlide = index;
     const slide = slides[index];
 
-    const titleEl = document.getElementById('current-title');
-    const summaryEl = document.getElementById('current-summary');
-    const authorEl = document.getElementById('current-author');
     const categoryEl = document.getElementById('category-badge');
+    const specialEl = document.getElementById('special-content');
+    const cardEl = document.getElementById('article-card');
     const counterEl = document.getElementById('slide-counter');
     const progressEl = document.getElementById('progress-bar');
 
-    // Fade out
-    titleEl.style.opacity = '0';
-    summaryEl.style.opacity = '0';
+    categoryEl.textContent = slide.category;
+    counterEl.textContent = `${index + 1} / ${slides.length}`;
+    progressEl.style.width = `${((index + 1) / slides.length) * 100}%`;
 
-    setTimeout(() => {
-        categoryEl.textContent = slide.category;
-        titleEl.textContent = slide.title;
-        summaryEl.textContent = slide.summary;
-        authorEl.textContent = slide.author ? `por ${slide.author}` : '';
-        counterEl.textContent = `${index + 1} / ${slides.length}`;
-        progressEl.style.width = `${((index + 1) / slides.length) * 100}%`;
+    if (slide.type === 'article') {
+        // Show card, hide special
+        specialEl.style.display = 'none';
+        cardEl.classList.remove('hidden');
 
-        // Fade in
-        titleEl.style.opacity = '1';
-        summaryEl.style.opacity = '1';
-    }, 250);
+        cardEl.querySelector('.card-blog').textContent = slide.category;
+        cardEl.querySelector('.card-title').textContent = slide.title;
+        cardEl.querySelector('.card-meta .author').textContent = slide.author;
+        cardEl.querySelector('.card-meta .date').textContent = slide.date || '';
+        cardEl.querySelector('.card-summary').textContent = slide.summary;
+        cardEl.querySelector('.card-link').textContent = slide.link || '';
+        cardEl.querySelector('.card-link').style.display = slide.link ? 'flex' : 'none';
+    } else {
+        // Show special, hide card
+        cardEl.classList.add('hidden');
+        specialEl.style.display = 'block';
+
+        specialEl.querySelector('.big-title').textContent = slide.title;
+        specialEl.querySelector('.sub-text').textContent = slide.summary || '';
+    }
 
     // Update sidebar
     const items = document.querySelectorAll('.article-item');
