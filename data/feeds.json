@@ -1,7 +1,79 @@
 {
-  "lastUpdated": "2026-07-23T20:19:37.627547+00:00",
-  "totalArticles": 191,
+  "lastUpdated": "2026-07-24T13:40:36.620169+00:00",
+  "totalArticles": 192,
   "articles": [
+    {
+      "title": "Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/native-agent-memory-for-microsoft-agent-framework-powered-by-azure-cosmos-db/",
+      "published": "2026-07-24T11:00:40+00:00",
+      "summary": "Recently we introduced the Agent Memory Toolkit and the Agentic Retrieval Toolkit for Azure Cosmos DB. The Agent Memory Toolkit gives your agents durable, Cosmos-backed memory: it stores raw conversation turns and then distills them into higher-value derived memories (thread summaries, extracted...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay"
+    },
+    {
+      "title": "Your Entire Agentic AI Workflow, Now Inside VS Code: New Course Available",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/your-entire-agentic-ai-workflow-now-inside-vs-code-new-course/ba-p/4539009",
+      "published": "2026-07-24T09:20:31+00:00",
+      "summary": "If you build with AI, you know the tax: jumping between a browser portal to pick a model, a terminal to run it, a separate playground to test a prompt, and finally your editor to write the code. Every context switch is a small drain on focus—and it adds up. What if the whole loop lived in the one...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "carlottacaste"
+    },
+    {
+      "title": "Design, test, and ship Foundry hosted agents from a canvas in GitHub Copilot App",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/design-test-and-ship-foundry-hosted-agents-from-a-canvas-in/ba-p/4539921",
+      "published": "2026-07-24T09:19:54+00:00",
+      "summary": "Building a Microsoft Foundry hosted agent has historically meant juggling multiple surfaces — looking up a model deployment in the Foundry portal, wiring toolboxes and skills by hand, copying an endpoint into your editor, then dropping to the CLI to test and deploy. That context-switching adds...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "junjieli"
+    },
+    {
+      "title": "Introducing Kubernetes-Native Policy Validation with CEL and VAP in Azure Policy",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-kubernetes-native-policy-validation-with-cel-and-vap/ba-p/4534585",
+      "published": "2026-07-23T19:27:12+00:00",
+      "summary": "Azure Policy for Kubernetes now supports Gatekeeper’s integration with native Kubernetes Validating Admission Policy (VAP) using Common Expression Language (CEL)! This integration leverages the new VAP feature introduced in Kubernetes 1.30, providing a more efficient, reliable and in-process way to...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher"
+    },
+    {
+      "title": "The Microsoft 365 Copilot Agent’s Playbook: A Practical Livestream Series for Building Better Agents",
+      "link": "https://devblogs.microsoft.com/blog/the-microsoft-365-copilot-agents-playbook-a-practical-livestream-series-for-building-better-agents/",
+      "published": "2026-07-23T19:03:53+00:00",
+      "summary": "Building on Microsoft 365 Copilot? Here’s your playbook. Declarative agents are quickly becoming one of the most exciting ways to extend Microsoft 365 Copilot and bring organizational knowledge, workflows, and tools directly into the flow of work. But as agent capabilities grow, so does the need...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Shavonna Jackson"
+    },
+    {
+      "title": "Announcing public preview of Azure DDoS Protection custom policy",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-of-azure-ddos-protection-custom-policy/ba-p/4538963",
+      "published": "2026-07-23T17:16:28+00:00",
+      "summary": "We are excited to announce the public preview of Azure DDoS Protection custom policy, a new capability that gives customers more granular control over how Azure DDoS Protection detects and mitigates attacks against protected workloads. Azure DDoS Protection has always focused on delivering...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "OfirSarfaty"
+    },
+    {
+      "title": "Azure Lighthouse: Bring Your Partner In, Without Letting Their Identities In (part 2 of 3)",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-lighthouse-bring-your-partner-in-without-letting-their/ba-p/4529852",
+      "published": "2026-07-23T15:40:21+00:00",
+      "summary": "See part 1 – Implementing Azure Lighthouse: A Technical Guide for Service Providers and Enterprises (part 1 of 2) See part 3 – Should You Use the New Microsoft Entra Tenant Governance or Azure Lighthouse? (part 3 of 3) The three traditional ways in, and what each leaves behind When a provider needs...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "Preston_Romney"
+    },
+    {
+      "title": "Understanding Microsoft 365 Copilot Risk Surface and Mitigations",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/understanding-microsoft-365-copilot-risk-surface-and-mitigations/ba-p/4538712",
+      "published": "2026-07-23T15:37:20+00:00",
+      "summary": "It’s a shift that carries important security implications organizations should understand before scaling deployment. Customers with Microsoft 365 E5 licensing may already have access to many of the tools that can help identify and reduce Copilot-related risk, but licensing alone does not reduce...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "AtilGurcan"
+    },
     {
       "title": "Build locally, ship to Azure: meet Azure SQL Developer",
       "link": "https://devblogs.microsoft.com/azure-sql/azure-sql-developer-prpr/",
@@ -19,15 +91,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "Preston_Romney"
-    },
-    {
-      "title": "Design, test, and ship Foundry hosted agents from a canvas in GitHub Copilot App",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/design-test-and-ship-foundry-hosted-agents-from-a-canvas-in/ba-p/4539921",
-      "published": "2026-07-23T07:50:18+00:00",
-      "summary": "Building a Microsoft Foundry hosted agent has historically meant juggling multiple surfaces — looking up a model deployment in the Foundry portal, wiring toolboxes and skills by hand, copying an endpoint into your editor, then dropping to the CLI to test and deploy. That context-switching adds...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "junjieli"
     },
     {
       "title": "Azure Files, Reimagined: Top-Level Shares with Per-Share Networking, Billing, and Scale",
@@ -165,6 +228,15 @@
       "author": "Ron Frenkel"
     },
     {
+      "title": "How to test agent experience changes without shipping them",
+      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/",
+      "published": "2026-07-21T07:15:12+00:00",
+      "summary": "Most changes you think will improve AI agent behavior won't. We tested a dozen hypotheses on a real project upgrade scenario and the majority failed. Learn how to emulate documentation, API, and MCP server changes locally so you can validate what works before shipping anything to production.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
       "title": "Feeding the GPUs: File Storage for AI and Cloud-Native Workloads on Azure",
       "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/feeding-the-gpus-file-storage-for-ai-and-cloud-native-workloads/ba-p/4534572",
       "published": "2026-07-21T07:00:00+00:00",
@@ -208,15 +280,6 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Abhishek Gupta"
-    },
-    {
-      "title": "Azure Lighthouse: Bring Your Partner In, Without Letting Their Identities In (part 2 of 3)",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-lighthouse-bring-your-partner-in-without-letting-their/ba-p/4529852",
-      "published": "2026-07-20T12:00:00+00:00",
-      "summary": "See part 1 – Implementing Azure Lighthouse: A Technical Guide for Service Providers and Enterprises (part 1 of 2) See part 3 – Should You Use the New Microsoft Entra Tenant Governance or Azure Lighthouse? (part 3 of 3) [to be published on 7/23/26] The three traditional ways in, and what each leaves...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "Preston_Romney"
     },
     {
       "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
@@ -568,15 +631,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "hetvip"
-    },
-    {
-      "title": "Azure Front Door: Resiliency Series – Part 2: Faster recovery (RTO)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-resiliency-series-part-2-faster-recovery-rto/ba-p/4503091",
-      "published": "2026-07-14T17:56:55+00:00",
-      "summary": "Abhishek Tiwari, Vice President of Engineering, Azure NetworkingAmit Srivastava, Partner Director of PM, Azure NetworkingVarun Chawla, Partner Director of Engineering, Azure NetworkingKarthik Uthaman, Principal Engineer, Azure Networking In Part 1 of this blog series, we outlined our four‑pillar...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "AbhishekTiwari"
     },
     {
       "title": "Azure landing zone (ALZ) enters its next chapter",
@@ -1578,15 +1632,6 @@
       "author": "RajyaLaxmiYellajosyula"
     },
     {
-      "title": "Learn from Microsoft: Transform software development through an agentic platform",
-      "link": "https://devblogs.microsoft.com/blog/learn-from-microsoft-transform-software-development-through-an-agentic-platform/",
-      "published": "2026-06-25T18:00:30+00:00",
-      "summary": "See how Microsoft is transforming software development with agentic workflows, AI-powered automation, and specialized agents across the engineering lifecycle.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Poonam Gupta"
-    },
-    {
       "title": "Building Practical Rowhammer Protection into Azure Cobalt 200",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-practical-rowhammer-protection-into-azure-cobalt-200/ba-p/4529297",
       "published": "2026-06-25T15:00:00+00:00",
@@ -1684,42 +1729,6 @@
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
       "author": "shantanupatankar"
-    },
-    {
-      "title": "When the model has never seen your code",
-      "link": "https://devblogs.microsoft.com/blog/when-the-model-has-never-seen-your-code/",
-      "published": "2026-06-24T14:04:52+00:00",
-      "summary": "This is the fifth article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "MCP Server Authorization with Azure API Management: From Simple to Advanced",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-server-authorization-with-azure-api-management-from-simple/ba-p/4528869",
-      "published": "2026-06-24T12:50:23+00:00",
-      "summary": "Why put API Management in front of your MCP servers The Model Context Protocol (MCP) has quickly become the standard way for AI agents, such as GitHub Copilot in VS Code, to reach external tools and data. As soon as an MCP server does anything meaningful, the same questions that govern any API...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "vzisiadis"
-    },
-    {
-      "title": "Boost performance with NFS nconnect on Azure NetApp Files datastores for Azure VMware Solution",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/boost-performance-with-nfs-nconnect-on-azure-netapp-files/ba-p/4528858",
-      "published": "2026-06-24T07:16:04+00:00",
-      "summary": "Table of contents Introduction What is nconnect Why it matters How it works Reading the numbers: what the Azure VMware Solution datastore data shows What this unlocks for Azure VMware Solution with Azure NetApp Files Use cases Conclusion Next steps Learn more Introduction For the most demanding...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "GeertVanTeylingen"
-    },
-    {
-      "title": "Deploy an Azure Landing Zone in About Twelve Minutes with the ALZ IaC Accelerator",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/deploy-an-azure-landing-zone-in-about-twelve-minutes-with-the/ba-p/4529937",
-      "published": "2026-06-24T07:00:00+00:00",
-      "summary": "Hello Folks! Welcome back to my coverage of the Microsoft Azure Infra Summit 2026. This session is one I have been looking forward to, because if you have ever stood up an Azure Landing Zone (ALZ) by hand, you know it can eat weeks. Management groups, policy assignments, Hub-and-Spoke networking,...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
     }
   ]
 }
