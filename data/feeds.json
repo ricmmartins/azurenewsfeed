@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-25T13:21:06.369224+00:00",
-  "totalArticles": 186,
+  "lastUpdated": "2026-07-26T13:17:07.539541+00:00",
+  "totalArticles": 179,
   "articles": [
     {
       "title": "Announcing the Open-Source Release of ML Video Codec (MLVC)",
@@ -1612,69 +1612,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Kristen Womack"
-    },
-    {
-      "title": "Best practices for Infrastructure as Code CI/CD on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/best-practices-for-infrastructure-as-code-ci-cd-on-azure/ba-p/4529941",
-      "published": "2026-06-26T07:00:00+00:00",
-      "summary": "Hello Folks! If your IaC repo has a dev folder, a test folder, and a prod folder that all started out identical and have since drifted in three different directions, this session is for you. At the Microsoft Azure Infrastructure Summit 2026, Jack Tracey and Jared Holgate (the team behind Azure...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Passing Context Between Agents in Multi-Agent A2A Systems",
-      "link": "https://devblogs.microsoft.com/ise/a2a-context-passing-multi-agent-systems/",
-      "published": "2026-06-26T07:00:00+00:00",
-      "summary": "How we solved the challenge of passing conversational context between independently deployed agents using the A2A protocol's embedded context pattern, keeping domain agents stateless and secure. The post Passing Context Between Agents in Multi-Agent A2A Systems appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Olha Konstantinova, Scott Grosenick"
-    },
-    {
-      "title": "What IT teams need to know about Linux Secure Boot certificates expiring in 2026",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/what-it-teams-need-to-know-about-linux-secure-boot-certificates/ba-p/4530725",
-      "published": "2026-06-26T00:35:08+00:00",
-      "summary": "If your organization does not use UEFI Secure Boot on Linux systems, this transition does not affect your boot path. You can stop reading now. If you do use Secure Boot, here is what you need to know. The Microsoft Corporation UEFI CA (Certificate Authority) 2011 expires on June 27, 2026 (June 26...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "bexelbie"
-    },
-    {
-      "title": "Your agent already has a plan",
-      "link": "https://devblogs.microsoft.com/blog/your-agent-already-has-a-plan/",
-      "published": "2026-06-26T00:00:05+00:00",
-      "summary": "If an agent isn’t doing the right thing, the obvious move is to make the docs clearer. Add a tip, spell out the correct command, describe the right approach more prominently. You do all of that, and the agent still ignores it. It does what it had already decided to do. The tip wasn’t ignored […]",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Garry Trinder"
-    },
-    {
-      "title": "The governance shift: RBAC, URBAC, data lake, and MSSP",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/the-governance-shift-rbac-urbac-data-lake-and-mssp/ba-p/4528607",
-      "published": "2026-06-25T20:11:19+00:00",
-      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl Governance is the silent dependency every transition trips on. Read about how roles, data tiering, and multi-tenant operations evolve in Defender, and why each change unlocks something your old model could not. Detection...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Mohit_Kumar1"
-    },
-    {
-      "title": "From inception to Blueprint: Introducing the Oracle AI Database@Azure AI adoption playbook",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/from-inception-to-blueprint-introducing-the-oracle-ai-database/ba-p/4531062",
-      "published": "2026-06-25T19:23:27+00:00",
-      "summary": "Today, we're excited to announce the publication of the Oracle AI Database@Azure - AI adoption playbook. After Microsoft Ignite 2025, the Oracle AI Database@Azure team at Microsoft launched a Forward Deployment Engineering (FDE) program: a hands-on effort to work directly with customers, including...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "RajyaLaxmiYellajosyula"
-    },
-    {
-      "title": "Building Practical Rowhammer Protection into Azure Cobalt 200",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-practical-rowhammer-protection-into-azure-cobalt-200/ba-p/4529297",
-      "published": "2026-06-25T15:00:00+00:00",
-      "summary": "As memory becomes central to cloud and AI infrastructure, so is the need to protect against memory-based vulnerabilities and attacks at cloud scale. With Azure Cobalt 200, Microsoft’s second-generation Arm-based compute processor, we took the opportunity to re-think how to deliver advanced memory...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ssaroiu"
     }
   ]
 }
