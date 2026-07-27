@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-07-26T13:17:07.539541+00:00",
-  "totalArticles": 179,
+  "lastUpdated": "2026-07-27T14:28:48.512319+00:00",
+  "totalArticles": 178,
   "articles": [
+    {
+      "title": "Preserve a Legacy IP During Azure Migration with Private Link Service Direct Connect",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/preserve-a-legacy-ip-during-azure-migration-with-private-link/ba-p/4540575",
+      "published": "2026-07-27T12:31:30+00:00",
+      "summary": "Why this matters Phased migrations to Azure frequently stall on a single, unglamorous constraint: an application with a hard-coded dependency address. The usual options are to re-address the application or change its configuration, and both add development effort, regression testing, and risk to a...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "kumarshashikaushal"
+    },
     {
       "title": "Announcing the Open-Source Release of ML Video Codec (MLVC)",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-the-open-source-release-of-ml-video-codec-mlvc/ba-p/4539875",
@@ -1594,24 +1603,6 @@
       "blog": "AKS Blog",
       "blogId": "aksblog",
       "author": "Microsoft"
-    },
-    {
-      "title": "MCP for Beginners: Why Every AI Engineer and Developer Should Learn the Model Context Protocol",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-for-beginners-why-every-ai-engineer-and-developer-should/ba-p/4530623",
-      "published": "2026-06-26T22:38:26+00:00",
-      "summary": "If you have spent any time building with large language models in the last year, you have hit the same wall everyone hits: your model is brilliant at reasoning but blind to the real world. It cannot read your database, call your internal API, search your documents, or trigger a deployment unless...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
-      "title": "Azure Developer CLI (azd) – May and June 2026",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-may-june-2026/",
-      "published": "2026-06-26T16:53:19+00:00",
-      "summary": "A combined May and June recap. A new azd tool command group, the cross-platform azd exec runner, safer multi-layer provisioning, an interactive Ctrl+C cancel prompt, Go support for Azure Functions, self-contained extension bundles, per-tenant subscription filters, and a long list of correctness...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Kristen Womack"
     }
   ]
 }
