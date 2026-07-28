@@ -1,7 +1,79 @@
 {
-  "lastUpdated": "2026-07-27T14:28:48.512319+00:00",
-  "totalArticles": 178,
+  "lastUpdated": "2026-07-28T14:02:11.108626+00:00",
+  "totalArticles": 186,
   "articles": [
+    {
+      "title": "Refactor your database with SQL projects in VS Code",
+      "link": "https://devblogs.microsoft.com/azure-sql/refactor-your-database-with-sql-projects-in-vs-code/",
+      "published": "2026-07-28T13:08:29+00:00",
+      "summary": "SQL database projects are a fundamental tool for keeping your database in source control, tracking changes and collaborating on quickly evolving database needs. Not to be forgotten, their superpower is being able to dynamically generate deployment scripts that match the declared state and the exact...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Drew Skwiers-Koballa"
+    },
+    {
+      "title": "Azure landing zone (ALZ) enters its next chapter",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
+      "published": "2026-07-28T10:22:02+00:00",
+      "summary": "Azure landing zone (ALZ) is now maintained by the Azure Migrate team. Nothing has changed in relation to getting support and making requests; still head to aka.ms/alz/issues (GitHub) and file your ask. ALZ continues to be open-source, maintained by the Azure Migrate team 👍 This is only the Platform...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "jtracey93msft"
+    },
+    {
+      "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-us-for-our-mcp-live-a-free-livestream-covering-all-things/ba-p/4537980",
+      "published": "2026-07-28T07:35:06+00:00",
+      "summary": "The Model Context Protocol (MCP) is the open standard for connecting AI models to tools and data. It was first introduced to the world by Anthropic in November 2024, and is now the most widely adopted standard in the world of Generative AI. You can now use MCP servers to connect agents to your data...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox"
+    },
+    {
+      "title": "Turning surprise AI bills with GitHub into accountable growth",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/turning-surprise-ai-bills-with-github-into-accountable-growth/ba-p/4541295",
+      "published": "2026-07-28T07:27:39+00:00",
+      "summary": "The AI bill is higher than expected. Now what? Finance wants to understand what is driving the cost. Engineering leaders, on the other hand, want to preserve the productivity gains behind the increased usage. The administrator needs to balance both priorities and put a policy in place that the...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Chris_Noring"
+    },
+    {
+      "title": "Cap it with GitHub, make it count with Azure: governing GitHub Copilot spend",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/cap-it-with-github-make-it-count-with-azure-governing-github/ba-p/4539492",
+      "published": "2026-07-28T01:37:12+00:00",
+      "summary": "The good news is that GitHub gives you real native controls, and you should turn them on first. The part worth writing down is where those native controls stop, and what an Azure API Management gateway plus GitHub Copilot bring-your-own-key adds on top. This is a two-layer story, not a replacement...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "tonimontez"
+    },
+    {
+      "title": "Turning GitHub surprise AI bills into accountable growth",
+      "link": "https://dev.to/azure/turning-surprise-ai-bills-into-accountable-growth-4343",
+      "published": "2026-07-27T18:44:11+00:00",
+      "summary": "This is a story of how you receive a higher bill than expected and how GitHub's Billing Controls help clarity and predictability. Let's begin our story. Confusion: The bill is higher than expected The AI bill is higher than expected. Now what? Finance wants to understand what is driving the cost....",
+      "blog": "Dev.to Azure",
+      "blogId": "devtoazure",
+      "author": "Chris Noring"
+    },
+    {
+      "title": "AI Gateway tier of API Management now in public preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/ai-gateway-tier-of-api-management-now-in-public-preview/ba-p/4540170",
+      "published": "2026-07-27T16:37:53+00:00",
+      "summary": "Today, we are introducing the AI Gateway tier of Azure API Management, now in public preview. It gives platform teams a purpose-built experience built specifically for AI workloads - publishing and governing models and MCP servers. Controls are configured through policy cards rather than XML and...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "vladvino"
+    },
+    {
+      "title": "Building Autonomous Network Operations: From Vision to Measurable Business Impact",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/building-autonomous-network-operations-from-vision-to-measurable/ba-p/4540483",
+      "published": "2026-07-27T13:17:08+00:00",
+      "summary": "At TM Forum DTW Ignite 2026, industry leaders gathered to discuss one of telecom's most important transformations: the shift from network automation to truly autonomous operations. In the session, Building Autonomous Network Operations, Microsoft's Thomas Steagall joined AT&T's Mark Austin, VP of...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "rickliev"
+    },
     {
       "title": "Preserve a Legacy IP During Azure Migration with Private Link Service Direct Connect",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/preserve-a-legacy-ip-during-azure-migration-with-private-link/ba-p/4540575",
@@ -10,6 +82,24 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "kumarshashikaushal"
+    },
+    {
+      "title": "MCP Connect: Why Every AI Engineer and Developer Should Care About the Model Context Protocol",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-connect-why-every-ai-engineer-and-developer-should-care/ba-p/4537839",
+      "published": "2026-07-27T10:41:51+00:00",
+      "summary": "There is a quiet standardization happening underneath the AI agent boom, and it has a name: the Model Context Protocol (MCP). If you build agents, wire tools into Copilot, or ship anything that lets a language model act on the real world, MCP is fast becoming the layer you cannot ignore. That is...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Device Code Flow: The Gift That Keeps on Giving — To Attackers",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/device-code-flow-the-gift-that-keeps-on-giving-to-attackers/ba-p/4540949",
+      "published": "2026-07-27T00:46:16+00:00",
+      "summary": "Tags: Microsoft Entra ID, Conditional Access, Device Code Flow, OAuth, Azure Arc, Azure Migrate, Identity Security, Zero Trust Introduction Device Code Flow was built for a good reason: helping users sign in on devices that cannot easily show a browser or accept a password. Smart TVs, consoles,...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "akyamaza"
     },
     {
       "title": "Announcing the Open-Source Release of ML Video Codec (MLVC)",
@@ -363,15 +453,6 @@
       "author": "Abhishek Gupta"
     },
     {
-      "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-us-for-our-mcp-live-a-free-livestream-covering-all-things/ba-p/4537980",
-      "published": "2026-07-20T07:00:00+00:00",
-      "summary": "The Model Context Protocol (MCP) is the open standard for connecting AI models to tools and data. It was first introduced to the world by Anthropic in November 2024, and is now the most widely adopted standard in the world of Generative AI. You can now use MCP servers to connect agents to your data...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox"
-    },
-    {
       "title": "Premium SSD v2 and Instant Access Snapshots: A Better, Faster, Cheaper Disk for Your Azure VMs",
       "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/premium-ssd-v2-and-instant-access-snapshots-a-better-faster/ba-p/4534571",
       "published": "2026-07-20T07:00:00+00:00",
@@ -703,15 +784,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "hetvip"
-    },
-    {
-      "title": "Azure landing zone (ALZ) enters its next chapter",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
-      "published": "2026-07-14T17:31:13+00:00",
-      "summary": "Azure landing zone (ALZ) is now maintained by the Azure Migrate team. Nothing has changed in relation to getting support and making requests; still head to aka.ms/alz/issues (GitHub) and file your ask. ALZ continues to be open-source, maintained by the Azure Migrate team 👍 This is only the Platform...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "jtracey93msft"
     },
     {
       "title": "Built-in Agent Skills Bring .NET and Azure Expertise into Visual Studio",
