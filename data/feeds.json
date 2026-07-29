@@ -1,7 +1,124 @@
 {
-  "lastUpdated": "2026-07-28T14:02:11.108626+00:00",
-  "totalArticles": 186,
+  "lastUpdated": "2026-07-29T14:05:41.949416+00:00",
+  "totalArticles": 190,
   "articles": [
+    {
+      "title": "Executive AI Avatar Platform on Azure: Frontier Intelligence Meets Fireworks AI Open-Source",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/executive-ai-avatar-platform-on-azure-frontier-intelligence/ba-p/4541301",
+      "published": "2026-07-29T14:00:00+00:00",
+      "summary": "The 2 a.m. Question Nobody Wants to Answer Twice It is the night before open enrollment closes. An employee in another time zone has a question about HSA eligibility. No HR representative is available, and the FAQ PDF she received three months ago is nowhere to be found. She does not want to submit...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Gana_Chandrasekaran"
+    },
+    {
+      "title": "Building and Deploying Microsoft Hosted Agents to Microsoft Teams",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-and-deploying-microsoft-hosted-agents-to-microsoft/ba-p/4540376",
+      "published": "2026-07-29T09:02:11+00:00",
+      "summary": "A practical, engineer-to-engineer guide to taking an AI agent from a developer laptop, into Microsoft Foundry Agent Service, and out to end users inside Microsoft Teams and Microsoft 365 — using the BRK241 FibreOps reference implementation as a worked example. Introduction: the hard part is no...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-us-for-our-mcp-live-a-free-livestream-covering-all-things/ba-p/4537980",
+      "published": "2026-07-29T08:38:14+00:00",
+      "summary": "The Model Context Protocol (MCP) is the open standard for connecting AI models to tools and data. It was first introduced to the world by Anthropic in November 2024, and is now the most widely adopted standard in the world of Generative AI. You can now use MCP servers to connect agents to your data...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox"
+    },
+    {
+      "title": "Now Generally Available: Built-in CIS Benchmark Auditing for Linux on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/now-generally-available-built-in-cis-benchmark-auditing-for/ba-p/4529819",
+      "published": "2026-07-29T08:21:15+00:00",
+      "summary": "A few months ago, in From Policy to Practice: Built-in CIS Benchmarks on Azure – Flexible, Hybrid-Ready, we introduced a new way to bring Center for Internet Security (CIS) Benchmarks to your Linux estate using Azure Policy with Machine Configuration. It builds on the broader customizable security...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "pallakatos"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-07-29T01:43:28+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Kiran Raja, Anishek Kamal anishekkamal​ and Rafia Aqil Rafia_Aqil​ Purpose and WHY Azure Databricks has put in place controls to meet the unique compliance needs of highly regulated industries. The requirement for the compliance security profile...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Introducing Compliance Substate for Azure Policy Exemptions!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-compliance-substate-for-azure-policy-exemptions/ba-p/4541703",
+      "published": "2026-07-28T23:26:47+00:00",
+      "summary": "When a policy is applied, some resources in scope may need to be temporarily exempted from enforcement, whether it be during a migration, an incident, or while an app team works through its compliance requirements. However, the moment you grant an exemption, that resource's compliance result flips...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher"
+    },
+    {
+      "title": "Surprise AI bill? GitHub Billing controls to the rescue!",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/surprise-ai-bill-github-billing-controls-to-the-rescue/ba-p/4541295",
+      "published": "2026-07-28T19:57:24+00:00",
+      "summary": "The AI bill is higher than expected. Now what? Finance wants to understand what is driving the cost. Engineering leaders, on the other hand, want to preserve the productivity gains behind the increased usage. The administrator needs to balance both priorities and put a policy in place that the...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Chris_Noring"
+    },
+    {
+      "title": "Token Economics in Practice",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/token-economics-in-practice/ba-p/4540472",
+      "published": "2026-07-28T17:57:41+00:00",
+      "summary": "Introduction: The cheap-token trap Token prices alone are a poor economic model for agents. The price of reaching a fixed capability has fallen sharply — In a 2025 Report Stanford's AI Index reported a roughly 280-fold drop in the cost of GPT-3.5-level inference between late 2022 and late 2024, and...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "prateekwrites"
+    },
+    {
+      "title": "Introducing Kimi K3 through Fireworks AI on Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-kimi-k3-through-fireworks-ai-on-microsoft-foundry/ba-p/4540187",
+      "published": "2026-07-28T17:34:17+00:00",
+      "summary": "Need to process entire codebases, lengthy legal documents, or hours of meeting transcripts in a single prompt? Kimi K3's 1 million-token context window—one of the largest available—is now deployable on Microsoft Foundry through Fireworks AI. Here's what that massive context means for your...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "davevoutila"
+    },
+    {
+      "title": "Microsoft is headed to VMware Explore 2026 in Las Vegas",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/microsoft-is-headed-to-vmware-explore-2026-in-las-vegas/ba-p/4541643",
+      "published": "2026-07-28T17:19:52+00:00",
+      "summary": "If you want to know about Azure, the work we are doing in partnership with VMware by Broadcom, or have a conversation about your VMware workloads, stop by the Microsoft booth! This year Microsoft will have several break-out sessions on a variety of topics where you will discover how Microsoft can...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "KirstenMegahan"
+    },
+    {
+      "title": "Visual Studio July Update — Meet the New Agent, Powered by the GitHub Copilot SDK",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-july-update-meet-the-new-agent-powered-by-copilot-sdk/",
+      "published": "2026-07-28T16:00:14+00:00",
+      "summary": "There's a new Agent (Preview) in Copilot Chat, built on the same GitHub Copilot SDK that powers the GitHub Copilot CLI, that gets more done with less back-and-forth. The post Visual Studio July Update — Meet the New Agent, Powered by the GitHub Copilot SDK appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie"
+    },
+    {
+      "title": "Introducing Physical-World Intelligence: How GeoAI Is Helping Expand Enterprise AI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/introducing-physical-world-intelligence-how-geoai-is-helping/ba-p/4541309",
+      "published": "2026-07-28T15:26:38+00:00",
+      "summary": "Key Takeaways Physical-World Intelligence is the ability to combine data about the physical world, such as weather, satellite imagery, infrastructure, sensors, maps, environmental conditions, and asset locations, with enterprise data and AI to support operational and business decision-making. This...",
+      "blog": "Planetary Computer",
+      "blogId": "microsoft-planetary-computer-blog",
+      "author": "NoraZhan"
+    },
+    {
+      "title": "Find any commit in seconds: Commit Search comes to Azure DevOps",
+      "link": "https://devblogs.microsoft.com/devops/find-any-commit-in-seconds-commit-search-comes-to-azure-devops/",
+      "published": "2026-07-28T15:24:55+00:00",
+      "summary": "Great code has a long memory. The fix you shipped last quarter, the refactor that touched a dozen files, the one-line change that explained why something works the way it does — it’s all there in your commit history. The hard part has always been finding it. Today, we’re excited to announce that...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Alex Pysanets"
+    },
     {
       "title": "Refactor your database with SQL projects in VS Code",
       "link": "https://devblogs.microsoft.com/azure-sql/refactor-your-database-with-sql-projects-in-vs-code/",
@@ -21,24 +138,6 @@
       "author": "jtracey93msft"
     },
     {
-      "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-us-for-our-mcp-live-a-free-livestream-covering-all-things/ba-p/4537980",
-      "published": "2026-07-28T07:35:06+00:00",
-      "summary": "The Model Context Protocol (MCP) is the open standard for connecting AI models to tools and data. It was first introduced to the world by Anthropic in November 2024, and is now the most widely adopted standard in the world of Generative AI. You can now use MCP servers to connect agents to your data...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox"
-    },
-    {
-      "title": "Turning surprise AI bills with GitHub into accountable growth",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/turning-surprise-ai-bills-with-github-into-accountable-growth/ba-p/4541295",
-      "published": "2026-07-28T07:27:39+00:00",
-      "summary": "The AI bill is higher than expected. Now what? Finance wants to understand what is driving the cost. Engineering leaders, on the other hand, want to preserve the productivity gains behind the increased usage. The administrator needs to balance both priorities and put a policy in place that the...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Chris_Noring"
-    },
-    {
       "title": "Cap it with GitHub, make it count with Azure: governing GitHub Copilot spend",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/cap-it-with-github-make-it-count-with-azure-governing-github/ba-p/4539492",
       "published": "2026-07-28T01:37:12+00:00",
@@ -48,13 +147,22 @@
       "author": "tonimontez"
     },
     {
-      "title": "Turning GitHub surprise AI bills into accountable growth",
+      "title": "Turning surprise AI bills into accountable growth with GitHub Billing Controls",
       "link": "https://dev.to/azure/turning-surprise-ai-bills-into-accountable-growth-4343",
       "published": "2026-07-27T18:44:11+00:00",
       "summary": "This is a story of how you receive a higher bill than expected and how GitHub's Billing Controls help clarity and predictability. Let's begin our story. Confusion: The bill is higher than expected The AI bill is higher than expected. Now what? Finance wants to understand what is driving the cost....",
       "blog": "Dev.to Azure",
       "blogId": "devtoazure",
       "author": "Chris Noring"
+    },
+    {
+      "title": "Microsoft Foundry Model Deployment Pricing Update",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-foundry-model-deployment-pricing-update/ba-p/4535385",
+      "published": "2026-07-27T17:38:10+00:00",
+      "summary": "Running AI workloads in specific regions—whether for compliance, latency, or data residency—now comes with more options and clearer pricing. Starting September 1, 2026, Microsoft Foundry is updating pricing for EU Data Zone and Regional deployments outside the US, while also launching a new APAC...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Chris Hoder"
     },
     {
       "title": "AI Gateway tier of API Management now in public preview",
@@ -1011,15 +1119,6 @@
       "author": "saikishor"
     },
     {
-      "title": "Microsoft Foundry Model Deployment Pricing Update",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-foundry-model-deployment-pricing-update/ba-p/4535385",
-      "published": "2026-07-09T17:22:45+00:00",
-      "summary": "Today, Microsoft Foundry is announcing updated pricing for model deployments in the EU Data Zone and in Regional deployments outside the US, effective September 1, 2026, alongside a new APAC Data Zone. The reason is choice: Foundry keeps widening your options across cost, performance, and data...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Chris Hoder"
-    },
-    {
       "title": "Optimize Oracle workloads on Azure with Azure NetApp Files",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/optimize-oracle-workloads-on-azure-with-azure-netapp-files/ba-p/4532644",
       "published": "2026-07-09T16:22:43+00:00",
@@ -1389,15 +1488,6 @@
       "author": "Yura_Lee"
     },
     {
-      "title": "Foundry Control Plane and Agent 365: Two Control Planes Walk Into an Enterprise",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-control-plane-and-agent-365-two-control-planes-walk-into/ba-p/4520185",
-      "published": "2026-07-02T14:00:00+00:00",
-      "summary": "May 15, 2026 | 8 min read If you’ve been paying attention to Microsoft over the past six months, you’ve noticed a recurring theme: agents are everywhere. They’re reasoning over your SharePoint folders, reconciling your accounts, and if you squint at the Ignite 2025 keynote, they’re about three...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Anil_Korkut"
-    },
-    {
       "title": "Fundamentals of Azure DevOps with SQL projects",
       "link": "https://devblogs.microsoft.com/azure-sql/fundamentals-of-azure-devops-with-sql-projects/",
       "published": "2026-07-02T13:54:53+00:00",
@@ -1515,15 +1605,6 @@
       "author": "j_folberth"
     },
     {
-      "title": "Agent-to-Agent Communication: Connecting Foundry and LangGraph Agents via A2A",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/agent-to-agent-communication-connecting-foundry-and-langgraph/ba-p/4531378",
-      "published": "2026-07-01T13:00:00+00:00",
-      "summary": "As AI systems move from single agents to multi-agent workflows, one challenge becomes obvious: how do agents built in different frameworks discover each other, communicate, and collaborate reliably? This post walks through a practical Agent-to-Agent (A2A) integration between Microsoft Foundry and...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SonakshiA"
-    },
-    {
       "title": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
       "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric/",
       "published": "2026-07-01T12:52:43+00:00",
@@ -1630,51 +1711,6 @@
       "blog": "Windows Command Line",
       "blogId": "commandline",
       "author": "Craig Loewen"
-    },
-    {
-      "title": "Automating your Visual Studio extension builds with GitHub Actions",
-      "link": "https://devblogs.microsoft.com/visualstudio/automating-your-visual-studio-extension-builds-with-github-actions/",
-      "published": "2026-06-29T14:00:25+00:00",
-      "summary": "If you’re building and maintaining Visual Studio extensions, you’ve probably ended up with some sort of build and publishing workflow – whether it’s manual, scripted, or stitched together over time. This post is for extension authors who want a simple, repeatable way to build, version, and publish...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mads Kristensen"
-    },
-    {
-      "title": "My Journey with Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/my-journey-with-azure-sre-agent/ba-p/4523519",
-      "published": "2026-06-29T13:22:32+00:00",
-      "summary": "Introduction A customer came to me with a problem that many organisations have. They control their infrastructure through Infrastructure as Code, but there are often scenarios where an admin needs to go in and make a change - even though they would ideally not want this to happen. The use an Entra...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "jometzg"
-    },
-    {
-      "title": "Spring AI 2.0 is GA: Vector Search, Memory, and Agents on Azure Cosmos DB",
-      "link": "https://devblogs.microsoft.com/cosmosdb/spring-ai-2-0-is-ga-vector-search-memory-and-agents-on-azure-cosmos-db/",
-      "published": "2026-06-29T07:00:53+00:00",
-      "summary": "The wait is over. Spring AI 2.0 is generally available, and Azure Cosmos DB is right there with it. With this release, Spring AI graduates into a mature, production-ready framework for building AI applications in Java, and Azure Cosmos DB ships dedicated, vendor-maintained integrations that plug...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay"
-    },
-    {
-      "title": "Authenticating AWS Workloads to Azure Functions using Workload Identity Federation",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/authenticating-aws-workloads-to-azure-functions-using-workload/ba-p/4531603",
-      "published": "2026-06-29T04:38:32+00:00",
-      "summary": "What you will learn: What Workload Identity Federation is and how it works How to set up trust between AWS and Microsoft Entra ID How to exchange AWS identity tokens for Azure access tokens How to securely call an Azure Function from AWS without storing credentials This approach improves security,...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "kasturi"
-    },
-    {
-      "title": "Routing agent traffic is really three decisions",
-      "link": "https://blog.aks.azure.com/2026/06/29/llm-routing-on-aks",
-      "published": "2026-06-29T00:00:00+00:00",
-      "summary": "Agents make many LLM calls in loops, so routing each to the right model — cheap self-hosted or frontier — keeps them affordable. Three decisions on AKS.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
     }
   ]
 }
