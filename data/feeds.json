@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-07-30T13:54:42.062260+00:00",
-  "totalArticles": 194,
+  "lastUpdated": "2026-07-31T14:00:56.328892+00:00",
+  "totalArticles": 192,
   "articles": [
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-07-31T13:57:49+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Eric Kwashie ekwashie​, Jessica Reece jareece​, Kiran Raja KiranRaja​, Anishek Kamal anishekkamal​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed: Ted Kim tedkim​ Purpose and WHY Azure Databricks has put in place controls to meet...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Securing Enterprise AI Agents with Microsoft Sentinel",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/securing-enterprise-ai-agents-with-microsoft-sentinel/ba-p/4542583",
+      "published": "2026-07-31T02:30:39+00:00",
+      "summary": "1. Introduction Enterprise adoption of Generative AI is accelerating rapidly through Microsoft 365 Copilot, Copilot Studio, Azure AI Foundry Agents, Security Copilot, and custom AI agents integrated with business applications. Unlike traditional SaaS applications, AI agents can: Access enterprise...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "SantoshPargi"
+    },
+    {
+      "title": "Domain controller showing \"Not ready for migration\"",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-identity/domain-controller-showing-quot-not-ready-for-migration-quot/m-p/4542534#M4327",
+      "published": "2026-07-30T20:52:18+00:00",
+      "summary": "I want to get the MDI sensor upgraded to v3 on our domain controllers. When I go into Settings > Sensors, two of our DCs are listed as \"Ready for migration\", but the third says \"Not ready for migration\".As far as I can tell, this DC meets all the prerequisites listed at Migrate from sensor v2.x to...",
+      "blog": "Azure Advanced Threat Protection",
+      "blogId": "azureadvancedthreatprotection",
+      "author": "RyanSteele-CoV"
+    },
+    {
+      "title": "Skill or Sub-Agent. Choosing AI Capabilities You Will Actually Reuse",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/skill-or-sub-agent-choosing-ai-capabilities-you-will-actually/ba-p/4542099",
+      "published": "2026-07-30T20:50:02+00:00",
+      "summary": "Audience: Cloud architects, platform engineers, engineering leaders The wrong first question Most teams building AI capabilities start with the wrong question. They ask which model to use. The model matters less than the shape of the capability around it. The first real fork is this. Are you...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "KishoreKumarPattabiraman"
+    },
+    {
+      "title": "Azure Developer CLI (azd) July 2026",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-july-2026/",
+      "published": "2026-07-30T20:20:10+00:00",
+      "summary": "This is the July round-up for the Azure Developer CLI (azd). Five releases shipped since the last post: 1.27.0, 1.27.1, 1.28.0, 1.28.1, and 1.29.0. Below is what’s new, what changed, and what we fixed, with links to the pull requests if you want to dig in. Have feedback or questions? Join the...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack"
+    },
+    {
+      "title": "Azure Files, Reimagined: Top-Level Shares with Per-Share Networking, Billing, and Scale",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-files-reimagined-top-level-shares-with-per-share/ba-p/4535079",
+      "published": "2026-07-30T19:57:34+00:00",
+      "summary": "Hello Folks! If you have ever wrestled with Azure Files inside a storage account, juggling shared RBAC, shared networking, and shared IOPS across a pile of shares that really should not live together, this session is going to address all that. During Microsoft Azure Infra Summit 2026, Vincent Du...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "Built to Protect: The Architecture Behind Codename MDASH",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/built-to-protect-the-architecture-behind-codename-mdash/ba-p/4541662",
+      "published": "2026-07-30T18:45:00+00:00",
+      "summary": "Information Table Defender Foundations RegionalOperation AI & DataContainment ResponsibleGovernance Built as a production Microsoft Security service, not an isolated research system. Operates alongside Microsoft Defender in the clouds and regions customers already use. Designed to keep source,...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "JasonWeber"
+    },
+    {
+      "title": "Securing On-Device AI: Evaluating Foundry Local Models with AI Red Teaming Agent",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/securing-on-device-ai-evaluating-foundry-local-models-with-ai/ba-p/4541303",
+      "published": "2026-07-30T14:00:00+00:00",
+      "summary": "On-Device AI Inference Changes the Architecture, Not the Risk As organizations transform into Frontier Firms and integrate AI into more applications, cloud-hosted inference is not always the optimal architectural choice. Some applications operate with limited connectivity, require low-latency...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "mhadiputro"
+    },
+    {
+      "title": "Give Your E-Commerce App a Memory: Adding Agents That Actually Remember Your Customers",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/give-your-e-commerce-app-a-memory-adding-agents-that-actually/ba-p/4524021",
+      "published": "2026-07-30T07:00:00+00:00",
+      "summary": "Ever shopped online and felt like the app had no idea who you are? You browse jackets every week, you told the chatbot you hate polyester, and yet it keeps showing you the same generic recommendations. That’s the problem. Most e-commerce apps treat every interaction as a blank slate. What if your...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Chris_Noring"
+    },
     {
       "title": "Introducing Cost Management and Pricing Toolsets in Azure Resource Manager MCP Server",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/introducing-cost-management-and-pricing-toolsets-in-azure/ba-p/4530710",
@@ -12,6 +93,15 @@
       "author": "demiajayi"
     },
     {
+      "title": "Introducing GPT-transcribe and GPT-live-transcribe in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-gpt-transcribe-and-gpt-live-transcribe-in-microsoft/ba-p/4541740",
+      "published": "2026-07-29T23:07:34+00:00",
+      "summary": "A transcription model hears “account number 8-4-7-2” but returns “account number eighty-four seventy-two.” A single error can break a downstream automation workflow. Developers building voice applications need transcription models that can handle real-world audio conditions, natural speech...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Dave_Jacobs"
+    },
+    {
       "title": "Bring Your Own Orchestrator to Azure Container Apps Jobs",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-own-orchestrator-to-azure-container-apps-jobs/ba-p/4541275",
       "published": "2026-07-29T17:49:33+00:00",
@@ -19,6 +109,15 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "hetvip"
+    },
+    {
+      "title": "Mastering GitHub Copilot Budgets: How to Prevent Surprise Overages Without Blocking Devs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/mastering-github-copilot-budgets-how-to-prevent-surprise/ba-p/4542073",
+      "published": "2026-07-29T17:33:31+00:00",
+      "summary": "1. The Core Mental Model: The Water Park Analogy To understand Copilot billing, think of your enterprise as a water park: The Shared Pool (Included Usage): Every Copilot Business ($19/mo) and Enterprise ($39/mo) seat license adds a set number of free AI credits into a shared corporate water tank...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "gauravbhardwaj"
     },
     {
       "title": "Share Azure Monitor Logs to Microsoft Fabric (preview)",
@@ -100,15 +199,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "pallakatos"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-07-29T01:43:28+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Kiran Raja, Anishek Kamal anishekkamal​ and Rafia Aqil Rafia_Aqil​ Purpose and WHY Azure Databricks has put in place controls to meet the unique compliance needs of highly regulated industries. The requirement for the compliance security profile...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "Secretless Microsoft Entra ID Authentication for AKS with Istio and oauth2-proxy",
@@ -442,15 +532,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "Preston_Romney"
-    },
-    {
-      "title": "Azure Files, Reimagined: Top-Level Shares with Per-Share Networking, Billing, and Scale",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-files-reimagined-top-level-shares-with-per-share/ba-p/4535079",
-      "published": "2026-07-23T07:00:00+00:00",
-      "summary": "Hello Folks! If you have ever wrestled with Azure Files inside a storage account, juggling shared RBAC, shared networking, and shared IOPS across a pile of shares that really should not live together, this session is going to address all that. During Microsoft Azure Infra Summit 2026, Vincent Du...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
     },
     {
       "title": "Hybrid Logic Apps on RKE2: a self-managed cluster with MetalLB",
@@ -1317,15 +1398,6 @@
       "author": "Efrat_Ben_Porat"
     },
     {
-      "title": "Introducing ROI for agents in Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-roi-for-agents-in-foundry/ba-p/4531970",
-      "published": "2026-07-08T15:00:00+00:00",
-      "summary": "Authors: Han Che, Luffy Chen Across Foundry Agent Service and the broader ecosystem of agent frameworks and runtimes, it is becoming easier to build, deploy, evaluate, and optimize production agents. You can instrument your agent, collect traces, run evaluations, and use the agent optimizer to...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "hanch"
-    },
-    {
       "title": "Building on Vercel’s eve + Azure Cosmos DB: An Agent That Remembers",
       "link": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-agent-memory/",
       "published": "2026-07-08T14:56:27+00:00",
@@ -1441,15 +1513,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "hcamposu"
-    },
-    {
-      "title": "Introducing Kimi K2.7 Code in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-kimi-k2-7-code-in-microsoft-foundry/ba-p/4532286",
-      "published": "2026-07-06T22:48:17+00:00",
-      "summary": "Modern software engineering rarely happens in a single step, developers must refactor across large codebases, implement features spanning multiple files, and debug issues over long-running sessions. Kimi K2.7 Code from Moonshot AI, available on Microsoft Foundry starting July 1, 2026 in public...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "RashaudSavage"
     },
     {
       "title": "See our new Azure Cosmos DB Design Patterns",
@@ -1666,87 +1729,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Smoke Test Microsoft Foundry Agents with GitHub Actions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/smoke-test-microsoft-foundry-agents-with-github-actions/ba-p/4531912",
-      "published": "2026-07-01T13:32:47+00:00",
-      "summary": "Introduction This blog is the next part of a series discussing Foundry Hosted Agents and how to properly construct Continuous Integration and Continuous Delivery (CI/CD) for them. This post will specifically go over configuring smoke tests against your recently deployed hosted agents. You can...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "j_folberth"
-    },
-    {
-      "title": "What’s new across Microsoft SQL in 2026 so far (SQL Server, Azure SQL, and SQL database in Fabric)",
-      "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-sql-server-azure-sql-and-sql-database-in-fabric/",
-      "published": "2026-07-01T12:52:43+00:00",
-      "summary": "We’re halfway through 2026, and Microsoft SQL has not slowed down. Since SQLCon/FabCon in March (where we released a ton of things, and those updates can be found in this updates video), we shipped a wave of updates across SQL Server, Azure SQL, and SQL database in Fabric, with Microsoft Build 2026...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Anna Hoffman"
-    },
-    {
-      "title": "Shaping Software While It Runs: A Canvas Scenario, Start to Finish",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/shaping-software-while-it-runs-a-canvas-scenario-start-to-finish/ba-p/4531457",
-      "published": "2026-07-01T07:00:00+00:00",
-      "summary": "There is a moment, the first time you open a GitHub Copilot App Canvas, when you reach for the wrong metaphor. You see panels, buttons, live status cards and you think \"dashboard.\" You start designing a DevOps board. We did exactly that. Then we watched the recording back, and we all agreed: it was...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
-      "title": "Azure Container Apps Express for Shipping Container Apps Fast",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-express-for-shipping-container-apps-fast/ba-p/4531371",
-      "published": "2026-06-30T20:10:51+00:00",
-      "summary": "ACA Express Apps are a strong fit for teams that need to ship quickly and can't afford long platform setup cycles. This includes startups, internal platform teams, and product groups deploying APIs, web apps, or agent endpoints that scale with uneven demand. If the priority is fast...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "hetvip"
-    },
-    {
-      "title": "Compose your API surface with Data API builder custom paths",
-      "link": "https://devblogs.microsoft.com/azure-sql/data-api-builder-custom-rest-paths/",
-      "published": "2026-06-30T19:38:31+00:00",
-      "summary": "Data API builder (DAB) 2.0 adds compound paths for REST endpoints, giving developers more control over how their API surface is organized. Instead of mirroring database topology, endpoints can now reflect simple names, business areas, or schema ownership. The post Compose your API surface with Data...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
-    },
-    {
-      "title": "Microsoft Defender for Cloud expands multicloud coverage across AWS and Google Cloud",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-expands-multicloud-coverage-across/ba-p/4532200",
-      "published": "2026-06-30T17:36:56+00:00",
-      "summary": "Organizations are building and running applications across multiple cloud platforms and hybrid environments to move faster, improve resilience, and choose the services that best fit each workload. But that flexibility also changes how teams need to manage exposure. A risk may start with an...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "donnalee"
-    },
-    {
-      "title": "What’s new in Microsoft Sentinel: June 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-june-2026/ba-p/4531902",
-      "published": "2026-06-30T16:43:18+00:00",
-      "summary": "Welcome back to What's new in Microsoft Sentinel. In June, Sentinel SIEM’s Advanced Security Information Model (ASIM) broadens its normalization, so one analytic rule can reach more sources with less per-source work and, additionally, two new ASIM schemas can now bring asset inventory and AI agent...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "TomerBrand"
-    },
-    {
-      "title": "Visual Studio June Update – Track Your Usage, Trust Your Tools",
-      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-june-update-track-your-usage-trust-your-tools/",
-      "published": "2026-06-30T16:00:45+00:00",
-      "summary": "The June update includes a Copilot Usage window refresh with proactive alerts as you approach your limits, MCP servers now get a trust check before they run anything new. The post Visual Studio June Update – Track Your Usage, Trust Your Tools appeared first on Visual Studio Blog.",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mark Downie"
-    },
-    {
-      "title": "The AI-first SOC: Copilot, UEBA, threat intelligence, and SOC optimization",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/the-ai-first-soc-copilot-ueba-threat-intelligence-and-soc/ba-p/4528609",
-      "published": "2026-06-30T16:00:00+00:00",
-      "summary": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl The portal change was the easy part. The real upside is the operating model it unlocks—generative AI in every workflow, behavioral analytics across hybrid and multi-cloud, native threat intelligence, and SOC optimization...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Mohit_Kumar1"
     }
   ]
 }
