@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-08-02T13:16:14.910839+00:00",
-  "totalArticles": 185,
+  "lastUpdated": "2026-08-03T14:34:16.200803+00:00",
+  "totalArticles": 187,
   "articles": [
+    {
+      "title": "Learn how to use the four IQs: Web IQ, Work IQ, Fabric IQ, Foundry IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/learn-how-to-use-the-four-iqs-web-iq-work-iq-fabric-iq-foundry/ba-p/4542916",
+      "published": "2026-08-03T07:00:00+00:00",
+      "summary": "We just concluded Microsoft IQ Deep Dive with Python, a three-part livestream series all about Microsoft IQ. We showed how to use the four IQs to ground your AI applications and agents: Work IQ: user-specific retrieval of M365 data, like Teams chats, emails, and calendar events. Fabric IQ:...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox"
+    },
+    {
+      "title": "Designing Azure Networks That Scale: From Small Deployments to Enterprise-Grade",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/designing-azure-networks-that-scale-from-small-deployments-to/ba-p/4542489",
+      "published": "2026-08-03T07:00:00+00:00",
+      "summary": "Hello Folks! If you have ever spent a long afternoon untangling overlapping CIDR ranges, chasing down a broken VNet peering, or trying to remember which UDR points to which firewall, this MAIS 2026 session is going to feel uncomfortably familiar. Jon Ormond (Principal PM, Azure Networking) brought...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
