@@ -1,7 +1,124 @@
 {
-  "lastUpdated": "2026-08-03T14:34:16.200803+00:00",
-  "totalArticles": 187,
+  "lastUpdated": "2026-08-04T14:06:13.148189+00:00",
+  "totalArticles": 197,
   "articles": [
+    {
+      "title": "Build Azure Skills Faster with Cloud Academy, a Visual Studio Subscriber Benefit",
+      "link": "https://devblogs.microsoft.com/visualstudio/build-azure-skills-faster-with-cloud-academy-a-visual-studio-subscriber-benefit/",
+      "published": "2026-08-04T14:00:38+00:00",
+      "summary": "If you’ve been looking for a practical way to build Azure skills, Cloud Academy (a QA company) gives Visual Studio subscribers hands-on learning that fits into busy schedules. Whether you’re new to Azure, expanding your cloud expertise, working towards certifications or preparing for more advanced...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt"
+    },
+    {
+      "title": "Cloud-Native Multi-Agent: Running Agents Safely on Kubernetes with Kars",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/cloud-native-multi-agent-running-agents-safely-on-kubernetes/ba-p/4543047",
+      "published": "2026-08-04T07:00:00+00:00",
+      "summary": "Why cloud-native and multi-agent are converging The shift from \"a chatbot\" to \"a fleet of workers\" A single LLM call is a stateless function: text in, text out. A multi-agent system is something else entirely — a set of long-running processes that plan, call tools, spawn helpers, talk to each...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
+    {
+      "title": "From Alert to Resolved: Building a Self-Healing Azure Platform with SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/from-alert-to-resolved-building-a-self-healing-azure-platform/ba-p/4542491",
+      "published": "2026-08-04T07:00:00+00:00",
+      "summary": "Hello Folks! It’s 3 a.m. Your phone lights up. A critical workload that spans multiple clouds is on fire, ownership is fuzzy, the alert routed to the wrong team first, and now it’s your problem. You sit up in bed, cold and groggy, and start the ritual. Open the runbook. Pull logs from one place....",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "Logic Apps Aviators Newsletter - August 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-august-2026/ba-p/4543662",
+      "published": "2026-08-04T01:22:35+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month Sonny Gillisen - Integration Architect / Cluster Lead @ Rubicon Cloud Advisor August 2026's Ace Aviator: Sonny Gillissen LinkedIn: https://www.linkedin.com/in/sonnygillissen/ What's...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-08-04T01:08:48+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Eric Kwashie ekwashie​, Jessica Reece jareece​, Kiran Raja KiranRaja​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed: Ted Kim tedkim​ Purpose and WHY Azure Databricks has put...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Built-In Observability for Serverless AI Agents on Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/built-in-observability-for-serverless-ai-agents-on-azure/ba-p/4542087",
+      "published": "2026-08-03T22:29:13+00:00",
+      "summary": "Azure Functions Agents - the markdown-first runtime that turns a folder of *.agent.md files into a serverless Azure Functions app - now ships with OpenTelemetry tracing built into the runtime itself. Every agent run becomes a real, structured trace in Application Insights: the model used, the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "larohra"
+    },
+    {
+      "title": "Building an operations assistant on Azure that waits for approval before it acts",
+      "link": "https://devblogs.microsoft.com/all-things-azure/building-an-operations-assistant-on-azure-that-waits-for-approval-before-it-acts/",
+      "published": "2026-08-03T21:15:38+00:00",
+      "summary": "Grounding an assistant in runbooks is the easy half. The interesting engineering is in the boundary between what a model proposes and what an authenticated person actually authorizes. An operations assistant stops being a demo the moment it can act. Answering “which runbook covers this alert” is a...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "Ricardo M. Martins"
+    },
+    {
+      "title": "Announcing public preview: Markdown for Agents in Azure App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-public-preview-markdown-for-agents-in-azure-app/ba-p/4537023",
+      "published": "2026-08-03T19:46:29+00:00",
+      "summary": "Why Markdown for Agents? Web pages often contain scripts, styles, and HTML markup that are useful to browsers but add noise when the content is sent to an AI model. Markdown for Agents removes that extra markup and returns a smaller, text-focused response that is easier for agents to process and...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
+      "title": "Check This Out! (CTO!) Guide (August 2026)",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/check-this-out-cto-guide-august-2026/ba-p/4543597",
+      "published": "2026-08-03T19:03:30+00:00",
+      "summary": "Member: TysonPaul | Microsoft Community Hub Enhanced host pool management for Azure Virtual Desktop is now generally available Team Blog: Azure Virtual Desktop Author: NeoCai Published: 07/09/2026 Summary: Azure Virtual Desktop has introduced enhanced host pool management, now generally available,...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "TysonPaul"
+    },
+    {
+      "title": "Microsoft Defender for Cloud Customer Newsletter",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4543596",
+      "published": "2026-08-03T18:50:45+00:00",
+      "summary": "*This will be the last monthly MDC newsletter. To keep up with the latest, please visit: What's new in MDC What's new in Defender for Cloud? Multiple container security features are now Generally Available: Container-level misconfiguration recommendations for Kubernetes, Upgrade AKS version...",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "Yura_Lee"
+    },
+    {
+      "title": "Microsoft Foundry Now Has an AI Gateway Control Plane — What Changes for App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-foundry-now-has-an-ai-gateway-control-plane-what/ba-p/4538320",
+      "published": "2026-08-03T18:24:20+00:00",
+      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. APIM handled token limits, semantic caching, token metrics, and access to the model. The point was simple: keep the agent framework interchangeable and put the production controls at...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
+      "title": "Simplify secure, zone-resilient outbound connectivity with Azure Firewall and StandardV2 NAT Gateway",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simplify-secure-zone-resilient-outbound-connectivity-with-azure/ba-p/4542573",
+      "published": "2026-08-03T18:17:01+00:00",
+      "summary": "As organizations modernize their applications in Azure, secure and resilient outbound connectivity has become just as critical as inbound security. Workloads need reliable access to external APIs, SaaS services, operating system updates, and partner endpoints, while still meeting strong security...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "aimeelittleton"
+    },
+    {
+      "title": "Announcing Azure Linux on WSL - Beta",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-azure-linux-on-wsl-beta/ba-p/4542903",
+      "published": "2026-08-03T16:08:12+00:00",
+      "summary": "What is Azure Linux? Azure Linux is Microsoft's internal Linux distribution, designed and maintained to support Azure-scale cloud workloads. Today, Azure Linux runs across: Azure infrastructure Azure Kubernetes Service (AKS) Containerized workloads Edge scenarios Azure-hosted services With WSL...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "farhakareem"
+    },
     {
       "title": "Learn how to use the four IQs: Web IQ, Work IQ, Fabric IQ, Foundry IQ",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/learn-how-to-use-the-four-iqs-web-iq-work-iq-fabric-iq-foundry/ba-p/4542916",
@@ -19,15 +136,6 @@
       "blog": "ITOpsTalk",
       "blogId": "itopstalkblog",
       "author": "Pierre_Roman"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-08-01T00:43:38+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Eric Kwashie ekwashie​, Jessica Reece jareece​, Kiran Raja KiranRaja​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed: Ted Kim tedkim​ Purpose and WHY Azure Databricks has put...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "Scale limits in network security perimeter",
@@ -849,15 +957,6 @@
       "author": "Pierre_Roman"
     },
     {
-      "title": "Microsoft Foundry Now Has an AI Gateway Control Plane — What Changes for App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-foundry-now-has-an-ai-gateway-control-plane-what/ba-p/4538320",
-      "published": "2026-07-17T17:04:16+00:00",
-      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. APIM handled token limits, semantic caching, token metrics, and access to the model. The point was simple: keep the agent framework interchangeable and put the production controls at...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig"
-    },
-    {
       "title": "Hypervelocity Engineering: Accelerating Enterprise AI with Azure AI Landing Zones",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/hypervelocity-engineering-accelerating-enterprise-ai-with-azure/ba-p/4536192",
       "published": "2026-07-17T14:57:27+00:00",
@@ -1675,15 +1774,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "Arpit_MSFT"
-    },
-    {
-      "title": "Windows 365 Boot",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/windows-365-boot/ba-p/4533696",
-      "published": "2026-07-04T17:01:23+00:00",
-      "summary": "Hi folks – Mike Hildebrand here! It’s the July 4th holiday here in the good 'ol USA and happens to also be our country’s 250th birthday … and where I live, that means it’s probably hot. VERY hot. So, I’m taking some time to enjoy the A/C and type up a ‘cool’ post about a ‘cool’ solution. In the...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "MichaelHildebrand"
     }
   ]
 }
