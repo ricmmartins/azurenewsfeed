@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-08-04T14:06:13.148189+00:00",
-  "totalArticles": 197,
+  "lastUpdated": "2026-08-05T14:03:56.942616+00:00",
+  "totalArticles": 194,
   "articles": [
+    {
+      "title": "Azure DevOps Remote MCP Server is generally available",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-remote-mcp-server-ga/",
+      "published": "2026-08-05T12:58:52+00:00",
+      "summary": "Today, we’re excited to announce the general availability of the Azure DevOps MCP Server 🎉 The Azure DevOps MCP Server gives AI assistants secure, contextual access to your Azure DevOps projects so they can help you plan, build, and ship software more effectively. With the Azure DevOps remote MCP...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-08-05T12:44:25+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Eric Kwashie ekwashie​, Jessica Reece jareece​, Kiran Raja KiranRaja​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed: Ted Kim tedkim​ Purpose and WHY Azure Databricks has put...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Use connectors with Managed Identity in the Logic Apps Standard extension",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/use-connectors-with-managed-identity-in-the-logic-apps-standard/ba-p/4539485",
+      "published": "2026-08-04T23:00:51+00:00",
+      "summary": "Managed Identity is Azure’s built-in way to authenticate to Microsoft Entra-protected resources without storing credentials, secrets, or connection strings. Deployed Logic Apps have supported it for a while, but the developer inner loop was a different story. You would wire up one authentication...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "Azure Virtual Network routing appliance is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-virtual-network-routing-appliance-is-now-generally/ba-p/4543616",
+      "published": "2026-08-04T20:42:46+00:00",
+      "summary": "Modern cloud networks are evolving faster than ever. Organizations are building larger AI platforms, connecting more services through private connectivity, adopting IPv6, and expanding applications across regions and business units. As these environments grow, the network becomes a critical...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Anshu_Verma"
+    },
     {
       "title": "Build Azure Skills Faster with Cloud Academy, a Visual Studio Subscriber Benefit",
       "link": "https://devblogs.microsoft.com/visualstudio/build-azure-skills-faster-with-cloud-academy-a-visual-studio-subscriber-benefit/",
@@ -37,15 +73,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "WSilveira"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-08-04T01:08:48+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Eric Kwashie ekwashie​, Jessica Reece jareece​, Kiran Raja KiranRaja​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed: Ted Kim tedkim​ Purpose and WHY Azure Databricks has put...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "Built-In Observability for Serverless AI Agents on Azure Functions",
@@ -1720,60 +1747,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "WSilveira"
-    },
-    {
-      "title": "Need a different partition key in Azure Cosmos DB? Pick the right approach",
-      "link": "https://devblogs.microsoft.com/cosmosdb/need-a-different-partition-key-in-azure-cosmos-db-pick-the-right-approach/",
-      "published": "2026-07-06T13:37:33+00:00",
-      "summary": "Once you create a container, its partition key is fixed at creation, and you can’t change it in place. However, if your original key starts causing problems like cross-partition queries or hot partitions, you need to consider your options for changing it. This post explains the mechanics of...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Abhishek Gupta"
-    },
-    {
-      "title": "Turning Azure Policy Signals into Actionable Governance Insights",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/turning-azure-policy-signals-into-actionable-governance-insights/ba-p/4534126",
-      "published": "2026-07-06T12:40:50+00:00",
-      "summary": "Most Azure Policy reporting stops at compliance status. Useful, yes — but not enough. When a control fails, teams need to know what failed, why it matters, and who should act. That gap becomes obvious at enterprise scale. A failed policy evaluation is only a signal. By itself, it does not tell you...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "absharan"
-    },
-    {
-      "title": "Not all model upgrades are upgrades",
-      "link": "https://devblogs.microsoft.com/blog/not-all-model-upgrades-are-upgrades/",
-      "published": "2026-07-06T07:49:44+00:00",
-      "summary": "A new model drops with lower per-token pricing and better benchmarks. You switch. A week later someone asks why the agent is burning 12x more tokens on the same task while producing worse output. We ran 150 agent tasks across 15 scenarios on two models, Claude Sonnet 4.6 and Claude Sonnet 5, using...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Token Economics: The New FinOps for Agentic AI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/token-economics-the-new-finops-for-agentic-ai/ba-p/4533743",
-      "published": "2026-07-06T07:00:00+00:00",
-      "summary": "In AI applications, tokens are now cost — and token economics deserves architectural attention For a long time, AI application design started with model capability: Can the model write code? Can it reason? Can it use tools? Can it handle long context? Those questions still matter, but in the age of...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "Azure SDK Release (June 2026)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-june-2026/",
-      "published": "2026-07-06T05:56:58+00:00",
-      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (June 2026) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Justin Bettencourt"
-    },
-    {
-      "title": "Automatically Route Azure Service Health Alerts to the Right Service Owners Using Agentic Logic Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/automatically-route-azure-service-health-alerts-to-the-right/ba-p/4531853",
-      "published": "2026-07-05T21:55:20+00:00",
-      "summary": "As organizations adopt more Azure services, operational ownership naturally becomes distributed across multiple teams. The platform team may own Azure Kubernetes Service (AKS), the database team may manage Azure SQL, while application teams are responsible for App Services and Logic Apps. Azure...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Arpit_MSFT"
     }
   ]
 }
