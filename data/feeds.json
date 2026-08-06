@@ -1,7 +1,115 @@
 {
-  "lastUpdated": "2026-08-05T14:03:56.942616+00:00",
-  "totalArticles": 194,
+  "lastUpdated": "2026-08-06T14:03:11.647750+00:00",
+  "totalArticles": 197,
   "articles": [
+    {
+      "title": "Pull request annotations on work item cards",
+      "link": "https://devblogs.microsoft.com/devops/pull-request-annotations-on-work-item-cards/",
+      "published": "2026-08-06T14:00:21+00:00",
+      "summary": "It’s now easier to track development progress without leaving your Kanban board. Azure Boards now displays pull request annotations directly on work item cards, making it easy to see at a glance when work is actively moving through code review. With pull request status visible directly on the...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem"
+    },
+    {
+      "title": "You can now use the Azure DevOps Service Connection instead of a PAT or Build Session token",
+      "link": "https://devblogs.microsoft.com/devops/you-can-now-use-the-azure-devops-service-connection-instead-of-a-pat-or-build-session-token/",
+      "published": "2026-08-06T08:57:40+00:00",
+      "summary": "We’re excited to announce the Azure DevOps service connection, a new way to access Azure DevOps from your pipelines using a Microsoft Entra workload identity (a service principal or managed identity) instead of a Personal Access Token (PAT) or session token. This post walks through what it is, how...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Eric van Wijk"
+    },
+    {
+      "title": "Beyond Model Evaluation: Choosing Between Microsoft Foundry and PyRIT for AI Red Teaming",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-model-evaluation-choosing-between-microsoft-foundry-and/ba-p/4538110",
+      "published": "2026-08-06T07:00:00+00:00",
+      "summary": "As enterprise AI systems evolve from standalone models into RAG applications, copilots, and autonomous agents, one question comes up often: Should we use Microsoft Foundry or PyRIT for Red Teaming? After working through evaluation and red teaming scenarios, my recommendation is: 👉 Use both, but for...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Jatin_Garg"
+    },
+    {
+      "title": "Zonal Resiliency in Azure: Application-Centric Goals, Recovery Plans, and Drills",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/zonal-resiliency-in-azure-application-centric-goals-recovery/ba-p/4542514",
+      "published": "2026-08-06T07:00:00+00:00",
+      "summary": "Hello Folks If you have ever stared at a multi-tier app in Azure and asked yourself, “Is this actually going to survive a zone outage?”, you are not alone. In session MAIS23 of the Microsoft Azure Infra Summit 2026, Bhavya, Aditya, and Chaya from the Azure Resiliency product team walked us through...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "Build and Deploy Confidential Virtual Machines on Azure Local (Public Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/build-and-deploy-confidential-virtual-machines-on-azure-local/ba-p/4543995",
+      "published": "2026-08-06T01:35:53+00:00",
+      "summary": "Estimated read: ~4 minutes Confidential computing has become foundational to how regulated and sovereign organizations run their most sensitive workloads. Today, we're excited to announce that Confidential Virtual Machines on Azure Local are available in public preview — bringing hardware-based...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Dona_Mukherjee"
+    },
+    {
+      "title": "Understanding the Standard HDD I/O unit size update and what it means for your workloads",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/understanding-the-standard-hdd-i-o-unit-size-update-and-what-it/ba-p/4499128",
+      "published": "2026-08-05T21:33:32+00:00",
+      "summary": "As Azure continues to evolve to support modern workload patterns, we are refining how transactions are measured for Standard HDD Managed Disks. This update helps align billing more closely with actual I/O behavior while maintaining predictable cost controls for customers. In this post, we’ll walk...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "austin-ma"
+    },
+    {
+      "title": "Update WCF Relay applications to use TLS 1.2 or later",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/update-wcf-relay-applications-to-use-tls-1-2-or-later/ba-p/4544418",
+      "published": "2026-08-05T21:00:00+00:00",
+      "summary": "WCF Relay listeners that still negotiate TLS 1.0 can fail to connect through Azure Relay. The symptom appears on the sender, which connected successfully before and now fails every call with System.ServiceModel.EndpointNotFoundException: no connected listeners accepted the connection within...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer"
+    },
+    {
+      "title": "Exploring Multi-Agent Workflows with Microsoft Agent Framework",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/exploring-multi-agent-workflows-with-microsoft-agent-framework/ba-p/4542512",
+      "published": "2026-08-05T20:00:00+00:00",
+      "summary": "As organizations race to automate decision-making, content generation, analysis, and execution at scale, the future is shifting from isolated AI agents to multi-agent workflows where specialized agents collaborate, delegate, challenge, and refine each other's work. By allowing multiple AI agents to...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SonakshiA"
+    },
+    {
+      "title": "Introducing Real-Time Multichannel Speech-to-Text",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-real-time-multichannel-speech-to-text/ba-p/4541701",
+      "published": "2026-08-05T18:00:00+00:00",
+      "summary": "Organizations working with stereo audio often face a difficult choice. In many contact center, conversational AI, and communication scenarios, participants are already recorded on separate channels. Keeping those channels separate provides valuable conversational context, especially when speakers...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "JanGoergen"
+    },
+    {
+      "title": "When Does RL Actually Help Fine-Tuning? A Difficulty-Controlled Study on Structured Generation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-does-rl-actually-help-fine-tuning-a-difficulty-controlled/ba-p/4535077",
+      "published": "2026-08-05T17:11:08+00:00",
+      "summary": "The uncomfortable question Reinforcement learning is often the finishing move of the modern fine-tuning stack: run SFT first, then add RL (GRPO, PPO, DPO) to squeeze out the last few points. In practice the return is wildly inconsistent — sometimes a real jump, sometimes nothing after a burned GPU...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shihyaolin"
+    },
+    {
+      "title": "Public Preview: Nested API Support Comes to Microsoft Sentinel CCF",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/public-preview-nested-api-support-comes-to-microsoft-sentinel/ba-p/4537026",
+      "published": "2026-08-05T16:00:00+00:00",
+      "summary": "Microsoft Sentinel continues to evolve its capabilities to support an expanding ecosystem of partners and data integrations. Recent innovations include the Codeless Connector Framework (CCF) Push feature, the new Sentinel connector builder agent, and the CCF expansion to pull data from Azure...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Robert_Moriarty"
+    },
+    {
+      "title": "Building a CCF Nested API Pull Connector: A Technical Lab Walkthrough",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/building-a-ccf-nested-api-pull-connector-a-technical-lab/ba-p/4537027",
+      "published": "2026-08-05T16:00:00+00:00",
+      "summary": "This post walks through building a Microsoft Sentinel Codeless Connector Framework (CCF) RestApiPoller connector that uses the nested API polling pattern. The nested pattern exists for a specific reason: many enterprise APIs do not return enriched records from a single call. Instead, they use a...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Robert_Moriarty"
+    },
     {
       "title": "Azure DevOps Remote MCP Server is generally available",
       "link": "https://devblogs.microsoft.com/devops/azure-devops-remote-mcp-server-ga/",
@@ -19,6 +127,24 @@
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil"
+    },
+    {
+      "title": "From Build to Run to Distribute: Autonomous Agents with Microsoft Foundry Agent Service Part 1/5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-build-to-run-to-distribute-autonomous-agents-with-microsoft/ba-p/4541930",
+      "published": "2026-08-05T07:00:00+00:00",
+      "summary": "At Build 2026, we previewed the future of autonomous agents on the Microsoft platform. Now, those promises are delivered. Microsoft Foundry Agent Service, the Microsoft Agent Framework, and the GitHub Copilot SDK have reached General Availability, giving developers a single, end-to-end platform to...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Agentic Migrations and Modernization: How the Azure Migrate Agent Keeps Your Intent Alive End to End",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/agentic-migrations-and-modernization-how-the-azure-migrate-agent/ba-p/4542513",
+      "published": "2026-08-05T07:00:00+00:00",
+      "summary": "Hello Folks! If you have ever tried to move a few hundred VMs, a pile of databases, and a couple of web apps from on-prem to Azure, you already know the hard part is not the tooling. The hard part is keeping context, intent, and momentum alive across weeks of planning, hand-offs, and decisions. In...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
     },
     {
       "title": "Use connectors with Managed Identity in the Logic Apps Standard extension",
@@ -1533,15 +1659,6 @@
       "author": "CollinBrian"
     },
     {
-      "title": "Monitoring & Observability in Microsoft Foundry Part 2: Configuration and Operations",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/monitoring-observability-in-microsoft-foundry-part-2/ba-p/4532674",
-      "published": "2026-07-09T14:00:00+00:00",
-      "summary": "Part 1 of this series made the case that AI observability is not just another dashboard problem. Once an agent is in production, the question is no longer can it respond; the question is whether it continues to respond accurately, safely, efficiently, and consistently as models evolve, prompts...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Kalaivanan"
-    },
-    {
       "title": "Announcing Flat File Schema Generation support in Azure Logic Apps Standard",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-flat-file-schema-generation-support-in-azure-logic/ba-p/4534695",
       "published": "2026-07-09T07:02:22+00:00",
@@ -1576,24 +1693,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Nir_Mashkowski"
-    },
-    {
-      "title": "Foundry IQ is now in Copilot Studio: Bring your enterprise data to every agent conversation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-is-now-in-copilot-studio-bring-your-enterprise-data/ba-p/4534635",
-      "published": "2026-07-08T21:24:32+00:00",
-      "summary": "Your AI agents are only as smart as the data they can access Enterprise teams building Copilot agents face a familiar challenge: connecting agents to organizational knowledge without compromising security, governance, or answer quality. Foundry IQ solves this by providing a unified knowledge layer...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Angie-Silva-Pereyra"
-    },
-    {
-      "title": "Before You Ship Your Agent: A Five-Step Path to Evaluations You Can Trust",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/before-you-ship-your-agent-a-five-step-path-to-evaluations-you/ba-p/4532311",
-      "published": "2026-07-08T18:41:30+00:00",
-      "summary": "Authors: Caroline Yeh, Ali Mahmoudzadeh, Morteza Ziyadi If you've shipped an agent to production, or you're close, you've already made a quiet bet: that the evals you ran during development reflect what happens when real users interact with the real system. That bet is harder to win than it looks....",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amah"
     },
     {
       "title": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
@@ -1675,78 +1774,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "brauerblogs"
-    },
-    {
-      "title": "Don’t rewrite your CLI for agents",
-      "link": "https://devblogs.microsoft.com/blog/dont-rewrite-your-cli-for-agents/",
-      "published": "2026-07-07T13:52:06+00:00",
-      "summary": "There’s advice making the rounds: replace your CLI args with a single --json payload so agents can use your tool more effectively. The thinking being, that agents already think in structured formats, and nested data maps cleanly to JSON. Flat args on the other hand, force awkward conventions like...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Azure Database Security Newsletter - July 2026",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-database-security-newsletter-july-2026/ba-p/4534477",
-      "published": "2026-07-07T11:47:08+00:00",
-      "summary": "AI agents are changing how applications interact with data, and database security needs to evolve with them. In this July 2026 edition of the Azure Database Platform Security Newsletter, we focus on what this shift means for identity, access, monitoring, and data protection, along with the latest...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "PieterVanhove"
-    },
-    {
-      "title": "Export historical data from Log Analytics workspace with Export Job (preview)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/export-historical-data-from-log-analytics-workspace-with-export/ba-p/4532425",
-      "published": "2026-07-07T09:53:09+00:00",
-      "summary": "Log Analytics Export Job is now available in public preview. It gives you a straightforward way to export historical log data from your workspace to Azure Blob Storage, without writing custom scripts or disrupting live operations. You submit a job including a query, time range, and the service...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "YossiY"
-    },
-    {
-      "title": "What’s New in Microsoft Foundry | June 2026",
-      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-june-2026/",
-      "published": "2026-07-07T07:10:25+00:00",
-      "summary": "Claude is now generally available in Microsoft Foundry. Here's everything else that shipped between Build 2026 and the end of June — autopilot agents, expanded Toolboxes and Routines, Agent Optimizer's private preview, and more. The post What’s New in Microsoft Foundry | June 2026 appeared first on...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Nick Brady"
-    },
-    {
-      "title": "Modern Ingress for AKS: Introducing Application Gateway for Containers (AGC)",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/modern-ingress-for-aks-introducing-application-gateway-for/ba-p/4534200",
-      "published": "2026-07-07T07:00:00+00:00",
-      "summary": "Hello Folks! This Microsoft Azure Infra Summit 2026 sessions one is for everyone running production workloads on AKS. Jack Stromberg from the Application Gateway product team walked us through the entire history of load balancing in about ten minutes (no small feat) and then dropped the news that...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Coding with Logic Apps Standard: Local Functions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/coding-with-logic-apps-standard-local-functions/ba-p/4534240",
-      "published": "2026-07-07T05:38:35+00:00",
-      "summary": "Welcome to the Series Welcome to the first article in the Coding with Logic Apps Standard series. This series is for integration developers, architects, and modernization teams who want to go beyond visual workflow design and use Azure Logic Apps Standard as a complete development platform for...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "hcamposu"
-    },
-    {
-      "title": "See our new Azure Cosmos DB Design Patterns",
-      "link": "https://devblogs.microsoft.com/cosmosdb/see-our-new-azure-cosmos-db-design-patterns/",
-      "published": "2026-07-06T20:20:06+00:00",
-      "summary": "Design patterns are where good data modeling lives or dies. In a NoSQL database like Azure Cosmos DB, the difference between a schema that scales to millions of operations per second and one that fights you at every turn usually comes down to a handful of well‑understood patterns: how you...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Mark Brown"
-    },
-    {
-      "title": "Logic Apps Aviators Newsletter - July 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-july-2026/ba-p/4533851",
-      "published": "2026-07-06T15:00:00+00:00",
-      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month July 2026's Ace Aviator: Bill Chesnut Bill Chesnut - Cloud Platform and API Evangelist @ SixPivot What's your role and title? What are your responsibilities? Cloud Platform and API...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
     }
   ]
 }
