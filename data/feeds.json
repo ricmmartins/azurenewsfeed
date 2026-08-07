@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-06T14:03:11.647750+00:00",
-  "totalArticles": 197,
+  "lastUpdated": "2026-08-07T12:58:06.264276+00:00",
+  "totalArticles": 192,
   "articles": [
+    {
+      "title": "Microsoft Foundry's New Model Wave",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-foundry-s-new-model-wave/ba-p/4543620",
+      "published": "2026-08-06T16:00:00+00:00",
+      "summary": "The era of the single best model is over Microsoft Foundry is no longer just a shelf of foundation models. It is becoming an enterprise model portfolio: frontier models for complex reasoning, cost-optimized models for scale, specialized models for documents and media, and first-party Microsoft AI...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Christian_Coello"
+    },
     {
       "title": "Pull request annotations on work item cards",
       "link": "https://devblogs.microsoft.com/devops/pull-request-annotations-on-work-item-cards/",
@@ -10,6 +19,15 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem"
+    },
+    {
+      "title": "From Distillation to Reinforcement Fine-Tuning: Hill-Climbing in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-distillation-to-reinforcement-fine-tuning-hill-climbing-in/ba-p/4543260",
+      "published": "2026-08-06T14:00:00+00:00",
+      "summary": "TL; DR: Hill climbing means improving the deployable model package one measured step at a time across quality, latency, and cost. SFT made this workload cheaper, but did not transfer the teacher's planning quality. Adding explicit reasoning produced the major quality gain. RFT in Microsoft Foundry...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "srikantan"
     },
     {
       "title": "You can now use the Azure DevOps Service Connection instead of a PAT or Build Session token",
@@ -91,6 +109,15 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "shihyaolin"
+    },
+    {
+      "title": "Announcing Public Preview - Azure Private Link over IPv6",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-azure-private-link-over-ipv6/ba-p/4543978",
+      "published": "2026-08-05T17:06:27+00:00",
+      "summary": "1. Overview Private Link over IPv6 (PL IPv6) enables customers to securely access Azure PaaS services over IPv6-based connectivity. This capability is critical for: IPv6 based PE connectivity to PaaS resources Enabling IPv6 in On-prem environments This document is intended to serve as guide to...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "amitmishra"
     },
     {
       "title": "Public Preview: Nested API Support Comes to Microsoft Sentinel CCF",
@@ -667,15 +694,6 @@
       "blog": "Dev.to Azure",
       "blogId": "devtoazure",
       "author": "Chris Noring"
-    },
-    {
-      "title": "Microsoft Foundry Model Deployment Pricing Update",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-foundry-model-deployment-pricing-update/ba-p/4535385",
-      "published": "2026-07-27T17:38:10+00:00",
-      "summary": "Running AI workloads in specific regions—whether for compliance, latency, or data residency—now comes with more options and clearer pricing. Starting September 1, 2026, Microsoft Foundry is updating pricing for EU Data Zone and Regional deployments outside the US, while also launching a new APAC...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Chris Hoder"
     },
     {
       "title": "AI Gateway tier of API Management now in public preview",
@@ -1641,15 +1659,6 @@
       "author": "NeoCai"
     },
     {
-      "title": "Frontier Tuning - A shift from classic fine-tuning",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/frontier-tuning-a-shift-from-classic-fine-tuning/ba-p/4526001",
-      "published": "2026-07-09T16:00:00+00:00",
-      "summary": "Your AI agents are burning through tokens and budget because they're relearning your business context on every single task. Frontier Tuning changes that equation. Instead of injecting thousands of context tokens at runtime, you teach the model your workflows once, and it learns from your...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Laurentran"
-    },
-    {
       "title": "Designing for cloud sovereignty with Radius and Dapr",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/designing-for-cloud-sovereignty-with-radius-and-dapr/ba-p/4535067",
       "published": "2026-07-09T15:53:32+00:00",
@@ -1720,60 +1729,6 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Sajeetharan Sinnathurai"
-    },
-    {
-      "title": "The hidden variables in your agent eval",
-      "link": "https://devblogs.microsoft.com/blog/the-hidden-variables-in-your-agent-eval/",
-      "published": "2026-07-08T12:11:17+00:00",
-      "summary": "This is the seventh article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Lock Down AKS End to End with Application Gateway for Containers and Managed Cilium L7",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/lock-down-aks-end-to-end-with-application-gateway-for-containers/ba-p/4534205",
-      "published": "2026-07-08T07:00:00+00:00",
-      "summary": "Hello Folks! If your AKS cluster looks like most production clusters I have walked through, one of two things is true. Either nobody writes any network policies and every pod can talk to every other pod, so one compromised container blows up the entire blast radius. Or somebody wrote a few coarse...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Teamcenter on Oracle AI Database@Azure: Architecture, Validation, and Results",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/teamcenter-on-oracle-ai-database-azure-architecture-validation/ba-p/4534252",
-      "published": "2026-07-07T21:41:05+00:00",
-      "summary": "Overview Manufacturing organizations depend on Product Lifecycle Management (PLM) platforms to manage engineering data, product structures, digital twins, and collaborative design processes. As enterprises modernize their infrastructure, many continue to require advanced Oracle database...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Sunita_AZ0708"
-    },
-    {
-      "title": "Golden Paths Are a Product. Treat Them Like One.",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/golden-paths-are-a-product-treat-them-like-one/ba-p/4533707",
-      "published": "2026-07-07T18:26:04+00:00",
-      "summary": "Audience: Cloud architects, platform engineers, engineering leaders In my earlier Cloud Native Platforms articles, I focused on how teams build, run, and evolve modern engineering foundations. This article focuses on what keeps those capabilities useful after launch. Most teams do not lose adoption...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "KishoreKumarPattabiraman"
-    },
-    {
-      "title": "Optimizing GitHub Copilot Cost in the Usage-Based Billing Era",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/optimizing-github-copilot-cost-in-the-usage-based-billing-era/ba-p/4534171",
-      "published": "2026-07-07T15:43:49+00:00",
-      "summary": "GitHub Copilot has become a core part of the modern developer workflow. We use it to complete code, explain unfamiliar repositories, write tests, refactor legacy applications, review pull requests, generate documentation, and automate repetitive engineering work. But as GitHub Copilot moves further...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "gauravbhardwaj"
-    },
-    {
-      "title": "Announcing the Path to Production for Agents Webinar Series",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/announcing-the-path-to-production-for-agents-webinar-series/ba-p/4526560",
-      "published": "2026-07-07T14:54:02+00:00",
-      "summary": "Many organizations have made significant progress exploring AI—building pilots, prototypes, and proofs of concept. Yet a common challenge remains: how do you move from promising experiments to production-ready systems that are secure, scalable, and trusted? Join us for the Path to Production...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "brauerblogs"
     }
   ]
 }
