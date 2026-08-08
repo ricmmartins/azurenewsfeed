@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-08-07T12:58:06.264276+00:00",
-  "totalArticles": 192,
+  "lastUpdated": "2026-08-08T12:42:54.752844+00:00",
+  "totalArticles": 193,
   "articles": [
+    {
+      "title": "Announcing Grafana 13 Support in Azure Managed Grafana",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-grafana-13-support-in-azure-managed-grafana/ba-p/4545199",
+      "published": "2026-08-07T22:24:56+00:00",
+      "summary": "Enhanced Dashboarding and Visualization Experience Grafana 13 introduces a number of improvements that make dashboards easier to build, reuse, and manage at scale. Teams can create richer observability experiences while reducing duplication and improving consistency across environments. These...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "nuzhat-minhaz"
+    },
+    {
+      "title": "Smarter signals, broader coverage: UEBA anomalies on top of Behaviors layer and new data sources",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/smarter-signals-broader-coverage-ueba-anomalies-on-top-of/ba-p/4544384",
+      "published": "2026-08-07T20:14:53+00:00",
+      "summary": "Co-authors: Ron Shlomo and Ryan Smith Security teams don't struggle with a lack of security signals. The real challenge is understanding which activity matters, why it stands out, and where to focus first. Microsoft Sentinel's Behaviors layer already helps analysts transform raw security events...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "SaraSamokovlija"
+    },
+    {
+      "title": "Build Durable, Long-Running MCP Tasks on Azure App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-durable-long-running-mcp-tasks-on-azure-app-service/ba-p/4545170",
+      "published": "2026-08-07T19:40:32+00:00",
+      "summary": "Not every tool call finishes in a few seconds. A compliance scan might inspect hundreds of resources. A deployment might wait for an approval. A batch import might run for an hour. Holding an HTTP connection open for that entire operation is fragile: clients restart, proxies time out, networks...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
+      "title": "AI-powered playbook generator, now available to more customers",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/ai-powered-playbook-generator-now-available-to-more-customers/ba-p/4544385",
+      "published": "2026-08-07T19:28:40+00:00",
+      "summary": "We’re excited to announce we’re making it easier than ever to go from intent to action with the AI-powered playbook generator now available to more customers. What’s new All Microsoft Sentinel customers in Defender portal can now create AI-generated playbooks directly in their automation workflow....",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "NoaCafri"
+    },
+    {
+      "title": "Zero Ops: Agents Operate, Humans Govern",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/zero-ops-agents-operate-humans-govern/ba-p/4545151",
+      "published": "2026-08-07T19:18:40+00:00",
+      "summary": "A note on scope: the patterns in this guide apply to any agentic operations platform. The specifics — the pricing model, the built-in capabilities, the primitives named throughout — are Azure SRE Agent. Where something is a property of the product rather than a universal truth, it’s called out....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Shamir_AbdulAziz"
+    },
+    {
+      "title": "Expanding the Azure Local Security Ecosystem with IBM QRadar and Splunk",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/expanding-the-azure-local-security-ecosystem-with-ibm-qradar-and/ba-p/4535101",
+      "published": "2026-08-07T18:00:00+00:00",
+      "summary": "As regulatory obligations, resilience requirements, and the need for greater control over data and infrastructure continue to grow, we are seeing increasing interest in Azure Local from governments, critical infrastructure operators, defense organizations, and regulated industries looking to deploy...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Ariel Netz"
+    },
+    {
+      "title": "Public Preview: Nested API Support Comes to Microsoft Sentinel CCF",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/public-preview-nested-api-support-comes-to-microsoft-sentinel/ba-p/4537026",
+      "published": "2026-08-07T17:15:55+00:00",
+      "summary": "Microsoft Sentinel continues to evolve its capabilities to support an expanding ecosystem of partners and data integrations. Recent innovations include the Codeless Connector Framework (CCF) Push feature, the new Sentinel connector builder agent, and the CCF expansion to pull data from Azure...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Robert_Moriarty"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-08-07T01:46:28+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed:...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Generally Available: Windows Server 2016 Extended Security Updates enabled by Azure Arc",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/generally-available-windows-server-2016-extended-security/ba-p/4543640",
+      "published": "2026-08-06T19:27:34+00:00",
+      "summary": "Today, the Azure Arc team is pleased to announce that Extended Security Updates (ESUs) enabled by Azure Arc is now generally available for Windows Server 2016. By connecting your Windows Server 2016 machines to Azure Arc-enabled servers, you can enroll in ESUs and receive security updates. Enroll...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Mason_Torres"
+    },
     {
       "title": "Microsoft Foundry's New Model Wave",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-foundry-s-new-model-wave/ba-p/4543620",
@@ -120,15 +201,6 @@
       "author": "amitmishra"
     },
     {
-      "title": "Public Preview: Nested API Support Comes to Microsoft Sentinel CCF",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/public-preview-nested-api-support-comes-to-microsoft-sentinel/ba-p/4537026",
-      "published": "2026-08-05T16:00:00+00:00",
-      "summary": "Microsoft Sentinel continues to evolve its capabilities to support an expanding ecosystem of partners and data integrations. Recent innovations include the Codeless Connector Framework (CCF) Push feature, the new Sentinel connector builder agent, and the CCF expansion to pull data from Azure...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Robert_Moriarty"
-    },
-    {
       "title": "Building a CCF Nested API Pull Connector: A Technical Lab Walkthrough",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/building-a-ccf-nested-api-pull-connector-a-technical-lab/ba-p/4537027",
       "published": "2026-08-05T16:00:00+00:00",
@@ -145,15 +217,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-08-05T12:44:25+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Eric Kwashie ekwashie​, Jessica Reece jareece​, Kiran Raja KiranRaja​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed: Ted Kim tedkim​ Purpose and WHY Azure Databricks has put...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "From Build to Run to Distribute: Autonomous Agents with Microsoft Foundry Agent Service Part 1/5",
@@ -685,6 +748,15 @@
       "blog": "FinOps",
       "blogId": "finopsblog",
       "author": "tonimontez"
+    },
+    {
+      "title": "Managing disruption with AKS Node Auto-Provisioning",
+      "link": "https://blog.aks.azure.com/2026/07/28/nap-disruption",
+      "published": "2026-07-28T00:00:00+00:00",
+      "summary": "Learn AKS best practices for managing node disruption when using node auto provisioning (NAP) with pod disruption budgets, node disruption budgets, consolidation policies, and maintenance windows in production.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "Turning surprise AI bills into accountable growth with GitHub Billing Controls",
@@ -1666,69 +1738,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "CollinBrian"
-    },
-    {
-      "title": "Announcing Flat File Schema Generation support in Azure Logic Apps Standard",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-flat-file-schema-generation-support-in-azure-logic/ba-p/4534695",
-      "published": "2026-07-09T07:02:22+00:00",
-      "summary": "We’re excited to announce the preview of Flat File Schema Generation for Azure Logic Apps Standard. This new built-in action helps integration teams move faster by generating BizTalk compatible flat-file XSD schemas directly from sample flat-file payloads, reducing the manual effort required to...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Shree_Divya_M_V"
-    },
-    {
-      "title": "Deployment Stacks: Treating Your Azure Deployments Like Real Resources",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/deployment-stacks-treating-your-azure-deployments-like-real/ba-p/4534212",
-      "published": "2026-07-09T07:00:00+00:00",
-      "summary": "Hello Folks! If you have ever come back from vacation to find a “mystery” storage account no one remembers creating, or watched a junior admin nuke a production resource because they clicked the wrong tile in the portal, this session is for you. Sydney Smith from the Azure Deployments team walked...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "From Noisy Queries to Precise Frames: Query Decomposition for Media Asset Search",
-      "link": "https://devblogs.microsoft.com/ise/from_noisy_queries_to_precise_frames/",
-      "published": "2026-07-09T07:00:00+00:00",
-      "summary": "How query decomposition separates metadata filters from visual intent to significantly improve media asset retrieval quality. The post From Noisy Queries to Precise Frames: Query Decomposition for Media Asset Search appeared first on ISE Developer Blog.",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Kartheek Palepu, Deeptanil Saha"
-    },
-    {
-      "title": "A Paradigm Shift in Cloud Operations with Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-paradigm-shift-in-cloud-operations-with-azure-sre-agent/ba-p/4533244",
-      "published": "2026-07-08T22:41:52+00:00",
-      "summary": "Cloud operations are entering a new era. As systems grow in scale and complexity, the traditional model of reactive incident response, where engineers manually piece together signals across dozens of tools and portals, juggling all that context alone, is no longer sustainable. The operational toil...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Nir_Mashkowski"
-    },
-    {
-      "title": "Let’s Learn GitHub Copilot App – Free Virtual Training Event",
-      "link": "https://devblogs.microsoft.com/blog/lets-learn-github-copilot-app-free-virtual-training-event/",
-      "published": "2026-07-08T17:30:28+00:00",
-      "summary": "Join us for a free online event series kicking off July 16 to learn how to get started with the GitHub Copilot App!",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Katie Savage"
-    },
-    {
-      "title": "Azure Monitor Observability Agent goes autonomous (preview)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-observability-agent-goes-autonomous-preview/ba-p/4517265",
-      "published": "2026-07-08T16:16:16+00:00",
-      "summary": "Autonomous operations for the Azure Copilot Observability Agent are now in public preview, alongside the agent's general availability. With autonomous operations enabled, the Observability Agent listens to your alerts as they fire, triages them in the background, and runs deep investigations on the...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Efrat_Ben_Porat"
-    },
-    {
-      "title": "Building on Vercel’s eve + Azure Cosmos DB: An Agent That Remembers",
-      "link": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-agent-memory/",
-      "published": "2026-07-08T14:56:27+00:00",
-      "summary": "Most “AI agent” demos forget everything the moment the process exits. That’s fine for a toy project, but useless for anything real. An agent that helps you write, triage, or support needs two things a language model alone can’t give it: durable state and the ability to recall the right context by...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai"
     }
   ]
 }
