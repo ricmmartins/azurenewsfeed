@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-08T12:42:54.752844+00:00",
-  "totalArticles": 193,
+  "lastUpdated": "2026-08-09T12:45:04.024046+00:00",
+  "totalArticles": 185,
   "articles": [
+    {
+      "title": "Zero Ops: Agents Operate, Humans Govern",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/zero-ops-agents-operate-humans-govern/ba-p/4545151",
+      "published": "2026-08-08T15:47:47+00:00",
+      "summary": "How to design, build, and grow an agentic operations practice — and what becomes possible once you do. A note on scope: the patterns in this guide apply to any agentic operations platform. The specifics — the pricing model, the built-in capabilities, the primitives named throughout — are Azure SRE...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Shamir_AbdulAziz"
+    },
     {
       "title": "Announcing Grafana 13 Support in Azure Managed Grafana",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-grafana-13-support-in-azure-managed-grafana/ba-p/4545199",
@@ -39,15 +48,6 @@
       "author": "NoaCafri"
     },
     {
-      "title": "Zero Ops: Agents Operate, Humans Govern",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/zero-ops-agents-operate-humans-govern/ba-p/4545151",
-      "published": "2026-08-07T19:18:40+00:00",
-      "summary": "A note on scope: the patterns in this guide apply to any agentic operations platform. The specifics — the pricing model, the built-in capabilities, the primitives named throughout — are Azure SRE Agent. Where something is a property of the product rather than a universal truth, it’s called out....",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Shamir_AbdulAziz"
-    },
-    {
       "title": "Expanding the Azure Local Security Ecosystem with IBM QRadar and Splunk",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/expanding-the-azure-local-security-ecosystem-with-ibm-qradar-and/ba-p/4535101",
       "published": "2026-08-07T18:00:00+00:00",
@@ -64,6 +64,24 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "Robert_Moriarty"
+    },
+    {
+      "title": "From Good to Great: We Put Agent Optimizer to the Test in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-good-to-great-we-put-agent-optimizer-to-the-test-in/ba-p/4543982",
+      "published": "2026-08-07T14:00:00+00:00",
+      "summary": "Authors: Abi Komma, Charles Kim, Luffy Chen, Morteza Ziyadi Why hand-tuning agents does not scale An agent’s behavior comes mostly from its natural-language configuration: its instructions, skills, and tool descriptions. Most teams tune that configuration by hand. You write the instruction, run...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "abikomma"
+    },
+    {
+      "title": "The Hidden Reason Your Foundry Agent Can't Reach Any of Your Private (Bring-Your-Own) Resources",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/the-hidden-reason-your-foundry-agent-can-t-reach-any-of-your/ba-p/4543619",
+      "published": "2026-08-07T14:00:00+00:00",
+      "summary": "The setup You've built the deployment the enterprise architecture review asked for. Nothing touches the public internet. Your Microsoft Foundry resource is private — public network access disabled, a private endpoint fronting it inside your virtual network. Every resource the agent depends on is...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "vishal_kalal"
     },
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
@@ -1353,15 +1371,6 @@
       "author": "Rafia_Aqil"
     },
     {
-      "title": "Answers You Can Trust: Grounding Enterprise Agents with Foundry IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/answers-you-can-trust-grounding-enterprise-agents-with-foundry/ba-p/4536594",
-      "published": "2026-07-15T20:00:00+00:00",
-      "summary": "Enterprise AI has a trust problem, and it is not about fluency. A model will answer almost any question with confidence, whether or not it actually knows. The moment a legal or support team catches it inventing a policy that does not exist, they stop trusting it for anything that matters. What...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Paulo_Lacerda"
-    },
-    {
       "title": "From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-policy-to-proof-governing-ai-to-scale-human-ambition-and/ba-p/4535137",
       "published": "2026-07-15T19:51:51+00:00",
@@ -1369,15 +1378,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "manasa_ramalinga"
-    },
-    {
-      "title": "Implementing Multi‑Agent Orchestration in Microsoft Copilot Studio",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/implementing-multi-agent-orchestration-in-microsoft-copilot/ba-p/4494717",
-      "published": "2026-07-15T18:35:54+00:00",
-      "summary": "As organizations move beyond simple Q&A copilots, a common challenge quickly emerges: single agents struggle to handle multi-step, cross-domain scenarios. In our work with customers using Microsoft Copilot Studio, this shows up when copilots are expected to combine reasoning, real-time data, and...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "LeoMa"
     },
     {
       "title": "MSSQL Extension for VS Code: Shortcuts Configuration, Enhanced Results Grid Experience, and More",
@@ -1666,78 +1666,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "David Paquette"
-    },
-    {
-      "title": "When Arc Goes Silent: Turning Visibility Gaps into SOC Action",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/when-arc-goes-silent-turning-visibility-gaps-into-soc-action/ba-p/4535711",
-      "published": "2026-07-10T12:07:15+00:00",
-      "summary": "Hybrid blind spots rarely announce themselves. They appear when an Azure Arc-enabled server drops out, health signals go stale, and the SOC loses confidence in monitoring coverage. This playbook uses Microsoft Sentinel and Logic Apps to turn that noise into one clear daily signal the team can act...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "absharan"
-    },
-    {
-      "title": "Stop Hand-Building VMs at 2 AM: Automated Image Pipelines with Azure Image Builder and Compute Gallery",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/stop-hand-building-vms-at-2-am-automated-image-pipelines-with/ba-p/4534213",
-      "published": "2026-07-10T07:00:00+00:00",
-      "summary": "Hello Folks! If you have ever stood up a marketplace Ubuntu VM, SSH’d in, layered on your monitoring agent, security tooling, a couple of CA certs, and a hardening script, then captured the result and called it your “golden image,” I have bad news. That image was already drifting from the next one...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Securing message brokers takes more than turning off public access",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/securing-message-brokers-takes-more-than-turning-off-public/ba-p/4533257",
-      "published": "2026-07-09T21:58:45+00:00",
-      "summary": "Over the last few years, enterprises have done the hard work of locking down their cloud networks. Public endpoints get switched off. Traffic moves onto private IPs inside a virtual network. Shared secrets get replaced with identities that can be governed and revoked. This is the practical shape of...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "EldertGrootenboer"
-    },
-    {
-      "title": "Azure DDoS Protection & Azure WAF: A Layered Defense for Modern DDoS Attacks",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-ddos-protection-azure-waf-a-layered-defense-for-modern/ba-p/4523745",
-      "published": "2026-07-09T21:33:51+00:00",
-      "summary": "Introduction: The Need for Layered DDoS Defense Organizations today operate in an environment where Distributed Denial of Service (DDoS) attacks continue to evolve across both network and application layers. To help organizations build resilient, internet-facing applications and services, Microsoft...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor"
-    },
-    {
-      "title": "Optimize Oracle workloads on Azure with Azure NetApp Files",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/optimize-oracle-workloads-on-azure-with-azure-netapp-files/ba-p/4532644",
-      "published": "2026-07-09T16:22:43+00:00",
-      "summary": "Table of Contents Introduction Azure NetApp Files Advancements Overview Azure NetApp Files Advancements in Detail Flexible service level capacity pools Oracle Direct NFS Application volume group for Oracle Availability zone volume placement High availability Standard network features Simplified...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "GeertVanTeylingen"
-    },
-    {
-      "title": "Plan for Upcoming Changes to Extended Security Updates on Azure Local",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/plan-for-upcoming-changes-to-extended-security-updates-on-azure/ba-p/4533167",
-      "published": "2026-07-09T16:08:31+00:00",
-      "summary": "Beginning April 1 2026, Microsoft introduced a consistent pricing model for Extended Security Updates (ESU) for SQL Server and Windows products, including SQL Server 2016, Windows 10 Enterprise LTSB 2016 and Windows Server 2016. This update aims to simplify the Extended Security Update pricing so...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "sydbruck"
-    },
-    {
-      "title": "Enhanced host pool management for Azure Virtual Desktop is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/enhanced-host-pool-management-for-azure-virtual-desktop-is-now/ba-p/4534612",
-      "published": "2026-07-09T16:00:00+00:00",
-      "summary": "We’re excited to announce the general availability of enhanced host pool management for Azure Virtual Desktop. Enhanced host pool management includes: Session host configuration and update Dynamic autoscale Ephemeral OS disks These features make it easier than ever to manage secure, reliable, and...",
-      "blog": "Azure Virtual Desktop",
-      "blogId": "azurevirtualdesktopblog",
-      "author": "NeoCai"
-    },
-    {
-      "title": "Designing for cloud sovereignty with Radius and Dapr",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/designing-for-cloud-sovereignty-with-radius-and-dapr/ba-p/4535067",
-      "published": "2026-07-09T15:53:32+00:00",
-      "summary": "In 2026, cloud sovereignty matters more than ever. It has moved from a policy discussion to an operational and architectural problem. The word “sovereignty” gets used loosely, and it can mean different things to different people. While definitions vary, in this post we define “cloud sovereignty” as...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "CollinBrian"
     }
   ]
 }
