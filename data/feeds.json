@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-09T12:45:04.024046+00:00",
-  "totalArticles": 185,
+  "lastUpdated": "2026-08-10T13:02:29.295932+00:00",
+  "totalArticles": 183,
   "articles": [
+    {
+      "title": "Introducing Microsoft IQ Live: A New Biweekly Series for Developers",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-microsoft-iq-live-a-new-biweekly-series-for/ba-p/4543480",
+      "published": "2026-08-10T04:30:00+00:00",
+      "summary": "From Deep Dive to Microsoft IQ Live The Microsoft IQ Deep Dive with Python has wrapped up, but our exploration of Microsoft IQ continues. You can revisit the IQ Deep Dive sessions and access the code, notebooks, and other developer resources at https://aka.ms/iqdeepdive. Microsoft IQ Live builds on...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "aycabas"
+    },
     {
       "title": "Zero Ops: Agents Operate, Humans Govern",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/zero-ops-agents-operate-humans-govern/ba-p/4545151",
@@ -1639,33 +1648,6 @@
       "blog": "AKS Blog",
       "blogId": "aksblog",
       "author": "Microsoft"
-    },
-    {
-      "title": "Azure Front Door: Resiliency Series – Part 3: Tenant isolation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-front-door-resiliency-series-part-3-tenant-isolation/ba-p/4535866",
-      "published": "2026-07-10T22:08:29+00:00",
-      "summary": "Abhishek Tiwari, Vice President of Engineering, Azure NetworkingAmit Srivastava, Partner Director of PM, Azure NetworkingVarun Chawla, Partner Director of Engineering, Azure Networking Azure Front Door serves hundreds of thousands of tenants from hundreds of edge locations, densely sharing the...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "AbhishekTiwari"
-    },
-    {
-      "title": "Welcome Back to AZ Update",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/welcome-back-to-az-update/ba-p/4535872",
-      "published": "2026-07-10T20:20:19+00:00",
-      "summary": "Hello Folks!Welcome Back to AZ Update A few years ago, Antony Bartolo and I launched a simple idea called AZ Update. The goal was to provide a place where IT professionals could quickly understand what was changing in Azure, why it mattered, and what they should pay attention to next. The show...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Shrinking Azure Pipeline task extensions using esbuild",
-      "link": "https://devblogs.microsoft.com/devops/shrinking-azure-pipeline-task-extensions-using-esbuild/",
-      "published": "2026-07-10T14:45:56+00:00",
-      "summary": "TL;DR We bundled an internal Azure Pipelines task extension into a single bundled JavaScript file using esbuild. The task package dropped from tens of megabytes and thousands of files to three files per task ( script.js , task.json , and icon.png ). The change took about 20 lines of build tooling....",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "David Paquette"
     }
   ]
 }
