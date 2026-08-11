@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-08-10T13:02:29.295932+00:00",
-  "totalArticles": 183,
+  "lastUpdated": "2026-08-11T12:59:03.663747+00:00",
+  "totalArticles": 189,
   "articles": [
+    {
+      "title": "Operating Azure Backup at Scale: Day-2 Excellence for IaaS, PaaS, and Storage Workloads",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/operating-azure-backup-at-scale-day-2-excellence-for-iaas-paas/ba-p/4545638",
+      "published": "2026-08-11T07:00:00+00:00",
+      "summary": "Hello Folks! If you have ever inherited a sprawling Azure environment and quietly wondered whether every VM, database, AKS cluster, and storage account in it is actually being backed up the way the business thinks it is, you are in good company. In session this session of the Microsoft Azure Infra...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "Vector search finds candidates. Reranking decides what your RAG app reads",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/vector-search-finds-candidates-reranking-decides-what-your-rag/ba-p/4543923",
+      "published": "2026-08-11T05:00:00+00:00",
+      "summary": "You ask a retrieval-augmented generation (RAG) application a question. Vector search returns ten passages that are clearly related to the topic. The passage that actually contains the answer, however, is ranked seventh, while the language model receives only the first five. Retrieval did not...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Paul_VicenteH"
+    },
+    {
+      "title": "Build Locally, Ship to Cloud for $0: Azure SQL for Modern App Developers",
+      "link": "https://devblogs.microsoft.com/azure-sql/build-locally-ship-to-cloud-for-0-azure-sql-for-modern-app-developers/",
+      "published": "2026-08-10T21:35:53+00:00",
+      "summary": "As app developers, our primary focus is building great user experiences, designing APIs, and shipping features quickly. What we don’t want is database friction—wasting hours configuring local DB instances, writing verbose migration scripts by hand, or worrying about unexpected cloud bills while...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Vandana Mahtani, Andrew Carter"
+    },
+    {
+      "title": "Intelligent Terminal 0.2 is here with local model support",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-is-here-with-local-model-support/",
+      "published": "2026-08-10T19:00:01+00:00",
+      "summary": "We’re back, and this is our first minor version bump: 0.1 to 0.2! It’s our biggest release yet. This update adds support for local models, lets you run a different agent in each tab with /agent, brings OpenCode into the built-in agent lineup, runs your agent inside WSL where your work actually...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani"
+    },
+    {
+      "title": "GitHub Admin UI + Billing API: Better together for smarter spend decisions",
+      "link": "https://dev.to/azure/github-admin-ui-billing-api-better-together-for-smarter-spend-decisions-3lp5",
+      "published": "2026-08-10T14:42:20+00:00",
+      "summary": "As a GitHub administrator, you already have a strong place to start when somebody asks, “Why did our AI spend go up?” In Metered usage, you can see the change, choose the period, and group the data by organization or cost center. That first investigation often leads to questions that are specific...",
+      "blog": "Dev.to Azure",
+      "blogId": "devtoazure",
+      "author": "Chris Noring"
+    },
+    {
+      "title": "I Enabled RBAC and Everything Broke. What Did I Do Wrong?",
+      "link": "https://devblogs.microsoft.com/cosmosdb/i-enabled-rbac-and-everything-broke-what-did-i-do-wrong/",
+      "published": "2026-08-10T07:01:03+00:00",
+      "summary": "We covered the roles your Azure Cosmos DB app needs in our previous post. Now let’s look at what happens after you’ve assigned those roles, switched identities, disabled keys and suddenly staring at a 403. As we continue this security series, we’ll walk through the most common causes, how to...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sudhanshu Khera, Iria Osara"
+    },
+    {
+      "title": "A simpler way to deploy ZIP packages to Azure App Service from the Azure portal",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-simpler-way-to-deploy-zip-packages-to-azure-app-service-from/ba-p/4545430",
+      "published": "2026-08-10T06:42:46+00:00",
+      "summary": "We recently introduced a simpler way to deploy applications to Azure App Service for Linux by uploading a ZIP package through Kudu. The experience lets you review the package contents, choose whether to run a server-side build, and follow the deployment through its different stages. This capability...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "TulikaC"
+    },
     {
       "title": "Introducing Microsoft IQ Live: A New Biweekly Series for Developers",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-microsoft-iq-live-a-new-biweekly-series-for/ba-p/4543480",
@@ -330,7 +393,7 @@
       "title": "Building an operations assistant on Azure that waits for approval before it acts",
       "link": "https://devblogs.microsoft.com/all-things-azure/building-an-operations-assistant-on-azure-that-waits-for-approval-before-it-acts/",
       "published": "2026-08-03T21:15:38+00:00",
-      "summary": "Grounding an assistant in runbooks is the easy half. The interesting engineering is in the boundary between what a model proposes and what an authenticated person actually authorizes. An operations assistant stops being a demo the moment it can act. Answering “which runbook covers this alert” is a...",
+      "summary": "Grounding an assistant in runbooks is straightforward. The harder part begins when the model proposes an action that requires authorization. An operations assistant needs stronger controls as soon as it can act. Answering “which runbook covers this alert” is a search problem. Opening an incident...",
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
       "author": "Ricardo M. Martins"
@@ -1621,15 +1684,6 @@
       "blog": "ITOpsTalk",
       "blogId": "itopstalkblog",
       "author": "Pierre_Roman"
-    },
-    {
-      "title": "Optimizing GitHub Copilot Cost in the Usage-Based Billing Era",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/optimizing-github-copilot-cost-in-the-usage-based-billing-era/ba-p/4534186",
-      "published": "2026-07-13T04:15:00+00:00",
-      "summary": "GitHub Copilot has become a core part of the modern developer workflow. We use it to complete code, explain unfamiliar repositories, write tests, refactor legacy applications, review pull requests, generate documentation, and automate repetitive engineering work. But as GitHub Copilot moves further...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "ellisd4"
     },
     {
       "title": "The AI Agent Lifecycle: A Simple Guide",
