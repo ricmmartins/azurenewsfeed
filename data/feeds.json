@@ -1,7 +1,124 @@
 {
-  "lastUpdated": "2026-08-11T12:59:03.663747+00:00",
-  "totalArticles": 189,
+  "lastUpdated": "2026-08-12T13:03:51.644142+00:00",
+  "totalArticles": 195,
   "articles": [
+    {
+      "title": "Azure Monitor Auxiliary Logs expands with Azure tables support, plan switching, and sovereign clouds",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-auxiliary-logs-expands-with-azure-tables-support/ba-p/4525206",
+      "published": "2026-08-12T09:08:22+00:00",
+      "summary": "Three long-standing customer requests for the Auxiliary table plan in Log Analytics are now generally available: Azure table support. Auxiliary now covers a subset of standard Azure tables, selected by ingestion pattern, in addition to DCR-based custom tables (_CL). In-place plan switching. You can...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "AdiBiran"
+    },
+    {
+      "title": "Building Autonomous Agents with Microsoft Agent Framework and GitHub Copilot SDK Part 2/5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-autonomous-agents-with-microsoft-agent-framework-and/ba-p/4541924",
+      "published": "2026-08-12T07:00:00+00:00",
+      "summary": "This is the second post in our series on the Microsoft agent platform. Here we dive deep into building autonomous agents, the development experience, the Microsoft Agent Framework, tool design patterns, and how the GitHub Copilot SDK brings conversational AI to your agent system. All examples...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Container Network Insights Agent (CNIA): Your AI Teammate for AKS Networking Incidents",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/container-network-insights-agent-cnia-your-ai-teammate-for-aks/ba-p/4545971",
+      "published": "2026-08-12T07:00:00+00:00",
+      "summary": "Hello Folks! If you run AKS in production, you already know the script. A pod cannot reach an external service, every dashboard says the cluster is healthy, and somebody is SSHing into a node with five browser tabs open trying to piece the story together. This session from the Microsoft Azure Infra...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "Azure Developer CLI extension framework is GA: build dev workflows for apps using Azure",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azd-extension-framework-ga/",
+      "published": "2026-08-11T21:57:59+00:00",
+      "summary": "What parts of building and shipping on Azure still take too many steps? Maybe you want a command that starts a project with your organization’s approved architecture and infrastructure. Maybe you need to connect deployments to an internal service catalog, run security checks before provisioning, or...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack"
+    },
+    {
+      "title": "Reliability Starter Kit: SLIs, Health models, and SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/reliability-starter-kit-slis-health-models-and-sre-agent/ba-p/4545733",
+      "published": "2026-08-11T21:36:56+00:00",
+      "summary": "TL;DR This walkthrough uses a small e-commerce demo app to show how Azure Monitor can measure a user journey with service level indicators (SLIs) and service level objectives (SLOs), roll those results into a health model, and have the Azure SRE Agent investigate the alert. When the demo...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "varghesejoji"
+    },
+    {
+      "title": "August Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-4/",
+      "published": "2026-08-11T20:44:54+00:00",
+      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales"
+    },
+    {
+      "title": "GitHub Admin UI + Billing API: Better together for smarter spend decisions",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/github-admin-ui-billing-api-better-together-for-smarter-spend/ba-p/4545682",
+      "published": "2026-08-11T20:31:27+00:00",
+      "summary": "As a GitHub administrator, you already have a strong place to start when somebody asks, “Why did our AI spend go up?” In Metered usage, you can see the change, choose the period, and group the data by organization or cost center. That first investigation often leads to questions that are specific...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Chris_Noring"
+    },
+    {
+      "title": "From Azure Container Apps to Microsoft Foundry: building and evaluating a Patch Tuesday MCP server",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-azure-container-apps-to-microsoft-foundry-building-and/ba-p/4541630",
+      "published": "2026-08-11T18:53:19+00:00",
+      "summary": "**Disclaimer:** This is an independent, self-built project and is not an official Microsoft tool or service. It reads public security-update data and is intended as an educational example of building an MCP server, hosting it responsibly on Azure, and evaluating an agent workflow with Microsoft...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "JonButler"
+    },
+    {
+      "title": "Today I will… manage Git Submodules without leaving the IDE",
+      "link": "https://devblogs.microsoft.com/visualstudio/managing-git-submodules-without-leaving-the-ide/",
+      "published": "2026-08-11T17:05:31+00:00",
+      "summary": "If you’ve worked with Git submodules for any length of time, you probably have a love-hate relationship with them. They’re genuinely useful for pulling a shared library, an SDK, or common build scripts into your project. But actually working with them usually means tabbing over to a terminal and...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Harshada Hole"
+    },
+    {
+      "title": "What the New API Management AI Gateway Tier Changes for App Service-Hosted Agents",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-the-new-api-management-ai-gateway-tier-changes-for-app/ba-p/4543974",
+      "published": "2026-08-11T16:39:41+00:00",
+      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. The agent framework was replaceable; the gateway was the contribution. APIM handled model access, token limits, semantic caching, token metrics, and the MCP traffic contract. I followed...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
+      "title": "Azure Container Apps Sandboxes (Preview): Giving AI Agents a Safe Place to Work",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-preview-giving-ai-agents-a-safe/ba-p/4545975",
+      "published": "2026-08-11T16:05:08+00:00",
+      "summary": "Co-written by Nikoloz Buligini, Front End Developer at Templafy, and Jan Kalis, Azure Container Apps Sandboxes, Core AI, Microsoft Every team building with multi-tenant AI agent platforms hits the same wall. The agent is smart enough to read your code, reason about a bug, and propose a fix. But the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Jan-Kalis"
+    },
+    {
+      "title": "Building Microsoft Sentinel Connectors in Minutes with the Sentinel Connector Builder Agent",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/building-microsoft-sentinel-connectors-in-minutes-with-the/ba-p/4544378",
+      "published": "2026-08-11T16:00:00+00:00",
+      "summary": "Overview We previously announced the public preview of the Microsoft Sentinel connector builder agent via VS code extension, that helps developers build Microsoft Sentinel codeless connectors faster with low-code and AI-assisted prompts. This post walks through a hands-on lab using a mock Network...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Robert_Moriarty"
+    },
+    {
+      "title": "Accelerate Inference on AKS with Azure Blob Storage and NVIDIA Dynamo",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/accelerate-inference-on-aks-with-azure-blob-storage-and-nvidia/ba-p/4543408",
+      "published": "2026-08-11T15:00:00+00:00",
+      "summary": "As agents generate more tokens and use longer context windows, AI platforms must reduce cost per token and optimize inference performance across every layer of the stack. With new native integrations between Azure Blob Storage and the NVIDIA Dynamo stack, users can now combine the scalability,...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "Vishnu Charan TJ"
+    },
     {
       "title": "Operating Azure Backup at Scale: Day-2 Excellence for IaaS, PaaS, and Storage Workloads",
       "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/operating-azure-backup-at-scale-day-2-excellence-for-iaas-paas/ba-p/4545638",
@@ -1398,15 +1515,6 @@
       "author": "Ruben Rios"
     },
     {
-      "title": "Choose the right speech and voice model",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choose-the-right-speech-and-voice-model/ba-p/4533856",
-      "published": "2026-07-16T14:00:00+00:00",
-      "summary": "Choose the right speech and voice model in Microsoft Foundry The practical approach to selecting the right model is simple: do not ask which speech model is best. Ask what the speech system must guarantee. Once you know whether the job is conversation, translation, transcription, diarization,...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Anil_Korkut"
-    },
-    {
       "title": "Understanding billing for the Azure Copilot Observability Agent",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/understanding-billing-for-the-azure-copilot-observability-agent/ba-p/4537780",
       "published": "2026-07-16T13:15:47+00:00",
@@ -1605,15 +1713,6 @@
       "author": "Pierre_Roman"
     },
     {
-      "title": "From Multi-Model Chaos to a Governed AI Gateway: Cost Optimization on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-multi-model-chaos-to-a-governed-ai-gateway-cost/ba-p/4531729",
-      "published": "2026-07-14T04:15:00+00:00",
-      "summary": "What is Multi-Model Chaos, and what cost and security challenges does it pose? Multi-model chaos describes the sprawl that emerges when an organization rapidly adopts many large language and foundation models—OpenAI, Anthropic, Meta Llama, Mistral, and a long tail of open-source and fine-tuned...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "jisunchoi"
-    },
-    {
       "title": "The Visual Studio Dev/Test Benefit: Freedom to Build, Test, and Experiment in Azure",
       "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-dev-test-benefit-freedom-to-build-test-and-experiment-in-azure/",
       "published": "2026-07-13T22:21:36+00:00",
@@ -1657,51 +1756,6 @@
       "blog": "Messaging on Azure",
       "blogId": "messagingonazureblog",
       "author": "EldertGrootenboer"
-    },
-    {
-      "title": "Creating Autonomous Teams Agents Using OpenClaw, MCP, and Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/creating-autonomous-teams-agents-using-openclaw-mcp-and-azure/ba-p/4536296",
-      "published": "2026-07-13T07:39:45+00:00",
-      "summary": "The one shift that changes everything For two years, \"AI coding\" meant autocomplete. A suggestion appears in your editor, you hit tab, you move on. The agent only existed while you were actively typing. That is no longer the only model. A new category of tools runs asynchronously and autonomously:...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "Secure Native Access to Azure Kubernetes Service (AKS) Private Clusters with Azure Bastion",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/secure-native-access-to-azure-kubernetes-service-aks-private/ba-p/4535123",
-      "published": "2026-07-13T07:37:52+00:00",
-      "summary": "Written in Collaboration with AvirupChat​ ShabazShaik​ Mohit_Kumar​ YuriDiogenes​ Introduction: As organizations move toward containerized workloads such as Azure Kubernetes Service (AKS), secure access to cluster resources becomes critical. Making the Kubernetes API server private, therefore,...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor"
-    },
-    {
-      "title": "Build and Optimize a Data Lakehouse for Unified Data Intelligence",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/build-and-optimize-a-data-lakehouse-for-unified-data/ba-p/4534535",
-      "published": "2026-07-13T07:00:00+00:00",
-      "summary": "Hello Folks! Welcome back to the ITOpsTalk Blog and the Microsoft Azure Infrastructure Summit 2026 series. In this session James Baker and Sai Runtham, both from the Azure Data Lake Storage product team, take us through what a modern Lakehouse actually is, how to design one on Azure, and then they...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "The AI Agent Lifecycle: A Simple Guide",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/the-ai-agent-lifecycle-a-simple-guide/ba-p/4535729",
-      "published": "2026-07-13T00:52:49+00:00",
-      "summary": "The Bigger Picture Building an AI agent is fundamentally different from building traditional software. With a website or application, teams typically design, develop, test, and release. Once deployed, the focus shifts primarily to maintenance and feature enhancements. AI agents operate differently....",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "supriyas"
-    },
-    {
-      "title": "Stream Model Weights to NVIDIA GPU (vLLM) from Azure Blob Storage using the RunAI Model Streamer",
-      "link": "https://blog.aks.azure.com/2026/07/13/runai-streamer-vllm",
-      "published": "2026-07-13T00:00:00+00:00",
-      "summary": "Stream LLM Model Weights to NVIDIA GPU running vLLM directly from Azure Blob Storage on AKS using the RunAI Model Streamer to cut cold starts and speed up autoscaling.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
     }
   ]
 }
