@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-08-12T13:03:51.644142+00:00",
-  "totalArticles": 195,
+  "lastUpdated": "2026-08-13T13:04:52.212710+00:00",
+  "totalArticles": 194,
   "articles": [
+    {
+      "title": "Resilient Azure Platforms: Durable Functions, Cosmos DB, and DR by Design",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/resilient-azure-platforms-durable-functions-cosmos-db-and-dr-by/ba-p/4546001",
+      "published": "2026-08-13T07:00:00+00:00",
+      "summary": "Hello Folks! Operating at Azure scale means managing change across multiple interconnected systems. As applications, services, and dependencies evolve, resilience becomes a foundational design principle rather than an afterthought. In this Microsoft Azure Infra Summit 2026 session, Bhavana...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "Pierre_Roman"
+    },
+    {
+      "title": "From Silicon to Systems: Bending the Cost and Complexity Curves of AI",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-silicon-to-systems-bending-the-cost-and-complexity-curves/ba-p/4545207",
+      "published": "2026-08-13T06:02:36+00:00",
+      "summary": "The next era of AI infrastructure will be defined not by a single breakthrough, but by how well we co-design every layer—from models and software to silicon, servers, racks and datacenters. At the Open Compute Project Asia Pacific Summit, we are proud to share the latest community innovations that...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ceciliaxia"
+    },
+    {
+      "title": "Add AI to the workflows you already have using Serverless Agents in Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/add-ai-to-the-workflows-you-already-have-using-serverless-agents/ba-p/4544824",
+      "published": "2026-08-12T22:51:34+00:00",
+      "summary": "There are a lot of ways to build with AI right now: chat frontends, copilots, greenfield agent apps, orchestration frameworks. All of them have their place, and some customers are building entirely new applications this way. But across customer engagements, a consistent pattern has emerged: the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Anirudh Garg"
+    },
+    {
+      "title": "Governing a Risk Operations Agent with the Microsoft Agent Framework Harness and AGT",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/governing-a-risk-operations-agent-with-the-microsoft-agent/ba-p/4546425",
+      "published": "2026-08-12T21:00:13+00:00",
+      "summary": "Introduction I hope you have already found Auditing and Telemetry for the Agent Governance Toolkit - Getting Started with .NET Core. This article demonstrates how you can leverage the Agent Governance Toolkit practically. This time, I'll take it a step further and combine the Microsoft Agent...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "daisami"
+    },
+    {
+      "title": "From Sync APIs to support for the GPT-5 model series and agentic workflows: What’s new in Azure Content Understanding – August 2026",
+      "link": "https://devblogs.microsoft.com/foundry/azure-content-understanding-updates-august-2026/",
+      "published": "2026-08-12T18:43:01+00:00",
+      "summary": "Enterprise content is no longer just something people read. AI apps and agents are only as useful as the information they can understand, yet much of the world’s enterprise knowledge is locked in documents, forms, tables, images, audio, and video. The latest Azure Content Understanding updates help...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Peyton Fraser, Krishnakumar Muthukrishnan, Joe Filcik"
+    },
+    {
+      "title": "Azure Content Understanding GPT-5 Series Guide: Model Selection, Grounding Improvements, and Confidence Enhancements",
+      "link": "https://devblogs.microsoft.com/foundry/azure-content-understanding-gpt-5-series-guide-model-selection-grounding-improvements-and-confidence-enhancements/",
+      "published": "2026-08-12T18:42:25+00:00",
+      "summary": "Enterprise content is no longer just something people consume. As organizations increasingly rely on AI to extract and act on information from documents, images, audio, and video, Azure Content Understanding is expanding support for the GPT-5 series and improving grounding and confidence to deliver...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Joe Filcik, Krishnakumar Muthukrishnan"
+    },
+    {
+      "title": "Understanding GitHub Billing and management: from licenses to fair AI credit controls",
+      "link": "https://dev.to/azure/understanding-github-billing-and-management-from-licenses-to-fair-ai-credit-controls-1hli",
+      "published": "2026-08-12T13:40:44+00:00",
+      "summary": "Buying GitHub Copilot licenses is only the beginning of the governance story. The licenses are purchased centrally, but administrators still need to decide who receives a seat, how usage is attributed to the right part of the business, and what happens when included AI credits run out. Those...",
+      "blog": "Dev.to Azure",
+      "blogId": "devtoazure",
+      "author": "Chris Noring"
+    },
     {
       "title": "Azure Monitor Auxiliary Logs expands with Azure tables support, plan switching, and sovereign clouds",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-auxiliary-logs-expands-with-azure-tables-support/ba-p/4525206",
@@ -969,7 +1032,7 @@
       "title": "Turning surprise AI bills into accountable growth with GitHub Billing Controls",
       "link": "https://dev.to/azure/turning-surprise-ai-bills-into-accountable-growth-4343",
       "published": "2026-07-27T18:44:11+00:00",
-      "summary": "This is a story of how you receive a higher bill than expected and how GitHub's Billing Controls help clarity and predictability. Let's begin our story. Confusion: The bill is higher than expected The AI bill is higher than expected. Now what? Finance wants to understand what is driving the cost....",
+      "summary": "This is a story of how you receive a higher bill than expected and how GitHub's Billing Controls help clarity and predictability. Let's begin our story. Series This is part of a series on GitHub Admin and billing controls. Managing surprise bills, you're here Better together: GitHub Admin UI +...",
       "blog": "Dev.to Azure",
       "blogId": "devtoazure",
       "author": "Chris Noring"
@@ -1684,78 +1747,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "arturoqu"
-    },
-    {
-      "title": "From AI Adoption to AI Governance - Using APIM as the Gateway for Azure AI Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/from-ai-adoption-to-ai-governance-using-apim-as-the-gateway-for/ba-p/4536247",
-      "published": "2026-07-14T08:19:35+00:00",
-      "summary": "Co-authored by Gaurav Jain (Senior Cloud Solution Architect @ Microsoft) and Abhishek Mittal (Cloud Solution Architect @ Microsoft) Enterprises move through three phases of AI adoption: evaluating models, building apps and agents, and operationalizing them in production. The first two are easier to...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Abhishek_Mittal"
-    },
-    {
-      "title": "Building AI Agents from Zero to Production",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-ai-agents-from-zero-to-production/ba-p/4536529",
-      "published": "2026-07-14T07:00:00+00:00",
-      "summary": "Building AI Agents from Zero to Production Most agent demos stop at \"it answered my question.\" Production doesn't. The gap between a notebook that calls an LLM and a governed, observable, multi-agent system your organisation can actually depend on is where real engineering happens, evaluation,...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
-      "title": "Moving Petabytes Without the Panic: At-Scale Storage Assessments and Migrations to Azure",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/moving-petabytes-without-the-panic-at-scale-storage-assessments/ba-p/4534543",
-      "published": "2026-07-14T07:00:00+00:00",
-      "summary": "Hello Folks! If you have ever been asked to move all our file shares to the cloud ASAP. You already know that storage migration is one of those projects that looks easy on a slide and gets ugly in reality. In this session at the Microsoft Azure Infra Summit 2026, Anusha Subramanian and Madhuri...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "The Visual Studio Dev/Test Benefit: Freedom to Build, Test, and Experiment in Azure",
-      "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-dev-test-benefit-freedom-to-build-test-and-experiment-in-azure/",
-      "published": "2026-07-13T22:21:36+00:00",
-      "summary": "One of the best parts of a Visual Studio Subscription is discovering benefits that can make your day-to-day development work easier and more cost effective. One benefit that deserves more attention is Azure Dev/Test pricing. In fact, it’s one of the most valuable benefits included with a Visual...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "James Rempt"
-    },
-    {
-      "title": "Check This Out! (CTO!) Guide (July 2026)",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/check-this-out-cto-guide-july-2026/ba-p/4536608",
-      "published": "2026-07-13T20:50:04+00:00",
-      "summary": "Member: TysonPaul | Microsoft Community Hub Triage vulnerabilities with the Vulnerability Remediation Agent, now in public preview Team Blog: Intune Customer Success Author: Intune_Support_Team Published: 06/16/2026 Summary: Microsoft has launched the Vulnerability Remediation Agent for Security...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "TysonPaul"
-    },
-    {
-      "title": "Upcoming Changes to Azure Relay IP Addresses and DNS Support",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/upcoming-changes-to-azure-relay-ip-addresses-and-dns-support/ba-p/4463597",
-      "published": "2026-07-13T20:04:04+00:00",
-      "summary": "Azure Relay is an integral part of modern hybrid cloud architectures, enabling seamless connectivity between on-premises and cloud resources. To ensure continued reliability and security, Microsoft is implementing important updates to the IP addresses and DNS naming conventions used by Azure Relay...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "ashish-chhabria"
-    },
-    {
-      "title": "Building toward an Agentic SOC: A Portable, Autonomous Malware Investigation Agent",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/building-toward-an-agentic-soc-a-portable-autonomous-malware/ba-p/4526872",
-      "published": "2026-07-13T19:09:25+00:00",
-      "summary": "Modern Security Operations Centers are not short on tools. They are short on continuity. Analysts jump from alert consoles to data exploration, from enrichment to investigation, and from evidence gathering to response—often across multiple interfaces and disconnected workflows. A single malware...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "absharan"
-    },
-    {
-      "title": "A message broker is only as reliable as the layer you stopped at",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/a-message-broker-is-only-as-reliable-as-the-layer-you-stopped-at/ba-p/4533259",
-      "published": "2026-07-13T14:00:00+00:00",
-      "summary": "Reliability is easy to reduce to a single number. You find the SLA, you put it on a slide, and you move on. But a service-level agreement describes an outcome, not the set of decisions that produce it. The same Azure Service Bus namespace can keep running when a single server fails, survive the...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "EldertGrootenboer"
     }
   ]
 }
