@@ -1,7 +1,115 @@
 {
-  "lastUpdated": "2026-08-13T13:04:52.212710+00:00",
+  "lastUpdated": "2026-08-14T13:01:00.951320+00:00",
   "totalArticles": 194,
   "articles": [
+    {
+      "title": "Running Hosted Agents in Microsoft Foundry Agent Service Part 3/5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/running-hosted-agents-in-microsoft-foundry-agent-service-part-3/ba-p/4541933",
+      "published": "2026-08-14T07:00:00+00:00",
+      "summary": "This is the third post in our series on the Microsoft agent platform. We focus on the Run in Foundry pillar, taking agents from development to production with Hosted Agents, the Agent Optimizer, Routines, Memory, Toolboxes, and Tracing. All examples reference the FibreOps repository, demonstrated...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Git-APE SaaS Factory",
+      "link": "https://devblogs.microsoft.com/all-things-azure/git-ape-saas-factory/",
+      "published": "2026-08-14T05:29:31+00:00",
+      "summary": "Agentic Platform Engineering for SaaS. Accelerating the Path to Market with Git-APE If you are an ISV building SaaS on Azure, the first demo is usually the easy part. The harder work is turning that proof of concept into a secure, scalable, commercial-ready service that can be operated confidently...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "davidwright, Arnaud Lheureux, Suzanne Daniels"
+    },
+    {
+      "title": "Tableau to Power BI Migration: Semantic Layer-First Approach for Cloud Architects",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/tableau-to-power-bi-migration-semantic-layer-first-approach-for/ba-p/4481009",
+      "published": "2026-08-14T04:27:25+00:00",
+      "summary": "Author's: Mahjabin Ahmed, Yassine El Ouardi, Lavanya Sreedhar LavanyaSreedhar​, Peter Lo PeterLo​, Aryan Anmol aryananmol​, Shreya Harvu shreyaharvu​ and Rafia Aqil Rafia_Aqil​ In this guide, we provide practical guidance for migrating from Tableau to Power BI, with a focus on technical best...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
+      "published": "2026-08-14T00:55:27+00:00",
+      "summary": "Microsoft's Cloud Architects: Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not an Azure Databricks product issue. Azure Databricks does not own or reserve compute, it dynamically...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Update WCF Relay applications to use TLS 1.2 or later",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/update-wcf-relay-applications-to-use-tls-1-2-or-later/ba-p/4544418",
+      "published": "2026-08-14T00:30:56+00:00",
+      "summary": "WCF Relay listeners that still negotiate TLS 1.0 can stop passing traffic through Azure Relay. The symptom appears on the sender, which connected successfully before and now fails every call with System.ServiceModel.EndpointNotFoundException: None of the connected listeners accepted the connection...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer"
+    },
+    {
+      "title": "From Silicon to Systems: Bending the Cost and Complexity Curves of AI",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-silicon-to-systems-bending-the-cost-and-complexity-curves/ba-p/4545207",
+      "published": "2026-08-13T23:06:16+00:00",
+      "summary": "The next era of AI infrastructure will be defined not by a single breakthrough, but by how well we co-design every layer—from models and software to silicon, servers, racks and datacenters. At the Open Compute Project Asia Pacific Summit, we are proud to share the latest community innovations that...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ceciliaxia"
+    },
+    {
+      "title": "From Features to Flow: How Real-World Adoption Reshaped the Azure Architecture Diagram Builder",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-features-to-flow-how-real-world-adoption-reshaped-the-azure/ba-p/4546817",
+      "published": "2026-08-13T22:10:46+00:00",
+      "summary": "In May, I introduced the open-source Azure Architecture Diagram Builder as a way to move from a natural-language prompt to an Azure architecture diagram, cost estimate, Well-Architected assessment, and deployment guidance. In July, I shared how the project had become agent-ready through Model...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "arturoqu"
+    },
+    {
+      "title": "Your best friend: BlockOnPossibleDataLoss=True",
+      "link": "https://devblogs.microsoft.com/azure-sql/blockonpossibledataloss/",
+      "published": "2026-08-13T19:25:40+00:00",
+      "summary": "BlockOnPossibleDataLoss can frustrate developers, but it's one of the most important safeguards in database deployment. Here's how to keep your local development loop fast while protecting the data that matters. The post Your best friend: BlockOnPossibleDataLoss=True appeared first on Azure SQL Dev...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon"
+    },
+    {
+      "title": "Monitoring Azure Service Fabric with Azure Managed Grafana",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/monitoring-azure-service-fabric-with-azure-managed-grafana/ba-p/4546439",
+      "published": "2026-08-13T18:44:37+00:00",
+      "summary": "1. Why integrate Grafana with Service Fabric? Scope: this walkthrough covers a classic, VMSS-backed Service Fabric cluster running Windows. Service Fabric managed clusters (SFMC) use managed node types instead of VM scale sets, but the same AMA + DCR + Grafana pattern applies once AMA is installed...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "Ahmed_Khaled"
+    },
+    {
+      "title": "MCP Community Connect: Bringing the MCP ecosystem together",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-community-connect-bringing-the-mcp-ecosystem-together/ba-p/4537839",
+      "published": "2026-08-13T16:32:21+00:00",
+      "summary": "There is a quiet standardization happening underneath the AI agent boom, and it has a name: the Model Context Protocol (MCP). If you build agents, wire tools into coding agents, or ship anything that lets a language model act on the real world, MCP is fast becoming the layer you cannot ignore. That...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Introducing dependency telemetry in Application Insights for Azure API Management policies",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-dependency-telemetry-in-application-insights-for/ba-p/4545504",
+      "published": "2026-08-13T15:00:02+00:00",
+      "summary": "Running A(P)I platforms at-scale is not a walk in the park – As traffic flows through the system, it needs handle the load and provide insights on where the inefficiencies are. Finding the needle in a haystack Azure API Management provides a broad set of observability capabilities across its...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "tomkerkhovemicrosoft"
+    },
+    {
+      "title": "When AI Agents Fail: Engineering Reliable Recovery with Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-ai-agents-fail-engineering-reliable-recovery-with-microsoft/ba-p/4546388",
+      "published": "2026-08-13T14:00:00+00:00",
+      "summary": "Introduction: The Failure That Demos Do Not Show A user asks an AI agent a simple question: \"Create a procurement request for 10 laptops for the new project team.\" The agent does what it was designed to do. It checks the procurement policy. It verifies budget availability. It calls the procurement...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "PavanKalyanChilakalapalli"
+    },
     {
       "title": "Resilient Azure Platforms: Durable Functions, Cosmos DB, and DR by Design",
       "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/resilient-azure-platforms-durable-functions-cosmos-db-and-dr-by/ba-p/4546001",
@@ -12,13 +120,13 @@
       "author": "Pierre_Roman"
     },
     {
-      "title": "From Silicon to Systems: Bending the Cost and Complexity Curves of AI",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-silicon-to-systems-bending-the-cost-and-complexity-curves/ba-p/4545207",
-      "published": "2026-08-13T06:02:36+00:00",
-      "summary": "The next era of AI infrastructure will be defined not by a single breakthrough, but by how well we co-design every layer—from models and software to silicon, servers, racks and datacenters. At the Open Compute Project Asia Pacific Summit, we are proud to share the latest community innovations that...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ceciliaxia"
+      "title": "Building MCP servers for your database: Flexibility, safety, and tradeoffs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-mcp-servers-for-your-database-flexibility-safety-and/ba-p/4546385",
+      "published": "2026-08-13T04:30:00+00:00",
+      "summary": "Model Context Protocol (MCP) is an open protocol that describes how agents can connect to external tools and data sources, and is now widely supported by the most popular coding agents (like GitHub Copilot, Claude Code, and Codex) and agent frameworks (like LangChain and Pydantic AI). If you want...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox"
     },
     {
       "title": "Add AI to the workflows you already have using Serverless Agents in Azure Functions",
@@ -55,6 +163,15 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Joe Filcik, Krishnakumar Muthukrishnan"
+    },
+    {
+      "title": "Azure Content Understanding announces Synchronous Operations",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/azure-content-understanding-announces-synchronous-operations/ba-p/4544475",
+      "published": "2026-08-12T14:00:00+00:00",
+      "summary": "Workflow automation scenarios—including grounding AI agents, verifying identities, assisting customers with documents in call centers, and triggering document-based workflows—depend on immediate content processing, where every second matters. Now in public preview, synchronous Read, Layout, and...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Krishna_Doss"
     },
     {
       "title": "Understanding GitHub Billing and management: from licenses to fair AI credit controls",
@@ -424,15 +541,6 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "austin-ma"
-    },
-    {
-      "title": "Update WCF Relay applications to use TLS 1.2 or later",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/update-wcf-relay-applications-to-use-tls-1-2-or-later/ba-p/4544418",
-      "published": "2026-08-05T21:00:00+00:00",
-      "summary": "WCF Relay listeners that still negotiate TLS 1.0 can fail to connect through Azure Relay. The symptom appears on the sender, which connected successfully before and now fails every call with System.ServiceModel.EndpointNotFoundException: no connected listeners accepted the connection within...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "EldertGrootenboer"
     },
     {
       "title": "Exploring Multi-Agent Workflows with Microsoft Agent Framework",
@@ -1065,15 +1173,6 @@
       "author": "kumarshashikaushal"
     },
     {
-      "title": "MCP Connect: Why Every AI Engineer and Developer Should Care About the Model Context Protocol",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-connect-why-every-ai-engineer-and-developer-should-care/ba-p/4537839",
-      "published": "2026-07-27T10:41:51+00:00",
-      "summary": "There is a quiet standardization happening underneath the AI agent boom, and it has a name: the Model Context Protocol (MCP). If you build agents, wire tools into Copilot, or ship anything that lets a language model act on the real world, MCP is fast becoming the layer you cannot ignore. That is...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
       "title": "Device Code Flow: The Gift That Keeps on Giving — To Attackers",
       "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/device-code-flow-the-gift-that-keeps-on-giving-to-attackers/ba-p/4540949",
       "published": "2026-07-27T00:46:16+00:00",
@@ -1099,15 +1198,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "amar_badal"
-    },
-    {
-      "title": "Beyond text: Returning images and interactive apps from MCP servers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-text-returning-images-and-interactive-apps-from-mcp/ba-p/4535865",
-      "published": "2026-07-24T13:51:21+00:00",
-      "summary": "The Model Context Protocol (MCP) is becoming a richer foundation for agent experiences. Though most servers return plain text from their tool calls, MCP servers can also return binary results and provide interactive apps in clients that support those features, like VS Code. In this post, I'll use...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox"
     },
     {
       "title": "Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB",
@@ -1353,15 +1443,6 @@
       "author": "Gloridel Morales"
     },
     {
-      "title": "Choosing the Right Starting Point for Enterprise AI Agents with Copilot Studio and Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choosing-the-right-starting-point-for-enterprise-ai-agents-with/ba-p/4535024",
-      "published": "2026-07-21T18:00:00+00:00",
-      "summary": "Choosing the Right Starting Point for Enterprise AI Agents with Copilot Studio and Microsoft Foundry Enterprise AI conversations often begin with a familiar question: Should this agent be built with Microsoft Copilot Studio or Microsoft Foundry? While the question is common, it can be misleading if...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "PavanKalyanChilakalapalli"
-    },
-    {
       "title": "Take command of your Microsoft Foundry AI agents with the Azure Copilot Observability Agent",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/take-command-of-your-microsoft-foundry-ai-agents-with-the-azure/ba-p/4538681",
       "published": "2026-07-21T16:28:48+00:00",
@@ -1542,15 +1623,6 @@
       "author": "Pritha_Das"
     },
     {
-      "title": "Agents can learn with Memory in Microsoft Foundry Agent Service",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/agents-can-learn-with-memory-in-microsoft-foundry-agent-service/ba-p/4535431",
-      "published": "2026-07-16T16:00:00+00:00",
-      "summary": "Recurring Failure We are entrusting AI agents with an increasing range of tasks, from preparing briefs to scheduling meetings, and from filing tax returns to building and debugging production systems. While their capabilities continue to improve rapidly, the experience remains frustrating in a...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "jianant"
-    },
-    {
       "title": "How to build long-running MCP tools on Azure Functions",
       "link": "https://devblogs.microsoft.com/azure-sdk/long-running-mcp-tools-azure-functions/",
       "published": "2026-07-16T15:00:10+00:00",
@@ -1650,15 +1722,6 @@
       "author": "derricklee"
     },
     {
-      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
-      "published": "2026-07-15T15:54:55+00:00",
-      "summary": "Microsoft's Cloud Architects: Paul Singh PaulSingh​, Aladdin Alchalabi aalchalabi​, Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​, Peter Lo PeterLo​, Tim Orentlikher tim_orentlikher​, Ajmal Hossain ajmalhossain​, Chris Haynes Chris_Haynes​, and Rafia Aqil Rafia_Aqil​ Start Here: Engage...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
       "title": "Public Preview: Advanced platform metrics in Azure Monitor",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-advanced-platform-metrics-in-azure-monitor/ba-p/4536983",
       "published": "2026-07-15T14:43:18+00:00",
@@ -1684,69 +1747,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "wernerrall"
-    },
-    {
-      "title": "Building AX evals that actually work",
-      "link": "https://devblogs.microsoft.com/blog/building-ax-evals-that-actually-work/",
-      "published": "2026-07-15T12:53:13+00:00",
-      "summary": "This is the eighth and final article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Load testing Copilot Studio agents with Locust and Azure Load Testing",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/load-testing-copilot-studio-agents-with-locust-and-azure-load/ba-p/4535445",
-      "published": "2026-07-15T09:47:26+00:00",
-      "summary": "A conversational agent doesn't answer like an API. You send one message. The server returns 200 OK. And then nothing happens. The real answer is still coming, streaming back over a WebSocket as one reply or several. It might take two seconds, or three minutes while the agent thinks, calls a tool,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Krishna-Roy"
-    },
-    {
-      "title": "Modernize VDI with Azure Files and Entra Cloud-Native Identities",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/modernize-vdi-with-azure-files-and-entra-cloud-native-identities/ba-p/4534545",
-      "published": "2026-07-15T07:00:00+00:00",
-      "summary": "Hello Folks! If you have ever run a Virtual Desktop Infrastructure (VDI) estate, you know the recurring riddle. The session hosts are designed to be stateless and pooled, yet every user expects a persistent Outlook profile, their OneDrive cache, their pinned apps, and a sub-ten-second logon. In...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Orchestrate Azure Container Apps Jobs with Apache Airflow",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/orchestrate-azure-container-apps-jobs-with-apache-airflow/ba-p/4534607",
-      "published": "2026-07-14T21:41:26+00:00",
-      "summary": "Azure Container Apps (ACA) Jobs are a great way to run work that starts, does something, and finishes: nightly batch, data processing, ETL, ML scoring, report generation. They scale to zero, bill per execution, and run any container you give them. But the moment your \"one job\" becomes \"a set of...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "hetvip"
-    },
-    {
-      "title": "Built-in Agent Skills Bring .NET and Azure Expertise into Visual Studio",
-      "link": "https://devblogs.microsoft.com/visualstudio/built-in-agent-skills-in-visual-studio/",
-      "published": "2026-07-14T17:30:57+00:00",
-      "summary": "Visual Studio now includes built-in Agent Skills, created by experts from the .NET and Azure teams, to help you better customize your agentic workflow and complete development tasks more efficiently, starting with the 18.8 Release. Agent Skills are reusable capabilities that enable your agent to...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Simona Liao, Wendy Breiding (SHE/HER), Yun Jung Choi"
-    },
-    {
-      "title": "Hunting Local AI Tools on macOS with Microsoft Defender for Endpoint",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/hunting-local-ai-tools-on-macos-with-microsoft-defender-for/ba-p/4536965",
-      "published": "2026-07-14T16:42:42+00:00",
-      "summary": "AI tooling is moving fast. Developers are running models locally, agents are spinning up local servers, and frameworks are adding new ways to extend the endpoint with skills, tools, and memory. That creates a useful productivity surface, but it also presents new challenges for security and...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "Vytas_Boyev"
-    },
-    {
-      "title": "Beyond the Canvas: The Azure Architecture Diagram Builder Becomes Agent-Ready",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/beyond-the-canvas-the-azure-architecture-diagram-builder-becomes/ba-p/4534590",
-      "published": "2026-07-14T14:02:30+00:00",
-      "summary": "AZURE ARCHITECTURE BLOG · 8 MIN READ Author: Arturo Quiroga, Senior Partner Solutions Architect — Microsoft Two months ago I published From Prompt to Production: Building Azure Architecture Diagrams with AI, introducing the open-source Azure Architecture Diagram Builder. The response was humbling —...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "arturoqu"
     }
   ]
 }
