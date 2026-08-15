@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-14T13:01:00.951320+00:00",
-  "totalArticles": 194,
+  "lastUpdated": "2026-08-15T12:33:02.091368+00:00",
+  "totalArticles": 184,
   "articles": [
     {
       "title": "Running Hosted Agents in Microsoft Foundry Agent Service Part 3/5",
@@ -64,6 +64,15 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "arturoqu"
+    },
+    {
+      "title": "Updates to GPT-chat-latest in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/updates-to-gpt-chat-latest-in-microsoft-foundry/ba-p/4546815",
+      "published": "2026-08-13T21:14:26+00:00",
+      "summary": "GPT-chat-latest in Microsoft Foundry is built on GPT-5.6 Sol, bringing focused responses, improved factual reliability, and consistent behavior to conversational applications without requiring developers to select a newly named model endpoint. This update gives developers access to the latest chat...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "truptiparkar"
     },
     {
       "title": "Your best friend: BlockOnPossibleDataLoss=True",
@@ -1398,15 +1407,6 @@
       "author": "richpaw"
     },
     {
-      "title": "Design the Network Before You Deploy: Best Practices for Microsoft Foundry Standard Agents BYOVNet",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/design-the-network-before-you-deploy-best-practices-for/ba-p/4537860",
-      "published": "2026-07-22T16:00:00+00:00",
-      "summary": "Ask any enterprise team standing up Microsoft Foundry in production and you'll hear the same non-negotiable: the agent can't run on the open internet. The moment it touches proprietary data, internal APIs, or regulated workloads, security wants it inside the company's own virtual network — behind...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Priya_Kedia"
-    },
-    {
       "title": "Microsoft Discovery: Where HPC meets agentic AI for the next era of EDA",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/microsoft-discovery-where-hpc-meets-agentic-ai-for-the-next-era/ba-p/4539212",
       "published": "2026-07-22T15:25:57+00:00",
@@ -1657,96 +1657,6 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "Noa Kuperberg"
-    },
-    {
-      "title": "When Compute Sits and Waits: Fixing the Hidden Storage Bottleneck in EDA and HPC with Azure NetApp Files",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/when-compute-sits-and-waits-fixing-the-hidden-storage-bottleneck/ba-p/4534550",
-      "published": "2026-07-16T07:00:00+00:00",
-      "summary": "Hello Folks! If you have ever stared at an HPC pipeline and wondered why the queue depth keeps climbing while every CPU graph looks lazy, this session from the Microsoft Azure Infrastructure Summit 2026 is going to feel very familiar. Ron Hogue from the Azure Storage team and Ranga Sankar from...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "How Microsoft 365 built a platform engineering layer on AKS to ship faster at global scale",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-microsoft-365-built-a-platform-engineering-layer-on-aks-to/ba-p/4537523",
-      "published": "2026-07-16T05:00:13+00:00",
-      "summary": "Challenge: Scaling success without increasing complexity Microsoft 365 runs a broad portfolio of services across global and sovereign clouds. At that scale, the platform has to do more than schedule workloads. It has to enforce security boundaries, meet enterprise compliance requirements, and...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Suma SaganeGowda"
-    },
-    {
-      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
-      "published": "2026-07-16T02:36:35+00:00",
-      "summary": "Author's: Aladdin Alchalabi aalchalabi​, Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "From Policy to Proof: Governing AI to Scale Human Ambition and Machine Intelligence",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-policy-to-proof-governing-ai-to-scale-human-ambition-and/ba-p/4535137",
-      "published": "2026-07-15T19:51:51+00:00",
-      "summary": "Enterprises are moving from AI experiments to AI in production. Copilots are in the flow of daily work, custom applications are built on foundation models, and autonomous agents are beginning to take actions on behalf of the business. As organizations combine human ambition with machine...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "manasa_ramalinga"
-    },
-    {
-      "title": "MSSQL Extension for VS Code: Shortcuts Configuration, Enhanced Results Grid Experience, and More",
-      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-july2026/",
-      "published": "2026-07-15T17:42:31+00:00",
-      "summary": "The MSSQL extension for VS Code v1.44 continues to improve the SQL development experience with features that help you work faster and customize your workflow. In this release, we’re introducing the Public Preview of Shortcuts Configuration and an Enhanced Results Grid experience. Together, these...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Yo-Lei Chen"
-    },
-    {
-      "title": "Give your AI agent two memories with Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/give-your-ai-agent-two-memories-with-azure-app-service/ba-p/4537400",
-      "published": "2026-07-15T17:23:43+00:00",
-      "summary": "Agents feel continuous only when they can operate across two very different time horizons. They need the recent turns that make the current conversation coherent, and they need a smaller set of durable facts that can follow an authenticated user into a new conversation. This sample implements both...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig"
-    },
-    {
-      "title": "Announcing the ASIM Parser Creation Agentic Experience",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/announcing-the-asim-parser-creation-agentic-experience/ba-p/4532266",
-      "published": "2026-07-15T16:00:00+00:00",
-      "summary": "Creating high-quality ASIM parsers has always required deep knowledge about source data and ASIM schemas, careful KQL design, and repeated validation cycles. That process is meaningful to understand the whole Sentinel ecosystem, but it can be slow when you are starting from raw source data and...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "derricklee"
-    },
-    {
-      "title": "Public Preview: Advanced platform metrics in Azure Monitor",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-advanced-platform-metrics-in-azure-monitor/ba-p/4536983",
-      "published": "2026-07-15T14:43:18+00:00",
-      "summary": "We are excited to announce the Public Preview of advanced platform metrics for Azure Monitor, delivering more granular telemetry to help customers monitor and optimize their workloads more effectively. This new capability builds on Azure Monitor platform metrics, which continue to provide broad...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "alyssaschimm"
-    },
-    {
-      "title": "Pick, manage, and get the most from your models",
-      "link": "https://devblogs.microsoft.com/visualstudio/pick-manage-and-get-the-most-from-your-models/",
-      "published": "2026-07-15T14:28:43+00:00",
-      "summary": "You open the model picker, scroll past a dozen options, and pause. How are these models different? Which one should you actually use? And once you’re a few hundred messages deep, how much capacity is even left before things start dropping off? We’ve all been there. These are the kinds of questions...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Rachel Kang (SHE/HER)"
-    },
-    {
-      "title": "Customer Offerings: Solution Optimization for GitHub Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/customer-offerings-solution-optimization-for-github-copilot/ba-p/4536886",
-      "published": "2026-07-15T13:41:27+00:00",
-      "summary": "Introduction As Microsoft Cloud Solution Architects, we are increasingly asked by engineering leaders, platform teams, finance stakeholders, and GitHub administrators how they can scale GitHub Copilot while keeping usage visible and costs predictable. The question is no longer simply how many...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "wernerrall"
     }
   ]
 }
