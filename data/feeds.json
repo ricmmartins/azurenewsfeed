@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-08-15T12:33:02.091368+00:00",
-  "totalArticles": 184,
+  "lastUpdated": "2026-08-16T12:34:41.505645+00:00",
+  "totalArticles": 174,
   "articles": [
+    {
+      "title": "Keep Azure Monitor issues and ServiceNow ITOM incidents in sync",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/keep-azure-monitor-issues-and-servicenow-itom-incidents-in-sync/ba-p/4543399",
+      "published": "2026-08-16T10:33:18+00:00",
+      "summary": "Operational problems rarely stay within one monitoring tool. Azure Monitor may detect and investigate a service degradation, while operations teams manage ownership, escalation, and resolution in an IT Service Management (ITSM) system. Without a connected workflow, responders must copy context...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Harel Broitman"
+    },
+    {
+      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
+      "published": "2026-08-15T16:49:55+00:00",
+      "summary": "Microsoft's Cloud Architects: Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not an Azure Databricks product issue. Azure Databricks does not own or reserve compute, it dynamically...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
     {
       "title": "Running Hosted Agents in Microsoft Foundry Agent Service Part 3/5",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/running-hosted-agents-in-microsoft-foundry-agent-service-part-3/ba-p/4541933",
@@ -25,15 +43,6 @@
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/tableau-to-power-bi-migration-semantic-layer-first-approach-for/ba-p/4481009",
       "published": "2026-08-14T04:27:25+00:00",
       "summary": "Author's: Mahjabin Ahmed, Yassine El Ouardi, Lavanya Sreedhar LavanyaSreedhar​, Peter Lo PeterLo​, Aryan Anmol aryananmol​, Shreya Harvu shreyaharvu​ and Rafia Aqil Rafia_Aqil​ In this guide, we provide practical guidance for migrating from Tableau to Power BI, with a focus on technical best...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
-      "published": "2026-08-14T00:55:27+00:00",
-      "summary": "Microsoft's Cloud Architects: Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not an Azure Databricks product issue. Azure Databricks does not own or reserve compute, it dynamically...",
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil"
@@ -1558,105 +1567,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "VimalVerma"
-    },
-    {
-      "title": "How to test agent skills without hitting real APIs",
-      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-skills-without-hitting-real-apis/",
-      "published": "2026-07-17T09:27:50+00:00",
-      "summary": "Your agent skill calls an API. The moment you start evaluating it, every run either costs money or mutates production data. Learn how to mock APIs transparently so you can run evals without changing your skill or hitting real endpoints.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Azure Elastic SAN: Pooled, Cloud-Native Block Storage That Actually Acts Like a SAN",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-elastic-san-pooled-cloud-native-block-storage-that/ba-p/4534554",
-      "published": "2026-07-17T07:15:00+00:00",
-      "summary": "Hello Folks! If you have ever lived through a Friday night SAN expansion, racking new shelves and praying the zoning held together, the idea of getting that same shared block storage model in Azure (without owning a single fibre channel cable) sounds almost too good to be true. In his session at...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Teaching a Vision Model to See Like a Human Annotator—and Catching It When It Lies",
-      "link": "https://devblogs.microsoft.com/ise/ai-asset-enrichment-pipeline/",
-      "published": "2026-07-17T07:00:00+00:00",
-      "summary": "A multimodal LLM enrichment pipeline that extracts structured metadata from visual assets, constrains output to predefined values to minimize hallucinations, and uses a ground truth evaluation template to measure quality—all as a plug-and-play module. The post Teaching a Vision Model to See Like a...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Deeptanil Saha, Kartheek Palepu"
-    },
-    {
-      "title": "Azure Cobalt: Workload-Aware Power Management for More Efficient Datacenters",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-cobalt-workload-aware-power-management-for-more-efficient/ba-p/4537049",
-      "published": "2026-07-16T21:16:29+00:00",
-      "summary": "As cloud services and AI workloads continue to grow, power has become a key constraint in expanding compute capacity. Using available power more efficiently enables Azure to deploy more servers in each datacenter, helping meet growing customer demand while improving sustainability. To address this...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "redsa"
-    },
-    {
-      "title": "Building Agents in Production with Toolbox, Skills, and Tool Search",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-agents-in-production-with-toolbox-skills-and-tool/ba-p/4537969",
-      "published": "2026-07-16T19:54:13+00:00",
-      "summary": "If you are shipping AI agents beyond a demo, you have felt the pain: every agent needs the same tools, each with its own authentication, and the tool list keeps growing until your prompt is bloated and the model picks the wrong one. On 22 July 2026 at 5:00 PM BST, the Microsoft Foundry community is...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
-      "title": "T-SQL Hygiene: What’s the Big Deal with SET NOCOUNT ON?",
-      "link": "https://devblogs.microsoft.com/azure-sql/tsql-nocount/",
-      "published": "2026-07-16T17:47:28+00:00",
-      "summary": "Learn why SET NOCOUNT ON improves stored procedure efficiency, reduces unnecessary messages, and matters to .NET developers. The post T-SQL Hygiene: What’s the Big Deal with SET NOCOUNT ON? appeared first on Azure SQL Dev Corner.",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
-    },
-    {
-      "title": "Announcing Public Preview of Autoscale for Azure Event Grid Namespaces",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/announcing-public-preview-of-autoscale-for-azure-event-grid/ba-p/4537851",
-      "published": "2026-07-16T16:09:51+00:00",
-      "summary": "Today we are pleased to announce the public preview of Autoscale for Azure Event Grid namespaces. With this capability, an Event Grid namespace in the Standard tier automatically adjusts its throughput unit (TU) allocation in response to real-time workload utilization. This removes the need to...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "Pritha_Das"
-    },
-    {
-      "title": "How to build long-running MCP tools on Azure Functions",
-      "link": "https://devblogs.microsoft.com/azure-sdk/long-running-mcp-tools-azure-functions/",
-      "published": "2026-07-16T15:00:10+00:00",
-      "summary": "Learn how to build long-running MCP tools on Azure Functions using Durable Functions. This post explains why synchronous tool calls break down for long-running work, introduces the MCP Tasks extension, and walks through a sample pattern that works with existing request/response clients today. The...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Lily Ma"
-    },
-    {
-      "title": "MCP Enterprise Authorization Is Here — What Entra and App Service Can Do Today",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/mcp-enterprise-authorization-is-here-what-entra-and-app-service/ba-p/4537433",
-      "published": "2026-07-16T14:31:39+00:00",
-      "summary": "A few weeks ago I wrote about what the latest MCP changes meant for scaling on Azure App Service. This time, the protocol change is about a different kind of scale: how an enterprise connects hundreds or thousands of employees to MCP servers without making every person authorize every server one at...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig"
-    },
-    {
-      "title": "Visual Studio Administrator? Join our Private Marketplace Preview!",
-      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-administrator-join-our-private-marketplace-preview/",
-      "published": "2026-07-16T14:00:58+00:00",
-      "summary": "Organizations are increasingly looking for greater control over extensions within development environments. Driven by security, compliance, and internal governance requirements, teams want more visibility into how developers discover and acquire extensions. To address these needs, we’re excited to...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Ruben Rios"
-    },
-    {
-      "title": "Understanding billing for the Azure Copilot Observability Agent",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/understanding-billing-for-the-azure-copilot-observability-agent/ba-p/4537780",
-      "published": "2026-07-16T13:15:47+00:00",
-      "summary": "The Azure Copilot Observability Agent brings an agentic investigation experience directly into Azure Monitor. Teams can chat with their observability data, run deep investigations across application and infrastructure signals, and, in preview, use autonomous operations to correlate alerts and...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Noa Kuperberg"
     }
   ]
 }
