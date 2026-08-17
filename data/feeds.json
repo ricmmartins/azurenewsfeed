@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-16T12:34:41.505645+00:00",
-  "totalArticles": 174,
+  "lastUpdated": "2026-08-17T12:39:11.820198+00:00",
+  "totalArticles": 170,
   "articles": [
     {
       "title": "Keep Azure Monitor issues and ServiceNow ITOM incidents in sync",
@@ -1531,42 +1531,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "Lee_Stott"
-    },
-    {
-      "title": "Meet the IQ's: How Microsoft is Creating Context-Aware AI",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/meet-the-iq-s-how-microsoft-is-creating-context-aware-ai/ba-p/4537516",
-      "published": "2026-07-18T12:26:02+00:00",
-      "summary": "Microsoft Architect's: Lavanya Sreedhar LavanyaSreedhar​, Tom Dinh Tom-Dinh​, Oviya Soundararajan oviyasound​, and Rafia Aqil Rafia_Aqil​ The AI era demands more than powerful language models. It demands context a deep understanding of what enterprise data means, how it connects, and how AI systems...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "Network Security Perimeter for Azure Event Hubs: Hardening Your Data Streams",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/network-security-perimeter-for-azure-event-hubs-hardening-your/ba-p/4538352",
-      "published": "2026-07-17T20:26:45+00:00",
-      "summary": "What is Network Security Perimeter for Azure Event Hubs? Azure Event Hubs now supports Network Security Perimeter (NSP), a logical network isolation boundary that lets you define a security perimeter around your PaaS resources and control public network access through perimeter-based access rules....",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Az Update - Week 2 of the return editions",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/az-update-week-2-of-the-return-editions/ba-p/4538337",
-      "published": "2026-07-17T18:37:42+00:00",
-      "summary": "Hello Folks! This week's updates all focus on something we hear from IT pros and platform engineers all the time: How do we make our environments more secure, more manageable, and easier to modernize without adding more complexity? Whether you're running PostgreSQL workloads in Azure, securing...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Hypervelocity Engineering: Accelerating Enterprise AI with Azure AI Landing Zones",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/hypervelocity-engineering-accelerating-enterprise-ai-with-azure/ba-p/4536192",
-      "published": "2026-07-17T14:57:27+00:00",
-      "summary": "Artificial Intelligence is evolving at unprecedented speed. The challenge for enterprises is no longer building AI solutions—it is engineering AI platforms that can adapt, scale, and govern innovation continuously. Hypervelocity Engineering (HVE) provides the engineering operating model that...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "VimalVerma"
     }
   ]
 }
