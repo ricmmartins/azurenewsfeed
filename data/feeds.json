@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-08-17T12:39:11.820198+00:00",
-  "totalArticles": 170,
+  "lastUpdated": "2026-08-18T12:40:28.117368+00:00",
+  "totalArticles": 175,
   "articles": [
+    {
+      "title": "Apple Silicon and Xcode 27 images available in pay-as-you-go (preview)",
+      "link": "https://devblogs.microsoft.com/devops/apple-silicon-and-xcode-27-images-availabile-in-pay-as-you-go-preview/",
+      "published": "2026-08-18T08:10:36+00:00",
+      "summary": "Apple developers can now build and test their applications natively on Apple Silicon in Azure Pipelines. New arm64 macOS agents are available in public preview through the pay-as-you-go GitHub-hosted Agents pool. Starting with Apple Silicon, Azure Pipelines is bringing over some of the agent sizes...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Eric van Wijk"
+    },
+    {
+      "title": "Distributing Agents to Microsoft Teams and Microsoft 365 Copilot Part 4/5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/distributing-agents-to-microsoft-teams-and-microsoft-365-copilot/ba-p/4541925",
+      "published": "2026-08-18T07:00:00+00:00",
+      "summary": "This is the fourth post in our series on the Microsoft agent platform. We cover the Distribute in M365 pillar — publishing your agents to Microsoft Teams and Microsoft 365 Copilot so they reach users where they already work. All examples reference the FibreOps repository, demonstrated at Microsoft...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Beyond Deployment: What It Really Takes to Run GitHub Actions Runners on AKS",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/beyond-deployment-what-it-really-takes-to-run-github-actions/ba-p/4547638",
+      "published": "2026-08-18T06:44:57+00:00",
+      "summary": "A Successful Demo Is Not a Production Platform Getting GitHub Actions runners working on Azure Kubernetes Service (AKS) with Actions Runner Controller (ARC) is relatively straightforward. Within a short time, you can deploy ARC, register a runner scale set, and execute workflows successfully....",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "aparnabadireddigari"
+    },
+    {
+      "title": "Why Cloud Browsers Are Becoming Enterprise Infrastructure for AI Agents and Automation",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/why-cloud-browsers-are-becoming-enterprise-infrastructure-for-ai/ba-p/4547583",
+      "published": "2026-08-18T04:30:35+00:00",
+      "summary": "The browser is becoming a new execution environment Over the last decade, enterprises moved compute from desktops to the cloud. Applications that once depended on individual machines now run on scalable, managed infrastructure. A similar shift is beginning to happen with browser automation....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "AbhinavPremsekhar"
+    },
+    {
+      "title": "Active Directory Domain Services modules on Microsoft Learn",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/active-directory-domain-services-modules-on-microsoft-learn/ba-p/4547604",
+      "published": "2026-08-18T02:16:29+00:00",
+      "summary": "The following is a list of Active Directory Domain Services modules on Microsoft Learn sorted from introductory to advanced. Is there an Active Directory topic that isn't listed here that you'd like to see covered? (AD CS modules are coming) Introductory 1. Introduction to AD DS URL:...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "OrinThomas"
+    },
+    {
+      "title": "From single call to agents: five new Claude capabilities now available in Microsoft Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/five-new-claude-capabilities-now-available-in-foundry/",
+      "published": "2026-08-17T19:20:07+00:00",
+      "summary": "Structured outputs, web search, web fetch, MCP connector, and tool search are now available for Claude models hosted on Azure in Microsoft Foundry, turning a model endpoint into a production agent platform. The post From single call to agents: five new Claude capabilities now available in Microsoft...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Haoran Cheng"
+    },
     {
       "title": "Keep Azure Monitor issues and ServiceNow ITOM incidents in sync",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/keep-azure-monitor-issues-and-servicenow-itom-incidents-in-sync/ba-p/4543399",
@@ -1522,15 +1576,6 @@
       "blog": "ITOpsTalk",
       "blogId": "itopstalkblog",
       "author": "Pierre_Roman"
-    },
-    {
-      "title": "Round Table: Building Browser-Capable Agents with the Browser Automation Tool",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/round-table-building-browser-capable-agents-with-the-browser/ba-p/4538581",
-      "published": "2026-07-18T22:12:25+00:00",
-      "summary": "Some of the most valuable work still lives inside a browser: booking a class, pulling a figure off a dashboard, filling in a portal form, gathering research across a dozen tabs. These are exactly the tasks people wish an agent could just do. On 22 July 2026 at 2:30 PM BST (7:00 PM IST), the...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
     }
   ]
 }
