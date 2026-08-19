@@ -1,7 +1,124 @@
 {
-  "lastUpdated": "2026-08-18T12:40:28.117368+00:00",
-  "totalArticles": 175,
+  "lastUpdated": "2026-08-19T12:41:31.406956+00:00",
+  "totalArticles": 186,
   "articles": [
+    {
+      "title": "Building a Fully Automated Azure Landing Zone Deployment Using Azure DevOps and Terraform",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/building-a-fully-automated-azure-landing-zone-deployment-using/ba-p/4547956",
+      "published": "2026-08-19T04:30:00+00:00",
+      "summary": "What is an Azure Landing Zone? Think of an Azure Landing Zone as the foundation of a cloud environment. Before application teams deploy workloads, the Landing Zone establishes: Management Groups Subscriptions Networking Identity Integration Security Baselines Governance Controls Monitoring...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Rajasekharvemula"
+    },
+    {
+      "title": "Understanding GitHub Billing and management: from licenses to fair AI credit controls",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/understanding-github-billing-and-management-from-licenses-to/ba-p/4546416",
+      "published": "2026-08-19T04:15:00+00:00",
+      "summary": "Buying GitHub Copilot licenses is only the beginning of the governance story. The licenses are purchased centrally, but administrators still need to decide who receives a seat, how usage is attributed to the right part of the business, and what happens when included AI credits run out. Those...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Chris_Noring"
+    },
+    {
+      "title": "Aspire 13.5: Fresh pixels and better workflows",
+      "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-13-5/",
+      "published": "2026-08-18T22:10:00+00:00",
+      "summary": "Aspire 13.5 refreshes the dashboard and aspire.dev, expands the Interaction Service, adds cross-scope Azure references and Kubernetes persistent volumes, and brings live terminals into the AppHost. The post Aspire 13.5: Fresh pixels and better workflows appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "Maddy Montaquila"
+    },
+    {
+      "title": "Azure Copilot Introduces Direct Access to Agents",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-copilot-introduces-direct-access-to-agents/ba-p/4547932",
+      "published": "2026-08-18T22:08:41+00:00",
+      "summary": "Whether you are troubleshooting an application issue at 2 a.m., validating a deployment plan before a release, optimizing cloud resources, or improving workload resiliency, the challenge is finding the right expertise quickly enough to act with confidence. That’s why we are evolving the Azure...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "artigulwadi"
+    },
+    {
+      "title": "Azure Cosmos DB in the Agentic Era: Data Tools for Developers and AI Agents",
+      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-in-the-agentic-era-data-tools-for-developers-and-ai-agents/",
+      "published": "2026-08-18T20:55:36+00:00",
+      "summary": "Anthropic’s 2026 Agentic Coding Trends Report captures an important tension in how developers use AI. Engineers report using AI in roughly 60% of their work, yet say they can fully delegate only 0–20% of their tasks. AI is becoming a constant collaborator, but it still needs setup, supervision,...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sajeetharan Sinnathurai"
+    },
+    {
+      "title": "Power Azure SRE Agent with the tools it needs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/power-azure-sre-agent-with-the-tools-it-needs/ba-p/4547882",
+      "published": "2026-08-18T20:36:37+00:00",
+      "summary": "What is the Azure SRE Agent Azure SRE Agent is an AI-powered service designed to reduce operational toil. Teams can use it to: Investigate incidents and identify probable causes. Automate health checks, compliance reviews, and other scheduled work. Answer questions such as “What changed before this...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "lily-ma"
+    },
+    {
+      "title": "Active Directory Domain Services modules on Microsoft Learn",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/active-directory-domain-services-modules-on-microsoft-learn/ba-p/4547604",
+      "published": "2026-08-18T20:06:08+00:00",
+      "summary": "The following is a list of Active Directory Domain Services modules on Microsoft Learn sorted from introductory to advanced. Is there an Active Directory topic that isn't listed here that you'd like to see covered? (AD CS modules are coming). If you know all this, remember we have the free 45...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "OrinThomas"
+    },
+    {
+      "title": "The Two Hybrid Searches in Microsoft SQL",
+      "link": "https://devblogs.microsoft.com/azure-sql/two-hybrid-search/",
+      "published": "2026-08-18T18:40:38+00:00",
+      "summary": "Hybrid search is usually described as combining keyword search with vector search. Microsoft SQL does that, for sure, but we do quite a bit more right out of the box. SQL dynamically evaluates queries and switches between kNN and ANN vector search based on cost and selectivity. These two types of...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon"
+    },
+    {
+      "title": "What’s new for small form factor infrastructure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/what-s-new-for-small-form-factor-infrastructure/ba-p/4520901",
+      "published": "2026-08-18T17:11:44+00:00",
+      "summary": "At Microsoft Build, we introduced smaller form factor infrastructure in public preview. Today, we’re refreshing that preview with version 2607, available right now in the Azure portal. This release introduces several new features: Expanded support for multiple network interfaces (NICs) and...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Teodora_Sutilovic"
+    },
+    {
+      "title": "Azure DNS introduces Traffic Manager linked records (Public Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-dns-introduces-traffic-manager-linked-records-public/ba-p/4547112",
+      "published": "2026-08-18T16:14:39+00:00",
+      "summary": "We're excited to announce the public preview of Traffic Manager linked records, a new Azure DNS capability that enables customers to directly associate Azure Public DNS record sets with Azure Traffic Manager profiles without using a CNAME to trafficmanager.net. With this capability, customers can...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "samimodak"
+    },
+    {
+      "title": "Episode 1: Onboarding Azure Arc at Scale | The Azure Arc Check-In",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/episode-1-onboarding-azure-arc-at-scale-the-azure-arc-check-in/ba-p/4546441",
+      "published": "2026-08-18T16:05:55+00:00",
+      "summary": "Once a month the Azure Arc team will release an episode covering a variety of topics. To request a topic or view additional episodes please visit: aka.ms/the-azure-arc-check-in Episode 1: Onboarding Azure Arc at Scale Scenario: Imagine your organization has 1,000 Windows and Linux servers spread...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Mason_Torres"
+    },
+    {
+      "title": "[Now Generally Available] What-If for Azure Deployment Stacks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/now-generally-available-what-if-for-azure-deployment-stacks/ba-p/4547614",
+      "published": "2026-08-18T15:20:36+00:00",
+      "summary": "We are proud to announce that what-if for Azure Deployment Stacks is now generally available, in all regions. To be precise about what this is, since the names are similar: what-if for standard template deployments has been around for a while. This release brings what-if to the deployment stacks...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "torreyt"
+    },
+    {
+      "title": "Announcing General Availability of Managed Instance on Azure App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-general-availability-of-managed-instance-on-azure-app/ba-p/4541283",
+      "published": "2026-08-18T14:16:56+00:00",
+      "summary": "Today, we are thrilled to announce the General Availability (GA) of Managed Instance on Azure App Service. Following the tremendous response to our Public Preview announcement at Ignite 2025, we've spent the past nine months working closely with customers, partners, and the community to harden the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Gaurav-Seth"
+    },
     {
       "title": "Apple Silicon and Xcode 27 images available in pay-as-you-go (preview)",
       "link": "https://devblogs.microsoft.com/devops/apple-silicon-and-xcode-27-images-availabile-in-pay-as-you-go-preview/",
@@ -37,15 +154,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "AbhinavPremsekhar"
-    },
-    {
-      "title": "Active Directory Domain Services modules on Microsoft Learn",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/active-directory-domain-services-modules-on-microsoft-learn/ba-p/4547604",
-      "published": "2026-08-18T02:16:29+00:00",
-      "summary": "The following is a list of Active Directory Domain Services modules on Microsoft Learn sorted from introductory to advanced. Is there an Active Directory topic that isn't listed here that you'd like to see covered? (AD CS modules are coming) Introductory 1. Introduction to AD DS URL:...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "OrinThomas"
     },
     {
       "title": "From single call to agents: five new Claude capabilities now available in Microsoft Foundry",
@@ -1567,15 +1675,6 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Abhishek Gupta"
-    },
-    {
-      "title": "Premium SSD v2 and Instant Access Snapshots: A Better, Faster, Cheaper Disk for Your Azure VMs",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/premium-ssd-v2-and-instant-access-snapshots-a-better-faster/ba-p/4534571",
-      "published": "2026-07-20T07:00:00+00:00",
-      "summary": "Hello Folks! If you have been running Premium SSD v1 because that is just what you have always done, this session from the Microsoft Azure Infra Summit 2026 is going to be a wake up call. Raymond Lui and Adam Li from the Azure Disk Storage team walked us through Premium SSD v2 (PV2 for short) and...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
     }
   ]
 }
