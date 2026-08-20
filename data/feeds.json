@@ -1,7 +1,106 @@
 {
-  "lastUpdated": "2026-08-19T12:41:31.406956+00:00",
+  "lastUpdated": "2026-08-20T12:43:22.564418+00:00",
   "totalArticles": 186,
   "articles": [
+    {
+      "title": "From Detection to Action: Extending Azure Monitor Issues with Action Groups",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/from-detection-to-action-extending-azure-monitor-issues-with/ba-p/4548416",
+      "published": "2026-08-20T11:54:02+00:00",
+      "summary": "When the Azure Copilot Observability Agent detects a problem, correlates related alerts, investigates and creates an Azure Monitor issue, it does more than identify what happened. It creates a durable record that brings together investigation findings, severity, impacted resources, and recommended...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "ronitauber"
+    },
+    {
+      "title": "Browser automation with Pydantic-AI + Playwright",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/browser-automation-with-pydantic-ai-playwright/ba-p/4547971",
+      "published": "2026-08-20T07:00:00+00:00",
+      "summary": "When we build agents, we often want to give them the ability to browse the web: open webpages, navigate from one page to the other, and read the content of a webpage. By combining Pydantic AI with the Playwright capability from Pydantic AI Harness, we can build agents that browse the web safely and...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox"
+    },
+    {
+      "title": "Voice Live and Observability for Production Agent Systems Part 5/5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/voice-live-and-observability-for-production-agent-systems-part-5/ba-p/4541922",
+      "published": "2026-08-20T07:00:00+00:00",
+      "summary": "This is the fifth and final post in our series on the Microsoft agent platform. We cover two critical production concerns: Azure AI Voice Live for accessible, hands-free agent interaction, and observability, the tracing, evaluation, and monitoring infrastructure that keeps autonomous systems...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Who Ordered All These Tokens? Giving AI Spend a Name in FOCUS",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/who-ordered-all-these-tokens-giving-ai-spend-a-name-in-focus/ba-p/4547978",
+      "published": "2026-08-20T05:25:22+00:00",
+      "summary": "A pattern to steal, not a product to buy. Your CFO leans over and asks a reasonable question: \"How much are we spending on Copilot versus the agents our own team built?\" You open the cost report, confident. You find… a bucket called \"Other.\" Next to another bucket called \"SaaS.\" Somewhere in there...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Dirk_Brinkmann"
+    },
+    {
+      "title": "Expanding Open Model Choice in Microsoft Foundry with New DeepSeek and NVIDIA Nemotron Models",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/expanding-open-model-choice-in-microsoft-foundry-with-new/ba-p/4547926",
+      "published": "2026-08-19T23:48:50+00:00",
+      "summary": "Open models are driving a new wave of AI innovation, giving organizations more freedom to choose the models that best fit their requirements for performance, cost, latency, customization, and governance. As the open model ecosystem evolves rapidly, developers want access to the latest innovations...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny"
+    },
+    {
+      "title": "Choosing the Right Agent in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/choosing-the-right-agent-in-microsoft-foundry/ba-p/4547827",
+      "published": "2026-08-19T22:52:13+00:00",
+      "summary": "Many discussions about Microsoft Foundry Agent Service eventually arrive at the same question: should this workload be implemented as a Prompt Agent or a Hosted Agent? While the documentation explains both options well, the architectural decision usually comes down to something much simpler: where...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "supriyas"
+    },
+    {
+      "title": "Outgrowing SQL Server Express? Upgrade to Azure SQL Database Free Tier in 3 Steps",
+      "link": "https://devblogs.microsoft.com/azure-sql/upgrade-from-sql-server-express-to-azure-sql-database/",
+      "published": "2026-08-19T21:01:30+00:00",
+      "summary": "If you’ve been building local prototypes, internal tools, web backends, or lightweight services on SQL Server Express, you know the routine: it’s free, familiar, and gets the job done – until you hit hardware limits or spend weekends manual backup scripts and handling OS patches. Learn how to...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Vandana Mahtani, Amit Khandelwal"
+    },
+    {
+      "title": "MSSQL Extension for VS Code: SQL Formatter, Azure SQL Database Provisioning, and More",
+      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-august2026/",
+      "published": "2026-08-19T17:18:32+00:00",
+      "summary": "Writing and maintaining SQL is easier when you can eliminate repetitive steps and keep your scripts cleanly formatted. With the MSSQL extension for VS Code v1.45, we’re introducing the Public Preview of the SQL Formatter alongside the General Availability of Azure SQL Database Provisioning and...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Yo-Lei Chen"
+    },
+    {
+      "title": "Announcing General Availability of Disable Multithreading and Configurable Constrained Cores",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-disable-multithreading-and/ba-p/4547908",
+      "published": "2026-08-19T16:00:12+00:00",
+      "summary": "Today, we are announcing General Availability of two new capabilities: Disable Simultaneous Multithreading/Hyper-Threading (SMT/HT) and Configurable Constrained Cores. These features give customers control over virtual CPU configurations, enabling performance optimization and potential software...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "misha-bansal"
+    },
+    {
+      "title": "Announcing public preview: Markdown for Agents in Azure App Service",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-public-preview-markdown-for-agents-in-azure-app/ba-p/4537023",
+      "published": "2026-08-19T13:57:13+00:00",
+      "summary": "Why Markdown for Agents? Web pages often contain scripts, styles, and HTML markup that are useful to browsers but add noise when the content is sent to an AI model. Markdown for Agents removes that extra markup and returns a smaller, text-focused response that is easier for agents to process and...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
+      "title": "What the New API Management AI Gateway Tier Changes for App Service-Hosted Agents",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-the-new-api-management-ai-gateway-tier-changes-for-app/ba-p/4543974",
+      "published": "2026-08-19T13:54:21+00:00",
+      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. The agent framework was replaceable; the gateway was the contribution. APIM handled model access, token limits, semantic caching, token metrics, and the MCP traffic contract. I followed...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
     {
       "title": "Building a Fully Automated Azure Landing Zone Deployment Using Azure DevOps and Terraform",
       "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/building-a-fully-automated-azure-landing-zone-deployment-using/ba-p/4547956",
@@ -73,6 +172,15 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon"
+    },
+    {
+      "title": "Smarter signals, broader coverage: UEBA anomalies on top of Behaviors layer and new data sources",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/smarter-signals-broader-coverage-ueba-anomalies-on-top-of/ba-p/4544384",
+      "published": "2026-08-18T18:39:45+00:00",
+      "summary": "Co-authors: Ron Shlomo and Ryan Smith Security teams don't struggle with a lack of security signals. The real challenge is understanding which activity matters, why it stands out, and where to focus first. Microsoft Sentinel's Behaviors layer already helps analysts transform raw security events...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "SaraSamokovlija"
     },
     {
       "title": "What’s new for small form factor infrastructure",
@@ -444,15 +552,6 @@
       "author": "Harshada Hole"
     },
     {
-      "title": "What the New API Management AI Gateway Tier Changes for App Service-Hosted Agents",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-the-new-api-management-ai-gateway-tier-changes-for-app/ba-p/4543974",
-      "published": "2026-08-11T16:39:41+00:00",
-      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. The agent framework was replaceable; the gateway was the contribution. APIM handled model access, token limits, semantic caching, token metrics, and the MCP traffic contract. I followed...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig"
-    },
-    {
       "title": "Azure Container Apps Sandboxes (Preview): Giving AI Agents a Safe Place to Work",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-preview-giving-ai-agents-a-safe/ba-p/4545975",
       "published": "2026-08-11T16:05:08+00:00",
@@ -568,15 +667,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "nuzhat-minhaz"
-    },
-    {
-      "title": "Smarter signals, broader coverage: UEBA anomalies on top of Behaviors layer and new data sources",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/smarter-signals-broader-coverage-ueba-anomalies-on-top-of/ba-p/4544384",
-      "published": "2026-08-07T20:14:53+00:00",
-      "summary": "Co-authors: Ron Shlomo and Ryan Smith Security teams don't struggle with a lack of security signals. The real challenge is understanding which activity matters, why it stands out, and where to focus first. Microsoft Sentinel's Behaviors layer already helps analysts transform raw security events...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "SaraSamokovlija"
     },
     {
       "title": "Build Durable, Long-Running MCP Tasks on Azure App Service",
@@ -865,15 +955,6 @@
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
       "author": "Ricardo M. Martins"
-    },
-    {
-      "title": "Announcing public preview: Markdown for Agents in Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-public-preview-markdown-for-agents-in-azure-app/ba-p/4537023",
-      "published": "2026-08-03T19:46:29+00:00",
-      "summary": "Why Markdown for Agents? Web pages often contain scripts, styles, and HTML markup that are useful to browsers but add noise when the content is sent to an AI model. Markdown for Agents removes that extra markup and returns a smaller, text-focused response that is easier for agents to process and...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig"
     },
     {
       "title": "Check This Out! (CTO!) Guide (August 2026)",
@@ -1182,15 +1263,6 @@
       "author": "Lee_Stott"
     },
     {
-      "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-us-for-our-mcp-live-a-free-livestream-covering-all-things/ba-p/4537980",
-      "published": "2026-07-29T08:38:14+00:00",
-      "summary": "The Model Context Protocol (MCP) is the open standard for connecting AI models to tools and data. It was first introduced to the world by Anthropic in November 2024, and is now the most widely adopted standard in the world of Generative AI. You can now use MCP servers to connect agents to your data...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox"
-    },
-    {
       "title": "Now Generally Available: Built-in CIS Benchmark Auditing for Linux on Azure",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/now-generally-available-built-in-cis-benchmark-auditing-for/ba-p/4529819",
       "published": "2026-07-29T08:21:15+00:00",
@@ -1398,15 +1470,6 @@
       "author": "carlottacaste"
     },
     {
-      "title": "Design, test, and ship Foundry hosted agents from a canvas in GitHub Copilot App",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/design-test-and-ship-foundry-hosted-agents-from-a-canvas-in/ba-p/4539921",
-      "published": "2026-07-24T09:19:54+00:00",
-      "summary": "Building a Microsoft Foundry hosted agent has historically meant juggling multiple surfaces — looking up a model deployment in the Foundry portal, wiring toolboxes and skills by hand, copying an endpoint into your editor, then dropping to the CLI to test and deploy. That context-switching adds...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "junjieli"
-    },
-    {
       "title": "Post-Stream Refinement is now generally available in Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/post-stream-refinement-is-now-generally-available-in-microsoft/ba-p/4540174",
       "published": "2026-07-23T21:29:47+00:00",
@@ -1551,15 +1614,6 @@
       "author": "OrinThomas"
     },
     {
-      "title": "Grounding Copilot Studio Agents with Azure AI Search and Foundry IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/grounding-copilot-studio-agents-with-azure-ai-search-and-foundry/ba-p/4539337",
-      "published": "2026-07-22T18:00:00+00:00",
-      "summary": "An employee opens the HR agent and asks, \"How much PTO do I accrue each month?\" A few minutes later, someone else asks, \"Where is the official code of ethics policy?\" Those sound like the same problem. They are not. The first person needs a grounded answer they can understand. The second person...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "BrittanyPugh"
-    },
-    {
       "title": "MCP in Azure: Using API Management for Authentication, Access, Logging & Governance",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/mcp-in-azure-using-api-management-for-authentication-access/ba-p/4532139",
       "published": "2026-07-22T16:51:16+00:00",
@@ -1621,60 +1675,6 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "Ron Frenkel"
-    },
-    {
-      "title": "How to test agent experience changes without shipping them",
-      "link": "https://devblogs.microsoft.com/blog/how-to-test-agent-experience-changes-without-shipping-them/",
-      "published": "2026-07-21T07:15:12+00:00",
-      "summary": "Most changes you think will improve AI agent behavior won't. We tested a dozen hypotheses on a real project upgrade scenario and the majority failed. Learn how to emulate documentation, API, and MCP server changes locally so you can validate what works before shipping anything to production.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Feeding the GPUs: File Storage for AI and Cloud-Native Workloads on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/feeding-the-gpus-file-storage-for-ai-and-cloud-native-workloads/ba-p/4534572",
-      "published": "2026-07-21T07:00:00+00:00",
-      "summary": "Hello Folks! If you are running AI workloads on Azure, you have probably learned the hard way that the wrong storage choice can leave a rack of very expensive GPUs sitting idle, waiting for data. In this session during the Microsoft Azure Infra Summit 2026, Wolfgang de Salvador and Reena Shah from...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Hybrid Logic Apps Deployment on Red Hat OpenShift",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-deployment-on-red-hat-openshift/ba-p/4534828",
-      "published": "2026-07-21T05:13:20+00:00",
-      "summary": "What makes OpenShift different? If you've done this on K3s or AKS, most of the flow is identical as mentioned in Set up your own infrastructure for Standard logic app workflows - Azure Logic Apps | Microsoft Learn. Two OpenShift specifics are worth flagging up front. First, SCCs: the default...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "anandgmenon"
-    },
-    {
-      "title": "T-SQL Hygiene: Introducing the Covering Index",
-      "link": "https://devblogs.microsoft.com/azure-sql/tsql-covering-index/",
-      "published": "2026-07-20T17:00:49+00:00",
-      "summary": "Often in applications, we write database queries. And often, the same query is executed again and again. To make queries against large tables faster, we can add an index. This is a general improvement for anyone accessing the table. However, there is a specially designed index called a covering...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
-    },
-    {
-      "title": "Introducing Azure Front Door edge actions - Bringing secure, programmable logic to the edge",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/introducing-azure-front-door-edge-actions-bringing-secure/ba-p/4531928",
-      "published": "2026-07-20T15:32:26+00:00",
-      "summary": "Modern web applications are expected to feel instant, secure, and personalized, no matter where users connect from or what device they use. Delivering that experience requires more than moving static content closer to users. It increasingly depends on making smart decisions at the edge, from...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "akhilkarmalkar"
-    },
-    {
-      "title": "AI agents, meet the Azure Cosmos DB vNext emulator",
-      "link": "https://devblogs.microsoft.com/cosmosdb/use-ai-agents-with-cosmosdb-vnext-emulator/",
-      "published": "2026-07-20T14:05:15+00:00",
-      "summary": "If you use the Azure Cosmos DB vNext emulator, you probably know the local development loop: start the emulator, connect to it, create some resources, load test data, run queries, and inspect the results. Each step is straightforward, but together they add setup work before you can test the...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Abhishek Gupta"
     }
   ]
 }
