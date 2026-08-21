@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-08-20T12:43:22.564418+00:00",
-  "totalArticles": 186,
+  "lastUpdated": "2026-08-21T12:41:42.991796+00:00",
+  "totalArticles": 184,
   "articles": [
+    {
+      "title": "Announcing Azure Web PubSub chat in public preview",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-azure-web-pubsub-chat-in-public-preview/ba-p/4548907",
+      "published": "2026-08-21T09:31:22+00:00",
+      "summary": "Chat is becoming a standard interaction model across customer support, collaboration, gaming, marketplaces, healthcare, financial services, and AI-powered applications. But building a production-ready chat system involves much more than opening a WebSocket connection. Teams also need to manage...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "kevinguo"
+    },
+    {
+      "title": "Browser automation with Pydantic-AI + Playwright",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/browser-automation-with-pydantic-ai-playwright/ba-p/4547971",
+      "published": "2026-08-20T21:42:16+00:00",
+      "summary": "When we build agents, we often want to give them the ability to browse the web: open webpages, navigate from one page to the other, and read the content of a webpage. By combining Pydantic AI with the Playwright capability from Pydantic AI Harness, we can build agents that browse the web safely and...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox"
+    },
+    {
+      "title": "Give your Copilot agents real tools, without hand-wiring MCP",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/give-your-copilot-agents-real-tools-without-hand-wiring-mcp/ba-p/4548254",
+      "published": "2026-08-20T18:08:19+00:00",
+      "summary": "You’re running agents in the GitHub Copilot app - maybe three at once, each on its own branch, each working a task while you steer. It’s a good way to work, right up until an agent needs to reach outside your repo. It needs to read a SharePoint library, file a Salesforce record, or check an Outlook...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "Build a SAFE Agent on Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-a-safe-agent-on-microsoft-foundry/ba-p/4547570",
+      "published": "2026-08-20T14:00:00+00:00",
+      "summary": "Use ACS to enforce Scope, Anchored Decisions, Flow Integrity, and Escalation while the agent runs, then prove the controls without model variance. Two sign-in failures, two correct outcomes A help desk agent receives two reports that sound almost identical: “I cannot sign in.” In the first case,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Paulo_Lacerda"
+    },
     {
       "title": "From Detection to Action: Extending Azure Monitor Issues with Action Groups",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/from-detection-to-action-extending-azure-monitor-issues-with/ba-p/4548416",
@@ -10,15 +46,6 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "ronitauber"
-    },
-    {
-      "title": "Browser automation with Pydantic-AI + Playwright",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/browser-automation-with-pydantic-ai-playwright/ba-p/4547971",
-      "published": "2026-08-20T07:00:00+00:00",
-      "summary": "When we build agents, we often want to give them the ability to browse the web: open webpages, navigate from one page to the other, and read the content of a webpage. By combining Pydantic AI with the Playwright capability from Pydantic AI Harness, we can build agents that browse the web safely and...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox"
     },
     {
       "title": "Voice Live and Observability for Production Agent Systems Part 5/5",
@@ -1488,15 +1515,6 @@
       "author": "SolarRezaei"
     },
     {
-      "title": "Introducing MAI-Image-2.5 Pro and MAI-Voice-2 Flash in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-mai-image-2-5-pro-and-mai-voice-2-flash-in-microsoft/ba-p/4539446",
-      "published": "2026-07-23T20:41:12+00:00",
-      "summary": "One of the core principles in Microsoft Foundry is giving customers flexibility to choose the right model for the right job. As we've continued to expand the Microsoft AI (MAI) model family, we've heard a consistent theme from developers and enterprises: they want more choice based on their...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
-    },
-    {
       "title": "Changing the engine while the plane is flying: migrating 60,000 apps under live load",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/changing-the-engine-while-the-plane-is-flying-migrating-60-000/ba-p/4539443",
       "published": "2026-07-23T20:05:25+00:00",
@@ -1513,15 +1531,6 @@
       "blog": "Governance & Management",
       "blogId": "azuregovernanceandmanagementblog",
       "author": "stevenbucher"
-    },
-    {
-      "title": "📢 Announcing Built-In Knowledge for Azure Logic Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-built-in-knowledge-for-azure-logic-apps/ba-p/4524601",
-      "published": "2026-07-23T19:26:42+00:00",
-      "summary": "Now in Public Preview Turn your documents into a ready-to-use knowledge base without custom RAG pipelines. Today at Microsoft Build 2026, we are announcing the Public Preview of built-in Knowledge for Azure Logic Apps. It is a managed knowledge layer that transforms your documents into a...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "DivSwa"
     },
     {
       "title": "The Microsoft 365 Copilot Agent’s Playbook: A Practical Livestream Series for Building Better Agents",
@@ -1648,33 +1657,6 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Linda Li, Maria Naggaga"
-    },
-    {
-      "title": "Cut Your Azure Blob Storage Bill in Half: A Practical Walkthrough of Object Storage TCO",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/cut-your-azure-blob-storage-bill-in-half-a-practical-walkthrough/ba-p/4534575",
-      "published": "2026-07-22T07:00:00+00:00",
-      "summary": "Hello Folks! If you have ever opened your monthly Azure invoice, stared at the object storage line, and quietly wondered how it grew so much, this one is for you. At the Microsoft Azure Infra Summit 2026, Benedict Berger and George Trossell from the Azure Storage Engineering team walked through a...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "July Patches for Azure DevOps Server",
-      "link": "https://devblogs.microsoft.com/devops/july-patches-for-azure-devops-server-3/",
-      "published": "2026-07-21T19:23:57+00:00",
-      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales"
-    },
-    {
-      "title": "Take command of your Microsoft Foundry AI agents with the Azure Copilot Observability Agent",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/take-command-of-your-microsoft-foundry-ai-agents-with-the-azure/ba-p/4538681",
-      "published": "2026-07-21T16:28:48+00:00",
-      "summary": "Generative AI (GenAI) agents are moving from prototypes to production, running as part of real distributed applications. When a Microsoft Foundry agent slows down, returns errors, or spikes in token usage, teams need to know why - fast, and with evidence. The Azure Copilot Observability Agent,...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Ron Frenkel"
     }
   ]
 }
