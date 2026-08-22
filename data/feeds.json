@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-08-21T12:41:42.991796+00:00",
-  "totalArticles": 184,
+  "lastUpdated": "2026-08-22T12:33:53.997325+00:00",
+  "totalArticles": 178,
   "articles": [
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-08-22T01:22:26+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed:...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Today I will… Modernize a .NET application",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-modernize-a-net-application/",
+      "published": "2026-08-21T17:00:45+00:00",
+      "summary": "Today I will modernize a .NET Framework application to .NET 10 using the GitHub Copilot modernization tooling built-in to Visual Studio. The tooling helps us upgrade applications running on legacy versions of .NET and also migrate them to Azure. Today we’re going to focus on the upgrade portion....",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Matt Soucoup, Pablo Lopes"
+    },
+    {
+      "title": "Stop restricting the agent. Start restricting its environment.",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/stop-restricting-the-agent-start-restricting-its-environment/ba-p/4548726",
+      "published": "2026-08-21T15:20:28+00:00",
+      "summary": "Thanks to visagarwal​ for co-authoring this post. Cross-posted from: https://commandline.microsoft.com/azure-sre-agent-restricting-environment-ai-safety/ Azure SRE Agent gives an LLM tools, a code execution environment, and access to production resources. The first question most people ask is: “How...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "sanchitmehta"
+    },
+    {
+      "title": "Azure Managed Redis Deployment Automation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/azure-managed-redis-deployment-automation/ba-p/4547874",
+      "published": "2026-08-21T14:26:48+00:00",
+      "summary": "Sometimes we may see some temporary capacity restrictions on some Azure Regions, while deploying Azure Managed Redis (AMR), and when that happen, the recommendation is usually retrying using a different Azure Region, a different AMR SKU, or retrying during off-peak hours or weekends.Retrying the...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "LuisFilipe"
+    },
     {
       "title": "Announcing Azure Web PubSub chat in public preview",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-azure-web-pubsub-chat-in-public-preview/ba-p/4548907",
@@ -748,15 +784,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "vishal_kalal"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-08-07T01:46:28+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed:...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "Generally Available: Windows Server 2016 Extended Security Updates enabled by Azure Arc",
@@ -1576,87 +1603,6 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Carlos Robles, Vandana Mahtani"
-    },
-    {
-      "title": "Should You Use the New Microsoft Entra Tenant Governance or Azure Lighthouse? (part 3 of 3)",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/should-you-use-the-new-microsoft-entra-tenant-governance-or/ba-p/4532297",
-      "published": "2026-07-23T12:00:00+00:00",
-      "summary": "In Part 1 we built Azure Lighthouse the technical way. In Part 2, \"Bring Your Partner In, Without Letting Their Identities In,\" we made the security case for it: let a service provider operate a customer's Azure resources without creating any identity in the customer's tenant. This third part...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "Preston_Romney"
-    },
-    {
-      "title": "Hybrid Logic Apps on RKE2: a self-managed cluster with MetalLB",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-on-rke2-a-self-managed-cluster-with-metallb/ba-p/4539846",
-      "published": "2026-07-23T05:53:29+00:00",
-      "summary": "Azure Logic Apps Hybrid lets you run the Logic Apps runtime on your own Kubernetes cluster and still author, deploy, and monitor from Azure. The previous post walked through Red Hat OpenShift. This one is RKE2. We spun up a single-node RKE2 cluster, gave the ingress an IP with MetalLB, connected it...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "anandgmenon"
-    },
-    {
-      "title": "Reminder: Path to Production for Agents Webinar Series Starts Next Week",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/reminder-path-to-production-for-agents-webinar-series-starts/ba-p/4539877",
-      "published": "2026-07-23T00:15:07+00:00",
-      "summary": "Next week, join Microsoft for the Path to Production for Agents webinar series—a free, six-session technical training designed to help organizations move from AI experimentation to secure, scalable, production-ready agent solutions. The series takes place July 27–28 and is aimed at architects,...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "brauerblogs"
-    },
-    {
-      "title": "Azure Local expands SAN capabilities with iSCSI support",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-local-expands-san-capabilities-with-iscsi-support/ba-p/4531999",
-      "published": "2026-07-22T22:15:00+00:00",
-      "summary": "As organizations modernize datacenters and accelerate migration from legacy virtualization platforms, flexibility in storage architecture has become a key requirement. Customers increasingly want to reuse existing storage investments, scale infrastructure independently, and choose the connectivity...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "saniya0307"
-    },
-    {
-      "title": "Some tools and techniques for hardening Windows Server",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/some-tools-and-techniques-for-hardening-windows-server/ba-p/4539840",
-      "published": "2026-07-22T20:30:09+00:00",
-      "summary": "In this post I go over some tools and techniques exist for hardening Windows Server. As always, apply controls according to the server's role, test them against representative workloads before production rollout, document approved exceptions, and maintain tested console and recovery access in case...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "OrinThomas"
-    },
-    {
-      "title": "MCP in Azure: Using API Management for Authentication, Access, Logging & Governance",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/mcp-in-azure-using-api-management-for-authentication-access/ba-p/4532139",
-      "published": "2026-07-22T16:51:16+00:00",
-      "summary": "If MCP is becoming the “USB-C for AI,” enterprises need something equally familiar on the other side of that port: a control plane. The Model Context Protocol (MCP) gives AI applications a standard way to discover tools, retrieve context, and call capabilities from external systems. But once you...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Kalaivanan"
-    },
-    {
-      "title": "Connecting Microsoft Discovery App to Azure HPC with Azure NetApp Files and CycleCloud",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/connecting-microsoft-discovery-app-to-azure-hpc-with-azure/ba-p/4539224",
-      "published": "2026-07-22T16:47:17+00:00",
-      "summary": "Introduction Traditional High-Performance Computing (HPC) is central to most scientific computing and engineering applications. These systems are based on well tested, repeatable, and scalable compute processes that enable the large-scale generation and validation that the semiconductor and other...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "richpaw"
-    },
-    {
-      "title": "Microsoft Discovery: Where HPC meets agentic AI for the next era of EDA",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/microsoft-discovery-where-hpc-meets-agentic-ai-for-the-next-era/ba-p/4539212",
-      "published": "2026-07-22T15:25:57+00:00",
-      "summary": "Introduction High-performance computing is the engine behind the most demanding engineering breakthroughs. In electronic design automation, HPC enables massive simulation farms, verification regressions, place-and-route exploration, timing closure, power analysis, and signoff workloads that would...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "richpaw"
-    },
-    {
-      "title": "Building Agents that Act on Your Behalf with Toolboxes in Foundry",
-      "link": "https://devblogs.microsoft.com/foundry/building-agents-that-act-on-your-behalf-with-toolboxes-in-foundry/",
-      "published": "2026-07-22T15:00:29+00:00",
-      "summary": "How Toolboxes in Foundry simplify user delegation At some point, many agents move from answering questions to taking action. And when it does, the question becomes: whose identity is it acting with? Imagine you are building an internal employee agent. It needs to call a private, Entra-protected MCP...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Linda Li, Maria Naggaga"
     }
   ]
 }
