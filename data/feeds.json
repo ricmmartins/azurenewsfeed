@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-22T12:33:53.997325+00:00",
-  "totalArticles": 178,
+  "lastUpdated": "2026-08-23T12:35:27.021819+00:00",
+  "totalArticles": 168,
   "articles": [
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
@@ -10,6 +10,24 @@
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Expanding Open Model Choice in Microsoft Foundry with New DeepSeek and NVIDIA Nemotron Models",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/expanding-open-model-choice-in-microsoft-foundry-with-new/ba-p/4547926",
+      "published": "2026-08-21T18:55:07+00:00",
+      "summary": "Open models are driving a new wave of AI innovation, giving organizations more freedom to choose the models that best fit their requirements for performance, cost, latency, customization, and governance. As the open model ecosystem evolves rapidly, developers want access to the latest innovations...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny"
+    },
+    {
+      "title": "Model router updates: new regions, a refreshed model pool, and understanding the hill climb",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-router-updates-new-regions-a-refreshed-model-pool-and/ba-p/4521310",
+      "published": "2026-08-21T17:47:58+00:00",
+      "summary": "Across Microsoft, \"hill climbing\" has become shorthand for how real AI progress happens: not in one dramatic leap, but through a disciplined loop. Microsoft AI defines the hill climb as an organization that continuously improves, cycle after cycle, through more compute, better data, and sharper...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "sanjeev_jagtap"
     },
     {
       "title": "Today I will… Modernize a .NET application",
@@ -100,15 +118,6 @@
       "blog": "FinOps",
       "blogId": "finopsblog",
       "author": "Dirk_Brinkmann"
-    },
-    {
-      "title": "Expanding Open Model Choice in Microsoft Foundry with New DeepSeek and NVIDIA Nemotron Models",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/expanding-open-model-choice-in-microsoft-foundry-with-new/ba-p/4547926",
-      "published": "2026-08-19T23:48:50+00:00",
-      "summary": "Open models are driving a new wave of AI innovation, giving organizations more freedom to choose the models that best fit their requirements for performance, cost, latency, customization, and governance. As the open model ecosystem evolves rapidly, developers want access to the latest innovations...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
     },
     {
       "title": "Choosing the Right Agent in Microsoft Foundry",
@@ -1504,105 +1513,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "amar_badal"
-    },
-    {
-      "title": "Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB",
-      "link": "https://devblogs.microsoft.com/cosmosdb/native-agent-memory-for-microsoft-agent-framework-powered-by-azure-cosmos-db/",
-      "published": "2026-07-24T11:00:40+00:00",
-      "summary": "Recently we introduced the Agent Memory Toolkit and the Agentic Retrieval Toolkit for Azure Cosmos DB. The Agent Memory Toolkit gives your agents durable, Cosmos-backed memory: it stores raw conversation turns and then distills them into higher-value derived memories (thread summaries, extracted...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay"
-    },
-    {
-      "title": "Your Entire Agentic AI Workflow, Now Inside VS Code: New Course Available",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/your-entire-agentic-ai-workflow-now-inside-vs-code-new-course/ba-p/4539009",
-      "published": "2026-07-24T09:20:31+00:00",
-      "summary": "If you build with AI, you know the tax: jumping between a browser portal to pick a model, a terminal to run it, a separate playground to test a prompt, and finally your editor to write the code. Every context switch is a small drain on focus—and it adds up. What if the whole loop lived in the one...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "carlottacaste"
-    },
-    {
-      "title": "Post-Stream Refinement is now generally available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/post-stream-refinement-is-now-generally-available-in-microsoft/ba-p/4540174",
-      "published": "2026-07-23T21:29:47+00:00",
-      "summary": "When we introduced Post-Stream Refinement in public preview earlier this year, it closed the oldest trade-off in real-time speech: you could finally keep instant streaming results and get a highly accurate final transcript, with no penalty to first-token latency. A second recognition pass runs in...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SolarRezaei"
-    },
-    {
-      "title": "For the first time, real-time transcription goes multilingual",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/for-the-first-time-real-time-transcription-goes-multilingual/ba-p/4539089",
-      "published": "2026-07-23T21:29:27+00:00",
-      "summary": "When we introduced Post-Stream Refinement earlier this year, it closed the oldest gap in real-time speech: you could finally get instant streaming results and a highly accurate final transcript, with no latency penalty. But it kept one hard requirement — you had to tell the service, up front, which...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SolarRezaei"
-    },
-    {
-      "title": "Changing the engine while the plane is flying: migrating 60,000 apps under live load",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/changing-the-engine-while-the-plane-is-flying-migrating-60-000/ba-p/4539443",
-      "published": "2026-07-23T20:05:25+00:00",
-      "summary": "Summary Azure Logic Apps Consumption Integration Accounts were served by roughly 60,000 per-customer Azure Functions apps on the end-of-life v1/v2 runtime. Over about two years we migrated the entire fleet to Functions v4 (isolated worker), across all Azure regions, with no migration work required...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "AbodeSaafan"
-    },
-    {
-      "title": "Introducing Kubernetes-Native Policy Validation with CEL and VAP in Azure Policy",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-kubernetes-native-policy-validation-with-cel-and-vap/ba-p/4534585",
-      "published": "2026-07-23T19:27:12+00:00",
-      "summary": "Azure Policy for Kubernetes now supports Gatekeeper’s integration with native Kubernetes Validating Admission Policy (VAP) using Common Expression Language (CEL)! This integration leverages the new VAP feature introduced in Kubernetes 1.30, providing a more efficient, reliable and in-process way to...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "stevenbucher"
-    },
-    {
-      "title": "The Microsoft 365 Copilot Agent’s Playbook: A Practical Livestream Series for Building Better Agents",
-      "link": "https://devblogs.microsoft.com/blog/the-microsoft-365-copilot-agents-playbook-a-practical-livestream-series-for-building-better-agents/",
-      "published": "2026-07-23T19:03:53+00:00",
-      "summary": "Building on Microsoft 365 Copilot? Here’s your playbook. Declarative agents are quickly becoming one of the most exciting ways to extend Microsoft 365 Copilot and bring organizational knowledge, workflows, and tools directly into the flow of work. But as agent capabilities grow, so does the need...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Shavonna Jackson"
-    },
-    {
-      "title": "Announcing public preview of Azure DDoS Protection custom policy",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-of-azure-ddos-protection-custom-policy/ba-p/4538963",
-      "published": "2026-07-23T17:16:28+00:00",
-      "summary": "We are excited to announce the public preview of Azure DDoS Protection custom policy, a new capability that gives customers more granular control over how Azure DDoS Protection detects and mitigates attacks against protected workloads. Azure DDoS Protection has always focused on delivering...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "OfirSarfaty"
-    },
-    {
-      "title": "Azure Lighthouse: Bring Your Partner In, Without Letting Their Identities In (part 2 of 3)",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-lighthouse-bring-your-partner-in-without-letting-their/ba-p/4529852",
-      "published": "2026-07-23T15:40:21+00:00",
-      "summary": "See part 1 – Implementing Azure Lighthouse: A Technical Guide for Service Providers and Enterprises (part 1 of 2) See part 3 – Should You Use the New Microsoft Entra Tenant Governance or Azure Lighthouse? (part 3 of 3) The three traditional ways in, and what each leaves behind When a provider needs...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "Preston_Romney"
-    },
-    {
-      "title": "Understanding Microsoft 365 Copilot Risk Surface and Mitigations",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/understanding-microsoft-365-copilot-risk-surface-and-mitigations/ba-p/4538712",
-      "published": "2026-07-23T15:37:20+00:00",
-      "summary": "It’s a shift that carries important security implications organizations should understand before scaling deployment. Customers with Microsoft 365 E5 licensing may already have access to many of the tools that can help identify and reduce Copilot-related risk, but licensing alone does not reduce...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "AtilGurcan"
-    },
-    {
-      "title": "Build locally, ship to Azure: meet Azure SQL Developer",
-      "link": "https://devblogs.microsoft.com/azure-sql/azure-sql-developer-prpr/",
-      "published": "2026-07-23T15:00:27+00:00",
-      "summary": "Big news: Azure SQL Developer is here, in private preview. It’s the Azure SQL Database engine, on your laptop, in a container. Build against the exact engine you run in the cloud. Ship the same code to Azure. Change one line, the connection string, and you’re in production. Free for local dev and...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Carlos Robles, Vandana Mahtani"
     }
   ]
 }
