@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-23T12:35:27.021819+00:00",
-  "totalArticles": 168,
+  "lastUpdated": "2026-08-24T12:44:17.801701+00:00",
+  "totalArticles": 166,
   "articles": [
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
@@ -1495,24 +1495,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "akyamaza"
-    },
-    {
-      "title": "Announcing the Open-Source Release of ML Video Codec (MLVC)",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-the-open-source-release-of-ml-video-codec-mlvc/ba-p/4539875",
-      "published": "2026-07-24T21:39:05+00:00",
-      "summary": "Video codecs compress video for transmission or storage, reducing bandwidth and storage requirements. MLVC is a modern machine-learning-based codec that uses substantially less bandwidth than conventional codecs, improving streaming and video-call quality—especially on constrained or unreliable...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "Naba_Kumar"
-    },
-    {
-      "title": "Claude Opus 5 is available today in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-opus-5-is-available-today-in-microsoft-foundry/ba-p/4535068",
-      "published": "2026-07-24T17:21:19+00:00",
-      "summary": "Most AI handles one task well. The harder problem is the complex workflow that spans hours. Effective enterprise AI must be capable of managing complex workflows that require planning, adaptation, and persistence over extended periods. We're excited to announce that Claude Opus 5, Anthropic's most...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal"
     }
   ]
 }
