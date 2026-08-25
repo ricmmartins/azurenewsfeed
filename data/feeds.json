@@ -1,7 +1,79 @@
 {
-  "lastUpdated": "2026-08-24T12:44:17.801701+00:00",
-  "totalArticles": 166,
+  "lastUpdated": "2026-08-25T12:42:33.244705+00:00",
+  "totalArticles": 172,
   "articles": [
+    {
+      "title": "Unlocking the Power of AI for Every Developer in Visual Studio with Bring your Own Model",
+      "link": "https://devblogs.microsoft.com/visualstudio/unlocking-the-power-of-ai-for-every-developer-in-visual-studio-with-bring-your-own-model/",
+      "published": "2026-08-24T22:39:41+00:00",
+      "summary": "The best AI in Visual Studio is the AI you can bring with you. Developers don’t work in a single-model world anymore. You might reach for one model for everyday coding, another for a domain-specific problem, and an approved model for work that must stay within your organization’s governance...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Tanmayee Kamath"
+    },
+    {
+      "title": "Benchmark Retrieval Patterns for Copilot Studio and Foundry IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/benchmark-retrieval-patterns-for-copilot-studio-and-foundry-iq/ba-p/4547920",
+      "published": "2026-08-24T19:00:00+00:00",
+      "summary": "Part 2 of a series. Part 1, Grounding Copilot Studio Agents with Azure AI Search and Foundry IQ, defined five grounding patterns. This article gives you a reproducible way to compare them without mixing latency boundaries, billing units, or quality signals. Reference implementation, not a...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "BrittanyPugh"
+    },
+    {
+      "title": "Unified AI Defense: Security Copilot, Project Perception, and MDASH",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/unified-ai-defense-security-copilot-project-perception-and-mdash/ba-p/4547124",
+      "published": "2026-08-24T17:04:23+00:00",
+      "summary": "Executive Summary This triumvirate of tools present a cohesive and unified platform that tells a compelling story: Microsoft Security Copilot as the assistive AI experience and extensible agent platform for security and IT work; Project Perception as the coordinated multi-agent defense system that...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "edgarus71"
+    },
+    {
+      "title": "Powering Memory in Foundry Agent Service, with Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/powering-memory-in-foundry-agent-service-with-azure-cosmos-db/",
+      "published": "2026-08-24T16:04:43+00:00",
+      "summary": "Move from a locally composed memory-enabled agent to a deployed Foundry Agent Service agent, with keyless Azure infrastructure and an interactive browser sample. In Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB, we introduced CosmosMemoryContextProvider: a Microsoft...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay"
+    },
+    {
+      "title": "Enabling A2A endpoint and Agent Card for a Hosted Agent",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/enabling-a2a-endpoint-and-agent-card-for-a-hosted-agent/ba-p/4546979",
+      "published": "2026-08-24T16:00:00+00:00",
+      "summary": "Building an agent shouldn't require you to reinvent platform capabilities. With Microsoft Foundry, hosted agents inherit essential capabilities such as authentication, ingress management, A2A transport, and discovery endpoints, freeing developers to focus on business logic and user value. This...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "srisatyakrishna5"
+    },
+    {
+      "title": "When Does RL Actually Help Fine-Tuning? A Difficulty-Controlled Study on Structured Generation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-does-rl-actually-help-fine-tuning-a-difficulty-controlled/ba-p/4535077",
+      "published": "2026-08-24T16:00:00+00:00",
+      "summary": "The uncomfortable question Reinforcement learning is often the finishing move of the modern fine-tuning stack: run SFT first, then add RL (GRPO, PPO, DPO) to squeeze out the last few points. In practice the return is wildly inconsistent — sometimes a real jump, sometimes nothing after a burned GPU...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shihyaolin"
+    },
+    {
+      "title": "Now in public preview: Azure Virtual Desktop regional host pools",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-in-public-preview-azure-virtual-desktop-regional-host-pools/ba-p/4474598",
+      "published": "2026-08-24T15:19:27+00:00",
+      "summary": "Editor's Note: August 2026 | This post has been updated to reflect changes since its original publication in January 2026. Opting in to the preview through a feature flag is no longer required, and the Azure portal is now supported for creating regional host pools. Session host update, dynamic...",
+      "blog": "Azure Virtual Desktop",
+      "blogId": "azurevirtualdesktopblog",
+      "author": "TomHickling"
+    },
+    {
+      "title": "Building Production-Ready AI Agents in Microsoft Foundry: 10 Lessons Learned",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-production-ready-ai-agents-in-microsoft-foundry-10/ba-p/4544174",
+      "published": "2026-08-24T14:00:00+00:00",
+      "summary": "A Real-World Scenario Imagine a customer support agent that answers invoice questions. During testing, everything works perfectly. But in production: The Finance API occasionally times out. The knowledge base contains outdated information. Tool calls fail during peak traffic. Token consumption...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SURENDRATANNEERU1"
+    },
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
@@ -894,15 +966,6 @@
       "author": "JanGoergen"
     },
     {
-      "title": "When Does RL Actually Help Fine-Tuning? A Difficulty-Controlled Study on Structured Generation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-does-rl-actually-help-fine-tuning-a-difficulty-controlled/ba-p/4535077",
-      "published": "2026-08-05T17:11:08+00:00",
-      "summary": "The uncomfortable question Reinforcement learning is often the finishing move of the modern fine-tuning stack: run SFT first, then add RL (GRPO, PPO, DPO) to squeeze out the last few points. In practice the return is wildly inconsistent — sometimes a real jump, sometimes nothing after a burned GPU...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "shihyaolin"
-    },
-    {
       "title": "Announcing Public Preview - Azure Private Link over IPv6",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-azure-private-link-over-ipv6/ba-p/4543978",
       "published": "2026-08-05T17:06:27+00:00",
@@ -1369,15 +1432,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "prateekwrites"
-    },
-    {
-      "title": "Introducing Kimi K3 through Fireworks AI on Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-kimi-k3-through-fireworks-ai-on-microsoft-foundry/ba-p/4540187",
-      "published": "2026-07-28T17:34:17+00:00",
-      "summary": "Need to process entire codebases, lengthy legal documents, or hours of meeting transcripts in a single prompt? Kimi K3's 1 million-token context window—one of the largest available—is now deployable on Microsoft Foundry through Fireworks AI. Here's what that massive context means for your...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "davevoutila"
     },
     {
       "title": "Microsoft is headed to VMware Explore 2026 in Las Vegas",
