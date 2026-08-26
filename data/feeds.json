@@ -1,7 +1,142 @@
 {
-  "lastUpdated": "2026-08-25T12:42:33.244705+00:00",
-  "totalArticles": 172,
+  "lastUpdated": "2026-08-26T12:47:28.740943+00:00",
+  "totalArticles": 182,
   "articles": [
+    {
+      "title": "New Azure SQL Foundations video series with GitHub samples",
+      "link": "https://devblogs.microsoft.com/azure-sql/new-azure-sql-foundations-video-series-with-github-samples/",
+      "published": "2026-08-26T12:37:45+00:00",
+      "summary": "Bob Ward and I recently released a series of videos, read more in the original blog post or go directly to the series on YouTube. The Azure SQL Database Foundations series are four videos that take you from your first Hyperscale database to AI features running against your own operational data. We...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman"
+    },
+    {
+      "title": "Microsoft is headed to VMware Explore 2026 in Las Vegas",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/microsoft-is-headed-to-vmware-explore-2026-in-las-vegas/ba-p/4541643",
+      "published": "2026-08-26T06:37:16+00:00",
+      "summary": "If you want to know about Azure, the work we are doing in partnership with VMware by Broadcom, or have a conversation about your VMware workloads, stop by the Microsoft booth! This year Microsoft will have several break-out sessions on a variety of topics where you will discover how Microsoft can...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "KirstenMegahan"
+    },
+    {
+      "title": "Cost Management with Azure Resource Manager MCP",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/cost-management-with-azure-resource-manager-mcp/ba-p/4550182",
+      "published": "2026-08-26T02:17:28+00:00",
+      "summary": "Today, we’re announcing new Cost Management capabilities in the Azure Resource Management (ARM) MCP server. A core set of cost tools is now available by default, making it easier for AI agents to bring cost context into Azure workflows without additional configuration. For more advanced scenarios,...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "demiajayi"
+    },
+    {
+      "title": "Maia 200: Software-defined dataflow and all-Ethernet networking for efficient inference on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/maia-200-software-defined-dataflow-and-all-ethernet-networking/ba-p/4548198",
+      "published": "2026-08-25T22:49:33+00:00",
+      "summary": "By Sherry Xu, Prashant Ranjan, Torsten Hoefler As we enter the era of frontier-scale intelligence, the economics of AI are increasingly determined not by peak compute performance but by how efficiently an entire system can generate tokens at scale. Production inference workloads are rapidly...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "SherryX19"
+    },
+    {
+      "title": "Retirement of Microsoft HPC Pack",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/retirement-of-microsoft-hpc-pack/ba-p/4550183",
+      "published": "2026-08-25T21:17:58+00:00",
+      "summary": "Overview Microsoft HPC Pack is a Windows‑based high‑performance computing (HPC) scheduler that enables customers to deploy, manage, and operate HPC workloads in on‑premises and hybrid environments. Since its original release, HPC Pack has supported a range of Windows‑centric HPC scenarios,...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "XinXin"
+    },
+    {
+      "title": "Tracking Batch node state and duration in Log Analytics",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/tracking-batch-node-state-and-duration-in-log-analytics/ba-p/4547582",
+      "published": "2026-08-25T18:04:45+00:00",
+      "summary": "1. The problem (a real customer scenario) Some of our customers described that they have those underlying gaps: Symptom What the customer wanted Nodes intermittently stayed in the leavingpool state for hours. The customer needed to know which node was stuck and for how long, so an alert could fire...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "Ahmed_Khaled"
+    },
+    {
+      "title": "The Complete Guide to Azure Databricks Cost Optimization",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/the-complete-guide-to-azure-databricks-cost-optimization/ba-p/4550132",
+      "published": "2026-08-25T16:25:03+00:00",
+      "summary": "Co-Authored by: Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next Steps. Phase 1: Discovery Assessing...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Azure Copilot Introduces Direct Access to Agents",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-copilot-introduces-direct-access-to-agents/ba-p/4547932",
+      "published": "2026-08-25T16:20:21+00:00",
+      "summary": "Whether you are troubleshooting an application issue at 2 a.m., validating a deployment plan before a release, optimizing cloud resources, or improving workload resiliency, the challenge is finding the right expertise quickly enough to act with confidence. That’s why we are evolving the Azure...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "artigulwadi"
+    },
+    {
+      "title": "Start here: Azure SQL Foundations series",
+      "link": "https://devblogs.microsoft.com/blog/start-here-azure-sql-foundations-series/",
+      "published": "2026-08-25T16:00:18+00:00",
+      "summary": "Most developers I talk to aren’t asking whether Azure SQL Database can handle their next app. They’re asking where to start when it comes to modernization, migration, and AI in the database. If you’re reading this, you’re probably in a similar boat: you’ve got an existing schema or databases, a...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Anna Hoffman"
+    },
+    {
+      "title": "Visual Studio August Update — Work Smarter Across Models and Branches",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-august-update-work-smarter-across-models-and-branches/",
+      "published": "2026-08-25T16:00:00+00:00",
+      "summary": "Tune Copilot model thinking effort, share custom agents across your organization, track usage, and simplify complex Git workflows with worktrees and submodule support. The post Visual Studio August Update — Work Smarter Across Models and Branches appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie"
+    },
+    {
+      "title": "Azure SRE Agent: Introducing Live Reports",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-introducing-live-reports/ba-p/4549732",
+      "published": "2026-08-25T15:00:00+00:00",
+      "summary": "Today we're introducing Live Reports in Azure SRE Agent, now in public preview. You describe a dashboard in chat; the agent builds it, and it refreshes every time you open it. Ops teams ask the same handful of questions every morning: What's burning right now? What landed overnight? Who's on call?...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "yashnisar"
+    },
+    {
+      "title": "Azure SRE Agent VNet integration is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-vnet-integration-is-now-generally-available/ba-p/4549774",
+      "published": "2026-08-25T15:00:00+00:00",
+      "summary": "VNet integration for Azure SRE Agent is now generally available. You can route outbound agent traffic through your virtual network to access resources behind private endpoints, including databases, Azure Container Apps, Azure Kubernetes Service (AKS) API servers, and more. Traffic routed through...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Cary_Chai"
+    },
+    {
+      "title": "Try Azure SRE Agent with no always-on charges",
+      "link": "https://devblogs.microsoft.com/blog/try-azure-sre-agent-with-no-always-on-charges/",
+      "published": "2026-08-25T15:00:00+00:00",
+      "summary": "We are happy to announce a 30-day trial experience for Azure SRE Agent. New customers can create and configure the SRE Agent at their own pace, with no charges for setup time or keeping agents ready. During the trial, you can connect your agents to telemetry, source code, incident management...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Nir Mashkowski"
+    },
+    {
+      "title": "Consume Dataverse MCP server in Microsoft Foundry-Bringing business data to AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/consume-dataverse-mcp-server-in-microsoft-foundry-bringing/ba-p/4548218",
+      "published": "2026-08-25T14:00:00+00:00",
+      "summary": "Introduction Building AI agents that can actually do things in your business systems—create records, update opportunities, trigger workflows—typically requires weeks of custom integration work. The Dataverse MCP Server changes that. In this tutorial, you'll connect a Microsoft Foundry agent to your...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "muafzal"
+    },
+    {
+      "title": "PowerToys 0.101 is here: Window Hopper, Insider updates, and Command Palette compact mode",
+      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-101-is-here-window-hopper-insider-updates-and-command-palette-compact-mode/",
+      "published": "2026-08-25T13:24:02+00:00",
+      "summary": "We’re back with a fresh PowerToys release! PowerToys 0.101 introduces Window Hopper for quickly moving between windows from the same app, a redesigned update experience with Stable and Insider channels, and compact mode for Command Palette. This release also continues our WinUI 3 modernization,...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Niels Laute"
+    },
     {
       "title": "Unlocking the Power of AI for Every Developer in Visual Studio with Bring your Own Model",
       "link": "https://devblogs.microsoft.com/visualstudio/unlocking-the-power-of-ai-for-every-developer-in-visual-studio-with-bring-your-own-model/",
@@ -271,15 +406,6 @@
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
       "author": "Maddy Montaquila"
-    },
-    {
-      "title": "Azure Copilot Introduces Direct Access to Agents",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-copilot-introduces-direct-access-to-agents/ba-p/4547932",
-      "published": "2026-08-18T22:08:41+00:00",
-      "summary": "Whether you are troubleshooting an application issue at 2 a.m., validating a deployment plan before a release, optimizing cloud resources, or improving workload resiliency, the challenge is finding the right expertise quickly enough to act with confidence. That’s why we are evolving the Azure...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "artigulwadi"
     },
     {
       "title": "Azure Cosmos DB in the Agentic Era: Data Tools for Developers and AI Agents",
@@ -1371,15 +1497,6 @@
       "author": "Rachel Kang (SHE/HER)"
     },
     {
-      "title": "Executive AI Avatar Platform on Azure: Frontier Intelligence Meets Fireworks AI Open-Source",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/executive-ai-avatar-platform-on-azure-frontier-intelligence/ba-p/4541301",
-      "published": "2026-07-29T14:00:00+00:00",
-      "summary": "The 2 a.m. Question Nobody Wants to Answer Twice It is the night before open enrollment closes. An employee in another time zone has a question about HSA eligibility. No HR representative is available, and the FAQ PDF she received three months ago is nowhere to be found. She does not want to submit...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Gana_Chandrasekaran"
-    },
-    {
       "title": "Building and Deploying Microsoft Hosted Agents to Microsoft Teams",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-and-deploying-microsoft-hosted-agents-to-microsoft/ba-p/4540376",
       "published": "2026-07-29T09:02:11+00:00",
@@ -1432,15 +1549,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "prateekwrites"
-    },
-    {
-      "title": "Microsoft is headed to VMware Explore 2026 in Las Vegas",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/microsoft-is-headed-to-vmware-explore-2026-in-las-vegas/ba-p/4541643",
-      "published": "2026-07-28T17:19:52+00:00",
-      "summary": "If you want to know about Azure, the work we are doing in partnership with VMware by Broadcom, or have a conversation about your VMware workloads, stop by the Microsoft booth! This year Microsoft will have several break-out sessions on a variety of topics where you will discover how Microsoft can...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "KirstenMegahan"
     },
     {
       "title": "Visual Studio July Update — Meet the New Agent, Powered by the GitHub Copilot SDK",
@@ -1531,24 +1639,6 @@
       "blog": "Telecommunications",
       "blogId": "telecommunications-industry-blog",
       "author": "rickliev"
-    },
-    {
-      "title": "Preserve a Legacy IP During Azure Migration with Private Link Service Direct Connect",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/preserve-a-legacy-ip-during-azure-migration-with-private-link/ba-p/4540575",
-      "published": "2026-07-27T12:31:30+00:00",
-      "summary": "Why this matters Phased migrations to Azure frequently stall on a single, unglamorous constraint: an application with a hard-coded dependency address. The usual options are to re-address the application or change its configuration, and both add development effort, regression testing, and risk to a...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "kumarshashikaushal"
-    },
-    {
-      "title": "Device Code Flow: The Gift That Keeps on Giving — To Attackers",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/device-code-flow-the-gift-that-keeps-on-giving-to-attackers/ba-p/4540949",
-      "published": "2026-07-27T00:46:16+00:00",
-      "summary": "Tags: Microsoft Entra ID, Conditional Access, Device Code Flow, OAuth, Azure Arc, Azure Migrate, Identity Security, Zero Trust Introduction Device Code Flow was built for a good reason: helping users sign in on devices that cannot easily show a browser or accept a password. Smart TVs, consoles,...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "akyamaza"
     }
   ]
 }
