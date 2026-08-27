@@ -1,7 +1,133 @@
 {
-  "lastUpdated": "2026-08-26T12:47:28.740943+00:00",
-  "totalArticles": 182,
+  "lastUpdated": "2026-08-27T21:46:24.515742+00:00",
+  "totalArticles": 178,
   "articles": [
+    {
+      "title": "Zonal redundancy in API management Standard v2",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/zonal-redundancy-in-api-management-standard-v2/ba-p/4550977",
+      "published": "2026-08-27T20:57:25+00:00",
+      "summary": "APIs are the backbone of modern applications, powering everything from mobile experiences and microservices to AI-driven applications and business-critical integrations. As customers continue to modernize their platforms on Azure, they increasingly expect their API infrastructure to remain...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Sreekanth_Thirthala"
+    },
+    {
+      "title": "Azure Developer CLI (azd) – August 2026",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-august-2026/",
+      "published": "2026-08-27T17:39:02+00:00",
+      "summary": "Welcome to the August 2026 edition of the Azure Developer CLI (azd) release blog. This post covers releases 1.30.0, 1.31.0, 1.31.1, 1.31.2, and 1.32.0. To share your feedback and questions, join the August release discussion on GitHub. Highlights: The azd extension framework is generally available....",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Kristen Womack, Jeffrey C."
+    },
+    {
+      "title": "VSLive! @ Microsoft HQ: Developer Takeaways and Must-Watch Sessions",
+      "link": "https://devblogs.microsoft.com/visualstudio/vslive-hq-content-sandiego-and-orlando-mentions/",
+      "published": "2026-08-27T14:00:09+00:00",
+      "summary": "VSLive! @ Microsoft HQ 2026 was one of the most energizing VSLive! events I’ve attended. What stood out was the level of engagement over five days of learning and conversation from July 27 through July 31. Developers came ready to dig into the future of Visual Studio, .NET, and AI-assisted software...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt"
+    },
+    {
+      "title": "Manage and retrieve credentials securely inside Browser Automation Tool (BAT) using Azure Key Vault",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/manage-and-retrieve-credentials-securely-inside-browser/ba-p/4550858",
+      "published": "2026-08-27T11:27:16+00:00",
+      "summary": "When do AI agents need a browser Enterprise AI agents are becoming increasingly capable of reasoning over data, calling APIs, and orchestrating workflows. Yet many business-critical systems still expose functionality only through a web interface. ERP systems, supplier portals, internal...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "AbhinavPremsekhar"
+    },
+    {
+      "title": "Azure DevOps in the GitHub Copilot App",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-in-the-github-copilot-app/",
+      "published": "2026-08-27T11:24:17+00:00",
+      "summary": "The Azure DevOps plugin is now available for the GitHub Copilot app, allowing you to view and manage Azure DevOps pull requests and work items directly in the Copilot app. What you can do The initial release supports: View your work items and pull requests from My Work Open work items and pull...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem"
+    },
+    {
+      "title": "Understanding the Standard HDD I/O unit size update and what it means for your workloads",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/understanding-the-standard-hdd-i-o-unit-size-update-and-what-it/ba-p/4499128",
+      "published": "2026-08-26T20:48:29+00:00",
+      "summary": "As Azure continues to evolve to support modern workload patterns, we are refining how transactions are measured for Standard HDD Managed Disks. This update helps align billing more closely with actual I/O behavior while maintaining predictable cost controls for customers. In this post, we’ll walk...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "austin-ma"
+    },
+    {
+      "title": "Stop restricting the agent. Start restricting its environment.",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/stop-restricting-the-agent-start-restricting-its-environment/ba-p/4548726",
+      "published": "2026-08-26T18:48:33+00:00",
+      "summary": "Thanks to visagarwal​ for co-authoring this post. Cross-posted from: https://commandline.microsoft.com/azure-sre-agent-restricting-environment-ai-safety/ Azure SRE Agent gives an LLM tools, a code execution environment, and access to production resources. The first question most people ask is: “How...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "sanchitmehta"
+    },
+    {
+      "title": "Grok 4.6 comes to Microsoft Foundry Models: Built for long-horizon reasoning and complex workflows",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/grok-4-6-comes-to-microsoft-foundry-models-built-for-long/ba-p/4547578",
+      "published": "2026-08-26T17:04:55+00:00",
+      "summary": "The next wave of AI applications won't be defined by how quickly models answer questions. They'll be defined by how much work they can complete. Whether resolving repository issues, navigating codebases, generating engineering designs, or executing multi-step enterprise workflows, developers are...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "MaheshBalachandran"
+    },
+    {
+      "title": "Retirement of Microsoft HPC Pack",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/retirement-of-microsoft-hpc-pack/ba-p/4550183",
+      "published": "2026-08-26T16:54:57+00:00",
+      "summary": "Overview Microsoft HPC Pack is a Windows‑based high‑performance computing (HPC) scheduler that enables customers to deploy, manage, and operate HPC workloads in on‑premises and hybrid environments. Since its original release, HPC Pack has supported a range of Windows‑centric HPC scenarios,...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "XinXin"
+    },
+    {
+      "title": "I Need My CI/CD Pipeline to Access Cosmos DB Without Using a Secret",
+      "link": "https://devblogs.microsoft.com/cosmosdb/i-need-my-ci-cd-pipeline-to-access-cosmos-db-without-using-a-secret/",
+      "published": "2026-08-26T16:47:16+00:00",
+      "summary": "In the last post we walked through why RBAC broke your app and how to fix it. Your app is now running on a managed identity, keys are off, and everything is green. Then your build pipeline runs, and it needs to seed test data. Suddenly you’re staring at a secret in your CI settings […] The post I...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Iria Osara, Sudhanshu Khera"
+    },
+    {
+      "title": "The Visual Studio Debugger Agentic Workflow Gets a Test-Driven Upgrade",
+      "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-debugger-agentic-workflow-gets-a-test-driven-upgrade/",
+      "published": "2026-08-26T16:00:47+00:00",
+      "summary": "A few months ago, we introduced a new guided agentic workflow in the Visual Studio Debugger Agent designed to help you move from a bug report to a verified fix without spending your morning guessing where to begin. If you missed that announcement, check out Stop Hunting Bugs: Meet the New Visual...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Harshada Hole"
+    },
+    {
+      "title": "Azure DNS + Traffic Manager linked records",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-dns-traffic-manager-linked-records/ba-p/4548221",
+      "published": "2026-08-26T15:59:25+00:00",
+      "summary": "Introduction Traffic Manager linked records creates a direct, managed link between an Azure DNS record set and a Traffic Manager profile. When a query arrives, Azure DNS evaluates the linked Traffic Manager profile internally and returns the appropriate endpoint response directly. For A and AAAA...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "atiy"
+    },
+    {
+      "title": "Copilot Code Reviews for Azure Repos (public preview)",
+      "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-public-preview/",
+      "published": "2026-08-26T15:17:16+00:00",
+      "summary": "Today, we’re announcing the public preview of GitHub Copilot Code Review for Azure Repos, making the feature available to all Azure DevOps customers using the service. There’s no longer a need to sign up for early access. Customers can now enable Copilot Code Review for their Azure Repos...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem"
+    },
+    {
+      "title": "Maia 200: Software-defined dataflow and all-Ethernet networking for efficient inference on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/maia-200-software-defined-dataflow-and-all-ethernet-networking/ba-p/4548198",
+      "published": "2026-08-26T14:40:52+00:00",
+      "summary": "By Sherry Xu, Prashant Ranjan, Torsten Hoefler As we enter the era of frontier-scale intelligence, the economics of AI are increasingly determined not by peak compute performance but by how efficiently an entire system can generate tokens at scale. Production inference workloads are rapidly...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "SherryX19"
+    },
     {
       "title": "New Azure SQL Foundations video series with GitHub samples",
       "link": "https://devblogs.microsoft.com/azure-sql/new-azure-sql-foundations-video-series-with-github-samples/",
@@ -28,24 +154,6 @@
       "blog": "FinOps",
       "blogId": "finopsblog",
       "author": "demiajayi"
-    },
-    {
-      "title": "Maia 200: Software-defined dataflow and all-Ethernet networking for efficient inference on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/maia-200-software-defined-dataflow-and-all-ethernet-networking/ba-p/4548198",
-      "published": "2026-08-25T22:49:33+00:00",
-      "summary": "By Sherry Xu, Prashant Ranjan, Torsten Hoefler As we enter the era of frontier-scale intelligence, the economics of AI are increasingly determined not by peak compute performance but by how efficiently an entire system can generate tokens at scale. Production inference workloads are rapidly...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "SherryX19"
-    },
-    {
-      "title": "Retirement of Microsoft HPC Pack",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/retirement-of-microsoft-hpc-pack/ba-p/4550183",
-      "published": "2026-08-25T21:17:58+00:00",
-      "summary": "Overview Microsoft HPC Pack is a Windows‑based high‑performance computing (HPC) scheduler that enables customers to deploy, manage, and operate HPC workloads in on‑premises and hybrid environments. Since its original release, HPC Pack has supported a range of Windows‑centric HPC scenarios,...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "XinXin"
     },
     {
       "title": "Tracking Batch node state and duration in Log Analytics",
@@ -244,15 +352,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Matt Soucoup, Pablo Lopes"
-    },
-    {
-      "title": "Stop restricting the agent. Start restricting its environment.",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/stop-restricting-the-agent-start-restricting-its-environment/ba-p/4548726",
-      "published": "2026-08-21T15:20:28+00:00",
-      "summary": "Thanks to visagarwal​ for co-authoring this post. Cross-posted from: https://commandline.microsoft.com/azure-sre-agent-restricting-environment-ai-safety/ Azure SRE Agent gives an LLM tools, a code execution environment, and access to production resources. The first question most people ask is: “How...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "sanchitmehta"
     },
     {
       "title": "Azure Managed Redis Deployment Automation",
@@ -550,15 +649,6 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "Harel Broitman"
-    },
-    {
-      "title": "What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876",
-      "published": "2026-08-15T16:49:55+00:00",
-      "summary": "Microsoft's Cloud Architects: Eduardo Dos Santos eduardomdossantos​, Chris Walk cwalk​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not an Azure Databricks product issue. Azure Databricks does not own or reserve compute, it dynamically...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "Running Hosted Agents in Microsoft Foundry Agent Service Part 3/5",
@@ -1065,15 +1155,6 @@
       "author": "Dona_Mukherjee"
     },
     {
-      "title": "Understanding the Standard HDD I/O unit size update and what it means for your workloads",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/understanding-the-standard-hdd-i-o-unit-size-update-and-what-it/ba-p/4499128",
-      "published": "2026-08-05T21:33:32+00:00",
-      "summary": "As Azure continues to evolve to support modern workload patterns, we are refining how transactions are measured for Standard HDD Managed Disks. This update helps align billing more closely with actual I/O behavior while maintaining predictable cost controls for customers. In this post, we’ll walk...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "austin-ma"
-    },
-    {
       "title": "Exploring Multi-Agent Workflows with Microsoft Agent Framework",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/exploring-multi-agent-workflows-with-microsoft-agent-framework/ba-p/4542512",
       "published": "2026-08-05T20:00:00+00:00",
@@ -1434,15 +1515,6 @@
       "author": "demiajayi"
     },
     {
-      "title": "Introducing GPT-transcribe and GPT-live-transcribe in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-gpt-transcribe-and-gpt-live-transcribe-in-microsoft/ba-p/4541740",
-      "published": "2026-07-29T23:07:34+00:00",
-      "summary": "A transcription model hears “account number 8-4-7-2” but returns “account number eighty-four seventy-two.” A single error can break a downstream automation workflow. Developers building voice applications need transcription models that can handle real-world audio conditions, natural speech...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Dave_Jacobs"
-    },
-    {
       "title": "Bring Your Own Orchestrator to Azure Container Apps Jobs",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-own-orchestrator-to-azure-container-apps-jobs/ba-p/4541275",
       "published": "2026-07-29T17:49:33+00:00",
@@ -1531,114 +1603,6 @@
       "blog": "Governance & Management",
       "blogId": "azuregovernanceandmanagementblog",
       "author": "stevenbucher"
-    },
-    {
-      "title": "Surprise AI bill? GitHub Billing controls to the rescue!",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/surprise-ai-bill-github-billing-controls-to-the-rescue/ba-p/4541295",
-      "published": "2026-07-28T19:57:24+00:00",
-      "summary": "The AI bill is higher than expected. Now what? Finance wants to understand what is driving the cost. Engineering leaders, on the other hand, want to preserve the productivity gains behind the increased usage. The administrator needs to balance both priorities and put a policy in place that the...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Chris_Noring"
-    },
-    {
-      "title": "Token Economics in Practice",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/token-economics-in-practice/ba-p/4540472",
-      "published": "2026-07-28T17:57:41+00:00",
-      "summary": "Introduction: The cheap-token trap Token prices alone are a poor economic model for agents. The price of reaching a fixed capability has fallen sharply — In a 2025 Report Stanford's AI Index reported a roughly 280-fold drop in the cost of GPT-3.5-level inference between late 2022 and late 2024, and...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "prateekwrites"
-    },
-    {
-      "title": "Visual Studio July Update — Meet the New Agent, Powered by the GitHub Copilot SDK",
-      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-july-update-meet-the-new-agent-powered-by-copilot-sdk/",
-      "published": "2026-07-28T16:00:14+00:00",
-      "summary": "There's a new Agent (Preview) in Copilot Chat, built on the same GitHub Copilot SDK that powers the GitHub Copilot CLI, that gets more done with less back-and-forth. The post Visual Studio July Update — Meet the New Agent, Powered by the GitHub Copilot SDK appeared first on Visual Studio Blog.",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mark Downie"
-    },
-    {
-      "title": "Introducing Physical-World Intelligence: How GeoAI Is Helping Expand Enterprise AI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/introducing-physical-world-intelligence-how-geoai-is-helping/ba-p/4541309",
-      "published": "2026-07-28T15:26:38+00:00",
-      "summary": "Key Takeaways Physical-World Intelligence is the ability to combine data about the physical world, such as weather, satellite imagery, infrastructure, sensors, maps, environmental conditions, and asset locations, with enterprise data and AI to support operational and business decision-making. This...",
-      "blog": "Planetary Computer",
-      "blogId": "microsoft-planetary-computer-blog",
-      "author": "NoraZhan"
-    },
-    {
-      "title": "Find any commit in seconds: Commit Search comes to Azure DevOps",
-      "link": "https://devblogs.microsoft.com/devops/find-any-commit-in-seconds-commit-search-comes-to-azure-devops/",
-      "published": "2026-07-28T15:24:55+00:00",
-      "summary": "Great code has a long memory. The fix you shipped last quarter, the refactor that touched a dozen files, the one-line change that explained why something works the way it does — it’s all there in your commit history. The hard part has always been finding it. Today, we’re excited to announce that...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Alex Pysanets"
-    },
-    {
-      "title": "Refactor your database with SQL projects in VS Code",
-      "link": "https://devblogs.microsoft.com/azure-sql/refactor-your-database-with-sql-projects-in-vs-code/",
-      "published": "2026-07-28T13:08:29+00:00",
-      "summary": "SQL database projects are a fundamental tool for keeping your database in source control, tracking changes and collaborating on quickly evolving database needs. Not to be forgotten, their superpower is being able to dynamically generate deployment scripts that match the declared state and the exact...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Drew Skwiers-Koballa"
-    },
-    {
-      "title": "Azure landing zone (ALZ) enters its next chapter",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-landing-zone-alz-enters-its-next-chapter/ba-p/4533520",
-      "published": "2026-07-28T10:22:02+00:00",
-      "summary": "Azure landing zone (ALZ) is now maintained by the Azure Migrate team. Nothing has changed in relation to getting support and making requests; still head to aka.ms/alz/issues (GitHub) and file your ask. ALZ continues to be open-source, maintained by the Azure Migrate team 👍 This is only the Platform...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "jtracey93msft"
-    },
-    {
-      "title": "Cap it with GitHub, make it count with Azure: governing GitHub Copilot spend",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/cap-it-with-github-make-it-count-with-azure-governing-github/ba-p/4539492",
-      "published": "2026-07-28T01:37:12+00:00",
-      "summary": "The good news is that GitHub gives you real native controls, and you should turn them on first. The part worth writing down is where those native controls stop, and what an Azure API Management gateway plus GitHub Copilot bring-your-own-key adds on top. This is a two-layer story, not a replacement...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "tonimontez"
-    },
-    {
-      "title": "Managing disruption with AKS Node Auto-Provisioning",
-      "link": "https://blog.aks.azure.com/2026/07/28/nap-disruption",
-      "published": "2026-07-28T00:00:00+00:00",
-      "summary": "Learn AKS best practices for managing node disruption when using node auto provisioning (NAP) with pod disruption budgets, node disruption budgets, consolidation policies, and maintenance windows in production.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Turning surprise AI bills into accountable growth with GitHub Billing Controls",
-      "link": "https://dev.to/azure/turning-surprise-ai-bills-into-accountable-growth-4343",
-      "published": "2026-07-27T18:44:11+00:00",
-      "summary": "This is a story of how you receive a higher bill than expected and how GitHub's Billing Controls help clarity and predictability. Let's begin our story. Series This is part of a series on GitHub Admin and billing controls. Managing surprise bills, you're here Better together: GitHub Admin UI +...",
-      "blog": "Dev.to Azure",
-      "blogId": "devtoazure",
-      "author": "Chris Noring"
-    },
-    {
-      "title": "AI Gateway tier of API Management now in public preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/ai-gateway-tier-of-api-management-now-in-public-preview/ba-p/4540170",
-      "published": "2026-07-27T16:37:53+00:00",
-      "summary": "Today, we are introducing the AI Gateway tier of Azure API Management, now in public preview. It gives platform teams a purpose-built experience built specifically for AI workloads - publishing and governing models and MCP servers. Controls are configured through policy cards rather than XML and...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "vladvino"
-    },
-    {
-      "title": "Building Autonomous Network Operations: From Vision to Measurable Business Impact",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-industry-blog/building-autonomous-network-operations-from-vision-to-measurable/ba-p/4540483",
-      "published": "2026-07-27T13:17:08+00:00",
-      "summary": "At TM Forum DTW Ignite 2026, industry leaders gathered to discuss one of telecom's most important transformations: the shift from network automation to truly autonomous operations. In the session, Building Autonomous Network Operations, Microsoft's Thomas Steagall joined AT&T's Mark Austin, VP of...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "rickliev"
     }
   ]
 }
