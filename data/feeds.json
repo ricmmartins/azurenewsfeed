@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-08-27T21:46:24.515742+00:00",
-  "totalArticles": 178,
+  "lastUpdated": "2026-08-28T21:43:26.858302+00:00",
+  "totalArticles": 170,
   "articles": [
+    {
+      "title": "Announcing Confidential Live Migration in Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-confidential-live-migration-in-azure/ba-p/4524558",
+      "published": "2026-08-28T15:15:42+00:00",
+      "summary": "Authored by Caroline Perez-Vargas, Michael McReynolds Introduction Today at Build, Microsoft showcased Confidential Live Migration, a new capability that helps move Intel® TDX Confidential VMs to updated infrastructure with limited interruption while helping protect VM memory and execution context...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "mmcrey"
+    },
     {
       "title": "Zonal redundancy in API management Standard v2",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/zonal-redundancy-in-api-management-standard-v2/ba-p/4550977",
@@ -10,6 +19,24 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "Sreekanth_Thirthala"
+    },
+    {
+      "title": "Introducing Cohere Parse V5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-cohere-parse-v5/ba-p/4550955",
+      "published": "2026-08-27T19:09:35+00:00",
+      "summary": "Cohere Parse, a vision language model built for converting enterprise documents into structured, machine-readable data, is now available in the Microsoft Foundry. Parse joins Cohere's Embed and Rerank models in Foundry. What Parse does Cohere Parse takes complex, multimodal files and returns clean...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "RashaudSavage"
+    },
+    {
+      "title": "Cohere Parse v5 is now available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/cohere-parse-v5-is-now-available-in-microsoft-foundry/ba-p/4550954",
+      "published": "2026-08-27T19:02:39+00:00",
+      "summary": "Cohere Parse, a vision language model built for converting enterprise documents into structured, machine-readable data, is now available in the Microsoft Foundry model . Parse joins Cohere's Embed and Rerank models in Foundry. What Parse does Cohere Parse takes complex, multimodal files and returns...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Sharmichock"
     },
     {
       "title": "Azure Developer CLI (azd) – August 2026",
@@ -289,15 +316,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "srisatyakrishna5"
-    },
-    {
-      "title": "When Does RL Actually Help Fine-Tuning? A Difficulty-Controlled Study on Structured Generation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-does-rl-actually-help-fine-tuning-a-difficulty-controlled/ba-p/4535077",
-      "published": "2026-08-24T16:00:00+00:00",
-      "summary": "The uncomfortable question Reinforcement learning is often the finishing move of the modern fine-tuning stack: run SFT first, then add RL (GRPO, PPO, DPO) to squeeze out the last few points. In practice the return is wildly inconsistent — sometimes a real jump, sometimes nothing after a burned GPU...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "shihyaolin"
     },
     {
       "title": "Now in public preview: Azure Virtual Desktop regional host pools",
@@ -640,6 +658,15 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Haoran Cheng"
+    },
+    {
+      "title": "Beyond Vector Indexes: Azure SQL Brings Optimizer Intelligence to Vector Search",
+      "link": "https://devblogs.microsoft.com/azure-sql/beyond-vector-indexes-azure-sql-brings-optimizer-intelligence-to-vector-search/",
+      "published": "2026-08-17T11:22:09+00:00",
+      "summary": "Why production AI retrieval depends on more than vector index performance. It’s easy to think of AI retrieval as a vector search problem. For many developers, the first conversation starts with vector index benchmarks: How many queries per second can it handle? What’s the latency? What’s the...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Pooja Kamath"
     },
     {
       "title": "Keep Azure Monitor issues and ServiceNow ITOM incidents in sync",
@@ -1479,15 +1506,6 @@
       "author": "AbhishekTiwari"
     },
     {
-      "title": "Securing On-Device AI: Evaluating Foundry Local Models with AI Red Teaming Agent",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/securing-on-device-ai-evaluating-foundry-local-models-with-ai/ba-p/4541303",
-      "published": "2026-07-30T14:00:00+00:00",
-      "summary": "On-Device AI Inference Changes the Architecture, Not the Risk As organizations transform into Frontier Firms and integrate AI into more applications, cloud-hosted inference is not always the optimal architectural choice. Some applications operate with limited connectivity, require low-latency...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "mhadiputro"
-    },
-    {
       "title": "Reservation exchanges for Azure services covered by savings plans end starting Feb. 1, 2027",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/reservation-exchanges-for-azure-services-covered-by-savings/ba-p/4542437",
       "published": "2026-07-30T13:39:13+00:00",
@@ -1513,96 +1531,6 @@
       "blog": "FinOps",
       "blogId": "finopsblog",
       "author": "demiajayi"
-    },
-    {
-      "title": "Bring Your Own Orchestrator to Azure Container Apps Jobs",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-own-orchestrator-to-azure-container-apps-jobs/ba-p/4541275",
-      "published": "2026-07-29T17:49:33+00:00",
-      "summary": "Azure Container Apps Jobs are a good fit for batch processing, ETL, machine learning, reports, and other tasks that run to completion. But when those tasks have dependencies, retries, or fan-out, you still need an orchestrator. Many teams already have one. The community-maintained Bring Your Own...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "hetvip"
-    },
-    {
-      "title": "Mastering GitHub Copilot Budgets: How to Prevent Surprise Overages Without Blocking Devs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/mastering-github-copilot-budgets-how-to-prevent-surprise/ba-p/4542073",
-      "published": "2026-07-29T17:33:31+00:00",
-      "summary": "1. The Core Mental Model: The Water Park Analogy To understand Copilot billing, think of your enterprise as a water park: The Shared Pool (Included Usage): Every Copilot Business ($19/mo) and Enterprise ($39/mo) seat license adds a set number of free AI credits into a shared corporate water tank...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "gauravbhardwaj"
-    },
-    {
-      "title": "Share Azure Monitor Logs to Microsoft Fabric (preview)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/share-azure-monitor-logs-to-microsoft-fabric-preview/ba-p/4541199",
-      "published": "2026-07-29T17:25:56+00:00",
-      "summary": "Azure Monitor Logs sharing to Microsoft Fabric is now in public preview. In just a few steps, you can share the logs you already send to a Log Analytics workspace with OneLake in Delta Parquet—the open format—without duplication, at no additional cost. This opens your observability data to all...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Ilana_Waitser"
-    },
-    {
-      "title": "Azure SDK Release (July 2026)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-july-2026/",
-      "published": "2026-07-29T17:18:25+00:00",
-      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (July 2026) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Justin Bettencourt"
-    },
-    {
-      "title": "Azure Arc Server June Forum",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-server-june-forum/ba-p/4542082",
-      "published": "2026-07-29T16:52:01+00:00",
-      "summary": "Please find the recording for the monthly Azure Arc Server Forum on YouTube! During the June 2026 Azure Arc Server Forum, we discussed: Arc Server AI Agent assists with onboarding and troubleshooting through an integrated LLM with plans for surfacing the experience through Azure Copilot and in...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Aurnov_Chattopadhyay"
-    },
-    {
-      "title": "Tell your model when to think harder",
-      "link": "https://devblogs.microsoft.com/visualstudio/tell-your-model-when-to-think-harder/",
-      "published": "2026-07-29T15:02:36+00:00",
-      "summary": "Not every question deserves the same amount of thought. Renaming a variable isn’t the same as debugging a memory leak, and they don’t need the same level of thinking. So why should your model treat them the same way every time? Starting in Visual Studio 18.9 Insiders 2, it doesn’t have to....",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Rachel Kang (SHE/HER)"
-    },
-    {
-      "title": "Building and Deploying Microsoft Hosted Agents to Microsoft Teams",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-and-deploying-microsoft-hosted-agents-to-microsoft/ba-p/4540376",
-      "published": "2026-07-29T09:02:11+00:00",
-      "summary": "A practical, engineer-to-engineer guide to taking an AI agent from a developer laptop, into Microsoft Foundry Agent Service, and out to end users inside Microsoft Teams and Microsoft 365 — using the BRK241 FibreOps reference implementation as a worked example. Introduction: the hard part is no...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
-      "title": "Now Generally Available: Built-in CIS Benchmark Auditing for Linux on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/now-generally-available-built-in-cis-benchmark-auditing-for/ba-p/4529819",
-      "published": "2026-07-29T08:21:15+00:00",
-      "summary": "A few months ago, in From Policy to Practice: Built-in CIS Benchmarks on Azure – Flexible, Hybrid-Ready, we introduced a new way to bring Center for Internet Security (CIS) Benchmarks to your Linux estate using Azure Policy with Machine Configuration. It builds on the broader customizable security...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "pallakatos"
-    },
-    {
-      "title": "Secretless Microsoft Entra ID Authentication for AKS with Istio and oauth2-proxy",
-      "link": "https://azureglobalblackbelts.com/2026/07/29/secretless-entra-authentication-on-aks",
-      "published": "2026-07-29T00:00:00+00:00",
-      "summary": "Protect an AKS application with Istio external authorization, oauth2-proxy, Microsoft Entra ID, and AKS Workload Identity without an OAuth client secret.",
-      "blog": "Azure Global Black Belt Blog",
-      "blogId": "gbblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Introducing Compliance Substate for Azure Policy Exemptions!",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-compliance-substate-for-azure-policy-exemptions/ba-p/4541703",
-      "published": "2026-07-28T23:26:47+00:00",
-      "summary": "When a policy is applied, some resources in scope may need to be temporarily exempted from enforcement, whether it be during a migration, an incident, or while an app team works through its compliance requirements. However, the moment you grant an exemption, that resource's compliance result flips...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "stevenbucher"
     }
   ]
 }
