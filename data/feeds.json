@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-08-28T21:43:26.858302+00:00",
-  "totalArticles": 170,
+  "lastUpdated": "2026-08-29T16:13:08.634588+00:00",
+  "totalArticles": 171,
   "articles": [
+    {
+      "title": "Only believe what you can validate: a verification framework for agentic AI",
+      "link": "https://devblogs.microsoft.com/all-things-azure/only-believe-what-you-can-validate/",
+      "published": "2026-08-29T12:45:11+00:00",
+      "summary": "How to read this article This article picks up where my January piece left off. My catch phrase is still the same: “only believe what you can validate”. This article is about validation. If you are new to agentic AI (in modernization contexts), I would highly recommend reading The Realities of...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "jkordick"
+    },
+    {
+      "title": "Try the new SqlClient and Retry connections natively",
+      "link": "https://devblogs.microsoft.com/azure-sql/sqlclient-retry/",
+      "published": "2026-08-29T05:47:40+00:00",
+      "summary": "Microsoft.Data.SqlClient includes configurable retry logic for SqlConnection and SqlCommand, giving .NET applications built-in resilience for transient SQL Server failures without requiring Polly. The post Try the new SqlClient and Retry connections natively appeared first on Azure SQL Dev Corner.",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon"
+    },
+    {
+      "title": "Advertised gateway prefixes in Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/advertised-gateway-prefixes-in-azure/ba-p/4550940",
+      "published": "2026-08-28T20:09:00+00:00",
+      "summary": "Introduction Large Azure hub-and-spoke environments can advertise a significant number of routes toward on-premises networks. By default, Azure VPN Gateway and ExpressRoute Gateway advertise the address spaces of the hub virtual network and the address spaces of peered spoke virtual networks that...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "erikbailey"
+    },
     {
       "title": "Announcing Confidential Live Migration in Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-confidential-live-migration-in-azure/ba-p/4524558",
@@ -10,6 +37,15 @@
       "blog": "Confidential Computing",
       "blogId": "azureconfidentialcomputingblog",
       "author": "mmcrey"
+    },
+    {
+      "title": "🚀 Foundry Toolkit for VS Code — August 2026 Update",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/foundry-toolkit-for-vs-code-august-2026-update/ba-p/4551138",
+      "published": "2026-08-28T08:00:07+00:00",
+      "summary": "This is the August round-up for the Foundry Toolkit for VS Code. Four releases shipped this month: 1.6.7, 1.6.8, 1.6.9, and 1.6.10. August was about turning agent development into a workflow you can follow end to end — start from the right path, connect reusable tools and other agents, run with...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "junjieli"
     },
     {
       "title": "Zonal redundancy in API management Standard v2",
@@ -1504,33 +1540,6 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "AbhishekTiwari"
-    },
-    {
-      "title": "Reservation exchanges for Azure services covered by savings plans end starting Feb. 1, 2027",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/reservation-exchanges-for-azure-services-covered-by-savings/ba-p/4542437",
-      "published": "2026-07-30T13:39:13+00:00",
-      "summary": "Starting February 1, 2027, Azure reservation exchanges will no longer be available for services covered by savings plans. This change aligns reservation exchange policy with the flexibility already offered by savings plans, and it gives you a clear, predictable framework for choosing the right...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "kyleikeda"
-    },
-    {
-      "title": "Give Your E-Commerce App a Memory: Adding Agents That Actually Remember Your Customers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/give-your-e-commerce-app-a-memory-adding-agents-that-actually/ba-p/4524021",
-      "published": "2026-07-30T07:00:00+00:00",
-      "summary": "Ever shopped online and felt like the app had no idea who you are? You browse jackets every week, you told the chatbot you hate polyester, and yet it keeps showing you the same generic recommendations. That’s the problem. Most e-commerce apps treat every interaction as a blank slate. What if your...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Chris_Noring"
-    },
-    {
-      "title": "Introducing Cost Management and Pricing Toolsets in Azure Resource Manager MCP Server",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/introducing-cost-management-and-pricing-toolsets-in-azure/ba-p/4530710",
-      "published": "2026-07-30T05:41:39+00:00",
-      "summary": "The Azure Resource Manager MCP server was recently launched to give AI agents first-class access to Azure infrastructure operations through the Azure control plane. Today, Microsoft Cost Management is releasing the Cost Management and Pricing toolsets within Azure Resource Manager MCP, bringing...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "demiajayi"
     }
   ]
 }
