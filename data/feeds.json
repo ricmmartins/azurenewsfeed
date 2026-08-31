@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-08-30T16:03:04.948682+00:00",
-  "totalArticles": 159,
+  "lastUpdated": "2026-08-31T18:46:50.877867+00:00",
+  "totalArticles": 165,
   "articles": [
+    {
+      "title": "Build governed asynchronous APIs with Azure API Management and Azure Service Bus",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/build-governed-asynchronous-apis-with-azure-api-management-and/ba-p/4544780",
+      "published": "2026-08-31T18:38:04+00:00",
+      "summary": "Many applications use Azure Service Bus to decouple services, handle traffic spikes, and process workloads asynchronously. However, securely exposing messaging capabilities to applications, partners, and internal teams can require custom middleware or messaging-specific client implementations....",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "anishta"
+    },
+    {
+      "title": "Power Azure SRE Agent with the tools it needs",
+      "link": "https://devblogs.microsoft.com/azure-sdk/power-azure-sre-agent-with-connector-namespace/",
+      "published": "2026-08-31T18:37:17+00:00",
+      "summary": "Use Azure Connector Namespace to host MCP servers and give Azure SRE Agent access to the operational tools it needs without managing the server infrastructure yourself. The post Power Azure SRE Agent with the tools it needs appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Lily Ma"
+    },
+    {
+      "title": "Simpler, private connectivity between Azure and AWS with Azure Multicloud Interconnect",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simpler-private-connectivity-between-azure-and-aws-with-azure/ba-p/4550556",
+      "published": "2026-08-31T17:59:37+00:00",
+      "summary": "Multicloud is no longer the exception — it is how most enterprises operate. Teams run analytics in one cloud and applications in another, place workloads to meet data-residency requirements, and increasingly move large volumes of data between clouds to train and serve AI models. Yet the network...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Sudha_Mahajan"
+    },
+    {
+      "title": "Consume Dataverse MCP server in Microsoft Foundry-Bringing business data to AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/consume-dataverse-mcp-server-in-microsoft-foundry-bringing/ba-p/4548218",
+      "published": "2026-08-31T17:30:00+00:00",
+      "summary": "Introduction Building AI agents that can actually do things in your business systems—create records, update opportunities, trigger workflows—typically requires weeks of custom integration work. The Dataverse MCP Server changes that. In this tutorial, you'll connect a Microsoft Foundry agent to your...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "muafzal"
+    },
+    {
+      "title": "The Hidden Reason Your Foundry Agent Can't Reach Any of Your Private (Bring-Your-Own) Resources",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/the-hidden-reason-your-foundry-agent-can-t-reach-any-of-your/ba-p/4543619",
+      "published": "2026-08-31T17:13:25+00:00",
+      "summary": "The setup You've built the deployment the enterprise architecture review asked for. Nothing touches the public internet. Your Microsoft Foundry resource is private — public network access disabled, a private endpoint fronting it inside your virtual network. Every resource the agent depends on is...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "vishal_kalal"
+    },
+    {
+      "title": "What’s new in Microsoft Sentinel: August 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-august-2026/ba-p/4551405",
+      "published": "2026-08-31T16:00:00+00:00",
+      "summary": "Welcome back to What's new in Microsoft Sentinel. This August, Sentinel innovation kicks off with the AI-powered playbook generator, generally available to all Sentinel customers in the Microsoft Defender portal. Meanwhile, User and Entity Behavior Analytics (UEBA) anomalies enter public preview on...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "spalani"
+    },
+    {
+      "title": "Bacpac and Dacpac, the similarities and differences",
+      "link": "https://devblogs.microsoft.com/azure-sql/bacpac-and-dacpac-the-similarities-and-differences/",
+      "published": "2026-08-31T15:13:57+00:00",
+      "summary": "When you need to move an entire database or move the objects in a database, bacpac and dacpac files often come up because of all of the tooling options to interact with them. Bacpac and dacpac files share some core similarities as well as some major differences in how they’re used in SqlPackage and...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Drew Skwiers-Koballa"
+    },
+    {
+      "title": "BizTalk Server 2020 End-of-Sale Announcement",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/biztalk-server-2020-end-of-sale-announcement/ba-p/4551317",
+      "published": "2026-08-31T09:00:00+00:00",
+      "summary": "Executive Summary: BizTalk Server 2020 is the final release of BizTalk Server, and Microsoft expects sales of BizTalk Server 2020 and Host Integration Server 2020 to end March 31, 2027. Mainstream support for BizTalk Server 2020 continues through April 12, 2028, after which the product remains...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "hcamposu"
+    },
+    {
+      "title": "Advanced Windows Firewall",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/advanced-windows-firewall/ba-p/4551626",
+      "published": "2026-08-30T22:38:47+00:00",
+      "summary": "If you administer Windows, you’re already aware of Windows Firewall. You might use it to allow an application, open a port, or block unwanted inbound traffic. But those familiar tasks only scratch the surface of what it can do. The Microsoft Learn module Understand advanced Windows Firewall takes...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "OrinThomas"
+    },
     {
       "title": "Only believe what you can validate: a verification framework for agentic AI",
       "link": "https://devblogs.microsoft.com/all-things-azure/only-believe-what-you-can-validate/",
@@ -46,6 +127,15 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "junjieli"
+    },
+    {
+      "title": "Open-sourcing TauGrid: cloud-native AI infrastructure for GPU workloads on Kubernetes",
+      "link": "https://blog.aks.azure.com/2026/08/28/taugrid-open-source",
+      "published": "2026-08-28T00:00:00+00:00",
+      "summary": "TauGrid combines the tau CLI, Kueue, KubeRay, GPU health monitoring, and observability into one Kubernetes-native stack for AI workloads.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "Zonal redundancy in API management Standard v2",
@@ -291,15 +381,6 @@
       "author": "Nir Mashkowski"
     },
     {
-      "title": "Consume Dataverse MCP server in Microsoft Foundry-Bringing business data to AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/consume-dataverse-mcp-server-in-microsoft-foundry-bringing/ba-p/4548218",
-      "published": "2026-08-25T14:00:00+00:00",
-      "summary": "Introduction Building AI agents that can actually do things in your business systems—create records, update opportunities, trigger workflows—typically requires weeks of custom integration work. The Dataverse MCP Server changes that. In this tutorial, you'll connect a Microsoft Foundry agent to your...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "muafzal"
-    },
-    {
       "title": "PowerToys 0.101 is here: Window Hopper, Insider updates, and Command Palette compact mode",
       "link": "https://devblogs.microsoft.com/commandline/powertoys-0-101-is-here-window-hopper-insider-updates-and-command-palette-compact-mode/",
       "published": "2026-08-25T13:24:02+00:00",
@@ -375,7 +456,7 @@
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
       "published": "2026-08-22T01:22:26+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi aalchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer Reviewed:...",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil"
@@ -1137,15 +1218,6 @@
       "author": "abikomma"
     },
     {
-      "title": "The Hidden Reason Your Foundry Agent Can't Reach Any of Your Private (Bring-Your-Own) Resources",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/the-hidden-reason-your-foundry-agent-can-t-reach-any-of-your/ba-p/4543619",
-      "published": "2026-08-07T14:00:00+00:00",
-      "summary": "The setup You've built the deployment the enterprise architecture review asked for. Nothing touches the public internet. Your Microsoft Foundry resource is private — public network access disabled, a private endpoint fronting it inside your virtual network. Every resource the agent depends on is...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "vishal_kalal"
-    },
-    {
       "title": "Generally Available: Windows Server 2016 Extended Security Updates enabled by Azure Arc",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/generally-available-windows-server-2016-extended-security/ba-p/4543640",
       "published": "2026-08-06T19:27:34+00:00",
@@ -1414,24 +1486,6 @@
       "blog": "ITOpsTalk",
       "blogId": "itopstalkblog",
       "author": "Pierre_Roman"
-    },
-    {
-      "title": "Scale limits in network security perimeter",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/scale-limits-in-network-security-perimeter/ba-p/4542911",
-      "published": "2026-07-31T17:24:48+00:00",
-      "summary": "Presently, network security perimeter functionality can be used to support deployments of PaaS resources with common public network controls with following scale limitations: LimitationDescriptionNumber of network security perimetersSupported up to 100 as recommended limit per subscription.Profiles...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "shashankamalladi"
-    },
-    {
-      "title": "AI-Enabled Map Production Using Microsoft's MARS Model",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/ai-enabled-map-production-using-microsoft-s-mars-model/ba-p/4542498",
-      "published": "2026-07-31T17:23:54+00:00",
-      "summary": "Maps have long served as the foundation for how organizations understand, navigate, and make decisions about the world. Yet generating and maintaining maps remains a highly manual, time-consuming, and costly process with susceptibility to human error. Traditional mapping workflows rely on skilled...",
-      "blog": "Planetary Computer",
-      "blogId": "microsoft-planetary-computer-blog",
-      "author": "nelsontam"
     }
   ]
 }
