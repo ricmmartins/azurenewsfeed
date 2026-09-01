@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-08-31T18:46:50.877867+00:00",
-  "totalArticles": 165,
+  "lastUpdated": "2026-09-01T16:04:19.414615+00:00",
+  "totalArticles": 169,
   "articles": [
+    {
+      "title": "Today I will… review GitHub PRs",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-review-github-prs/",
+      "published": "2026-09-01T16:00:27+00:00",
+      "summary": "Today I will show you how we can tackle one of the most common tasks when working in a development team or managing an open-source project, and that is working with Pull Requests. While we’re going to be using the GitHub tooling within Visual Studio for this, the approach would be very similar with...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Aaron Powell"
+    },
+    {
+      "title": "MDATP Linux agent latest release reporting",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/mdatp-linux-agent-latest-release-reporting/ba-p/4552316",
+      "published": "2026-09-01T15:02:13+00:00",
+      "summary": "Executive Summary The solution provides a repeatable way to determine which Microsoft Defender for Endpoint for Linux package is released by configured Microsoft package repositories for each operating-system family, version, architecture, and update channel. It runs from Windows using PowerShell...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "edgarus71"
+    },
+    {
+      "title": "Learn What to Do When You Hit Capacity in Azure Databricks!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/learn-what-to-do-when-you-hit-capacity-in-azure-databricks/ba-p/4550550",
+      "published": "2026-09-01T14:08:19+00:00",
+      "summary": "Microsoft's Cloud Architects: Manu Mehta manumehta​, Chris Walk cwalk​, Eduardo Dos Santos eduardomdossantos​, Maria Hito mariahito​, Paul Singh PaulSingh​, Aladdin Alchalabi AladdinAlchalabi​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Enterprise Live Migrations is now in public preview",
+      "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations-public-preview/",
+      "published": "2026-08-31T20:52:38+00:00",
+      "summary": "Move Azure DevOps repositories to GitHub Enterprise Cloud with data residency while minimizing disruption Over the last several years, we’ve encouraged customers to move their repositories from Azure Repos to GitHub to take advantage of the latest AI-powered and agentic development experiences. We...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Soo Stahl"
+    },
     {
       "title": "Build governed asynchronous APIs with Azure API Management and Azure Service Bus",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/build-governed-asynchronous-apis-with-azure-api-management-and/ba-p/4544780",
