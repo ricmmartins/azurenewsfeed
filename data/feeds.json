@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-09-01T16:04:19.414615+00:00",
-  "totalArticles": 169,
+  "lastUpdated": "2026-09-02T15:58:22.454366+00:00",
+  "totalArticles": 175,
   "articles": [
+    {
+      "title": "AI Gateway tier of Azure API Management — August 2026 updates",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/ai-gateway-tier-of-azure-api-management-august-2026-updates/ba-p/4552703",
+      "published": "2026-09-02T14:26:41+00:00",
+      "summary": "The August 2026 update for the AI Gateway tier (preview) of Azure API Management introduces new capabilities for observing AI workloads and governing model spend. Release highlights Richer OpenTelemetry observability: AI Gateway can now emit logs, distributed traces, token metrics, and estimated...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "budzynski"
+    },
+    {
+      "title": "Stop alt-tabbing into the wrong Visual Studio",
+      "link": "https://devblogs.microsoft.com/visualstudio/stop-alt-tabbing-into-the-wrong-visual-studio/",
+      "published": "2026-09-02T14:00:12+00:00",
+      "summary": "A user asked for per-solution color themes. It already ships, and it goes further than they asked. You run several instances of Visual Studio side by side, one per solution, and they all look identical. Same taskbar icon, same alt-tab thumbnail, same chrome. So, you land in the wrong one, start...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mads Kristensen"
+    },
+    {
+      "title": "Scaling AI Storage: Azure Managed Lustre excels in MLPerf Storage v3.0",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/scaling-ai-storage-azure-managed-lustre-excels-in-mlperf-storage/ba-p/4552351",
+      "published": "2026-09-02T08:27:06+00:00",
+      "summary": "In large scale AI clusters storage is responsible for delivering training data fast enough to keep accelerators busy and completing checkpoint saves and recoveries quickly enough to avoid costly stalls. MLPerf Storage is an industry-standard benchmark developed by MLCommons that reproduces the I/O...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "wolfgangdesalvador"
+    },
+    {
+      "title": "Why long-running tasks on Linux Batch pools can restart daily and how to prevent it",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/why-long-running-tasks-on-linux-batch-pools-can-restart-daily/ba-p/4546215",
+      "published": "2026-09-02T04:57:13+00:00",
+      "summary": "In Azure Batch, customers running long tasks on Linux (Ubuntu) compute nodes sometimes observe that a task is interrupted and automatically re-run from the beginning on a recurring basis, often once per day, around the same time, even though no one cancelled or resubmitted the task, and the...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "Sithu"
+    },
+    {
+      "title": "Automating Compliance Scope Enforcement with Azure Policy",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/automating-compliance-scope-enforcement-with-azure-policy/ba-p/4551921",
+      "published": "2026-09-02T00:08:55+00:00",
+      "summary": "Cloud compliance certifications like C5, ISO 27001, HIPAA, or PCI DSS never cover the whole platform. They only cover a defined set of services, listed in an official document published by Microsoft. A common and costly mistake is to assume that “Azure is certified for X” automatically means every...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "gurjsing"
+    },
+    {
+      "title": "Active Directory Domain Services modules on Microsoft Learn",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/active-directory-domain-services-modules-on-microsoft-learn/ba-p/4547604",
+      "published": "2026-09-01T22:51:08+00:00",
+      "summary": "The following is a list of Active Directory Domain Services modules on Microsoft Learn sorted from introductory to advanced. Is there an Active Directory topic that isn't listed here that you'd like to see covered? (AD CS modules are coming). If you know all this, remember we have the free 45...",
+      "blog": "ITOpsTalk",
+      "blogId": "itopstalkblog",
+      "author": "OrinThomas"
+    },
+    {
+      "title": "Introducing APIOps CLI",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-apiops-cli/ba-p/4552378",
+      "published": "2026-09-01T20:05:56+00:00",
+      "summary": "APIOps CLI helps teams extract, version, review, preview, and publish Azure API Management configuration through source-controlled DevOps workflows. Today, we're excited to announce APIOps CLI, a new command-line experience designed to help organizations manage Azure API Management (APIM) using...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Sreekanth_Thirthala"
+    },
+    {
+      "title": "Claude Fable 5.1 is now available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-fable-5-1-is-now-available-in-microsoft-foundry/ba-p/4550175",
+      "published": "2026-09-01T18:03:59+00:00",
+      "summary": "Fable 5.1 and Mythos 5.1 are the same underlying model. Claude Fable 5.1 is the generally available version, with safeguards that fallback for cyber and bio capability queries; Claude Mythos 5.1 is Anthropic’s most capable model for cybersecurity and biology research, keeping its full cyber and bio...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal"
+    },
+    {
+      "title": "Stop Letting Agents Run the Workflow",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/stop-letting-agents-run-the-workflow/ba-p/4550068",
+      "published": "2026-09-01T17:00:00+00:00",
+      "summary": "A user submits a ticket: \"Please grant temporary admin access to the finance reporting database for month-end close.\" A five-agent system handles it beautifully. A triage agent classifies the request. A policy agent checks entitlements. An approval agent decides a manager needs to sign off. An...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Kalaivanan"
+    },
     {
       "title": "Today I will… review GitHub PRs",
       "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-review-github-prs/",
@@ -10,6 +91,24 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Aaron Powell"
+    },
+    {
+      "title": "Generally Available: Certificate Management for Azure Arc-enabled Kubernetes",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/generally-available-certificate-management-for-azure-arc-enabled/ba-p/4542769",
+      "published": "2026-09-01T16:00:00+00:00",
+      "summary": "We are excited to announce the general availability of a new capability for edge Kubernetes workloads connected with Azure Arc, Certificate Management. Certificate Management enables Arc-enabled Kubernetes customers to install a single Microsoft-supported extension to automate TLS certificate and...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "NicolasMondada"
+    },
+    {
+      "title": "Microsoft Azure Virtual Desktop Hybrid is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/microsoft-azure-virtual-desktop-hybrid-is-now-generally/ba-p/4550523",
+      "published": "2026-09-01T16:00:00+00:00",
+      "summary": "Extend Azure Virtual Desktop to your on-premises environment. Run desktops where you need them. Manage on-premises session hosts from Azure. Many organizations want to modernize their virtual desktop infrastructure but face practical constraints that make a full cloud migration difficult in the...",
+      "blog": "Azure Virtual Desktop",
+      "blogId": "azurevirtualdesktopblog",
+      "author": "Steve_Downs"
     },
     {
       "title": "MDATP Linux agent latest release reporting",
@@ -30,6 +129,15 @@
       "author": "Rafia_Aqil"
     },
     {
+      "title": "Six Lessons for Reliable Agent Optimizer Gains on Harder Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/six-lessons-for-reliable-agent-optimizer-gains-on-harder-agents/ba-p/4551357",
+      "published": "2026-09-01T14:00:00+00:00",
+      "summary": "Authors: Abi Komma, Charles Kim, Luffy Chen, Vivek Bhadauria, Morteza Ziyadi, Victor Dibia, Ilya Matiach What happens when you push agent optimizer to its limits - larger datasets, tool-calling agents, and hybrid evaluators? We found that the optimizer is as good as what surrounds it. Here's what...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "abikomma"
+    },
+    {
       "title": "Enterprise Live Migrations is now in public preview",
       "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations-public-preview/",
       "published": "2026-08-31T20:52:38+00:00",
@@ -37,6 +145,15 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Soo Stahl"
+    },
+    {
+      "title": "Model Migration Process on Microsoft Foundry and Azure OpenAI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-migration-process-on-microsoft-foundry-and-azure-openai/ba-p/4541236",
+      "published": "2026-08-31T20:00:00+00:00",
+      "summary": "Every app built on an LLM will eventually move to a new model. The model you shipped may be retired, or a newer model may offer better quality, cost, or performance. Changing a model name in code from a retiring model such as gpt-4o to a newer one such as gpt-5.1 may take one line. That line hides...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "meera-kurup"
     },
     {
       "title": "Build governed asynchronous APIs with Azure API Management and Azure Service Bus",
@@ -696,15 +813,6 @@
       "author": "lily-ma"
     },
     {
-      "title": "Active Directory Domain Services modules on Microsoft Learn",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/active-directory-domain-services-modules-on-microsoft-learn/ba-p/4547604",
-      "published": "2026-08-18T20:06:08+00:00",
-      "summary": "The following is a list of Active Directory Domain Services modules on Microsoft Learn sorted from introductory to advanced. Is there an Active Directory topic that isn't listed here that you'd like to see covered? (AD CS modules are coming). If you know all this, remember we have the free 45...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "OrinThomas"
-    },
-    {
       "title": "The Two Hybrid Searches in Microsoft SQL",
       "link": "https://devblogs.microsoft.com/azure-sql/two-hybrid-search/",
       "published": "2026-08-18T18:40:38+00:00",
@@ -1263,15 +1371,6 @@
       "author": "Mason_Torres"
     },
     {
-      "title": "Microsoft Foundry's New Model Wave",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-foundry-s-new-model-wave/ba-p/4543620",
-      "published": "2026-08-06T16:00:00+00:00",
-      "summary": "The era of the single best model is over Microsoft Foundry is no longer just a shelf of foundation models. It is becoming an enterprise model portfolio: frontier models for complex reasoning, cost-optimized models for scale, specialized models for documents and media, and first-party Microsoft AI...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Christian_Coello"
-    },
-    {
       "title": "Pull request annotations on work item cards",
       "link": "https://devblogs.microsoft.com/devops/pull-request-annotations-on-work-item-cards/",
       "published": "2026-08-06T14:00:21+00:00",
@@ -1279,15 +1378,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem"
-    },
-    {
-      "title": "From Distillation to Reinforcement Fine-Tuning: Hill-Climbing in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-distillation-to-reinforcement-fine-tuning-hill-climbing-in/ba-p/4543260",
-      "published": "2026-08-06T14:00:00+00:00",
-      "summary": "TL; DR: Hill climbing means improving the deployable model package one measured step at a time across quality, latency, and cost. SFT made this workload cheaper, but did not transfer the teacher's planning quality. Adding explicit reasoning produced the major quality gain. RFT in Microsoft Foundry...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "srikantan"
     },
     {
       "title": "You can now use the Azure DevOps Service Connection instead of a PAT or Build Session token",
@@ -1324,24 +1414,6 @@
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
       "author": "Dona_Mukherjee"
-    },
-    {
-      "title": "Exploring Multi-Agent Workflows with Microsoft Agent Framework",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/exploring-multi-agent-workflows-with-microsoft-agent-framework/ba-p/4542512",
-      "published": "2026-08-05T20:00:00+00:00",
-      "summary": "As organizations race to automate decision-making, content generation, analysis, and execution at scale, the future is shifting from isolated AI agents to multi-agent workflows where specialized agents collaborate, delegate, challenge, and refine each other's work. By allowing multiple AI agents to...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SonakshiA"
-    },
-    {
-      "title": "Introducing Real-Time Multichannel Speech-to-Text",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-real-time-multichannel-speech-to-text/ba-p/4541701",
-      "published": "2026-08-05T18:00:00+00:00",
-      "summary": "Organizations working with stereo audio often face a difficult choice. In many contact center, conversational AI, and communication scenarios, participants are already recorded on separate channels. Keeping those channels separate provides valuable conversational context, especially when speakers...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "JanGoergen"
     },
     {
       "title": "Announcing Public Preview - Azure Private Link over IPv6",
@@ -1504,24 +1576,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "farhakareem"
-    },
-    {
-      "title": "Learn how to use the four IQs: Web IQ, Work IQ, Fabric IQ, Foundry IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/learn-how-to-use-the-four-iqs-web-iq-work-iq-fabric-iq-foundry/ba-p/4542916",
-      "published": "2026-08-03T07:00:00+00:00",
-      "summary": "We just concluded Microsoft IQ Deep Dive with Python, a three-part livestream series all about Microsoft IQ. We showed how to use the four IQs to ground your AI applications and agents: Work IQ: user-specific retrieval of M365 data, like Teams chats, emails, and calendar events. Fabric IQ:...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox"
-    },
-    {
-      "title": "Designing Azure Networks That Scale: From Small Deployments to Enterprise-Grade",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/designing-azure-networks-that-scale-from-small-deployments-to/ba-p/4542489",
-      "published": "2026-08-03T07:00:00+00:00",
-      "summary": "Hello Folks! If you have ever spent a long afternoon untangling overlapping CIDR ranges, chasing down a broken VNet peering, or trying to remember which UDR points to which firewall, this MAIS 2026 session is going to feel uncomfortably familiar. Jon Ormond (Principal PM, Azure Networking) brought...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
     }
   ]
 }
