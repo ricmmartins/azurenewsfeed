@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-09-02T15:58:22.454366+00:00",
-  "totalArticles": 175,
+  "lastUpdated": "2026-09-03T15:47:36.931441+00:00",
+  "totalArticles": 169,
   "articles": [
+    {
+      "title": "Accelerated AI & Analytics workload on Azure Blob Storage: Up to 25x faster List Blobs operations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/accelerated-ai-analytics-workload-on-azure-blob-storage-up-to/ba-p/4551857",
+      "published": "2026-09-03T15:24:12+00:00",
+      "summary": "Today Azure Storage introduces in preview a new List Blobs optimization that accelerates listing operations by up to 25x with up to 15x lower client-side CPU utilization allowing customers to return millions of objects per second in List Blobs results. The list results are now returned in Apache...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "wolfgangdesalvador"
+    },
+    {
+      "title": "Build Advanced ServiceNow Response Plans in Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/build-advanced-servicenow-response-plans-in-azure-sre-agent/ba-p/4553059",
+      "published": "2026-09-03T14:07:15+00:00",
+      "summary": "A ServiceNow connection tells Azure SRE Agent which incidents it can see. Advanced filtering narrows that further, so each response plan handles only the incidents it should. Advanced filters let a plan express the rule your on-call team already follows: Send High-priority production network...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Dalibor_Kovacevic"
+    },
+    {
+      "title": "Keep the evidence: Low-cost logs with Azure Copilot Observability Agent (Generally Available)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/keep-the-evidence-low-cost-logs-with-azure-copilot-observability/ba-p/4550844",
+      "published": "2026-09-03T12:00:00+00:00",
+      "summary": "Cloud environments can generate large volumes of application, infrastructure, audit, and platform logs. Moving eligible tables to the Basic or Auxiliary table plan can help control costs while keeping the data available for search. But during an incident, teams may still need those logs to...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "yairgil"
+    },
+    {
+      "title": "From AI Infrastructure to Secure AI Agent Infrastructure with kars",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-ai-infrastructure-to-secure-ai-agent-infrastructure-with/ba-p/4551519",
+      "published": "2026-09-03T07:00:00+00:00",
+      "summary": "Opening scene: a three-minute bug fix that is still unsafe for an enterprise ByteCraft AI is a four-person startup. Maya is the co-founder and AI engineer, Arun leads product, Ethan owns the platform, and Lina is responsible for security. They have six months of runway and one design partner. Their...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
+    {
+      "title": "Introducing Radius Canvas: visualize, review and deploy applications in the GitHub Copilot app",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-radius-canvas-visualize-review-and-deploy/ba-p/4549760",
+      "published": "2026-09-02T19:00:00+00:00",
+      "summary": "September 3, 2026 - AI can generate thousands of lines of code in minutes. Understanding what it changed across your application, and whether it is ready to deploy, takes far longer. The Microsoft Azure Incubations team announced the public preview of Radius Canvas for the GitHub Copilot app. With...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "reshmarahim"
+    },
+    {
+      "title": "Microsoft Azure Virtual Desktop Hybrid is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/microsoft-azure-virtual-desktop-hybrid-is-now-generally/ba-p/4550523",
+      "published": "2026-09-02T18:14:16+00:00",
+      "summary": "Extend Azure Virtual Desktop to your on-premises environment. Run desktops where you need them. Manage on-premises session hosts from Azure. Many organizations want to modernize their virtual desktop infrastructure but face practical constraints that make a full cloud migration difficult in the...",
+      "blog": "Azure Virtual Desktop",
+      "blogId": "azurevirtualdesktopblog",
+      "author": "Steve_Downs"
+    },
+    {
+      "title": "Azure Firewall explicit proxy is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-firewall-explicit-proxy-is-now-generally-available/ba-p/4552450",
+      "published": "2026-09-02T15:40:04+00:00",
+      "summary": "We are excited to announce the general availability of explicit proxy in Azure Firewall. This capability brings the familiar explicit proxy configuration model natively to Azure Firewall, enabling applications and browsers to send outbound HTTP and HTTPS traffic directly to the firewall through...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "devanshirastogi"
+    },
     {
       "title": "AI Gateway tier of Azure API Management — August 2026 updates",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/ai-gateway-tier-of-azure-api-management-august-2026-updates/ba-p/4552703",
@@ -28,6 +91,15 @@
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
       "author": "wolfgangdesalvador"
+    },
+    {
+      "title": "Azure Key Vault Control Plane API Update: Required Upgrade for Azure CLI and Azure PowerShell Users",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-key-vault-control-plane-api-update-required-upgrade-for/ba-p/4552476",
+      "published": "2026-09-02T06:16:45+00:00",
+      "summary": "Deadline: February 27, 2027 All Azure Key Vault control plane (management) API versions released before 2026-02-01 will stop working on February 27, 2027. This does NOT affect the data plane (getting/setting secrets, keys, and certificates) — only vault and access-control management operations are...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy"
     },
     {
       "title": "Why long-running tasks on Linux Batch pools can restart daily and how to prevent it",
@@ -100,15 +172,6 @@
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
       "author": "NicolasMondada"
-    },
-    {
-      "title": "Microsoft Azure Virtual Desktop Hybrid is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/microsoft-azure-virtual-desktop-hybrid-is-now-generally/ba-p/4550523",
-      "published": "2026-09-01T16:00:00+00:00",
-      "summary": "Extend Azure Virtual Desktop to your on-premises environment. Run desktops where you need them. Manage on-premises session hosts from Azure. Many organizations want to modernize their virtual desktop infrastructure but face practical constraints that make a full cloud migration difficult in the...",
-      "blog": "Azure Virtual Desktop",
-      "blogId": "azurevirtualdesktopblog",
-      "author": "Steve_Downs"
     },
     {
       "title": "MDATP Linux agent latest release reporting",
@@ -352,15 +415,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem"
-    },
-    {
-      "title": "Understanding the Standard HDD I/O unit size update and what it means for your workloads",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/understanding-the-standard-hdd-i-o-unit-size-update-and-what-it/ba-p/4499128",
-      "published": "2026-08-26T20:48:29+00:00",
-      "summary": "As Azure continues to evolve to support modern workload patterns, we are refining how transactions are measured for Standard HDD Managed Disks. This update helps align billing more closely with actual I/O behavior while maintaining predictable cost controls for customers. In this post, we’ll walk...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "austin-ma"
     },
     {
       "title": "Stop restricting the agent. Start restricting its environment.",
@@ -1020,15 +1074,6 @@
       "author": "Ahmed_Khaled"
     },
     {
-      "title": "MCP Community Connect: Bringing the MCP ecosystem together",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/mcp-community-connect-bringing-the-mcp-ecosystem-together/ba-p/4537839",
-      "published": "2026-08-13T16:32:21+00:00",
-      "summary": "There is a quiet standardization happening underneath the AI agent boom, and it has a name: the Model Context Protocol (MCP). If you build agents, wire tools into coding agents, or ship anything that lets a language model act on the real world, MCP is fast becoming the layer you cannot ignore. That...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
       "title": "Introducing dependency telemetry in Application Insights for Azure API Management policies",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-dependency-telemetry-in-application-insights-for/ba-p/4545504",
       "published": "2026-08-13T15:00:02+00:00",
@@ -1477,105 +1522,6 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "Anshu_Verma"
-    },
-    {
-      "title": "Build Azure Skills Faster with Cloud Academy, a Visual Studio Subscriber Benefit",
-      "link": "https://devblogs.microsoft.com/visualstudio/build-azure-skills-faster-with-cloud-academy-a-visual-studio-subscriber-benefit/",
-      "published": "2026-08-04T14:00:38+00:00",
-      "summary": "If you’ve been looking for a practical way to build Azure skills, Cloud Academy (a QA company) gives Visual Studio subscribers hands-on learning that fits into busy schedules. Whether you’re new to Azure, expanding your cloud expertise, working towards certifications or preparing for more advanced...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "James Rempt"
-    },
-    {
-      "title": "Cloud-Native Multi-Agent: Running Agents Safely on Kubernetes with Kars",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/cloud-native-multi-agent-running-agents-safely-on-kubernetes/ba-p/4543047",
-      "published": "2026-08-04T07:00:00+00:00",
-      "summary": "Why cloud-native and multi-agent are converging The shift from \"a chatbot\" to \"a fleet of workers\" A single LLM call is a stateless function: text in, text out. A multi-agent system is something else entirely — a set of long-running processes that plan, call tools, spawn helpers, talk to each...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "From Alert to Resolved: Building a Self-Healing Azure Platform with SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/from-alert-to-resolved-building-a-self-healing-azure-platform/ba-p/4542491",
-      "published": "2026-08-04T07:00:00+00:00",
-      "summary": "Hello Folks! It’s 3 a.m. Your phone lights up. A critical workload that spans multiple clouds is on fire, ownership is fuzzy, the alert routed to the wrong team first, and now it’s your problem. You sit up in bed, cold and groggy, and start the ritual. Open the runbook. Pull logs from one place....",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Logic Apps Aviators Newsletter - August 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-august-2026/ba-p/4543662",
-      "published": "2026-08-04T01:22:35+00:00",
-      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month Sonny Gillisen - Integration Architect / Cluster Lead @ Rubicon Cloud Advisor August 2026's Ace Aviator: Sonny Gillissen LinkedIn: https://www.linkedin.com/in/sonnygillissen/ What's...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
-    },
-    {
-      "title": "Built-In Observability for Serverless AI Agents on Azure Functions",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/built-in-observability-for-serverless-ai-agents-on-azure/ba-p/4542087",
-      "published": "2026-08-03T22:29:13+00:00",
-      "summary": "Azure Functions Agents - the markdown-first runtime that turns a folder of *.agent.md files into a serverless Azure Functions app - now ships with OpenTelemetry tracing built into the runtime itself. Every agent run becomes a real, structured trace in Application Insights: the model used, the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "larohra"
-    },
-    {
-      "title": "Building an operations assistant on Azure that waits for approval before it acts",
-      "link": "https://devblogs.microsoft.com/all-things-azure/building-an-operations-assistant-on-azure-that-waits-for-approval-before-it-acts/",
-      "published": "2026-08-03T21:15:38+00:00",
-      "summary": "Grounding an assistant in runbooks is straightforward. The harder part begins when the model proposes an action that requires authorization. An operations assistant needs stronger controls as soon as it can act. Answering “which runbook covers this alert” is a search problem. Opening an incident...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "Ricardo M. Martins"
-    },
-    {
-      "title": "Check This Out! (CTO!) Guide (August 2026)",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/check-this-out-cto-guide-august-2026/ba-p/4543597",
-      "published": "2026-08-03T19:03:30+00:00",
-      "summary": "Member: TysonPaul | Microsoft Community Hub Enhanced host pool management for Azure Virtual Desktop is now generally available Team Blog: Azure Virtual Desktop Author: NeoCai Published: 07/09/2026 Summary: Azure Virtual Desktop has introduced enhanced host pool management, now generally available,...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "TysonPaul"
-    },
-    {
-      "title": "Microsoft Defender for Cloud Customer Newsletter",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-defender-for-cloud-customer-newsletter/ba-p/4543596",
-      "published": "2026-08-03T18:50:45+00:00",
-      "summary": "*This will be the last monthly MDC newsletter. To keep up with the latest, please visit: What's new in MDC What's new in Defender for Cloud? Multiple container security features are now Generally Available: Container-level misconfiguration recommendations for Kubernetes, Upgrade AKS version...",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "Yura_Lee"
-    },
-    {
-      "title": "Microsoft Foundry Now Has an AI Gateway Control Plane — What Changes for App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/microsoft-foundry-now-has-an-ai-gateway-control-plane-what/ba-p/4538320",
-      "published": "2026-08-03T18:24:20+00:00",
-      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. APIM handled token limits, semantic caching, token metrics, and access to the model. The point was simple: keep the agent framework interchangeable and put the production controls at...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig"
-    },
-    {
-      "title": "Simplify secure, zone-resilient outbound connectivity with Azure Firewall and StandardV2 NAT Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/simplify-secure-zone-resilient-outbound-connectivity-with-azure/ba-p/4542573",
-      "published": "2026-08-03T18:17:01+00:00",
-      "summary": "As organizations modernize their applications in Azure, secure and resilient outbound connectivity has become just as critical as inbound security. Workloads need reliable access to external APIs, SaaS services, operating system updates, and partner endpoints, while still meeting strong security...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "aimeelittleton"
-    },
-    {
-      "title": "Announcing Azure Linux on WSL - Beta",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/announcing-azure-linux-on-wsl-beta/ba-p/4542903",
-      "published": "2026-08-03T16:08:12+00:00",
-      "summary": "What is Azure Linux? Azure Linux is Microsoft's internal Linux distribution, designed and maintained to support Azure-scale cloud workloads. Today, Azure Linux runs across: Azure infrastructure Azure Kubernetes Service (AKS) Containerized workloads Edge scenarios Azure-hosted services With WSL...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "farhakareem"
     }
   ]
 }
