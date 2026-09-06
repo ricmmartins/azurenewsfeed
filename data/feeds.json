@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-05T14:35:53.970097+00:00",
-  "totalArticles": 168,
+  "lastUpdated": "2026-09-06T14:56:19.075379+00:00",
+  "totalArticles": 167,
   "articles": [
     {
       "title": "Check This Out! (CTO!) Guide (September 2026)",
@@ -39,6 +39,24 @@
       "author": "Justin Bettencourt"
     },
     {
+      "title": "It Wasn't the Private Endpoint: Why the Foundry Playground Breaks Behind Private Networking",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/it-wasn-t-the-private-endpoint-why-the-foundry-playground-breaks/ba-p/4552771",
+      "published": "2026-09-04T18:00:00+00:00",
+      "summary": "A team enables private networking on Microsoft Foundry, disables public access, wires up the private endpoints, and confirms DNS resolves. Then someone opens the chat playground in the portal and gets an error saying private networking is blocking access. Sometimes it works. Then it stops, and once...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Madhura Amlekar"
+    },
+    {
+      "title": "MAI-Image-2.6 and MAI-Image-2.6-Flash: Quality and speed at production scale",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mai-image-2-6-and-mai-image-2-6-flash-quality-and-speed-at/ba-p/4550970",
+      "published": "2026-09-04T16:02:11+00:00",
+      "summary": "Image generation has moved beyond the demo stage. Marketing teams are shipping campaign assets, retailers are building catalogs, and product teams are generating visuals inside the tools they already use. That shift changes what matters. A model must do more than create a striking one-off image. It...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny"
+    },
+    {
       "title": "What’s new in Azure Firewall: Recent innovations",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-azure-firewall-recent-innovations/ba-p/4552987",
       "published": "2026-09-04T15:48:26+00:00",
@@ -55,6 +73,15 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "rgarofalo"
+    },
+    {
+      "title": "Choosing a real-time voice architecture on Microsoft Foundry: three enterprise patterns",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choosing-a-real-time-voice-architecture-on-microsoft-foundry/ba-p/4552676",
+      "published": "2026-09-04T14:00:00+00:00",
+      "summary": "A real-time voice agent is not just a model connected to a microphone. It must detect turns, stream audio, ground answers, call tools, enforce user permissions, recover from connection failures, and keep data on approved network paths. The first architecture question is therefore not which model...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Yassine_El_Ghali"
     },
     {
       "title": "SQL Decomposition in a Nutshell",
@@ -1200,15 +1227,6 @@
       "author": "tomkerkhovemicrosoft"
     },
     {
-      "title": "When AI Agents Fail: Engineering Reliable Recovery with Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-ai-agents-fail-engineering-reliable-recovery-with-microsoft/ba-p/4546388",
-      "published": "2026-08-13T14:00:00+00:00",
-      "summary": "Introduction: The Failure That Demos Do Not Show A user asks an AI agent a simple question: \"Create a procurement request for 10 laptops for the new project team.\" The agent does what it was designed to do. It checks the procurement policy. It verifies budget availability. It calls the procurement...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "PavanKalyanChilakalapalli"
-    },
-    {
       "title": "Resilient Azure Platforms: Durable Functions, Cosmos DB, and DR by Design",
       "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/resilient-azure-platforms-durable-functions-cosmos-db-and-dr-by/ba-p/4546001",
       "published": "2026-08-13T07:00:00+00:00",
@@ -1261,15 +1279,6 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Joe Filcik, Krishnakumar Muthukrishnan"
-    },
-    {
-      "title": "Azure Content Understanding announces Synchronous Operations",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/azure-content-understanding-announces-synchronous-operations/ba-p/4544475",
-      "published": "2026-08-12T14:00:00+00:00",
-      "summary": "Workflow automation scenarios—including grounding AI agents, verifying identities, assisting customers with documents in call centers, and triggering document-based workflows—depend on immediate content processing, where every second matters. Now in public preview, synchronous Read, Layout, and...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Krishna_Doss"
     },
     {
       "title": "Understanding GitHub Billing and management: from licenses to fair AI credit controls",
@@ -1342,15 +1351,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "Chris_Noring"
-    },
-    {
-      "title": "From Azure Container Apps to Microsoft Foundry: building and evaluating a Patch Tuesday MCP server",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-azure-container-apps-to-microsoft-foundry-building-and/ba-p/4541630",
-      "published": "2026-08-11T18:53:19+00:00",
-      "summary": "**Disclaimer:** This is an independent, self-built project and is not an official Microsoft tool or service. It reads public security-update data and is intended as an educational example of building an MCP server, hosting it responsibly on Azure, and evaluating an agent workflow with Microsoft...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "JonButler"
     },
     {
       "title": "Today I will… manage Git Submodules without leaving the IDE",
@@ -1504,15 +1504,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "Robert_Moriarty"
-    },
-    {
-      "title": "Generally Available: Windows Server 2016 Extended Security Updates enabled by Azure Arc",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/generally-available-windows-server-2016-extended-security/ba-p/4543640",
-      "published": "2026-08-06T19:27:34+00:00",
-      "summary": "Today, the Azure Arc team is pleased to announce that Extended Security Updates (ESUs) enabled by Azure Arc is now generally available for Windows Server 2016. By connecting your Windows Server 2016 machines to Azure Arc-enabled servers, you can enroll in ESUs and receive security updates. Enroll...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Mason_Torres"
     }
   ]
 }
