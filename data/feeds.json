@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-09-07T17:15:18.509088+00:00",
-  "totalArticles": 162,
+  "lastUpdated": "2026-09-08T15:59:37.644161+00:00",
+  "totalArticles": 164,
   "articles": [
+    {
+      "title": "The Agentic Road to Revenue",
+      "link": "https://devblogs.microsoft.com/all-things-azure/the-agentic-road-to-revenue/",
+      "published": "2026-09-08T04:45:34+00:00",
+      "summary": "The Agentic Road to Revenue From SaaS concept to Azure Marketplace Building a SaaS application is only part of becoming a commercial software provider. To sell through the Microsoft commercial marketplace, the application also needs tenant isolation, subscription lifecycle management, billing...",
+      "blog": "All Things Azure",
+      "blogId": "allthingsazure",
+      "author": "davidwright"
+    },
+    {
+      "title": "Logic Apps Aviators Newsletter - September 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-september-2026/ba-p/4553787",
+      "published": "2026-09-07T15:00:00+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month September 2026's Ace Aviator: Parth Talaviya Product Leader @ EG4 Eletronics What's your role and title? What are your responsibilities? AI-Powered Azure/.NET Solution ArchitectI...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
     {
       "title": "The Evidence Gateway Pattern",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/the-evidence-gateway-pattern/ba-p/4552812",
