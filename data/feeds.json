@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-09-08T15:59:37.644161+00:00",
-  "totalArticles": 164,
+  "lastUpdated": "2026-09-09T15:55:48.081818+00:00",
+  "totalArticles": 165,
   "articles": [
+    {
+      "title": "Build an AI-assisted support email workflow with Power Automate and Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-an-ai-assisted-support-email-workflow-with-power-automate/ba-p/4554297",
+      "published": "2026-09-09T15:28:16+00:00",
+      "summary": "Difficulty: Intermediate A support email arrives with a product name, an error code, and a country. Before anyone can help, someone has to interpret the request, find the right team, record the case, and decide what to tell the customer. In this tutorial, you build that support email workflow with...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "MinseokSong"
+    },
+    {
+      "title": "Azure Copilot announces general availability of the Troubleshooting Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-copilot-announces-general-availability-of-the/ba-p/4554549",
+      "published": "2026-09-09T15:00:00+00:00",
+      "summary": "Cloud operations are most effective when teams can turn insights into understanding and understanding into action. Whether you’re deploying new services, troubleshooting an issue, assessing resource health, or managing change, you need operational intelligence that helps you make faster, more...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "christinchen"
+    },
+    {
+      "title": "How Azure uses AI to turn feedback into improved customer experiences",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-azure-uses-ai-to-turn-feedback-into-improved-customer/ba-p/4552810",
+      "published": "2026-09-08T22:51:21+00:00",
+      "summary": "The Challenge: Synthesizing fragmented feedback signals, to improve Azure's experience quality at scale Customers experience products and services end to end, but product experiences are often structured around individual service. One team may only know its top issues, while another may see only...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "bharadwajr"
+    },
+    {
+      "title": "Wiring Azure DevOps Pipeline Templates Without the Parameter Sprawl: The Manifest Facade Pattern",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/wiring-azure-devops-pipeline-templates-without-the-parameter/ba-p/4554182",
+      "published": "2026-09-08T17:28:12+00:00",
+      "summary": "Where reusable pipelines start to hurt Who this is for: Platform and DevOps engineers who build shared Azure DevOps Pipeline Templates and want other teams to adopt them consistently. If you have ever built a set of shared Azure DevOps Pipeline Templates, you probably know how this goes. You write...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "pratikpanda"
+    },
+    {
+      "title": "Inside Orchestrated Media Intelligence: The Technology Behind Connected Media Workflows",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/inside-orchestrated-media-intelligence-the-technology-behind/ba-p/4553782",
+      "published": "2026-09-08T17:00:00+00:00",
+      "summary": "What orchestration changes Media workflows are already distributed across specialized creative, content, rights, archive, delivery, audience, and business systems. The technical challenge is not to replace those systems with one monolithic platform. It is to create an orchestration layer that can...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "kshatzkamer"
+    },
+    {
+      "title": "Today I will… find hidden latency across a distributed .NET application",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application/",
+      "published": "2026-09-08T16:00:22+00:00",
+      "summary": "When a distributed application feels slow, the user sees one delay. The code behind that delay may run across a web frontend, backend services, databases, and external APIs. If you profile only the frontend while the backend is slow, the profiler can show that the frontend is healthy without...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Justin Yoo"
+    },
     {
       "title": "The Agentic Road to Revenue",
       "link": "https://devblogs.microsoft.com/all-things-azure/the-agentic-road-to-revenue/",
@@ -741,10 +795,10 @@
       "author": "Anna Hoffman"
     },
     {
-      "title": "Visual Studio August Update — Work Smarter Across Models and Branches",
+      "title": "Visual Studio August Update – Work Smarter Across Models and Branches",
       "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-august-update-work-smarter-across-models-and-branches/",
       "published": "2026-08-25T16:00:00+00:00",
-      "summary": "Tune Copilot model thinking effort, share custom agents across your organization, track usage, and simplify complex Git workflows with worktrees and submodule support. The post Visual Studio August Update — Work Smarter Across Models and Branches appeared first on Visual Studio Blog.",
+      "summary": "Tune Copilot model thinking effort, share custom agents across your organization, track usage, and simplify complex Git workflows with worktrees and submodule support. The post Visual Studio August Update – Work Smarter Across Models and Branches appeared first on Visual Studio Blog.",
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Mark Downie"
@@ -982,15 +1036,6 @@
       "blog": "Azure Compute",
       "blogId": "azurecompute",
       "author": "misha-bansal"
-    },
-    {
-      "title": "Announcing public preview: Markdown for Agents in Azure App Service",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-public-preview-markdown-for-agents-in-azure-app/ba-p/4537023",
-      "published": "2026-08-19T13:57:13+00:00",
-      "summary": "Why Markdown for Agents? Web pages often contain scripts, styles, and HTML markup that are useful to browsers but add noise when the content is sent to an AI model. Markdown for Agents removes that extra markup and returns a smaller, text-focused response that is easier for agents to process and...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig"
     },
     {
       "title": "What the New API Management AI Gateway Tier Changes for App Service-Hosted Agents",
@@ -1441,42 +1486,6 @@
       "blog": "Windows Command Line",
       "blogId": "commandline",
       "author": "Hamza Usmani"
-    },
-    {
-      "title": "GitHub Admin UI + Billing API: Better together for smarter spend decisions",
-      "link": "https://dev.to/azure/github-admin-ui-billing-api-better-together-for-smarter-spend-decisions-3lp5",
-      "published": "2026-08-10T14:42:20+00:00",
-      "summary": "As a GitHub administrator, you already have a strong place to start when somebody asks, “Why did our AI spend go up?” In Metered usage, you can see the change, choose the period, and group the data by organization or cost center. That first investigation often leads to questions that are specific...",
-      "blog": "Dev.to Azure",
-      "blogId": "devtoazure",
-      "author": "Chris Noring"
-    },
-    {
-      "title": "I Enabled RBAC and Everything Broke. What Did I Do Wrong?",
-      "link": "https://devblogs.microsoft.com/cosmosdb/i-enabled-rbac-and-everything-broke-what-did-i-do-wrong/",
-      "published": "2026-08-10T07:01:03+00:00",
-      "summary": "We covered the roles your Azure Cosmos DB app needs in our previous post. Now let’s look at what happens after you’ve assigned those roles, switched identities, disabled keys and suddenly staring at a 403. As we continue this security series, we’ll walk through the most common causes, how to...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sudhanshu Khera, Iria Osara"
-    },
-    {
-      "title": "A simpler way to deploy ZIP packages to Azure App Service from the Azure portal",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-simpler-way-to-deploy-zip-packages-to-azure-app-service-from/ba-p/4545430",
-      "published": "2026-08-10T06:42:46+00:00",
-      "summary": "We recently introduced a simpler way to deploy applications to Azure App Service for Linux by uploading a ZIP package through Kudu. The experience lets you review the package contents, choose whether to run a server-side build, and follow the deployment through its different stages. This capability...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "TulikaC"
-    },
-    {
-      "title": "Introducing Microsoft IQ Live: A New Biweekly Series for Developers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-microsoft-iq-live-a-new-biweekly-series-for/ba-p/4543480",
-      "published": "2026-08-10T04:30:00+00:00",
-      "summary": "From Deep Dive to Microsoft IQ Live The Microsoft IQ Deep Dive with Python has wrapped up, but our exploration of Microsoft IQ continues. You can revisit the IQ Deep Dive sessions and access the code, notebooks, and other developer resources at https://aka.ms/iqdeepdive. Microsoft IQ Live builds on...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "aycabas"
     }
   ]
 }
