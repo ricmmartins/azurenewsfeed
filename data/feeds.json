@@ -1,7 +1,79 @@
 {
-  "lastUpdated": "2026-09-09T15:55:48.081818+00:00",
-  "totalArticles": 165,
+  "lastUpdated": "2026-09-10T15:50:25.177244+00:00",
+  "totalArticles": 166,
   "articles": [
+    {
+      "title": "How Azure uses AI to turn feedback into improved customer experience",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-azure-uses-ai-to-turn-feedback-into-improved-customer/ba-p/4552810",
+      "published": "2026-09-10T02:27:37+00:00",
+      "summary": "Authors: ebhattad​, jenniferjhan​, lakshminarasimha​, bharadwajr​ The Challenge: Synthesizing fragmented feedback signals, to improve Azure's experience quality at scale Customers experience products and services end to end, but product experiences are often structured around individual service....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "bharadwajr"
+    },
+    {
+      "title": "What’s new in Microsoft Foundry: July and August 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/",
+      "published": "2026-09-09T23:00:39+00:00",
+      "summary": "Catch up on July and August in Microsoft Foundry: stable Hosted Agent and Toolbox SDK paths, Claude tools on Azure-hosted deployments, Model Router updates, local inference improvements, and the SDK migrations worth checking before you upgrade. The post What’s new in Microsoft Foundry: July and...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nick Brady"
+    },
+    {
+      "title": "Public Preview: Automatic Zone Placement for Virtual Machine Scale Sets",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-automatic-zone-placement-for-virtual-machine/ba-p/4554986",
+      "published": "2026-09-09T22:57:26+00:00",
+      "summary": "We’re excited to announce the public preview of Automatic Zone Placement for Azure Virtual Machine Scale Sets. This new capability lets Azure select availability zones for your scale set based on SKU availability, capacity, and your placement requirements. Automatic Zone Placement simplifies zonal...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "HilaryWang"
+    },
+    {
+      "title": "Generally Available: Restrict usage of user delegation SAS to an Entra ID identity",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/generally-available-restrict-usage-of-user-delegation-sas-to-an/ba-p/4554967",
+      "published": "2026-09-09T19:44:54+00:00",
+      "summary": "Shared access signatures (SAS) grant time-bound, scoped access to Azure Storage resources without sharing account keys. Over time, Azure Storage has continued to strengthen SAS security, moving from account keys to user delegation (UD) SAS secured by Microsoft Entra ID. Today, we’re taking the next...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "ellievail"
+    },
+    {
+      "title": "Adding network intelligence into a network-ready Azure migration plan",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/adding-network-intelligence-into-a-network-ready-azure-migration/ba-p/4554519",
+      "published": "2026-09-09T18:01:43+00:00",
+      "summary": "Sudha Mahajan, Partner PM Azure Networking, Vijay Mamtani, CVP Azure Networking | September 2026 Lift-and-shift succeeds when the network moves with the application For many VMware customers, the immediate migration goal is practical: move workloads to Azure quickly, preserve application behavior...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Sudha_Mahajan"
+    },
+    {
+      "title": "Announcing general availability of Ephemeral OS Disk with full caching for VM/VMSS",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-ephemeral-os-disk-with-full/ba-p/4554797",
+      "published": "2026-09-09T16:57:04+00:00",
+      "summary": "Today, we're excited to announce the GA of Ephemeral OS disk with full caching, designed to significantly enhance performance and reliability by utilizing local storage. This feature is ideal for AI workloads and IO-sensitive workloads, as it eliminates dependency on remote storage by caching the...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "viveksingla"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-09-09T16:02:16+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Can a Harmless Prompt Break an AI Guardrail?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/can-a-harmless-prompt-break-an-ai-guardrail/ba-p/4553727",
+      "published": "2026-09-09T16:00:00+00:00",
+      "summary": "Tamara Gaidar, Senior Data Scientist, Microsoft Security Research Team Maor Nissan, Principal Data Scientist, Microsoft Security Research Team About this two-part series At BlueHat IL 2026 we put a guardrailed AI agent in front of roughly 2,200 security professionals and let them attack it for two...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "tamaragaidar"
+    },
     {
       "title": "Build an AI-assisted support email workflow with Power Automate and Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-an-ai-assisted-support-email-workflow-with-power-automate/ba-p/4554297",
@@ -19,15 +91,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "christinchen"
-    },
-    {
-      "title": "How Azure uses AI to turn feedback into improved customer experiences",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-azure-uses-ai-to-turn-feedback-into-improved-customer/ba-p/4552810",
-      "published": "2026-09-08T22:51:21+00:00",
-      "summary": "The Challenge: Synthesizing fragmented feedback signals, to improve Azure's experience quality at scale Customers experience products and services end to end, but product experiences are often structured around individual service. One team may only know its top issues, while another may see only...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "bharadwajr"
     },
     {
       "title": "Wiring Azure DevOps Pipeline Templates Without the Parameter Sprawl: The Manifest Facade Pattern",
@@ -60,7 +123,7 @@
       "title": "The Agentic Road to Revenue",
       "link": "https://devblogs.microsoft.com/all-things-azure/the-agentic-road-to-revenue/",
       "published": "2026-09-08T04:45:34+00:00",
-      "summary": "The Agentic Road to Revenue From SaaS concept to Azure Marketplace Building a SaaS application is only part of becoming a commercial software provider. To sell through the Microsoft commercial marketplace, the application also needs tenant isolation, subscription lifecycle management, billing...",
+      "summary": "The Agentic Road to Revenue From SaaS concept to Microsoft Marketplace. Building a SaaS application is only part of becoming a commercial software provider. To sell through the Microsoft Marketplace., the application also needs tenant isolation, subscription lifecycle management, billing...",
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
       "author": "davidwright"
@@ -100,15 +163,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "TysonPaul"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-09-04T20:14:37+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "Introducing Inside Microsoft Foundry: Quickstart 🎬",
@@ -903,15 +957,6 @@
       "author": "SURENDRATANNEERU1"
     },
     {
-      "title": "Expanding Open Model Choice in Microsoft Foundry with New DeepSeek and NVIDIA Nemotron Models",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/expanding-open-model-choice-in-microsoft-foundry-with-new/ba-p/4547926",
-      "published": "2026-08-21T18:55:07+00:00",
-      "summary": "Open models are driving a new wave of AI innovation, giving organizations more freedom to choose the models that best fit their requirements for performance, cost, latency, customization, and governance. As the open model ecosystem evolves rapidly, developers want access to the latest innovations...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
-    },
-    {
       "title": "Model router updates: new regions, a refreshed model pool, and understanding the hill climb",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-router-updates-new-regions-a-refreshed-model-pool-and/ba-p/4521310",
       "published": "2026-08-21T17:47:58+00:00",
@@ -1450,42 +1495,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "Robert_Moriarty"
-    },
-    {
-      "title": "Accelerate Inference on AKS with Azure Blob Storage and NVIDIA Dynamo",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/accelerate-inference-on-aks-with-azure-blob-storage-and-nvidia/ba-p/4543408",
-      "published": "2026-08-11T15:00:00+00:00",
-      "summary": "As agents generate more tokens and use longer context windows, AI platforms must reduce cost per token and optimize inference performance across every layer of the stack. With new native integrations between Azure Blob Storage and the NVIDIA Dynamo stack, users can now combine the scalability,...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "Vishnu Charan TJ"
-    },
-    {
-      "title": "Operating Azure Backup at Scale: Day-2 Excellence for IaaS, PaaS, and Storage Workloads",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/operating-azure-backup-at-scale-day-2-excellence-for-iaas-paas/ba-p/4545638",
-      "published": "2026-08-11T07:00:00+00:00",
-      "summary": "Hello Folks! If you have ever inherited a sprawling Azure environment and quietly wondered whether every VM, database, AKS cluster, and storage account in it is actually being backed up the way the business thinks it is, you are in good company. In session this session of the Microsoft Azure Infra...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Vector search finds candidates. Reranking decides what your RAG app reads",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/vector-search-finds-candidates-reranking-decides-what-your-rag/ba-p/4543923",
-      "published": "2026-08-11T05:00:00+00:00",
-      "summary": "You ask a retrieval-augmented generation (RAG) application a question. Vector search returns ten passages that are clearly related to the topic. The passage that actually contains the answer, however, is ranked seventh, while the language model receives only the first five. Retrieval did not...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Paul_VicenteH"
-    },
-    {
-      "title": "Intelligent Terminal 0.2 is here with local model support",
-      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-is-here-with-local-model-support/",
-      "published": "2026-08-10T19:00:01+00:00",
-      "summary": "We’re back, and this is our first minor version bump: 0.1 to 0.2! It’s our biggest release yet. This update adds support for local models, lets you run a different agent in each tab with /agent, brings OpenCode into the built-in agent lineup, runs your agent inside WSL where your work actually...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Hamza Usmani"
     }
   ]
 }
