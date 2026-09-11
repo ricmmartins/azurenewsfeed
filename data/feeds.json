@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-09-10T15:50:25.177244+00:00",
-  "totalArticles": 166,
+  "lastUpdated": "2026-09-11T15:52:45.909376+00:00",
+  "totalArticles": 160,
   "articles": [
+    {
+      "title": "September Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-3/",
+      "published": "2026-09-10T22:25:52+00:00",
+      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales"
+    },
+    {
+      "title": "Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization",
+      "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607/",
+      "published": "2026-09-10T18:08:42+00:00",
+      "summary": "Learn how Azure AI Speech LLM 2607 improves multilingual and mixed-language recognition, lowers latency, and simplifies domain-specific customization with enhanced phrase lists. The post Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization appeared first on...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Rena Liu"
+    },
+    {
+      "title": "Announcing the public preview of Azure Local workload management in Azure Arc Site Manager",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-the-public-preview-of-azure-local-workload-management/ba-p/4549703",
+      "published": "2026-09-10T16:00:00+00:00",
+      "summary": "Today, we are excited to announce the public preview of Azure Local workload management in Azure Arc Site Manager. As Azure Local deployments grow across multiple sites, operators need a simpler way to monitor and manage workloads from a centralized location. Operators with multiple Azure Local...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "kchoi"
+    },
+    {
+      "title": "Dell Managed PowerScale for Microsoft Azure is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/dell-managed-powerscale-for-microsoft-azure-is-now-generally/ba-p/4555367",
+      "published": "2026-09-10T15:23:53+00:00",
+      "summary": "Organizations continue to look for practical ways to manage growing volumes of unstructured data while maintaining the performance, resiliency, and familiar filesystem capabilities their applications require. Customers with existing PowerScale environments also want options for extending those...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "AzureAndrewChen"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-09-10T14:52:05+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
     {
       "title": "How Azure uses AI to turn feedback into improved customer experience",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-azure-uses-ai-to-turn-feedback-into-improved-customer/ba-p/4552810",
@@ -30,6 +75,15 @@
       "author": "HilaryWang"
     },
     {
+      "title": "Choosing a real-time voice architecture on Microsoft Foundry: three enterprise patterns",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choosing-a-real-time-voice-architecture-on-microsoft-foundry/ba-p/4552676",
+      "published": "2026-09-09T21:13:26+00:00",
+      "summary": "A real-time voice agent is not just a model connected to a microphone. It must detect turns, stream audio, ground answers, call tools, enforce user permissions, recover from connection failures, and keep data on approved network paths. The first architecture question is therefore not which model...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Yassine_El_Ghali"
+    },
+    {
       "title": "Generally Available: Restrict usage of user delegation SAS to an Entra ID identity",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/generally-available-restrict-usage-of-user-delegation-sas-to-an/ba-p/4554967",
       "published": "2026-09-09T19:44:54+00:00",
@@ -55,15 +109,6 @@
       "blog": "Azure Compute",
       "blogId": "azurecompute",
       "author": "viveksingla"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-09-09T16:02:16+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "Can a Harmless Prompt Break an AI Guardrail?",
@@ -127,6 +172,15 @@
       "blog": "All Things Azure",
       "blogId": "allthingsazure",
       "author": "davidwright"
+    },
+    {
+      "title": "AKS Configurable Scheduler Profiles",
+      "link": "https://blog.aks.azure.com/2026/09/08/aks-config-scheduler-profiles",
+      "published": "2026-09-08T00:00:00+00:00",
+      "summary": "Improve GPU and CPU utilization, align pod placement to critical workloads, and reduce node costs at scale with Configurable Scheduler Profiles on AKS.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "Logic Apps Aviators Newsletter - September 2026",
@@ -217,15 +271,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "rgarofalo"
-    },
-    {
-      "title": "Choosing a real-time voice architecture on Microsoft Foundry: three enterprise patterns",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/choosing-a-real-time-voice-architecture-on-microsoft-foundry/ba-p/4552676",
-      "published": "2026-09-04T14:00:00+00:00",
-      "summary": "A real-time voice agent is not just a model connected to a microphone. It must detect turns, stream audio, ground answers, call tools, enforce user permissions, recover from connection failures, and keep data on approved network paths. The first architecture question is therefore not which model...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Yassine_El_Ghali"
     },
     {
       "title": "SQL Decomposition in a Nutshell",
@@ -1396,105 +1441,6 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Joe Filcik, Krishnakumar Muthukrishnan"
-    },
-    {
-      "title": "Understanding GitHub Billing and management: from licenses to fair AI credit controls",
-      "link": "https://dev.to/azure/understanding-github-billing-and-management-from-licenses-to-fair-ai-credit-controls-1hli",
-      "published": "2026-08-12T13:40:44+00:00",
-      "summary": "Buying GitHub Copilot licenses is only the beginning of the governance story. The licenses are purchased centrally, but administrators still need to decide who receives a seat, how usage is attributed to the right part of the business, and what happens when included AI credits run out. Those...",
-      "blog": "Dev.to Azure",
-      "blogId": "devtoazure",
-      "author": "Chris Noring"
-    },
-    {
-      "title": "Azure Monitor Auxiliary Logs expands with Azure tables support, plan switching, and sovereign clouds",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-auxiliary-logs-expands-with-azure-tables-support/ba-p/4525206",
-      "published": "2026-08-12T09:08:22+00:00",
-      "summary": "Three long-standing customer requests for the Auxiliary table plan in Log Analytics are now generally available: Azure table support. Auxiliary now covers a subset of standard Azure tables, selected by ingestion pattern, in addition to DCR-based custom tables (_CL). In-place plan switching. You can...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "AdiBiran"
-    },
-    {
-      "title": "Building Autonomous Agents with Microsoft Agent Framework and GitHub Copilot SDK Part 2/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-autonomous-agents-with-microsoft-agent-framework-and/ba-p/4541924",
-      "published": "2026-08-12T07:00:00+00:00",
-      "summary": "This is the second post in our series on the Microsoft agent platform. Here we dive deep into building autonomous agents, the development experience, the Microsoft Agent Framework, tool design patterns, and how the GitHub Copilot SDK brings conversational AI to your agent system. All examples...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
-      "title": "Container Network Insights Agent (CNIA): Your AI Teammate for AKS Networking Incidents",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/container-network-insights-agent-cnia-your-ai-teammate-for-aks/ba-p/4545971",
-      "published": "2026-08-12T07:00:00+00:00",
-      "summary": "Hello Folks! If you run AKS in production, you already know the script. A pod cannot reach an external service, every dashboard says the cluster is healthy, and somebody is SSHing into a node with five browser tabs open trying to piece the story together. This session from the Microsoft Azure Infra...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "Pierre_Roman"
-    },
-    {
-      "title": "Azure Developer CLI extension framework is GA: build dev workflows for apps using Azure",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azd-extension-framework-ga/",
-      "published": "2026-08-11T21:57:59+00:00",
-      "summary": "What parts of building and shipping on Azure still take too many steps? Maybe you want a command that starts a project with your organization’s approved architecture and infrastructure. Maybe you need to connect deployments to an internal service catalog, run security checks before provisioning, or...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Kristen Womack"
-    },
-    {
-      "title": "Reliability Starter Kit: SLIs, Health models, and SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/reliability-starter-kit-slis-health-models-and-sre-agent/ba-p/4545733",
-      "published": "2026-08-11T21:36:56+00:00",
-      "summary": "TL;DR This walkthrough uses a small e-commerce demo app to show how Azure Monitor can measure a user journey with service level indicators (SLIs) and service level objectives (SLOs), roll those results into a health model, and have the Azure SRE Agent investigate the alert. When the demo...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "varghesejoji"
-    },
-    {
-      "title": "August Patches for Azure DevOps Server",
-      "link": "https://devblogs.microsoft.com/devops/august-patches-for-azure-devops-server-4/",
-      "published": "2026-08-11T20:44:54+00:00",
-      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales"
-    },
-    {
-      "title": "GitHub Admin UI + Billing API: Better together for smarter spend decisions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/github-admin-ui-billing-api-better-together-for-smarter-spend/ba-p/4545682",
-      "published": "2026-08-11T20:31:27+00:00",
-      "summary": "As a GitHub administrator, you already have a strong place to start when somebody asks, “Why did our AI spend go up?” In Metered usage, you can see the change, choose the period, and group the data by organization or cost center. That first investigation often leads to questions that are specific...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Chris_Noring"
-    },
-    {
-      "title": "Today I will… manage Git Submodules without leaving the IDE",
-      "link": "https://devblogs.microsoft.com/visualstudio/managing-git-submodules-without-leaving-the-ide/",
-      "published": "2026-08-11T17:05:31+00:00",
-      "summary": "If you’ve worked with Git submodules for any length of time, you probably have a love-hate relationship with them. They’re genuinely useful for pulling a shared library, an SDK, or common build scripts into your project. But actually working with them usually means tabbing over to a terminal and...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Harshada Hole"
-    },
-    {
-      "title": "Azure Container Apps Sandboxes (Preview): Giving AI Agents a Safe Place to Work",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-preview-giving-ai-agents-a-safe/ba-p/4545975",
-      "published": "2026-08-11T16:05:08+00:00",
-      "summary": "Co-written by Nikoloz Buligini, Front End Developer at Templafy, and Jan Kalis, Azure Container Apps Sandboxes, Core AI, Microsoft Every team building with multi-tenant AI agent platforms hits the same wall. The agent is smart enough to read your code, reason about a bug, and propose a fix. But the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Jan-Kalis"
-    },
-    {
-      "title": "Building Microsoft Sentinel Connectors in Minutes with the Sentinel Connector Builder Agent",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/building-microsoft-sentinel-connectors-in-minutes-with-the/ba-p/4544378",
-      "published": "2026-08-11T16:00:00+00:00",
-      "summary": "Overview We previously announced the public preview of the Microsoft Sentinel connector builder agent via VS code extension, that helps developers build Microsoft Sentinel codeless connectors faster with low-code and AI-assisted prompts. This post walks through a hands-on lab using a mock Network...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Robert_Moriarty"
     }
   ]
 }
