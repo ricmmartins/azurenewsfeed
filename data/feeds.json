@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-12T14:59:36.508614+00:00",
-  "totalArticles": 158,
+  "lastUpdated": "2026-09-13T15:37:25.398583+00:00",
+  "totalArticles": 151,
   "articles": [
     {
       "title": "Azure App Service is now a trigger destination for Azure Managed Connectors",
@@ -12,6 +12,15 @@
       "author": "jordanselig"
     },
     {
+      "title": "AI Agent ROI Framework",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/ai-agent-roi-framework/ba-p/4555445",
+      "published": "2026-09-11T15:47:21+00:00",
+      "summary": "Introduction AI agents are rapidly becoming a core component of enterprise transformation strategies. Organizations are deploying agents to assist employees, automate business processes, improve customer experiences, accelerate decision-making, and scale operations. Yet many organizations still...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Yagneswari"
+    },
+    {
       "title": "Announcing savings plan for databases: flexible savings for modern, evolving workloads",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/announcing-savings-plan-for-databases-flexible-savings-for/ba-p/4503107",
       "published": "2026-09-11T14:06:14+00:00",
@@ -21,13 +30,22 @@
       "author": "kyleikeda"
     },
     {
-      "title": "AI Agent ROI Framework",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/ai-agent-roi-framework/ba-p/4555445",
-      "published": "2026-09-10T22:36:02+00:00",
-      "summary": "Introduction AI agents are rapidly becoming a core component of enterprise transformation strategies. Organizations are deploying agents to assist employees, automate business processes, improve customer experiences, accelerate decision-making, and scale operations. Yet many organizations still...",
+      "title": "Building on AI Landing Zones: Operationalizing Enterprise AI with the Citadel Architecture",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-on-ai-landing-zones-operationalizing-enterprise-ai-with/ba-p/4551078",
+      "published": "2026-09-11T12:14:40+00:00",
+      "summary": "From AI Foundations to a Shared Operating Model In my previous article, AI Azure Landing Zone: Shared Capabilities and Models to Enable AI as a Platform, I explored how organizations establish secure, governed environments for AI workloads. Building on that foundation requires aligning three...",
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
-      "author": "Yagneswari"
+      "author": "Rohon_Mohapatra"
+    },
+    {
+      "title": "From OSDU to Ontology: Why Oil & Gas AI Readiness Lives at the Meaning Layer",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-osdu-to-ontology-why-oil-gas-ai-readiness-lives-at-the/ba-p/4538718",
+      "published": "2026-09-11T12:13:32+00:00",
+      "summary": "The five-answer problem Ask a simple question inside a large operator: “How is this asset producing against plan, and what’s the constraint?” Now watch five systems answer five different things. The production historian knows a “well” as a set of surface sensor tags. The reservoir team reasons...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "KimVaddi"
     },
     {
       "title": "September Patches for Azure DevOps Server",
@@ -1342,87 +1360,6 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "Harel Broitman"
-    },
-    {
-      "title": "Running Hosted Agents in Microsoft Foundry Agent Service Part 3/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/running-hosted-agents-in-microsoft-foundry-agent-service-part-3/ba-p/4541933",
-      "published": "2026-08-14T07:00:00+00:00",
-      "summary": "This is the third post in our series on the Microsoft agent platform. We focus on the Run in Foundry pillar, taking agents from development to production with Hosted Agents, the Agent Optimizer, Routines, Memory, Toolboxes, and Tracing. All examples reference the FibreOps repository, demonstrated...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
-      "title": "Git-APE SaaS Factory",
-      "link": "https://devblogs.microsoft.com/all-things-azure/git-ape-saas-factory/",
-      "published": "2026-08-14T05:29:31+00:00",
-      "summary": "Agentic Platform Engineering for SaaS. Accelerating the Path to Market with Git-APE If you are an ISV building SaaS on Azure, the first demo is usually the easy part. The harder work is turning that proof of concept into a secure, scalable, commercial-ready service that can be operated confidently...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "davidwright, Arnaud Lheureux, Suzanne Daniels"
-    },
-    {
-      "title": "Tableau to Power BI Migration: Semantic Layer-First Approach for Cloud Architects",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/tableau-to-power-bi-migration-semantic-layer-first-approach-for/ba-p/4481009",
-      "published": "2026-08-14T04:27:25+00:00",
-      "summary": "Author's: Mahjabin Ahmed, Yassine El Ouardi, Lavanya Sreedhar LavanyaSreedhar​, Peter Lo PeterLo​, Aryan Anmol aryananmol​, Shreya Harvu shreyaharvu​ and Rafia Aqil Rafia_Aqil​ In this guide, we provide practical guidance for migrating from Tableau to Power BI, with a focus on technical best...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "Update WCF Relay applications to use TLS 1.2 or later",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/update-wcf-relay-applications-to-use-tls-1-2-or-later/ba-p/4544418",
-      "published": "2026-08-14T00:30:56+00:00",
-      "summary": "WCF Relay listeners that still negotiate TLS 1.0 can stop passing traffic through Azure Relay. The symptom appears on the sender, which connected successfully before and now fails every call with System.ServiceModel.EndpointNotFoundException: None of the connected listeners accepted the connection...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "EldertGrootenboer"
-    },
-    {
-      "title": "From Silicon to Systems: Bending the Cost and Complexity Curves of AI",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-silicon-to-systems-bending-the-cost-and-complexity-curves/ba-p/4545207",
-      "published": "2026-08-13T23:06:16+00:00",
-      "summary": "The next era of AI infrastructure will be defined not by a single breakthrough, but by how well we co-design every layer—from models and software to silicon, servers, racks and datacenters. At the Open Compute Project Asia Pacific Summit, we are proud to share the latest community innovations that...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ceciliaxia"
-    },
-    {
-      "title": "From Features to Flow: How Real-World Adoption Reshaped the Azure Architecture Diagram Builder",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-features-to-flow-how-real-world-adoption-reshaped-the-azure/ba-p/4546817",
-      "published": "2026-08-13T22:10:46+00:00",
-      "summary": "In May, I introduced the open-source Azure Architecture Diagram Builder as a way to move from a natural-language prompt to an Azure architecture diagram, cost estimate, Well-Architected assessment, and deployment guidance. In July, I shared how the project had become agent-ready through Model...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "arturoqu"
-    },
-    {
-      "title": "Your best friend: BlockOnPossibleDataLoss=True",
-      "link": "https://devblogs.microsoft.com/azure-sql/blockonpossibledataloss/",
-      "published": "2026-08-13T19:25:40+00:00",
-      "summary": "BlockOnPossibleDataLoss can frustrate developers, but it's one of the most important safeguards in database deployment. Here's how to keep your local development loop fast while protecting the data that matters. The post Your best friend: BlockOnPossibleDataLoss=True appeared first on Azure SQL Dev...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
-    },
-    {
-      "title": "Monitoring Azure Service Fabric with Azure Managed Grafana",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/monitoring-azure-service-fabric-with-azure-managed-grafana/ba-p/4546439",
-      "published": "2026-08-13T18:44:37+00:00",
-      "summary": "1. Why integrate Grafana with Service Fabric? Scope: this walkthrough covers a classic, VMSS-backed Service Fabric cluster running Windows. Service Fabric managed clusters (SFMC) use managed node types instead of VM scale sets, but the same AMA + DCR + Grafana pattern applies once AMA is installed...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "Ahmed_Khaled"
-    },
-    {
-      "title": "Introducing dependency telemetry in Application Insights for Azure API Management policies",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/introducing-dependency-telemetry-in-application-insights-for/ba-p/4545504",
-      "published": "2026-08-13T15:00:02+00:00",
-      "summary": "Running A(P)I platforms at-scale is not a walk in the park – As traffic flows through the system, it needs handle the load and provide insights on where the inefficiencies are. Finding the needle in a haystack Azure API Management provides a broad set of observability capabilities across its...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "tomkerkhovemicrosoft"
     }
   ]
 }
