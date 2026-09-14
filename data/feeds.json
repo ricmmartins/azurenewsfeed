@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-09-13T15:37:25.398583+00:00",
-  "totalArticles": 151,
+  "lastUpdated": "2026-09-14T17:42:21.690181+00:00",
+  "totalArticles": 154,
   "articles": [
+    {
+      "title": "MulticloudDB SDK: Cross-cloud portability in the coding agent era",
+      "link": "https://devblogs.microsoft.com/cosmosdb/multiclouddb-sdk-cross-cloud-portability-in-the-coding-agent-era/",
+      "published": "2026-09-14T13:25:23+00:00",
+      "summary": "Building cross-cloud solutions with best-of-breed cloud-native databases means learning multiple SDKs, translating queries, handling different errors, and testing across providers. The Multicloud DB SDK for Java lets you share that work across Azure Cosmos DB, Amazon DynamoDB, and Google Cloud...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay"
+    },
+    {
+      "title": "Locking down PAWs internet access when GSA drops",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/locking-down-paws-internet-access-when-gsa-drops/ba-p/4553963",
+      "published": "2026-09-14T08:38:19+00:00",
+      "summary": "By: Christian Friedel-Jain - Sr. Security Consultant | James Noyce - Sr. Security Solution Engineer Introduction Privileged Access Workstations (PAWs) are among the most sensitive endpoints in any organization. A PAW, in most of our Microsoft consulting projects, exists to do one job safely:...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "ChristianFriedel-Jain"
+    },
+    {
+      "title": "Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon",
+      "link": "https://devblogs.microsoft.com/ise/japanese-llm-evaluation-pipeline-hackathon/",
+      "published": "2026-09-14T07:00:00+00:00",
+      "summary": "ISE hackathon produced a reusable Japanese LLM evaluation pipeline with multi-turn, facet-based scoring, cross-provider model support, and publication-ready benchmarking outputs. The post Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon appeared first on ISE Developer...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Jaein Tak, Akihiro Inui, Kohei Saito"
+    },
     {
       "title": "Azure App Service is now a trigger destination for Azure Managed Connectors",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-app-service-is-now-a-trigger-destination-for-azure-managed/ba-p/4555785",
