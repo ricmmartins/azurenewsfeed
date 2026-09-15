@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-09-14T17:42:21.690181+00:00",
-  "totalArticles": 154,
+  "lastUpdated": "2026-09-15T16:15:42.325589+00:00",
+  "totalArticles": 162,
   "articles": [
+    {
+      "title": "Today I will… improve test coverage",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-improve-test-coverage/",
+      "published": "2026-09-15T16:00:21+00:00",
+      "summary": "Today I want to look at how we can improve on the test coverage that we have in the Interview Coach application. This application has some unit tests in it already, but I’m sure there is room for improvement. Defining our baseline Before we start writing tests, it’s a good idea to have a baseline...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Aaron Powell"
+    },
+    {
+      "title": "Coding agents are picking Azure SQL Database",
+      "link": "https://devblogs.microsoft.com/azure-sql/coding-agents-are-picking-azure-sql-database/",
+      "published": "2026-09-15T12:55:05+00:00",
+      "summary": "I went looking for Azure SQL Database in a recent coding agent benchmark, honestly unsure whether Microsoft SQL would show up. Armature ran a study where real coding agent CLIs (Claude Code, Codex, Cursor) were dropped into six synthetic-but-realistic repositories and asked to pick a database, then...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman"
+    },
+    {
+      "title": "Securing AI Agent Tool Calls in Azure: Identity, Authorization, and Verified Execution",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/securing-ai-agent-tool-calls-in-azure-identity-authorization-and/ba-p/4546824",
+      "published": "2026-09-15T11:00:34+00:00",
+      "summary": "When an agent can use tools, untrusted content can influence requests to access sensitive data or change external systems. A retrieved document might tell the agent to send a file to an external address. An attacker-controlled log field might suggest disabling a security setting. A tool result...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kedikala"
+    },
+    {
+      "title": "Public Preview Annoucement: Azure Policy Custom Policy Versioning!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-annoucement-azure-policy-custom-policy-versioning/ba-p/4556461",
+      "published": "2026-09-14T23:56:23+00:00",
+      "summary": "In 2024 we introduced versioning for built-in definitions and initiatives. Today we are extending that capability to your own policies! Custom policy versioning is now in public preview. Custom definitions and custom initiatives can store and reference multiple versions under a single definition...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher"
+    },
+    {
+      "title": "SSL/TLS certificates and end-to-end encryption for Azure Functions Flex Consumption",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/ssl-tls-certificates-and-end-to-end-encryption-for-azure/ba-p/4556425",
+      "published": "2026-09-14T21:01:36+00:00",
+      "summary": "Last week we announced the general availability of TLS/SSL certificate support and end-to-end TLS encryption for Azure Functions Flex Consumption. Flex Consumption is the recommended serverless hosting plan for Azure Functions. It combines event-driven scale-to-zero and execution-based billing with...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "nzthiago"
+    },
+    {
+      "title": "Dashboards are for AI agents too, not just humans",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/dashboards-are-for-ai-agents-too-not-just-humans/ba-p/4556383",
+      "published": "2026-09-14T20:25:20+00:00",
+      "summary": "A few days ago I opened Azure SRE Agent and typed four prompts. None of them was careful: find grafana dashboard for: GitHub Copilot run the panels queries. list top 3 very long sessions in the past 3 days what session 1 was doing? what was session 2 doing? No KQL. No table names. I didn't say what...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng"
+    },
+    {
+      "title": "Microsoft Foundry Observability: How to Trace, Evaluate, Monitor, and Secure AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/microsoft-foundry-observability-how-to-trace-evaluate-monitor/ba-p/4555846",
+      "published": "2026-09-14T19:42:07+00:00",
+      "summary": "The green check that hid a real problem During a recent customer conversation, I was shown a customer-service refund agent that looked healthy by every traditional measure. Requests completed successfully. The endpoint returned HTTP 200. Latency was within the team's target, and there were no...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "gauravbhardwaj"
+    },
+    {
+      "title": "Public Preview: Multi-account support for Microsoft Sentinel codeless connectors",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/public-preview-multi-account-support-for-microsoft-sentinel/ba-p/4544380",
+      "published": "2026-09-14T18:13:41+00:00",
+      "summary": "Security teams rarely have just one of anything. Most SOCs run separate production, staging, and development accounts. Large enterprises segment by region, business unit, or brand. And managed security service providers (MSSPs) watch over many customers at once. Traditionally, ISVs have used the...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "MitchellGulledge"
+    },
+    {
+      "title": "Data Meets Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/data-meets-agents/ba-p/4553082",
+      "published": "2026-09-14T16:00:00+00:00",
+      "summary": "Introduction Enterprise agents become more valuable when they can securely access the data, knowledge and business systems organisations already rely on. And, Data Meets Agents is a way of framing a recurring architecture question we hear from customers: How should an agent access enterprise data...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Yeliz_Kilinc"
+    },
+    {
+      "title": "Can a Harmless Prompt Break an AI Guardrail?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/can-a-harmless-prompt-break-an-ai-guardrail/ba-p/4555111",
+      "published": "2026-09-14T14:00:00+00:00",
+      "summary": "Tamara Gaidar, Senior Data Scientist, Microsoft Security Research Team Maor Nissan, Principal Data Scientist, Microsoft Security Research Team Where we left off This is Part 2 of two. Part 1 is — it covers how we ran the challenge, the sixteen attack techniques the crowd produced, and the five...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "tamaragaidar"
+    },
     {
       "title": "MulticloudDB SDK: Cross-cloud portability in the coding agent era",
       "link": "https://devblogs.microsoft.com/cosmosdb/multiclouddb-sdk-cross-cloud-portability-in-the-coding-agent-era/",
@@ -651,6 +741,15 @@
       "author": "abikomma"
     },
     {
+      "title": "Intelligent Terminal 0.2.2572: Faster, Smoother, and More Reliable",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-25-performance-reliability/",
+      "published": "2026-09-01T01:36:09+00:00",
+      "summary": "We’re back with Intelligent Terminal v0.2.2572, and this one is all about making things faster, easier to use, more reliable, and more polished. This release lands over 60 fixes and improvements as well as API key support for local models, automatic approval for supported agents, and native slash...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani"
+    },
+    {
       "title": "Enterprise Live Migrations is now in public preview",
       "link": "https://devblogs.microsoft.com/devops/enterprise-live-migrations-public-preview/",
       "published": "2026-08-31T20:52:38+00:00",
@@ -1074,15 +1173,6 @@
       "author": "Theo van Kraay"
     },
     {
-      "title": "Enabling A2A endpoint and Agent Card for a Hosted Agent",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/enabling-a2a-endpoint-and-agent-card-for-a-hosted-agent/ba-p/4546979",
-      "published": "2026-08-24T16:00:00+00:00",
-      "summary": "Building an agent shouldn't require you to reinvent platform capabilities. With Microsoft Foundry, hosted agents inherit essential capabilities such as authentication, ingress management, A2A transport, and discovery endpoints, freeing developers to focus on business logic and user value. This...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "srisatyakrishna5"
-    },
-    {
       "title": "Now in public preview: Azure Virtual Desktop regional host pools",
       "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-in-public-preview-azure-virtual-desktop-regional-host-pools/ba-p/4474598",
       "published": "2026-08-24T15:19:27+00:00",
@@ -1090,15 +1180,6 @@
       "blog": "Azure Virtual Desktop",
       "blogId": "azurevirtualdesktopblog",
       "author": "TomHickling"
-    },
-    {
-      "title": "Building Production-Ready AI Agents in Microsoft Foundry: 10 Lessons Learned",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-production-ready-ai-agents-in-microsoft-foundry-10/ba-p/4544174",
-      "published": "2026-08-24T14:00:00+00:00",
-      "summary": "A Real-World Scenario Imagine a customer support agent that answers invoice questions. During testing, everything works perfectly. But in production: The Finance API occasionally times out. The knowledge base contains outdated information. Tool calls fail during peak traffic. Token consumption...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SURENDRATANNEERU1"
     },
     {
       "title": "Today I will… Modernize a .NET application",
@@ -1378,15 +1459,6 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Pooja Kamath"
-    },
-    {
-      "title": "Keep Azure Monitor issues and ServiceNow ITOM incidents in sync",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/keep-azure-monitor-issues-and-servicenow-itom-incidents-in-sync/ba-p/4543399",
-      "published": "2026-08-16T10:33:18+00:00",
-      "summary": "Operational problems rarely stay within one monitoring tool. Azure Monitor may detect and investigate a service degradation, while operations teams manage ownership, escalation, and resolution in an IT Service Management (ITSM) system. Without a connected workflow, responders must copy context...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Harel Broitman"
     }
   ]
 }
