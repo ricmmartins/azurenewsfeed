@@ -1,7 +1,106 @@
 {
-  "lastUpdated": "2026-09-15T16:15:42.325589+00:00",
-  "totalArticles": 162,
+  "lastUpdated": "2026-09-16T16:08:38.208894+00:00",
+  "totalArticles": 171,
   "articles": [
+    {
+      "title": "Running GitHub Actions Runner Controller on AKS Automatic",
+      "link": "https://blog.aks.azure.com/2026/09/17/github-actions-runner-controller-aks-automatic",
+      "published": "2026-09-17T00:00:00+00:00",
+      "summary": "Create an AKS Automatic cluster, install Actions Runner Controller, and run a GitHub Actions workflow on ephemeral runner pods in your Azure network.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
+      "title": "AI Is Changing How We Code. It’s Also Changing How We Learn.",
+      "link": "https://devblogs.microsoft.com/visualstudio/ai-is-changing-how-we-code-its-also-changing-how-we-learn/",
+      "published": "2026-09-16T14:00:09+00:00",
+      "summary": "AI is changing software development at a pace no one can ignore. Developers now have powerful AI tools that can help us write code, understand unfamiliar codebases, troubleshoot problems, learn new frameworks, and get answers in seconds. That is an incredible opportunity. But as these tools become...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt"
+    },
+    {
+      "title": "Deploying Custom Images and Implementing CI/CD for Azure Virtual Machine Scale Sets",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-custom-images-and-implementing-ci-cd-for-azure-virtual/ba-p/4556902",
+      "published": "2026-09-16T05:26:11+00:00",
+      "summary": "Azure Virtual Machine Scale Sets (VMSS) are useful when an application needs to run across multiple virtual machines while automatically scaling based on demand. Instead of configuring every VM manually, we can create a standard VM image and use that image to provision identical VM instances. In...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "SurbhiA"
+    },
+    {
+      "title": "Closing the Recruiting Context Gap with Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/closing-the-recruiting-context-gap-with-microsoft-foundry/ba-p/4556469",
+      "published": "2026-09-15T23:26:42+00:00",
+      "summary": "A recruiter receives a detailed job description for a senior engineer working on a payments platform. It explains the required skills, the business domain, and the experience that would be useful. Then someone has to turn that description into a search. What reaches the sourcing platform might look...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "gauravbhardwaj"
+    },
+    {
+      "title": "Create multimodal applications with OpenAI models in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/create-multimodal-applications-with-openai-models-in-microsoft/ba-p/4543593",
+      "published": "2026-09-15T19:50:55+00:00",
+      "summary": "Imagine you are building a home design application. A customer says, “Show me a modern kitchen with dark cabinets and a large center island.” Images appear in seconds. Before the application finishes describing the design, the customer interrupts: “Make it brighter and add natural wood accents.”...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Dave_Jacobs"
+    },
+    {
+      "title": "Introducing Foundry Dev Pack: One Command to Start Building",
+      "link": "https://devblogs.microsoft.com/foundry/foundry-devpack-announcement/",
+      "published": "2026-09-15T19:00:00+00:00",
+      "summary": "Foundry Dev Pack prepares your machine for Microsoft Foundry development with an all-in-one installer for the tools you need across the terminal, VS Code, and coding agents. The post Introducing Foundry Dev Pack: One Command to Start Building appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "sharonxu"
+    },
+    {
+      "title": "Public Preview Annoucement: Azure Policy Custom Policy Versioning!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-annoucement-azure-policy-custom-policy-versioning/ba-p/4556461",
+      "published": "2026-09-15T18:02:19+00:00",
+      "summary": "In 2024 we introduced versioning for built-in definitions and initiatives. Today we are extending that capability to your own policies! Custom policy versioning is now in public preview. Custom definitions and custom initiatives can store and reference multiple versions under a single definition...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher"
+    },
+    {
+      "title": "Your Agent Found the Right Schema. Then Ignored It.",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/your-agent-found-the-right-schema-then-ignored-it/ba-p/4553775",
+      "published": "2026-09-15T17:35:05+00:00",
+      "summary": "The assumption nobody tests Most agent evaluations quietly assume something that never happens in production: that the model is handed exactly the right information, and nothing else. We changed that one assumption — and watched a model drop from 58% to 18%. Retrieval was not the problem. The...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shihyaolin"
+    },
+    {
+      "title": "Bring Azure AI to your private workloads on Azure VMware Solution",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/bring-azure-ai-to-your-private-workloads-on-azure-vmware/ba-p/4556780",
+      "published": "2026-09-15T17:26:58+00:00",
+      "summary": "Overview A global enterprise has migrated thousands of VMware vSphere virtual machines (VMs) to Microsoft Azure as part of their application modernization strategy. Having exited their on-premises data centers and relocated their legacy application VMs to Azure VMware Solution, the next phase of...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "rvandenbedem"
+    },
+    {
+      "title": "Azure Red Hat OpenShift with hosted control planes now available in public preview",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-red-hat-openshift-with-hosted-control-planes-now-available/ba-p/4555997",
+      "published": "2026-09-15T17:10:06+00:00",
+      "summary": "Red Hat OpenShift momentum on Azure keeps building, driven by teams standardizing on Kubernetes for application modernization and, increasingly, by AI-enabled applications that need a consistent platform for the services around them. Azure Red Hat OpenShift gives those teams a jointly engineered,...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Mayuri_Gupta"
+    },
+    {
+      "title": "Explore the latest in MCP: All recordings from MCP Live!",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/explore-the-latest-in-mcp-all-recordings-from-mcp-live/ba-p/4556775",
+      "published": "2026-09-15T16:44:03+00:00",
+      "summary": "We recently hosted MCP Live!, a free half-day event featuring the people building the Model Context Protocol and putting it into practice. The Model Context Protocol (MCP) is the open standard for connecting AI models to tools and data. MCP servers let agents work with external data sources and...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Pamela_Fox"
+    },
     {
       "title": "Today I will… improve test coverage",
       "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-improve-test-coverage/",
@@ -10,6 +109,15 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Aaron Powell"
+    },
+    {
+      "title": "Build an interview coach app with the GitHub Copilot SDK",
+      "link": "https://devblogs.microsoft.com/blog/build-an-interview-coach-app-with-the-github-copilot-sdk/",
+      "published": "2026-09-15T16:00:11+00:00",
+      "summary": "An interview coach has to do more than ask questions. It needs to read a resume, follow up on an incomplete answer, and save enough context to give useful feedback at the end. Some of that work is conversation. Some of it requires calling an application service. The GitHub Copilot SDK lets you use...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Justin Yoo"
     },
     {
       "title": "Coding agents are picking Azure SQL Database",
@@ -28,15 +136,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "kedikala"
-    },
-    {
-      "title": "Public Preview Annoucement: Azure Policy Custom Policy Versioning!",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-annoucement-azure-policy-custom-policy-versioning/ba-p/4556461",
-      "published": "2026-09-14T23:56:23+00:00",
-      "summary": "In 2024 we introduced versioning for built-in definitions and initiatives. Today we are extending that capability to your own policies! Custom policy versioning is now in public preview. Custom definitions and custom initiatives can store and reference multiple versions under a single definition...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "stevenbucher"
     },
     {
       "title": "SSL/TLS certificates and end-to-end encryption for Azure Functions Flex Consumption",
@@ -172,15 +271,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Gloridel Morales"
-    },
-    {
-      "title": "Create multimodal applications with OpenAI models in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/create-multimodal-applications-with-openai-models-in-microsoft/ba-p/4543593",
-      "published": "2026-09-10T20:14:28+00:00",
-      "summary": "Imagine you are building a home design application. A customer says, “Show me a modern kitchen with dark cabinets and a large center island.” Images appear in seconds. Before the application finishes describing the design, the customer interrupts: “Make it brighter and add natural wood accents.”...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Dave_Jacobs"
     },
     {
       "title": "Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization",
@@ -325,6 +415,15 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "christinchen"
+    },
+    {
+      "title": "Your work might not need the smartest model",
+      "link": "https://devblogs.microsoft.com/blog/your-work-might-not-need-the-smartest-model/",
+      "published": "2026-09-09T09:14:04+00:00",
+      "summary": "The smartest model can cost five times more and deliver the same result, or even a worse one. See how evaluating your own work helps you get more value from your agent budget.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "Wiring Azure DevOps Pipeline Templates Without the Parameter Sprawl: The Manifest Facade Pattern",
@@ -1146,15 +1245,6 @@
       "author": "Tanmayee Kamath"
     },
     {
-      "title": "Benchmark Retrieval Patterns for Copilot Studio and Foundry IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/benchmark-retrieval-patterns-for-copilot-studio-and-foundry-iq/ba-p/4547920",
-      "published": "2026-08-24T19:00:00+00:00",
-      "summary": "Part 2 of a series. Part 1, Grounding Copilot Studio Agents with Azure AI Search and Foundry IQ, defined five grounding patterns. This article gives you a reproducible way to compare them without mixing latency boundaries, billing units, or quality signals. Reference implementation, not a...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "BrittanyPugh"
-    },
-    {
       "title": "Unified AI Defense: Security Copilot, Project Perception, and MDASH",
       "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/unified-ai-defense-security-copilot-project-perception-and-mdash/ba-p/4547124",
       "published": "2026-08-24T17:04:23+00:00",
@@ -1450,15 +1540,6 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Haoran Cheng"
-    },
-    {
-      "title": "Beyond Vector Indexes: Azure SQL Brings Optimizer Intelligence to Vector Search",
-      "link": "https://devblogs.microsoft.com/azure-sql/beyond-vector-indexes-azure-sql-brings-optimizer-intelligence-to-vector-search/",
-      "published": "2026-08-17T11:22:09+00:00",
-      "summary": "Why production AI retrieval depends on more than vector index performance. It’s easy to think of AI retrieval as a vector search problem. For many developers, the first conversation starts with vector index benchmarks: How many queries per second can it handle? What’s the latency? What’s the...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Pooja Kamath"
     }
   ]
 }
