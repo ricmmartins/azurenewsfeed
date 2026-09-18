@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-09-17T16:15:25.913756+00:00",
-  "totalArticles": 170,
+  "lastUpdated": "2026-09-18T15:50:28.129539+00:00",
+  "totalArticles": 167,
   "articles": [
+    {
+      "title": "Foundry IQ with D365F&O and Fabric IQ",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/foundry-iq-with-d365f-o-and-fabric-iq/ba-p/4557380",
+      "published": "2026-09-18T12:22:02+00:00",
+      "summary": "Business Scenario A retail organization runs multiple promotional sales events across its store network in different cities, featuring various product categories where Data is captured from third-party systems (products, stores, sales events) and D365 Finance and Operations (customer data)...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Sayanika"
+    },
+    {
+      "title": "Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-a-guided-copilot-experience-for-building-azure-apps/ba-p/4557120",
+      "published": "2026-09-18T12:09:35+00:00",
+      "summary": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable workflow instead of a free-form chat session that may or may not land where you need it to. The...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "fiveisprime"
+    },
+    {
+      "title": "Automating Azure VM Image Baking and Validation with Packer and Azure DevOps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-azure-vm-image-baking-and-validation-with-packer-and/ba-p/4557578",
+      "published": "2026-09-18T08:15:11+00:00",
+      "summary": "Solution at a glance Source image → Packer build → Azure Compute Gallery → Validation VM → Evidence → Controlled promotion Introduction Maintaining enterprise virtual machine images manually can lead to configuration drift, inconsistent builds, slow remediation and limited release traceability. A...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Prakhar-Sharma"
+    },
+    {
+      "title": "Agent experience with data in Onelake using Fabric IQ",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/agent-experience-with-data-in-onelake-using-fabric-iq/ba-p/4557504",
+      "published": "2026-09-17T23:57:52+00:00",
+      "summary": "Business Scenario A retail organization runs multiple promotional sales events across its store network in different cities, featuring various product categories. Data is captured from: Third-party systems (products, stores, sales events) ERP system i.e. Finance and Operations (customer data)...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Sayanika"
+    },
+    {
+      "title": "Action required: PromQL regex matching in Azure Monitor Workspace is becoming spec-compliant",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/action-required-promql-regex-matching-in-azure-monitor-workspace/ba-p/4556437",
+      "published": "2026-09-17T23:10:32+00:00",
+      "summary": "TL;DR: Bare regex matchers like pod=~\"foo\" will soon return only exact matches, not substring matches. If you rely on =~ for \"starts with\" or \"contains\" semantics, update your queries to add .* before the change lands. What is changing AMW's Prometheus Query Service is moving to fully-anchored...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Tyler_Kight"
+    },
+    {
+      "title": "Your Certificate Renewed. Your Gateway Didn't Notice.",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/your-certificate-renewed-your-gateway-didn-t-notice/ba-p/4552786",
+      "published": "2026-09-17T20:56:22+00:00",
+      "summary": "A setup that looks fine API Management sits behind a global entry point like Traffic Manager or Front Door. Your custom domain, api.contoso.com, points at that entry point. APIM holds the same custom domain, with a certificate pulled from Key Vault. It works, for months. Then the certificate...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Madhura Amlekar"
+    },
     {
       "title": "Automating Private Endpoint DNS Across Azure Tenants with Azure Policy and Azure Lighthouse",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-private-endpoint-dns-across-azure-tenants-with-azure/ba-p/4557495",
@@ -93,13 +147,13 @@
       "author": "arronhoffer"
     },
     {
-      "title": "Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-a-guided-copilot-experience-for-building-azure-apps/ba-p/4557120",
-      "published": "2026-09-16T13:59:47+00:00",
-      "summary": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable workflow instead of a free-form chat session that may or may not land where you need it to. The...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "fiveisprime"
+      "title": "Your AI coding agent evaluation is only as good as its sandbox",
+      "link": "https://devblogs.microsoft.com/blog/your-ai-coding-agent-evaluation-is-only-as-good-as-its-sandbox/",
+      "published": "2026-09-16T09:09:51+00:00",
+      "summary": "Your AI coding agent passed the eval. But did the model know the answer, or did it find it somewhere on your machine? A correct answer can still invalidate your measurement.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "Deploying Custom Images and Implementing CI/CD for Azure Virtual Machine Scale Sets",
@@ -1450,87 +1504,6 @@
       "blog": "Azure Compute",
       "blogId": "azurecompute",
       "author": "misha-bansal"
-    },
-    {
-      "title": "What the New API Management AI Gateway Tier Changes for App Service-Hosted Agents",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-the-new-api-management-ai-gateway-tier-changes-for-app/ba-p/4543974",
-      "published": "2026-08-19T13:54:21+00:00",
-      "summary": "In May, I published a runnable sample that put Azure API Management in front of an AI agent on Azure App Service. The agent framework was replaceable; the gateway was the contribution. APIM handled model access, token limits, semantic caching, token metrics, and the MCP traffic contract. I followed...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig"
-    },
-    {
-      "title": "Building a Fully Automated Azure Landing Zone Deployment Using Azure DevOps and Terraform",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/building-a-fully-automated-azure-landing-zone-deployment-using/ba-p/4547956",
-      "published": "2026-08-19T04:30:00+00:00",
-      "summary": "What is an Azure Landing Zone? Think of an Azure Landing Zone as the foundation of a cloud environment. Before application teams deploy workloads, the Landing Zone establishes: Management Groups Subscriptions Networking Identity Integration Security Baselines Governance Controls Monitoring...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "Rajasekharvemula"
-    },
-    {
-      "title": "Understanding GitHub Billing and management: from licenses to fair AI credit controls",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/understanding-github-billing-and-management-from-licenses-to/ba-p/4546416",
-      "published": "2026-08-19T04:15:00+00:00",
-      "summary": "Buying GitHub Copilot licenses is only the beginning of the governance story. The licenses are purchased centrally, but administrators still need to decide who receives a seat, how usage is attributed to the right part of the business, and what happens when included AI credits run out. Those...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Chris_Noring"
-    },
-    {
-      "title": "Aspire 13.5: Fresh pixels and better workflows",
-      "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-13-5/",
-      "published": "2026-08-18T22:10:00+00:00",
-      "summary": "Aspire 13.5 refreshes the dashboard and aspire.dev, expands the Interaction Service, adds cross-scope Azure references and Kubernetes persistent volumes, and brings live terminals into the AppHost. The post Aspire 13.5: Fresh pixels and better workflows appeared first on Aspire Blog.",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "Maddy Montaquila"
-    },
-    {
-      "title": "Azure Cosmos DB in the Agentic Era: Data Tools for Developers and AI Agents",
-      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-in-the-agentic-era-data-tools-for-developers-and-ai-agents/",
-      "published": "2026-08-18T20:55:36+00:00",
-      "summary": "Anthropic’s 2026 Agentic Coding Trends Report captures an important tension in how developers use AI. Engineers report using AI in roughly 60% of their work, yet say they can fully delegate only 0–20% of their tasks. AI is becoming a constant collaborator, but it still needs setup, supervision,...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai"
-    },
-    {
-      "title": "Power Azure SRE Agent with the tools it needs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/power-azure-sre-agent-with-the-tools-it-needs/ba-p/4547882",
-      "published": "2026-08-18T20:36:37+00:00",
-      "summary": "What is the Azure SRE Agent Azure SRE Agent is an AI-powered service designed to reduce operational toil. Teams can use it to: Investigate incidents and identify probable causes. Automate health checks, compliance reviews, and other scheduled work. Answer questions such as “What changed before this...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "lily-ma"
-    },
-    {
-      "title": "The Two Hybrid Searches in Microsoft SQL",
-      "link": "https://devblogs.microsoft.com/azure-sql/two-hybrid-search/",
-      "published": "2026-08-18T18:40:38+00:00",
-      "summary": "Hybrid search is usually described as combining keyword search with vector search. Microsoft SQL does that, for sure, but we do quite a bit more right out of the box. SQL dynamically evaluates queries and switches between kNN and ANN vector search based on cost and selectivity. These two types of...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
-    },
-    {
-      "title": "Smarter signals, broader coverage: UEBA anomalies on top of Behaviors layer and new data sources",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/smarter-signals-broader-coverage-ueba-anomalies-on-top-of/ba-p/4544384",
-      "published": "2026-08-18T18:39:45+00:00",
-      "summary": "Co-authors: Ron Shlomo and Ryan Smith Security teams don't struggle with a lack of security signals. The real challenge is understanding which activity matters, why it stands out, and where to focus first. Microsoft Sentinel's Behaviors layer already helps analysts transform raw security events...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "SaraSamokovlija"
-    },
-    {
-      "title": "What’s new for small form factor infrastructure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/what-s-new-for-small-form-factor-infrastructure/ba-p/4520901",
-      "published": "2026-08-18T17:11:44+00:00",
-      "summary": "At Microsoft Build, we introduced smaller form factor infrastructure in public preview. Today, we’re refreshing that preview with version 2607, available right now in the Azure portal. This release introduces several new features: Expanded support for multiple network interfaces (NICs) and...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Teodora_Sutilovic"
     }
   ]
 }
