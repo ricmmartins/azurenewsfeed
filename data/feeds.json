@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-09-18T15:50:28.129539+00:00",
-  "totalArticles": 167,
+  "lastUpdated": "2026-09-19T15:22:34.528254+00:00",
+  "totalArticles": 161,
   "articles": [
+    {
+      "title": "A2A Endpoints and A2A Tool in Microsoft Foundry agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a2a-endpoints-and-a2a-tool-in-microsoft-foundry-agents/ba-p/4557115",
+      "published": "2026-09-18T19:00:00+00:00",
+      "summary": "Agent-to-agent collaboration just became much easier to build in Microsoft Foundry. The A2A Tool and incoming A2A endpoints support A2A protocol version 1.0, which is generally available. The earlier a2a_preview tool type and protocol version 0.3 remain available in preview for existing...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Christian_Coello"
+    },
+    {
+      "title": "FinOps-Ready Azure Landing Zone - Part 2",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/finops-ready-azure-landing-zone-part-2/ba-p/4555727",
+      "published": "2026-09-18T17:30:45+00:00",
+      "summary": "Author's Note: Vendor names referenced in this article are used solely as illustrative architectural examples and should not be interpreted as endorsements, recommendations, or advertisements. Introduction In Part 1, we looked at how Azure-native services can establish the foundation for a...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "javedeqbal"
+    },
+    {
+      "title": "Learn What to Do When You Hit Capacity in Azure Databricks!",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/learn-what-to-do-when-you-hit-capacity-in-azure-databricks/ba-p/4550550",
+      "published": "2026-09-18T14:58:25+00:00",
+      "summary": "Microsoft's Cloud Architects: Manu Mehta manumehta​, Chris Walk cwalk​, Eduardo Dos Santos eduardomdossantos​, Maria Hito mariahito​, Kiran Raja Ch KiranRaja​, Paul Singh PaulSingh​, Aladdin Alchalabi AladdinAlchalabi​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
     {
       "title": "Foundry IQ with D365F&O and Fabric IQ",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/foundry-iq-with-d365f-o-and-fabric-iq/ba-p/4557380",
@@ -55,6 +82,15 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "Madhura Amlekar"
+    },
+    {
+      "title": "Announcing the Playwright Workspaces Remote MCP Server for Agentic Browser Automation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/announcing-the-playwright-workspaces-remote-mcp-server-for/ba-p/4555698",
+      "published": "2026-09-17T18:00:00+00:00",
+      "summary": "An agent can analyze a request, choose the right next step, and call every available API—then stall when the final action exists only in a web interface. AI agents are increasingly capable of reasoning, planning, and working with APIs. But many real business processes still depend on websites:...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "NandiniMuralidharan"
     },
     {
       "title": "Automating Private Endpoint DNS Across Azure Tenants with Azure Policy and Azure Lighthouse",
@@ -966,15 +1002,6 @@
       "author": "edgarus71"
     },
     {
-      "title": "Learn What to Do When You Hit Capacity in Azure Databricks!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/learn-what-to-do-when-you-hit-capacity-in-azure-databricks/ba-p/4550550",
-      "published": "2026-09-01T14:08:19+00:00",
-      "summary": "Microsoft's Cloud Architects: Manu Mehta manumehta​, Chris Walk cwalk​, Eduardo Dos Santos eduardomdossantos​, Maria Hito mariahito​, Paul Singh PaulSingh​, Aladdin Alchalabi AladdinAlchalabi​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
       "title": "Six Lessons for Reliable Agent Optimizer Gains on Harder Agents",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/six-lessons-for-reliable-agent-optimizer-gains-on-harder-agents/ba-p/4551357",
       "published": "2026-09-01T14:00:00+00:00",
@@ -1137,15 +1164,6 @@
       "author": "RashaudSavage"
     },
     {
-      "title": "Cohere Parse v5 is now available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/cohere-parse-v5-is-now-available-in-microsoft-foundry/ba-p/4550954",
-      "published": "2026-08-27T19:02:39+00:00",
-      "summary": "Cohere Parse, a vision language model built for converting enterprise documents into structured, machine-readable data, is now available in the Microsoft Foundry model . Parse joins Cohere's Embed and Rerank models in Foundry. What Parse does Cohere Parse takes complex, multimodal files and returns...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Sharmichock"
-    },
-    {
       "title": "Azure Developer CLI (azd) – August 2026",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-august-2026/",
       "published": "2026-08-27T17:39:02+00:00",
@@ -1189,15 +1207,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "sanchitmehta"
-    },
-    {
-      "title": "Grok 4.6 comes to Microsoft Foundry Models: Built for long-horizon reasoning and complex workflows",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/grok-4-6-comes-to-microsoft-foundry-models-built-for-long/ba-p/4547578",
-      "published": "2026-08-26T17:04:55+00:00",
-      "summary": "The next wave of AI applications won't be defined by how quickly models answer questions. They'll be defined by how much work they can complete. Whether resolving repository issues, navigating codebases, generating engineering designs, or executing multi-step enterprise workflows, developers are...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MaheshBalachandran"
     },
     {
       "title": "Retirement of Microsoft HPC Pack",
@@ -1441,69 +1450,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "WSilveira"
-    },
-    {
-      "title": "From Detection to Action: Extending Azure Monitor Issues with Action Groups",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/from-detection-to-action-extending-azure-monitor-issues-with/ba-p/4548416",
-      "published": "2026-08-20T11:54:02+00:00",
-      "summary": "When the Azure Copilot Observability Agent detects a problem, correlates related alerts, investigates and creates an Azure Monitor issue, it does more than identify what happened. It creates a durable record that brings together investigation findings, severity, impacted resources, and recommended...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "ronitauber"
-    },
-    {
-      "title": "Voice Live and Observability for Production Agent Systems Part 5/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/voice-live-and-observability-for-production-agent-systems-part-5/ba-p/4541922",
-      "published": "2026-08-20T07:00:00+00:00",
-      "summary": "This is the fifth and final post in our series on the Microsoft agent platform. We cover two critical production concerns: Azure AI Voice Live for accessible, hands-free agent interaction, and observability, the tracing, evaluation, and monitoring infrastructure that keeps autonomous systems...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
-      "title": "Who Ordered All These Tokens? Giving AI Spend a Name in FOCUS",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/who-ordered-all-these-tokens-giving-ai-spend-a-name-in-focus/ba-p/4547978",
-      "published": "2026-08-20T05:25:22+00:00",
-      "summary": "A pattern to steal, not a product to buy. Your CFO leans over and asks a reasonable question: \"How much are we spending on Copilot versus the agents our own team built?\" You open the cost report, confident. You find… a bucket called \"Other.\" Next to another bucket called \"SaaS.\" Somewhere in there...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "Dirk_Brinkmann"
-    },
-    {
-      "title": "Choosing the Right Agent in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/choosing-the-right-agent-in-microsoft-foundry/ba-p/4547827",
-      "published": "2026-08-19T22:52:13+00:00",
-      "summary": "Many discussions about Microsoft Foundry Agent Service eventually arrive at the same question: should this workload be implemented as a Prompt Agent or a Hosted Agent? While the documentation explains both options well, the architectural decision usually comes down to something much simpler: where...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "supriyas"
-    },
-    {
-      "title": "Outgrowing SQL Server Express? Upgrade to Azure SQL Database Free Tier in 3 Steps",
-      "link": "https://devblogs.microsoft.com/azure-sql/upgrade-from-sql-server-express-to-azure-sql-database/",
-      "published": "2026-08-19T21:01:30+00:00",
-      "summary": "If you’ve been building local prototypes, internal tools, web backends, or lightweight services on SQL Server Express, you know the routine: it’s free, familiar, and gets the job done – until you hit hardware limits or spend weekends manual backup scripts and handling OS patches. Learn how to...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Vandana Mahtani, Amit Khandelwal"
-    },
-    {
-      "title": "MSSQL Extension for VS Code: SQL Formatter, Azure SQL Database Provisioning, and More",
-      "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-august2026/",
-      "published": "2026-08-19T17:18:32+00:00",
-      "summary": "Writing and maintaining SQL is easier when you can eliminate repetitive steps and keep your scripts cleanly formatted. With the MSSQL extension for VS Code v1.45, we’re introducing the Public Preview of the SQL Formatter alongside the General Availability of Azure SQL Database Provisioning and...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Yo-Lei Chen"
-    },
-    {
-      "title": "Announcing General Availability of Disable Multithreading and Configurable Constrained Cores",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-disable-multithreading-and/ba-p/4547908",
-      "published": "2026-08-19T16:00:12+00:00",
-      "summary": "Today, we are announcing General Availability of two new capabilities: Disable Simultaneous Multithreading/Hyper-Threading (SMT/HT) and Configurable Constrained Cores. These features give customers control over virtual CPU configurations, enabling performance optimization and potential software...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "misha-bansal"
     }
   ]
 }
