@@ -1,16 +1,7 @@
 {
-  "lastUpdated": "2026-09-19T15:22:34.528254+00:00",
-  "totalArticles": 161,
+  "lastUpdated": "2026-09-20T15:27:35.985622+00:00",
+  "totalArticles": 157,
   "articles": [
-    {
-      "title": "A2A Endpoints and A2A Tool in Microsoft Foundry agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a2a-endpoints-and-a2a-tool-in-microsoft-foundry-agents/ba-p/4557115",
-      "published": "2026-09-18T19:00:00+00:00",
-      "summary": "Agent-to-agent collaboration just became much easier to build in Microsoft Foundry. The A2A Tool and incoming A2A endpoints support A2A protocol version 1.0, which is generally available. The earlier a2a_preview tool type and protocol version 0.3 remain available in preview for existing...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Christian_Coello"
-    },
     {
       "title": "FinOps-Ready Azure Landing Zone - Part 2",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/finops-ready-azure-landing-zone-part-2/ba-p/4555727",
@@ -1164,6 +1155,15 @@
       "author": "RashaudSavage"
     },
     {
+      "title": "Cohere Parse v5 is now available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/cohere-parse-v5-is-now-available-in-microsoft-foundry/ba-p/4550954",
+      "published": "2026-08-27T19:02:39+00:00",
+      "summary": "Cohere Parse, a vision language model built for converting enterprise documents into structured, machine-readable data, is now available in the Microsoft Foundry model . Parse joins Cohere's Embed and Rerank models in Foundry. What Parse does Cohere Parse takes complex, multimodal files and returns...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Sharmichock"
+    },
+    {
       "title": "Azure Developer CLI (azd) – August 2026",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-august-2026/",
       "published": "2026-08-27T17:39:02+00:00",
@@ -1414,42 +1414,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Matt Soucoup, Pablo Lopes"
-    },
-    {
-      "title": "Azure Managed Redis Deployment Automation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/azure-managed-redis-deployment-automation/ba-p/4547874",
-      "published": "2026-08-21T14:26:48+00:00",
-      "summary": "Sometimes we may see some temporary capacity restrictions on some Azure Regions, while deploying Azure Managed Redis (AMR), and when that happen, the recommendation is usually retrying using a different Azure Region, a different AMR SKU, or retrying during off-peak hours or weekends.Retrying the...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "LuisFilipe"
-    },
-    {
-      "title": "Announcing Azure Web PubSub chat in public preview",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-azure-web-pubsub-chat-in-public-preview/ba-p/4548907",
-      "published": "2026-08-21T09:31:22+00:00",
-      "summary": "Chat is becoming a standard interaction model across customer support, collaboration, gaming, marketplaces, healthcare, financial services, and AI-powered applications. But building a production-ready chat system involves much more than opening a WebSocket connection. Teams also need to manage...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "kevinguo"
-    },
-    {
-      "title": "Browser automation with Pydantic-AI + Playwright",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/browser-automation-with-pydantic-ai-playwright/ba-p/4547971",
-      "published": "2026-08-20T21:42:16+00:00",
-      "summary": "When we build agents, we often want to give them the ability to browse the web: open webpages, navigate from one page to the other, and read the content of a webpage. By combining Pydantic AI with the Playwright capability from Pydantic AI Harness, we can build agents that browse the web safely and...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Pamela_Fox"
-    },
-    {
-      "title": "Give your Copilot agents real tools, without hand-wiring MCP",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/give-your-copilot-agents-real-tools-without-hand-wiring-mcp/ba-p/4548254",
-      "published": "2026-08-20T18:08:19+00:00",
-      "summary": "You’re running agents in the GitHub Copilot app - maybe three at once, each on its own branch, each working a task while you steer. It’s a good way to work, right up until an agent needs to reach outside your repo. It needs to read a SharePoint library, file a Salesforce record, or check an Outlook...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
     }
   ]
 }
