@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-09-20T15:27:35.985622+00:00",
-  "totalArticles": 157,
+  "lastUpdated": "2026-09-21T17:52:49.450931+00:00",
+  "totalArticles": 158,
   "articles": [
+    {
+      "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
+      "link": "https://devblogs.microsoft.com/cosmosdb/spec-driven-development-comes-to-azure-cosmos-db-the-first-database-extension-for-github-spec-kit/",
+      "published": "2026-09-21T07:00:11+00:00",
+      "summary": "AI coding agents can write much of an application’s code, but developers still need to review the decisions behind it. For a Cosmos DB application, that includes choosing partition keys, modeling access patterns, and configuring the client. Those decisions affect cost, performance, and reliability...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay"
+    },
+    {
+      "title": "You Get One Exchange Left: Rethinking Azure Commitments Before February 2027",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/you-get-one-exchange-left-rethinking-azure-commitments-before/ba-p/4552401",
+      "published": "2026-09-21T00:03:58+00:00",
+      "summary": "Azure gives you two main ways to pay less by committing up front. A reservation gets you the deepest discount, but you are locking in a specific SKU in a specific region. A savings plan gives up some of that discount in exchange for freedom: you are only committing to spend a certain amount per...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Madhura Amlekar"
+    },
+    {
+      "title": "A2A Endpoints and A2A Tool in Microsoft Foundry agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a2a-endpoints-and-a2a-tool-in-microsoft-foundry-agents/ba-p/4557115",
+      "published": "2026-09-18T19:00:00+00:00",
+      "summary": "Agent-to-agent collaboration just became much easier to build in Microsoft Foundry. The A2A Tool and incoming A2A endpoints support A2A protocol version 1.0, which is generally available. The earlier a2a_preview tool type and protocol version 0.3 remain available in preview for existing...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Christian_Coello"
+    },
     {
       "title": "FinOps-Ready Azure Landing Zone - Part 2",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/finops-ready-azure-landing-zone-part-2/ba-p/4555727",
@@ -1155,15 +1182,6 @@
       "author": "RashaudSavage"
     },
     {
-      "title": "Cohere Parse v5 is now available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/cohere-parse-v5-is-now-available-in-microsoft-foundry/ba-p/4550954",
-      "published": "2026-08-27T19:02:39+00:00",
-      "summary": "Cohere Parse, a vision language model built for converting enterprise documents into structured, machine-readable data, is now available in the Microsoft Foundry model . Parse joins Cohere's Embed and Rerank models in Foundry. What Parse does Cohere Parse takes complex, multimodal files and returns...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Sharmichock"
-    },
-    {
       "title": "Azure Developer CLI (azd) – August 2026",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-august-2026/",
       "published": "2026-08-27T17:39:02+00:00",
@@ -1405,15 +1423,6 @@
       "blog": "Azure Virtual Desktop",
       "blogId": "azurevirtualdesktopblog",
       "author": "TomHickling"
-    },
-    {
-      "title": "Today I will… Modernize a .NET application",
-      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-modernize-a-net-application/",
-      "published": "2026-08-21T17:00:45+00:00",
-      "summary": "Today I will modernize a .NET Framework application to .NET 10 using the GitHub Copilot modernization tooling built-in to Visual Studio. The tooling helps us upgrade applications running on legacy versions of .NET and also migrate them to Azure. Today we’re going to focus on the upgrade portion....",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Matt Soucoup, Pablo Lopes"
     }
   ]
 }
