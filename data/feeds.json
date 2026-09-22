@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-09-21T17:52:49.450931+00:00",
-  "totalArticles": 158,
+  "lastUpdated": "2026-09-22T16:17:25.539350+00:00",
+  "totalArticles": 164,
   "articles": [
+    {
+      "title": "Using Azure Blob Storage as a durable filesystem for LangChain Deep Agents",
+      "link": "https://devblogs.microsoft.com/azure-sdk/using-azure-blob-storage-as-a-durable-filesystem-for-langchain-deep-agents-2/",
+      "published": "2026-09-22T15:00:44+00:00",
+      "summary": "LangChain Deep Agents is an open-source agent harness with built-in capabilities for building LLM-powered agents and applications, including complex, multi-step workflows. A model can reason and generate responses, but it needs a harness to do useful work over time. The harness provides the tools...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Vishnu Charan TJ"
+    },
+    {
+      "title": "PostgreSQL to SQL Field Notes: Date & Time",
+      "link": "https://devblogs.microsoft.com/azure-sql/pg-to-sql-date-time/",
+      "published": "2026-09-21T22:44:58+00:00",
+      "summary": "Moving from PostgreSQL to SQL Server? Learn the key differences between timestamp, timestamptz, datetime2, and datetimeoffset, including precision, time zones, offsets, and storage. The post PostgreSQL to SQL Field Notes: Date & Time appeared first on Azure SQL Dev Corner.",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon"
+    },
+    {
+      "title": "Virtual nodes on Azure Container Instances: a new compute layer for AKS",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/virtual-nodes-on-azure-container-instances-a-new-compute-layer/ba-p/4558080",
+      "published": "2026-09-21T16:44:41+00:00",
+      "summary": "Meet virtual nodes on ACI Azure Kubernetes Service (AKS) gives you managed Kubernetes: the full Kubernetes API without operating the control plane yourself. Virtual nodes on Azure Container Instances go a step further, letting your pods run directly on Azure's serverless container platform, with...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "hailukassa"
+    },
+    {
+      "title": "What the Azure API Management integration means for Azure Service Bus",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/what-the-azure-api-management-integration-means-for-azure/ba-p/4558087",
+      "published": "2026-09-21T16:00:00+00:00",
+      "summary": "Azure API Management now provides a generally available policy for sending messages to Azure Service Bus. Using the send-service-bus-message policy, an API request can send a message directly to a Service Bus queue or topic. This allows you to put a governed HTTP API in front of an asynchronous...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer"
+    },
+    {
+      "title": "Elasticsearch Vector Database on Azure: semantic search and RAG without managing a cluster",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/elasticsearch-vector-database-on-azure-semantic-search-and-rag/ba-p/4558647",
+      "published": "2026-09-21T13:34:07+00:00",
+      "summary": "With Elasticsearch Vector Database, Elastic's new serverless offering for vector workloads, Azure customers can build semantic search, retrieval-augmented generation (RAG), and agent-powered experiences. Azure Native Integrations make it easy to discover, deploy, and manage the resource through the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "piyush05"
+    },
     {
       "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
       "link": "https://devblogs.microsoft.com/cosmosdb/spec-driven-development-comes-to-azure-cosmos-db-the-first-database-extension-for-github-spec-kit/",
@@ -10,6 +55,15 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Theo van Kraay"
+    },
+    {
+      "title": "Beyond Cherry-Picking: Evaluating Text-to-Image Models",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-cherry-picking-evaluating-text-to-image-models/ba-p/4558111",
+      "published": "2026-09-21T07:00:00+00:00",
+      "summary": "In the rapidly evolving landscape of generative AI, large language model (LLM) evaluations have matured into standardized benchmark suites, Elo leaderboards, and automated judge pipelines. However, in the realm of Text-to-Image (T2I) synthesis, technical teams frequently slip back into what can...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
     },
     {
       "title": "You Get One Exchange Left: Rethinking Azure Commitments Before February 2027",
