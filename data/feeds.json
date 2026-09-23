@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-09-22T16:17:25.539350+00:00",
-  "totalArticles": 164,
+  "lastUpdated": "2026-09-23T16:06:56.757998+00:00",
+  "totalArticles": 174,
   "articles": [
+    {
+      "title": "Microsoft Foundry Hosted Agents and MCP in Practice: Building Fibey Field Ops",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-foundry-hosted-agents-and-mcp-in-practice-building/ba-p/4557526",
+      "published": "2026-09-23T07:00:00+00:00",
+      "summary": "An agent can produce a convincing answer while the system around it is still difficult to deploy, authorize, debug, and recover. For AI engineers and developers, that is often the real gap between a promising prototype and an application people can depend on. Fibey Field Ops makes that gap...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Azure Local Storage: Choose the Architecture That Fits Your Business",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-local-storage-choose-the-architecture-that-fits-your/ba-p/4559079",
+      "published": "2026-09-22T22:56:55+00:00",
+      "summary": "Organizations modernize infrastructure in different ways. Some prioritize a simple, integrated platform; others need to preserve SAN investments, scale storage independently, or support workloads with different storage requirements. In this post, we'll explore the storage options available in Azure...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "saniya0307"
+    },
+    {
+      "title": "Meet the IQ's: How Microsoft is Creating Context-Aware AI",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/meet-the-iq-s-how-microsoft-is-creating-context-aware-ai/ba-p/4537516",
+      "published": "2026-09-22T20:59:54+00:00",
+      "summary": "Microsoft Architect's: Allison Rose allisonrose​, Lavanya Sreedhar LavanyaSreedhar​, Tom Dinh Tom-Dinh​, Oviya Soundararajan oviyasound​ and Rafia Aqil Rafia_Aqil​ The AI era demands more than powerful language models. It demands context a deep understanding of what enterprise data means, how it...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Run and scale AI applications on AKS – the latest product innovations",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/run-and-scale-ai-applications-on-aks-the-latest-product/ba-p/4559103",
+      "published": "2026-09-22T20:17:22+00:00",
+      "summary": "AI changed what teams ask of Kubernetes. Workloads today are more than a stateless web tier, they are an inference service with an expensive GPU behind it, an agent that behaves unpredictably, and a data path that shifts from dataset throughput to checkpoint durability to serving latency as the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Nate_Waters"
+    },
+    {
+      "title": "Delete Your Polling Loop: Change-driven programming in Node.js with @drasi/lib",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/delete-your-polling-loop-change-driven-programming-in-node-js/ba-p/4559093",
+      "published": "2026-09-22T20:06:20+00:00",
+      "summary": "In architectural discussions surrounding modern data systems, we previously examined how pivoting from an event-driven to a change-driven paradigm introduces a highly efficient, low-cost model for dependency inversion. Rather than requiring downstream systems to reconstruct context from a deluge of...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "CollinBrian"
+    },
+    {
+      "title": "Connect Azure Functions to more services with managed connectors",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/connect-azure-functions-to-more-services-with-managed-connectors/ba-p/4558711",
+      "published": "2026-09-22T19:51:43+00:00",
+      "summary": "Azure Functions can already connect to many Azure services through triggers and bindings. With managed connectors, your functions can access about 1,700 connectors across services such as Microsoft 365, Microsoft Teams, Dataverse, SharePoint, OneDrive, and third-party systems. Connector triggers...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "lily-ma"
+    },
+    {
+      "title": "Change Analysis in Azure Resource Graph: Your first stop for “What changed?”",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/change-analysis-in-azure-resource-graph-your-first-stop-for-what/ba-p/4559038",
+      "published": "2026-09-22T17:57:34+00:00",
+      "summary": "Introduction One of the most common questions during Azure networking troubleshooting is: “Did anything change before the issue started?” Whether we are investigating VPN/, connectivity problems, Azure Firewall behavior changes, VM outages, routing issues, or application failures, identifying...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "shyambasnet"
+    },
+    {
+      "title": "Today I will… debug a production crash",
+      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-debug-a-production-crash/",
+      "published": "2026-09-22T17:05:25+00:00",
+      "summary": "We’ve all experienced this, the desktop application is hanging, the window is greyed out, and we’re just waiting for it to start to respond. Or we’re on a website and are sure that it was going to load faster than this, but we’re just waiting the loading icon spin around and around. These sorts of...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Aaron Powell"
+    },
+    {
+      "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running/ba-p/4558051",
+      "published": "2026-09-22T16:47:05+00:00",
+      "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process. As that work gets longer, raw intelligence is only...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal"
+    },
     {
       "title": "Using Azure Blob Storage as a durable filesystem for LangChain Deep Agents",
       "link": "https://devblogs.microsoft.com/azure-sdk/using-azure-blob-storage-as-a-durable-filesystem-for-langchain-deep-agents-2/",
@@ -12,6 +93,33 @@
       "author": "Vishnu Charan TJ"
     },
     {
+      "title": "Expanding access to specialized GPU infrastructure through Dapple and Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/expanding-access-to-specialized-gpu-infrastructure-through/ba-p/4558663",
+      "published": "2026-09-22T14:53:54+00:00",
+      "summary": "Enterprise AI has entered a new phase. For much of the past decade, the challenge was building enough compute for machine learning. Today, organizations need platforms for foundation model training, fine-tuning, large-scale inference, agentic systems, and enterprise AI. As these workloads grow in...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Trinidad_Salazar"
+    },
+    {
+      "title": "When the Coding Agent Leaves the Codebase: Building a Multi-Runtime AI Agent Infra with Azure KARS",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-the-coding-agent-leaves-the-codebase-building-a-multi/ba-p/4558449",
+      "published": "2026-09-22T07:00:00+00:00",
+      "summary": "1. The story starts with someone who doesn't write code Let me start with a scene I keep running into at community events. Late last year, after a meetup, I got an email. The sender wasn't a developer — he was a marketing manager at a manufacturing customer. He wrote: \"I installed Claude Code from...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
+    {
+      "title": "Announcing the public preview of flex nodes for AKS",
+      "link": "https://blog.aks.azure.com/2026/09/22/flex-nodes-for-aks",
+      "published": "2026-09-22T00:00:00+00:00",
+      "summary": "Extend one AKS control plane to run worker nodes securely across Azure regions, edge locations, and on-premises hardware with flex nodes for AKS (preview).",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
       "title": "PostgreSQL to SQL Field Notes: Date & Time",
       "link": "https://devblogs.microsoft.com/azure-sql/pg-to-sql-date-time/",
       "published": "2026-09-21T22:44:58+00:00",
@@ -19,6 +127,24 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon"
+    },
+    {
+      "title": "The Complete Guide to Azure Databricks Cost Optimization",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/the-complete-guide-to-azure-databricks-cost-optimization/ba-p/4550132",
+      "published": "2026-09-21T22:03:58+00:00",
+      "summary": "Co-Authored by: Aladdin Alchalabi AladdinAlchalabi​, Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Enable Dynamic Workflows in Azure Functions hosted skills",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-dynamic-workflows-in-azure-functions-hosted-skills/ba-p/4551993",
+      "published": "2026-09-21T21:29:25+00:00",
+      "summary": "Azure Functions already gives you a familiar way to build event-driven apps. A queue message, HTTP request, timer, or event triggers the code that handles the work. Azure Functions hosted skills (formerly Serverless Agents) add AI reasoning to that model. A hosted skill can read a request, use the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "greenie-msft"
     },
     {
       "title": "Virtual nodes on Azure Container Instances: a new compute layer for AKS",
@@ -39,6 +165,15 @@
       "author": "EldertGrootenboer"
     },
     {
+      "title": "Demystifying Dynamic AI Routing: Exploring the model router in Foundry Models with RouteLab",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/demystifying-dynamic-ai-routing-exploring-the-model-router-in/ba-p/4557388",
+      "published": "2026-09-21T15:00:00+00:00",
+      "summary": "As enterprise generative AI applications mature, engineering teams face a continuous balancing act between cost, latency, and response quality. Hard-coding a frontier model for every request ensures high quality but maximizes token costs and latency. Conversely, defaulting to smaller, faster models...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "vikaspandey"
+    },
+    {
       "title": "Elasticsearch Vector Database on Azure: semantic search and RAG without managing a cluster",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/elasticsearch-vector-database-on-azure-semantic-search-and-rag/ba-p/4558647",
       "published": "2026-09-21T13:34:07+00:00",
@@ -46,6 +181,15 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "piyush05"
+    },
+    {
+      "title": "Knowledge cutoff is a poor proxy for model capability",
+      "link": "https://devblogs.microsoft.com/blog/knowledge-cutoff-is-a-poor-proxy-for-model-capability/",
+      "published": "2026-09-21T07:51:46+00:00",
+      "summary": "A model can fail on features released before its knowledge cutoff, then succeed on ones released after it. We tested hundreds of product changes and found that the date tells you far less than the work does.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
@@ -181,15 +325,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "Sayanika"
-    },
-    {
-      "title": "Enable Dynamic Workflows in Azure Functions hosted skills",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-dynamic-workflows-in-azure-functions-hosted-skills/ba-p/4551993",
-      "published": "2026-09-17T12:00:00+00:00",
-      "summary": "Azure Functions already gives you a familiar way to build event-driven apps. A queue message, HTTP request, timer, or event triggers the code that handles the work. Azure Functions hosted skills (formerly Serverless Agents) add AI reasoning to that model. A hosted skill can read a request, use the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "greenie-msft"
     },
     {
       "title": "Automating Azure Managed Redis capacity acquisition with bounded retries",
@@ -1092,15 +1227,6 @@
       "author": "Soo Stahl"
     },
     {
-      "title": "Model Migration Process on Microsoft Foundry and Azure OpenAI",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-migration-process-on-microsoft-foundry-and-azure-openai/ba-p/4541236",
-      "published": "2026-08-31T20:00:00+00:00",
-      "summary": "Every app built on an LLM will eventually move to a new model. The model you shipped may be retired, or a newer model may offer better quality, cost, or performance. Changing a model name in code from a retiring model such as gpt-4o to a newer one such as gpt-5.1 may take one line. That line hides...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "meera-kurup"
-    },
-    {
       "title": "Build governed asynchronous APIs with Azure API Management and Azure Service Bus",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/build-governed-asynchronous-apis-with-azure-api-management-and/ba-p/4544780",
       "published": "2026-08-31T18:38:04+00:00",
@@ -1225,15 +1351,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "Sreekanth_Thirthala"
-    },
-    {
-      "title": "Introducing Cohere Parse V5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-cohere-parse-v5/ba-p/4550955",
-      "published": "2026-08-27T19:09:35+00:00",
-      "summary": "Cohere Parse, a vision language model built for converting enterprise documents into structured, machine-readable data, is now available in the Microsoft Foundry. Parse joins Cohere's Embed and Rerank models in Foundry. What Parse does Cohere Parse takes complex, multimodal files and returns clean...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "RashaudSavage"
     },
     {
       "title": "Azure Developer CLI (azd) – August 2026",
@@ -1371,15 +1488,6 @@
       "author": "Ahmed_Khaled"
     },
     {
-      "title": "The Complete Guide to Azure Databricks Cost Optimization",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/the-complete-guide-to-azure-databricks-cost-optimization/ba-p/4550132",
-      "published": "2026-08-25T16:25:03+00:00",
-      "summary": "Co-Authored by: Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next Steps. Phase 1: Discovery Assessing...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
       "title": "Azure Copilot Introduces Direct Access to Agents",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-copilot-introduces-direct-access-to-agents/ba-p/4547932",
       "published": "2026-08-25T16:20:21+00:00",
@@ -1459,24 +1567,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "edgarus71"
-    },
-    {
-      "title": "Powering Memory in Foundry Agent Service, with Azure Cosmos DB",
-      "link": "https://devblogs.microsoft.com/cosmosdb/powering-memory-in-foundry-agent-service-with-azure-cosmos-db/",
-      "published": "2026-08-24T16:04:43+00:00",
-      "summary": "Move from a locally composed memory-enabled agent to a deployed Foundry Agent Service agent, with keyless Azure infrastructure and an interactive browser sample. In Native Agent Memory for Microsoft Agent Framework, Powered by Azure Cosmos DB, we introduced CosmosMemoryContextProvider: a Microsoft...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay"
-    },
-    {
-      "title": "Now in public preview: Azure Virtual Desktop regional host pools",
-      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-in-public-preview-azure-virtual-desktop-regional-host-pools/ba-p/4474598",
-      "published": "2026-08-24T15:19:27+00:00",
-      "summary": "Editor's Note: August 2026 | This post has been updated to reflect changes since its original publication in January 2026. Opting in to the preview through a feature flag is no longer required, and the Azure portal is now supported for creating regional host pools. Session host update, dynamic...",
-      "blog": "Azure Virtual Desktop",
-      "blogId": "azurevirtualdesktopblog",
-      "author": "TomHickling"
     }
   ]
 }
