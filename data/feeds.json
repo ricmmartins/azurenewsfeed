@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-09-23T16:06:56.757998+00:00",
-  "totalArticles": 174,
+  "lastUpdated": "2026-09-24T16:32:23.966240+00:00",
+  "totalArticles": 172,
   "articles": [
+    {
+      "title": "Migrate Data Ingestion from Data Collector to Log Ingestion - Part 2",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-data-ingestion-from-data-collector-to-log-ingestion-part/ba-p/4559649",
+      "published": "2026-09-24T15:05:05+00:00",
+      "summary": "In Part1, we discussed how to use HTTP action to migrate from the deprecated Data Collector API to Log Ingestion API. However, since the deprecated Data Collector API was allowing message payload up to 30MB, some migration scenarios encountered issues; since the new Log Ingestion API has only 1MB...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "mshboul"
+    },
+    {
+      "title": "From Chatbots to Automated Assistants: Routines in Microsoft Foundry Are Now Generally Available",
+      "link": "https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available/",
+      "published": "2026-09-24T15:00:57+00:00",
+      "summary": "Agents are rapidly evolving beyond chat. The first generation of agents waited for a person to send a message. Today, organizations want agents that can monitor work, respond to business events, and continue tasks over time. An agent might triage a newly opened GitHub issue, respond when a message...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Linda Li"
+    },
+    {
+      "title": "Engineering Agentic Recall Controls with MCP and Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/engineering-agentic-recall-controls-with-mcp-and-microsoft/ba-p/4557549",
+      "published": "2026-09-24T07:00:00+00:00",
+      "summary": "AI agents become operationally interesting when they can reach real systems. They also become operationally dangerous at exactly the same moment. Caldova Recall Control Tower is a developer demonstration built around that tension. It uses a fictional pharmaceutical recall to show how an agent can...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "Lee_Stott"
+    },
+    {
+      "title": "Documentation Is the New Source Code",
+      "link": "https://devblogs.microsoft.com/ise/documentation-is-the-new-source-code/",
+      "published": "2026-09-24T07:00:00+00:00",
+      "summary": "A field guide to building a layered, AI-readable documentation system — instruction files, skills, ADRs, and tests — that turns your repo into a reliable substrate for Copilot, agents, and high-velocity engineering workflows. The post Documentation Is the New Source Code appeared first on ISE...",
+      "blog": "ISE Developer Blog",
+      "blogId": "iseblog",
+      "author": "Liza Shakury"
+    },
+    {
+      "title": "How to Validate That Your BizTalk SB-Messaging Adapter Is Really Using AMQP",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/how-to-validate-that-your-biztalk-sb-messaging-adapter-is-really/ba-p/4559391",
+      "published": "2026-09-24T04:15:15+00:00",
+      "summary": "On September 30, 2026, Azure Service Bus stops accepting the Service Bus Messaging Protocol (SBMP) — the protocol the BizTalk SB-Messaging adapter has always used. The failure mode is not a warning in a log file; it is a refused connection. To keep those integrations running, a BizTalk Server 2020...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "hcamposu"
+    },
+    {
+      "title": "How do you know what to optimize next in your AI agent? Ask The Experts!",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/how-do-you-know-what-to-optimize-next-in-your-ai-agent-ask-the/ba-p/4559401",
+      "published": "2026-09-24T03:41:03+00:00",
+      "summary": "Join us live to get a demo of the capabilities then engage with the experts in a Q&A. Bring your questions – post them in Discord ahead of time or ask them during the session. Save the date: 1:30-2:00pm ET, Sep 25, 2026 Join the Discord: https://aka.ms/model-mondays/discord Join the AMA live:...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "nitya"
+    },
+    {
+      "title": "Azure Container Apps Sandboxes, Now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-now-generally-available/ba-p/4559125",
+      "published": "2026-09-23T23:33:57+00:00",
+      "summary": "Agents Act. You Set the Limits. Your platform needs to run untrusted code. Agents choose actions at runtime, from installing packages to calling APIs. In a multi-tenant service, you have to support both without letting one customer's code reach another customer's data. That requires an execution...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Jan-Kalis"
+    },
+    {
+      "title": "DeepSeek-V4.1-Flash is coming to Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deepseek-v4-1-flash-is-coming-to-microsoft-foundry/ba-p/4556431",
+      "published": "2026-09-23T21:44:16+00:00",
+      "summary": "Agentic applications increasingly need to process entire code repositories, large document collections, images, tool results, and long-running conversation histories. As that context grows, the key-value, or KV, cache maintained during inference can become a major constraint on cost, memory, and...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "RashaudSavage"
+    },
+    {
+      "title": "Catalyst: Frontier stories of AI Infrastructure innovation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/catalyst-frontier-stories-of-ai-infrastructure-innovation/ba-p/4559362",
+      "published": "2026-09-23T17:05:19+00:00",
+      "summary": "In the Catalyst series, we explore the transformative power of AI by showcasing visionary companies driving scientific and industry breakthroughs powered by Azure and NVIDIA. This video series spotlights how innovation ignites action and how today’s visionaries are shaping tomorrow with the power...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "abbyhamilton"
+    },
+    {
+      "title": "Azure Container Apps Express is now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-express-is-now-generally-available/ba-p/4559101",
+      "published": "2026-09-23T15:33:53+00:00",
+      "summary": "For many web apps and APIs, a container image should be enough to get started. Developers should not have to choose and configure an environment before the first deployment. Today, Azure Container Apps Express reaches general availability. It is the fastest way to go from a container image to a...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "simonjj"
+    },
     {
       "title": "Microsoft Foundry Hosted Agents and MCP in Practice: Building Fibey Field Ops",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/microsoft-foundry-hosted-agents-and-mcp-in-practice-building/ba-p/4557526",
@@ -1083,15 +1173,6 @@
       "author": "reshmarahim"
     },
     {
-      "title": "Microsoft Azure Virtual Desktop Hybrid is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/microsoft-azure-virtual-desktop-hybrid-is-now-generally/ba-p/4550523",
-      "published": "2026-09-02T18:14:16+00:00",
-      "summary": "Extend Azure Virtual Desktop to your on-premises environment. Run desktops where you need them. Manage on-premises session hosts from Azure. Many organizations want to modernize their virtual desktop infrastructure but face practical constraints that make a full cloud migration difficult in the...",
-      "blog": "Azure Virtual Desktop",
-      "blogId": "azurevirtualdesktopblog",
-      "author": "Steve_Downs"
-    },
-    {
       "title": "Azure Firewall explicit proxy is now generally available",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-firewall-explicit-proxy-is-now-generally-available/ba-p/4552450",
       "published": "2026-09-02T15:40:04+00:00",
@@ -1207,15 +1288,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "edgarus71"
-    },
-    {
-      "title": "Six Lessons for Reliable Agent Optimizer Gains on Harder Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/six-lessons-for-reliable-agent-optimizer-gains-on-harder-agents/ba-p/4551357",
-      "published": "2026-09-01T14:00:00+00:00",
-      "summary": "Authors: Abi Komma, Charles Kim, Luffy Chen, Vivek Bhadauria, Morteza Ziyadi, Victor Dibia, Ilya Matiach What happens when you push agent optimizer to its limits - larger datasets, tool-calling agents, and hybrid evaluators? We found that the optimizer is as good as what surrounds it. Here's what...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "abikomma"
     },
     {
       "title": "Enterprise Live Migrations is now in public preview",
@@ -1371,15 +1443,6 @@
       "author": "James Rempt"
     },
     {
-      "title": "Manage and retrieve credentials securely inside Browser Automation Tool (BAT) using Azure Key Vault",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/manage-and-retrieve-credentials-securely-inside-browser/ba-p/4550858",
-      "published": "2026-08-27T11:27:16+00:00",
-      "summary": "When do AI agents need a browser Enterprise AI agents are becoming increasingly capable of reasoning over data, calling APIs, and orchestrating workflows. Yet many business-critical systems still expose functionality only through a web interface. ERP systems, supplier portals, internal...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "AbhinavPremsekhar"
-    },
-    {
       "title": "Azure DevOps in the GitHub Copilot App",
       "link": "https://devblogs.microsoft.com/devops/azure-devops-in-the-github-copilot-app/",
       "published": "2026-08-27T11:24:17+00:00",
@@ -1486,87 +1549,6 @@
       "blog": "Azure PaaS",
       "blogId": "azurepaasblog",
       "author": "Ahmed_Khaled"
-    },
-    {
-      "title": "Azure Copilot Introduces Direct Access to Agents",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-copilot-introduces-direct-access-to-agents/ba-p/4547932",
-      "published": "2026-08-25T16:20:21+00:00",
-      "summary": "Whether you are troubleshooting an application issue at 2 a.m., validating a deployment plan before a release, optimizing cloud resources, or improving workload resiliency, the challenge is finding the right expertise quickly enough to act with confidence. That’s why we are evolving the Azure...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "artigulwadi"
-    },
-    {
-      "title": "Start here: Azure SQL Foundations series",
-      "link": "https://devblogs.microsoft.com/blog/start-here-azure-sql-foundations-series/",
-      "published": "2026-08-25T16:00:18+00:00",
-      "summary": "Most developers I talk to aren’t asking whether Azure SQL Database can handle their next app. They’re asking where to start when it comes to modernization, migration, and AI in the database. If you’re reading this, you’re probably in a similar boat: you’ve got an existing schema or databases, a...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Anna Hoffman"
-    },
-    {
-      "title": "Visual Studio August Update – Work Smarter Across Models and Branches",
-      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-august-update-work-smarter-across-models-and-branches/",
-      "published": "2026-08-25T16:00:00+00:00",
-      "summary": "Tune Copilot model thinking effort, share custom agents across your organization, track usage, and simplify complex Git workflows with worktrees and submodule support. The post Visual Studio August Update – Work Smarter Across Models and Branches appeared first on Visual Studio Blog.",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mark Downie"
-    },
-    {
-      "title": "Azure SRE Agent: Introducing Live Reports",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-introducing-live-reports/ba-p/4549732",
-      "published": "2026-08-25T15:00:00+00:00",
-      "summary": "Today we're introducing Live Reports in Azure SRE Agent, now in public preview. You describe a dashboard in chat; the agent builds it, and it refreshes every time you open it. Ops teams ask the same handful of questions every morning: What's burning right now? What landed overnight? Who's on call?...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "yashnisar"
-    },
-    {
-      "title": "Azure SRE Agent VNet integration is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-vnet-integration-is-now-generally-available/ba-p/4549774",
-      "published": "2026-08-25T15:00:00+00:00",
-      "summary": "VNet integration for Azure SRE Agent is now generally available. You can route outbound agent traffic through your virtual network to access resources behind private endpoints, including databases, Azure Container Apps, Azure Kubernetes Service (AKS) API servers, and more. Traffic routed through...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Cary_Chai"
-    },
-    {
-      "title": "Try Azure SRE Agent with no always-on charges",
-      "link": "https://devblogs.microsoft.com/blog/try-azure-sre-agent-with-no-always-on-charges/",
-      "published": "2026-08-25T15:00:00+00:00",
-      "summary": "We are happy to announce a 30-day trial experience for Azure SRE Agent. New customers can create and configure the SRE Agent at their own pace, with no charges for setup time or keeping agents ready. During the trial, you can connect your agents to telemetry, source code, incident management...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Nir Mashkowski"
-    },
-    {
-      "title": "PowerToys 0.101 is here: Window Hopper, Insider updates, and Command Palette compact mode",
-      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-101-is-here-window-hopper-insider-updates-and-command-palette-compact-mode/",
-      "published": "2026-08-25T13:24:02+00:00",
-      "summary": "We’re back with a fresh PowerToys release! PowerToys 0.101 introduces Window Hopper for quickly moving between windows from the same app, a redesigned update experience with Stable and Insider channels, and compact mode for Command Palette. This release also continues our WinUI 3 modernization,...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Niels Laute"
-    },
-    {
-      "title": "Unlocking the Power of AI for Every Developer in Visual Studio with Bring your Own Model",
-      "link": "https://devblogs.microsoft.com/visualstudio/unlocking-the-power-of-ai-for-every-developer-in-visual-studio-with-bring-your-own-model/",
-      "published": "2026-08-24T22:39:41+00:00",
-      "summary": "The best AI in Visual Studio is the AI you can bring with you. Developers don’t work in a single-model world anymore. You might reach for one model for everyday coding, another for a domain-specific problem, and an approved model for work that must stay within your organization’s governance...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Tanmayee Kamath"
-    },
-    {
-      "title": "Unified AI Defense: Security Copilot, Project Perception, and MDASH",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/unified-ai-defense-security-copilot-project-perception-and-mdash/ba-p/4547124",
-      "published": "2026-08-24T17:04:23+00:00",
-      "summary": "Executive Summary This triumvirate of tools present a cohesive and unified platform that tells a compelling story: Microsoft Security Copilot as the assistive AI experience and extensible agent platform for security and IT work; Project Perception as the coordinated multi-agent defense system that...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "edgarus71"
     }
   ]
 }
