@@ -1,7 +1,88 @@
 {
-  "lastUpdated": "2026-09-24T16:32:23.966240+00:00",
-  "totalArticles": 172,
+  "lastUpdated": "2026-09-25T16:33:33.017937+00:00",
+  "totalArticles": 171,
   "articles": [
+    {
+      "title": "Troubleshooting Azure Storage Deletion: Immutability, WORM, and Version Retention",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/troubleshooting-azure-storage-deletion-immutability-worm-and/ba-p/4559051",
+      "published": "2026-09-25T04:15:53+00:00",
+      "summary": "One of the most common questions Azure Storage administrators ask after enabling immutable storage is: \"Why can't I delete my storage account anymore?\" Azure Immutable Storage is designed to provide WORM (Write Once, Read Many) protection, ensuring that data cannot be modified or deleted during a...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "carlosbermudezlopez"
+    },
+    {
+      "title": "Connect Azure Functions to more services with managed connectors",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/connect-azure-functions-to-more-services-with-managed-connectors/ba-p/4558711",
+      "published": "2026-09-24T20:40:53+00:00",
+      "summary": "Azure Functions can already connect to many Azure services through triggers and bindings. With managed connectors, your functions can access about 1,700 connectors across services such as Microsoft 365, Microsoft Teams, Dataverse, SharePoint, OneDrive, and third-party systems. Connector triggers...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "lily-ma"
+    },
+    {
+      "title": "Getting the best out of Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/getting-the-best-out-of-azure-sre-agent/ba-p/4559745",
+      "published": "2026-09-24T20:24:01+00:00",
+      "summary": "A common question that we get from our customers is \"Hey guys, we are excited about SRE agent and we 've created one but whats the best way to configure it?\". The below guide aims at sharing some of the best practices that anyone can follow to make the most out of our SRE Agent. This guide is based...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "puneetguptams"
+    },
+    {
+      "title": "Introducing bicep docs: generate documentation from your Bicep modules",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/introducing-bicep-docs-generate-documentation-from-your-bicep/ba-p/4559737",
+      "published": "2026-09-24T19:55:33+00:00",
+      "summary": "TL;DR: The Bicep CLI has a new experimental command, bicep docs generate. Point it at a Bicep module and it writes a README.md next to it that describes the module's resources, parameters, types, outputs and usage examples, all read straight from your code. You can change the layout with your own...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "jaredfholgate"
+    },
+    {
+      "title": "IBC Reflections and Where Media is Headed",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/ibc-reflections-and-where-media-is-headed/ba-p/4559411",
+      "published": "2026-09-24T19:00:00+00:00",
+      "summary": "Over the last several years, it has been easy to focus on the magical experiences produced with AI-generated content. The media industry has responded with growing short-form video, IP licensing for quality AI generated content, and various other approaches, but the core end-to-end workflows and...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "kshatzkamer"
+    },
+    {
+      "title": "Introducing voice agents in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-voice-agents-in-microsoft-foundry/ba-p/4557276",
+      "published": "2026-09-24T18:49:44+00:00",
+      "summary": "Voice is quickly becoming a major way people interact with AI agents. Recent research found that 14% of users already prefer speaking with generative AI rather than typing1, signaling that voice interactions are moving beyond early-adopter use cases and toward the mainstream. As adoption grows,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Yiwen_Rong"
+    },
+    {
+      "title": "Control where your hosted agent connects with network egress in Foundry Agent Service",
+      "link": "https://devblogs.microsoft.com/foundry/egress-controls-hosted-agent/",
+      "published": "2026-09-24T17:55:06+00:00",
+      "summary": "Define and attach an outbound policy to a hosted agent in Microsoft Foundry, observe calls in Audit, and verify allowed and denied destinations under Enforced mode. The post Control where your hosted agent connects with network egress in Foundry Agent Service appeared first on Microsoft Foundry...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Muzz Imam"
+    },
+    {
+      "title": "Insights in Foundry Turns Agent Traces into Action",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/insights-in-foundry-turns-agent-traces-into-action/ba-p/4559634",
+      "published": "2026-09-24T17:30:00+00:00",
+      "summary": "If you’ve shipped an agent to production, you’ve probably watched it repeat a mistake that no dashboard flagged and no evaluation caught. A single agent can generate thousands of traces, and predefined evaluations can only detect the problems a team already knew to look for. That leaves developers...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "katelynrothney"
+    },
+    {
+      "title": "Oracle AI Database@Azure Expands with Azure Native Oracle GoldenGate User Experience, Observability",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/oracle-ai-database-azure-expands-with-azure-native-oracle/ba-p/4559430",
+      "published": "2026-09-24T17:29:07+00:00",
+      "summary": "Customers running mission-critical Oracle workloads on Azure want more than database infrastructure in an Azure datacenter. They want their Oracle environments to fit naturally into the way their teams already build, govern, monitor, and purchase services on Azure. Today, Oracle AI Database@Azure...",
+      "blog": "Oracle on Azure",
+      "blogId": "oracleonazureblog",
+      "author": "RajyaLaxmiYellajosyula"
+    },
     {
       "title": "Migrate Data Ingestion from Data Collector to Log Ingestion - Part 2",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-data-ingestion-from-data-collector-to-log-ingestion-part/ba-p/4559649",
@@ -12,13 +93,22 @@
       "author": "mshboul"
     },
     {
-      "title": "From Chatbots to Automated Assistants: Routines in Microsoft Foundry Are Now Generally Available",
+      "title": "From Chatbots to Automated Agents: Routines in Microsoft Foundry Are Now Generally Available",
       "link": "https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available/",
       "published": "2026-09-24T15:00:57+00:00",
       "summary": "Agents are rapidly evolving beyond chat. The first generation of agents waited for a person to send a message. Today, organizations want agents that can monitor work, respond to business events, and continue tasks over time. An agent might triage a newly opened GitHub issue, respond when a message...",
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Linda Li"
+    },
+    {
+      "title": "Announcing the Playwright Workspaces Remote MCP Server for Agentic Browser Automation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/announcing-the-playwright-workspaces-remote-mcp-server-for/ba-p/4555698",
+      "published": "2026-09-24T14:41:55+00:00",
+      "summary": "An agent can analyze a request, choose the right next step, and call every available API—then stall when the final action exists only in a web interface. AI agents are increasingly capable of reasoning, planning, and working with APIs. But many real business processes still depend on websites:...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "NandiniMuralidharan"
     },
     {
       "title": "Engineering Agentic Recall Controls with MCP and Microsoft Foundry",
@@ -136,15 +226,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "CollinBrian"
-    },
-    {
-      "title": "Connect Azure Functions to more services with managed connectors",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/connect-azure-functions-to-more-services-with-managed-connectors/ba-p/4558711",
-      "published": "2026-09-22T19:51:43+00:00",
-      "summary": "Azure Functions can already connect to many Azure services through triggers and bindings. With managed connectors, your functions can access about 1,700 connectors across services such as Microsoft 365, Microsoft Teams, Dataverse, SharePoint, OneDrive, and third-party systems. Connector triggers...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "lily-ma"
     },
     {
       "title": "Change Analysis in Azure Resource Graph: Your first stop for “What changed?”",
@@ -388,15 +469,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "Madhura Amlekar"
-    },
-    {
-      "title": "Announcing the Playwright Workspaces Remote MCP Server for Agentic Browser Automation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/announcing-the-playwright-workspaces-remote-mcp-server-for/ba-p/4555698",
-      "published": "2026-09-17T18:00:00+00:00",
-      "summary": "An agent can analyze a request, choose the right next step, and call every available API—then stall when the final action exists only in a web interface. AI agents are increasingly capable of reasoning, planning, and working with APIs. But many real business processes still depend on websites:...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "NandiniMuralidharan"
     },
     {
       "title": "Automating Private Endpoint DNS Across Azure Tenants with Azure Policy and Azure Lighthouse",
@@ -1056,15 +1128,6 @@
       "author": "Jerry Nixon"
     },
     {
-      "title": "Claude Fable 5.1 is now available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-fable-5-1-is-now-available-in-microsoft-foundry/ba-p/4550175",
-      "published": "2026-09-03T18:52:06+00:00",
-      "summary": "Fable 5.1 and Mythos 5.1 are the same underlying model. Claude Fable 5.1 is a public preview version with safeguards that fallback for cyber and bio capability queries; Claude Mythos 5.1 is Anthropic’s most capable model for cybersecurity and biology research, keeping its full cyber and bio...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal"
-    },
-    {
       "title": "Accelerated AI & Analytics workload on Azure Blob Storage: Up to 25x faster List Blobs operations",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/accelerated-ai-analytics-workload-on-azure-blob-storage-up-to/ba-p/4551857",
       "published": "2026-09-03T18:46:37+00:00",
@@ -1173,6 +1236,15 @@
       "author": "reshmarahim"
     },
     {
+      "title": "Microsoft Azure Virtual Desktop Hybrid is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/microsoft-azure-virtual-desktop-hybrid-is-now-generally/ba-p/4550523",
+      "published": "2026-09-02T18:14:16+00:00",
+      "summary": "Extend Azure Virtual Desktop to your on-premises environment. Run desktops where you need them. Manage on-premises session hosts from Azure. Many organizations want to modernize their virtual desktop infrastructure but face practical constraints that make a full cloud migration difficult in the...",
+      "blog": "Azure Virtual Desktop",
+      "blogId": "azurevirtualdesktopblog",
+      "author": "Steve_Downs"
+    },
+    {
       "title": "Azure Firewall explicit proxy is now generally available",
       "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-firewall-explicit-proxy-is-now-generally-available/ba-p/4552450",
       "published": "2026-09-02T15:40:04+00:00",
@@ -1252,15 +1324,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "Sreekanth_Thirthala"
-    },
-    {
-      "title": "Stop Letting Agents Run the Workflow",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/stop-letting-agents-run-the-workflow/ba-p/4550068",
-      "published": "2026-09-01T17:00:00+00:00",
-      "summary": "A user submits a ticket: \"Please grant temporary admin access to the finance reporting database for month-end close.\" A five-agent system handles it beautifully. A triage agent classifies the request. A policy agent checks entitlements. An approval agent decides a manager needs to sign off. An...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Kalaivanan"
     },
     {
       "title": "Today I will… review GitHub PRs",
@@ -1477,78 +1540,6 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Iria Osara, Sudhanshu Khera"
-    },
-    {
-      "title": "The Visual Studio Debugger Agentic Workflow Gets a Test-Driven Upgrade",
-      "link": "https://devblogs.microsoft.com/visualstudio/the-visual-studio-debugger-agentic-workflow-gets-a-test-driven-upgrade/",
-      "published": "2026-08-26T16:00:47+00:00",
-      "summary": "A few months ago, we introduced a new guided agentic workflow in the Visual Studio Debugger Agent designed to help you move from a bug report to a verified fix without spending your morning guessing where to begin. If you missed that announcement, check out Stop Hunting Bugs: Meet the New Visual...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Harshada Hole"
-    },
-    {
-      "title": "Azure DNS + Traffic Manager linked records",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-dns-traffic-manager-linked-records/ba-p/4548221",
-      "published": "2026-08-26T15:59:25+00:00",
-      "summary": "Introduction Traffic Manager linked records creates a direct, managed link between an Azure DNS record set and a Traffic Manager profile. When a query arrives, Azure DNS evaluates the linked Traffic Manager profile internally and returns the appropriate endpoint response directly. For A and AAAA...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "atiy"
-    },
-    {
-      "title": "Copilot Code Reviews for Azure Repos (public preview)",
-      "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-public-preview/",
-      "published": "2026-08-26T15:17:16+00:00",
-      "summary": "Today, we’re announcing the public preview of GitHub Copilot Code Review for Azure Repos, making the feature available to all Azure DevOps customers using the service. There’s no longer a need to sign up for early access. Customers can now enable Copilot Code Review for their Azure Repos...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem"
-    },
-    {
-      "title": "Maia 200: Software-defined dataflow and all-Ethernet networking for efficient inference on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/maia-200-software-defined-dataflow-and-all-ethernet-networking/ba-p/4548198",
-      "published": "2026-08-26T14:40:52+00:00",
-      "summary": "By Sherry Xu, Prashant Ranjan, Torsten Hoefler As we enter the era of frontier-scale intelligence, the economics of AI are increasingly determined not by peak compute performance but by how efficiently an entire system can generate tokens at scale. Production inference workloads are rapidly...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "SherryX19"
-    },
-    {
-      "title": "New Azure SQL Foundations video series with GitHub samples",
-      "link": "https://devblogs.microsoft.com/azure-sql/new-azure-sql-foundations-video-series-with-github-samples/",
-      "published": "2026-08-26T12:37:45+00:00",
-      "summary": "Bob Ward and I recently released a series of videos, read more in the original blog post or go directly to the series on YouTube. The Azure SQL Database Foundations series are four videos that take you from your first Hyperscale database to AI features running against your own operational data. We...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Anna Hoffman"
-    },
-    {
-      "title": "Microsoft is headed to VMware Explore 2026 in Las Vegas",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/microsoft-is-headed-to-vmware-explore-2026-in-las-vegas/ba-p/4541643",
-      "published": "2026-08-26T06:37:16+00:00",
-      "summary": "If you want to know about Azure, the work we are doing in partnership with VMware by Broadcom, or have a conversation about your VMware workloads, stop by the Microsoft booth! This year Microsoft will have several break-out sessions on a variety of topics where you will discover how Microsoft can...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "KirstenMegahan"
-    },
-    {
-      "title": "Cost Management with Azure Resource Manager MCP",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/cost-management-with-azure-resource-manager-mcp/ba-p/4550182",
-      "published": "2026-08-26T02:17:28+00:00",
-      "summary": "Today, we’re announcing new Cost Management capabilities in the Azure Resource Management (ARM) MCP server. A core set of cost tools is now available by default, making it easier for AI agents to bring cost context into Azure workflows without additional configuration. For more advanced scenarios,...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "demiajayi"
-    },
-    {
-      "title": "Tracking Batch node state and duration in Log Analytics",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/tracking-batch-node-state-and-duration-in-log-analytics/ba-p/4547582",
-      "published": "2026-08-25T18:04:45+00:00",
-      "summary": "1. The problem (a real customer scenario) Some of our customers described that they have those underlying gaps: Symptom What the customer wanted Nodes intermittently stayed in the leavingpool state for hours. The customer needed to know which node was stuck and for how long, so an alert could fire...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "Ahmed_Khaled"
     }
   ]
 }
