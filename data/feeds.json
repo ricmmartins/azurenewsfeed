@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-09-25T16:33:33.017937+00:00",
-  "totalArticles": 171,
+  "lastUpdated": "2026-09-26T15:47:20.326084+00:00",
+  "totalArticles": 168,
   "articles": [
+    {
+      "title": "CoreDNS in AKS: service discovery, upstream DNS, and failover",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/coredns-in-aks-service-discovery-upstream-dns-and-failover/ba-p/4559925",
+      "published": "2026-09-25T21:06:37+00:00",
+      "summary": "Table of Contents 1. Where CoreDNS fits in AKS 2. How a pod gets a DNS answer Cluster Service names Names handled by another DNS server LocalDNS can change the first hop 3. What AKS manages and what you can customize 4. How CoreDNS selects and checks upstream servers Selection policy chooses the...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "varghesejoji"
+    },
+    {
+      "title": "From Camera to Canvas: How Multimodal GenAI Automates Shop Floor Instructions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-camera-to-canvas-how-multimodal-genai-automates-shop-floor/ba-p/4557740",
+      "published": "2026-09-25T18:56:13+00:00",
+      "summary": "Scenario Across the industry, manufacturing organizations spend significant engineering effort converting tribal knowledge and assembly demonstrations into standardized work instructions. This process is traditionally manual, inconsistent, and difficult to scale across plants, product lines, and...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Matt_Kazanowsky"
+    },
     {
       "title": "Troubleshooting Azure Storage Deletion: Immutability, WORM, and Version Retention",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/troubleshooting-azure-storage-deletion-immutability-worm-and/ba-p/4559051",
@@ -10,6 +28,24 @@
       "blog": "Azure PaaS",
       "blogId": "azurepaasblog",
       "author": "carlosbermudezlopez"
+    },
+    {
+      "title": "DeepSeek-V4.1-Flash is coming to Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deepseek-v4-1-flash-is-coming-to-microsoft-foundry/ba-p/4556431",
+      "published": "2026-09-25T00:46:43+00:00",
+      "summary": "Agentic applications increasingly need to process entire code repositories, large document collections, images, tool results, and long-running conversation histories. As that context grows, the key-value, or KV, cache maintained during inference can become a major constraint on cost, memory, and...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "RashaudSavage"
+    },
+    {
+      "title": "Introducing voice agents in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-voice-agents-in-microsoft-foundry/ba-p/4557276",
+      "published": "2026-09-24T22:02:23+00:00",
+      "summary": "Voice is quickly becoming a major way people interact with AI agents. Recent research found that 14% of users already prefer speaking with generative AI rather than typing1, signaling that voice interactions are moving beyond early-adopter use cases and toward the mainstream. As adoption grows,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Yiwen_Rong"
     },
     {
       "title": "Connect Azure Functions to more services with managed connectors",
@@ -46,15 +82,6 @@
       "blog": "Telecommunications",
       "blogId": "telecommunications-industry-blog",
       "author": "kshatzkamer"
-    },
-    {
-      "title": "Introducing voice agents in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-voice-agents-in-microsoft-foundry/ba-p/4557276",
-      "published": "2026-09-24T18:49:44+00:00",
-      "summary": "Voice is quickly becoming a major way people interact with AI agents. Recent research found that 14% of users already prefer speaking with generative AI rather than typing1, signaling that voice interactions are moving beyond early-adopter use cases and toward the mainstream. As adoption grows,...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Yiwen_Rong"
     },
     {
       "title": "Control where your hosted agent connects with network egress in Foundry Agent Service",
@@ -154,15 +181,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Jan-Kalis"
-    },
-    {
-      "title": "DeepSeek-V4.1-Flash is coming to Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deepseek-v4-1-flash-is-coming-to-microsoft-foundry/ba-p/4556431",
-      "published": "2026-09-23T21:44:16+00:00",
-      "summary": "Agentic applications increasingly need to process entire code repositories, large document collections, images, tool results, and long-running conversation histories. As that context grows, the key-value, or KV, cache maintained during inference can become a major constraint on cost, memory, and...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "RashaudSavage"
     },
     {
       "title": "Catalyst: Frontier stories of AI Infrastructure innovation",
@@ -1495,51 +1513,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Kristen Womack, Jeffrey C."
-    },
-    {
-      "title": "VSLive! @ Microsoft HQ: Developer Takeaways and Must-Watch Sessions",
-      "link": "https://devblogs.microsoft.com/visualstudio/vslive-hq-content-sandiego-and-orlando-mentions/",
-      "published": "2026-08-27T14:00:09+00:00",
-      "summary": "VSLive! @ Microsoft HQ 2026 was one of the most energizing VSLive! events I’ve attended. What stood out was the level of engagement over five days of learning and conversation from July 27 through July 31. Developers came ready to dig into the future of Visual Studio, .NET, and AI-assisted software...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "James Rempt"
-    },
-    {
-      "title": "Azure DevOps in the GitHub Copilot App",
-      "link": "https://devblogs.microsoft.com/devops/azure-devops-in-the-github-copilot-app/",
-      "published": "2026-08-27T11:24:17+00:00",
-      "summary": "The Azure DevOps plugin is now available for the GitHub Copilot app, allowing you to view and manage Azure DevOps pull requests and work items directly in the Copilot app. What you can do The initial release supports: View your work items and pull requests from My Work Open work items and pull...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem"
-    },
-    {
-      "title": "Stop restricting the agent. Start restricting its environment.",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/stop-restricting-the-agent-start-restricting-its-environment/ba-p/4548726",
-      "published": "2026-08-26T18:48:33+00:00",
-      "summary": "Thanks to visagarwal​ for co-authoring this post. Cross-posted from: https://commandline.microsoft.com/azure-sre-agent-restricting-environment-ai-safety/ Azure SRE Agent gives an LLM tools, a code execution environment, and access to production resources. The first question most people ask is: “How...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "sanchitmehta"
-    },
-    {
-      "title": "Retirement of Microsoft HPC Pack",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/retirement-of-microsoft-hpc-pack/ba-p/4550183",
-      "published": "2026-08-26T16:54:57+00:00",
-      "summary": "Overview Microsoft HPC Pack is a Windows‑based high‑performance computing (HPC) scheduler that enables customers to deploy, manage, and operate HPC workloads in on‑premises and hybrid environments. Since its original release, HPC Pack has supported a range of Windows‑centric HPC scenarios,...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "XinXin"
-    },
-    {
-      "title": "I Need My CI/CD Pipeline to Access Cosmos DB Without Using a Secret",
-      "link": "https://devblogs.microsoft.com/cosmosdb/i-need-my-ci-cd-pipeline-to-access-cosmos-db-without-using-a-secret/",
-      "published": "2026-08-26T16:47:16+00:00",
-      "summary": "In the last post we walked through why RBAC broke your app and how to fix it. Your app is now running on a managed identity, keys are off, and everything is green. Then your build pipeline runs, and it needs to seed test data. Suddenly you’re staring at a secret in your CI settings […] The post I...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Iria Osara, Sudhanshu Khera"
     }
   ]
 }
