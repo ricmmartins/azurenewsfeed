@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-26T15:47:20.326084+00:00",
-  "totalArticles": 168,
+  "lastUpdated": "2026-09-27T16:24:51.837695+00:00",
+  "totalArticles": 163,
   "articles": [
     {
       "title": "CoreDNS in AKS: service discovery, upstream DNS, and failover",
@@ -21,6 +21,15 @@
       "author": "Matt_Kazanowsky"
     },
     {
+      "title": "DeepSeek-V4.1-Flash is coming to Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deepseek-v4-1-flash-is-coming-to-microsoft-foundry/ba-p/4556431",
+      "published": "2026-09-25T15:58:46+00:00",
+      "summary": "Agentic applications increasingly need to process entire code repositories, large document collections, images, tool results, and long-running conversation histories. As that context grows, the key-value, or KV, cache maintained during inference can become a major constraint on cost, memory, and...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "RashaudSavage"
+    },
+    {
       "title": "Troubleshooting Azure Storage Deletion: Immutability, WORM, and Version Retention",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/troubleshooting-azure-storage-deletion-immutability-worm-and/ba-p/4559051",
       "published": "2026-09-25T04:15:53+00:00",
@@ -28,15 +37,6 @@
       "blog": "Azure PaaS",
       "blogId": "azurepaasblog",
       "author": "carlosbermudezlopez"
-    },
-    {
-      "title": "DeepSeek-V4.1-Flash is coming to Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deepseek-v4-1-flash-is-coming-to-microsoft-foundry/ba-p/4556431",
-      "published": "2026-09-25T00:46:43+00:00",
-      "summary": "Agentic applications increasingly need to process entire code repositories, large document collections, images, tool results, and long-running conversation histories. As that context grows, the key-value, or KV, cache maintained during inference can become a major constraint on cost, memory, and...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "RashaudSavage"
     },
     {
       "title": "Introducing voice agents in Microsoft Foundry",
@@ -1468,51 +1468,6 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "erikbailey"
-    },
-    {
-      "title": "Announcing Confidential Live Migration in Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-confidential-live-migration-in-azure/ba-p/4524558",
-      "published": "2026-08-28T15:15:42+00:00",
-      "summary": "Authored by Caroline Perez-Vargas, Michael McReynolds Introduction Today at Build, Microsoft showcased Confidential Live Migration, a new capability that helps move Intel® TDX Confidential VMs to updated infrastructure with limited interruption while helping protect VM memory and execution context...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "mmcrey"
-    },
-    {
-      "title": "🚀 Foundry Toolkit for VS Code — August 2026 Update",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/foundry-toolkit-for-vs-code-august-2026-update/ba-p/4551138",
-      "published": "2026-08-28T08:00:07+00:00",
-      "summary": "This is the August round-up for the Foundry Toolkit for VS Code. Four releases shipped this month: 1.6.7, 1.6.8, 1.6.9, and 1.6.10. August was about turning agent development into a workflow you can follow end to end — start from the right path, connect reusable tools and other agents, run with...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "junjieli"
-    },
-    {
-      "title": "Open-sourcing TauGrid: cloud-native AI infrastructure for GPU workloads on Kubernetes",
-      "link": "https://blog.aks.azure.com/2026/08/28/taugrid-open-source",
-      "published": "2026-08-28T00:00:00+00:00",
-      "summary": "TauGrid combines the tau CLI, Kueue, KubeRay, GPU health monitoring, and observability into one Kubernetes-native stack for AI workloads.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Zonal redundancy in API management Standard v2",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/zonal-redundancy-in-api-management-standard-v2/ba-p/4550977",
-      "published": "2026-08-27T20:57:25+00:00",
-      "summary": "APIs are the backbone of modern applications, powering everything from mobile experiences and microservices to AI-driven applications and business-critical integrations. As customers continue to modernize their platforms on Azure, they increasingly expect their API infrastructure to remain...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Sreekanth_Thirthala"
-    },
-    {
-      "title": "Azure Developer CLI (azd) – August 2026",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-august-2026/",
-      "published": "2026-08-27T17:39:02+00:00",
-      "summary": "Welcome to the August 2026 edition of the Azure Developer CLI (azd) release blog. This post covers releases 1.30.0, 1.31.0, 1.31.1, 1.31.2, and 1.32.0. To share your feedback and questions, join the August release discussion on GitHub. Highlights: The azd extension framework is generally available....",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Kristen Womack, Jeffrey C."
     }
   ]
 }
