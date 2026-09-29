@@ -1,7 +1,79 @@
 {
-  "lastUpdated": "2026-09-28T19:15:03.405417+00:00",
-  "totalArticles": 166,
+  "lastUpdated": "2026-09-29T17:38:47.213639+00:00",
+  "totalArticles": 172,
   "articles": [
+    {
+      "title": "WSLC Architecture deep dive",
+      "link": "https://devblogs.microsoft.com/commandline/wslc-architecture-deep-dive/",
+      "published": "2026-09-29T17:00:19+00:00",
+      "summary": "WSL containers is now generally available! Check out this blog post to learn more about this overall feature enabling seamless access to Linux containers on Windows via the new “wslc.exe” command. This new Linux container platform comes with multiple architectures changes compared to WSL, which...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Pierre Boulay"
+    },
+    {
+      "title": "Visual Studio September Update – Power Your Workflow with Your Model",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-september-update-power-your-workflow-with-your-model/",
+      "published": "2026-09-29T16:00:04+00:00",
+      "summary": "Bring your own AI model with updates to BYOM, fix NuGet vulnerabilities from the Error List, explore pull requests with the Git agent, see which operand decides an if condition, and attach to Podman containers. The post Visual Studio September Update – Power Your Workflow with Your Model appeared...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie"
+    },
+    {
+      "title": "DiskANN Vector Index and Vector Search Are Now Generally Available in Azure SQL",
+      "link": "https://devblogs.microsoft.com/azure-sql/diskann-vector-index-search-are-now-generally-available-in-azure-sql/",
+      "published": "2026-09-29T15:00:22+00:00",
+      "summary": "Today, we are announcing the general availability of DiskANN Vector Index & Search across Azure SQL Database, Azure SQL Managed Instance with the always-up-to-date update policy, and SQL database in Microsoft Fabric. DiskANN brings scalable approximate nearest-neighbor search directly to the SQL...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Pooja Kamath"
+    },
+    {
+      "title": "What’s new across Microsoft SQL at SQLCon/FabCon Europe 2026",
+      "link": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-at-sqlcon-fabcon-europe-2026/",
+      "published": "2026-09-29T07:30:04+00:00",
+      "summary": "Live From Barcelona Woo! I’m posting this live from the first ever European SQLCon (joint conference with FabCon EU), and the second ever SQLCon. The energy here is great, as the community comes together in Barcelona and as we prepare to go on the keynote stage and share what’s new! A heartfelt nod...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman"
+    },
+    {
+      "title": "How to build an app on Azure SQL with an AI coding agent",
+      "link": "https://devblogs.microsoft.com/azure-sql/build-app-azure-sql-ai-coding-agent/",
+      "published": "2026-09-29T07:05:16+00:00",
+      "summary": "Developers have trusted SQL for decades, since long before AI existed. Now coding agents help choose the database, and they favor the one they can get running in the first few minutes. So today we’re shipping two things for that moment. Microsoft SQL Agent Skills teach your coding agent how Azure...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Iqra Shaikh"
+    },
+    {
+      "title": "Announcing Public Preview for Azure Cosmos DB in Fabric Database Hub!",
+      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-public-preview-for-azure-cosmos-db-in-fabric-database-hub/",
+      "published": "2026-09-29T07:00:00+00:00",
+      "summary": "Azure Cosmos DB support in Fabric Database Hub is now available in public preview. For the first time, Azure Cosmos DB customers can discover and monitor their accounts from Database Hub alongside other Microsoft database engines. Database Hub provides a single place to view every Azure Cosmos DB...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Jai Maldonado"
+    },
+    {
+      "title": "Claude Sonnet 5.5 is now available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-sonnet-5-5-is-now-available-in-microsoft-foundry/ba-p/4559774",
+      "published": "2026-09-28T18:18:01+00:00",
+      "summary": "Today, Claude Sonnet 5.5 is available in Microsoft Foundry, bringing Anthropic’s latest Sonnet model to developers building AI applications and agents. Claude Sonnet 5.5 is a smarter, more efficient Sonnet, delivering a clear step forward from Sonnet 5 on coding and knowledge work with a lower cost...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal"
+    },
+    {
+      "title": "Introducing voice agents in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-voice-agents-in-microsoft-foundry/ba-p/4557276",
+      "published": "2026-09-28T18:09:24+00:00",
+      "summary": "Voice is quickly becoming a major way people interact with AI agents. Recent research found that 14% of users already prefer speaking with generative AI rather than typing1, signaling that voice interactions are moving beyond early-adopter use cases and toward the mainstream. As adoption grows,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Yiwen_Rong"
+    },
     {
       "title": "MSSQL Extension for VS Code: New Getting Started Page, Agent skills, SQL Formatter, and more",
       "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-september2026/",
@@ -28,6 +100,15 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Matt Hyon, David Levy"
+    },
+    {
+      "title": "Open Sourcing the Azure Policy Linter!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/open-sourcing-the-azure-policy-linter/ba-p/4547577",
+      "published": "2026-09-28T15:02:05+00:00",
+      "summary": "Today we’re excited to share that the Azure Policy Linter is now open source on GitHub: github.com/Azure/azure-policy-linter. It’s a command-line linter for Azure Policy definitions that surfaces known issues, gotchas, and best practices that you can run when authoring your policy definition and...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher"
     },
     {
       "title": "Announcing the Public Preview of Local Time Zone Support in Azure SQL Database",
@@ -91,15 +172,6 @@
       "blog": "Azure PaaS",
       "blogId": "azurepaasblog",
       "author": "carlosbermudezlopez"
-    },
-    {
-      "title": "Introducing voice agents in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-voice-agents-in-microsoft-foundry/ba-p/4557276",
-      "published": "2026-09-24T22:02:23+00:00",
-      "summary": "Voice is quickly becoming a major way people interact with AI agents. Recent research found that 14% of users already prefer speaking with generative AI rather than typing1, signaling that voice interactions are moving beyond early-adopter use cases and toward the mainstream. As adoption grows,...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Yiwen_Rong"
     },
     {
       "title": "Connect Azure Functions to more services with managed connectors",
@@ -1263,15 +1335,6 @@
       "author": "Dalibor_Kovacevic"
     },
     {
-      "title": "Bringing Open Models to Fireworks on Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bringing-open-models-to-fireworks-on-microsoft-foundry/ba-p/4550173",
-      "published": "2026-09-03T14:00:00+00:00",
-      "summary": "Enterprises want faster access to capable open models, but they also need identity, governance, cost control, and a clear understanding of where data is processed. Fireworks on Microsoft Foundry is designed to bring those needs together: customers can discover and deploy supported open models...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MuraliKumanduri"
-    },
-    {
       "title": "Keep the evidence: Low-cost logs with Azure Copilot Observability Agent (Generally Available)",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/keep-the-evidence-low-cost-logs-with-azure-copilot-observability/ba-p/4550844",
       "published": "2026-09-03T12:00:00+00:00",
@@ -1468,15 +1531,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "spalani"
-    },
-    {
-      "title": "Bacpac and Dacpac, the similarities and differences",
-      "link": "https://devblogs.microsoft.com/azure-sql/bacpac-and-dacpac-the-similarities-and-differences/",
-      "published": "2026-08-31T15:13:57+00:00",
-      "summary": "When you need to move an entire database or move the objects in a database, bacpac and dacpac files often come up because of all of the tooling options to interact with them. Bacpac and dacpac files share some core similarities as well as some major differences in how they’re used in SqlPackage and...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Drew Skwiers-Koballa"
     },
     {
       "title": "BizTalk Server 2020 End-of-Sale Announcement",
