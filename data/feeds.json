@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-10-02T17:28:32.088845+00:00",
-  "totalArticles": 192,
+  "lastUpdated": "2026-10-03T15:44:00.778095+00:00",
+  "totalArticles": 185,
   "articles": [
+    {
+      "title": "Complete Guide to Azure Databricks Cost Optimization for Data Engineers",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/complete-guide-to-azure-databricks-cost-optimization-for-data/ba-p/4550132",
+      "published": "2026-10-03T04:08:41+00:00",
+      "summary": "Co-Authored by: Aladdin Alchalabi AladdinAlchalabi​, Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Beyond the Trace: The Science of Insight Quality",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/beyond-the-trace-the-science-of-insight-quality/ba-p/4559981",
+      "published": "2026-10-02T21:34:39+00:00",
+      "summary": "Co-authors and reviewers: Morteza Ziyadi, Hanchi Wang, Han Che, Billy Hu, Sean Gayler, Nishal Dsilva, Avinav Jami, Ankit Singhal, Augustus Arthur TL;DR. Insights in Foundry turns recurring agent behavior into evidence-linked findings developers can review and act on. We evaluate trace linkage,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "imatiach"
+    },
+    {
+      "title": "From Domain Lists to Decisions: Scaling WHOIS Threat Intelligence with MDTI and Microsoft Graph",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/from-domain-lists-to-decisions-scaling-whois-threat-intelligence/ba-p/4560384",
+      "published": "2026-10-02T18:25:51+00:00",
+      "summary": "The real problem isn't WHOIS. It's what WHOIS costs you at scale. Ask any SOC analyst whether WHOIS data is useful and they'll say yes without hesitation. Registrant emails, creation dates, registrars, and nameservers are among the most durable pivots in domain-based threat intelligence — the...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "absharan"
+    },
+    {
+      "title": "Evaluate More, Spend Less: Batching Microsoft Foundry Evaluators for Efficient Evaluation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/evaluate-more-spend-less-batching-microsoft-foundry-evaluators/ba-p/4560841",
+      "published": "2026-10-02T16:00:00+00:00",
+      "summary": "Authors: Salma Elshafey, Ali Mahmoudzadeh, Kayla Ames, Ahmad Qardahji, Vivek Bhadauria, Morteza Ziyadi, April Kwong A single agent trajectory may need to be evaluated for groundedness, coherence, instruction following, task completion, and correct tool use. In a conventional pipeline, each...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "selshafey"
+    },
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
@@ -10,6 +46,15 @@
       "blog": "Analytics on Azure",
       "blogId": "analyticsonazure",
       "author": "Rafia_Aqil"
+    },
+    {
+      "title": "How to make AI responses faster on Microsoft Foundry: lessons from 2,040 measurements",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-make-ai-responses-faster-on-microsoft-foundry-lessons/ba-p/4560073",
+      "published": "2026-10-02T13:00:00+00:00",
+      "summary": "A faster model does not always make an AI application faster. Latency also comes from output length, repeated prompt content, image and document processing, tool selection, connection setup, serial waits, and extra model requests. Comparing complete configurations, optimized software plus verified...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Yassine_El_Ghali"
     },
     {
       "title": "Translating an Elasticsearch Search Request to Azure Cosmos DB",
@@ -154,6 +199,15 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "Rebekah_Midkiff"
+    },
+    {
+      "title": "From fragmented data to trusted intelligence: Microsoft at TM Forum Innovate Americas 2026",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/from-fragmented-data-to-trusted-intelligence-microsoft-at-tm/ba-p/4561272",
+      "published": "2026-10-01T13:36:34+00:00",
+      "summary": "AI is reshaping telecom, but moving from isolated pilots to AI-native operations requires more than capable models and agents. It requires trusted data, shared operational context, and governance that enables AI to act safely across network, customer, and business workflows. At TM Forum Innovate...",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "rickliev"
     },
     {
       "title": "Beyond Agent Scores: Building Consequence-Aware Release Gates with Microsoft Foundry",
@@ -417,15 +471,6 @@
       "author": "Dalibor_Kovacevic"
     },
     {
-      "title": "Build with Azure Canvases: a shared workspace for agents",
-      "link": "https://devblogs.microsoft.com/blog/azure-canvases/",
-      "published": "2026-09-29T18:30:00+00:00",
-      "summary": "See how Azure Canvases bring plans, code, previews, and deployment feedback together in a collaborative workspace for agent-assisted development.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Matt Hernandez"
-    },
-    {
       "title": "Comparing Three Approaches to AI Agent Evaluation and Observability",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/comparing-three-approaches-to-ai-agent-evaluation-and/ba-p/4560833",
       "published": "2026-09-29T18:25:14+00:00",
@@ -451,15 +496,6 @@
       "blog": "Windows Command Line",
       "blogId": "commandline",
       "author": "Pierre Boulay"
-    },
-    {
-      "title": "Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins",
-      "link": "https://devblogs.microsoft.com/blog/enabling-consistent-ai-assisted-engineering-with-github-copilot-plugins/",
-      "published": "2026-09-29T16:30:35+00:00",
-      "summary": "When an engineer or team creates useful agentic artifacts for their daily work (e.g., instructions, skills, and MCP configurations), others naturally want to adopt them when they see how those artifacts could help with their own work. Sharing the files is straightforward, but keeping those...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Fernando de Oliveira"
     },
     {
       "title": "Visual Studio September Update – Power Your Workflow with Your Model",
@@ -543,15 +579,6 @@
       "author": "Yiwen_Rong"
     },
     {
-      "title": "Get started with the GitHub Copilot app: a free, hands-on course",
-      "link": "https://devblogs.microsoft.com/blog/github-copilot-app-for-beginners/",
-      "published": "2026-09-28T18:05:00+00:00",
-      "summary": "Learn to direct AI coding agents, review their work, and build reliable development workflows with this free GitHub Copilot app course.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Dan Wahlin"
-    },
-    {
       "title": "MSSQL Extension for VS Code: New Getting Started Page, Agent skills, SQL Formatter, and more",
       "link": "https://devblogs.microsoft.com/azure-sql/vscode-mssql-september2026/",
       "published": "2026-09-28T17:27:53+00:00",
@@ -595,15 +622,6 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Umachandar Jayachandran (UC)"
-    },
-    {
-      "title": "From Domain Lists to Decisions: Scaling WHOIS Threat Intelligence with MDTI and Microsoft Graph",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/from-domain-lists-to-decisions-scaling-whois-threat-intelligence/ba-p/4560384",
-      "published": "2026-09-28T12:23:10+00:00",
-      "summary": "The real problem isn't WHOIS. It's what WHOIS costs you at scale. Ask any SOC analyst whether WHOIS data is useful and they'll say yes without hesitation. Registrant emails, creation dates, registrars, and nameservers are among the most durable pivots in domain-based threat intelligence — the...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "absharan"
     },
     {
       "title": "From Jev to Your Laptop: Building \"System One\" Decision Models in ONNX with Mobius",
@@ -930,15 +948,6 @@
       "author": "Jerry Nixon"
     },
     {
-      "title": "The Complete Guide to Azure Databricks Cost Optimization",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/the-complete-guide-to-azure-databricks-cost-optimization/ba-p/4550132",
-      "published": "2026-09-21T22:03:58+00:00",
-      "summary": "Co-Authored by: Aladdin Alchalabi AladdinAlchalabi​, Sanjeev Nair Sanjeev Nair​ and Rafia Aqil Rafia_Aqil​ This guide walks through a proven approach to Azure Databricks cost optimization, structured in three phases: 1. Discovery, 2. Cluster/Data/Code Best Practices, and 3. Team Alignment & Next...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
       "title": "Enable Dynamic Workflows in Azure Functions hosted skills",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-dynamic-workflows-in-azure-functions-hosted-skills/ba-p/4551993",
       "published": "2026-09-21T21:29:25+00:00",
@@ -1155,15 +1164,6 @@
       "author": "James Rempt"
     },
     {
-      "title": "Practical Local AI for Enterprise Architects: A Workload Placement Approach",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/practical-local-ai-for-enterprise-architects-a-workload/ba-p/4556429",
-      "published": "2026-09-16T14:00:00+00:00",
-      "summary": "Enterprise AI discussions often begin with a use case and end with a deployment constraint. A clinical document assistant may have clear value, yet protected health information cannot leave an approved environment. A factory assistant may improve operations, yet the facility cannot depend on...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "arronhoffer"
-    },
-    {
       "title": "Your AI coding agent evaluation is only as good as its sandbox",
       "link": "https://devblogs.microsoft.com/blog/your-ai-coding-agent-evaluation-is-only-as-good-as-its-sandbox/",
       "published": "2026-09-16T09:09:51+00:00",
@@ -1207,15 +1207,6 @@
       "blog": "Governance & Management",
       "blogId": "azuregovernanceandmanagementblog",
       "author": "stevenbucher"
-    },
-    {
-      "title": "Your Agent Found the Right Schema. Then Ignored It.",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/your-agent-found-the-right-schema-then-ignored-it/ba-p/4553775",
-      "published": "2026-09-15T17:35:05+00:00",
-      "summary": "The assumption nobody tests Most agent evaluations quietly assume something that never happens in production: that the model is handed exactly the right information, and nothing else. We changed that one assumption — and watched a model drop from 58% to 18%. Retrieval was not the problem. The...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "shihyaolin"
     },
     {
       "title": "Bring Azure AI to your private workloads on Azure VMware Solution",
@@ -1324,15 +1315,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "MitchellGulledge"
-    },
-    {
-      "title": "Data Meets Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/data-meets-agents/ba-p/4553082",
-      "published": "2026-09-14T16:00:00+00:00",
-      "summary": "Introduction Enterprise agents become more valuable when they can securely access the data, knowledge and business systems organisations already rely on. And, Data Meets Agents is a way of framing a recurring architecture question we hear from customers: How should an agent access enterprise data...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Yeliz_Kilinc"
     },
     {
       "title": "MulticloudDB SDK: Cross-cloud portability in the coding agent era",
@@ -1684,51 +1666,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "Mohammed_Barqawi"
-    },
-    {
-      "title": "Keep the evidence: Low-cost logs with Azure Copilot Observability Agent (Generally Available)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/keep-the-evidence-low-cost-logs-with-azure-copilot-observability/ba-p/4550844",
-      "published": "2026-09-03T12:00:00+00:00",
-      "summary": "Cloud environments can generate large volumes of application, infrastructure, audit, and platform logs. Moving eligible tables to the Basic or Auxiliary table plan can help control costs while keeping the data available for search. But during an incident, teams may still need those logs to...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "yairgil"
-    },
-    {
-      "title": "From AI Infrastructure to Secure AI Agent Infrastructure with kars",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-ai-infrastructure-to-secure-ai-agent-infrastructure-with/ba-p/4551519",
-      "published": "2026-09-03T07:00:00+00:00",
-      "summary": "Opening scene: a three-minute bug fix that is still unsafe for an enterprise ByteCraft AI is a four-person startup. Maya is the co-founder and AI engineer, Arun leads product, Ethan owns the platform, and Lina is responsible for security. They have six months of runway and one design partner. Their...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "Device Code Flow: The Gift That Keeps on Giving — To Attackers",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/device-code-flow-the-gift-that-keeps-on-giving-to-attackers/ba-p/4540949",
-      "published": "2026-09-03T06:04:43+00:00",
-      "summary": "Tags: Microsoft Entra ID, Conditional Access, Device Code Flow, OAuth, Azure Arc, Azure Migrate, Identity Security, Zero Trust Introduction Device Code Flow was built for a good reason: helping users sign in on devices that cannot easily show a browser or accept a password. Smart TVs, consoles,...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "akyamaza"
-    },
-    {
-      "title": "Introducing Radius Canvas: visualize, review and deploy applications in the GitHub Copilot app",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-radius-canvas-visualize-review-and-deploy/ba-p/4549760",
-      "published": "2026-09-02T19:00:00+00:00",
-      "summary": "September 3, 2026 - AI can generate thousands of lines of code in minutes. Understanding what it changed across your application, and whether it is ready to deploy, takes far longer. The Microsoft Azure Incubations team announced the public preview of Radius Canvas for the GitHub Copilot app. With...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "reshmarahim"
-    },
-    {
-      "title": "Microsoft Azure Virtual Desktop Hybrid is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/microsoft-azure-virtual-desktop-hybrid-is-now-generally/ba-p/4550523",
-      "published": "2026-09-02T18:14:16+00:00",
-      "summary": "Extend Azure Virtual Desktop to your on-premises environment. Run desktops where you need them. Manage on-premises session hosts from Azure. Many organizations want to modernize their virtual desktop infrastructure but face practical constraints that make a full cloud migration difficult in the...",
-      "blog": "Azure Virtual Desktop",
-      "blogId": "azurevirtualdesktopblog",
-      "author": "Steve_Downs"
     }
   ]
 }
