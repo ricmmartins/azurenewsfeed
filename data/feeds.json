@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-03T15:44:00.778095+00:00",
-  "totalArticles": 185,
+  "lastUpdated": "2026-10-04T16:26:42.757341+00:00",
+  "totalArticles": 177,
   "articles": [
     {
       "title": "Complete Guide to Azure Databricks Cost Optimization for Data Engineers",
@@ -1594,78 +1594,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Justin Bettencourt"
-    },
-    {
-      "title": "What’s new in Azure Firewall: Recent innovations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-azure-firewall-recent-innovations/ba-p/4552987",
-      "published": "2026-09-04T15:48:26+00:00",
-      "summary": "Organizations are modernizing their networks while managing a growing mix of applications, protocols, and security requirements. Recent Azure Firewall releases strengthen this journey with simpler traffic routing, expanded protocol support, more flexible application controls, improved health...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "devanshirastogi"
-    },
-    {
-      "title": "Your Private Endpoint Does Not Cover Agent Egress: Locking Down Azure AI Foundry in Both Directions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/your-private-endpoint-does-not-cover-agent-egress-locking-down/ba-p/4547864",
-      "published": "2026-09-04T14:59:04+00:00",
-      "summary": "I got asked a question a few weeks ago that sounded simple. Lock down Azure AI Foundry with Private Link, and let the agents call an MCP server hosted on a VM in a different virtual network. Everything private, nothing over the public internet, and proof rather than a diagram. I said yes, that is...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "rgarofalo"
-    },
-    {
-      "title": "SQL Decomposition in a Nutshell",
-      "link": "https://devblogs.microsoft.com/azure-sql/sql-decomposition/",
-      "published": "2026-09-03T20:06:28+00:00",
-      "summary": "Good software design principles apply inside the database too. See how decomposition, encapsulation, statelessness, and clear contracts can make complex T-SQL easier to read, test, reuse, and maintain. The post SQL Decomposition in a Nutshell appeared first on Azure SQL Dev Corner.",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
-    },
-    {
-      "title": "Accelerated AI & Analytics workload on Azure Blob Storage: Up to 25x faster List Blobs operations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/accelerated-ai-analytics-workload-on-azure-blob-storage-up-to/ba-p/4551857",
-      "published": "2026-09-03T18:46:37+00:00",
-      "summary": "Today Azure Storage introduces in preview a new List Blobs optimization that accelerates listing operations by up to 25x with up to 15x lower client-side CPU utilization allowing customers to return millions of objects per second in List Blobs results. The list results are now returned in Apache...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "wolfgangdesalvador"
-    },
-    {
-      "title": "Building 3IQ Retail Assistant Demo – Part 1",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-3iq-retail-assistant-demo-part-1/ba-p/4547228",
-      "published": "2026-09-03T17:24:53+00:00",
-      "summary": "Introduction Recently I received a request from one of our GSI partners to demonstrate them 4IQs on a retail industry scenario. Unfortunately, Web IQ is still not in public preview. Hence, I promised them to come back with an example later with Web IQ. But even with the remaining Fabric IQ, Foundry...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "pranabpaul"
-    },
-    {
-      "title": "Building 3IQ Retail Assistant Demo – Part 2",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-3iq-retail-assistant-demo-part-2/ba-p/4547231",
-      "published": "2026-09-03T17:24:04+00:00",
-      "summary": "In part 1 while setting up the Azure environment, I informed the template puts everything under VNET and all the services are having only private endpoints. Which is great from the security point of view. We also spoke about creating a jumpbox as a Bastion host to work on those services. If you did...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "pranabpaul"
-    },
-    {
-      "title": "Building 3IQ Retail Assistant Demo – Part 3",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-3iq-retail-assistant-demo-part-3/ba-p/4547233",
-      "published": "2026-09-03T17:23:13+00:00",
-      "summary": "We are now at the last part of our demo. We will build a Copilot Agent to connect it to a SharePoint List holding data related to Support case raised by the customers. Then connect the other 2 agents (Fabric Data Agent and Foundry Prompt Agent) to it. But before doing it ensure Work IQ is activated...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "pranabpaul"
-    },
-    {
-      "title": "Logic App Storage Inspector",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-app-storage-inspector/ba-p/4552352",
-      "published": "2026-09-03T16:28:54+00:00",
-      "summary": "Logic App Storage Inspector is a Kudu site extension for inspecting the storage used by an Azure Logic App Standard application. Read-only: The extension only reads Logic App storage data. It does not create, update, or delete workflows, tables, queues, blobs, messages, or other storage data....",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Mohammed_Barqawi"
     }
   ]
 }
