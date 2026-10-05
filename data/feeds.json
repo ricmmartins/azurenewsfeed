@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-10-04T16:26:42.757341+00:00",
-  "totalArticles": 177,
+  "lastUpdated": "2026-10-05T20:23:18.168544+00:00",
+  "totalArticles": 178,
   "articles": [
+    {
+      "title": "Connect Azure Functions to more services with managed connectors",
+      "link": "https://devblogs.microsoft.com/azure-sdk/connect-azure-functions-to-more-services-with-managed-connectors/",
+      "published": "2026-10-05T19:43:44+00:00",
+      "summary": "Learn how Azure Functions managed connectors provide access to 1,700 services, with triggers and typed clients available for supported service connectors, and walk through a sample that automates RFP intake across SharePoint, Azure Content Understanding, and Teams. The post Connect Azure Functions...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Lily Ma"
+    },
+    {
+      "title": "Azure Site Recovery for Azure Local Is Now Generally Available!",
+      "link": "https://techcommunity.microsoft.com/t5/azure-stack-blog/azure-site-recovery-for-azure-local-is-now-generally-available/ba-p/4529925",
+      "published": "2026-10-05T16:00:00+00:00",
+      "summary": "Today, we are excited to announce the general availability of Azure Site Recovery (ASR) for Azure Local, making enterprise-grade disaster recovery for on-premises virtual machine workloads simpler, more secure, and more accessible than ever before. Since its public preview, Azure Site Recovery for...",
+      "blog": "Azure Stack",
+      "blogId": "azurestackblog",
+      "author": "KerimHanif"
+    },
+    {
+      "title": "Logic Apps Aviators Newsletter - October 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-october-2026/ba-p/4561308",
+      "published": "2026-10-05T15:00:00+00:00",
+      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month October 2026's Ace Aviator: Hicham Boutaleb Hicham Boutaleb - Enterprise Integration & Azure Solution Architect @ 5-Nines Consulting What's your role and title? What are your...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "From an Empty Folder to an AI Agent: Meet create-cosmos-agent",
+      "link": "https://devblogs.microsoft.com/cosmosdb/from-an-empty-folder-to-an-ai-agent-meet-create-cosmos-agent/",
+      "published": "2026-10-05T14:12:38+00:00",
+      "summary": "The first few minutes of a new AI project often feel productive. Create a chat endpoint, connect a model, send a prompt, and display the answer. Then the real questions arrive. Where should the agent store memory? How do we keep one customer’s data away from another? How do we trace the source of...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sajeetharan Sinnathurai"
+    },
+    {
+      "title": "I’m the Only Developer on This Project. Do I Really Need RBAC?",
+      "link": "https://devblogs.microsoft.com/cosmosdb/im-the-only-developer-on-this-project-do-i-really-need-rbac/",
+      "published": "2026-10-05T13:40:01+00:00",
+      "summary": "You own the account, wrote the application, and would be the one fixing it if something broke. So role-based access control (RBAC) can sound like an answer to a problem you do not have: managing other people. You do not need RBAC for your app to function; account keys still work while key-based...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sudhanshu Khera, Iria Osara"
+    },
     {
       "title": "Complete Guide to Azure Databricks Cost Optimization for Data Engineers",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/complete-guide-to-azure-databricks-cost-optimization-for-data/ba-p/4550132",
@@ -1317,15 +1362,6 @@
       "author": "MitchellGulledge"
     },
     {
-      "title": "MulticloudDB SDK: Cross-cloud portability in the coding agent era",
-      "link": "https://devblogs.microsoft.com/cosmosdb/multiclouddb-sdk-cross-cloud-portability-in-the-coding-agent-era/",
-      "published": "2026-09-14T13:25:23+00:00",
-      "summary": "Building cross-cloud solutions with best-of-breed cloud-native databases means learning multiple SDKs, translating queries, handling different errors, and testing across providers. The Multicloud DB SDK for Java lets you share that work across Azure Cosmos DB, Amazon DynamoDB, and Google Cloud...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay"
-    },
-    {
       "title": "Locking down PAWs internet access when GSA drops",
       "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/locking-down-paws-internet-access-when-gsa-drops/ba-p/4553963",
       "published": "2026-09-14T08:38:19+00:00",
@@ -1567,33 +1603,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "RonArestia"
-    },
-    {
-      "title": "Check This Out! (CTO!) Guide (September 2026)",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/check-this-out-cto-guide-september-2026/ba-p/4553591",
-      "published": "2026-09-04T20:18:34+00:00",
-      "summary": "Member: TysonPaul | Microsoft Community Hub Retirement of Microsoft HPC Pack Team Blog: Azure High Performance Computing (HPC) Author: XinXin Published: 08/25/2026 Summary: Microsoft HPC Pack, a Windows-based HPC scheduler, will be retired, with support ending August 27, 2027. No new updates,...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "TysonPaul"
-    },
-    {
-      "title": "Introducing Inside Microsoft Foundry: Quickstart 🎬",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/introducing-inside-microsoft-foundry-quickstart/ba-p/4552692",
-      "published": "2026-09-04T18:29:11+00:00",
-      "summary": "Developers don’t adopt platforms. They solve problems. When you’re building AI agents, the questions are rarely about products. They’re about outcomes: Which model should I choose? How do I ground my agent in my own data? How do I know if the responses are actually good? How do I move from a local...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "carlottacaste"
-    },
-    {
-      "title": "Azure SDK Release (August 2026)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-august-2026/",
-      "published": "2026-09-04T18:20:42+00:00",
-      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (August 2026) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Justin Bettencourt"
     }
   ]
 }
