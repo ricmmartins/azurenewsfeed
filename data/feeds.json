@@ -1,7 +1,79 @@
 {
-  "lastUpdated": "2026-10-05T20:23:18.168544+00:00",
-  "totalArticles": 178,
+  "lastUpdated": "2026-10-06T17:56:35.458013+00:00",
+  "totalArticles": 184,
   "articles": [
+    {
+      "title": "Bringing Native AOT to the Aspire dashboard",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-dashboard-native-aot/",
+      "published": "2026-10-06T17:00:03+00:00",
+      "summary": "Aspire 13.6 brings Native AOT to the dashboard. Explore the startup and deployment benefits, plus the Blazor, Fluent UI, JSON, and Dapper changes that made it possible. The post Bringing Native AOT to the Aspire dashboard appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "James Newton-King"
+    },
+    {
+      "title": "Proactively monitor Azure VPN Gateway tunnel disconnections",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/proactively-monitor-azure-vpn-gateway-tunnel-disconnections/ba-p/4562011",
+      "published": "2026-10-06T16:47:21+00:00",
+      "summary": "Site-to-Site (S2S) VPN connections are a critical component of hybrid connectivity between Azure and on-premises environments. A tunnel outage can impact applications, user access, and business operations. Although Azure VPN Gateway automatically attempts to re-establish a tunnel when connectivity...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "shyambasnet"
+    },
+    {
+      "title": "PostgreSQL to SQL Field Notes: Connections",
+      "link": "https://devblogs.microsoft.com/azure-sql/pg-to-sql-connections/",
+      "published": "2026-10-06T16:39:17+00:00",
+      "summary": "Welcome to SQL First, welcome to SQL! You’re going to like this. Upgrading from PostgreSQL is real work, and depending on your old database, this process will vary widely in complexity. I am confident that you’re going to love the mindful and modern features of SQL. Take your time, make the most of...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon"
+    },
+    {
+      "title": "Bring agentic reasoning to Python function apps with Azure Functions Agent bindings (preview)",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-functions-agent-binding/",
+      "published": "2026-10-06T15:00:10+00:00",
+      "summary": "Add bounded AI reasoning to Python function apps with Azure Functions Agent bindings, while keeping deterministic application code in control. The post Bring agentic reasoning to Python function apps with Azure Functions Agent bindings (preview) appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Victoria Hall"
+    },
+    {
+      "title": "What Would You Build in Azure If You Didn’t Have to Ask for a Budget First?",
+      "link": "https://devblogs.microsoft.com/visualstudio/what-would-you-build-in-azure-if-you-didnt-have-to-ask-for-a-budget-first/",
+      "published": "2026-10-06T14:00:03+00:00",
+      "summary": "Maybe you’d deploy that .NET application you’ve been working on. Try a serverless architecture. Experiment with containers. Build a proof of concept. Or spend some time exploring an Azure service you haven’t used yet. If you’re an eligible Visual Studio subscriber, you may already have a personal...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt"
+    },
+    {
+      "title": "From Business Brief to Production Agent: Building in Three Stages, Not One",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-business-brief-to-production-agent-building-in-three-stages/ba-p/4561590",
+      "published": "2026-10-06T13:00:00+00:00",
+      "summary": "The problem with \"AI can help my business\" Every non-technical founder has heard some version of \"you should put an AI agent on this.\" Far fewer have seen what it actually costs, in time and money, to find out whether that's true for their specific business — before committing to it. The honest...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "OlivierB123"
+    },
+    {
+      "title": "Your Agents Need More Than a Place to Run",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/your-agents-need-more-than-a-place-to-run/ba-p/4561565",
+      "published": "2026-10-05T22:35:24+00:00",
+      "summary": "In architecture reviews with enterprise teams moving their first agentic applications toward production, I often hear the same plan: the team has containerized their agent and intends to run it on the managed Kubernetes cluster the organization already trusts. The reasoning is sensible, since the...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "navbhasin"
+    },
+    {
+      "title": "Azure AD Graph API retirement: action required for older versions of Azure CLI and Azure PowerShell",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-ad-graph-api-retirement-action-required-for-older-versions/ba-p/4562225",
+      "published": "2026-10-05T22:25:40+00:00",
+      "summary": "Summary Azure AD Graph API (the legacy graph.windows.net API, not to be confused with Microsoft Graph) entered its retirement process in September 2024, with the general shutdown completed on July 1, 2025. Azure CLI and Azure PowerShell completed their migration away from Azure AD Graph well ahead...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy"
+    },
     {
       "title": "Connect Azure Functions to more services with managed connectors",
       "link": "https://devblogs.microsoft.com/azure-sdk/connect-azure-functions-to-more-services-with-managed-connectors/",
@@ -12,6 +84,15 @@
       "author": "Lily Ma"
     },
     {
+      "title": "From User inputs to Retrieval optimization: Making Retrieval Smarter with LLMs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-user-inputs-to-retrieval-optimization-making-retrieval/ba-p/4561293",
+      "published": "2026-10-05T19:00:00+00:00",
+      "summary": "Traditional retrieval systems are largely optimized around query text. Ranking models attempt to infer intent from words alone and identify the most relevant documents. In practice, however, users rarely speak in the same language as index. They do not know field names, metadata values, scoring...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "jieyucheng"
+    },
+    {
       "title": "Azure Site Recovery for Azure Local Is Now Generally Available!",
       "link": "https://techcommunity.microsoft.com/t5/azure-stack-blog/azure-site-recovery-for-azure-local-is-now-generally-available/ba-p/4529925",
       "published": "2026-10-05T16:00:00+00:00",
@@ -19,6 +100,15 @@
       "blog": "Azure Stack",
       "blogId": "azurestackblog",
       "author": "KerimHanif"
+    },
+    {
+      "title": "Voice agents in Foundry Agent Service: architecture, trust boundaries, and real-audio latency",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/voice-agents-in-foundry-agent-service-architecture-trust/ba-p/4560813",
+      "published": "2026-10-05T16:00:00+00:00",
+      "summary": "Building enterprise voice agents used to mean stitching together speech services, real-time models, turn detection, and tool orchestration—then owning every failure mode. Voice agents in Foundry Agent Service consolidate a multi-service voice solution into a versioned, managed agent. They reduce...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Yassine_El_Ghali"
     },
     {
       "title": "Logic Apps Aviators Newsletter - October 2026",
@@ -46,6 +136,15 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Sudhanshu Khera, Iria Osara"
+    },
+    {
+      "title": "Banking Challenges with AI and Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/banking-challenges-with-ai-and-agents/ba-p/4560463",
+      "published": "2026-10-05T13:00:00+00:00",
+      "summary": "When BNY deployed agents at enterprise scale, they faced a choice every bank encounters: how do you give AI systems the autonomy to be useful while maintaining the control regulators demand? This article breaks down the architectural decisions banks are making today—from runtime hosting to network...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "gabyb"
     },
     {
       "title": "Complete Guide to Azure Databricks Cost Optimization for Data Engineers",
@@ -417,15 +516,6 @@
       "author": "Madeline Egan"
     },
     {
-      "title": "Demystifying Dynamic AI Routing: Exploring the model router in Foundry Models with RouteLab",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/demystifying-dynamic-ai-routing-exploring-the-model-router-in/ba-p/4557388",
-      "published": "2026-09-30T13:00:00+00:00",
-      "summary": "As enterprise generative AI applications mature, engineering teams face a continuous balancing act between cost, latency, and response quality. Hard-coding a frontier model for every request ensures high quality but maximizes token costs and latency. Conversely, defaulting to smaller, faster models...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "vikaspandey"
-    },
-    {
       "title": "Cosmos DB Mirroring in Fabric Now Supports Virtual Network Data Gateways",
       "link": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-mirroring-in-fabric-now-supports-virtual-network-data-gateways/",
       "published": "2026-09-30T07:00:35+00:00",
@@ -696,15 +786,6 @@
       "author": "varghesejoji"
     },
     {
-      "title": "DeepSeek-V4.1-Flash is coming to Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deepseek-v4-1-flash-is-coming-to-microsoft-foundry/ba-p/4556431",
-      "published": "2026-09-25T15:58:46+00:00",
-      "summary": "Agentic applications increasingly need to process entire code repositories, large document collections, images, tool results, and long-running conversation histories. As that context grows, the key-value, or KV, cache maintained during inference can become a major constraint on cost, memory, and...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "RashaudSavage"
-    },
-    {
       "title": "Troubleshooting Azure Storage Deletion: Immutability, WORM, and Version Retention",
       "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/troubleshooting-azure-storage-deletion-immutability-worm-and/ba-p/4559051",
       "published": "2026-09-25T04:15:53+00:00",
@@ -793,15 +874,6 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Linda Li"
-    },
-    {
-      "title": "Announcing the Playwright Workspaces Remote MCP Server for Agentic Browser Automation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/announcing-the-playwright-workspaces-remote-mcp-server-for/ba-p/4555698",
-      "published": "2026-09-24T14:41:55+00:00",
-      "summary": "An agent can analyze a request, choose the right next step, and call every available API—then stall when the final action exists only in a web interface. AI agents are increasingly capable of reasoning, planning, and working with APIs. But many real business processes still depend on websites:...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "NandiniMuralidharan"
     },
     {
       "title": "Engineering Agentic Recall Controls with MCP and Microsoft Foundry",
@@ -939,15 +1011,6 @@
       "author": "Aaron Powell"
     },
     {
-      "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running/ba-p/4558051",
-      "published": "2026-09-22T16:47:05+00:00",
-      "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process. As that work gets longer, raw intelligence is only...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal"
-    },
-    {
       "title": "Using Azure Blob Storage as a durable filesystem for LangChain Deep Agents",
       "link": "https://devblogs.microsoft.com/azure-sdk/using-azure-blob-storage-as-a-durable-filesystem-for-langchain-deep-agents-2/",
       "published": "2026-09-22T15:00:44+00:00",
@@ -1063,15 +1126,6 @@
       "blog": "FinOps",
       "blogId": "finopsblog",
       "author": "Madhura Amlekar"
-    },
-    {
-      "title": "A2A Endpoints and A2A Tool in Microsoft Foundry agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/a2a-endpoints-and-a2a-tool-in-microsoft-foundry-agents/ba-p/4557115",
-      "published": "2026-09-18T19:00:00+00:00",
-      "summary": "Agent-to-agent collaboration just became much easier to build in Microsoft Foundry. The A2A Tool and incoming A2A endpoints support A2A protocol version 1.0, which is generally available. The earlier a2a_preview tool type and protocol version 0.3 remain available in preview for existing...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Christian_Coello"
     },
     {
       "title": "FinOps-Ready Azure Landing Zone - Part 2",
