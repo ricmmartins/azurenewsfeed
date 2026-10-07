@@ -1,7 +1,106 @@
 {
-  "lastUpdated": "2026-10-06T17:56:35.458013+00:00",
-  "totalArticles": 184,
+  "lastUpdated": "2026-10-07T18:26:25.765308+00:00",
+  "totalArticles": 193,
   "articles": [
+    {
+      "title": "From Spec-First to Enterprise-Ready: Extending GitHub Spec Kit",
+      "link": "https://devblogs.microsoft.com/blog/from-spec-first-to-enterprise-ready-extending-github-spec-kit/",
+      "published": "2026-10-07T15:00:26+00:00",
+      "summary": "How presets, extensions, bundles, workflows, and governed catalogs make Spec-Driven Development adaptable at scale This article continues Spec-Driven Development: A Spec-First Approach to AI-Native Engineering, which introduced the principles and lifecycle of SDD. Here, we focus on the next...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Apoorv Gupta"
+    },
+    {
+      "title": "Meet Microsoft at Oracle AI World 2026",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/meet-microsoft-at-oracle-ai-world-2026/ba-p/4562468",
+      "published": "2026-10-07T14:00:00+00:00",
+      "summary": "Where your Oracle data meets Microsoft AI Most enterprise AI runs into the same wall: the data lives in Oracle, and the AI lives somewhere else. Oracle AI Database@Azure closes that gap, running Oracle data alongside Microsoft’s trusted AI platform. Microsoft is a sponsor at Oracle AI World 2026 —...",
+      "blog": "Oracle on Azure",
+      "blogId": "oracleonazureblog",
+      "author": "AlexStairs"
+    },
+    {
+      "title": "Public Preview: Onboard Kubernetes Clusters to Azure Arc with the Multicloud Connector",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/public-preview-onboard-kubernetes-clusters-to-azure-arc-with-the/ba-p/4556330",
+      "published": "2026-10-07T13:59:49+00:00",
+      "summary": "Today we're announcing that the Azure Arc Multuicloud Connector Arc onboarding solution for Kubernetes clusters is in public preview for both Amazon EKS and Google GKE! With this release, the Multicloud Connector automatically discovers eligible EKS clusters in your connected AWS accounts and GKE...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "jalenmcg"
+    },
+    {
+      "title": "Update network rules for the API Management service tag",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/update-network-rules-for-the-api-management-service-tag/ba-p/4562518",
+      "published": "2026-10-07T10:41:21+00:00",
+      "summary": "To improve Azure API Management resiliency and scalability, we’re expanding our infrastructure and adding control-plane IP addresses. These addresses are included in the ApiManagement service tag. If you use VNet internal or VNET external with the classic (v1) tiers, check your network security...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Sreekanth_Thirthala"
+    },
+    {
+      "title": "Bulk changing blob tiers using Azure Storage Actions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/bulk-changing-blob-tiers-using-azure-storage-actions/ba-p/4559342",
+      "published": "2026-10-07T08:13:05+00:00",
+      "summary": "Managing blob access tiers at scale can be challenging, especially when a storage account contains a large number of blobs spread across containers and virtual directories. Traditionally, changing blob tiers in bulk may require scripts, automation runbooks, or custom tooling to iterate through each...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "hqaffesha"
+    },
+    {
+      "title": "Azure AD Graph API retirement: action required for older versions of Azure CLI and Azure PowerShell",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-ad-graph-api-retirement-action-required-for-older-versions/ba-p/4562225",
+      "published": "2026-10-07T02:00:01+00:00",
+      "summary": "Summary Azure AD Graph API (the legacy graph.windows.net API, not to be confused with Microsoft Graph) entered its retirement process in September 2024, with the general shutdown completed on July 1, 2025. Azure CLI and Azure PowerShell completed their migration away from Azure AD Graph well ahead...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy"
+    },
+    {
+      "title": "Try SqlClient’s new connection pool for faster parallel connections",
+      "link": "https://devblogs.microsoft.com/azure-sql/try-sqlclients-new-connection-pool-for-faster-parallel-connections/",
+      "published": "2026-10-06T22:42:12+00:00",
+      "summary": "You told us that applications using Microsoft.Data.SqlClient can take too long to establish the database connections they need. When many requests need connections at the same time, waiting for the connection pool to grow can delay application readiness and increase latency. This can happen even in...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Malcolm Daigle"
+    },
+    {
+      "title": "Introducing Grok 4.7 on Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-grok-4-7-on-microsoft-foundry/ba-p/4562168",
+      "published": "2026-10-06T21:11:11+00:00",
+      "summary": "Today, Grok 4.7 from SpaceXAI is generally available in Microsoft Foundry Models, expanding the portfolio of leading models available to developers and enterprises building the next generation of AI applications. Based on SpaceXAI's latest model release, Grok 4.7 is designed for advanced reasoning,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "MaheshBalachandran"
+    },
+    {
+      "title": "Upcoming SQL and AI Events to Put on Your Calendar",
+      "link": "https://devblogs.microsoft.com/azure-sql/sql-calendar-2027q4/",
+      "published": "2026-10-06T20:50:48+00:00",
+      "summary": "Developers, database administrators, data professionals, architects and technology decision makers have several opportunities to connect, learn and gain hands-on experience this fall. 2027 Q4 SQL Events Date Event City & region Registration Fri, Oct 16, 2026 💻 SQL AI App in a Day workshop Sanford,...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon"
+    },
+    {
+      "title": "Build Azure canvases with the Canvas authoring plugin",
+      "link": "https://devblogs.microsoft.com/blog/build-azure-canvases-with-canvas-authoring/",
+      "published": "2026-10-06T18:30:00+00:00",
+      "summary": "Learn how the Canvas authoring plugin helps you build Azure canvases with Microsoft Canvas Toolkit, from a read-only starter to a working app you can inspect, test, and adapt.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Alex Weininger"
+    },
+    {
+      "title": "GitOps with Argo CD extension for AKS is Now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/gitops-with-argo-cd-extension-for-aks-is-now-generally-available/ba-p/4562231",
+      "published": "2026-10-06T18:00:00+00:00",
+      "summary": "We are excited to announce the general availability (GA) of GitOps with Argo CD extension for Azure Kubernetes Service (AKS)! Argo CD has become one of the most widely adopted GitOps tooling in the Kubernetes ecosystem, helping organizations deploy and operate applications on Kubernetes. As...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Poornima99"
+    },
     {
       "title": "Bringing Native AOT to the Aspire dashboard",
       "link": "https://devblogs.microsoft.com/aspire/aspire-dashboard-native-aot/",
@@ -57,6 +156,15 @@
       "author": "OlivierB123"
     },
     {
+      "title": "What is Agent Experience (AX)?",
+      "link": "https://devblogs.microsoft.com/blog/what-is-agent-experience-ax/",
+      "published": "2026-10-06T09:18:05+00:00",
+      "summary": "Your agent says it's done, and the code compiles, but did it pick your technology? Did it use it correctly? Learn what Agent Experience (AX) is, how to measure it, and why the obvious fix isn't always the right one.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
       "title": "Your Agents Need More Than a Place to Run",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/your-agents-need-more-than-a-place-to-run/ba-p/4561565",
       "published": "2026-10-05T22:35:24+00:00",
@@ -64,15 +172,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "navbhasin"
-    },
-    {
-      "title": "Azure AD Graph API retirement: action required for older versions of Azure CLI and Azure PowerShell",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-ad-graph-api-retirement-action-required-for-older-versions/ba-p/4562225",
-      "published": "2026-10-05T22:25:40+00:00",
-      "summary": "Summary Azure AD Graph API (the legacy graph.windows.net API, not to be confused with Microsoft Graph) entered its retirement process in September 2024, with the general shutdown completed on July 1, 2025. Azure CLI and Azure PowerShell completed their migration away from Azure AD Graph well ahead...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "Alex-wdy"
     },
     {
       "title": "Connect Azure Functions to more services with managed connectors",
@@ -606,6 +705,15 @@
       "author": "Dalibor_Kovacevic"
     },
     {
+      "title": "Build with Azure Canvases: a shared workspace for agents",
+      "link": "https://devblogs.microsoft.com/blog/azure-canvases/",
+      "published": "2026-09-29T18:30:00+00:00",
+      "summary": "See how Azure Canvases bring plans, code, previews, and deployment feedback together in a collaborative workspace for agent-assisted development.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Matt Hernandez"
+    },
+    {
       "title": "Comparing Three Approaches to AI Agent Evaluation and Observability",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/comparing-three-approaches-to-ai-agent-evaluation-and/ba-p/4560833",
       "published": "2026-09-29T18:25:14+00:00",
@@ -631,6 +739,15 @@
       "blog": "Windows Command Line",
       "blogId": "commandline",
       "author": "Pierre Boulay"
+    },
+    {
+      "title": "Enabling Consistent AI-Assisted Engineering with GitHub Copilot Plugins",
+      "link": "https://devblogs.microsoft.com/blog/enabling-consistent-ai-assisted-engineering-with-github-copilot-plugins/",
+      "published": "2026-09-29T16:30:35+00:00",
+      "summary": "When an engineer or team creates useful agentic artifacts for their daily work (e.g., instructions, skills, and MCP configurations), others naturally want to adopt them when they see how those artifacts could help with their own work. Sharing the files is straightforward, but keeping those...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Fernando de Oliveira"
     },
     {
       "title": "Visual Studio September Update – Power Your Workflow with Your Model",
@@ -712,6 +829,15 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "Yiwen_Rong"
+    },
+    {
+      "title": "Get started with the GitHub Copilot app: a free, hands-on course",
+      "link": "https://devblogs.microsoft.com/blog/github-copilot-app-for-beginners/",
+      "published": "2026-09-28T18:05:00+00:00",
+      "summary": "Learn to direct AI coding agents, review their work, and build reliable development workflows with this free GitHub Copilot app course.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Dan Wahlin"
     },
     {
       "title": "MSSQL Extension for VS Code: New Getting Started Page, Agent skills, SQL Formatter, and more",
@@ -840,15 +966,6 @@
       "author": "Muzz Imam"
     },
     {
-      "title": "Insights in Foundry Turns Agent Traces into Action",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/insights-in-foundry-turns-agent-traces-into-action/ba-p/4559634",
-      "published": "2026-09-24T17:30:00+00:00",
-      "summary": "If you’ve shipped an agent to production, you’ve probably watched it repeat a mistake that no dashboard flagged and no evaluation caught. A single agent can generate thousands of traces, and predefined evaluations can only detect the problems a team already knew to look for. That leaves developers...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "katelynrothney"
-    },
-    {
       "title": "Oracle AI Database@Azure Expands with Azure Native Oracle GoldenGate User Experience, Observability",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/oracle-ai-database-azure-expands-with-azure-native-oracle/ba-p/4559430",
       "published": "2026-09-24T17:29:07+00:00",
@@ -927,7 +1044,7 @@
       "summary": "Agents Act. You Set the Limits. Your platform needs to run untrusted code. Agents choose actions at runtime, from installing packages to calling APIs. In a multi-tenant service, you have to support both without letting one customer's code reach another customer's data. That requires an execution...",
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
-      "author": "Jan-Kalis"
+      "author": "JanKalis"
     },
     {
       "title": "Catalyst: Frontier stories of AI Infrastructure innovation",
@@ -1045,15 +1162,6 @@
       "blog": "AKS Blog",
       "blogId": "aksblog",
       "author": "Microsoft"
-    },
-    {
-      "title": "PostgreSQL to SQL Field Notes: Date & Time",
-      "link": "https://devblogs.microsoft.com/azure-sql/pg-to-sql-date-time/",
-      "published": "2026-09-21T22:44:58+00:00",
-      "summary": "Moving from PostgreSQL to SQL Server? Learn the key differences between timestamp, timestamptz, datetime2, and datetimeoffset, including precision, time zones, offsets, and storage. The post PostgreSQL to SQL Field Notes: Date & Time appeared first on Azure SQL Dev Corner.",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
     },
     {
       "title": "Enable Dynamic Workflows in Azure Functions hosted skills",
@@ -1353,15 +1461,6 @@
       "author": "Justin Yoo"
     },
     {
-      "title": "Coding agents are picking Azure SQL Database",
-      "link": "https://devblogs.microsoft.com/azure-sql/coding-agents-are-picking-azure-sql-database/",
-      "published": "2026-09-15T12:55:05+00:00",
-      "summary": "I went looking for Azure SQL Database in a recent coding agent benchmark, honestly unsure whether Microsoft SQL would show up. Armature ran a study where real coding agent CLIs (Claude Code, Codex, Cursor) were dropped into six synthetic-but-realistic repositories and asked to pick a database, then...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Anna Hoffman"
-    },
-    {
       "title": "Securing AI Agent Tool Calls in Azure: Identity, Authorization, and Verified Execution",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/securing-ai-agent-tool-calls-in-azure-identity-authorization-and/ba-p/4546824",
       "published": "2026-09-15T11:00:34+00:00",
@@ -1639,24 +1738,6 @@
       "blog": "AKS Blog",
       "blogId": "aksblog",
       "author": "Microsoft"
-    },
-    {
-      "title": "Logic Apps Aviators Newsletter - September 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-september-2026/ba-p/4553787",
-      "published": "2026-09-07T15:00:00+00:00",
-      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month September 2026's Ace Aviator: Parth Talaviya Product Leader @ EG4 Eletronics What's your role and title? What are your responsibilities? AI-Powered Azure/.NET Solution ArchitectI...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
-    },
-    {
-      "title": "Securing Your Certification Authorities (Practical PKI Part 4)",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/securing-your-certification-authorities-practical-pki-part-4/ba-p/4549029",
-      "published": "2026-09-07T10:57:56+00:00",
-      "summary": "My name is Ron Arestia, and I am a Security Researcher with Microsoft’s Detection and Response Team (DART). We respond to customer cybersecurity incidents to assist with containment and recovery from threat actors. In this blog post, we work to enhance the security position of PKI by focusing on...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "RonArestia"
     }
   ]
 }
