@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-10-07T18:26:25.765308+00:00",
-  "totalArticles": 193,
+  "lastUpdated": "2026-10-08T18:25:46.147656+00:00",
+  "totalArticles": 191,
   "articles": [
+    {
+      "title": "Finding the Elusive MDE PUA Audit Events on Linux",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/finding-the-elusive-mde-pua-audit-events-on-linux/ba-p/4562985",
+      "published": "2026-10-08T17:17:13+00:00",
+      "summary": "Potentially Unwanted Applications, or PUA, they aren't necessarily malware, but they are applications you probably don't want running across your environment either. Microsoft defines potentially unwanted applications as software that can adversely affect endpoint performance or use. Examples...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "Vytas_Boyev"
+    },
+    {
+      "title": "Adding persistence to the Aspire dashboard",
+      "link": "https://devblogs.microsoft.com/aspire/aspire-dashboard-persistence/",
+      "published": "2026-10-08T17:00:00+00:00",
+      "summary": "Aspire 13.6 adds dashboard persistence and run history. Revisit telemetry after a restart, retain more data, and explore the SQLite and Dapper implementation behind it. The post Adding persistence to the Aspire dashboard appeared first on Aspire Blog.",
+      "blog": "Aspire Blog",
+      "blogId": "aspireblog",
+      "author": "James Newton-King"
+    },
+    {
+      "title": "New Wiki Editor Experience",
+      "link": "https://devblogs.microsoft.com/devops/new-wiki-editor-experience/",
+      "published": "2026-10-08T14:24:03+00:00",
+      "summary": "We are excited to announce a new editing experience for Wiki pages. We are replacing the existing editor with a new editor built on Monaco Editor, the same editor technology that powers Visual Studio Code. Monaco brings many of the editing capabilities familiar to Visual Studio Code to Wiki pages,...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem"
+    },
+    {
+      "title": "💲Announcing Free Grant and Pricing for Logic Apps Automation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-free-grant-and-pricing-for-logic-apps-automation/ba-p/4562264",
+      "published": "2026-10-08T08:03:09+00:00",
+      "summary": "Today, we're announcing pricing for Azure Logic Apps Automation, now in public preview, along with monthly free grants that make it easier to start building, experimenting, and bringing automations to life. Logic Apps Automation is Azure's fully managed platform for business process automation and...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "DivSwa"
+    },
+    {
+      "title": "Claude Haiku 5.5 is now available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-haiku-5-5-is-now-available-in-microsoft-foundry/ba-p/4562408",
+      "published": "2026-10-08T00:48:21+00:00",
+      "summary": "Claude Haiku 5.5 is now available in Microsoft Foundry. The fastest and most efficient model in the Claude 5.5 family, it is built for high-volume, cost-sensitive agentic work, from live customer support to focused subtasks within larger agent systems. It also costs around 75% less than Claude...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal"
+    },
+    {
+      "title": "Introducing the Microsoft Sentinel ASIM EmailEvent schema",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-the-microsoft-sentinel-asim-emailevent-schema/ba-p/4562581",
+      "published": "2026-10-07T20:21:05+00:00",
+      "summary": "Email remains one of the most common entry points for security threats. Yet email products often describe the same activity with different table names, fields, and values. This makes it harder to build detections and investigations that work consistently across data sources. The Microsoft Sentinel...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "JamesAde"
+    },
+    {
+      "title": "Making evaluations cost-efficient",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/making-evaluations-cost-efficient/ba-p/4561786",
+      "published": "2026-10-07T19:00:00+00:00",
+      "summary": "Every evaluation run is, under the hood, a stack of LLM-as-judge calls. Behind Microsoft Foundry's evaluation service, every graded row becomes judge traffic: hundreds of thousands of judge calls a day, billions of prompt tokens in any given two-week window, and roughly a dozen judge calls beneath...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amq"
+    },
+    {
+      "title": "Azure Document Intelligence and Azure Content Understanding: a practical guide",
+      "link": "https://devblogs.microsoft.com/foundry/choosing-azure-document-intelligence-and-content-understanding/",
+      "published": "2026-10-07T18:45:01+00:00",
+      "summary": "Compare Azure Document Intelligence and Azure Content Understanding across extraction architectures, workload fit, Layout capabilities, deployment options, and practical evaluation criteria. The post Azure Document Intelligence and Azure Content Understanding: a practical guide appeared first on...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Chu Lahlou"
+    },
+    {
+      "title": "Anyscale on Azure is now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/anyscale-on-azure-is-now-generally-available/ba-p/4562547",
+      "published": "2026-10-07T17:12:20+00:00",
+      "summary": "Anyscale on Azure is now Generally Available. Enterprises can run the Ray distributed runtime as a managed service on Azure Kubernetes Service (AKS), with workloads running in the customer’s own Azure subscription, network, and identity boundary. With General Availability, Anyscale on Azure is...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "bobmital"
+    },
+    {
+      "title": "Closing the AI Agent Governance Gap with Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/closing-the-ai-agent-governance-gap-with-microsoft-foundry/ba-p/4561827",
+      "published": "2026-10-07T17:00:00+00:00",
+      "summary": "Developers are shipping agents faster than security teams can catalog them. As organizations move beyond pilots and begin operating dozens or hundreds of agents, one question keeps coming up: how do we actually get visibility into our AI agents across our environment? In this article, we'll walk...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "AlexandraMiller-Browne"
+    },
     {
       "title": "From Spec-First to Enterprise-Ready: Extending GitHub Spec Kit",
       "link": "https://devblogs.microsoft.com/blog/from-spec-first-to-enterprise-ready-extending-github-spec-kit/",
@@ -642,24 +732,6 @@
       "author": "varghesejoji"
     },
     {
-      "title": "Introducing GPT-6.1 Sol in Microsoft Foundry: Advanced intelligence, optimized for production agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-gpt-6-1-sol-in-microsoft-foundry-advanced/ba-p/4560811",
-      "published": "2026-09-30T00:08:07+00:00",
-      "summary": "Today, OpenAI's GPT-6.1 Sol is generally available in Microsoft Foundry. GPT-6.1 Sol is an upgrade to GPT-6 Sol, delivering substantial improvements in agentic coding, computer use, and professional work, with performance approaching GPT-6 Astra across these evaluations. It offers a new balance of...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
-    },
-    {
-      "title": "AKS on bare metal now on Ubuntu",
-      "link": "https://blog.aks.azure.com/2026/09/25/aks-baremetal-ubuntu",
-      "published": "2026-09-30T00:00:00+00:00",
-      "summary": "Run Azure Kubernetes Service on customer-owned Ubuntu infrastructure with bare metal performance, flexible hardware choices, and consistent Azure management.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
       "title": "Now Available: Management Group–Scoped Savings Plan and Reservation Recommendations in Azure",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/now-available-management-group-scoped-savings-plan-and/ba-p/4560869",
       "published": "2026-09-29T23:47:56+00:00",
@@ -811,24 +883,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "Jamesdld23"
-    },
-    {
-      "title": "Claude Sonnet 5.5 is now available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-sonnet-5-5-is-now-available-in-microsoft-foundry/ba-p/4559774",
-      "published": "2026-09-28T18:18:01+00:00",
-      "summary": "Today, Claude Sonnet 5.5 is available in Microsoft Foundry, bringing Anthropic’s latest Sonnet model to developers building AI applications and agents. Claude Sonnet 5.5 is a smarter, more efficient Sonnet, delivering a clear step forward from Sonnet 5 on coding and knowledge work with a lower cost...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amar_badal"
-    },
-    {
-      "title": "Introducing voice agents in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-voice-agents-in-microsoft-foundry/ba-p/4557276",
-      "published": "2026-09-28T18:09:24+00:00",
-      "summary": "Voice is quickly becoming a major way people interact with AI agents. Recent research found that 14% of users already prefer speaking with generative AI rather than typing1, signaling that voice interactions are moving beyond early-adopter use cases and toward the mainstream. As adoption grows,...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Yiwen_Rong"
     },
     {
       "title": "Get started with the GitHub Copilot app: a free, hands-on course",
@@ -1029,15 +1083,6 @@
       "author": "nitya"
     },
     {
-      "title": "AKS desktop evolves with AI troubleshooting and plugins",
-      "link": "https://blog.aks.azure.com/2026/09/24/aks-desktop-ai-troubleshooting",
-      "published": "2026-09-24T00:00:00+00:00",
-      "summary": "See how AKS desktop v0.10.0 uses AI-assisted troubleshooting, cluster context, proactive diagnosis, and plugins to help teams resolve Kubernetes issues.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
       "title": "Azure Container Apps Sandboxes, Now Generally Available",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-now-generally-available/ba-p/4559125",
       "published": "2026-09-23T23:33:57+00:00",
@@ -1153,15 +1198,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "kinfey"
-    },
-    {
-      "title": "Announcing the public preview of flex nodes for AKS",
-      "link": "https://blog.aks.azure.com/2026/09/22/flex-nodes-for-aks",
-      "published": "2026-09-22T00:00:00+00:00",
-      "summary": "Extend one AKS control plane to run worker nodes securely across Azure regions, edge locations, and on-premises hardware with flex nodes for AKS (preview).",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
     },
     {
       "title": "Enable Dynamic Workflows in Azure Functions hosted skills",
@@ -1324,15 +1360,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "varghesejoji"
-    },
-    {
-      "title": "Running GitHub Actions Runner Controller on AKS Automatic",
-      "link": "https://blog.aks.azure.com/2026/09/17/github-actions-runner-controller-aks-automatic",
-      "published": "2026-09-17T00:00:00+00:00",
-      "summary": "Create an AKS Automatic cluster, install Actions Runner Controller, and run a GitHub Actions workflow on ephemeral runner pods in your Azure network.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
     },
     {
       "title": "The bottleneck isn't AI. It's transformation capacity.",
@@ -1623,15 +1650,6 @@
       "author": "AzureAndrewChen"
     },
     {
-      "title": "How Azure uses AI to turn feedback into improved customer experience",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-azure-uses-ai-to-turn-feedback-into-improved-customer/ba-p/4552810",
-      "published": "2026-09-10T02:27:37+00:00",
-      "summary": "Authors: eshaanbhattad​, jenniferjhan​, lakshminarasimha​, bharadwajr​ The Challenge: Synthesizing fragmented feedback signals, to improve Azure's experience quality at scale Customers experience products and services end to end, but product experiences are often structured around individual...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "bharadwajr"
-    },
-    {
       "title": "What’s new in Microsoft Foundry: July and August 2026",
       "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/",
       "published": "2026-09-09T23:00:39+00:00",
@@ -1702,42 +1720,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Inside Orchestrated Media Intelligence: The Technology Behind Connected Media Workflows",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/inside-orchestrated-media-intelligence-the-technology-behind/ba-p/4553782",
-      "published": "2026-09-08T17:00:00+00:00",
-      "summary": "What orchestration changes Media workflows are already distributed across specialized creative, content, rights, archive, delivery, audience, and business systems. The technical challenge is not to replace those systems with one monolithic platform. It is to create an orchestration layer that can...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "kshatzkamer"
-    },
-    {
-      "title": "Today I will… find hidden latency across a distributed .NET application",
-      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-find-hidden-latency-across-a-distributed-net-application/",
-      "published": "2026-09-08T16:00:22+00:00",
-      "summary": "When a distributed application feels slow, the user sees one delay. The code behind that delay may run across a web frontend, backend services, databases, and external APIs. If you profile only the frontend while the backend is slow, the profiler can show that the frontend is healthy without...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Justin Yoo"
-    },
-    {
-      "title": "The Agentic Road to Revenue",
-      "link": "https://devblogs.microsoft.com/all-things-azure/the-agentic-road-to-revenue/",
-      "published": "2026-09-08T04:45:34+00:00",
-      "summary": "The Agentic Road to Revenue From SaaS concept to Microsoft Marketplace. Building a SaaS application is only part of becoming a commercial software provider. To sell through the Microsoft Marketplace., the application also needs tenant isolation, subscription lifecycle management, billing...",
-      "blog": "All Things Azure",
-      "blogId": "allthingsazure",
-      "author": "davidwright"
-    },
-    {
-      "title": "AKS Configurable Scheduler Profiles",
-      "link": "https://blog.aks.azure.com/2026/09/08/aks-config-scheduler-profiles",
-      "published": "2026-09-08T00:00:00+00:00",
-      "summary": "Improve GPU and CPU utilization, align pod placement to critical workloads, and reduce node costs at scale with Configurable Scheduler Profiles on AKS.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
     }
   ]
 }
