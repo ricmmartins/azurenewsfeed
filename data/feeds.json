@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-10-08T18:25:46.147656+00:00",
-  "totalArticles": 191,
+  "lastUpdated": "2026-10-09T17:58:50.289666+00:00",
+  "totalArticles": 197,
   "articles": [
+    {
+      "title": "Microsoft at OCP Global Summit 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/microsoft-at-ocp-global-summit-2026/ba-p/4562337",
+      "published": "2026-10-09T15:17:37+00:00",
+      "summary": "At OCP Global Summit 2026, Microsoft will showcase how we’re advancing the infrastructure needed to scale AI, from silicon and systems to the datacenter. Come visit Microsoft at Booth C73 and hear from Microsoft leaders and experts through our keynote and sessions, panels, and workshops across the...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ceciliaxia"
+    },
+    {
+      "title": "Azure Managed Redis Deployment Automation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/azure-managed-redis-deployment-automation/ba-p/4547874",
+      "published": "2026-10-09T12:30:36+00:00",
+      "summary": "Sometimes we may see some temporary capacity restrictions on some Azure Regions, while deploying Azure Managed Redis (AMR), and when that happen, the recommendation is usually retrying using a different Azure Region, a different AMR SKU, or retrying during off-peak hours or weekends.Retrying the...",
+      "blog": "Azure PaaS",
+      "blogId": "azurepaasblog",
+      "author": "LuisFilipe"
+    },
+    {
+      "title": "Introducing the Native Confluent Cloud Connector Experience in Azure Cosmos DB!",
+      "link": "https://devblogs.microsoft.com/cosmosdb/introducing-the-native-confluent-cloud-connector-experience-in-azure-cosmos-db/",
+      "published": "2026-10-09T07:00:28+00:00",
+      "summary": "Co-authored with Praveen Raja P Azure Cosmos DB already includes a powerful event foundation: change feed provides a durable, ordered record of item changes within each logical partition. It is ideal for reacting to operational data as it changes, building projections, and driving workflows...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay"
+    },
+    {
+      "title": "Azure CLI on macOS got security upgrade: native broker authentication",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-cli-on-macos-got-security-upgrade-native-broker/ba-p/4563073",
+      "published": "2026-10-09T04:40:50+00:00",
+      "summary": "Why we built this If you manage Azure resources from a Mac today, az login opens a browser tab, you sign in, and a token comes back to the CLI. That's worked well for a long time. As security requirements become more stringent, many enterprise organizations are adopting secure authentication...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy"
+    },
+    {
+      "title": "Optimizing Oracle-to-Power BI Performance and the Path to Modern Analytics",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/optimizing-oracle-to-power-bi-performance-and-the-path-to-modern/ba-p/4563061",
+      "published": "2026-10-09T01:46:15+00:00",
+      "summary": "Organizations frequently rely on Oracle databases for large-scale operational workloads while using Microsoft Power BI as their enterprise analytics and visualization platform. Although connecting Power BI directly to Oracle is fully supported, performance can become challenging as datasets grow...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Dynamic Workflows in Azure Functions Hosted Skills: Durable, AI-Led Work for Event-Driven Apps",
+      "link": "https://devblogs.microsoft.com/azure-sdk/dynamic-workflows-azure-functions-hosted-skills/",
+      "published": "2026-10-08T19:09:00+00:00",
+      "summary": "Azure Functions is the event-driven application platform, and Hosted Skills adds AI reasoning to your app. Dynamic Workflows give the app a durable way to carry out AI-led, multi-step work after the triggering invocation is finished. The model writes a plan (a DAG) one time, and Durable Functions...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Tsuyoshi Ushio"
+    },
     {
       "title": "Finding the Elusive MDE PUA Audit Events on Linux",
       "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/finding-the-elusive-mde-pua-audit-events-on-linux/ba-p/4562985",
@@ -28,6 +82,15 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem"
+    },
+    {
+      "title": "Azure Key Vault and BYOK: Lessons Learned",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-key-vault-and-byok-lessons-learned/ba-p/4561156",
+      "published": "2026-10-08T12:41:54+00:00",
+      "summary": "Bring Your Own Key (BYOK) lets you import externally generated key material into Azure Key Vault. Importing that material again creates a new version; it does not recreate the original version identifier. If Azure Storage still requires the original customer-managed key (CMK) version to unwrap...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "gurjsing"
     },
     {
       "title": "💲Announcing Free Grant and Pricing for Logic Apps Automation",
@@ -732,6 +795,15 @@
       "author": "varghesejoji"
     },
     {
+      "title": "AKS on bare metal now on Ubuntu",
+      "link": "https://blog.aks.azure.com/2026/09/25/aks-baremetal-ubuntu",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "Run Azure Kubernetes Service on customer-owned Ubuntu infrastructure with bare metal performance, flexible hardware choices, and consistent Azure management.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
       "title": "Now Available: Management Group–Scoped Savings Plan and Reservation Recommendations in Azure",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/now-available-management-group-scoped-savings-plan-and/ba-p/4560869",
       "published": "2026-09-29T23:47:56+00:00",
@@ -1083,6 +1155,15 @@
       "author": "nitya"
     },
     {
+      "title": "AKS desktop evolves with AI troubleshooting and plugins",
+      "link": "https://blog.aks.azure.com/2026/09/24/aks-desktop-ai-troubleshooting",
+      "published": "2026-09-24T00:00:00+00:00",
+      "summary": "See how AKS desktop v0.10.0 uses AI-assisted troubleshooting, cluster context, proactive diagnosis, and plugins to help teams resolve Kubernetes issues.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
       "title": "Azure Container Apps Sandboxes, Now Generally Available",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-now-generally-available/ba-p/4559125",
       "published": "2026-09-23T23:33:57+00:00",
@@ -1200,6 +1281,15 @@
       "author": "kinfey"
     },
     {
+      "title": "Announcing the public preview of flex nodes for AKS",
+      "link": "https://blog.aks.azure.com/2026/09/22/flex-nodes-for-aks",
+      "published": "2026-09-22T00:00:00+00:00",
+      "summary": "Extend one AKS control plane to run worker nodes securely across Azure regions, edge locations, and on-premises hardware with flex nodes for AKS (preview).",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
       "title": "Enable Dynamic Workflows in Azure Functions hosted skills",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-dynamic-workflows-in-azure-functions-hosted-skills/ba-p/4551993",
       "published": "2026-09-21T21:29:25+00:00",
@@ -1243,15 +1333,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Spec-Driven Development comes to Azure Cosmos DB: The First Database Extension for GitHub Spec Kit",
-      "link": "https://devblogs.microsoft.com/cosmosdb/spec-driven-development-comes-to-azure-cosmos-db-the-first-database-extension-for-github-spec-kit/",
-      "published": "2026-09-21T07:00:11+00:00",
-      "summary": "AI coding agents can write much of an application’s code, but developers still need to review the decisions behind it. For a Cosmos DB application, that includes choosing partition keys, modeling access patterns, and configuring the client. Those decisions affect cost, performance, and reliability...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay"
     },
     {
       "title": "Beyond Cherry-Picking: Evaluating Text-to-Image Models",
@@ -1360,6 +1441,15 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "varghesejoji"
+    },
+    {
+      "title": "Running GitHub Actions Runner Controller on AKS Automatic",
+      "link": "https://blog.aks.azure.com/2026/09/17/github-actions-runner-controller-aks-automatic",
+      "published": "2026-09-17T00:00:00+00:00",
+      "summary": "Create an AKS Automatic cluster, install Actions Runner Controller, and run a GitHub Actions workflow on ephemeral runner pods in your Azure network.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "The bottleneck isn't AI. It's transformation capacity.",
@@ -1684,42 +1774,6 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "Sudha_Mahajan"
-    },
-    {
-      "title": "Announcing general availability of Ephemeral OS Disk with full caching for VM/VMSS",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-ephemeral-os-disk-with-full/ba-p/4554797",
-      "published": "2026-09-09T16:57:04+00:00",
-      "summary": "Today, we're excited to announce the GA of Ephemeral OS disk with full caching, designed to significantly enhance performance and reliability by utilizing local storage. This feature is ideal for AI workloads and IO-sensitive workloads, as it eliminates dependency on remote storage by caching the...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "viveksingla"
-    },
-    {
-      "title": "Build an AI-assisted support email workflow with Power Automate and Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-an-ai-assisted-support-email-workflow-with-power-automate/ba-p/4554297",
-      "published": "2026-09-09T15:28:16+00:00",
-      "summary": "Difficulty: Intermediate A support email arrives with a product name, an error code, and a country. Before anyone can help, someone has to interpret the request, find the right team, record the case, and decide what to tell the customer. In this tutorial, you build that support email workflow with...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "MinseokSong"
-    },
-    {
-      "title": "Azure Copilot announces general availability of the Troubleshooting Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-copilot-announces-general-availability-of-the/ba-p/4554549",
-      "published": "2026-09-09T15:00:00+00:00",
-      "summary": "Cloud operations are most effective when teams can turn insights into understanding and understanding into action. Whether you’re deploying new services, troubleshooting an issue, assessing resource health, or managing change, you need operational intelligence that helps you make faster, more...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "christinchen"
-    },
-    {
-      "title": "Your work might not need the smartest model",
-      "link": "https://devblogs.microsoft.com/blog/your-work-might-not-need-the-smartest-model/",
-      "published": "2026-09-09T09:14:04+00:00",
-      "summary": "The smartest model can cost five times more and deliver the same result, or even a worse one. See how evaluating your own work helps you get more value from your agent budget.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
     }
   ]
 }
