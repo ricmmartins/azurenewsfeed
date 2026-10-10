@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-10-09T17:58:50.289666+00:00",
-  "totalArticles": 197,
+  "lastUpdated": "2026-10-10T16:59:12.965524+00:00",
+  "totalArticles": 196,
   "articles": [
+    {
+      "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
+      "published": "2026-10-10T07:27:28+00:00",
+      "summary": "For three hours on the morning of October 9, a single H100 in Azure served 1,434 requests to Qwen3.8-27B: 168.7 million input tokens in, 1.27 million output tokens out. At a public list price for this model that day ($0.425 per million input tokens, $0.085 per million cached input tokens and $2.55...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng"
+    },
+    {
+      "title": "From Form to Action: A Governed, Event-Driven AI Intake Pipeline with Azure Integration Services",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/from-form-to-action-a-governed-event-driven-ai-intake-pipeline/ba-p/4561719",
+      "published": "2026-10-09T22:00:58+00:00",
+      "summary": "A production-minded reference architecture using Azure Integration Services and Microsoft Foundry to turn document-heavy intake into governed, traceable work. TL;DR: Calling a model is one step in AI-powered intake. Production readiness depends on everything around the model: authenticated entry,...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "BrittanyPugh"
+    },
+    {
+      "title": "Introducing Microsoft-Decision-1 in Microsoft Foundry for decision and classification workloads",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-microsoft-decision-1-in-microsoft-foundry-for/ba-p/4562742",
+      "published": "2026-10-09T21:05:34+00:00",
+      "summary": "Not every step in an AI application needs a large language model to generate a response. Many high-volume application steps are decisions: classify an input, select an option, assign a score, verify a condition, prioritize an item, or control a workflow. To suit these tasks, a new class of models...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Saumil-Shrivastava"
+    },
+    {
+      "title": "Microsoft Agent 365 and Azure API Management integration for MCP governance",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/microsoft-agent-365-and-azure-api-management-integration-for-mcp/ba-p/4563335",
+      "published": "2026-10-09T20:18:42+00:00",
+      "summary": "As agents gain access to enterprise tools, organizations need consistent ways to govern what those agents can access and enforce those decisions at runtime Today, we're announcing a new integration between Microsoft Agent 365 and Azure API Management now in public preview. The integration connects...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "santiagxf"
+    },
+    {
+      "title": "Azure Key Vault Control Plane API Update: Required Upgrade for Azure CLI and Azure PowerShell Users",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-key-vault-control-plane-api-update-required-upgrade-for/ba-p/4552476",
+      "published": "2026-10-09T19:35:00+00:00",
+      "summary": "Deadline: February 27, 2027 All Azure Key Vault control plane (management) API versions released before 2026-02-01 will stop working on February 27, 2027. This does NOT affect the data plane (getting/setting secrets, keys, and certificates) — only vault and access-control management operations are...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "Alex-wdy"
+    },
+    {
+      "title": "Multi-NIC Support on AKS powered by DRANET – Now in Public Preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/multi-nic-support-on-aks-powered-by-dranet-now-in-public-preview/ba-p/4563257",
+      "published": "2026-10-09T18:24:27+00:00",
+      "summary": "Kubernetes was designed around a simple networking model, every pod gets one network interface, and every pod on a node shares the same flat network. For most stateless microservices, this works well as it keeps the model simple and the platform portable. But a large class of workloads don't fit...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "chandanAggarwal"
+    },
     {
       "title": "Microsoft at OCP Global Summit 2026",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/microsoft-at-ocp-global-summit-2026/ba-p/4562337",
@@ -10,6 +64,15 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "ceciliaxia"
+    },
+    {
+      "title": "Beyond the Script: Evaluating Voice Agents with Voice User Simulator",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/beyond-the-script-evaluating-voice-agents-with-voice-user/ba-p/4559696",
+      "published": "2026-10-09T15:00:00+00:00",
+      "summary": "Voice agents engage with users in real-time, interactive conversations. Their success depends on what users say, how they sound, and when they speak. Static evaluations provide a task without further user interaction, leaving much of this conversational behavior untested. Human testing captures...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "nemo-nano"
     },
     {
       "title": "Azure Managed Redis Deployment Automation",
@@ -48,6 +111,15 @@
       "author": "Rafia_Aqil"
     },
     {
+      "title": "Evaluating Voice Agents: How Reliable Are Foundry's Multi-turn Evaluators?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/evaluating-voice-agents-how-reliable-are-foundry-s-multi-turn/ba-p/4559697",
+      "published": "2026-10-08T20:00:00+00:00",
+      "summary": "Teams developing voice agents need automated evaluation because human review alone cannot keep pace with thousands of calls and frequent agent updates. Microsoft Foundry addresses this need with multi-turn evaluators that assess agent behavior and outcomes across complete conversations. To...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "nemo-nano"
+    },
+    {
       "title": "Dynamic Workflows in Azure Functions Hosted Skills: Durable, AI-Led Work for Event-Driven Apps",
       "link": "https://devblogs.microsoft.com/azure-sdk/dynamic-workflows-azure-functions-hosted-skills/",
       "published": "2026-10-08T19:09:00+00:00",
@@ -75,6 +147,15 @@
       "author": "James Newton-King"
     },
     {
+      "title": "A closer look at noise reduction in Stacks What-If",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/a-closer-look-at-noise-reduction-in-stacks-what-if/ba-p/4548210",
+      "published": "2026-10-08T16:12:33+00:00",
+      "summary": "Following the general availability of what-if for Azure Deployment Stacks, this article deep dives into the co-released feature of \"noise reduction\", which was a top community feature ask from Deployment Stacks customers. In this article, we will cover what noise reduction solves, how it works, and...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "torreyt"
+    },
+    {
       "title": "New Wiki Editor Experience",
       "link": "https://devblogs.microsoft.com/devops/new-wiki-editor-experience/",
       "published": "2026-10-08T14:24:03+00:00",
@@ -82,6 +163,15 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem"
+    },
+    {
+      "title": "When the Answer Isn’t in the Document: Metadata-Aware Agentic RAG with Foundry IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/when-the-answer-isn-t-in-the-document-metadata-aware-agentic-rag/ba-p/4562237",
+      "published": "2026-10-08T13:00:00+00:00",
+      "summary": "The problem SharePoint libraries often contain years of carefully curated metadata, including root cause, severity, business unit, document type, owner and classification. If that metadata never reaches the retrieval pipeline, however, a RAG system cannot use it. This creates a common blind spot:...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shikhasinha"
     },
     {
       "title": "Azure Key Vault and BYOK: Lessons Learned",
@@ -606,15 +696,6 @@
       "author": "rickliev"
     },
     {
-      "title": "Beyond Agent Scores: Building Consequence-Aware Release Gates with Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/beyond-agent-scores-building-consequence-aware-release-gates/ba-p/4559709",
-      "published": "2026-10-01T13:00:00+00:00",
-      "summary": "A better score does not always mean a safer release An AI agent can produce a polished response and still take an action it was never permitted to take. Consider a retail support agent handling an over-policy refund request. The response sounds helpful, the tone is appropriate, and a semantic...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Abhishek Kumar"
-    },
-    {
       "title": "GitHub-hosted agents with Pay-as-you-Go pricing are now generally available in Azure Pipelines",
       "link": "https://devblogs.microsoft.com/devops/github-hosted-agents-with-pay-as-you-go-pricing-are-now-generally-available-in-azure-pipelines/",
       "published": "2026-10-01T12:27:54+00:00",
@@ -678,15 +759,6 @@
       "author": "Kristen Womack"
     },
     {
-      "title": "From \"Agent Deployed\" to \"Agent Ready\" - Agent Acceptance Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-quot-agent-deployed-quot-to-quot-agent-ready-quot-agent/ba-p/4558096",
-      "published": "2026-09-30T18:00:00+00:00",
-      "summary": "A Microsoft Foundry handover story The infrastructure team has finished the AI landing zone. The Microsoft Foundry project exists. The prompt agent is already created, connected to its model, and configured with the tools or connections it needs. That is an important milestone, but it is not the...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "SudhirRawat"
-    },
-    {
       "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
       "published": "2026-09-30T17:39:21+00:00",
@@ -714,15 +786,6 @@
       "author": "DanaCozmei"
     },
     {
-      "title": "Cohere Embed V5 brings more relevant retrieval to Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/cohere-embed-v5-brings-more-relevant-retrieval-to-microsoft/ba-p/4560845",
-      "published": "2026-09-30T16:59:02+00:00",
-      "summary": "Today, we’re introducing Cohere Embed V5 Pro and Embed V5 Fast in Microsoft Foundry, bringing stronger multimodal retrieval to enterprise search and AI applications. With Fast and Pro options, support for more than 100 languages, and flexible vector sizes, Embed V5 gives developers more control...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "RashaudSavage"
-    },
-    {
       "title": "Episode 2: Reduce restarts with Hotpatch for Windows Server 2025 | The Azure Arc Check-In",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/episode-2-reduce-restarts-with-hotpatch-for-windows-server-2025/ba-p/4557249",
       "published": "2026-09-30T16:37:45+00:00",
@@ -739,15 +802,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "vkokkengada"
-    },
-    {
-      "title": "Let the query decide: introducing auto retrieval reasoning effort",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/let-the-query-decide-introducing-auto-retrieval-reasoning-effort/ba-p/4558943",
-      "published": "2026-09-30T16:00:00+00:00",
-      "summary": "Introducing auto: a new retrieval reasoning effort mode that recovers 97.6% of the evidence recall of the highest effort level at 46.9% fewer query planning tokens. Enterprise retrieval workloads mix simple lookup queries with complex questions that require searching across many documents. Today,...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "amaias"
     },
     {
       "title": "Bring managed browser automation to your agent applications",
@@ -1711,69 +1765,6 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Rena Liu"
-    },
-    {
-      "title": "Workload Orchestration in the Azure portal is now available: Deploy in minutes, scale with ease",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/workload-orchestration-in-the-azure-portal-is-now-available/ba-p/4554101",
-      "published": "2026-09-10T16:06:38+00:00",
-      "summary": "Edge deployments rarely stay simple for long. What begins as an application running on a single Kubernetes cluster can quickly expand across stores, factories, branches, or other distributed locations, each having different configuration needs. That is exactly where workload orchestration for Azure...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "mnshnth"
-    },
-    {
-      "title": "Announcing the public preview of Azure Local workload management in Azure Arc Site Manager",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-the-public-preview-of-azure-local-workload-management/ba-p/4549703",
-      "published": "2026-09-10T16:00:00+00:00",
-      "summary": "Today, we are excited to announce the public preview of Azure Local workload management in Azure Arc Site Manager. As Azure Local deployments grow across multiple sites, operators need a simpler way to monitor and manage workloads from a centralized location. Operators with multiple Azure Local...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "kchoi"
-    },
-    {
-      "title": "Dell Managed PowerScale for Microsoft Azure is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/dell-managed-powerscale-for-microsoft-azure-is-now-generally/ba-p/4555367",
-      "published": "2026-09-10T15:23:53+00:00",
-      "summary": "Organizations continue to look for practical ways to manage growing volumes of unstructured data while maintaining the performance, resiliency, and familiar filesystem capabilities their applications require. Customers with existing PowerScale environments also want options for extending those...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "AzureAndrewChen"
-    },
-    {
-      "title": "What’s new in Microsoft Foundry: July and August 2026",
-      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-july-august-2026/",
-      "published": "2026-09-09T23:00:39+00:00",
-      "summary": "Catch up on July and August in Microsoft Foundry: stable Hosted Agent and Toolbox SDK paths, Claude tools on Azure-hosted deployments, Model Router updates, local inference improvements, and the SDK migrations worth checking before you upgrade. The post What’s new in Microsoft Foundry: July and...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Nick Brady"
-    },
-    {
-      "title": "Public Preview: Automatic Zone Placement for Virtual Machine Scale Sets",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-automatic-zone-placement-for-virtual-machine/ba-p/4554986",
-      "published": "2026-09-09T22:57:26+00:00",
-      "summary": "We’re excited to announce the public preview of Automatic Zone Placement for Azure Virtual Machine Scale Sets. This new capability lets Azure select availability zones for your scale set based on SKU availability, capacity, and your placement requirements. Automatic Zone Placement simplifies zonal...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "HilaryWang"
-    },
-    {
-      "title": "Generally Available: Restrict usage of user delegation SAS to an Entra ID identity",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/generally-available-restrict-usage-of-user-delegation-sas-to-an/ba-p/4554967",
-      "published": "2026-09-09T19:44:54+00:00",
-      "summary": "Shared access signatures (SAS) grant time-bound, scoped access to Azure Storage resources without sharing account keys. Over time, Azure Storage has continued to strengthen SAS security, moving from account keys to user delegation (UD) SAS secured by Microsoft Entra ID. Today, we’re taking the next...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "ellievail"
-    },
-    {
-      "title": "Adding network intelligence into a network-ready Azure migration plan",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/adding-network-intelligence-into-a-network-ready-azure-migration/ba-p/4554519",
-      "published": "2026-09-09T18:01:43+00:00",
-      "summary": "Sudha Mahajan, Partner PM Azure Networking, Vijay Mamtani, CVP Azure Networking | September 2026 Lift-and-shift succeeds when the network moves with the application For many VMware customers, the immediate migration goal is practical: move workloads to Azure quickly, preserve application behavior...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "Sudha_Mahajan"
     }
   ]
 }
