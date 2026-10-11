@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-10T16:59:12.965524+00:00",
-  "totalArticles": 196,
+  "lastUpdated": "2026-10-11T17:20:08.455713+00:00",
+  "totalArticles": 190,
   "articles": [
     {
       "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
@@ -1711,60 +1711,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "jordanselig"
-    },
-    {
-      "title": "AI Agent ROI Framework",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/ai-agent-roi-framework/ba-p/4555445",
-      "published": "2026-09-11T15:47:21+00:00",
-      "summary": "Introduction AI agents are rapidly becoming a core component of enterprise transformation strategies. Organizations are deploying agents to assist employees, automate business processes, improve customer experiences, accelerate decision-making, and scale operations. Yet many organizations still...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Yagneswari"
-    },
-    {
-      "title": "Announcing savings plan for databases: flexible savings for modern, evolving workloads",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/announcing-savings-plan-for-databases-flexible-savings-for/ba-p/4503107",
-      "published": "2026-09-11T14:06:14+00:00",
-      "summary": "As organizations modernize their data platforms, database environments are constantly changing. Teams migrate between services, scale across regions, and evolve architectures to support new applications and AI driven workloads. But optimizing costs in these environments can be challenging,...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "kyleikeda"
-    },
-    {
-      "title": "Building on AI Landing Zones: Operationalizing Enterprise AI with the Citadel Architecture",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/building-on-ai-landing-zones-operationalizing-enterprise-ai-with/ba-p/4551078",
-      "published": "2026-09-11T12:14:40+00:00",
-      "summary": "From AI Foundations to a Shared Operating Model In my previous article, AI Azure Landing Zone: Shared Capabilities and Models to Enable AI as a Platform, I explored how organizations establish secure, governed environments for AI workloads. Building on that foundation requires aligning three...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Rohon_Mohapatra"
-    },
-    {
-      "title": "From OSDU to Ontology: Why Oil & Gas AI Readiness Lives at the Meaning Layer",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/from-osdu-to-ontology-why-oil-gas-ai-readiness-lives-at-the/ba-p/4538718",
-      "published": "2026-09-11T12:13:32+00:00",
-      "summary": "The five-answer problem Ask a simple question inside a large operator: “How is this asset producing against plan, and what’s the constraint?” Now watch five systems answer five different things. The production historian knows a “well” as a set of surface sensor tags. The reservoir team reasons...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "KimVaddi"
-    },
-    {
-      "title": "September Patches for Azure DevOps Server",
-      "link": "https://devblogs.microsoft.com/devops/september-patches-for-azure-devops-server-3/",
-      "published": "2026-09-10T22:25:52+00:00",
-      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Gloridel Morales"
-    },
-    {
-      "title": "Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization",
-      "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-2607/",
-      "published": "2026-09-10T18:08:42+00:00",
-      "summary": "Learn how Azure AI Speech LLM 2607 improves multilingual and mixed-language recognition, lowers latency, and simplifies domain-specific customization with enhanced phrase lists. The post Announcing Azure AI Speech LLM 2607: Better Multilingual Accuracy, Easier Customization appeared first on...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Rena Liu"
     }
   ]
 }
