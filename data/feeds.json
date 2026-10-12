@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-10-11T17:20:08.455713+00:00",
-  "totalArticles": 190,
+  "lastUpdated": "2026-10-12T20:55:11.365748+00:00",
+  "totalArticles": 191,
   "articles": [
+    {
+      "title": "Qwen3.8-Flash-Next on two H100s in an Azure Spot VM",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-flash-next-on-two-h100s-in-an-azure-spot-vm/ba-p/4563893",
+      "published": "2026-10-12T17:05:45+00:00",
+      "summary": "With 150,000 tokens of context, one request to Qwen3.8-Flash-Next decoded at about 200 tokens a second, and its first token arrived in under a second, because 95% of the prompt came from the cache. That held while the agents kept up to five requests running at once. At seven, one request in twenty...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng"
+    },
+    {
+      "title": "Advancing AI fleet reliability through industry collaboration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-ai-fleet-reliability-through-industry-collaboration/ba-p/4563353",
+      "published": "2026-10-12T02:43:13+00:00",
+      "summary": "Customers depend on reliable infrastructure to run workloads at scale. As AI infrastructure continues to expand, ensuring fleet capacity, availability, and reliability is more important than ever. Large-scale, multi-vendor AI clusters introduce significant operational complexity. Accelerators,...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Rama_Bhimanadhuni"
+    },
     {
       "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
@@ -1702,15 +1720,6 @@
       "blog": "ISE Developer Blog",
       "blogId": "iseblog",
       "author": "Jaein Tak, Akihiro Inui, Kohei Saito"
-    },
-    {
-      "title": "Azure App Service is now a trigger destination for Azure Managed Connectors",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-app-service-is-now-a-trigger-destination-for-azure-managed/ba-p/4555785",
-      "published": "2026-09-11T18:41:02+00:00",
-      "summary": "Azure Managed Connectors, currently in public preview, now lets you choose Azure App Service as a trigger destination. Connector events can be delivered directly to applications running on App Service, including ASP.NET Core, Java, Node.js, and Python applications. This is a new capability in the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig"
     }
   ]
 }

@@ -1,5 +1,5 @@
 ============================================================
-ROTEIRO - AZURE NEWS DIÁRIO - 10/10/2026
+ROTEIRO - AZURE NEWS DIÁRIO - 12/10/2026
 ============================================================
 
 [ABERTURA]
@@ -7,57 +7,26 @@ ROTEIRO - AZURE NEWS DIÁRIO - 10/10/2026
 E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
-Hoje é dia 10/10/2026.
-Temos 6 atualizações para cobrir.
+Hoje é dia 12/10/2026.
+Temos 2 atualizações para cobrir.
 Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
 [BLOCO: Apps on Azure]
 
-  ► Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?
-    For three hours on the morning of October 9, a single H100 in Azure served 1,434 requests to Qwen3.8-27B: 168.7 million input tokens in, 1.27 million 
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387
+  ► Qwen3.8-Flash-Next on two H100s in an Azure Spot VM
+    With 150,000 tokens of context, one request to Qwen3.8-Flash-Next decoded at about 200 tokens a second, and its first token arrived in under a second,
+    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-flash-next-on-two-h100s-in-an-azure-spot-vm/ba-p/4563893
 
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Integrations on Azure]
+[BLOCO: Azure Infrastructure]
 
-  ► From Form to Action: A Governed, Event-Driven AI Intake Pipeline with Azure Integration Services
-    A production-minded reference architecture using Azure Integration Services and Microsoft Foundry to turn document-heavy intake into governed, traceab
-    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/from-form-to-action-a-governed-event-driven-ai-intake-pipeline/ba-p/4561719
-
-  ► Microsoft Agent 365 and Azure API Management integration for MCP governance
-    As agents gain access to enterprise tools, organizations need consistent ways to govern what those agents can access and enforce those decisions at ru
-    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/microsoft-agent-365-and-azure-api-management-integration-for-mcp/ba-p/4563335
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure AI Foundry]
-
-  ► Introducing Microsoft-Decision-1 in Microsoft Foundry for decision and classification workloads
-    Not every step in an AI application needs a large language model to generate a response. Many high-volume application steps are decisions: classify an
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-microsoft-decision-1-in-microsoft-foundry-for/ba-p/4562742
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Tools]
-
-  ► Azure Key Vault Control Plane API Update: Required Upgrade for Azure CLI and Azure PowerShell Users
-    Deadline: February 27, 2027 All Azure Key Vault control plane (management) API versions released before 2026-02-01 will stop working on February 27, 2
-    Link: https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-key-vault-control-plane-api-update-required-upgrade-for/ba-p/4552476
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Networking]
-
-  ► Multi-NIC Support on AKS powered by DRANET – Now in Public Preview
-    Kubernetes was designed around a simple networking model, every pod gets one network interface, and every pod on a node shares the same flat network. 
-    Link: https://techcommunity.microsoft.com/t5/azure-networking-blog/multi-nic-support-on-aks-powered-by-dranet-now-in-public-preview/ba-p/4563257
+  ► Advancing AI fleet reliability through industry collaboration
+    Customers depend on reliable infrastructure to run workloads at scale. As AI infrastructure continues to expand, ensuring fleet capacity, availability
+    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-ai-fleet-reliability-through-industry-collaboration/ba-p/4563353
 
 [PAUSA]
 
