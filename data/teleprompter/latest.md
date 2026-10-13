@@ -1,5 +1,5 @@
 ============================================================
-ROTEIRO - AZURE NEWS DIÁRIO - 12/10/2026
+ROTEIRO - AZURE NEWS DIÁRIO - 13/10/2026
 ============================================================
 
 [ABERTURA]
@@ -7,26 +7,30 @@ ROTEIRO - AZURE NEWS DIÁRIO - 12/10/2026
 E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
-Hoje é dia 12/10/2026.
-Temos 2 atualizações para cobrir.
+Hoje é dia 13/10/2026.
+Temos 3 atualizações para cobrir.
 Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Apps on Azure]
+[BLOCO: Core Infrastructure & Security]
 
-  ► Qwen3.8-Flash-Next on two H100s in an Azure Spot VM
-    With 150,000 tokens of context, one request to Qwen3.8-Flash-Next decoded at about 200 tokens a second, and its first token arrived in under a second,
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-flash-next-on-two-h100s-in-an-azure-spot-vm/ba-p/4563893
+  ► Check This Out! (CTO!) Guide (October 2026)
+    Member: TysonPaul | Microsoft Community Hub Azure Key Vault Control Plane API Update: Required Upgrade for Azure CLI and Azure PowerShell Users Team B
+    Link: https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/check-this-out-cto-guide-october-2026/ba-p/4564188
+
+  ► Locking down PAWs internet access when GSA drops
+    By: Christian Friedel-Jain - Sr. Security Consultant | James Noyce - Sr. Security Solution Engineer Introduction Privileged Access Workstations (PAWs)
+    Link: https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/locking-down-paws-internet-access-when-gsa-drops/ba-p/4553963
 
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure Infrastructure]
+[BLOCO: Microsoft Foundry Blog]
 
-  ► Advancing AI fleet reliability through industry collaboration
-    Customers depend on reliable infrastructure to run workloads at scale. As AI infrastructure continues to expand, ensuring fleet capacity, availability
-    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-ai-fleet-reliability-through-industry-collaboration/ba-p/4563353
+  ► Azure Content Understanding Prebuilt Analyzers: packaging domain knowledge for document AI
+    Learn how Azure Content Understanding prebuilt analyzers combine domain knowledge with grounding and confidence, and what Advanced Contextualization p
+    Link: https://devblogs.microsoft.com/foundry/more-than-a-schema-content-understanding-prebuilt-analyzers/
 
 [PAUSA]
 
