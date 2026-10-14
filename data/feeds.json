@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-10-13T18:52:51.481271+00:00",
-  "totalArticles": 194,
+  "lastUpdated": "2026-10-14T16:32:55.226617+00:00",
+  "totalArticles": 201,
   "articles": [
+    {
+      "title": "From extraction to action: Using grounding and confidence to build reliable document workflows",
+      "link": "https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl/",
+      "published": "2026-10-14T15:38:56+00:00",
+      "summary": "Learn how Azure Content Understanding grounding, field-level confidence, and calibration help teams prioritize human review and build reliable document workflows. The post From extraction to action: Using grounding and confidence to build reliable document workflows appeared first on Microsoft...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Joe Filcik, Colin Murphy"
+    },
+    {
+      "title": "New Tools, New Workflows and the Value of the Visual Studio Subscription: What We Learned at VSLive! San Diego",
+      "link": "https://devblogs.microsoft.com/visualstudio/new-tools-new-workflows-and-the-value-of-the-visual-studio-subscription-what-we-learned-at-vslive-san-diego/",
+      "published": "2026-10-14T14:00:25+00:00",
+      "summary": "What happens when developers who have spent decades working with Visual Studio start rethinking how they write code, learn new skills, and expand their access to development tools? At VSLive! San Diego, we had an opportunity to find out as developers gathered for five days of technical sessions,...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt"
+    },
+    {
+      "title": "Build a Simple GPU-Enabled Kubernetes Cluster on Azure N-Series VMs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/build-a-simple-gpu-enabled-kubernetes-cluster-on-azure-n-series/ba-p/4564410",
+      "published": "2026-10-14T13:39:03+00:00",
+      "summary": "Audience: Platform engineers, ML engineers, and developers who need a small, understandable GPU development cluster without the abstraction of a managed Kubernetes service. Reference topology: Role Azure VM size Operating system Purpose Control plane Standard_D8s_v6 Ubuntu 24.04 LTS API server,...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "vinilv"
+    },
+    {
+      "title": "October Patches for Azure DevOps Server",
+      "link": "https://devblogs.microsoft.com/devops/october-patches-for-azure-devops-server-4/",
+      "published": "2026-10-13T20:20:06+00:00",
+      "summary": "We are releasing new patches for our self‑hosted product, Azure DevOps Server. We strongly recommend that all customers stay up to date with the latest, most secure version of Azure DevOps Server. The most recent release, Azure DevOps Server, is available on the download page. The following...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Gloridel Morales"
+    },
+    {
+      "title": "Which Reflection Model Should Power your Agent Optimizer?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/which-reflection-model-should-power-your-agent-optimizer/ba-p/4562671",
+      "published": "2026-10-13T17:00:00+00:00",
+      "summary": "Authors: Priyanka Paul, Abi Komma, Charles Kim, Luffy Chen, Morteza Ziyadi Agent optimizer in Foundry Agent Service automatically improves prompt agents and hosted agents by evaluating their behavior and generating candidate configurations. Depending on the agent type, it can improve instructions,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "priyankapaul"
+    },
+    {
+      "title": "Microsoft at OCP Global Summit 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/microsoft-at-ocp-global-summit-2026/ba-p/4562337",
+      "published": "2026-10-13T16:28:02+00:00",
+      "summary": "At OCP Global Summit 2026, Microsoft will showcase how we’re advancing the infrastructure needed to scale AI, from silicon and systems to the datacenter. Visit Microsoft at booth C73 At Booth C73, get a closer look at Cobalt 200 and Maia silicon, advanced cooling, sustainability demonstrations, and...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ceciliaxia"
+    },
+    {
+      "title": "Networking for the AI era: Building for scale, efficiency, and openness",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/networking-for-the-ai-era-building-for-scale-efficiency-and/ba-p/4563036",
+      "published": "2026-10-13T16:00:00+00:00",
+      "summary": "AI is fundamentally changing what we ask of the network. As models become more capable and AI systems grow larger, adding more compute is only part of the challenge. Today’s largest AI systems bring together hundreds of thousands of accelerators in a datacenter, while AI infrastructure increasingly...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "sdighe"
+    },
+    {
+      "title": "Powering Azure infrastructure from grid to chip",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/powering-azure-infrastructure-from-grid-to-chip/ba-p/4563890",
+      "published": "2026-10-13T16:00:00+00:00",
+      "summary": "As AI infrastructure scales, power availability is increasingly setting the ceiling on how much compute we can deploy. With workloads evolving towards long-context reasoning and memory-intensive agentic tasks, the power envelope of operating AI at scale has changed dramatically. High density AI...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "mariozeng"
+    },
+    {
+      "title": "Advancing AI fleet reliability through industry collaboration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-ai-fleet-reliability-through-industry-collaboration/ba-p/4563353",
+      "published": "2026-10-13T16:00:00+00:00",
+      "summary": "Customers depend on reliable infrastructure to run workloads at scale. As AI infrastructure continues to expand, ensuring fleet capacity, availability, and reliability is more important than ever. Large-scale, multi-vendor AI clusters introduce significant operational complexity. Accelerators,...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Rama_Bhimanadhuni"
+    },
+    {
+      "title": "Advancing hardware security through open-source collaboration",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-hardware-security-through-open-source-collaboration/ba-p/4563581",
+      "published": "2026-10-13T15:59:12+00:00",
+      "summary": "At the Open Compute Project Global Summit, we introduced six open security innovations spanning hardware-protected key management, platform resilience, system-wide attestation, scalable bare-metal management, recovery, and silicon hardening: Tessera Integrated HSM, an open-source silicon HSM...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Bryankel"
+    },
     {
       "title": "Check This Out! (CTO!) Guide (October 2026)",
       "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/check-this-out-cto-guide-october-2026/ba-p/4564188",
@@ -10,6 +100,15 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "TysonPaul"
+    },
+    {
+      "title": "Azure Verified Modules (AVM) is now owned by Azure engineering",
+      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-verified-modules-avm-is-now-owned-by-azure-engineering/ba-p/4563822",
+      "published": "2026-10-13T14:52:59+00:00",
+      "summary": "Azure Verified Modules (AVM) has moved into the Azure Deployments team, inside Microsoft’s Azure engineering organization. That is the headline, and it is a big one for us. AVM started as a community-led project inside Microsoft, built and maintained largely by people who cared about it alongside...",
+      "blog": "Azure Tools",
+      "blogId": "azuretoolsblog",
+      "author": "jtracey93msft"
     },
     {
       "title": "Azure Content Understanding Prebuilt Analyzers: packaging domain knowledge for document AI",
@@ -55,15 +154,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "pratikpanda"
-    },
-    {
-      "title": "Advancing AI fleet reliability through industry collaboration",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-ai-fleet-reliability-through-industry-collaboration/ba-p/4563353",
-      "published": "2026-10-12T02:43:13+00:00",
-      "summary": "Customers depend on reliable infrastructure to run workloads at scale. As AI infrastructure continues to expand, ensuring fleet capacity, availability, and reliability is more important than ever. Large-scale, multi-vendor AI clusters introduce significant operational complexity. Accelerators,...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Rama_Bhimanadhuni"
     },
     {
       "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
@@ -118,15 +208,6 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "chandanAggarwal"
-    },
-    {
-      "title": "Microsoft at OCP Global Summit 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/microsoft-at-ocp-global-summit-2026/ba-p/4562337",
-      "published": "2026-10-09T15:17:37+00:00",
-      "summary": "At OCP Global Summit 2026, Microsoft will showcase how we’re advancing the infrastructure needed to scale AI, from silicon and systems to the datacenter. Come visit Microsoft at Booth C73 and hear from Microsoft leaders and experts through our keynote and sessions, panels, and workshops across the...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "ceciliaxia"
     },
     {
       "title": "Beyond the Script: Evaluating Voice Agents with Voice User Simulator",
@@ -694,15 +775,6 @@
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
       "author": "Mitch Denny"
-    },
-    {
-      "title": "Deploying hosted agents in Foundry Agent Service via Terraform",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/deploying-hosted-agents-in-foundry-agent-service-via-terraform/ba-p/4560435",
-      "published": "2026-10-01T16:44:00+00:00",
-      "summary": "Background Your Terraform workflow already manages your Azure infrastructure but deploying hosted agents still requires manual SDK calls or REST API scripts. This post shows you how to bring agent deployments into your existing IaC pipeline using the AzAPI provider, so your entire Foundry stack can...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "j_folberth"
     },
     {
       "title": "Scaling distributed AI infrastructure with Azure’s ExpressRoute and AI Points of Presence (AI PoPs)",
@@ -1738,15 +1810,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "MitchellGulledge"
-    },
-    {
-      "title": "Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon",
-      "link": "https://devblogs.microsoft.com/ise/japanese-llm-evaluation-pipeline-hackathon/",
-      "published": "2026-09-14T07:00:00+00:00",
-      "summary": "ISE hackathon produced a reusable Japanese LLM evaluation pipeline with multi-turn, facet-based scoring, cross-provider model support, and publication-ready benchmarking outputs. The post Building a Japanese LLM Evaluation Pipeline: Lessons from a Two-Day Hackathon appeared first on ISE Developer...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Jaein Tak, Akihiro Inui, Kohei Saito"
     }
   ]
 }
