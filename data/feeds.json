@@ -1,7 +1,115 @@
 {
-  "lastUpdated": "2026-10-14T16:32:55.226617+00:00",
-  "totalArticles": 201,
+  "lastUpdated": "2026-10-15T16:19:04.030930+00:00",
+  "totalArticles": 200,
   "articles": [
+    {
+      "title": "Stop waiting on a failed build",
+      "link": "https://devblogs.microsoft.com/visualstudio/stop-waiting-on-a-failed-build/",
+      "published": "2026-10-15T14:00:50+00:00",
+      "summary": "Stop solution builds after the first project failure so you can return to fixing the error sooner. The post Stop waiting on a failed build appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mads Kristensen"
+    },
+    {
+      "title": "AI Agents: Meet the Azure Cosmos DB vNext Emulator",
+      "link": "https://devblogs.microsoft.com/cosmosdb/ai-agents-meet-the-azure-cosmos-db-vnext-emulator/",
+      "published": "2026-10-15T13:38:16+00:00",
+      "summary": "Over a typical 2 day window, we record 10 times as many emulator sessions lasting more than 30 minutes for vNext as for the legacy emulator. Our bet is that agentic development is helping drive the difference! The appeal is straightforward: coding agents need a database they can run anywhere. They...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Theo van Kraay"
+    },
+    {
+      "title": "From Chat to Decisions: Bringing SLMs into Application Logic with Microsoft Olive and ONNX",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-chat-to-decisions-bringing-slms-into-application-logic-with/ba-p/4559310",
+      "published": "2026-10-15T11:08:04+00:00",
+      "summary": "1. Why Jev Matters: Accelerating the Next Action, Not Just the Next Reply Let us return to the automated ordering scenario we have been exploring. A customer says, “I’ll have a combo, but make the drink not too sweet.” A conversational model can produce a friendly response. For the ordering...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
+    {
+      "title": "Canada’s 2026 time zone updates: guidance for Microsoft SQL",
+      "link": "https://devblogs.microsoft.com/azure-sql/canadas-2026-time-zone-updates-guidance-for-microsoft-sql/",
+      "published": "2026-10-15T05:21:10+00:00",
+      "summary": "Affected locations in British Columbia, Alberta, and Manitoba will not turn their clocks back at 02:00 local time on November 1, 2026. They will remain at UTC−07:00, UTC−06:00, and UTC−05:00, respectively. Microsoft’s interim guidance for British Columbia, Alberta, and Manitoba describes the new...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Umachandar Jayachandran (UC)"
+    },
+    {
+      "title": "Enterprise Adoption Guide for Azure SRE Agent, Part 2: From One Team to Enterprise-Wide Adoption",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enterprise-adoption-guide-for-azure-sre-agent-part-2-from-one/ba-p/4564311",
+      "published": "2026-10-15T03:51:09+00:00",
+      "summary": "In Part 1: From First Use Case to Automated Workflows, we focused on identifying use cases and getting setup with your initial SRE Agent. Teams see the value, and now you need to decide how adoption should expand. These are the questions we increasingly hear from teams. Who should share an agent?...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dchelupati"
+    },
+    {
+      "title": "Enterprise Adoption Guide for Azure SRE Agent, Part 1: Deploying Your First Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enterprise-adoption-guide-for-azure-sre-agent-part-1-deploying/ba-p/4564306",
+      "published": "2026-10-15T03:50:21+00:00",
+      "summary": "We have learned a lot from talking with teams that are bringing Azure SRE Agent into their day-to-day operations. Across those conversations, we have seen a common set of questions emerge as teams move from exploring an initial use case to adopting SRE Agent more broadly. Some teams are starting...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "dchelupati"
+    },
+    {
+      "title": "End of Lifecycle for Windows Server 2012 and 2012 R2",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/end-of-lifecycle-for-windows-server-2012-and-2012-r2/ba-p/4564611",
+      "published": "2026-10-15T00:20:15+00:00",
+      "summary": "On October 13, 2026, the Extended Security Updates (ESU) program for Windows Server 2012 and Windows Server 2012 R2 ended. This closes the three-year extended coverage period that began when these operating systems reached end of support in October 2023. After today, Microsoft will no longer...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Meagan McCrory"
+    },
+    {
+      "title": "Meet the Hosted Skills Canvas: Build, Run, and Debug in GitHub Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/meet-the-hosted-skills-canvas-build-run-and-debug-in-github/ba-p/4561222",
+      "published": "2026-10-14T23:51:30+00:00",
+      "summary": "We have been evolving Azure Functions from the bottom up: first the infrastructure with Flex Consumption, then the way you write an app, and now the tools you use to build it.We're introducing a new developer experience for event-driven apps: the Azure Functions Hosted Skills canvas in the GitHub...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "paulyuk"
+    },
+    {
+      "title": "GPT-chat-latest gets more intelligent, interactive, and personal in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-chat-latest-gets-more-intelligent-interactive-and-personal/ba-p/4564574",
+      "published": "2026-10-14T21:24:46+00:00",
+      "summary": "What if a conversational AI could respond with an interactive chart instead of a wall of text and start delivering useful information before the full answer is even ready? GPT-chat-latest in Microsoft Foundry now makes both possible. This update brings GPT-6-level intelligence to conversational and...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "truptiparkar"
+    },
+    {
+      "title": "Azure MCP Server 3.0 stable release: More tools. More possibilities",
+      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-3-0-stable-release/",
+      "published": "2026-10-14T20:35:34+00:00",
+      "summary": "Explore the new Azure MCP Server 3.0 stable release, with AI agent tools for Terraform, backup, recovery, and troubleshooting, plus stronger security defaults. The post Azure MCP Server 3.0 stable release: More tools. More possibilities appeared first on Azure SDK Blog.",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Sandeep Sen"
+    },
+    {
+      "title": "Powering Azure infrastructure from grid to chip",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/powering-azure-infrastructure-from-grid-to-chip/ba-p/4563890",
+      "published": "2026-10-14T17:19:23+00:00",
+      "summary": "As AI infrastructure scales, power availability is increasingly setting the ceiling on how much compute we can deploy. With workloads evolving towards long-context reasoning and memory-intensive agentic tasks, the power envelope of operating AI at scale has changed dramatically. High density AI...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "mariozeng"
+    },
+    {
+      "title": "Bring Azure SRE Agent into your developer workflow with the new canvas",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-azure-sre-agent-into-your-developer-workflow-with-the-new/ba-p/4564514",
+      "published": "2026-10-14T16:35:26+00:00",
+      "summary": "You’re on call. A customer-reported incident lands, Azure SRE Agent picks it up from your incident management system, investigates, and gives you a starting diagnosis. If you’re like me, you want to check that diagnosis yourself, and you want to do it where you already work: in GitHub Copilot, with...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "paulyuk"
+    },
     {
       "title": "From extraction to action: Using grounding and confidence to build reliable document workflows",
       "link": "https://devblogs.microsoft.com/foundry/content-understanding-confidence-grounding-hitl/",
@@ -28,6 +136,15 @@
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
       "author": "vinilv"
+    },
+    {
+      "title": "Announcing StandardV2 NAT Gateway for AKS-managed egress",
+      "link": "https://blog.aks.azure.com/2026/10/14/standardv2-nat-gateway-aks-managed-egress",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "AKS-managed StandardV2 NAT Gateway is now generally available, adding zone-redundant egress, higher throughput, IPv6 support, and flexible outbound IPs.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "October Patches for Azure DevOps Server",
@@ -64,15 +181,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "sdighe"
-    },
-    {
-      "title": "Powering Azure infrastructure from grid to chip",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/powering-azure-infrastructure-from-grid-to-chip/ba-p/4563890",
-      "published": "2026-10-13T16:00:00+00:00",
-      "summary": "As AI infrastructure scales, power availability is increasingly setting the ceiling on how much compute we can deploy. With workloads evolving towards long-context reasoning and memory-intensive agentic tasks, the power envelope of operating AI at scale has changed dramatically. High density AI...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "mariozeng"
     },
     {
       "title": "Advancing AI fleet reliability through industry collaboration",
@@ -759,15 +867,6 @@
       "author": "simonjj"
     },
     {
-      "title": "Your Agent Shouldn't Wait for a Prompt: Build an Event-Driven Microsoft Foundry Routine",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/your-agent-shouldn-t-wait-for-a-prompt-build-an-event-driven/ba-p/4559897",
-      "published": "2026-10-01T19:00:00+00:00",
-      "summary": "Most agents are still waiting in a chat window. They may be capable of classifying an incident, finding the right documentation, or recommending an owner - but nothing happens until someone remembers to ask. The hard part is no longer always the reasoning. It is noticing that work has arrived,...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "taniamuley"
-    },
-    {
       "title": "Bringing rich terminal experiences to Aspire",
       "link": "https://devblogs.microsoft.com/aspire/aspire-terminal-support/",
       "published": "2026-10-01T18:12:09+00:00",
@@ -847,15 +946,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "kinfey"
-    },
-    {
-      "title": "Meet the Hosted Skills Canvas: Build, Run, and Debug in GitHub Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/meet-the-hosted-skills-canvas-build-run-and-debug-in-github/ba-p/4561222",
-      "published": "2026-09-30T22:19:50+00:00",
-      "summary": "We have been evolving Azure Functions from the bottom up: first the infrastructure with Flex Consumption, then the way you write an app, and now the tools you use to build it.We're introducing a new developer experience for event-driven apps: the Azure Functions Hosted Skills canvas in the GitHub...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "paulyuk"
     },
     {
       "title": "Network security perimeter metrics are now generally available in Public Cloud",
@@ -1119,15 +1209,6 @@
       "author": "Iqra Shaikh"
     },
     {
-      "title": "Announcing Public Preview for Azure Cosmos DB in Fabric Database Hub!",
-      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-public-preview-for-azure-cosmos-db-in-fabric-database-hub/",
-      "published": "2026-09-29T07:00:00+00:00",
-      "summary": "Azure Cosmos DB support in Fabric Database Hub is now available in public preview. For the first time, Azure Cosmos DB customers can discover and monitor their accounts from Database Hub alongside other Microsoft database engines. Database Hub provides a single place to view every Azure Cosmos DB...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Jai Maldonado"
-    },
-    {
       "title": "Sending Email from an AKS Pod Without a Single Secret",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/sending-email-from-an-aks-pod-without-a-single-secret/ba-p/4556222",
       "published": "2026-09-29T04:15:00+00:00",
@@ -1180,15 +1261,6 @@
       "blog": "Governance & Management",
       "blogId": "azuregovernanceandmanagementblog",
       "author": "stevenbucher"
-    },
-    {
-      "title": "Announcing the Public Preview of Local Time Zone Support in Azure SQL Database",
-      "link": "https://devblogs.microsoft.com/azure-sql/announcing-the-public-preview-of-local-time-zone-support-in-azure-sql-database/",
-      "published": "2026-09-28T15:00:17+00:00",
-      "summary": "We are thrilled to announce the public preview of local time zone support in Azure SQL Database. Starting today, you can configure the time zone directly at the database or session level — all from T-SQL, without changing any infrastructure settings. This feature addresses one of the most...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Umachandar Jayachandran (UC)"
     },
     {
       "title": "From Jev to Your Laptop: Building \"System One\" Decision Models in ONNX with Mobius",
@@ -1722,15 +1794,6 @@
       "author": "rvandenbedem"
     },
     {
-      "title": "Azure Red Hat OpenShift with hosted control planes now available in public preview",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-red-hat-openshift-with-hosted-control-planes-now-available/ba-p/4555997",
-      "published": "2026-09-15T17:10:06+00:00",
-      "summary": "Red Hat OpenShift momentum on Azure keeps building, driven by teams standardizing on Kubernetes for application modernization and, increasingly, by AI-enabled applications that need a consistent platform for the services around them. Azure Red Hat OpenShift gives those teams a jointly engineered,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Mayuri_Gupta"
-    },
-    {
       "title": "Explore the latest in MCP: All recordings from MCP Live!",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/explore-the-latest-in-mcp-all-recordings-from-mcp-live/ba-p/4556775",
       "published": "2026-09-15T16:44:03+00:00",
@@ -1738,78 +1801,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "Pamela_Fox"
-    },
-    {
-      "title": "Today I will… improve test coverage",
-      "link": "https://devblogs.microsoft.com/visualstudio/today-i-will-improve-test-coverage/",
-      "published": "2026-09-15T16:00:21+00:00",
-      "summary": "Today I want to look at how we can improve on the test coverage that we have in the Interview Coach application. This application has some unit tests in it already, but I’m sure there is room for improvement. Defining our baseline Before we start writing tests, it’s a good idea to have a baseline...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Aaron Powell"
-    },
-    {
-      "title": "Build an interview coach app with the GitHub Copilot SDK",
-      "link": "https://devblogs.microsoft.com/blog/build-an-interview-coach-app-with-the-github-copilot-sdk/",
-      "published": "2026-09-15T16:00:11+00:00",
-      "summary": "An interview coach has to do more than ask questions. It needs to read a resume, follow up on an incomplete answer, and save enough context to give useful feedback at the end. Some of that work is conversation. Some of it requires calling an application service. The GitHub Copilot SDK lets you use...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Justin Yoo"
-    },
-    {
-      "title": "Securing AI Agent Tool Calls in Azure: Identity, Authorization, and Verified Execution",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/securing-ai-agent-tool-calls-in-azure-identity-authorization-and/ba-p/4546824",
-      "published": "2026-09-15T11:00:34+00:00",
-      "summary": "When an agent can use tools, untrusted content can influence requests to access sensitive data or change external systems. A retrieved document might tell the agent to send a file to an external address. An attacker-controlled log field might suggest disabling a security setting. A tool result...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kedikala"
-    },
-    {
-      "title": "SSL/TLS certificates and end-to-end encryption for Azure Functions Flex Consumption",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/ssl-tls-certificates-and-end-to-end-encryption-for-azure/ba-p/4556425",
-      "published": "2026-09-14T21:01:36+00:00",
-      "summary": "Last week we announced the general availability of TLS/SSL certificate support and end-to-end TLS encryption for Azure Functions Flex Consumption. Flex Consumption is the recommended serverless hosting plan for Azure Functions. It combines event-driven scale-to-zero and execution-based billing with...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "nzthiago"
-    },
-    {
-      "title": "Dashboards are for AI agents too, not just humans",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/dashboards-are-for-ai-agents-too-not-just-humans/ba-p/4556383",
-      "published": "2026-09-14T20:25:20+00:00",
-      "summary": "A few days ago I opened Azure SRE Agent and typed four prompts. None of them was careful: find grafana dashboard for: GitHub Copilot run the panels queries. list top 3 very long sessions in the past 3 days what session 1 was doing? what was session 2 doing? No KQL. No table names. I didn't say what...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng"
-    },
-    {
-      "title": "Microsoft Foundry Observability: How to Trace, Evaluate, Monitor, and Secure AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/microsoft-foundry-observability-how-to-trace-evaluate-monitor/ba-p/4555846",
-      "published": "2026-09-14T19:42:07+00:00",
-      "summary": "The green check that hid a real problem During a recent customer conversation, I was shown a customer-service refund agent that looked healthy by every traditional measure. Requests completed successfully. The endpoint returned HTTP 200. Latency was within the team's target, and there were no...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "gauravbhardwaj"
-    },
-    {
-      "title": "Intelligent Terminal 0.2.2572: Faster, Smoother, and More Reliable",
-      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-0-2-25-performance-reliability/",
-      "published": "2026-09-14T19:00:09+00:00",
-      "summary": "We’re back with Intelligent Terminal v0.2.2572, and this one is all about making things faster, easier to use, more reliable, and more polished. This release lands over 60 fixes and improvements as well as API key support for local models, automatic approval for supported agents, and native slash...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Hamza Usmani"
-    },
-    {
-      "title": "Public Preview: Multi-account support for Microsoft Sentinel codeless connectors",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/public-preview-multi-account-support-for-microsoft-sentinel/ba-p/4544380",
-      "published": "2026-09-14T18:13:41+00:00",
-      "summary": "Security teams rarely have just one of anything. Most SOCs run separate production, staging, and development accounts. Large enterprises segment by region, business unit, or brand. And managed security service providers (MSSPs) watch over many customers at once. Traditionally, ISVs have used the...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "MitchellGulledge"
     }
   ]
 }
