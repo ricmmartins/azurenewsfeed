@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-10-17T14:58:17.217705+00:00",
-  "totalArticles": 192,
+  "lastUpdated": "2026-10-18T15:23:03.667715+00:00",
+  "totalArticles": 187,
   "articles": [
+    {
+      "title": "Five Web IQ use cases: bring the outside world into your AI agent",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/five-web-iq-use-cases-bring-the-outside-world-into-your-ai-agent/ba-p/4565273",
+      "published": "2026-10-17T19:00:00+00:00",
+      "summary": "Our previous blog post covers how Web IQ retrieves web content. This post covers where to use it: five workflows where web evidence makes an AI agent’s answers more useful. Better AI decisions start with the full picture AI agents and applications are only as useful as the information they can...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "robertocarli"
+    },
+    {
+      "title": "Web IQ: Web Search and Grounding APIs for AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/web-iq-web-search-and-grounding-apis-for-ai-agents/ba-p/4565272",
+      "published": "2026-10-17T17:13:53+00:00",
+      "summary": "AI applications are only as good as the information they reason from. A model can plan, summarize, and write code at a high level, but its built-in knowledge is bound by its training data. When an AI application needs to know what happened today, understand a recently updated regulation, or find a...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "robertocarli"
+    },
     {
       "title": "Troubleshoot Hyper-V guarded fabrics and shielded VMs",
       "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/troubleshoot-hyper-v-guarded-fabrics-and-shielded-vms/ba-p/4565441",
@@ -1666,69 +1684,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "javedeqbal"
-    },
-    {
-      "title": "Learn What to Do When You Hit Capacity in Azure Databricks!",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/learn-what-to-do-when-you-hit-capacity-in-azure-databricks/ba-p/4550550",
-      "published": "2026-09-18T14:58:25+00:00",
-      "summary": "Microsoft's Cloud Architects: Manu Mehta manumehta​, Chris Walk cwalk​, Eduardo Dos Santos eduardomdossantos​, Maria Hito mariahito​, Kiran Raja Ch KiranRaja​, Paul Singh PaulSingh​, Aladdin Alchalabi AladdinAlchalabi​ and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "Foundry IQ with D365F&O and Fabric IQ",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/foundry-iq-with-d365f-o-and-fabric-iq/ba-p/4557380",
-      "published": "2026-09-18T12:22:02+00:00",
-      "summary": "Business Scenario A retail organization runs multiple promotional sales events across its store network in different cities, featuring various product categories where Data is captured from third-party systems (products, stores, sales events) and D365 Finance and Operations (customer data)...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Sayanika"
-    },
-    {
-      "title": "Introducing a Guided Copilot Experience for Building Azure Apps in VS Code",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-a-guided-copilot-experience-for-building-azure-apps/ba-p/4557120",
-      "published": "2026-09-18T12:09:35+00:00",
-      "summary": "Today we're previewing a new way to build cloud apps with GitHub Copilot in VS Code: a guided Copilot experience that takes you from idea to a deployed Azure app through a structured, predictable workflow instead of a free-form chat session that may or may not land where you need it to. The...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "fiveisprime"
-    },
-    {
-      "title": "Automating Azure VM Image Baking and Validation with Packer and Azure DevOps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/automating-azure-vm-image-baking-and-validation-with-packer-and/ba-p/4557578",
-      "published": "2026-09-18T08:15:11+00:00",
-      "summary": "Solution at a glance Source image → Packer build → Azure Compute Gallery → Validation VM → Evidence → Controlled promotion Introduction Maintaining enterprise virtual machine images manually can lead to configuration drift, inconsistent builds, slow remediation and limited release traceability. A...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Prakhar-Sharma"
-    },
-    {
-      "title": "Agent experience with data in Onelake using Fabric IQ",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/agent-experience-with-data-in-onelake-using-fabric-iq/ba-p/4557504",
-      "published": "2026-09-17T23:57:52+00:00",
-      "summary": "Business Scenario A retail organization runs multiple promotional sales events across its store network in different cities, featuring various product categories. Data is captured from: Third-party systems (products, stores, sales events) ERP system i.e. Finance and Operations (customer data)...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Sayanika"
-    },
-    {
-      "title": "Action required: PromQL regex matching in Azure Monitor Workspace is becoming spec-compliant",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/action-required-promql-regex-matching-in-azure-monitor-workspace/ba-p/4556437",
-      "published": "2026-09-17T23:10:32+00:00",
-      "summary": "TL;DR: Bare regex matchers like pod=~\"foo\" will soon return only exact matches, not substring matches. If you rely on =~ for \"starts with\" or \"contains\" semantics, update your queries to add .* before the change lands. What is changing AMW's Prometheus Query Service is moving to fully-anchored...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Tyler_Kight"
-    },
-    {
-      "title": "Your Certificate Renewed. Your Gateway Didn't Notice.",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/your-certificate-renewed-your-gateway-didn-t-notice/ba-p/4552786",
-      "published": "2026-09-17T20:56:22+00:00",
-      "summary": "A setup that looks fine API Management sits behind a global entry point like Traffic Manager or Front Door. Your custom domain, api.contoso.com, points at that entry point. APIM holds the same custom domain, with a certificate pulled from Key Vault. It works, for months. Then the certificate...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Madhura Amlekar"
     }
   ]
 }
