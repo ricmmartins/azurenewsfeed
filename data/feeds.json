@@ -1,11 +1,29 @@
 {
-  "lastUpdated": "2026-10-18T15:23:03.667715+00:00",
-  "totalArticles": 187,
+  "lastUpdated": "2026-10-19T18:20:36.058807+00:00",
+  "totalArticles": 193,
   "articles": [
+    {
+      "title": "💲Announcing Free Grant and Pricing for Logic Apps Automation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-free-grant-and-pricing-for-logic-apps-automation/ba-p/4562264",
+      "published": "2026-10-19T18:02:57+00:00",
+      "summary": "Today, we're announcing pricing for Azure Logic Apps Automation, now in public preview, along with monthly free grants that make it easier to start building, experimenting, and bringing automations to life. Logic Apps Automation is Azure's fully managed platform for business process automation and...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "DivSwa"
+    },
+    {
+      "title": "General Availability: Metrics usage insights for Azure Monitor workspace",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/general-availability-metrics-usage-insights-for-azure-monitor/ba-p/4565377",
+      "published": "2026-10-19T17:58:01+00:00",
+      "summary": "As your application and hosting environment grows, so do your observability needs and the volume of metrics you collect. But understanding what is driving that usage, how it is changing over time, and where there may be opportunities to optimize can be challenging. We’re excited to announce the...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "ayeshakhan"
+    },
     {
       "title": "Five Web IQ use cases: bring the outside world into your AI agent",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/five-web-iq-use-cases-bring-the-outside-world-into-your-ai-agent/ba-p/4565273",
-      "published": "2026-10-17T19:00:00+00:00",
+      "published": "2026-10-19T17:52:31+00:00",
       "summary": "Our previous blog post covers how Web IQ retrieves web content. This post covers where to use it: five workflows where web evidence makes an AI agent’s answers more useful. Better AI decisions start with the full picture AI agents and applications are only as useful as the information they can...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
@@ -14,11 +32,65 @@
     {
       "title": "Web IQ: Web Search and Grounding APIs for AI Agents",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/web-iq-web-search-and-grounding-apis-for-ai-agents/ba-p/4565272",
-      "published": "2026-10-17T17:13:53+00:00",
+      "published": "2026-10-19T17:50:21+00:00",
       "summary": "AI applications are only as good as the information they reason from. A model can plan, summarize, and write code at a high level, but its built-in knowledge is bound by its training data. When an AI application needs to know what happened today, understand a recently updated regulation, or find a...",
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "robertocarli"
+    },
+    {
+      "title": "Connect Azure Service Bus to other messaging systems with a JMS bridge",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/connect-azure-service-bus-to-other-messaging-systems-with-a-jms/ba-p/4564885",
+      "published": "2026-10-19T17:00:00+00:00",
+      "summary": "A JMS bridge connects existing messaging workloads to Azure Service Bus while their applications continue to use their current broker. In this post, we look at an on-premises IBM MQ application sending order events to a workload in Azure through Azure Service Bus Premium. IBM MQ is one example; the...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer"
+    },
+    {
+      "title": "Organize and revisit tabs with the keyboard",
+      "link": "https://devblogs.microsoft.com/visualstudio/organize-and-revisit-tabs-with-the-keyboard/",
+      "published": "2026-10-19T14:00:22+00:00",
+      "summary": "Reorder your document tabs and return to them by visual position with new keyboard shortcuts. The post Organize and revisit tabs with the keyboard appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mads Kristensen"
+    },
+    {
+      "title": "Browser automation tool in Microsoft Foundry is now GA",
+      "link": "https://devblogs.microsoft.com/foundry/browser-automation-tool-ga/",
+      "published": "2026-10-19T10:32:13+00:00",
+      "summary": "Build agents that automate tasks across public and private websites with managed browsers, native toolbox integration, Live View, and human control. The post Browser automation tool in Microsoft Foundry is now GA appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nandini Muralidharan"
+    },
+    {
+      "title": "Beyond One-Size-Fits-All: Decision Routing for GitHub Copilot in CLI & VS Code",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-one-size-fits-all-decision-routing-for-github-copilot-in/ba-p/4564778",
+      "published": "2026-10-19T07:00:00+00:00",
+      "summary": "As developer tools move into the age of agentic AI, it is easy to fall into a familiar habit: when a task matters, choose the strongest—and usually most expensive—model available. Real software work is more varied than that. Explaining a function, editing a README, adding a boundary test, debugging...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
+    {
+      "title": "Deploying Logic Apps Hybrid through an Azure DevOps pipeline",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/deploying-logic-apps-hybrid-through-an-azure-devops-pipeline/ba-p/4556246",
+      "published": "2026-10-19T05:16:43+00:00",
+      "summary": "Overview Logic Apps Hybrid runs Standard workflows on your own infrastructure: an Arc-enabled Kubernetes cluster that appears in Azure as a connected environment. You still author and manage the workflows in Azure, but the runtime is yours. Until now, setting up CI/CD for this meant writing the ARM...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "anandgmenon"
+    },
+    {
+      "title": "Why AI Agents Need External Grounding",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/why-ai-agents-need-external-grounding/ba-p/4565283",
+      "published": "2026-10-18T15:00:00+00:00",
+      "summary": "Earlier this year, we introduced Microsoft Web IQ, a suite of AI-native web search and grounding APIs that gives LLMs, AI agents, and applications access to current, relevant web information. This post explores why web grounding is becoming a foundational layer of AI, how it helps deliver answers...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "bkingms"
     },
     {
       "title": "Troubleshoot Hyper-V guarded fabrics and shielded VMs",
@@ -541,15 +613,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "gurjsing"
-    },
-    {
-      "title": "💲Announcing Free Grant and Pricing for Logic Apps Automation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-free-grant-and-pricing-for-logic-apps-automation/ba-p/4562264",
-      "published": "2026-10-08T08:03:09+00:00",
-      "summary": "Today, we're announcing pricing for Azure Logic Apps Automation, now in public preview, along with monthly free grants that make it easier to start building, experimenting, and bringing automations to life. Logic Apps Automation is Azure's fully managed platform for business process automation and...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "DivSwa"
     },
     {
       "title": "Claude Haiku 5.5 is now available in Microsoft Foundry",
@@ -1675,15 +1738,6 @@
       "blog": "FinOps",
       "blogId": "finopsblog",
       "author": "Madhura Amlekar"
-    },
-    {
-      "title": "FinOps-Ready Azure Landing Zone - Part 2",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/finops-ready-azure-landing-zone-part-2/ba-p/4555727",
-      "published": "2026-09-18T17:30:45+00:00",
-      "summary": "Author's Note: Vendor names referenced in this article are used solely as illustrative architectural examples and should not be interpreted as endorsements, recommendations, or advertisements. Introduction In Part 1, we looked at how Azure-native services can establish the foundation for a...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "javedeqbal"
     }
   ]
 }
