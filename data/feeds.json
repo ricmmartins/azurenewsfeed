@@ -1,7 +1,106 @@
 {
-  "lastUpdated": "2026-10-20T16:22:00.256219+00:00",
-  "totalArticles": 201,
+  "lastUpdated": "2026-10-21T16:37:33.020807+00:00",
+  "totalArticles": 209,
   "articles": [
+    {
+      "title": "Introducing Agentic Autofix for code and dependencies",
+      "link": "https://devblogs.microsoft.com/devops/introducing-agentic-autofix-for-code-and-dependencies/",
+      "published": "2026-10-21T15:06:27+00:00",
+      "summary": "Fixing a vulnerability takes more than knowing where it is. You need a change that follows your coding standards and works with the rest of your code. Copilot Autofix for GitHub Advanced Security for Azure DevOps now runs on an agentic foundation. It also supports dependency vulnerability fixes and...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Laura Jiang"
+    },
+    {
+      "title": "Compare today’s code with an earlier commit",
+      "link": "https://devblogs.microsoft.com/visualstudio/compare-todays-code-with-an-earlier-commit/",
+      "published": "2026-10-21T14:00:30+00:00",
+      "summary": "Compare a historical commit with your working tree without checking out the commit or leaving your branch. The post Compare today’s code with an earlier commit appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Leah Tran"
+    },
+    {
+      "title": "Announcing GA of Safe Key Rotation in Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/announcing-public-preview-of-safe-key-rotation-in-azure-cosmos-db/",
+      "published": "2026-10-21T14:00:23+00:00",
+      "summary": "In our previous post, we introduced the private preview of Safe Key Rotation, a feature that helps Azure Cosmos DB customers avoid service disruptions during key rotations. By showing when each account key was last used, it helps teams make informed decisions before rotating keys or moving to Entra...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Iria Osara"
+    },
+    {
+      "title": "Microsoft at NVIDIA GTC Berlin 2026: sovereign AI on your terms",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/microsoft-at-nvidia-gtc-berlin-2026-sovereign-ai-on-your-terms/ba-p/4566171",
+      "published": "2026-10-21T11:32:12+00:00",
+      "summary": "Microsoft is excited to attend NVIDIA GTC Berlin October 20 through 22, bringing news across the AI stack. We are expanding the infrastructure and platform capabilities organizations need to build and run AI across cloud and customer-controlled environments. This includes new capabilities for...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Ben_Sickle"
+    },
+    {
+      "title": "PowerToys 0.102 is here: new mouse utilities, Command Palette improvements and much more",
+      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-102-is-here-new-mouse-utilities-command-palette-improvements-and-much-more/",
+      "published": "2026-10-21T11:06:49+00:00",
+      "summary": "We’re back with a fresh PowerToys release! This one brings two new mouse utilities, Mouse Button Lock and CursorHide, an optional quick-access shelf for Command Palette, snip dictation in ZoomIt, and a set of new command-line tools for automating PowerToys. Color Picker and Text Extractor also move...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Niels Laute"
+    },
+    {
+      "title": "🆕Orchestrate Foundry Prompt and Hosted Agents with Logic Apps Automation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/orchestrate-foundry-prompt-and-hosted-agents-with-logic-apps/ba-p/4566381",
+      "published": "2026-10-21T00:45:18+00:00",
+      "summary": "Microsoft Foundry is retiring workflows on December 1, 2026. After that date, the visual workflow designer and running workflows in the Foundry portal won’t be supported. For business process automation that combines deterministic steps with AI reasoning, the Foundry migration guide recommends...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "DivSwa"
+    },
+    {
+      "title": "Manage all your Microsoft Sentinel data in one place with Unified Data Management (Public Preview)",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/manage-all-your-microsoft-sentinel-data-in-one-place-with/ba-p/4565940",
+      "published": "2026-10-20T19:34:43+00:00",
+      "summary": "As security teams bring in more data from more sources and use it across SIEM and XDR workflows, decisions about connector health, ingestion volume, and cost optimization get harder. Today, we’re announcing the public preview of Unified Data Management for Microsoft Sentinel, available in the new...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "amybook"
+    },
+    {
+      "title": "Cloud Security Billing, Simplified: Introducing the Defender Workload Unit",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/cloud-security-billing-simplified-introducing-the-defender/ba-p/4559743",
+      "published": "2026-10-20T19:02:27+00:00",
+      "summary": "That's the thinking behind an upcoming improvement to Microsoft Defender for Cloud: the Defender Workload Unit, or DWU. It's a new billing model and product experience that translates workload-specific usage into a common billing unit, with one unit price and one place to estimate and track costs....",
+      "blog": "Microsoft Defender for Cloud",
+      "blogId": "microsoftdefendercloudblog",
+      "author": "danielacardon"
+    },
+    {
+      "title": "Expanded cross-tenant delegated access in Microsoft Defender is generally available",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/expanded-cross-tenant-delegated-access-in-microsoft-defender-is/ba-p/4565941",
+      "published": "2026-10-20T17:24:44+00:00",
+      "summary": "Security operations rarely stop at a single tenant boundary. Managed security service providers (MSSPs) protect many customer environments, and central security teams often operate across a tenant estate spanning business units, regions, or subsidiaries. In both cases, teams need to delegate...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "Robi Czitron"
+    },
+    {
+      "title": "Azure DevOps available in Microsoft Copilot",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-available-in-microsoft-copilot/",
+      "published": "2026-10-20T16:48:07+00:00",
+      "summary": "The Azure DevOps Plugin is now available in Microsoft Copilot. It brings Azure DevOps directly into Copilot Chat, Cowork, and Code, so you can work with your projects, work items, pull requests, test plans, pipelines, and more without switching to Azure DevOps. The plugin also includes built-in...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem"
+    },
+    {
+      "title": "General Availability: Advanced platform metrics in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/general-availability-advanced-platform-metrics-in-azure-monitor/ba-p/4566015",
+      "published": "2026-10-20T16:22:37+00:00",
+      "summary": "We are excited to announce the general availability (GA) of advanced platform metrics for Azure Monitor, delivering more granular telemetry to help customers monitor and optimize their workloads more effectively. This new capability builds on Azure Monitor platform metrics, which continue to...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "alyssaschimm"
+    },
     {
       "title": "What’s new in Azure SRE Agent: October Update",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-october-update/ba-p/4566004",
@@ -19,6 +118,24 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "StuartRussell"
+    },
+    {
+      "title": "Can a local git remote replace GitHub in your agent eval?",
+      "link": "https://devblogs.microsoft.com/blog/can-a-local-git-remote-replace-github-in-your-agent-eval/",
+      "published": "2026-10-20T14:53:27+00:00",
+      "summary": "We swapped GitHub for a local git remote in our agent evals. Rebasing and pushing on request were unaffected, but the agent pushed on its own 11 points less often. Here's when a local remote is a safe shortcut, and when it isn't.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
+      "title": "Building an On-Device Voice Companion with Foundry Local",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-an-on-device-voice-companion-with-foundry-local/ba-p/4563553",
+      "published": "2026-10-20T14:00:00+00:00",
+      "summary": "“When was my heartbeat high this week?” That was the question I wanted to ask my phone. My watch already collects the readings. But finding the answer still means opening an app, choosing a date range and interpreting a chart. I wanted to say the question out loud and hear an answer based on the...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Kalaivanan"
     },
     {
       "title": "Advancing sovereign AI with Foundry Local and Azure Local",
@@ -271,6 +388,15 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Nick Brady"
+    },
+    {
+      "title": "Reducing AKS cold starts with Prepared Image Specification",
+      "link": "https://blog.aks.azure.com/2026/10/16/reducing-aks-cold-starts-with-prepared-image-specification",
+      "published": "2026-10-16T00:00:00+00:00",
+      "summary": "Learn how Prepared Image Specification can reduce AKS scale-out latency by preparing container images, models, and host customizations before nodes start.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "Azure Container Apps Sandboxes, Now Generally Available",
@@ -1002,15 +1128,6 @@
       "author": "Sudhanshu Khera, Iria Osara"
     },
     {
-      "title": "Banking Challenges with AI and Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/banking-challenges-with-ai-and-agents/ba-p/4560463",
-      "published": "2026-10-05T13:00:00+00:00",
-      "summary": "When BNY deployed agents at enterprise scale, they faced a choice every bank encounters: how do you give AI systems the autonomy to be useful while maintaining the control regulators demand? This article breaks down the architectural decisions banks are making today—from runtime hosting to network...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "gabyb"
-    },
-    {
       "title": "Complete Guide to Azure Databricks Cost Optimization for Data Engineers",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/complete-guide-to-azure-databricks-cost-optimization-for-data/ba-p/4550132",
       "published": "2026-10-03T04:08:41+00:00",
@@ -1270,15 +1387,6 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Madeline Egan"
-    },
-    {
-      "title": "Cosmos DB Mirroring in Fabric Now Supports Virtual Network Data Gateways",
-      "link": "https://devblogs.microsoft.com/cosmosdb/cosmos-db-mirroring-in-fabric-now-supports-virtual-network-data-gateways/",
-      "published": "2026-09-30T07:00:35+00:00",
-      "summary": "Azure Cosmos DB mirroring in Microsoft Fabric now offers a simpler way to connect accounts secured by private endpoints or virtual networks. A virtual network data gateway provisioned inside your own virtual network keeps public network access disabled throughout setup and ongoing replication. This...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Jai Maldonado"
     },
     {
       "title": "Using Jev with Agents in Microsoft Foundry for Model Evaluation",
@@ -1774,42 +1882,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "hailukassa"
-    },
-    {
-      "title": "What the Azure API Management integration means for Azure Service Bus",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/what-the-azure-api-management-integration-means-for-azure/ba-p/4558087",
-      "published": "2026-09-21T16:00:00+00:00",
-      "summary": "Azure API Management now provides a generally available policy for sending messages to Azure Service Bus. Using the send-service-bus-message policy, an API request can send a message directly to a Service Bus queue or topic. This allows you to put a governed HTTP API in front of an asynchronous...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "EldertGrootenboer"
-    },
-    {
-      "title": "Knowledge cutoff is a poor proxy for model capability",
-      "link": "https://devblogs.microsoft.com/blog/knowledge-cutoff-is-a-poor-proxy-for-model-capability/",
-      "published": "2026-09-21T07:51:46+00:00",
-      "summary": "A model can fail on features released before its knowledge cutoff, then succeed on ones released after it. We tested hundreds of product changes and found that the date tells you far less than the work does.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Beyond Cherry-Picking: Evaluating Text-to-Image Models",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-cherry-picking-evaluating-text-to-image-models/ba-p/4558111",
-      "published": "2026-09-21T07:00:00+00:00",
-      "summary": "In the rapidly evolving landscape of generative AI, large language model (LLM) evaluations have matured into standardized benchmark suites, Elo leaderboards, and automated judge pipelines. However, in the realm of Text-to-Image (T2I) synthesis, technical teams frequently slip back into what can...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "You Get One Exchange Left: Rethinking Azure Commitments Before February 2027",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/you-get-one-exchange-left-rethinking-azure-commitments-before/ba-p/4552401",
-      "published": "2026-09-21T00:03:58+00:00",
-      "summary": "Azure gives you two main ways to pay less by committing up front. A reservation gets you the deepest discount, but you are locking in a specific SKU in a specific region. A savings plan gives up some of that discount in exchange for freedom: you are only committing to spend a certain amount per...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "Madhura Amlekar"
     }
   ]
 }
