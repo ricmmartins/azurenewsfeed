@@ -1,7 +1,106 @@
 {
-  "lastUpdated": "2026-10-21T16:37:33.020807+00:00",
-  "totalArticles": 209,
+  "lastUpdated": "2026-10-22T16:38:41.023159+00:00",
+  "totalArticles": 215,
   "articles": [
+    {
+      "title": "Azure Storage Discovery now offers advanced capacity insights",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-storage-discovery-now-offers-advanced-capacity-insights/ba-p/4563651",
+      "published": "2026-10-22T15:00:00+00:00",
+      "summary": "We are excited to announce the preview of advanced capacity insights in Azure Storage Discovery. Azure Storage Discovery provides enterprise-wide visibility into storage usage, activity, egress, and configuration across your data estate. Advanced capacity insights extend this visibility with deeper...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "PreethiThippeswamy"
+    },
+    {
+      "title": "Are You Getting Everything You Can from Your Visual Studio Subscription?",
+      "link": "https://devblogs.microsoft.com/visualstudio/what-should-we-blog-about-next/",
+      "published": "2026-10-22T14:00:56+00:00",
+      "summary": "What if you could experiment with a new Azure service without requesting additional budget, prepare for your next technical certification using learning resources you already have, or build a dashboard without creating every UI component from scratch? If you’re a Visual Studio subscriber, you may...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt"
+    },
+    {
+      "title": "Beyond Hub-and-Spoke: Routable and Non-Advertised Azure Networks",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/beyond-hub-and-spoke-routable-and-non-advertised-azure-networks/ba-p/4553044",
+      "published": "2026-10-22T12:19:59+00:00",
+      "summary": "Why Enterprise Azure Networking Needs to Evolve Hub-and-spoke remains a common foundation for enterprise Azure networking. The hub provides shared transit, hybrid connectivity, DNS, and security services, while spokes host application and platform workloads. A conventional design allocates each...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Sunip"
+    },
+    {
+      "title": "Azure WAF custom rules for PHP2Shell mitigation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-waf-custom-rules-for-php2shell-mitigation/ba-p/4566684",
+      "published": "2026-10-22T03:24:58+00:00",
+      "summary": "Written in collaboration with Gunjan Jain​ and yuvalpery​ As described in our earlier blog, Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations, we strongly recommend upgrading to a patched version of PHP as soon as possible. Upgrading PHP remains...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor"
+    },
+    {
+      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
+      "published": "2026-10-22T03:18:42+00:00",
+      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor"
+    },
+    {
+      "title": "Optimize selective analytics reads in Azure Data Lake Storage with ABFS Vectored Read",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/optimize-selective-analytics-reads-in-azure-data-lake-storage/ba-p/4564592",
+      "published": "2026-10-22T00:37:34+00:00",
+      "summary": "ABFS Vectored Read helps compatible analytics engines reduce request overhead when reading selected portions of columnar files in Azure Data Lake Storage. By coordinating multiple noncontiguous byte ranges through the Azure Blob File System (ABFS) driver, it can combine nearby ranges into fewer...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "madhurinrao"
+    },
+    {
+      "title": "Enhanced Feature Flags: A New Foundation for Feature Management in Azure App Configuration",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enhanced-feature-flags-a-new-foundation-for-feature-management/ba-p/4566672",
+      "published": "2026-10-21T23:04:15+00:00",
+      "summary": "Shipping is no longer just about deploying code. Consider a team introducing a new checkout experience. The code is already in production, but the team wants to expose it to a small audience, gradually increase availability, monitor the results, and retain the ability to turn it off if something...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "mukta"
+    },
+    {
+      "title": "Built by experience: The journey to Azure Linux 4.0",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/built-by-experience-the-journey-to-azure-linux-4-0/ba-p/4559114",
+      "published": "2026-10-21T21:06:03+00:00",
+      "summary": "Azure Linux 4.0 builds on years of experience creating, operating, securing, and maintaining a Linux distribution for cloud-scale workloads. That journey began with CBL-Mariner, which emerged publicly in 2020 as Microsoft’s open-source Linux distribution for its cloud infrastructure and edge...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "poorvinarang"
+    },
+    {
+      "title": "Scale Data Collection Endpoint private connectivity with IP Endpoint Compression - Preview",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/scale-data-collection-endpoint-private-connectivity-with-ip/ba-p/4563958",
+      "published": "2026-10-21T17:22:27+00:00",
+      "summary": "Scale Azure Monitor Private Link with data collection endpoint IP compression As organizations expand their Azure Monitor deployments, private networking needs to scale with them. For enterprises running large, distributed environments, that can create an increasingly important challenge: how do...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Mahesh_Sundaram"
+    },
+    {
+      "title": "Choosing the Right Azure Virtual Machine for Ansys CFX",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/choosing-the-right-azure-virtual-machine-for-ansys-cfx/ba-p/4559394",
+      "published": "2026-10-21T17:11:34+00:00",
+      "summary": "If you are moving Ansys CFX turbomachinery simulation software to the cloud, the first question is not whether Azure can run your computational fluid dynamics (CFD) workloads, but it is which Virtual Machine (VM) delivers the best balance of performance and cost. Azure offers multiple AMD...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Hugo_Meiland"
+    },
+    {
+      "title": "Cohere Rerank V5 is now available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/cohere-rerank-v5-is-now-available-in-microsoft-foundry/ba-p/4566311",
+      "published": "2026-10-21T16:27:58+00:00",
+      "summary": "Today, we’re announcing the availability of Cohere Rerank v5 in Microsoft Foundry, helping developers improve the relevance and efficiency of enterprise search and retrieval-augmented generation (RAG). With Fast and Pro versions and a new Context Focus capability, Rerank 5 helps applications find...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "RashaudSavage"
+    },
     {
       "title": "Introducing Agentic Autofix for code and dependencies",
       "link": "https://devblogs.microsoft.com/devops/introducing-agentic-autofix-for-code-and-dependencies/",
@@ -48,6 +147,15 @@
       "author": "Niels Laute"
     },
     {
+      "title": "GPU Memory Profiling on AKS: Find the Code Behind Memory Pressure",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/gpu-memory-profiling-on-aks-find-the-code-behind-memory-pressure/ba-p/4566375",
+      "published": "2026-10-21T01:00:40+00:00",
+      "summary": "By Brian Benz, Paul Yu, Maya Singh, Johnson Shi GPU memory allocation can be tricky to get right. Allocate too little and your AI workload can slow down or fail with an out-of-memory error, often during peak traffic when reliability matters most. Allocate too much and expensive GPU capacity sits...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "johnsonshi_msft"
+    },
+    {
       "title": "🆕Orchestrate Foundry Prompt and Hosted Agents with Logic Apps Automation",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/orchestrate-foundry-prompt-and-hosted-agents-with-logic-apps/ba-p/4566381",
       "published": "2026-10-21T00:45:18+00:00",
@@ -55,6 +163,24 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "DivSwa"
+    },
+    {
+      "title": "Introducing Azure Copilot for Azure Local: AI-powered operations for distributed infrastructure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-azure-copilot-for-azure-local-ai-powered-operations/ba-p/4565723",
+      "published": "2026-10-20T20:25:48+00:00",
+      "summary": "Managing distributed infrastructure can be complex. When an issue occurs, operators may need to navigate multiple tools, review health signals and diagnostics, interpret logs, and determine the right troubleshooting steps before they can move toward resolution. Azure Copilot for Azure Local helps...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "naafiahsadique"
+    },
+    {
+      "title": "Data Transfer and Transactions metrics now generally available for Azure Container Registry",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/data-transfer-and-transactions-metrics-now-generally-available/ba-p/4565530",
+      "published": "2026-10-20T19:55:04+00:00",
+      "summary": "Azure Container Registry now provides two new platform metrics that make it easier to understand outbound data transfer, inspect API traffic, and investigate throttled or failed requests without first opening a support request. We're excited to share the general availability of the Data Transfer...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jeburke"
     },
     {
       "title": "Manage all your Microsoft Sentinel data in one place with Unified Data Management (Public Preview)",
@@ -1092,15 +1218,6 @@
       "author": "KerimHanif"
     },
     {
-      "title": "Voice agents in Foundry Agent Service: architecture, trust boundaries, and real-audio latency",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/voice-agents-in-foundry-agent-service-architecture-trust/ba-p/4560813",
-      "published": "2026-10-05T16:00:00+00:00",
-      "summary": "Building enterprise voice agents used to mean stitching together speech services, real-time models, turn detection, and tool orchestration—then owning every failure mode. Voice agents in Foundry Agent Service consolidate a multi-service voice solution into a versioned, managed agent. They reduce...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Yassine_El_Ghali"
-    },
-    {
       "title": "Logic Apps Aviators Newsletter - October 2026",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-october-2026/ba-p/4561308",
       "published": "2026-10-05T15:00:00+00:00",
@@ -1197,7 +1314,7 @@
       "summary": "Data API builder (DAB) 2.1.5 is now available as a stable release, and it is about meeting modern data where it lives: documents next to rows, embeddings next to both. This release brings native support for the SQL json and vector data types to the REST and GraphQL endpoints, so the same entities...",
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
-      "author": "Carlos Robles, Aniruddh Munde, Matt Hyon"
+      "author": "Matt Hyon, Aniruddh Munde"
     },
     {
       "title": "Now generally available: Regional resiliency for Azure Virtual Desktop",
@@ -1641,15 +1758,6 @@
       "author": "carlosbermudezlopez"
     },
     {
-      "title": "Connect Azure Functions to more services with managed connectors",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/connect-azure-functions-to-more-services-with-managed-connectors/ba-p/4558711",
-      "published": "2026-09-24T20:40:53+00:00",
-      "summary": "Azure Functions can already connect to many Azure services through triggers and bindings. With managed connectors, your functions can access about 1,700 connectors across services such as Microsoft 365, Microsoft Teams, Dataverse, SharePoint, OneDrive, and third-party systems. Connector triggers...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "lily-ma"
-    },
-    {
       "title": "Getting the best out of Azure SRE Agent",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/getting-the-best-out-of-azure-sre-agent/ba-p/4559745",
       "published": "2026-09-24T20:24:01+00:00",
@@ -1803,15 +1911,6 @@
       "author": "Rafia_Aqil"
     },
     {
-      "title": "Run and scale AI applications on AKS – the latest product innovations",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/run-and-scale-ai-applications-on-aks-the-latest-product/ba-p/4559103",
-      "published": "2026-09-22T20:17:22+00:00",
-      "summary": "AI changed what teams ask of Kubernetes. Workloads today are more than a stateless web tier, they are an inference service with an expensive GPU behind it, an agent that behaves unpredictably, and a data path that shifts from dataset throughput to checkpoint durability to serving latency as the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Nate_Waters"
-    },
-    {
       "title": "Delete Your Polling Loop: Change-driven programming in Node.js with @drasi/lib",
       "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/delete-your-polling-loop-change-driven-programming-in-node-js/ba-p/4559093",
       "published": "2026-09-22T20:06:20+00:00",
@@ -1837,51 +1936,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Aaron Powell"
-    },
-    {
-      "title": "Using Azure Blob Storage as a durable filesystem for LangChain Deep Agents",
-      "link": "https://devblogs.microsoft.com/azure-sdk/using-azure-blob-storage-as-a-durable-filesystem-for-langchain-deep-agents-2/",
-      "published": "2026-09-22T15:00:44+00:00",
-      "summary": "LangChain Deep Agents is an open-source agent harness with built-in capabilities for building LLM-powered agents and applications, including complex, multi-step workflows. A model can reason and generate responses, but it needs a harness to do useful work over time. The harness provides the tools...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Vishnu Charan TJ"
-    },
-    {
-      "title": "Expanding access to specialized GPU infrastructure through Dapple and Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/expanding-access-to-specialized-gpu-infrastructure-through/ba-p/4558663",
-      "published": "2026-09-22T14:53:54+00:00",
-      "summary": "Enterprise AI has entered a new phase. For much of the past decade, the challenge was building enough compute for machine learning. Today, organizations need platforms for foundation model training, fine-tuning, large-scale inference, agentic systems, and enterprise AI. As these workloads grow in...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Trinidad_Salazar"
-    },
-    {
-      "title": "When the Coding Agent Leaves the Codebase: Building a Multi-Runtime AI Agent Infra with Azure KARS",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-the-coding-agent-leaves-the-codebase-building-a-multi/ba-p/4558449",
-      "published": "2026-09-22T07:00:00+00:00",
-      "summary": "1. The story starts with someone who doesn't write code Let me start with a scene I keep running into at community events. Late last year, after a meetup, I got an email. The sender wasn't a developer — he was a marketing manager at a manufacturing customer. He wrote: \"I installed Claude Code from...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "Announcing the public preview of flex nodes for AKS",
-      "link": "https://blog.aks.azure.com/2026/09/22/flex-nodes-for-aks",
-      "published": "2026-09-22T00:00:00+00:00",
-      "summary": "Extend one AKS control plane to run worker nodes securely across Azure regions, edge locations, and on-premises hardware with flex nodes for AKS (preview).",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Virtual nodes on Azure Container Instances: a new compute layer for AKS",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/virtual-nodes-on-azure-container-instances-a-new-compute-layer/ba-p/4558080",
-      "published": "2026-09-21T16:44:41+00:00",
-      "summary": "Meet virtual nodes on ACI Azure Kubernetes Service (AKS) gives you managed Kubernetes: the full Kubernetes API without operating the control plane yourself. Virtual nodes on Azure Container Instances go a step further, letting your pods run directly on Azure's serverless container platform, with...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "hailukassa"
     }
   ]
 }

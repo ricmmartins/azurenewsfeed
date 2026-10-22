@@ -1,5 +1,5 @@
 ============================================================
-ROTEIRO - AZURE NEWS DIÁRIO - 21/10/2026
+ROTEIRO - AZURE NEWS DIÁRIO - 22/10/2026
 ============================================================
 
 [ABERTURA]
@@ -7,88 +7,93 @@ ROTEIRO - AZURE NEWS DIÁRIO - 21/10/2026
 E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
-Hoje é dia 21/10/2026.
+Hoje é dia 22/10/2026.
 Temos 10 atualizações para cobrir.
 Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure DevOps Blog]
+[BLOCO: Azure Storage]
 
-  ► Introducing Agentic Autofix for code and dependencies
-    Fixing a vulnerability takes more than knowing where it is. You need a change that follows your coding standards and works with the rest of your code.
-    Link: https://devblogs.microsoft.com/devops/introducing-agentic-autofix-for-code-and-dependencies/
-
-  ► Azure DevOps available in Microsoft Copilot
-    The Azure DevOps Plugin is now available in Microsoft Copilot. It brings Azure DevOps directly into Copilot Chat, Cowork, and Code, so you can work wi
-    Link: https://devblogs.microsoft.com/devops/azure-devops-available-in-microsoft-copilot/
+  ► Azure Storage Discovery now offers advanced capacity insights
+    We are excited to announce the preview of advanced capacity insights in Azure Storage Discovery. Azure Storage Discovery provides enterprise-wide visi
+    Link: https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-storage-discovery-now-offers-advanced-capacity-insights/ba-p/4563651
 
 [PAUSA]
 
 ----------------------------------------
 [BLOCO: Visual Studio Blog]
 
-  ► Compare today’s code with an earlier commit
-    Compare a historical commit with your working tree without checking out the commit or leaving your branch. The post Compare today’s code with an earli
-    Link: https://devblogs.microsoft.com/visualstudio/compare-todays-code-with-an-earlier-commit/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Cosmos DB Blog]
-
-  ► Announcing GA of Safe Key Rotation in Azure Cosmos DB
-    In our previous post, we introduced the private preview of Safe Key Rotation, a feature that helps Azure Cosmos DB customers avoid service disruptions
-    Link: https://devblogs.microsoft.com/cosmosdb/announcing-public-preview-of-safe-key-rotation-in-azure-cosmos-db/
+  ► Are You Getting Everything You Can from Your Visual Studio Subscription?
+    What if you could experiment with a new Azure service without requesting additional budget, prepare for your next technical certification using learni
+    Link: https://devblogs.microsoft.com/visualstudio/what-should-we-blog-about-next/
 
 [PAUSA]
 
 ----------------------------------------
 [BLOCO: Azure Infrastructure]
 
-  ► Microsoft at NVIDIA GTC Berlin 2026: sovereign AI on your terms
-    Microsoft is excited to attend NVIDIA GTC Berlin October 20 through 22, bringing news across the AI stack. We are expanding the infrastructure and pla
-    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/microsoft-at-nvidia-gtc-berlin-2026-sovereign-ai-on-your-terms/ba-p/4566171
+  ► Beyond Hub-and-Spoke: Routable and Non-Advertised Azure Networks
+    Why Enterprise Azure Networking Needs to Evolve Hub-and-spoke remains a common foundation for enterprise Azure networking. The hub provides shared tra
+    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/beyond-hub-and-spoke-routable-and-non-advertised-azure-networks/ba-p/4553044
 
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Windows Command Line]
+[BLOCO: Azure Network Security]
 
-  ► PowerToys 0.102 is here: new mouse utilities, Command Palette improvements and much more
-    We’re back with a fresh PowerToys release! This one brings two new mouse utilities, Mouse Button Lock and CursorHide, an optional quick-access shelf f
-    Link: https://devblogs.microsoft.com/commandline/powertoys-0-102-is-here-new-mouse-utilities-command-palette-improvements-and-much-more/
+  ► Azure WAF custom rules for PHP2Shell mitigation
+    Written in collaboration with Gunjan Jain​ and yuvalpery​ As described in our earlier blog, Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: 
+    Link: https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-waf-custom-rules-for-php2shell-mitigation/ba-p/4566684
 
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Integrations on Azure]
-
-  ► 🆕Orchestrate Foundry Prompt and Hosted Agents with Logic Apps Automation
-    Microsoft Foundry is retiring workflows on December 1, 2026. After that date, the visual workflow designer and running workflows in the Foundry portal
-    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/orchestrate-foundry-prompt-and-hosted-agents-with-logic-apps/ba-p/4566381
+  ► Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations
+    Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed 
+    Link: https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623
 
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Microsoft Sentinel]
+[BLOCO: Analytics on Azure]
 
-  ► Manage all your Microsoft Sentinel data in one place with Unified Data Management (Public Preview)
-    As security teams bring in more data from more sources and use it across SIEM and XDR workflows, decisions about connector health, ingestion volume, a
-    Link: https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/manage-all-your-microsoft-sentinel-data-in-one-place-with/ba-p/4565940
-
-  ► Expanded cross-tenant delegated access in Microsoft Defender is generally available
-    Security operations rarely stop at a single tenant boundary. Managed security service providers (MSSPs) protect many customer environments, and centra
-    Link: https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/expanded-cross-tenant-delegated-access-in-microsoft-defender-is/ba-p/4565941
+  ► Optimize selective analytics reads in Azure Data Lake Storage with ABFS Vectored Read
+    ABFS Vectored Read helps compatible analytics engines reduce request overhead when reading selected portions of columnar files in Azure Data Lake Stor
+    Link: https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/optimize-selective-analytics-reads-in-azure-data-lake-storage/ba-p/4564592
 
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Microsoft Defender for Cloud]
+[BLOCO: Apps on Azure]
 
-  ► Cloud Security Billing, Simplified: Introducing the Defender Workload Unit
-    That's the thinking behind an upcoming improvement to Microsoft Defender for Cloud: the Defender Workload Unit, or DWU. It's a new billing model and p
-    Link: https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/cloud-security-billing-simplified-introducing-the-defender/ba-p/4559743
+  ► Enhanced Feature Flags: A New Foundation for Feature Management in Azure App Configuration
+    Shipping is no longer just about deploying code. Consider a team introducing a new checkout experience. The code is already in production, but the tea
+    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enhanced-feature-flags-a-new-foundation-for-feature-management/ba-p/4566672
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Linux & Open Source]
+
+  ► Built by experience: The journey to Azure Linux 4.0
+    Azure Linux 4.0 builds on years of experience creating, operating, securing, and maintaining a Linux distribution for cloud-scale workloads. That jour
+    Link: https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/built-by-experience-the-journey-to-azure-linux-4-0/ba-p/4559114
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Observability]
+
+  ► Scale Data Collection Endpoint private connectivity with IP Endpoint Compression - Preview
+    Scale Azure Monitor Private Link with data collection endpoint IP compression As organizations expand their Azure Monitor deployments, private network
+    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/scale-data-collection-endpoint-private-connectivity-with-ip/ba-p/4563958
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: High Performance Computing]
+
+  ► Choosing the Right Azure Virtual Machine for Ansys CFX
+    If you are moving Ansys CFX turbomachinery simulation software to the cloud, the first question is not whether Azure can run your computational fluid 
+    Link: https://techcommunity.microsoft.com/t5/azure-high-performance-computing/choosing-the-right-azure-virtual-machine-for-ansys-cfx/ba-p/4559394
 
 [PAUSA]
 
