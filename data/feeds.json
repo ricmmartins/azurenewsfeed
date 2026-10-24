@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-10-23T16:28:55.556322+00:00",
-  "totalArticles": 212,
+  "lastUpdated": "2026-10-24T15:23:40.003760+00:00",
+  "totalArticles": 206,
   "articles": [
+    {
+      "title": "Making Azure Container Registry Activity Visible at Scale",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/making-azure-container-registry-activity-visible-at-scale/ba-p/4567301",
+      "published": "2026-10-23T23:56:08+00:00",
+      "summary": "Learn More Use Grafana dashboards in Azure Container Registry Monitor Azure Container Registry Azure Container Registry (ACR) now publishes two new metrics: Transactions and Data Transfer. For the first time, you can see which operations your registry serves, which region serves them, and how much...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "cabarker"
+    },
+    {
+      "title": "Azure OpenAI Decisions API: Now generally available in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/azure-openai-decisions-api-now-generally-available-in-microsoft/ba-p/4567265",
+      "published": "2026-10-23T19:52:29+00:00",
+      "summary": "AI applications and agents do more than generate content. They constantly make decisions about what should happen next. Which model should handle this request? Is a customer issue urgent? Did an agent’s output meet the required criteria? Should a workflow continue, try another approach, or involve...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "MaheshBalachandran"
+    },
+    {
+      "title": "Now in Foundry: Meta Muse Spark Open, NVIDIA Nemotron 3.5 Super VL, and Reflection Beam",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-meta-muse-spark-open-nvidia-nemotron-3-5-super-vl/ba-p/4565899",
+      "published": "2026-10-23T19:34:09+00:00",
+      "summary": "This week's Model Mondays edition highlights three Hugging Face models newly available in Microsoft Foundry, giving developers more open-weight options for enterprise coding and agentic work: Meta's Muse Spark Open, NVIDIA's Nemotron 3.5 Super VL, and Reflection's Beam 1.0. Models of the week Meta:...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Osi"
+    },
+    {
+      "title": "Before Your Next Azure VM Refresh, Revisit the PaaS Options",
+      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/before-your-next-azure-vm-refresh-revisit-the-paas-options/ba-p/4562940",
+      "published": "2026-10-23T18:57:34+00:00",
+      "summary": "Why review these changes together? MANA and VM lifecycles MANA can change the network adapter on an eligible existing VM after maintenance or a stop, deallocate, and start cycle, even when the VM size stays the same. With Accelerated Networking enabled, check supported OS and driver versions. When...",
+      "blog": "Azure Migration",
+      "blogId": "azuremigrationblog",
+      "author": "Madhura Amlekar"
+    },
+    {
+      "title": "Bracing for BlockNtlmv1SSO",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/bracing-for-blockntlmv1sso/ba-p/4567273",
+      "published": "2026-10-23T18:14:10+00:00",
+      "summary": "Hi all. Jerry Devore dropping in for a minute to share some insights about the BlockNtlmv1SSO setting that went into effect with the October 2026 update. Why the change was necessary When MS-CHAPv2 is used for solutions like VPN, Wi-Fi, NPS, and RADIUS, the authentication flow leverages the MD4...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "JerryDevore"
+    },
+    {
+      "title": "Code with Cosmos: Build a Production-Ready AI App in Four Episodes",
+      "link": "https://devblogs.microsoft.com/cosmosdb/code-with-cosmos/",
+      "published": "2026-10-23T17:18:03+00:00",
+      "summary": "Follow an AI application from a blank folder to a system built for production AI application development often starts with a promising prototype. A real application has to do more than produce an answer: it needs current operational data, the ability to take actions and complete transactions,...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Azure Cosmos DB Team"
+    },
     {
       "title": "From Local Development to CI Workflows with the Azure Cosmos DB Emulator",
       "link": "https://devblogs.microsoft.com/cosmosdb/from-local-development-to-ci-workflows-with-the-azure-cosmos-db-emulator/",
@@ -462,15 +516,6 @@
       "author": "brethompson"
     },
     {
-      "title": "Now in Foundry: Meta Muse Spark Open, NVIDIA Nemotron 3.5 Super VL, and Reflection Beam",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-meta-muse-spark-open-nvidia-nemotron-3-5-super-vl/ba-p/4565899",
-      "published": "2026-10-19T17:08:14+00:00",
-      "summary": "This week's Model Mondays edition highlights three Hugging Face models newly available in Microsoft Foundry, giving developers more open-weight options for enterprise coding and agentic work: Meta's Muse Spark Open, NVIDIA's Nemotron 3.5 Super VL, and Reflection's Beam 1.0. Models of the week Meta:...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Osi"
-    },
-    {
       "title": "Connect Azure Service Bus to other messaging systems with a JMS bridge",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/connect-azure-service-bus-to-other-messaging-systems-with-a-jms/ba-p/4564885",
       "published": "2026-10-19T17:00:00+00:00",
@@ -604,15 +649,6 @@
       "blog": "AKS Blog",
       "blogId": "aksblog",
       "author": "Microsoft"
-    },
-    {
-      "title": "Azure Container Apps Sandboxes, Now Generally Available",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-sandboxes-now-generally-available/ba-p/4559125",
-      "published": "2026-10-15T23:31:23+00:00",
-      "summary": "Agents Act. You Set the Limits. Your platform needs to run untrusted code. Agents choose actions at runtime, from installing packages to calling APIs. In a multi-tenant service, you have to support both without letting one customer's code reach another customer's data. That requires an execution...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "JanKalis"
     },
     {
       "title": "Generally Available: Automatic Zone Balance for Virtual Machine Scale Sets",
@@ -1155,15 +1191,6 @@
       "author": "Malcolm Daigle"
     },
     {
-      "title": "Introducing Grok 4.7 on Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-grok-4-7-on-microsoft-foundry/ba-p/4562168",
-      "published": "2026-10-06T21:11:11+00:00",
-      "summary": "Today, Grok 4.7 from SpaceXAI is generally available in Microsoft Foundry Models, expanding the portfolio of leading models available to developers and enterprises building the next generation of AI applications. Based on SpaceXAI's latest model release, Grok 4.7 is designed for advanced reasoning,...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MaheshBalachandran"
-    },
-    {
       "title": "Upcoming SQL and AI Events to Put on Your Calendar",
       "link": "https://devblogs.microsoft.com/azure-sql/sql-calendar-2027q4/",
       "published": "2026-10-06T20:50:48+00:00",
@@ -1441,15 +1468,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Eric van Wijk"
-    },
-    {
-      "title": "Migrating Elasticsearch Mappings to Azure Cosmos DB",
-      "link": "https://devblogs.microsoft.com/cosmosdb/migrating-elasticsearch-mappings-to-azure-cosmos-db/",
-      "published": "2026-10-01T07:00:57+00:00",
-      "summary": "This post focuses on one of the most important design tasks when migrating from Elasticsearch to Azure Cosmos DB: translating an Elasticsearch mapping into Azure Cosmos DB container configuration. In Elasticsearch, a mapping defines how document fields are stored and indexed. Azure Cosmos DB is...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Madeline Egan"
     },
     {
       "title": "What a Burger Combo Taught Me About Agents: Jev, LLMs, and Model Routers",
@@ -1837,78 +1855,6 @@
       "blog": "Oracle on Azure",
       "blogId": "oracleonazureblog",
       "author": "RajyaLaxmiYellajosyula"
-    },
-    {
-      "title": "Migrate Data Ingestion from Data Collector to Log Ingestion - Part 2",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-data-ingestion-from-data-collector-to-log-ingestion-part/ba-p/4559649",
-      "published": "2026-09-24T15:05:05+00:00",
-      "summary": "In Part1, we discussed how to use HTTP action to migrate from the deprecated Data Collector API to Log Ingestion API. However, since the deprecated Data Collector API was allowing message payload up to 30MB, some migration scenarios encountered issues; since the new Log Ingestion API has only 1MB...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "mshboul"
-    },
-    {
-      "title": "From Chatbots to Automated Agents: Routines in Microsoft Foundry Are Now Generally Available",
-      "link": "https://devblogs.microsoft.com/foundry/from-chatbots-to-automated-assistants-routines-in-microsoft-foundry-are-now-generally-available/",
-      "published": "2026-09-24T15:00:57+00:00",
-      "summary": "Agents are rapidly evolving beyond chat. The first generation of agents waited for a person to send a message. Today, organizations want agents that can monitor work, respond to business events, and continue tasks over time. An agent might triage a newly opened GitHub issue, respond when a message...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Linda Li"
-    },
-    {
-      "title": "Engineering Agentic Recall Controls with MCP and Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/engineering-agentic-recall-controls-with-mcp-and-microsoft/ba-p/4557549",
-      "published": "2026-09-24T07:00:00+00:00",
-      "summary": "AI agents become operationally interesting when they can reach real systems. They also become operationally dangerous at exactly the same moment. Caldova Recall Control Tower is a developer demonstration built around that tension. It uses a fictional pharmaceutical recall to show how an agent can...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Lee_Stott"
-    },
-    {
-      "title": "Documentation Is the New Source Code",
-      "link": "https://devblogs.microsoft.com/ise/documentation-is-the-new-source-code/",
-      "published": "2026-09-24T07:00:00+00:00",
-      "summary": "A field guide to building a layered, AI-readable documentation system — instruction files, skills, ADRs, and tests — that turns your repo into a reliable substrate for Copilot, agents, and high-velocity engineering workflows. The post Documentation Is the New Source Code appeared first on ISE...",
-      "blog": "ISE Developer Blog",
-      "blogId": "iseblog",
-      "author": "Liza Shakury"
-    },
-    {
-      "title": "How to Validate That Your BizTalk SB-Messaging Adapter Is Really Using AMQP",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/how-to-validate-that-your-biztalk-sb-messaging-adapter-is-really/ba-p/4559391",
-      "published": "2026-09-24T04:15:15+00:00",
-      "summary": "On September 30, 2026, Azure Service Bus stops accepting the Service Bus Messaging Protocol (SBMP) — the protocol the BizTalk SB-Messaging adapter has always used. The failure mode is not a warning in a log file; it is a refused connection. To keep those integrations running, a BizTalk Server 2020...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "hcamposu"
-    },
-    {
-      "title": "How do you know what to optimize next in your AI agent? Ask The Experts!",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/how-do-you-know-what-to-optimize-next-in-your-ai-agent-ask-the/ba-p/4559401",
-      "published": "2026-09-24T03:41:03+00:00",
-      "summary": "Join us live to get a demo of the capabilities then engage with the experts in a Q&A. Bring your questions – post them in Discord ahead of time or ask them during the session. Save the date: 1:30-2:00pm ET, Sep 25, 2026 Join the Discord: https://aka.ms/model-mondays/discord Join the AMA live:...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "nitya"
-    },
-    {
-      "title": "AKS desktop evolves with AI troubleshooting and plugins",
-      "link": "https://blog.aks.azure.com/2026/09/24/aks-desktop-ai-troubleshooting",
-      "published": "2026-09-24T00:00:00+00:00",
-      "summary": "See how AKS desktop v0.10.0 uses AI-assisted troubleshooting, cluster context, proactive diagnosis, and plugins to help teams resolve Kubernetes issues.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Catalyst: Frontier stories of AI Infrastructure innovation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/catalyst-frontier-stories-of-ai-infrastructure-innovation/ba-p/4559362",
-      "published": "2026-09-23T17:05:19+00:00",
-      "summary": "In the Catalyst series, we explore the transformative power of AI by showcasing visionary companies driving scientific and industry breakthroughs powered by Azure and NVIDIA. This video series spotlights how innovation ignites action and how today’s visionaries are shaping tomorrow with the power...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "abbyhamilton"
     }
   ]
 }

@@ -1,5 +1,5 @@
 ============================================================
-ROTEIRO - AZURE NEWS DIÁRIO - 23/10/2026
+ROTEIRO - AZURE NEWS DIÁRIO - 24/10/2026
 ============================================================
 
 [ABERTURA]
@@ -7,71 +7,57 @@ ROTEIRO - AZURE NEWS DIÁRIO - 23/10/2026
 E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
-Hoje é dia 23/10/2026.
-Temos 7 atualizações para cobrir.
+Hoje é dia 24/10/2026.
+Temos 6 atualizações para cobrir.
 Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure Cosmos DB Blog]
+[BLOCO: Apps on Azure]
 
-  ► From Local Development to CI Workflows with the Azure Cosmos DB Emulator
-    When you change a database-backed feature, a successful HTTP response isn’t enough. You need to know that the write reached storage, the application r
-    Link: https://devblogs.microsoft.com/cosmosdb/from-local-development-to-ci-workflows-with-the-azure-cosmos-db-emulator/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Messaging on Azure]
-
-  ► Protect Your Streaming Data in Use: Confidential Computing for Azure Event Hubs Dedicated
-    For organizations in regulated industries — financial services, healthcare, government, defense — the security conversation around data has always rev
-    Link: https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/protect-your-streaming-data-in-use-confidential-computing-for/ba-p/4515219
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Tools]
-
-  ► Azure Verified Modules (AVM) is now owned by Azure engineering
-    Next community call: Monday 26th October 2026 @ 16:00 UK | 12:00 EDT | 09:00 PDT | 21:30 IST | 03:00 AEDT This call will be streamed to YouTube live s
-    Link: https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-verified-modules-avm-is-now-owned-by-azure-engineering/ba-p/4563822
+  ► Making Azure Container Registry Activity Visible at Scale
+    Learn More Use Grafana dashboards in Azure Container Registry Monitor Azure Container Registry Azure Container Registry (ACR) now publishes two new me
+    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/making-azure-container-registry-activity-visible-at-scale/ba-p/4567301
 
 [PAUSA]
 
 ----------------------------------------
 [BLOCO: Azure AI Foundry]
 
-  ► Foundry Fine-Tuning: open-source model expansion, MAI-Code, and shared multi-LoRA deployments
-    Today, Microsoft Foundry Managed Fine-Tuning expands its collection with four new open-source models and brings MAI-Code-1.1-Flash to Foundry resource
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-fine-tuning-open-source-model-expansion-mai-code-and/ba-p/4565915
+  ► Azure OpenAI Decisions API: Now generally available in Microsoft Foundry
+    AI applications and agents do more than generate content. They constantly make decisions about what should happen next. Which model should handle this
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/azure-openai-decisions-api-now-generally-available-in-microsoft/ba-p/4567265
+
+  ► Now in Foundry: Meta Muse Spark Open, NVIDIA Nemotron 3.5 Super VL, and Reflection Beam
+    This week's Model Mondays edition highlights three Hugging Face models newly available in Microsoft Foundry, giving developers more open-weight option
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-meta-muse-spark-open-nvidia-nemotron-3-5-super-vl/ba-p/4565899
 
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure Databricks]
+[BLOCO: Azure Migration]
 
-  ► Simplify private connectivity for Azure Databricks Serverless with Private Network Gateway
-    Recently, we announced the public preview of Private Network Gateway (PNG) for Azure Databricks - a simpler way to connect Azure Databricks serverless
-    Link: https://techcommunity.microsoft.com/t5/azure-databricks/simplify-private-connectivity-for-azure-databricks-serverless/ba-p/4566980
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Network Security]
-
-  ► Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations
-    Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed 
-    Link: https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623
+  ► Before Your Next Azure VM Refresh, Revisit the PaaS Options
+    Why review these changes together? MANA and VM lifecycles MANA can change the network adapter on an eligible existing VM after maintenance or a stop, 
+    Link: https://techcommunity.microsoft.com/t5/azure-migration-and/before-your-next-azure-vm-refresh-revisit-the-paas-options/ba-p/4562940
 
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure Dev Community]
+[BLOCO: Core Infrastructure & Security]
 
-  ► What production taught us about reviewing AI translations
-    When I first started thinking about translation review for Co-op Translator, I wanted a score. Something that could tell us whether a translated docum
-    Link: https://techcommunity.microsoft.com/t5/microsoft-developer-community/what-production-taught-us-about-reviewing-ai-translations/ba-p/4566948
+  ► Bracing for BlockNtlmv1SSO
+    Hi all. Jerry Devore dropping in for a minute to share some insights about the BlockNtlmv1SSO setting that went into effect with the October 2026 upda
+    Link: https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/bracing-for-blockntlmv1sso/ba-p/4567273
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Cosmos DB Blog]
+
+  ► Code with Cosmos: Build a Production-Ready AI App in Four Episodes
+    Follow an AI application from a blank folder to a system built for production AI application development often starts with a promising prototype. A re
+    Link: https://devblogs.microsoft.com/cosmosdb/code-with-cosmos/
 
 [PAUSA]
 
