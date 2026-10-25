@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-24T15:23:40.003760+00:00",
-  "totalArticles": 206,
+  "lastUpdated": "2026-10-25T15:33:45.630931+00:00",
+  "totalArticles": 201,
   "articles": [
     {
       "title": "Making Azure Container Registry Activity Visible at Scale",
@@ -10,6 +10,15 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "cabarker"
+    },
+    {
+      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
+      "published": "2026-10-23T20:17:17+00:00",
+      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "yuvalpery"
     },
     {
       "title": "Azure OpenAI Decisions API: Now generally available in Microsoft Foundry",
@@ -1801,60 +1810,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "varghesejoji"
-    },
-    {
-      "title": "Troubleshooting Azure Storage Deletion: Immutability, WORM, and Version Retention",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/troubleshooting-azure-storage-deletion-immutability-worm-and/ba-p/4559051",
-      "published": "2026-09-25T04:15:53+00:00",
-      "summary": "One of the most common questions Azure Storage administrators ask after enabling immutable storage is: \"Why can't I delete my storage account anymore?\" Azure Immutable Storage is designed to provide WORM (Write Once, Read Many) protection, ensuring that data cannot be modified or deleted during a...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "carlosbermudezlopez"
-    },
-    {
-      "title": "Getting the best out of Azure SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/getting-the-best-out-of-azure-sre-agent/ba-p/4559745",
-      "published": "2026-09-24T20:24:01+00:00",
-      "summary": "A common question that we get from our customers is \"Hey guys, we are excited about SRE agent and we 've created one but whats the best way to configure it?\". The below guide aims at sharing some of the best practices that anyone can follow to make the most out of our SRE Agent. This guide is based...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "puneetguptams"
-    },
-    {
-      "title": "Introducing bicep docs: generate documentation from your Bicep modules",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/introducing-bicep-docs-generate-documentation-from-your-bicep/ba-p/4559737",
-      "published": "2026-09-24T19:55:33+00:00",
-      "summary": "TL;DR: The Bicep CLI has a new experimental command, bicep docs generate. Point it at a Bicep module and it writes a README.md next to it that describes the module's resources, parameters, types, outputs and usage examples, all read straight from your code. You can change the layout with your own...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "jaredfholgate"
-    },
-    {
-      "title": "IBC Reflections and Where Media is Headed",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/ibc-reflections-and-where-media-is-headed/ba-p/4559411",
-      "published": "2026-09-24T19:00:00+00:00",
-      "summary": "Over the last several years, it has been easy to focus on the magical experiences produced with AI-generated content. The media industry has responded with growing short-form video, IP licensing for quality AI generated content, and various other approaches, but the core end-to-end workflows and...",
-      "blog": "Telecommunications",
-      "blogId": "telecommunications-industry-blog",
-      "author": "kshatzkamer"
-    },
-    {
-      "title": "Control where your hosted agent connects with network egress in Foundry Agent Service",
-      "link": "https://devblogs.microsoft.com/foundry/egress-controls-hosted-agent/",
-      "published": "2026-09-24T17:55:06+00:00",
-      "summary": "Define and attach an outbound policy to a hosted agent in Microsoft Foundry, observe calls in Audit, and verify allowed and denied destinations under Enforced mode. The post Control where your hosted agent connects with network egress in Foundry Agent Service appeared first on Microsoft Foundry...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Muzz Imam"
-    },
-    {
-      "title": "Oracle AI Database@Azure Expands with Azure Native Oracle GoldenGate User Experience, Observability",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/oracle-ai-database-azure-expands-with-azure-native-oracle/ba-p/4559430",
-      "published": "2026-09-24T17:29:07+00:00",
-      "summary": "Customers running mission-critical Oracle workloads on Azure want more than database infrastructure in an Azure datacenter. They want their Oracle environments to fit naturally into the way their teams already build, govern, monitor, and purchase services on Azure. Today, Oracle AI Database@Azure...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "RajyaLaxmiYellajosyula"
     }
   ]
 }
