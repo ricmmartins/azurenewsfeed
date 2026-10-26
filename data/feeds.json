@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-10-25T15:33:45.630931+00:00",
-  "totalArticles": 201,
+  "lastUpdated": "2026-10-26T18:14:44.772472+00:00",
+  "totalArticles": 204,
   "articles": [
+    {
+      "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
+      "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
+      "published": "2026-10-26T17:10:00+00:00",
+      "summary": "Learn how Azure AI Speech LLM 09-2026 improves multilingual language and locale support with improved quality and latency. The post Announcing Azure AI Speech LLM 09-2026: Broader locale support appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Rena Liu"
+    },
+    {
+      "title": "Bringing AI-Powered SRE to Your On-Premise Server Estate For Unifying Ops",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bringing-ai-powered-sre-to-your-on-premise-server-estate-for/ba-p/4566884",
+      "published": "2026-10-26T15:15:49+00:00",
+      "summary": "The problem nobody talks about at cloud conferences Walk the floor at any cloud event and you'll hear a lot about AI-assisted operations: agents that triage alerts, correlate signals, and hand your on-call engineer a root cause instead of a wall of logs. It's genuinely useful. But there's a quiet...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "FaizaanMerchant"
+    },
+    {
+      "title": "PHP2Shell and Azure DevOps: what to check",
+      "link": "https://devblogs.microsoft.com/devops/php2shell-and-azure-devops-what-to-check/",
+      "published": "2026-10-26T13:00:38+00:00",
+      "summary": "On October 21, 2026, PHP disclosed two critical vulnerabilities that can allow remote code execution. Neither Azure DevOps Services, our cloud-hosted offering, nor Azure DevOps Server, our on-premises product, uses PHP to handle customer requests. PHP runtimes used by pipelines, containers, and...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Josef Sin"
+    },
+    {
+      "title": "Keep your investigation between sessions",
+      "link": "https://devblogs.microsoft.com/visualstudio/keep-your-investigation-between-sessions/",
+      "published": "2026-10-26T12:00:10+00:00",
+      "summary": "Start a standalone Markdown note and use the opt-in Hot Exit preview to resume unsaved work next session. The post Keep your investigation between sessions appeared first on Visual Studio Blog.",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Jason Chlus, Mads Kristensen"
+    },
+    {
+      "title": "The paper that split the database in four: inside Azure SQL Database Hyperscale, aka Socrates",
+      "link": "https://devblogs.microsoft.com/azure-sql/the-paper-that-split-the-database-in-four-inside-azure-sql-database-hyperscale-aka-socrates/",
+      "published": "2026-10-25T11:23:29+00:00",
+      "summary": "Under the Hood: The Research Behind Microsoft SQL, part 1 The Microsoft SQL team is always innovating. They do this in day-to-day efforts, but there are also brand new efforts that are constantly being explored, investigated, tested, and researched. Our engineering team partners closely with MSR...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman"
+    },
     {
       "title": "Making Azure Container Registry Activity Visible at Scale",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/making-azure-container-registry-activity-visible-at-scale/ba-p/4567301",
@@ -1767,15 +1812,6 @@
       "author": "Matt_Kazanowsky"
     },
     {
-      "title": "SQLAlchemy 2.1 brings built-in support for mssql-python",
-      "link": "https://devblogs.microsoft.com/azure-sql/sqlalchemy-2-1-brings-built-in-support-for-mssql-python/",
-      "published": "2026-09-28T16:02:00+00:00",
-      "summary": "We’re pleased to share that SQLAlchemy 2.1.0 is now generally available, with built-in support for mssql-python, Microsoft’s Python driver for SQL Server. You can now use it with SQLAlchemy’s ORM and Core APIs through the first-party mssql+mssqlpython dialect. If SQLAlchemy is already part of how...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Matt Hyon, David Levy"
-    },
-    {
       "title": "Open Sourcing the Azure Policy Linter!",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/open-sourcing-the-azure-policy-linter/ba-p/4547577",
       "published": "2026-09-28T15:02:05+00:00",
@@ -1801,15 +1837,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "SantoshPargi"
-    },
-    {
-      "title": "CoreDNS in AKS: service discovery, upstream DNS, and failover",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/coredns-in-aks-service-discovery-upstream-dns-and-failover/ba-p/4559925",
-      "published": "2026-09-25T21:06:37+00:00",
-      "summary": "Table of Contents 1. Where CoreDNS fits in AKS 2. How a pod gets a DNS answer Cluster Service names Names handled by another DNS server LocalDNS can change the first hop 3. What AKS manages and what you can customize 4. How CoreDNS selects and checks upstream servers Selection policy chooses the...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "varghesejoji"
     }
   ]
 }
