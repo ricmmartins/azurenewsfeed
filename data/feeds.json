@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-10-26T18:14:44.772472+00:00",
-  "totalArticles": 204,
+  "lastUpdated": "2026-10-27T17:28:35.370185+00:00",
+  "totalArticles": 206,
   "articles": [
+    {
+      "title": "Visual Studio October Update – Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-october-update-compare-commits-to-your-code-resolve-conflicts-in-bulk-keep-coding/",
+      "published": "2026-10-27T16:00:00+00:00",
+      "summary": "Compare commits with your working tree, resolve merge conflicts in bulk, and keep coding with refreshed Copilot chat, Hot Exit, keyboard tab controls, and Fonts and Colors. The post Visual Studio October Update – Compare Commits to Your Code, Resolve Conflicts in Bulk, Keep Coding appeared first on...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie"
+    },
+    {
+      "title": "Inspecting Local Data with Azure Cosmos DB Shell",
+      "link": "https://devblogs.microsoft.com/cosmosdb/inspecting-local-data-with-azure-cosmos-db-shell/",
+      "published": "2026-10-27T13:31:06+00:00",
+      "summary": "Explore local data from the terminal with Azure Cosmos DB Shell. Connect to the emulator, inspect FleetCharge documents, run queries, and point-read depot partitions. The post Inspecting Local Data with Azure Cosmos DB Shell appeared first on Azure Cosmos DB Blog.",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Jay Gordon"
+    },
+    {
+      "title": "How Microsoft Intune team upgraded a .NET service with GitHub Copilot modernization",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-microsoft-intune-team-upgraded-a-net-service-with-github/ba-p/4566987",
+      "published": "2026-10-27T08:51:18+00:00",
+      "summary": "Microsoft's Customer Zero blog series gives an insider view of how Microsoft builds and operates Microsoft using our trusted, enterprise-grade platform. Learn best practices from our engineering teams through real-world lessons, architectural patterns, and operational strategies for building,...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "RamyaSharma"
+    },
+    {
+      "title": "Azure WAF custom rules for PHP2Shell mitigation",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-waf-custom-rules-for-php2shell-mitigation/ba-p/4566684",
+      "published": "2026-10-26T19:00:38+00:00",
+      "summary": "Written in collaboration with Gunjan Jain​ and yuvalpery​ As described in our earlier blog, Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations, we strongly recommend upgrading to a patched version of PHP as soon as possible. Upgrading PHP remains...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor"
+    },
+    {
+      "title": "Qwen3.8-27B on a Lenovo laptop: run it on RTX Spark, watch it in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-lenovo-laptop-run-it-on-rtx-spark-watch-it-in/ba-p/4567828",
+      "published": "2026-10-26T18:52:23+00:00",
+      "summary": "In an earlier post I served Qwen3.8-27B from an H100 in Azure. The same model also runs on a laptop: the Lenovo Yoga 9n 2-in-1 (16\", 11) with NVIDIA's RTX Spark N1X and 64 GB of unified memory. On a short code-generation benchmark it decodes 44.7 tokens a second for one request, and it holds the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng"
+    },
+    {
+      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
+      "published": "2026-10-26T18:19:55+00:00",
+      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor"
+    },
+    {
+      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
+      "published": "2026-10-26T18:19:26+00:00",
+      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "yuvalpery"
+    },
     {
       "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
       "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
@@ -19,6 +82,15 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "FaizaanMerchant"
+    },
+    {
+      "title": "From fine-tuning to shared serving: Multi-LoRA deployment on Foundry Managed Compute",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-fine-tuning-to-shared-serving-multi-lora-deployment-on/ba-p/4565959",
+      "published": "2026-10-26T15:00:00+00:00",
+      "summary": "We're introducing Multi-LoRA adapter deployment on Managed Compute in Microsoft Foundry, now in preview. Multi-LoRA lets you deploy multiple compatible fine-tuned LoRA adapters on a shared base-model deployment, so you can serve specialized model experiences without provisioning separate compute...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "GulsimoOsimi"
     },
     {
       "title": "PHP2Shell and Azure DevOps: what to check",
@@ -55,15 +127,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "cabarker"
-    },
-    {
-      "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
-      "published": "2026-10-23T20:17:17+00:00",
-      "summary": "Google Brotli versions 1.0.3 through 1.2.0 contain a buffer overflow vulnerability in the Brotli decoder, according to the recently published CVE-2026-111497. A remote, unauthenticated attacker can send a crafted Brotli-compressed stream to corrupt decoder memory, expose sensitive memory contents,...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "yuvalpery"
     },
     {
       "title": "Azure OpenAI Decisions API: Now generally available in Microsoft Foundry",
@@ -156,15 +219,6 @@
       "author": "Shivani_Tripathi"
     },
     {
-      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
-      "published": "2026-10-22T19:41:32+00:00",
-      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor"
-    },
-    {
       "title": "What production taught us about reviewing AI translations",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/what-production-taught-us-about-reviewing-ai-translations/ba-p/4566948",
       "published": "2026-10-22T18:24:53+00:00",
@@ -217,15 +271,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "Akshay-Kireet-18"
-    },
-    {
-      "title": "Azure WAF custom rules for PHP2Shell mitigation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-waf-custom-rules-for-php2shell-mitigation/ba-p/4566684",
-      "published": "2026-10-22T13:56:46+00:00",
-      "summary": "Written in collaboration with Gunjan Jain​ and yuvalpery​ As described in our earlier blog, Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations, we strongly recommend upgrading to a patched version of PHP as soon as possible. Upgrading PHP remains...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor"
     },
     {
       "title": "Beyond Hub-and-Spoke: Routable and Non-Advertised Azure Networks",
@@ -1173,15 +1218,6 @@
       "author": "bobmital"
     },
     {
-      "title": "Closing the AI Agent Governance Gap with Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/closing-the-ai-agent-governance-gap-with-microsoft-foundry/ba-p/4561827",
-      "published": "2026-10-07T17:00:00+00:00",
-      "summary": "Developers are shipping agents faster than security teams can catalog them. As organizations move beyond pilots and begin operating dozens or hundreds of agents, one question keeps coming up: how do we actually get visibility into our AI agents across our environment? In this article, we'll walk...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "AlexandraMiller-Browne"
-    },
-    {
       "title": "From Spec-First to Enterprise-Ready: Extending GitHub Spec Kit",
       "link": "https://devblogs.microsoft.com/blog/from-spec-first-to-enterprise-ready-extending-github-spec-kit/",
       "published": "2026-10-07T15:00:26+00:00",
@@ -1488,15 +1524,6 @@
       "author": "Azure Cosmos DB Team"
     },
     {
-      "title": "Azure Cosmos DB Shell is now available in the Azure portal",
-      "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-shell-is-now-available-in-the-azure-portal/",
-      "published": "2026-10-01T15:21:32+00:00",
-      "summary": "You can now open Azure Cosmos DB Shell directly from Data Explorer in the Azure portal. The shell gives you a terminal-style way to work with Azure Cosmos DB. You can move through databases and containers as you would through folders, run NoSQL queries, inspect resources, and update data. When you...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai"
-    },
-    {
       "title": "Build and govern AI agents across a multitenant organization",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/build-and-govern-ai-agents-across-a-multitenant-organization/ba-p/4559921",
       "published": "2026-10-01T14:23:11+00:00",
@@ -1693,15 +1720,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Matt Hernandez"
-    },
-    {
-      "title": "Comparing Three Approaches to AI Agent Evaluation and Observability",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/comparing-three-approaches-to-ai-agent-evaluation-and/ba-p/4560833",
-      "published": "2026-09-29T18:25:14+00:00",
-      "summary": "Why evaluation and observability belong together Agent evaluation and observability answer two related questions: Is the agent producing the right result? What happened from the initial request through every model and tool call? Evaluation measures quality with repeatable scores (is our system...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "emiller635"
     },
     {
       "title": "Announcing General Availability of Azure Lasv5 and Laosv5 VMs Based on 5th Gen AMD EPYC™ processors",
