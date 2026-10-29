@@ -25,6 +25,9 @@
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="Azure Feed" href="data/feed.xml">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☁️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="css/styles.css">
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DWJ9GXBL0M"></script>
@@ -46,29 +49,40 @@
 <body>
   <header>
     <div class="header-content">
-      <div class="logo">
-        <svg width="36" height="36" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <a class="logo" href="./" aria-label="Azure Feed home">
+        <svg width="28" height="28" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M27.2 69.6L47.6 24H58.8L34 69.6H27.2ZM20 69.6L40.4 24H51.6L26.8 69.6H20ZM56.4 69.6L64 54.4L70.4 40L76 69.6H56.4Z" fill="white"/>
         </svg>
-        <div>
-          <h1>Azure Feed</h1>
-          <span class="subtitle">Daily updates from Azure blogs · Last 30 days</span>
-        </div>
-      </div>
+        <span class="logo-text">Azure Feed</span>
+      </a>
       <div class="header-actions">
         <div class="search-box">
-          <span class="search-icon">🔍</span>
+          <span class="search-icon"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></span>
           <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off">
+          <kbd id="search-hint">Ctrl K</kbd>
         </div>
-        <button id="bookmarks-toggle" title="Show bookmarked articles">⭐ Bookmarks</button>
-        <button id="theme-toggle" title="Toggle dark mode">🌙</button>
+        <button id="bookmarks-toggle" title="Show bookmarked articles"></button>
+        <a class="icon-btn" href="data/feed.xml" target="_blank" rel="noopener" title="RSS feed" aria-label="RSS feed">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+        </a>
+        <button id="theme-toggle" class="icon-btn" title="Toggle dark mode" aria-label="Toggle dark mode"></button>
       </div>
     </div>
-    <div class="stats-bar">
-      <span id="last-updated">Loading...</span>
-      <span id="total-count"></span>
-    </div>
   </header>
+
+  <section class="hero">
+    <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="hero-inner">
+      <p class="hero-eyebrow"><span class="live-dot"></span> Live from Azure blogs</p>
+      <h1>Azure Feed</h1>
+      <p class="hero-sub">Every Azure blog in one place. Fresh posts from the last 30 days.</p>
+      <p class="hero-meta">
+        <span id="last-updated">Loading...</span>
+        <span id="total-count"></span>
+        <span id="blog-count"></span>
+      </p>
+    </div>
+  </section>
 
   <div class="filters">
     <div class="filter-scroll">
@@ -84,6 +98,10 @@
     <div class="controls">
       <span id="showing-count"></span>
       <div class="controls-right">
+        <div class="view-toggle" role="group" aria-label="Layout">
+          <button type="button" id="view-list" class="active" title="Comfortable view" aria-label="Comfortable view"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg></button>
+          <button type="button" id="view-compact" title="Compact view" aria-label="Compact view"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 5h16M4 9.5h16M4 14h16M4 18.5h16"/></svg></button>
+        </div>
         <select id="date-filter">
           <option value="all">All Time</option>
           <option value="today">Today</option>
@@ -98,13 +116,12 @@
       </div>
     </div>
 
-    <div id="loading" class="loading">
-      <div class="loading-spinner"></div>
-      <p>Loading feeds...</p>
+    <div id="loading" class="loading" aria-label="Loading feeds">
+      <div class="skeleton-row"></div><div class="skeleton-row"></div><div class="skeleton-row"></div><div class="skeleton-row"></div>
     </div>
 
     <div id="no-results" class="no-results">
-      <p>🔍 No articles found matching your criteria.</p>
+      <p>No articles found matching your criteria.</p>
       <p>Try adjusting your filters or search terms.</p>
     </div>
 
@@ -113,8 +130,20 @@
 
   <div class="toast" id="toast"></div>
 
+  <div class="palette-overlay" id="palette" hidden>
+    <div class="palette" role="dialog" aria-modal="true" aria-label="Command palette">
+      <div class="palette-input">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="text" id="palette-input" placeholder="Search articles or run a command..." autocomplete="off" spellcheck="false">
+        <kbd>Esc</kbd>
+      </div>
+      <ul class="palette-list" id="palette-list" role="listbox"></ul>
+      <div class="palette-foot"><span><kbd>↑</kbd><kbd>↓</kbd> navigate</span><span><kbd>↵</kbd> open</span><span><kbd>j</kbd><kbd>k</kbd> move in feed</span></div>
+    </div>
+  </div>
+
   <footer>
-    <p>☁️ Azure Feed &bull; Updated daily via <a href="https://github.com/ricmmartins/azurenewsfeed" target="_blank" rel="noopener">GitHub Actions</a> &bull; <a href="data/feed.xml" target="_blank" rel="noopener">📡 RSS Feed</a></p>
+    <p>Azure Feed &bull; Updated daily via <a href="https://github.com/ricmmartins/azurenewsfeed" target="_blank" rel="noopener">GitHub Actions</a> &bull; <a href="data/feed.xml" target="_blank" rel="noopener">RSS Feed</a></p>
   </footer>
 
   <script src="js/app.js"></script>
