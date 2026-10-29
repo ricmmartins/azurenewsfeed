@@ -126,7 +126,7 @@
   // ===== Service Worker =====
   function registerServiceWorker() {
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("sw.js").catch(function () {});
+      navigator.serviceWorker.register("sw.js?v=8").catch(function () {});
     }
   }
 
