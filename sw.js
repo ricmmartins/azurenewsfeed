@@ -1,4 +1,4 @@
-const CACHE_NAME = "azurefeed-v7";
+const CACHE_NAME = "azurefeed-v8";
 const STATIC_ASSETS = [
   "/",
   "/index.html",
@@ -9,7 +9,9 @@ const STATIC_ASSETS = [
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(STATIC_ASSETS))
+    caches.open(CACHE_NAME).then((cache) =>
+      cache.addAll(STATIC_ASSETS.map((u) => new Request(u, { cache: "reload" })))
+    )
   );
   self.skipWaiting();
 });
@@ -44,17 +46,16 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Cache-first for static assets
+  // Network-first for app shell so HTML, CSS and JS never go out of sync
   event.respondWith(
-    caches.match(event.request).then((cached) => {
-      if (cached) return cached;
-      return fetch(event.request).then((response) => {
+    fetch(event.request)
+      .then((response) => {
         if (response.ok && url.origin === self.location.origin) {
           var clone = response.clone();
           caches.open(CACHE_NAME).then((cache) => cache.put(event.request, clone));
         }
         return response;
-      });
-    })
+      })
+      .catch(() => caches.match(event.request))
   );
 });
