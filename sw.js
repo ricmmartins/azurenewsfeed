@@ -1,4 +1,4 @@
-const CACHE_NAME = "azurefeed-v1";
+const CACHE_NAME = "azurefeed-v5";
 const STATIC_ASSETS = [
   "/",
   "/index.html",
