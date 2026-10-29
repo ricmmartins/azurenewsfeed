@@ -110,20 +110,14 @@
 
   // Keeps the sticky date rail below the sticky header + filter bar
   function setupStickyOffset() {
-    var header = document.querySelector("header");
     var filters = document.querySelector(".filters");
     function update() {
-      document.documentElement.style.setProperty("--header-h", header.offsetHeight + "px");
-      document.documentElement.style.setProperty(
-        "--sticky-top",
-        header.offsetHeight + filters.offsetHeight + "px"
-      );
+      document.documentElement.style.setProperty("--header-h", "0px");
+      document.documentElement.style.setProperty("--sticky-top", filters.offsetHeight + "px");
     }
     update();
     if ("ResizeObserver" in window) {
-      var ro = new ResizeObserver(update);
-      ro.observe(header);
-      ro.observe(filters);
+      new ResizeObserver(update).observe(filters);
     } else {
       window.addEventListener("resize", update);
     }
