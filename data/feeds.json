@@ -1,7 +1,52 @@
 {
-  "lastUpdated": "2026-10-29T18:01:30.702338+00:00",
-  "totalArticles": 207,
+  "lastUpdated": "2026-10-30T17:43:08.984512+00:00",
+  "totalArticles": 195,
   "articles": [
+    {
+      "title": "Is Azure SQL Database Hyperscale “distributed SQL”?",
+      "link": "https://devblogs.microsoft.com/azure-sql/is-azure-sql-database-hyperscale-distributed-sql/",
+      "published": "2026-10-30T16:52:56+00:00",
+      "summary": "In my last post, I broke down the Socrates paper, the research that became Azure SQL Database Hyperscale. Writing it made me want to tackle a question I think trips a lot of people up when they’re choosing a database: is Azure SQL Database Hyperscale “distributed SQL”? It’s a fair question....",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Anna Hoffman"
+    },
+    {
+      "title": "Simplify Azure Arc agent updates with Automatic Agent Upgrade, now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplify-azure-arc-agent-updates-with-automatic-agent-upgrade/ba-p/4568413",
+      "published": "2026-10-30T16:00:22+00:00",
+      "summary": "Keeping the Azure Connected Machine agent up to date across a large server estate requires persistent coordination and manual work. When enabled, Automatic Agent Upgrade simplifies this process by allowing Microsoft to manage agent upgrades for you. What is Automatic Agent Upgrade? Automatic Agent...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "yunishussein"
+    },
+    {
+      "title": "Stay ahead of Azure Arc agent health with Azure Advisor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/stay-ahead-of-azure-arc-agent-health-with-azure-advisor/ba-p/4568747",
+      "published": "2026-10-30T16:00:00+00:00",
+      "summary": "Azure Advisor helps you stay ahead of potential connectivity issues by analyzing your Azure Arc-enabled servers and providing reliability recommendations when servers have been disconnected for an extended period. These recommendations give you visibility into potential issues and help you act...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "yunishussein"
+    },
+    {
+      "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-sql-as-storage-provider-benchmarking/ba-p/4567807",
+      "published": "2026-10-30T04:33:46+00:00",
+      "summary": "Key findings for technical decision makers Hybrid Logic Apps ran a high-volume, file-driven integration workload on deliberately modest on-premises hardware: one host shared by the cluster, file storage and SQL Server 2025. Across both 30-minute tests there were no failed runs, and the one-hour...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "praveensri"
+    },
+    {
+      "title": "Mistral Large 4 in Microsoft Foundry: Build sovereign AI within a consistent platform experience",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mistral-large-4-in-microsoft-foundry-build-sovereign-ai-within-a/ba-p/4568546",
+      "published": "2026-10-29T17:46:28+00:00",
+      "summary": "What's launching Leading AI delivers more than model quality. For governments, critical infrastructure operators, financial institutions, healthcare organizations, and global enterprises, requirements for data control, deployment location, security, resilience, latency, and operational continuity...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "truptiparkar"
+    },
     {
       "title": "Azure API Management v2: Restoring Predictable Outbound IP Addresses with NAT Gateway",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-management-v2-restoring-predictable-outbound-ip/ba-p/4566574",
@@ -12,6 +57,15 @@
       "author": "JPCalhau"
     },
     {
+      "title": "Bring Your Own Telephony to Voice Agents via SIP",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/bring-your-own-telephony-to-voice-agents-via-sip/ba-p/4562702",
+      "published": "2026-10-29T16:20:09+00:00",
+      "summary": "Voice agents in Microsoft Foundry give developers an integrated way to build intelligent, natural voice experiences, bringing together models, agent capabilities, tools, and the platform capabilities needed to move from experimentation to production. Foundry continuously expands channel integration...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "ArcherZ"
+    },
+    {
       "title": "AKS Pod Scheduling Demystified",
       "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/aks-pod-scheduling-demystified/ba-p/4567392",
       "published": "2026-10-29T15:55:51+00:00",
@@ -19,6 +73,15 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "varghesejoji"
+    },
+    {
+      "title": "Architecting Governed Memory State for Production AI Agents with Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/architecting-governed-memory-state-for-production-ai-agents-with/ba-p/4566999",
+      "published": "2026-10-29T14:00:00+00:00",
+      "summary": "A production agent should remember a user's language preference, an unresolved support issue, or a proven workflow. It should not quietly retain credentials, health details, financial data, prompt-injection payloads, or a stale instruction that changes how a tool behaves. The difference is not the...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Abhishek Kumar"
     },
     {
       "title": "Upgrade Azure CycleCloud Slurm Node OS Images Without Recreating the VM Scale Set",
@@ -48,6 +111,15 @@
       "author": "James Rempt"
     },
     {
+      "title": "Publish Visual Studio Marketplace extensions securely with Trusted Publishing",
+      "link": "https://devblogs.microsoft.com/blog/trusted-publishing-visual-studio-marketplace/",
+      "published": "2026-10-28T16:59:00+00:00",
+      "summary": "Publish Visual Studio Code and Visual Studio extensions from GitHub Actions or Azure Pipelines without storing a long-lived personal access token.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Lynn Dai"
+    },
+    {
       "title": "Introducing the Microsoft Copilot harness in Foundry Agent Service",
       "link": "https://devblogs.microsoft.com/foundry/microsoft-copilot-harness-in-foundry/",
       "published": "2026-10-28T16:45:06+00:00",
@@ -75,13 +147,13 @@
       "author": "Sandeep Sen"
     },
     {
-      "title": "Simplify Azure Arc agent updates with Automatic Agent Upgrade, now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/simplify-azure-arc-agent-updates-with-automatic-agent-upgrade/ba-p/4568413",
-      "published": "2026-10-28T14:28:39+00:00",
-      "summary": "Keeping the Azure Connected Machine agent up to date across a large server estate requires persistent coordination and manual work. When enabled, Automatic Agent Upgrade simplifies this process by allowing Microsoft to manage agent upgrades for you. What is Automatic Agent Upgrade? Automatic Agent...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "yunishussein"
+      "title": "Information Extraction with Low-Inference-Cost Models: 85% F1 Gain via Foundry Interactive Training",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/information-extraction-with-low-inference-cost-models-85-f1-gain/ba-p/4563661",
+      "published": "2026-10-28T14:00:00+00:00",
+      "summary": "Authors: Shih-Yao Lin, Apurva Saksena The task: turn documents into structured data Many business workflows need to turn documents into structured data. The model must find the right values, capture the requested records, and return output the next system can use. Long documents and repeated tables...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "shihyaolin"
     },
     {
       "title": "Agentic CI/CD with Azure Cosmos DB: Isolated Environments for a Swarm of AI Agents",
@@ -181,15 +253,6 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "RamyaSharma"
-    },
-    {
-      "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-sql-as-storage-provider-benchmarking/ba-p/4567807",
-      "published": "2026-10-27T03:49:57+00:00",
-      "summary": "Key findings for technical decision makers Hybrid Logic Apps ran a high-volume, file-driven integration workload on deliberately modest on-premises hardware: one host shared by the cluster, file storage and SQL Server 2025. Across both 30-minute tests there were no failed runs, and the one-hour...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "praveensri"
     },
     {
       "title": "Azure WAF custom rules for PHP2Shell mitigation",
@@ -507,15 +570,6 @@
       "author": "poorvinarang"
     },
     {
-      "title": "Information Extraction with Low-Inference-Cost Models: 85% F1 Gain via Foundry Interactive Training",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/information-extraction-with-low-inference-cost-models-85-f1-gain/ba-p/4563661",
-      "published": "2026-10-21T20:00:00+00:00",
-      "summary": "Authors: Shih-Yao Lin, Apurva Saksena The task: turn documents into structured data Many business workflows need to turn documents into structured data. The model must find the right values, capture the requested records, and return output the next system can use. Long documents and repeated tables...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "shihyaolin"
-    },
-    {
       "title": "Scale Data Collection Endpoint private connectivity with IP Endpoint Compression - Preview",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/scale-data-collection-endpoint-private-connectivity-with-ip/ba-p/4563958",
       "published": "2026-10-21T17:22:27+00:00",
@@ -829,15 +883,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Mads Kristensen"
-    },
-    {
-      "title": "Building Permission-Aware Hosted Agents for SharePoint in Foundry Agent Service",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-permission-aware-hosted-agents-for-sharepoint-in/ba-p/4562526",
-      "published": "2026-10-19T14:00:00+00:00",
-      "summary": "Organizations increasingly publish agents to Microsoft Teams and Microsoft 365 Copilot that answer questions using internal knowledge sources. SharePoint is a very common source for this information; where many times access is different for every user. A finance employee, HR employee, and project...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "heenarefai"
     },
     {
       "title": "Browser automation tool in Microsoft Foundry is now GA",
@@ -1191,15 +1236,6 @@
       "author": "Wuyi_Weng"
     },
     {
-      "title": "Delivering Agent Skills Over MCP",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/delivering-agent-skills-over-mcp/ba-p/4562722",
-      "published": "2026-10-12T13:00:00+00:00",
-      "summary": "Getting a skill working with one agent is a useful start. Sharing it with other agents raises a different question: where should that skill live? You could give each agent its own copy. But when the skill changes, those copies need updating. The official Skills extension for Model Context Protocol...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "pratikpanda"
-    },
-    {
       "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
       "published": "2026-10-10T07:27:28+00:00",
@@ -1216,15 +1252,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "BrittanyPugh"
-    },
-    {
-      "title": "Introducing Microsoft-Decision-1 in Microsoft Foundry for decision and classification workloads",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-microsoft-decision-1-in-microsoft-foundry-for/ba-p/4562742",
-      "published": "2026-10-09T21:05:34+00:00",
-      "summary": "Not every step in an AI application needs a large language model to generate a response. Many high-volume application steps are decisions: classify an input, select an option, assign a score, verify a condition, prioritize an item, or control a workflow. To suit these tasks, a new class of models...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Saumil-Shrivastava"
     },
     {
       "title": "Microsoft Agent 365 and Azure API Management integration for MCP governance",
@@ -1729,141 +1756,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Kristen Womack"
-    },
-    {
-      "title": "Announcing general availability of Azure Intel® TDX confidential VMs",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-general-availability-of-azure-intel-tdx-confidential/ba-p/4495693",
-      "published": "2026-09-30T17:39:21+00:00",
-      "summary": "We’re excited to announce the general availability of Azure’s next generation of confidential virtual machines, powered by 5th Gen Intel® Xeon® processors with Intel® Trust Domain Extensions (Intel® TDX). These new confidential VMs make it easier than ever for organizations to move their most...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "simranparkhe"
-    },
-    {
-      "title": "Updates to Copilot Code Reviews for Azure Repos",
-      "link": "https://devblogs.microsoft.com/devops/updates-to-copilot-code-reviews-for-azure-repos/",
-      "published": "2026-09-30T17:05:16+00:00",
-      "summary": "We announced the public preview of Copilot Code Review for Azure Repos in late August. Since then, we have continued to make improvements, fix bugs, and add new features. We wanted to share an update on some of the recent changes. Effort levels The effort level controls how much time Copilot spends...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem"
-    },
-    {
-      "title": "Microsoft and IBM bring enterprise-scale workload orchestration to Azure with IBM Spectrum Symphony",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/microsoft-and-ibm-bring-enterprise-scale-workload-orchestration/ba-p/4560890",
-      "published": "2026-09-30T17:00:00+00:00",
-      "summary": "Enterprises running large scale AI, Analytic, and High-Performance Computing (HPC) environments need more than just infrastructure. They need to dynamically match thousands of jobs with available capacity while balancing performance, resilience, availability, and cost. Today, Microsoft Azure and...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "DanaCozmei"
-    },
-    {
-      "title": "Episode 2: Reduce restarts with Hotpatch for Windows Server 2025 | The Azure Arc Check-In",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/episode-2-reduce-restarts-with-hotpatch-for-windows-server-2025/ba-p/4557249",
-      "published": "2026-09-30T16:37:45+00:00",
-      "summary": "Once a month, the Azure Arc team releases an episode covering a new hybrid and multicloud management scenario. To request a topic or view additional episodes, visit aka.ms/the-azure-arc-check-in. Scenario: Your infrastructure team needs to apply monthly security updates across hybrid Windows...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Mason_Torres"
-    },
-    {
-      "title": "What’s new in Microsoft Sentinel: September 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-september-2026/ba-p/4560902",
-      "published": "2026-09-30T16:00:00+00:00",
-      "summary": "Welcome back to What's new in Microsoft Sentinel. In September, Case Management brings investigation and collaboration together in Microsoft Defender, with a shared workspace to track work through resolution. Defender unified RBAC custom roles for granular delegated admin privileges (GDAP) give you...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "vkokkengada"
-    },
-    {
-      "title": "Bring managed browser automation to your agent applications",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-managed-browser-automation-to-your-agent-applications/ba-p/4561184",
-      "published": "2026-09-30T14:25:38+00:00",
-      "summary": "AI agents become more useful when they can move beyond conversation and complete real workflows. Playwright Cloud Browsers provides managed, on-demand browser capacity that agent applications can access through Model Context Protocol (MCP). You can connect Playwright Cloud Browsers to agent...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Arun_Kumar_Thiagarajan"
-    },
-    {
-      "title": "Using Jev with Agents in Microsoft Foundry for Model Evaluation",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/using-jev-with-agents-in-microsoft-foundry-for-model-evaluation/ba-p/4559851",
-      "published": "2026-09-30T07:00:00+00:00",
-      "summary": "What is Jev? Jev is a new AI model from TypeSafe AI, first released in early access on 15 September 2026. TypeSafe describes Jev as its first “System One” model, designed specifically to make fast, structured decisions rather than generate free-form text. You provide Jev with some state or context...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "Robin_Lester"
-    },
-    {
-      "title": "Azure Databricks Cost and Workload Assessment: a Local Web UI",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/azure-databricks-cost-and-workload-assessment-a-local-web-ui/ba-p/4560943",
-      "published": "2026-09-30T03:26:49+00:00",
-      "summary": "Table of Contents Introduction 1. What you can assess 2. The five-step workflow Configure Validate Run analysis Visualize results Review & export 3. Reopen saved assessments 4. Architecture and collection flow 5. Get started Try it Learn more Contribute Introduction To review an Azure Databricks...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "varghesejoji"
-    },
-    {
-      "title": "AKS on bare metal now on Ubuntu",
-      "link": "https://blog.aks.azure.com/2026/09/25/aks-baremetal-ubuntu",
-      "published": "2026-09-30T00:00:00+00:00",
-      "summary": "Run Azure Kubernetes Service on customer-owned Ubuntu infrastructure with bare metal performance, flexible hardware choices, and consistent Azure management.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Now Available: Management Group–Scoped Savings Plan and Reservation Recommendations in Azure",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/now-available-management-group-scoped-savings-plan-and/ba-p/4560869",
-      "published": "2026-09-29T23:47:56+00:00",
-      "summary": "Smarter commitments, at the scope that matters We're excited to announce that both savings plan and reservation (including P3) recommendations are now available at the management group scope in the Azure Portal and via REST API. With management group–scoped recommendations, you can now evaluate and...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "Obinna_Nwokolo"
-    },
-    {
-      "title": "Aspire 13.6: Your dashboard gets memory",
-      "link": "https://devblogs.microsoft.com/aspire/whats-new-aspire-13-6/",
-      "published": "2026-09-29T22:32:58+00:00",
-      "summary": "Aspire 13.6 keeps dashboard telemetry across runs, opens container exec shells right in the dashboard, adds first-party Java and Rust hosting, introduces portable volume paths, and previews Azure Container Apps Sandboxes. The post Aspire 13.6: Your dashboard gets memory appeared first on Aspire...",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "Maddy Montaquila"
-    },
-    {
-      "title": "Why content extraction still matters in the GenAI era",
-      "link": "https://devblogs.microsoft.com/foundry/why-content-extraction-still-matters-in-the-genai-era/",
-      "published": "2026-09-29T21:30:42+00:00",
-      "summary": "Learn why stronger AI models make trustworthy content extraction more important, how Azure Content Understanding and Azure Document Intelligence serve different needs, and what comes next. The post Why content extraction still matters in the GenAI era appeared first on Microsoft Foundry Blog.",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Chu Lahlou, Cha Zhang"
-    },
-    {
-      "title": "Azure SDK Release (September 2026)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-september-2026/",
-      "published": "2026-09-29T21:09:53+00:00",
-      "summary": "Azure SDK releases every month. In this post, you'll find this month's highlights and release notes. The post Azure SDK Release (September 2026) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Justin Bettencourt"
-    },
-    {
-      "title": "Bring Your Azure DevOps Repos to Azure SRE Agent Plugins",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-your-azure-devops-repos-to-azure-sre-agent-plugins/ba-p/4560857",
-      "published": "2026-09-29T20:00:25+00:00",
-      "summary": "Plugins package the skills, agents, and connector settings your team wants every SRE Agent to have. A plugin marketplace is a Git repository that lists those plugins so any agent can install them. Until now, that repository had to be on GitHub. If your team keeps its runbooks and tooling in Azure...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Dalibor_Kovacevic"
-    },
-    {
-      "title": "Build with Azure Canvases: a shared workspace for agents",
-      "link": "https://devblogs.microsoft.com/blog/azure-canvases/",
-      "published": "2026-09-29T18:30:00+00:00",
-      "summary": "See how Azure Canvases bring plans, code, previews, and deployment feedback together in a collaborative workspace for agent-assisted development.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Matt Hernandez"
     }
   ]
 }
