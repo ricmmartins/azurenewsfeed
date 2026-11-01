@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-10-31T16:49:24.721734+00:00",
-  "totalArticles": 189,
+  "lastUpdated": "2026-11-01T17:38:49.113239+00:00",
+  "totalArticles": 181,
   "articles": [
+    {
+      "title": "Building Secure, Ephemeral GitHub Actions Runners on Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/building-secure-ephemeral-github-actions-runners-on-azure/ba-p/4569209",
+      "published": "2026-11-01T07:35:00+00:00",
+      "summary": "A practical architecture using KEDA autoscaling, GitHub App authentication, private Key Vault access, Microsoft Container Registry, and GitHub OIDC Implementation guide and field learnings What this architecture delivers · A repository-scoped runner that exists only for one workflow · Automatic...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "ibrahimbaig"
+    },
     {
       "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
@@ -1621,87 +1630,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "absharan"
-    },
-    {
-      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
-      "published": "2026-10-02T13:43:37+00:00",
-      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "Translating an Elasticsearch Search Request to Azure Cosmos DB",
-      "link": "https://devblogs.microsoft.com/cosmosdb/translating-an-elasticsearch-search-request-to-azure-cosmos-db/",
-      "published": "2026-10-02T07:00:14+00:00",
-      "summary": "This tutorial shows how common Elasticsearch search requests can be expressed using Azure Cosmos DB query patterns. Some Elasticsearch capabilities map directly to Cosmos DB full-text search functions, while others require separate queries or application-layer handling. Each step shows the closest...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Madeline Egan"
-    },
-    {
-      "title": "When AI Starts Taking Action: Building Execution Boundaries with OpenSandbox and AKS",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/when-ai-starts-taking-action-building-execution-boundaries-with/ba-p/4561601",
-      "published": "2026-10-02T06:26:45+00:00",
-      "summary": "1. An agent needs more than a smarter model Imagine you are building a food-ordering assistant. In its first version, it says, “You might enjoy a burger and fries.” That is primarily a content-generation problem. In the next version, it queries coupons, reads a menu, calculates prices, creates...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166",
-      "published": "2026-10-02T02:23:51+00:00",
-      "summary": "Author's: Aladdin Alchalabi AladdinAlchalabi​, Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "Microsoft FinOps News - September 2026",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/microsoft-finops-news-september-2026/ba-p/4561596",
-      "published": "2026-10-02T01:27:20+00:00",
-      "summary": "We've scoured product announcements, blogs, videos and more to bring you a monthly wrap-up of news related to FinOps and cost management, including AI - across all of our Microsoft products. Did we miss something? Let us know in the comments! Microsoft Foundry and Azure OpenAI Microsoft Foundry...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "SoniaCuff"
-    },
-    {
-      "title": "Data API builder 2.1.5: JSON and Vector Data Type Support, and More",
-      "link": "https://devblogs.microsoft.com/azure-sql/data-api-builder-2-1-5-json-and-vector-data-type-support-and-more/",
-      "published": "2026-10-02T01:10:52+00:00",
-      "summary": "Data API builder (DAB) 2.1.5 is now available as a stable release, and it is about meeting modern data where it lives: documents next to rows, embeddings next to both. This release brings native support for the SQL json and vector data types to the REST and GraphQL endpoints, so the same entities...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Matt Hyon, Aniruddh Munde"
-    },
-    {
-      "title": "Now generally available: Regional resiliency for Azure Virtual Desktop",
-      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-generally-available-regional-resiliency-for-azure-virtual/ba-p/4540458",
-      "published": "2026-10-01T23:06:57+00:00",
-      "summary": "Editor’s note (October 1, 2026): This post was updated to clarify the benefits of regional host pools and provide additional context on recent resiliency improvements. Resiliency improvements are arriving for Azure Virtual Desktop. Regional host pools reduce cross-region metadata dependencies to...",
-      "blog": "Azure Virtual Desktop",
-      "blogId": "azurevirtualdesktopblog",
-      "author": "Vidya_Iyer"
-    },
-    {
-      "title": "Run an Ollaya decision model on Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/run-an-ollaya-decision-model-on-azure-container-apps/ba-p/4561558",
-      "published": "2026-10-01T21:48:30+00:00",
-      "summary": "Many AI calls are not really conversations. A support message needs an intent. A workflow needs a route. A policy check needs a yes or no. An agent needs to select its next action from a known list. These are bounded decisions, but they are often sent to a general-purpose LLM. The LLM reads the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "simonjj"
-    },
-    {
-      "title": "Bringing rich terminal experiences to Aspire",
-      "link": "https://devblogs.microsoft.com/aspire/aspire-terminal-support/",
-      "published": "2026-10-01T18:12:09+00:00",
-      "summary": "Aspire 13.5 introduced WithTerminal() for interactive terminal sessions on app resources. Aspire 13.6 builds on it with richer terminal emulation and docked terminals for REPLs. See how to enable, attach to, and automate terminal experiences in your app. The post Bringing rich terminal experiences...",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "Mitch Denny"
     }
   ]
 }
