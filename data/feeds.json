@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-11-02T21:24:41.626392+00:00",
-  "totalArticles": 185,
+  "lastUpdated": "2026-11-03T19:02:21.113365+00:00",
+  "totalArticles": 188,
   "articles": [
+    {
+      "title": "Go beyond the basics: Explore specialized Azure plugins for your AI agent",
+      "link": "https://devblogs.microsoft.com/azure-sdk/explore-specialized-azure-plugins-for-your-ai-agent/",
+      "published": "2026-11-03T16:00:22+00:00",
+      "summary": "Explore six specialized Azure plugins for AKS operations, cost management, Advisor recommendations, Kusto graph analysis, Azure Local, and Foundry IQ, with example prompts and installation commands. The post Go beyond the basics: Explore specialized Azure plugins for your AI agent appeared first on...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "Yun Jung Choi"
+    },
+    {
+      "title": "ChatGPT runs on Azure Cosmos DB. Prove you can build what’s next.",
+      "link": "https://devblogs.microsoft.com/cosmosdb/chatgpt-runs-on-azure-cosmos-db-prove-you-can-build-whats-next/",
+      "published": "2026-11-03T14:59:50+00:00",
+      "summary": "Take the newly AI-focused DP-420 exam free at Microsoft Ignite—or take the certification exam today and save 50% through Data Days. OpenAI’s storage platform uses Azure Cosmos DB to help serve products used by more than one billion people each week. If you want to build AI applications at that kind...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Azure Cosmos DB Team"
+    },
+    {
+      "title": "From Writing Scripts to Running a Newsroom: A 24-Hour News Station with Microsoft Copilot Harness",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-writing-scripts-to-running-a-newsroom-a-24-hour-news/ba-p/4569422",
+      "published": "2026-11-03T08:00:00+00:00",
+      "summary": "Picture an evening commute. You open a page on your phone and hear two anchors delivering a coherent news bulletin. Headlines and timestamps move across the bottom of the screen. Tap a headline and the audio jumps to that story. Tap its source and the original report opens separately. Switch to...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
+    {
+      "title": "Why Did Our Azure Bill Change? Investigating Cloud Spend with Azure SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/why-did-our-azure-bill-change-investigating-cloud-spend-with/ba-p/4569760",
+      "published": "2026-11-03T03:51:16+00:00",
+      "summary": "The question after the cost chart The monthly cost review usually starts with a straightforward observation: Azure spending changed. Then come the questions that take the time. Which subscription accounts for the increase? Is it an existing workload getting more expensive, or something that only...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "AsithaDeSilva"
+    },
     {
       "title": "Protect against Brotli CVE-2026-111497 with Azure Web Application Firewall (WAF)",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/protect-against-brotli-cve-2026-111497-with-azure-web/ba-p/4567288",
@@ -28,6 +64,15 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "WSilveira"
+    },
+    {
+      "title": "Announcing flex nodes for AKS (preview) in Azure portal",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-flex-nodes-for-aks-preview-in-azure-portal/ba-p/4569460",
+      "published": "2026-11-02T13:00:00+00:00",
+      "summary": "What’s new? Today, we’re announcing Azure portal support for flex nodes for AKS (preview), offering an intuitive, guided experience that helps users create Flex node pools and connect supported user-managed compute to their existing AKS clusters. Flex nodes for AKS lets you extend an existing...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Samantha_Fernandez"
     },
     {
       "title": "My Team Is Growing, How Do I Structure Who Gets Access to What?",
@@ -174,15 +219,6 @@
       "author": "hieunhu"
     },
     {
-      "title": "Does ‘eval’ in the workspace path change what your agent does?",
-      "link": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
-      "published": "2026-10-30T12:49:14+00:00",
-      "summary": "Your eval might be telling the agent it’s a test before the agent reads a single instruction. Eval tools need a fresh folder for every run, and the easiest way to get one is a temp directory with a random name like /tmp/eval-7f3a2c. The agent sees that path on every turn, in the system prompt […]",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
       "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-sql-as-storage-provider-benchmarking/ba-p/4567807",
       "published": "2026-10-30T04:33:46+00:00",
@@ -246,7 +282,7 @@
       "author": "WSilveira"
     },
     {
-      "title": "Preparing for Your Next Certification Could Start with Your Visual Studio Subscription",
+      "title": "Preparing for your next certification could start with your Visual Studio Subscription",
       "link": "https://devblogs.microsoft.com/visualstudio/preparing-for-your-next-certification-could-start-with-your-visual-studio-subscription/",
       "published": "2026-10-28T22:30:00+00:00",
       "summary": "Are you thinking about earning a Microsoft certification to help advance your career, build on your existing skills, or meet new requirements at work? If so, you may already be wondering where to start. Which courses, labs, and hands-on exercises will help you prepare? How much time will it take to...",
@@ -642,7 +678,7 @@
       "author": "PreethiThippeswamy"
     },
     {
-      "title": "Are You Getting Everything You Can from Your Visual Studio Subscription?",
+      "title": "Are you getting everything you can from Your Visual Studio Subscription?",
       "link": "https://devblogs.microsoft.com/visualstudio/what-should-we-blog-about-next/",
       "published": "2026-10-22T14:00:56+00:00",
       "summary": "What if you could experiment with a new Azure service without requesting additional budget, prepare for your next technical certification using learning resources you already have, or build a dashboard without creating every UI component from scratch? If you’re a Visual Studio subscriber, you may...",
@@ -1227,7 +1263,7 @@
       "author": "Joe Filcik, Colin Murphy"
     },
     {
-      "title": "New Tools, New Workflows and the Value of the Visual Studio Subscription: What We Learned at VSLive! San Diego",
+      "title": "New tools, new workflows and the value of the Visual Studio Subscription: What we learned at VSLive! San Diego",
       "link": "https://devblogs.microsoft.com/visualstudio/new-tools-new-workflows-and-the-value-of-the-visual-studio-subscription-what-we-learned-at-vslive-san-diego/",
       "published": "2026-10-14T14:00:25+00:00",
       "summary": "What happens when developers who have spent decades working with Visual Studio start rethinking how they write code, learn new skills, and expand their access to development tools? At VSLive! San Diego, we had an opportunity to find out as developers gathered for five days of technical sessions,...",
@@ -1605,7 +1641,7 @@
       "author": "Victoria Hall"
     },
     {
-      "title": "What Would You Build in Azure If You Didn’t Have to Ask for a Budget First?",
+      "title": "What would you build in Azure if you didn’t have to ask for a budget first?",
       "link": "https://devblogs.microsoft.com/visualstudio/what-would-you-build-in-azure-if-you-didnt-have-to-ask-for-a-budget-first/",
       "published": "2026-10-06T14:00:03+00:00",
       "summary": "Maybe you’d deploy that .NET application you’ve been working on. Try a serverless architecture. Experiment with containers. Build a proof of concept. Or spend some time exploring an Azure service you haven’t used yet. If you’re an eligible Visual Studio subscriber, you may already have a personal...",
@@ -1657,15 +1693,6 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Sajeetharan Sinnathurai"
-    },
-    {
-      "title": "I’m the Only Developer on This Project. Do I Really Need RBAC?",
-      "link": "https://devblogs.microsoft.com/cosmosdb/im-the-only-developer-on-this-project-do-i-really-need-rbac/",
-      "published": "2026-10-05T13:40:01+00:00",
-      "summary": "You own the account, wrote the application, and would be the one fixing it if something broke. So role-based access control (RBAC) can sound like an answer to a problem you do not have: managing other people. You do not need RBAC for your app to function; account keys still work while key-based...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sudhanshu Khera, Iria Osara"
     }
   ]
 }
