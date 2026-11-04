@@ -1,7 +1,115 @@
 {
-  "lastUpdated": "2026-11-03T19:02:21.113365+00:00",
-  "totalArticles": 188,
+  "lastUpdated": "2026-11-04T19:21:59.950219+00:00",
+  "totalArticles": 195,
   "articles": [
+    {
+      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
+      "published": "2026-11-04T15:56:30+00:00",
+      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
+      "blog": "Azure Network Security",
+      "blogId": "azurenetworksecurityblog",
+      "author": "saikishor"
+    },
+    {
+      "title": "Your guide to FinOps for AI at Microsoft Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/your-guide-to-finops-for-ai-at-microsoft-ignite-2026/ba-p/4569117",
+      "published": "2026-11-04T15:43:50+00:00",
+      "summary": "AI has moved from pilots to production, and the questions have changed with it. It is no longer enough to know what AI costs. Leaders want to know whether spend is predictable, who is driving it, and which investments are delivering real business value. That is the job of FinOps for AI: bringing...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Fernando_Vasconcellos"
+    },
+    {
+      "title": "Keep learning, keep building! Make the most of VSLive! with your Visual Studio Subscription",
+      "link": "https://devblogs.microsoft.com/visualstudio/keep-learning-keep-building-make-the-most-of-vslive-with-your-visual-studio-subscription/",
+      "published": "2026-11-04T15:30:28+00:00",
+      "summary": "Keeping up with new technology is one thing. Finding worthwhile opportunities to explore what matters most to your work is another. That’s where VSLive! can help. It brings technical learning, hands-on experience, expert guidance, and a community of developers together in one place, giving you...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt"
+    },
+    {
+      "title": "Extending Azure VM Image Automation with an MCP Operations Layer",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/extending-azure-vm-image-automation-with-an-mcp-operations-layer/ba-p/4570121",
+      "published": "2026-11-04T09:08:12+00:00",
+      "summary": "Introduction In Part 1, we built a repeatable Azure VM image pipeline with Packer, Azure DevOps and Azure Compute Gallery, then validated the published image before promotion. Read Part 1 This second part adds a focused MCP operations layer. The build logic remains in Azure DevOps; the server...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Prakhar-Sharma"
+    },
+    {
+      "title": "Implementing Traefik as an Ingress Controller on Azure Kubernetes Service (AKS)",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/implementing-traefik-as-an-ingress-controller-on-azure/ba-p/4570088",
+      "published": "2026-11-04T06:49:05+00:00",
+      "summary": "Prerequisites Before starting the implementation, ensure you have: An existing Azure Kubernetes Service (AKS) cluster with a user node pool available for ingress workloads. kubectl configured with access to the AKS cluster. Helm 3 installed and access to the Traefik Helm repository. Permissions to...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Shivani650"
+    },
+    {
+      "title": "My Favorite Undocumented Feature in SQL MCP Server",
+      "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-hidden-feature-default-configuration/",
+      "published": "2026-11-03T21:29:25+00:00",
+      "summary": "Deploy Microsoft's SQL MCP Server in minutes without a configuration file. Learn how DAB_CONNSTRING enables fast deployment using Docker, Azure Container Apps, ACI, or AKS. The post My Favorite Undocumented Feature in SQL MCP Server appeared first on Azure SQL Dev Corner.",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Jerry Nixon"
+    },
+    {
+      "title": "Azure Local: 10 mistakes that can derail your deployment before it starts",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-mistakes-that-can-derail-your-deployment-before/ba-p/4569922",
+      "published": "2026-11-03T20:53:03+00:00",
+      "summary": "Over the past few years, starting back when it was still called Azure Stack HCI, I've spent most of my time on Azure Local: scoping calls, design reviews, workshops, assessments and more escalations than I'd like to count. When I look back at the projects that went sideways, very few started with a...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Azure-Hacker"
+    },
+    {
+      "title": "Enhanced data protection for Azure Files",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enhanced-data-protection-for-azure-files/ba-p/4563333",
+      "published": "2026-11-03T20:09:10+00:00",
+      "summary": "Organizations rely on Azure Files for business-critical workloads such as VDI, SAP, and general-purpose file shares that hold their enterprise data. For these workloads, backup and disaster recovery are day-one requirements. Customers need a simple, scalable way to recover from an accidental change...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "soniagupta"
+    },
+    {
+      "title": "An engineering guide to Claude Code on Microsoft Foundry with Azure API Management",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/an-engineering-guide-to-claude-code-on-microsoft-foundry-with/ba-p/4569334",
+      "published": "2026-11-03T20:00:00+00:00",
+      "summary": "How do you give developers Claude Code while keeping identity, model access, budgets and private networking under enterprise control? I built Claude Code on Foundry (CCOF) to address that challenge, and I have taken this implementation live in multiple enterprises using this architecture. This...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "NaveenGopalakrishna"
+    },
+    {
+      "title": "Sovereign controls for Oracle AI Database@Azure",
+      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/sovereign-controls-for-oracle-ai-database-azure/ba-p/4567321",
+      "published": "2026-11-03T18:48:12+00:00",
+      "summary": "Regulated industries like banking, healthcare, and government face non-negotiable requirements for data localization, privacy, operational control, and compliance. Building on the controls already in Oracle AI Database@Azure, the Oracle Azure Resource Provider now supports the EU Data Boundary, so...",
+      "blog": "Oracle on Azure",
+      "blogId": "oracleonazureblog",
+      "author": "RamKakani"
+    },
+    {
+      "title": "What if your Azure Databricks workspaces have overlapping CIDRs?",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-if-your-azure-databricks-workspaces-have-overlapping-cidrs/ba-p/4569360",
+      "published": "2026-11-03T17:41:11+00:00",
+      "summary": "Consider a common enterprise networking challenge: You have three Azure Databricks workspaces. Each workspace uses classic VNet-injected compute, and each compute VNet uses the same address space: 10.100.0.0/20 Your networking team immediately sees the problem: If multiple networks advertise...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "vamsiboya_microsoft"
+    },
+    {
+      "title": "Build a Grounded Package Upgrade Advisor with Microsoft-Decision-1",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-a-grounded-package-upgrade-advisor-with-microsoft-decision/ba-p/4568374",
+      "published": "2026-11-03T17:00:00+00:00",
+      "summary": "About the Microsoft Decision Model In October 2026, Microsoft announced Microsoft-Decision-1, the latest model for fast decision-scoring available on Microsoft Foundry. Unlike LLMs that generate textual outputs, decision models return structured outputs that allow software to immediately act on,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SonakshiA"
+    },
     {
       "title": "Go beyond the basics: Explore specialized Azure plugins for your AI agent",
       "link": "https://devblogs.microsoft.com/azure-sdk/explore-specialized-azure-plugins-for-your-ai-agent/",
@@ -19,6 +127,15 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Azure Cosmos DB Team"
+    },
+    {
+      "title": "Discover and assess on-premises Network Attached Storage (NAS) shares using Azure Migrate",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/discover-and-assess-on-premises-network-attached-storage-nas/ba-p/4568287",
+      "published": "2026-11-03T10:05:24+00:00",
+      "summary": "Network-attached storage (NAS) holds much of an enterprise’s data; home directories, project shares, media libraries, application data, and analytics datasets, often spanning tens or hundreds of terabytes across protocols and administrative boundaries. Moving this estate to Azure starts not with...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "bapic"
     },
     {
       "title": "From Writing Scripts to Running a Newsroom: A 24-Hour News Station with Microsoft Copilot Harness",
@@ -219,6 +336,15 @@
       "author": "hieunhu"
     },
     {
+      "title": "Does ‘eval’ in the workspace path change what your agent does?",
+      "link": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
+      "published": "2026-10-30T12:49:14+00:00",
+      "summary": "Your eval might be telling the agent it’s a test before the agent reads a single instruction. Eval tools need a fresh folder for every run, and the easiest way to get one is a temp directory with a random name like /tmp/eval-7f3a2c. The agent sees that path on every turn, in the system prompt […]",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
       "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/hybrid-logic-apps-sql-as-storage-provider-benchmarking/ba-p/4567807",
       "published": "2026-10-30T04:33:46+00:00",
@@ -327,15 +453,6 @@
       "author": "Sandeep Sen"
     },
     {
-      "title": "Information Extraction with Low-Inference-Cost Models: 85% F1 Gain via Foundry Interactive Training",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/information-extraction-with-low-inference-cost-models-85-f1-gain/ba-p/4563661",
-      "published": "2026-10-28T14:00:00+00:00",
-      "summary": "Authors: Shih-Yao Lin, Apurva Saksena The task: turn documents into structured data Many business workflows need to turn documents into structured data. The model must find the right values, capture the requested records, and return output the next system can use. Long documents and repeated tables...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "shihyaolin"
-    },
-    {
       "title": "Agentic CI/CD with Azure Cosmos DB: Isolated Environments for a Swarm of AI Agents",
       "link": "https://devblogs.microsoft.com/cosmosdb/agentic-ci-cd-with-azure-cosmos-db-isolated-environments-for-a-swarm-of-ai-agents/",
       "published": "2026-10-28T11:00:02+00:00",
@@ -370,15 +487,6 @@
       "blog": "Oracle on Azure",
       "blogId": "oracleonazureblog",
       "author": "Venkat_Ramakrishnan"
-    },
-    {
-      "title": "Sovereign controls for Oracle AI Database@Azure",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/sovereign-controls-for-oracle-ai-database-azure/ba-p/4567321",
-      "published": "2026-10-27T19:30:00+00:00",
-      "summary": "Regulated industries like banking, healthcare, and government face non-negotiable requirements for data localization, privacy, operational control, and compliance. Building on the controls already in Oracle AI Database@Azure, the Oracle Azure Resource Provider now supports the EU Data Boundary, so...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "RamKakani"
     },
     {
       "title": "What’s new for Oracle AI Database@Azure at Oracle AI World 2026",
@@ -460,15 +568,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "Naomi Moneypenny"
-    },
-    {
-      "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
-      "published": "2026-10-26T18:19:55+00:00",
-      "summary": "Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed in PHP. We strongly recommend that customers upgrade to a patched version of PHP as soon as possible. Upgrading is the only way to fully remediate...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor"
     },
     {
       "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
@@ -559,15 +658,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "MaheshBalachandran"
-    },
-    {
-      "title": "Now in Foundry: Meta Muse Spark Open, NVIDIA Nemotron 3.5 Super VL, and Reflection Beam",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-meta-muse-spark-open-nvidia-nemotron-3-5-super-vl/ba-p/4565899",
-      "published": "2026-10-23T19:34:09+00:00",
-      "summary": "This week's Model Mondays edition highlights three Hugging Face models newly available in Microsoft Foundry, giving developers more open-weight options for enterprise coding and agentic work: Meta's Muse Spark Open, NVIDIA's Nemotron 3.5 Super VL, and Reflection's Beam 1.0. Models of the week Meta:...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Osi"
     },
     {
       "title": "Before Your Next Azure VM Refresh, Revisit the PaaS Options",
@@ -1666,33 +1756,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Lily Ma"
-    },
-    {
-      "title": "Azure Site Recovery for Azure Local Is Now Generally Available!",
-      "link": "https://techcommunity.microsoft.com/t5/azure-stack-blog/azure-site-recovery-for-azure-local-is-now-generally-available/ba-p/4529925",
-      "published": "2026-10-05T16:00:00+00:00",
-      "summary": "Today, we are excited to announce the general availability of Azure Site Recovery (ASR) for Azure Local, making enterprise-grade disaster recovery for on-premises virtual machine workloads simpler, more secure, and more accessible than ever before. Since its public preview, Azure Site Recovery for...",
-      "blog": "Azure Stack",
-      "blogId": "azurestackblog",
-      "author": "KerimHanif"
-    },
-    {
-      "title": "Logic Apps Aviators Newsletter - October 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-october-2026/ba-p/4561308",
-      "published": "2026-10-05T15:00:00+00:00",
-      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month October 2026's Ace Aviator: Hicham Boutaleb Hicham Boutaleb - Enterprise Integration & Azure Solution Architect @ 5-Nines Consulting What's your role and title? What are your...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
-    },
-    {
-      "title": "From an Empty Folder to an AI Agent: Meet create-cosmos-agent",
-      "link": "https://devblogs.microsoft.com/cosmosdb/from-an-empty-folder-to-an-ai-agent-meet-create-cosmos-agent/",
-      "published": "2026-10-05T14:12:38+00:00",
-      "summary": "The first few minutes of a new AI project often feel productive. Create a chat endpoint, connect a model, send a prompt, and display the answer. Then the real questions arrive. Where should the agent store memory? How do we keep one customer’s data away from another? How do we trace the source of...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Sajeetharan Sinnathurai"
     }
   ]
 }
