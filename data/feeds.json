@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-11-04T19:21:59.950219+00:00",
-  "totalArticles": 195,
+  "lastUpdated": "2026-11-05T19:29:48.958449+00:00",
+  "totalArticles": 192,
   "articles": [
+    {
+      "title": "October 2026 Node.js vulnerabilities: Azure DevOps security guidance",
+      "link": "https://devblogs.microsoft.com/devops/october-2026-node-js-vulnerabilities-azure-devops-security-guidance/",
+      "published": "2026-11-05T15:39:16+00:00",
+      "summary": "On October 21, 2026, the Node.js project released fixes for 10 vulnerabilities. These include flaws in DNS resolution and TLS certificate validation, along with a Brotli decompression bug that can corrupt memory and potentially allow code execution when an application processes attacker-controlled...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Josef Sin"
+    },
+    {
+      "title": "Bring Agentic Coding On-Device with Foundry Local",
+      "link": "https://devblogs.microsoft.com/foundry/foundry-local-agentic-coding-qwen3-8-27b/",
+      "published": "2026-11-05T14:00:38+00:00",
+      "summary": "Foundry Local brings agentic coding directly to developer hardware. The post Bring Agentic Coding On-Device with Foundry Local appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Baiju Meswani, Emma Ning, Tianlei Wu"
+    },
+    {
+      "title": "What’s new in Microsoft Foundry | October 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-october-2026/",
+      "published": "2026-11-05T11:40:48+00:00",
+      "summary": "Plan your Microsoft Ignite November 17-20 viewing, then explore October's Copilot harness preview, GA browser automation and hosted-agent resilience, Decisions API, and SDK updates with chapter-linked Handoff demos. The post What’s new in Microsoft Foundry | October 2026 appeared first on Microsoft...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nick Brady"
+    },
+    {
+      "title": "Build an AI-assisted invoice approval workflow with Power Automate and AI Builder",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-an-ai-assisted-invoice-approval-workflow-with-power/ba-p/4569292",
+      "published": "2026-11-05T08:00:00+00:00",
+      "summary": "Difficulty: Intermediate Your team receives invoice PDFs by email. Before approving them, someone needs to find the purchase order, compare the amount, and make sure the invoice has not already been registered. The next invoice starts the same sequence again. If your company already uses Power...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "MinseokSong"
+    },
+    {
+      "title": "Route summarization in Azure Route Server",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/route-summarization-in-azure-route-server/ba-p/4569901",
+      "published": "2026-11-04T22:57:47+00:00",
+      "summary": "Why hybrid networks need native routing policy Hybrid networks connect remote sites across multiple routing domains to an Azure Virtual Network (VNet). As these environments grow, you need a consistent way to control which routes Azure Route Server learns and advertises at the VNet boundary. That...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "Fabrizio-Ferri"
+    },
+    {
+      "title": "Intelligent Terminal 0.3: A new way to manage your tabs and agents",
+      "link": "https://devblogs.microsoft.com/commandline/intelligent-terminal-v0-3-a-new-way-to-see-and-manage-your-tabs-and-agents/",
+      "published": "2026-11-04T22:00:48+00:00",
+      "summary": "This is the biggest update to Intelligent Terminal since we launched. This release introduces the new sidebar for managing your tabs and agents, including recent agent sessions and agents running in other terminal windows. You also get rich tab information you can customize, global search, and a...",
+      "blog": "Windows Command Line",
+      "blogId": "commandline",
+      "author": "Hamza Usmani"
+    },
+    {
+      "title": "Can Fabric Copilot Run on a Separate Capacity?",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/can-fabric-copilot-run-on-a-separate-capacity/ba-p/4570365",
+      "published": "2026-11-04T20:38:19+00:00",
+      "summary": "Microsoft Cloud Architects: Yassine El Ouardi and Rafia Aqil Customer question: Can we bill our team’s Fabric Copilot usage to a separate capacity while keeping data processing and reporting on our existing capacity? Answer: Yes. An organization can designate a Fabric capacity for Copilot usage and...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
     {
       "title": "Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623",
@@ -201,7 +264,7 @@
       "author": "Iria Osara, Sudhanshu Khera"
     },
     {
-      "title": "How Microsoft SQL learned to recover without undoing everything first",
+      "title": "The paper that explains how Microsoft SQL learned to recover without undoing everything first",
       "link": "https://devblogs.microsoft.com/azure-sql/your-server-wasnt-slow-it-was-waiting-we-fixed-it-with-constant-time-recovery/",
       "published": "2026-11-02T11:49:03+00:00",
       "summary": "Under the Hood: The Research Behind Microsoft SQL, part 2 Here’s a scenario that used to be genuinely frightening: you kick off a bulk load of a few hundred million rows in a single transaction. Somewhere in the middle, the server goes down. Not because of your load, just an unlucky reboot. When...",
@@ -334,15 +397,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "hieunhu"
-    },
-    {
-      "title": "Does ‘eval’ in the workspace path change what your agent does?",
-      "link": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
-      "published": "2026-10-30T12:49:14+00:00",
-      "summary": "Your eval might be telling the agent it’s a test before the agent reads a single instruction. Eval tools need a fresh folder for every run, and the easiest way to get one is a temp directory with a random name like /tmp/eval-7f3a2c. The agent sees that path on every turn, in the system prompt […]",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
     },
     {
       "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
@@ -1675,87 +1729,6 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon"
-    },
-    {
-      "title": "Build Azure canvases with the Canvas authoring plugin",
-      "link": "https://devblogs.microsoft.com/blog/build-azure-canvases-with-canvas-authoring/",
-      "published": "2026-10-06T18:30:00+00:00",
-      "summary": "Learn how the Canvas authoring plugin helps you build Azure canvases with Microsoft Canvas Toolkit, from a read-only starter to a working app you can inspect, test, and adapt.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Alex Weininger"
-    },
-    {
-      "title": "GitOps with Argo CD extension for AKS is Now Generally Available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/gitops-with-argo-cd-extension-for-aks-is-now-generally-available/ba-p/4562231",
-      "published": "2026-10-06T18:00:00+00:00",
-      "summary": "We are excited to announce the general availability (GA) of GitOps with Argo CD extension for Azure Kubernetes Service (AKS)! Argo CD has become one of the most widely adopted GitOps tooling in the Kubernetes ecosystem, helping organizations deploy and operate applications on Kubernetes. As...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Poornima99"
-    },
-    {
-      "title": "Bringing Native AOT to the Aspire dashboard",
-      "link": "https://devblogs.microsoft.com/aspire/aspire-dashboard-native-aot/",
-      "published": "2026-10-06T17:00:03+00:00",
-      "summary": "Aspire 13.6 brings Native AOT to the dashboard. Explore the startup and deployment benefits, plus the Blazor, Fluent UI, JSON, and Dapper changes that made it possible. The post Bringing Native AOT to the Aspire dashboard appeared first on Aspire Blog.",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "James Newton-King"
-    },
-    {
-      "title": "Proactively monitor Azure VPN Gateway tunnel disconnections",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/proactively-monitor-azure-vpn-gateway-tunnel-disconnections/ba-p/4562011",
-      "published": "2026-10-06T16:47:21+00:00",
-      "summary": "Site-to-Site (S2S) VPN connections are a critical component of hybrid connectivity between Azure and on-premises environments. A tunnel outage can impact applications, user access, and business operations. Although Azure VPN Gateway automatically attempts to re-establish a tunnel when connectivity...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "shyambasnet"
-    },
-    {
-      "title": "PostgreSQL to SQL Field Notes: Connections",
-      "link": "https://devblogs.microsoft.com/azure-sql/pg-to-sql-connections/",
-      "published": "2026-10-06T16:39:17+00:00",
-      "summary": "Welcome to SQL First, welcome to SQL! You’re going to like this. Moving from PostgreSQL is real work, and depending on your old database, this process will vary widely in complexity. I am confident that you’re going to love the mindful and modern features of SQL. Take your time, make the most of...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
-    },
-    {
-      "title": "Bring agentic reasoning to Python function apps with Azure Functions Agent bindings (preview)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-functions-agent-binding/",
-      "published": "2026-10-06T15:00:10+00:00",
-      "summary": "Add bounded AI reasoning to Python function apps with Azure Functions Agent bindings, while keeping deterministic application code in control. The post Bring agentic reasoning to Python function apps with Azure Functions Agent bindings (preview) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Victoria Hall"
-    },
-    {
-      "title": "What would you build in Azure if you didn’t have to ask for a budget first?",
-      "link": "https://devblogs.microsoft.com/visualstudio/what-would-you-build-in-azure-if-you-didnt-have-to-ask-for-a-budget-first/",
-      "published": "2026-10-06T14:00:03+00:00",
-      "summary": "Maybe you’d deploy that .NET application you’ve been working on. Try a serverless architecture. Experiment with containers. Build a proof of concept. Or spend some time exploring an Azure service you haven’t used yet. If you’re an eligible Visual Studio subscriber, you may already have a personal...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "James Rempt"
-    },
-    {
-      "title": "What is Agent Experience (AX)?",
-      "link": "https://devblogs.microsoft.com/blog/what-is-agent-experience-ax/",
-      "published": "2026-10-06T09:18:05+00:00",
-      "summary": "Your agent says it's done, and the code compiles, but did it pick your technology? Did it use it correctly? Learn what Agent Experience (AX) is, how to measure it, and why the obvious fix isn't always the right one.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Connect Azure Functions to more services with managed connectors",
-      "link": "https://devblogs.microsoft.com/azure-sdk/connect-azure-functions-to-more-services-with-managed-connectors/",
-      "published": "2026-10-05T19:43:44+00:00",
-      "summary": "Learn how Azure Functions managed connectors provide access to 1,700 services, with triggers and typed clients available for supported service connectors, and walk through a sample that automates RFP intake across SharePoint, Azure Content Understanding, and Teams. The post Connect Azure Functions...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Lily Ma"
     }
   ]
 }

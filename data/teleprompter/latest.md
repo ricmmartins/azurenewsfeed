@@ -1,5 +1,5 @@
 ============================================================
-ROTEIRO - AZURE NEWS DIÁRIO - 04/11/2026
+ROTEIRO - AZURE NEWS DIÁRIO - 05/11/2026
 ============================================================
 
 [ABERTURA]
@@ -7,79 +7,66 @@ ROTEIRO - AZURE NEWS DIÁRIO - 04/11/2026
 E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
-Hoje é dia 04/11/2026.
-Temos 9 atualizações para cobrir.
+Hoje é dia 05/11/2026.
+Temos 7 atualizações para cobrir.
 Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure Network Security]
+[BLOCO: Azure DevOps Blog]
 
-  ► Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations
-    Written in collaboration with yuvalpery​ and Gunjan Jain​ Introduction Today, two critical remote code execution (RCE) vulnerabilities were disclosed 
-    Link: https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-php2shell-cve-2026-109618-and-cve-2026-109619-upgrade/ba-p/4566623
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: FinOps]
-
-  ► Your guide to FinOps for AI at Microsoft Ignite 2026
-    AI has moved from pilots to production, and the questions have changed with it. It is no longer enough to know what AI costs. Leaders want to know whe
-    Link: https://techcommunity.microsoft.com/t5/finops-blog/your-guide-to-finops-for-ai-at-microsoft-ignite-2026/ba-p/4569117
+  ► October 2026 Node.js vulnerabilities: Azure DevOps security guidance
+    On October 21, 2026, the Node.js project released fixes for 10 vulnerabilities. These include flaws in DNS resolution and TLS certificate validation, 
+    Link: https://devblogs.microsoft.com/devops/october-2026-node-js-vulnerabilities-azure-devops-security-guidance/
 
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Visual Studio Blog]
+[BLOCO: Microsoft Foundry Blog]
 
-  ► Keep learning, keep building! Make the most of VSLive! with your Visual Studio Subscription
-    Keeping up with new technology is one thing. Finding worthwhile opportunities to explore what matters most to your work is another. That’s where VSLiv
-    Link: https://devblogs.microsoft.com/visualstudio/keep-learning-keep-building-make-the-most-of-vslive-with-your-visual-studio-subscription/
+  ► Bring Agentic Coding On-Device with Foundry Local
+    Foundry Local brings agentic coding directly to developer hardware. The post Bring Agentic Coding On-Device with Foundry Local appeared first on Micro
+    Link: https://devblogs.microsoft.com/foundry/foundry-local-agentic-coding-qwen3-8-27b/
 
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Infrastructure]
-
-  ► Extending Azure VM Image Automation with an MCP Operations Layer
-    Introduction In Part 1, we built a repeatable Azure VM image pipeline with Packer, Azure DevOps and Azure Compute Gallery, then validated the publishe
-    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/extending-azure-vm-image-automation-with-an-mcp-operations-layer/ba-p/4570121
-
-  ► Implementing Traefik as an Ingress Controller on Azure Kubernetes Service (AKS)
-    Prerequisites Before starting the implementation, ensure you have: An existing Azure Kubernetes Service (AKS) cluster with a user node pool available 
-    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/implementing-traefik-as-an-ingress-controller-on-azure/ba-p/4570088
-
-  ► Azure Local: 10 mistakes that can derail your deployment before it starts
-    Over the past few years, starting back when it was still called Azure Stack HCI, I've spent most of my time on Azure Local: scoping calls, design revi
-    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-mistakes-that-can-derail-your-deployment-before/ba-p/4569922
+  ► What’s new in Microsoft Foundry | October 2026
+    Plan your Microsoft Ignite November 17-20 viewing, then explore October's Copilot harness preview, GA browser automation and hosted-agent resilience, 
+    Link: https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-october-2026/
 
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure SQL Dev Corner]
+[BLOCO: Azure Dev Community]
 
-  ► My Favorite Undocumented Feature in SQL MCP Server
-    Deploy Microsoft's SQL MCP Server in minutes without a configuration file. Learn how DAB_CONNSTRING enables fast deployment using Docker, Azure Contai
-    Link: https://devblogs.microsoft.com/azure-sql/sql-mcp-server-hidden-feature-default-configuration/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Storage]
-
-  ► Enhanced data protection for Azure Files
-    Organizations rely on Azure Files for business-critical workloads such as VDI, SAP, and general-purpose file shares that hold their enterprise data. F
-    Link: https://techcommunity.microsoft.com/t5/azure-storage-blog/enhanced-data-protection-for-azure-files/ba-p/4563333
+  ► Build an AI-assisted invoice approval workflow with Power Automate and AI Builder
+    Difficulty: Intermediate Your team receives invoice PDFs by email. Before approving them, someone needs to find the purchase order, compare the amount
+    Link: https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-an-ai-assisted-invoice-approval-workflow-with-power/ba-p/4569292
 
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure AI Foundry]
+[BLOCO: Azure Networking]
 
-  ► An engineering guide to Claude Code on Microsoft Foundry with Azure API Management
-    How do you give developers Claude Code while keeping identity, model access, budgets and private networking under enterprise control? I built Claude C
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/an-engineering-guide-to-claude-code-on-microsoft-foundry-with/ba-p/4569334
+  ► Route summarization in Azure Route Server
+    Why hybrid networks need native routing policy Hybrid networks connect remote sites across multiple routing domains to an Azure Virtual Network (VNet)
+    Link: https://techcommunity.microsoft.com/t5/azure-networking-blog/route-summarization-in-azure-route-server/ba-p/4569901
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Windows Command Line]
+
+  ► Intelligent Terminal 0.3: A new way to manage your tabs and agents
+    This is the biggest update to Intelligent Terminal since we launched. This release introduces the new sidebar for managing your tabs and agents, inclu
+    Link: https://devblogs.microsoft.com/commandline/intelligent-terminal-v0-3-a-new-way-to-see-and-manage-your-tabs-and-agents/
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Analytics on Azure]
+
+  ► Can Fabric Copilot Run on a Separate Capacity?
+    Microsoft Cloud Architects: Yassine El Ouardi and Rafia Aqil Customer question: Can we bill our team’s Fabric Copilot usage to a separate capacity whi
+    Link: https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/can-fabric-copilot-run-on-a-separate-capacity/ba-p/4570365
 
 [PAUSA]
 
