@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-11-05T19:29:48.958449+00:00",
-  "totalArticles": 192,
+  "lastUpdated": "2026-11-06T18:54:13.666892+00:00",
+  "totalArticles": 191,
   "articles": [
+    {
+      "title": "Azure Local: 10 mistakes that can derail your deployment before it starts",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-mistakes-that-can-derail-your-deployment-before/ba-p/4569922",
+      "published": "2026-11-06T13:47:24+00:00",
+      "summary": "Over the past few years, starting back when it was still called Azure Stack HCI, I've spent most of my time on Azure Local: scoping calls, design reviews, workshops, assessments and more escalations than I'd like to count. When I look back at the projects that went sideways, very few started with a...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Azure-Hacker"
+    },
+    {
+      "title": "Logic Apps Standard custom code now supports .NET 10",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
+      "published": "2026-11-06T06:15:29+00:00",
+      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/enabling-the-compliance-security-profile-csp-for-hipaa-on-azure/ba-p/4541578",
+      "published": "2026-11-06T02:39:06+00:00",
+      "summary": "Microsoft Architect's: Aladdin Alchalabi AladdinAlchalabi​, Kiran Raja KiranRaja​, Peter Lenges PeterLenges​, Jessica Reece jareece​, Benjamin Coughtry bcoughtry​, Anishek Kamal anishekkamal​, Tayo Akigbogun takigbogun​, Eric Kwashie ekwashie​, Peter Lo PeterLo​ and Rafia Aqil Rafia_Aqil​ Peer...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Preparing Your IIS VM for Azure SRE Agent: A Reader-Only Guide",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/preparing-your-iis-vm-for-azure-sre-agent-a-reader-only-guide/ba-p/4570805",
+      "published": "2026-11-05T23:01:58+00:00",
+      "summary": "I had the opportunity to work closely with a customer whose primary workload was an IIS web server running on an Azure IaaS virtual machine. The customer raised an important question: How should I configure my IIS server to help Azure SRE Agent effectively diagnose common issues and recommend...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "puneetguptams"
+    },
+    {
+      "title": "Microsoft Foundry extension for Azure Developer CLI is generally available",
+      "link": "https://devblogs.microsoft.com/foundry/microsoft-foundry-azure-developer-cli-ga/",
+      "published": "2026-11-05T20:55:45+00:00",
+      "summary": "Set up, test, evaluate, and deploy hosted agents with the generally available Microsoft Foundry extension for Azure Developer CLI, keeping agent and deployment configuration alongside your code. The post Microsoft Foundry extension for Azure Developer CLI is generally available appeared first on...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "John Miller"
+    },
+    {
+      "title": "Microsoft Foundry extension for Azure Developer CLI is generally available",
+      "link": "https://devblogs.microsoft.com/azure-sdk/microsoft-foundry-azure-developer-cli-ga/",
+      "published": "2026-11-05T19:39:43+00:00",
+      "summary": "Set up, test, evaluate, and deploy hosted agents with the generally available Microsoft Foundry extension for Azure Developer CLI, keeping agent and deployment configuration alongside your code. The post Microsoft Foundry extension for Azure Developer CLI is generally available appeared first on...",
+      "blog": "Azure SDK Blog",
+      "blogId": "azuresdkblog",
+      "author": "John Miller"
+    },
+    {
+      "title": "Optimize selective analytics reads in Azure Data Lake Storage with ABFS Vectored Read",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/optimize-selective-analytics-reads-in-azure-data-lake-storage/ba-p/4564592",
+      "published": "2026-11-05T19:11:11+00:00",
+      "summary": "ABFS Vectored Read helps compatible analytics engines reduce request overhead when reading selected portions of columnar files in Azure Data Lake Storage. By coordinating multiple noncontiguous byte ranges through the Azure Blob File System (ABFS) driver, it can combine nearby ranges into fewer...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "madhurinrao"
+    },
+    {
+      "title": "Sync Without Shared Secrets: Managed Identity for ACR Connected Registry",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/sync-without-shared-secrets-managed-identity-for-acr-connected/ba-p/4569415",
+      "published": "2026-11-05T19:09:06+00:00",
+      "summary": "Connected Registry is a feature of Azure Container Registry (ACR) that provides an on-premises or remote replica, synchronizing container images and other OCI artifacts with a cloud-based registry. It gives local workloads nearby access to those artifacts, including in environments with limited or...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "zoeyli"
+    },
+    {
+      "title": "Who, not just what: Identity-aware Azure Policy for real-time governance",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/who-not-just-what-identity-aware-azure-policy-for-real-time/ba-p/4570015",
+      "published": "2026-11-05T18:34:27+00:00",
+      "summary": "For years, Azure Policy has answered one question extremely well: \"what should your Azure environment look like?\" Allowed regions, required tags, mandatory diagnostic settings, approved SKUs. That’s powerful, but it only inspects the resource payload. It never looked at the caller. Now Azure Policy...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher"
+    },
+    {
+      "title": "Azure DNS Traffic Manager linked records are now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-dns-traffic-manager-linked-records-are-now-generally/ba-p/4547112",
+      "published": "2026-11-05T16:42:14+00:00",
+      "summary": "We're excited to announce the general availability of Azure Traffic Manager linked records, a new Azure DNS capability that enables customers to directly associate Azure Public DNS record sets with Azure Traffic Manager profiles without using a CNAME to trafficmanager.net. With this capability,...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "samimodak"
+    },
     {
       "title": "October 2026 Node.js vulnerabilities: Azure DevOps security guidance",
       "link": "https://devblogs.microsoft.com/devops/october-2026-node-js-vulnerabilities-azure-devops-security-guidance/",
@@ -37,6 +127,24 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "MinseokSong"
+    },
+    {
+      "title": "Check This Out! (CTO!) Guide (November 2026)",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/check-this-out-cto-guide-november-2026/ba-p/4570392",
+      "published": "2026-11-05T01:56:08+00:00",
+      "summary": "Member: TysonPaul | Microsoft Community Hub Advancing sovereign AI with Foundry Local and Azure Local Team Blog: Azure Arc Author: insagiv Published: 10/20/2026 Summary: Microsoft is expanding sovereign AI with Foundry Local on Azure Local, enabling organizations to run AI models, agents, and...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "TysonPaul"
+    },
+    {
+      "title": "Introducing the AKS managed default domain",
+      "link": "https://blog.aks.azure.com/2026/11/05/aks-managed-default-domain",
+      "published": "2026-11-05T00:00:00+00:00",
+      "summary": "Use the AKS managed default domain to expose workloads over HTTPS with managed DNS and an automatically renewed, publicly trusted TLS certificate on Azure.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
     },
     {
       "title": "Route summarization in Azure Route Server",
@@ -118,15 +226,6 @@
       "blog": "Azure SQL Dev Corner",
       "blogId": "azuresqlblog",
       "author": "Jerry Nixon"
-    },
-    {
-      "title": "Azure Local: 10 mistakes that can derail your deployment before it starts",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-mistakes-that-can-derail-your-deployment-before/ba-p/4569922",
-      "published": "2026-11-03T20:53:03+00:00",
-      "summary": "Over the past few years, starting back when it was still called Azure Stack HCI, I've spent most of my time on Azure Local: scoping calls, design reviews, workshops, assessments and more escalations than I'd like to count. When I look back at the projects that went sideways, very few started with a...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Azure-Hacker"
     },
     {
       "title": "Enhanced data protection for Azure Files",
@@ -849,15 +948,6 @@
       "author": "Sunip"
     },
     {
-      "title": "Optimize selective analytics reads in Azure Data Lake Storage with ABFS Vectored Read",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/optimize-selective-analytics-reads-in-azure-data-lake-storage/ba-p/4564592",
-      "published": "2026-10-22T00:37:34+00:00",
-      "summary": "ABFS Vectored Read helps compatible analytics engines reduce request overhead when reading selected portions of columnar files in Azure Data Lake Storage. By coordinating multiple noncontiguous byte ranges through the Azure Blob File System (ABFS) driver, it can combine nearby ranges into fewer...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "madhurinrao"
-    },
-    {
       "title": "Enhanced Feature Flags: A New Foundation for Feature Management in Azure App Configuration",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enhanced-feature-flags-a-new-foundation-for-feature-management/ba-p/4566672",
       "published": "2026-10-21T23:04:15+00:00",
@@ -1362,15 +1452,6 @@
       "author": "Meagan McCrory"
     },
     {
-      "title": "Meet the Hosted Skills Canvas: Build, Run, and Debug in GitHub Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/meet-the-hosted-skills-canvas-build-run-and-debug-in-github/ba-p/4561222",
-      "published": "2026-10-14T23:51:30+00:00",
-      "summary": "We have been evolving Azure Functions from the bottom up: first the infrastructure with Flex Consumption, then the way you write an app, and now the tools you use to build it.We're introducing a new developer experience for event-driven apps: the Azure Functions Hosted Skills canvas in the GitHub...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "paulyuk"
-    },
-    {
       "title": "Azure MCP Server 3.0 stable release: More tools. More possibilities",
       "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-3-0-stable-release/",
       "published": "2026-10-14T20:35:34+00:00",
@@ -1639,96 +1720,6 @@
       "blog": "Microsoft Sentinel",
       "blogId": "microsoftsentinelblog",
       "author": "JamesAde"
-    },
-    {
-      "title": "Azure Document Intelligence and Azure Content Understanding: a practical guide",
-      "link": "https://devblogs.microsoft.com/foundry/choosing-azure-document-intelligence-and-content-understanding/",
-      "published": "2026-10-07T18:45:01+00:00",
-      "summary": "Compare Azure Document Intelligence and Azure Content Understanding across extraction architectures, workload fit, Layout capabilities, deployment options, and practical evaluation criteria. The post Azure Document Intelligence and Azure Content Understanding: a practical guide appeared first on...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Chu Lahlou"
-    },
-    {
-      "title": "Anyscale on Azure is now Generally Available",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/anyscale-on-azure-is-now-generally-available/ba-p/4562547",
-      "published": "2026-10-07T17:12:20+00:00",
-      "summary": "Anyscale on Azure is now Generally Available. Enterprises can run the Ray distributed runtime as a managed service on Azure Kubernetes Service (AKS), with workloads running in the customer’s own Azure subscription, network, and identity boundary. With General Availability, Anyscale on Azure is...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "bobmital"
-    },
-    {
-      "title": "From Spec-First to Enterprise-Ready: Extending GitHub Spec Kit",
-      "link": "https://devblogs.microsoft.com/blog/from-spec-first-to-enterprise-ready-extending-github-spec-kit/",
-      "published": "2026-10-07T15:00:26+00:00",
-      "summary": "How presets, extensions, bundles, workflows, and governed catalogs make Spec-Driven Development adaptable at scale This article continues Spec-Driven Development: A Spec-First Approach to AI-Native Engineering, which introduced the principles and lifecycle of SDD. Here, we focus on the next...",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Apoorv Gupta"
-    },
-    {
-      "title": "Meet Microsoft at Oracle AI World 2026",
-      "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/meet-microsoft-at-oracle-ai-world-2026/ba-p/4562468",
-      "published": "2026-10-07T14:00:00+00:00",
-      "summary": "Where your Oracle data meets Microsoft AI Most enterprise AI runs into the same wall: the data lives in Oracle, and the AI lives somewhere else. Oracle AI Database@Azure closes that gap, running Oracle data alongside Microsoft’s trusted AI platform. Microsoft is a sponsor at Oracle AI World 2026 —...",
-      "blog": "Oracle on Azure",
-      "blogId": "oracleonazureblog",
-      "author": "AlexStairs"
-    },
-    {
-      "title": "Public Preview: Onboard Kubernetes Clusters to Azure Arc with the Multicloud Connector",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/public-preview-onboard-kubernetes-clusters-to-azure-arc-with-the/ba-p/4556330",
-      "published": "2026-10-07T13:59:49+00:00",
-      "summary": "Today we're announcing that the Azure Arc Multuicloud Connector Arc onboarding solution for Kubernetes clusters is in public preview for both Amazon EKS and Google GKE! With this release, the Multicloud Connector automatically discovers eligible EKS clusters in your connected AWS accounts and GKE...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "jalenmcg"
-    },
-    {
-      "title": "Update network rules for the API Management service tag",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/update-network-rules-for-the-api-management-service-tag/ba-p/4562518",
-      "published": "2026-10-07T10:41:21+00:00",
-      "summary": "To improve Azure API Management resiliency and scalability, we’re expanding our infrastructure and adding control-plane IP addresses. These addresses are included in the ApiManagement service tag. If you use VNet internal or VNET external with the classic (v1) tiers, check your network security...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "Sreekanth_Thirthala"
-    },
-    {
-      "title": "Bulk changing blob tiers using Azure Storage Actions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/bulk-changing-blob-tiers-using-azure-storage-actions/ba-p/4559342",
-      "published": "2026-10-07T08:13:05+00:00",
-      "summary": "Managing blob access tiers at scale can be challenging, especially when a storage account contains a large number of blobs spread across containers and virtual directories. Traditionally, changing blob tiers in bulk may require scripts, automation runbooks, or custom tooling to iterate through each...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "hqaffesha"
-    },
-    {
-      "title": "Azure AD Graph API retirement: action required for older versions of Azure CLI and Azure PowerShell",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-ad-graph-api-retirement-action-required-for-older-versions/ba-p/4562225",
-      "published": "2026-10-07T02:00:01+00:00",
-      "summary": "Summary Azure AD Graph API (the legacy graph.windows.net API, not to be confused with Microsoft Graph) entered its retirement process in September 2024, with the general shutdown completed on July 1, 2025. Azure CLI and Azure PowerShell completed their migration away from Azure AD Graph well ahead...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "Alex-wdy"
-    },
-    {
-      "title": "Try SqlClient’s new connection pool for faster parallel connections",
-      "link": "https://devblogs.microsoft.com/azure-sql/try-sqlclients-new-connection-pool-for-faster-parallel-connections/",
-      "published": "2026-10-06T22:42:12+00:00",
-      "summary": "You told us that applications using Microsoft.Data.SqlClient can take too long to establish the database connections they need. When many requests need connections at the same time, waiting for the connection pool to grow can delay application readiness and increase latency. This can happen even in...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Malcolm Daigle"
-    },
-    {
-      "title": "Upcoming SQL and AI Events to Put on Your Calendar",
-      "link": "https://devblogs.microsoft.com/azure-sql/sql-calendar-2027q4/",
-      "published": "2026-10-06T20:50:48+00:00",
-      "summary": "Developers, database administrators, data professionals, architects and technology decision makers have several opportunities to connect, learn and gain hands-on experience this fall. 2027 Q4 SQL Events Date Event City & region Registration Fri, Oct 16, 2026 💻 SQL AI App in a Day workshop Sanford,...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
     }
   ]
 }
