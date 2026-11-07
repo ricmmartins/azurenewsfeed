@@ -1,7 +1,61 @@
 {
-  "lastUpdated": "2026-11-06T18:54:13.666892+00:00",
-  "totalArticles": 191,
+  "lastUpdated": "2026-11-07T17:26:13.238745+00:00",
+  "totalArticles": 187,
   "articles": [
+    {
+      "title": "Repairs and Renovation Should Not Compete Blindly for the Same Capacity",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/repairs-and-renovation-should-not-compete-blindly-for-the-same/ba-p/4571312",
+      "published": "2026-11-07T16:06:48+00:00",
+      "summary": "Consider an illustrative ground-floor apartment in a 1960s portiekflat, a Dutch walk-up apartment building. In February, the tenant reports a back door that sticks and lets in drafts. A repair contractor adjusts the frame and orders a part; a second visit in March installs it. In April, another...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Jiri Binko"
+    },
+    {
+      "title": "Dutch Social Housing Transformation: Smarter Repairs, Faster Renovations, Accountable Tech",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/dutch-social-housing-transformation-smarter-repairs-faster/ba-p/4571311",
+      "published": "2026-11-07T15:38:21+00:00",
+      "summary": "Picture an ordinary week at a Dutch housing association. A tenant reports bedroom mold for the third time, and the repair desk books a contractor to treat it. Across the office, the asset team is finalizing next year’s insulation and ventilation program for the same building. Each team acts...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Jiri Binko"
+    },
+    {
+      "title": "Logic Apps Standard custom code now supports .NET 10",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
+      "published": "2026-11-07T00:59:02+00:00",
+      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "Direct your next shot with fal on Microsoft Foundry and ComfyUI",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/direct-your-next-shot-with-fal-on-microsoft-foundry-and-comfyui/ba-p/4570230",
+      "published": "2026-11-06T20:39:35+00:00",
+      "summary": "Bring the new fal MiniMax H3 Max video model and Foundry image models (gpt-image, FLUX, MAI Image) into ComfyUI with two custom nodes and keyless Microsoft Entra ID authentication, then build a cinematic image-to-video pipeline. In this article How it works Step 1 – Deploy the models in your...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "JorgeGX"
+    },
+    {
+      "title": "Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with/ba-p/4570032",
+      "published": "2026-11-06T19:59:31+00:00",
+      "summary": "Video workloads do not all start with the same input or aim for the same result. A creative team might explore several interpretations of a written brief. A retailer might turn an approved product image into a short motion concept. An application developer might combine image generation and video...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny"
+    },
+    {
+      "title": "Improve production agents with closed-loop evaluations in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/improve-production-agents-with-closed-loop-evaluations-in/ba-p/4569762",
+      "published": "2026-11-06T16:00:00+00:00",
+      "summary": "A production agent can lose accuracy or cost too much without a single code change. As live traffic grows, new user requests expose gaps in the agent instructions. At the same time, newer models can offer better quality or lower operating cost. Yet editing prompts by hand or swapping models in...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "kedikala"
+    },
     {
       "title": "Azure Local: 10 mistakes that can derail your deployment before it starts",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-mistakes-that-can-derail-your-deployment-before/ba-p/4569922",
@@ -10,15 +64,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "Azure-Hacker"
-    },
-    {
-      "title": "Logic Apps Standard custom code now supports .NET 10",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
-      "published": "2026-11-06T06:15:29+00:00",
-      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
     },
     {
       "title": "Enabling the Compliance Security Profile (CSP) for HIPAA on Azure Databricks",
@@ -46,6 +91,15 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "John Miller"
+    },
+    {
+      "title": "Moonshot AI’s Kimi K3.1 Pro comes to Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/moonshot-ai-s-kimi-k3-1-pro-comes-to-microsoft-foundry/ba-p/4570292",
+      "published": "2026-11-05T19:51:53+00:00",
+      "summary": "The hardest work for an AI agent rarely fits into a single prompt. A coding agent may need to follow a change across a large repository. A research agent may need to work through lengthy documents, charts, and images before it can give a useful answer. In both cases, the challenge is not just...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Naomi Moneypenny"
     },
     {
       "title": "Microsoft Foundry extension for Azure Developer CLI is generally available",
@@ -894,15 +948,6 @@
       "author": "MinseokSong"
     },
     {
-      "title": "Implementing Next Best Action (NBA) in Foundry with Microsoft-Decision-1",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/implementing-next-best-action-nba-in-foundry-with-microsoft/ba-p/4565653",
-      "published": "2026-10-22T16:00:00+00:00",
-      "summary": "Imagine a sales rep opening their account list at the start of the day. One customer wants a product demo. Another has a larger potential deal, but its requirements may not match what your product can do. A third has asked you not to contact them for another week. A construction permit looks...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "OlivierB123"
-    },
-    {
       "title": "Scheduled backups for Azure Local with disconnected operations: Advancing control plane resilience",
       "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/scheduled-backups-for-azure-local-with-disconnected-operations/ba-p/4563594",
       "published": "2026-10-22T15:30:00+00:00",
@@ -928,15 +973,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "James Rempt"
-    },
-    {
-      "title": "Building a Self-Updating RAG System: Handling Document Uploads, Updates and Deletions",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-a-self-updating-rag-system-handling-document-uploads/ba-p/4564036",
-      "published": "2026-10-22T14:00:00+00:00",
-      "summary": "The Hidden Challenge of Production RAG Imagine your organization has deployed an AI assistant to answer questions about employee policies. An employee asks, “How many days of annual leave am I entitled to?” The assistant responds confidently: “15 days.” There is just one problem. The company...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Akshay-Kireet-18"
     },
     {
       "title": "Beyond Hub-and-Spoke: Routable and Non-Advertised Azure Networks",
@@ -982,15 +1018,6 @@
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
       "author": "Hugo_Meiland"
-    },
-    {
-      "title": "Cohere Rerank V5 is now available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/cohere-rerank-v5-is-now-available-in-microsoft-foundry/ba-p/4566311",
-      "published": "2026-10-21T16:27:58+00:00",
-      "summary": "Today, we’re announcing the availability of Cohere Rerank v5 in Microsoft Foundry, helping developers improve the relevance and efficiency of enterprise search and retrieval-augmented generation (RAG). With Fast and Pro versions and a new Context Focus capability, Rerank 5 helps applications find...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "RashaudSavage"
     },
     {
       "title": "Introducing Agentic Autofix for code and dependencies",
@@ -1144,15 +1171,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Building an On-Device Voice Companion with Foundry Local",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/building-an-on-device-voice-companion-with-foundry-local/ba-p/4563553",
-      "published": "2026-10-20T14:00:00+00:00",
-      "summary": "“When was my heartbeat high this week?” That was the question I wanted to ask my phone. My watch already collects the readings. But finding the answer still means opening an app, choosing a date range and interpreting a chart. I wanted to say the question out loud and hear an answer based on the...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Kalaivanan"
     },
     {
       "title": "Advancing sovereign AI with Foundry Local and Azure Local",
@@ -1666,60 +1684,6 @@
       "blog": "Azure SDK Blog",
       "blogId": "azuresdkblog",
       "author": "Tsuyoshi Ushio"
-    },
-    {
-      "title": "Finding the Elusive MDE PUA Audit Events on Linux",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/finding-the-elusive-mde-pua-audit-events-on-linux/ba-p/4562985",
-      "published": "2026-10-08T17:17:13+00:00",
-      "summary": "Potentially Unwanted Applications, or PUA, they aren't necessarily malware, but they are applications you probably don't want running across your environment either. Microsoft defines potentially unwanted applications as software that can adversely affect endpoint performance or use. Examples...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "Vytas_Boyev"
-    },
-    {
-      "title": "Adding persistence to the Aspire dashboard",
-      "link": "https://devblogs.microsoft.com/aspire/aspire-dashboard-persistence/",
-      "published": "2026-10-08T17:00:00+00:00",
-      "summary": "Aspire 13.6 adds dashboard persistence and run history. Revisit telemetry after a restart, retain more data, and explore the SQLite and Dapper implementation behind it. The post Adding persistence to the Aspire dashboard appeared first on Aspire Blog.",
-      "blog": "Aspire Blog",
-      "blogId": "aspireblog",
-      "author": "James Newton-King"
-    },
-    {
-      "title": "A closer look at noise reduction in Stacks What-If",
-      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/a-closer-look-at-noise-reduction-in-stacks-what-if/ba-p/4548210",
-      "published": "2026-10-08T16:12:33+00:00",
-      "summary": "Following the general availability of what-if for Azure Deployment Stacks, this article deep dives into the co-released feature of \"noise reduction\", which was a top community feature ask from Deployment Stacks customers. In this article, we will cover what noise reduction solves, how it works, and...",
-      "blog": "Governance & Management",
-      "blogId": "azuregovernanceandmanagementblog",
-      "author": "torreyt"
-    },
-    {
-      "title": "New Wiki Editor Experience",
-      "link": "https://devblogs.microsoft.com/devops/new-wiki-editor-experience/",
-      "published": "2026-10-08T14:24:03+00:00",
-      "summary": "We are excited to announce a new editing experience for Wiki pages. We are replacing the existing editor with a new editor built on Monaco Editor, the same editor technology that powers Visual Studio Code. Monaco brings many of the editing capabilities familiar to Visual Studio Code to Wiki pages,...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Dan Hellem"
-    },
-    {
-      "title": "Azure Key Vault and BYOK: Lessons Learned",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-key-vault-and-byok-lessons-learned/ba-p/4561156",
-      "published": "2026-10-08T12:41:54+00:00",
-      "summary": "Bring Your Own Key (BYOK) lets you import externally generated key material into Azure Key Vault. Importing that material again creates a new version; it does not recreate the original version identifier. If Azure Storage still requires the original customer-managed key (CMK) version to unwrap...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "gurjsing"
-    },
-    {
-      "title": "Introducing the Microsoft Sentinel ASIM EmailEvent schema",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/introducing-the-microsoft-sentinel-asim-emailevent-schema/ba-p/4562581",
-      "published": "2026-10-07T20:21:05+00:00",
-      "summary": "Email remains one of the most common entry points for security threats. Yet email products often describe the same activity with different table names, fields, and values. This makes it harder to build detections and investigations that work consistently across data sources. The Microsoft Sentinel...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "JamesAde"
     }
   ]
 }
