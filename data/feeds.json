@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-07T17:26:13.238745+00:00",
-  "totalArticles": 187,
+  "lastUpdated": "2026-11-08T17:36:52.718190+00:00",
+  "totalArticles": 183,
   "articles": [
+    {
+      "title": "The Model Isn’t the Boss: An Azure Architecture for Accountable AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/the-model-isn-t-the-boss-an-azure-architecture-for-accountable/ba-p/4571335",
+      "published": "2026-11-07T20:50:12+00:00",
+      "summary": "Imagine a housing organization that maintains several thousand rented homes. Tenants report repairs through a website, an app, a phone line or a support worker who completes the form with them, and many reports include a photo. Asset history, approved repair guidance, contractor availability and...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Jiri Binko"
+    },
     {
       "title": "Repairs and Renovation Should Not Compete Blindly for the Same Capacity",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/repairs-and-renovation-should-not-compete-blindly-for-the-same/ba-p/4571312",
@@ -28,6 +37,15 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "WSilveira"
+    },
+    {
+      "title": "Announcing Live Migration for Confidential Computing",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-live-migration-for-confidential-computing/ba-p/4524558",
+      "published": "2026-11-06T20:40:50+00:00",
+      "summary": "Authored by Caroline Perez-Vargas, Michael McReynolds Introduction Today at Build, Microsoft showcased Live Migration for Azure confidential computing, a new capability that helps move Intel® TDX Confidential VMs to updated infrastructure with limited interruption while helping protect VM memory...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "mmcrey"
     },
     {
       "title": "Direct your next shot with fal on Microsoft Foundry and ComfyUI",
@@ -1218,15 +1236,6 @@
       "author": "Krishnaprasad_Hande"
     },
     {
-      "title": "Announcing Live Migration for Confidential Computing",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/announcing-live-migration-for-confidential-computing/ba-p/4524558",
-      "published": "2026-10-19T19:14:23+00:00",
-      "summary": "Authored by Caroline Perez-Vargas, Michael McReynolds Introduction Today at Build, Microsoft showcased Live Migration for Confidential Computing, a new capability that helps move Intel® TDX Confidential VMs to updated infrastructure with limited interruption while helping protect VM memory and...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "mmcrey"
-    },
-    {
       "title": "Where Does My Microsoft Entra ID Data Reside? Understanding Azure Regions and Data Residency",
       "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/where-does-my-microsoft-entra-id-data-reside-understanding-azure/ba-p/4565946",
       "published": "2026-10-19T19:03:12+00:00",
@@ -1639,51 +1648,6 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "chandanAggarwal"
-    },
-    {
-      "title": "Azure Managed Redis Deployment Automation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-paas-blog/azure-managed-redis-deployment-automation/ba-p/4547874",
-      "published": "2026-10-09T12:30:36+00:00",
-      "summary": "Sometimes we may see some temporary capacity restrictions on some Azure Regions, while deploying Azure Managed Redis (AMR), and when that happen, the recommendation is usually retrying using a different Azure Region, a different AMR SKU, or retrying during off-peak hours or weekends.Retrying the...",
-      "blog": "Azure PaaS",
-      "blogId": "azurepaasblog",
-      "author": "LuisFilipe"
-    },
-    {
-      "title": "Introducing the Agent Experience (AX) Practitioner Playbook",
-      "link": "https://devblogs.microsoft.com/blog/introducing-the-agent-experience-ax-practitioner-playbook/",
-      "published": "2026-10-09T09:44:25+00:00",
-      "summary": "AI coding agents now pick the SDK, the version, and the pattern for your developers. The AX Practitioner Playbook is our method for finding out whether they get your technology right, and for fixing the sources they rely on when they don't.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Introducing the Native Confluent Cloud Connector Experience in Azure Cosmos DB!",
-      "link": "https://devblogs.microsoft.com/cosmosdb/introducing-the-native-confluent-cloud-connector-experience-in-azure-cosmos-db/",
-      "published": "2026-10-09T07:00:28+00:00",
-      "summary": "Co-authored with Praveen Raja P Azure Cosmos DB already includes a powerful event foundation: change feed provides a durable, ordered record of item changes within each logical partition. It is ideal for reacting to operational data as it changes, building projections, and driving workflows...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay"
-    },
-    {
-      "title": "Azure CLI on macOS got security upgrade: native broker authentication",
-      "link": "https://techcommunity.microsoft.com/t5/azure-tools-blog/azure-cli-on-macos-got-security-upgrade-native-broker/ba-p/4563073",
-      "published": "2026-10-09T04:40:50+00:00",
-      "summary": "Why we built this If you manage Azure resources from a Mac today, az login opens a browser tab, you sign in, and a token comes back to the CLI. That's worked well for a long time. As security requirements become more stringent, many enterprise organizations are adopting secure authentication...",
-      "blog": "Azure Tools",
-      "blogId": "azuretoolsblog",
-      "author": "Alex-wdy"
-    },
-    {
-      "title": "Dynamic Workflows in Azure Functions Hosted Skills: Durable, AI-Led Work for Event-Driven Apps",
-      "link": "https://devblogs.microsoft.com/azure-sdk/dynamic-workflows-azure-functions-hosted-skills/",
-      "published": "2026-10-08T19:09:00+00:00",
-      "summary": "Azure Functions is the event-driven application platform, and Hosted Skills adds AI reasoning to your app. Dynamic Workflows give the app a durable way to carry out AI-led, multi-step work after the triggering invocation is finished. The model writes a plan (a DAG) one time, and Durable Functions...",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Tsuyoshi Ushio"
     }
   ]
 }
