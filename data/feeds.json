@@ -1,7 +1,133 @@
 {
-  "lastUpdated": "2026-11-10T19:18:45.724873+00:00",
-  "totalArticles": 188,
+  "lastUpdated": "2026-11-11T19:15:19.650337+00:00",
+  "totalArticles": 199,
   "articles": [
+    {
+      "title": "Deploying an AI Application on Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-an-ai-application-on-azure-container-apps/ba-p/4572612",
+      "published": "2026-11-11T19:12:23+00:00",
+      "summary": "AI applications often start as prototypes running locally on a developer’s machine. A Streamlit application may work perfectly in a development environment, but making it accessible to users introduces a different set of infrastructure and operational considerations. From an infrastructure...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Devi_Priya"
+    },
+    {
+      "title": "Content Understanding adds GPT-5.6, GPT-6, and GPT-6.1: Choose the right model for your workload",
+      "link": "https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/",
+      "published": "2026-11-11T18:24:28+00:00",
+      "summary": "Azure Content Understanding now supports the GPT-5.6, GPT-6, and GPT-6.1 model families, giving you more choices for document, text, speech, and video workflows. This adds to the existing set of supported models like the GPT-5 series. To help customers understand how to use this expanded set of...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Joe Filcik"
+    },
+    {
+      "title": "Bring Your Own Model is now generally available in Visual Studio",
+      "link": "https://devblogs.microsoft.com/visualstudio/bring-your-own-model-is-now-generally-available-in-visual-studio/",
+      "published": "2026-11-11T17:00:48+00:00",
+      "summary": "Whether your team hosts its own AI models, you have an API key from a model provider, or you want to experiment with a model running on your machine, Bring Your Own Model (BYOM) lets you use those models without leaving Visual Studio. BYOM is now generally available in Visual Studio 18.12. Since...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Praveen Sethuraman"
+    },
+    {
+      "title": "Azure NetApp Files: The Data Backbone for NVIDIA AI Model Training, Inference, and Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-netapp-files-the-data-backbone-for-nvidia-ai-model/ba-p/4571839",
+      "published": "2026-11-11T11:12:28+00:00",
+      "summary": "Table of Contents Introduction Data Mobility Before Compute and AI Azure NetApp Files: Your Data Gateway to Advanced AI Services in Azure Where Azure NetApp Files meets the stack AI Domain-Specific Model Training with HPC Infrastructure Built to keep NVIDIA GPUs fed Short-Term Clones for Rapid...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "GeertVanTeylingen"
+    },
+    {
+      "title": "Engineering an Agentic Scheduler",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/engineering-an-agentic-scheduler/ba-p/4564637",
+      "published": "2026-11-11T08:00:00+00:00",
+      "summary": "Authors: Gabriel Sze and Weixian Zhang 1. Engineering an Agentic Scheduler Scheduling looks deceptively simple until multiple constraints, shared resources, and partial commitments start interacting. This post walks through how we built an agentic scheduler that lets an LLM reason about placements...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "gabrielsze"
+    },
+    {
+      "title": "Logic Apps Standard custom code now supports .NET 10",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
+      "published": "2026-11-11T03:45:03+00:00",
+      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "Introducing Azure Monitor dashboards with Grafana MCP: Telemetry for AI Agents, Signed In as You",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-monitor-dashboards-with-grafana-mcp-telemetry/ba-p/4572228",
+      "published": "2026-11-10T22:21:47+00:00",
+      "summary": "We're introducing the Azure Monitor dashboards with Grafana remote MCP server, a global Model Context Protocol (MCP) endpoint at https://mcp.dashboard.azure.com. It lets AI agents such as GitHub Copilot query Azure Monitor metrics and logs, Azure Resource Graph, Prometheus in Azure Monitor...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng"
+    },
+    {
+      "title": "Building a Trusted Ecosystem for Sovereign Private Cloud: Azure Local validated partner solutions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/building-a-trusted-ecosystem-for-sovereign-private-cloud-azure/ba-p/4567325",
+      "published": "2026-11-10T22:00:00+00:00",
+      "summary": "When organizations move critical workloads to Azure Local, the first question usually isn't about the platform. It's about everything that runs on and around it: Will my backup tool work? Can my Security Operations Center (SOC) still see the workloads it needs to monitor? Will my identity provider...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Bandhan"
+    },
+    {
+      "title": "Build a dual-mode voice agent in Microsoft Foundry with native subagents",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-a-dual-mode-voice-agent-in-microsoft-foundry-with-native/ba-p/4570650",
+      "published": "2026-11-10T21:30:00+00:00",
+      "summary": "Voice agents are changing how companies interact with customers. From service questions to technical support, the expectation is the same: a natural conversation that leads to useful, reliable answers. But responding quickly and resolving a complex request are not always the same task. Some...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "LauraVerghote"
+    },
+    {
+      "title": "Retirement of Microsoft HPC Pack",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/retirement-of-microsoft-hpc-pack/ba-p/4550183",
+      "published": "2026-11-10T20:15:05+00:00",
+      "summary": "Overview Microsoft HPC Pack is a Windows‑based high‑performance computing (HPC) scheduler that enables customers to deploy, manage, and operate HPC workloads in on‑premises and hybrid environments. Since its original release, HPC Pack has supported a range of Windows‑centric HPC scenarios,...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "XinXin"
+    },
+    {
+      "title": ".NET 11 is now generally available in Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/net-11-is-now-generally-available-in-azure-functions/ba-p/4571176",
+      "published": "2026-11-10T19:58:09+00:00",
+      "summary": "Today, we're announcing general availability of .NET 11 support in Azure Functions through the isolated worker model. You can build new serverless applications with .NET 11 or update your existing isolated worker apps to target the new release. This release also introduces a required project SDK...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "nzthiago"
+    },
+    {
+      "title": "Introducing Kimi K3.1 Pro through Fireworks on Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-kimi-k3-1-pro-through-fireworks-on-microsoft-foundry/ba-p/4571875",
+      "published": "2026-11-10T19:54:36+00:00",
+      "summary": "Kimi K3.1 Pro is now available on Fireworks on Foundry, bringing Moonshot AI's latest K3.1-series model to developers building on Azure. This open-weight, multimodal model features 2.8 trillion total parameters and a 1-million-token context window. Built on Kimi K3, it delivers developer-reported...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Blanca_Li"
+    },
+    {
+      "title": "What’s new in AKS networking: Connectivity, performance, and observability",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-aks-networking-connectivity-performance-and/ba-p/4571806",
+      "published": "2026-11-10T19:06:23+00:00",
+      "summary": "As organizations scale their cloud-native applications, networking requirements continue to evolve. AI and high-performance computing workloads demand high-throughput, low-latency connectivity, applications increasingly span multiple Kubernetes clusters and enterprises need greater control over how...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "SandhyaCastelino"
+    },
+    {
+      "title": "Run on your schedule: App Service plan start/stop now in public preview",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/run-on-your-schedule-app-service-plan-start-stop-now-in-public/ba-p/4566184",
+      "published": "2026-11-10T18:32:36+00:00",
+      "summary": "Start and stop your apps together Managing an environment with multiple apps shouldn't mean stopping and starting each app individually. App Service plan start/stop brings that control to the plan level, letting you manage the apps and deployment slots it hosts together. Today, we're announcing the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
     {
       "title": "Announcing Visual Studio 2026 LTSC 18.11",
       "link": "https://devblogs.microsoft.com/visualstudio/announcing-visual-studio-2026-ltsc-1811/",
@@ -10,6 +136,33 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Jamshed Damkewala"
+    },
+    {
+      "title": "Accelerating AI Data Processing, HPC, and Agentic Workloads with Azure HDv2 Virtual Machines",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/accelerating-ai-data-processing-hpc-and-agentic-workloads-with/ba-p/4567877",
+      "published": "2026-11-10T16:25:29+00:00",
+      "summary": "Advancing model intelligence starts with training, and training starts with data. Before GPU supercomputers can train a model, enormous fleets of CPUs must collect, clean, filter, and format that data. If CPUs fall behind, expensive GPU capacity becomes underutilized and delays the delivery of...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "jvenkatesh"
+    },
+    {
+      "title": "Azure Container Linux (ACL): making immutable infrastructure practical at scale",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/azure-container-linux-acl-making-immutable-infrastructure/ba-p/4571187",
+      "published": "2026-11-10T15:13:02+00:00",
+      "summary": "Where we left off… At Microsoft //Build 2026, we introduced Azure Container Linux (ACL) , an immutable, container-optimized OS for Azure Kubernetes Service (AKS) bringing greater consistency, reduced operational overhead, and a stronger default security posture to your nodes. Since GA, we’ve...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "FloraTaagen"
+    },
+    {
+      "title": "Native real-time multilingual transcription is now generally available, and faster",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/native-real-time-multilingual-transcription-is-now-generally/ba-p/4569665",
+      "published": "2026-11-10T14:00:00+00:00",
+      "summary": "In July, real-time transcription went multilingual for the first time. multilingual post-stream refinement entered public preview, so a single live session could recognize multiple languages, including switches mid-conversation, without knowing the language in advance. Today, multilingual...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "JanGoergen"
     },
     {
       "title": "Azure Local: 10 mistakes that can derail your deployment before it starts",
@@ -48,6 +201,24 @@
       "author": "Joe Filcik"
     },
     {
+      "title": "Foundry Toolbox Lifecycle: Deploy and Promote",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-toolbox-lifecycle-deploy-and-promote/ba-p/4570665",
+      "published": "2026-11-09T20:00:00+00:00",
+      "summary": "Foundry Toolbox Lifecycle: Deploy and Promote For developers looking to manage Microsoft Foundry tools across agents, this article presents one recommended pattern: define each Toolbox in its own azure.yaml , deploy it separately from project infrastructure and agents, and pass environment-specific...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "j_folberth"
+    },
+    {
+      "title": "Claude Fable 5.2 and Mythos 5.2 bring frontier intelligence to Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/claude-fable-5-2-and-mythos-5-2-bring-frontier-intelligence-to/ba-p/4564282",
+      "published": "2026-11-09T19:15:12+00:00",
+      "summary": "We're introducing Claude Fable 5.2, Claude Fable 5.2 Fast, Claude Mythos 5.2, Claude Mythos 5.2 in Microsoft Foundry, expanding what teams can tackle with AI across software engineering, scientific research, and finance. These are fields where the hardest work starts with an open question. An...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "amar_badal"
+    },
+    {
       "title": "Granular control with scoped enforcement actions in Azure Policy for AKS",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/granular-control-with-scoped-enforcement-actions-in-azure-policy/ba-p/4571773",
       "published": "2026-11-09T18:34:10+00:00",
@@ -64,6 +235,15 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "JanGoergen"
+    },
+    {
+      "title": "Do AI coding agents care about SemVer?",
+      "link": "https://devblogs.microsoft.com/blog/do-ai-coding-agents-care-about-semver/",
+      "published": "2026-11-09T16:01:03+00:00",
+      "summary": "We gave AI coding agents the same breaking upgrade twice. Labeled 2.0.0, Claude Sonnet 5.5 checked it in all 10 runs. Labeled 1.4.3, it checked in two and often left the app broken. Nearly 1,000 runs show which agents still read your version numbers, and what a patch label talks them out of.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "Azure Arc at Microsoft Ignite 2026: Sessions, hands-on labs, and ways to connect",
@@ -145,15 +325,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "Jiri Binko"
-    },
-    {
-      "title": "Logic Apps Standard custom code now supports .NET 10",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
-      "published": "2026-11-07T00:59:02+00:00",
-      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
     },
     {
       "title": "Announcing Live Migration for Confidential Computing",
@@ -271,6 +442,15 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "samimodak"
+    },
+    {
+      "title": "Your best AX fixes are hiding in agent trajectories",
+      "link": "https://devblogs.microsoft.com/blog/your-best-ax-fixes-are-hiding-in-agent-trajectories/",
+      "published": "2026-11-05T15:40:49+00:00",
+      "summary": "All five agent runs produced a working script, and nothing in the eval score looked wrong. The trajectories told a different story. Every run read a DLL as raw bytes to find plugin names, and three scripts would quietly reroute a CI runner's network traffic. Here are the patterns to look for in...",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "October 2026 Node.js vulnerabilities: Azure DevOps security guidance",
@@ -570,24 +750,6 @@
       "author": "ibrahimbaig"
     },
     {
-      "title": "Qwen3.8-27B on a $2 H100 Azure Spot VM: does it pay off?",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-2-h100-azure-spot-vm-does-it-pay-off/ba-p/4563387",
-      "published": "2026-10-31T06:03:11+00:00",
-      "summary": "For three hours on the morning of October 9, a single H100 in Azure served 1,434 requests to Qwen3.8-27B: 168.7 million input tokens in, 1.27 million output tokens out. At a public list price for this model that day ($0.425 per million input tokens, $0.085 per million cached input tokens and $2.55...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng"
-    },
-    {
-      "title": "Qwen3.8-Flash-Next on two H100s in an Azure Spot VM",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-flash-next-on-two-h100s-in-an-azure-spot-vm/ba-p/4563893",
-      "published": "2026-10-31T06:03:06+00:00",
-      "summary": "With 150,000 tokens of context, one request to Qwen3.8-Flash-Next decoded at about 200 tokens a second, and its first token arrived in under a second, because 95% of the prompt came from the cache. That held while the agents kept up to five requests running at once. At seven, one request in twenty...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng"
-    },
-    {
       "title": "Qwen3.8-27B on a Lenovo laptop: run it on RTX Spark, watch it in Azure Monitor",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/qwen3-8-27b-on-a-lenovo-laptop-run-it-on-rtx-spark-watch-it-in/ba-p/4567828",
       "published": "2026-10-31T04:56:48+00:00",
@@ -676,6 +838,15 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "hieunhu"
+    },
+    {
+      "title": "Does ‘eval’ in the workspace path change what your agent does?",
+      "link": "https://devblogs.microsoft.com/blog/does-eval-in-the-workspace-path-change-what-your-agent-does/",
+      "published": "2026-10-30T12:49:14+00:00",
+      "summary": "Your eval might be telling the agent it’s a test before the agent reads a single instruction. Eval tools need a fresh folder for every run, and the easiest way to get one is a temp directory with a random name like /tmp/eval-7f3a2c. The agent sees that path on every turn, in the system prompt […]",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
     },
     {
       "title": "Hybrid Logic Apps - SQL as storage provider benchmarking",
@@ -849,15 +1020,6 @@
       "author": "Mark Downie"
     },
     {
-      "title": "MAI-Image-2.6 and MAI-Image-2.6-Flash are now generally available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mai-image-2-6-and-mai-image-2-6-flash-are-now-generally/ba-p/4566327",
-      "published": "2026-10-27T15:00:00+00:00",
-      "summary": "From creative exploration to enterprise workflows Creating a compelling image is one step. Making image generation useful across a business means giving teams the control to refine an idea, adapt it for different audiences, and keep moving when the work scales. MAI-Image-2.6 and MAI-Image-2.6-Flash...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "alexanderhughes"
-    },
-    {
       "title": "Inspecting Local Data with Azure Cosmos DB Shell",
       "link": "https://devblogs.microsoft.com/cosmosdb/inspecting-local-data-with-azure-cosmos-db-shell/",
       "published": "2026-10-27T13:31:06+00:00",
@@ -885,24 +1047,6 @@
       "author": "saikishor"
     },
     {
-      "title": "Remember, Retrieve, Revalidate-or Forget? Architecting Memory for Production AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/remember-retrieve-revalidate-or-forget-architecting-memory-for/ba-p/4564392",
-      "published": "2026-10-26T19:00:00+00:00",
-      "summary": "An implementation architecture: who decides, which component executes, where the data lives, what source is authoritative, and how each operation fails-traced end to end for Remember, Retrieve, Revalidate, and Forget. A memory‑aware agent is not a cleverer prompt or a bigger vector store. Remember,...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "shrutikakade"
-    },
-    {
-      "title": "GPT-6.1 Terra now generally available in Microsoft Foundry: build agents that see and act",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-6-1-terra-now-generally-available-in-microsoft-foundry-build/ba-p/4567769",
-      "published": "2026-10-26T18:31:26+00:00",
-      "summary": "AI agents that read dense charts, navigate desktop apps, and process scanned documents are only as capable as the model behind them. OpenAI’s GPT-6.1 Terra, now generally available in Microsoft Foundry, delivers significant gains in visual reasoning and computer-use speed, so the apps and agents...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
-    },
-    {
       "title": "Announcing Azure AI Speech LLM 09-2026: Broader locale support",
       "link": "https://devblogs.microsoft.com/foundry/announcing-azure-ai-speech-llm-09-2026/",
       "published": "2026-10-26T17:10:00+00:00",
@@ -910,15 +1054,6 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Rena Liu"
-    },
-    {
-      "title": "Global enterprise multi-agent systems in production: Design and security (Part 1)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/global-enterprise-multi-agent-systems-in-production-design-and/ba-p/4564913",
-      "published": "2026-10-26T16:00:00+00:00",
-      "summary": "The work behind this series began with customers while hosted agents in Microsoft Foundry were still in private preview. Customers adopted the service because it took the platform work off their plates: running, scaling, open ecosystem and versioning agents, each with its own identity and built-in...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "dhangerkapil"
     },
     {
       "title": "Bringing AI-Powered SRE to Your On-Premise Server Estate For Unifying Ops",
@@ -937,15 +1072,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Cynthia Zanoni"
-    },
-    {
-      "title": "From fine-tuning to shared serving: Multi-LoRA deployment on Foundry Managed Compute",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-fine-tuning-to-shared-serving-multi-lora-deployment-on/ba-p/4565959",
-      "published": "2026-10-26T15:00:00+00:00",
-      "summary": "We're introducing Multi-LoRA adapter deployment on Managed Compute in Microsoft Foundry, now in preview. Multi-LoRA lets you deploy multiple compatible fine-tuned LoRA adapters on a shared base-model deployment, so you can serve specialized model experiences without provisioning separate compute...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "GulsimoOsimi"
     },
     {
       "title": "PHP2Shell and Azure DevOps: what to check",
@@ -1506,15 +1632,6 @@
       "author": "HilaryWang"
     },
     {
-      "title": "Stop waiting on a failed build",
-      "link": "https://devblogs.microsoft.com/visualstudio/stop-waiting-on-a-failed-build/",
-      "published": "2026-10-15T14:00:50+00:00",
-      "summary": "Stop solution builds after the first project failure so you can return to fixing the error sooner. The post Stop waiting on a failed build appeared first on Visual Studio Blog.",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Mads Kristensen"
-    },
-    {
       "title": "AI Agents: Meet the Azure Cosmos DB vNext Emulator",
       "link": "https://devblogs.microsoft.com/cosmosdb/ai-agents-meet-the-azure-cosmos-db-vnext-emulator/",
       "published": "2026-10-15T13:38:16+00:00",
@@ -1585,15 +1702,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "mariozeng"
-    },
-    {
-      "title": "Bring Azure SRE Agent into your developer workflow with the new canvas",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/bring-azure-sre-agent-into-your-developer-workflow-with-the-new/ba-p/4564514",
-      "published": "2026-10-14T16:35:26+00:00",
-      "summary": "You’re on call. A customer-reported incident lands, Azure SRE Agent picks it up from your incident management system, investigates, and gives you a starting diagnosis. If you’re like me, you want to check that diagnosis yourself, and you want to do it where you already work: in GitHub Copilot, with...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "paulyuk"
     },
     {
       "title": "From extraction to action: Using grounding and confidence to build reliable document workflows",
@@ -1675,15 +1783,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "TysonPaul"
-    },
-    {
-      "title": "Azure Content Understanding Prebuilt Analyzers: packaging domain knowledge for document AI",
-      "link": "https://devblogs.microsoft.com/foundry/more-than-a-schema-content-understanding-prebuilt-analyzers/",
-      "published": "2026-10-13T14:20:35+00:00",
-      "summary": "Learn how Azure Content Understanding prebuilt analyzers combine domain knowledge with grounding and confidence, and what Advanced Contextualization preview benchmarks show about quality, modeled cost, and latency. The post Azure Content Understanding Prebuilt Analyzers: packaging domain knowledge...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Chu Lahlou"
     },
     {
       "title": "Locking down PAWs internet access when GSA drops",
