@@ -1,5 +1,5 @@
 ============================================================
-ROTEIRO - AZURE NEWS DIÁRIO - 11/11/2026
+ROTEIRO - AZURE NEWS DIÁRIO - 12/11/2026
 ============================================================
 
 [ABERTURA]
@@ -7,80 +7,34 @@ ROTEIRO - AZURE NEWS DIÁRIO - 11/11/2026
 E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
-Hoje é dia 11/11/2026.
-Temos 12 atualizações para cobrir.
+Hoje é dia 12/11/2026.
+Temos 13 atualizações para cobrir.
 Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure Infrastructure]
+[BLOCO: Azure Networking]
 
-  ► Deploying an AI Application on Azure Container Apps
-    AI applications often start as prototypes running locally on a developer’s machine. A Streamlit application may work perfectly in a development enviro
-    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-an-ai-application-on-azure-container-apps/ba-p/4572612
+  ► What’s new in AKS networking: Connectivity, performance, and observability
+    As organizations scale their cloud-native applications, networking requirements continue to evolve. AI and high-performance computing workloads demand
+    Link: https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-aks-networking-connectivity-performance-and/ba-p/4571806
 
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Microsoft Foundry Blog]
-
-  ► Content Understanding adds GPT-5.6, GPT-6, and GPT-6.1: Choose the right model for your workload
-    Azure Content Understanding now supports the GPT-5.6, GPT-6, and GPT-6.1 model families, giving you more choices for document, text, speech, and video
-    Link: https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Visual Studio Blog]
-
-  ► Bring Your Own Model is now generally available in Visual Studio
-    Whether your team hosts its own AI models, you have an API key from a model provider, or you want to experiment with a model running on your machine, 
-    Link: https://devblogs.microsoft.com/visualstudio/bring-your-own-model-is-now-generally-available-in-visual-studio/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Storage]
-
-  ► Azure NetApp Files: The Data Backbone for NVIDIA AI Model Training, Inference, and Microsoft Foundry
-    Table of Contents Introduction Data Mobility Before Compute and AI Azure NetApp Files: Your Data Gateway to Advanced AI Services in Azure Where Azure 
-    Link: https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-netapp-files-the-data-backbone-for-nvidia-ai-model/ba-p/4571839
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Dev Community]
-
-  ► Engineering an Agentic Scheduler
-    Authors: Gabriel Sze and Weixian Zhang 1. Engineering an Agentic Scheduler Scheduling looks deceptively simple until multiple constraints, shared reso
-    Link: https://techcommunity.microsoft.com/t5/microsoft-developer-community/engineering-an-agentic-scheduler/ba-p/4564637
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Integrations on Azure]
-
-  ► Logic Apps Standard custom code now supports .NET 10
-    The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-f
-    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Apps on Azure]
-
-  ► Introducing Azure Monitor dashboards with Grafana MCP: Telemetry for AI Agents, Signed In as You
-    We're introducing the Azure Monitor dashboards with Grafana remote MCP server, a global Model Context Protocol (MCP) endpoint at https://mcp.dashboard
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-monitor-dashboards-with-grafana-mcp-telemetry/ba-p/4572228
-
-  ► .NET 11 is now generally available in Azure Functions
-    Today, we're announcing general availability of .NET 11 support in Azure Functions through the isolated worker model. You can build new serverless app
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/net-11-is-now-generally-available-in-azure-functions/ba-p/4571176
+  ► Redefining Application Load Balancing in Azure Application Gateway
+    By Jay Soni (Senior Product Manager) and Jordi Rey (Product Manager), Azure Application Gateway Modern applications change quickly. Teams run A/B expe
+    Link: https://techcommunity.microsoft.com/t5/azure-networking-blog/redefining-application-load-balancing-in-azure-application/ba-p/4572687
 
 [PAUSA]
 
 ----------------------------------------
 [BLOCO: Azure Arc]
+
+  ► Azure Arc at Microsoft Ignite 2026: Sessions, hands-on labs, and ways to connect
+    Microsoft Ignite 2026 is almost here! Join us November 17–20 in San Francisco or online to explore the latest innovations across Microsoft. As organiz
+    Link: https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-arc-at-microsoft-ignite-2026-sessions-hands-on-labs-and/ba-p/4571203
+
+  ► Azure Local security: closing the industry standards gap and improving enterprise adoption
+    Starting with Azure Local, version 2610, you can change a single security setting, keep drift control switched on, and keep your value through solutio
+    Link: https://techcommunity.microsoft.com/t5/azure-arc-blog/azure-local-security-closing-the-industry-standards-gap-and/ba-p/4572215
 
   ► Building a Trusted Ecosystem for Sovereign Private Cloud: Azure Local validated partner solutions
     When organizations move critical workloads to Azure Local, the first question usually isn't about the platform. It's about everything that runs on and
@@ -89,24 +43,69 @@ Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure AI Foundry]
+[BLOCO: Azure Infrastructure]
 
-  ► Build a dual-mode voice agent in Microsoft Foundry with native subagents
-    Voice agents are changing how companies interact with customers. From service questions to technical support, the expectation is the same: a natural c
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-a-dual-mode-voice-agent-in-microsoft-foundry-with-native/ba-p/4570650
-
-  ► Introducing Kimi K3.1 Pro through Fireworks on Microsoft Foundry
-    Kimi K3.1 Pro is now available on Fireworks on Foundry, bringing Moonshot AI's latest K3.1-series model to developers building on Azure. This open-wei
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/introducing-kimi-k3-1-pro-through-fireworks-on-microsoft-foundry/ba-p/4571875
+  ► Join Intel and Microsoft at Ignite 2026
+    At Microsoft Ignite 2026, Intel and Microsoft are coming together to showcase ideas, experts, and real-world impact. Join us to connect with industry 
+    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/join-intel-and-microsoft-at-ignite-2026/ba-p/4571739
 
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: High Performance Computing]
+[BLOCO: Visual Studio Blog]
 
-  ► Retirement of Microsoft HPC Pack
-    Overview Microsoft HPC Pack is a Windows‑based high‑performance computing (HPC) scheduler that enables customers to deploy, manage, and operate HPC wo
-    Link: https://techcommunity.microsoft.com/t5/azure-high-performance-computing/retirement-of-microsoft-hpc-pack/ba-p/4550183
+  ► Build better applications with Bold BI, a Visual Studio subscriber benefit from Syncfusion
+    I was talking with a developer recently about a project his team was working on. They’d built an application, connected their data sources, and had ev
+    Link: https://devblogs.microsoft.com/visualstudio/build-better-applications-with-bold-bi-a-visual-studio-subscriber-benefit-from-syncfusion/
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Apps on Azure]
+
+  ► Introducing Azure Container Apps as a target workload in Azure Migrate
+    We are excited to announce Azure Container Apps as a target workload for assessment in Azure Migrate, helping organizations evaluate existing web appl
+    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-as-a-target-workload-in-azure/ba-p/4571669
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: FinOps]
+
+  ► What's new in FinOps toolkit 15 – October 2026
+    Most of us already keep an AI assistant open all day. It writes, summarizes, and answers questions, so why shouldn't it help you understand and optimi
+    Link: https://techcommunity.microsoft.com/t5/finops-blog/what-s-new-in-finops-toolkit-15-october-2026/ba-p/4571153
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure AI Foundry]
+
+  ► Mistral Large 4 in Microsoft Foundry: Build sovereign AI within a consistent platform experience
+    What's launching Leading AI delivers more than model quality. For governments, critical infrastructure operators, financial institutions, healthcare o
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mistral-large-4-in-microsoft-foundry-build-sovereign-ai-within-a/ba-p/4568546
+
+  ► Best practices for building agentic AI applications with Foundry Agent Service
+    This blog was co-authored by Maira Ladeira Tanke, Mark Roy and Vivek Bhadauria Building an agent has become surprisingly easy. Building an agentic app
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/best-practices-for-building-agentic-ai-applications-with-foundry/ba-p/4571094
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Confidential Computing]
+
+  ► Extending confidential computing protection to your data disks
+    Confidential Data Disk Encryption brings guest-side encryption and attestation-based key release to attached data disks on Azure confidential VMs. Sen
+    Link: https://techcommunity.microsoft.com/t5/azure-confidential-computing/extending-confidential-computing-protection-to-your-data-disks/ba-p/4572620
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure SQL Dev Corner]
+
+  ► Resources for the SQL AI Developer
+    I see three agentic stories shaping SQL’s future. Here’s how DP-800 connects the pieces and helps you build the skills to put SQL’s AI capabilities to
+    Link: https://devblogs.microsoft.com/azure-sql/dp-800-sql-ai-certification/
 
 [PAUSA]
 
