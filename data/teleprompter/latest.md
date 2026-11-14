@@ -1,5 +1,5 @@
 ============================================================
-ROTEIRO - AZURE NEWS DIÁRIO - 13/11/2026
+ROTEIRO - AZURE NEWS DIÁRIO - 14/11/2026
 ============================================================
 
 [ABERTURA]
@@ -7,52 +7,26 @@ ROTEIRO - AZURE NEWS DIÁRIO - 13/11/2026
 E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
-Hoje é dia 13/11/2026.
-Temos 6 atualizações para cobrir.
+Hoje é dia 14/11/2026.
+Temos 2 atualizações para cobrir.
 Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: High Performance Computing]
+[BLOCO: Analytics on Azure]
 
-  ► From Silicon to Service: Bringing AMD Helios™ to Azure
-    Article contributed by: Yash Bhamare and Anna Daly Azure’s ND MI455X v7 brings a rack-scale approach to AI inference, powered by AMD Helios. Each liqu
-    Link: https://techcommunity.microsoft.com/t5/azure-high-performance-computing/from-silicon-to-service-bringing-amd-helios-to-azure/ba-p/4573029
-
-  ► Azure VMs deliver inference performance in line with industry benchmarks
-    Article contributed by: Dilip Patlolla, Wenqing Lan, Mingfeng Yang, Ali Vaziri, Aishwarya Prasad Tonpe, Huseyin Yildiz, Anshul Jain and Aditya Bhamidi
-    Link: https://techcommunity.microsoft.com/t5/azure-high-performance-computing/azure-vms-deliver-inference-performance-in-line-with-industry/ba-p/4573039
+  ► From Purview Data Governance to the Fabric OneLake Catalog
+    What is changing, What is available today, and How to transition without losing GOVERNANCE outcomes! Microsoft's data governance story is moving close
+    Link: https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-purview-data-governance-to-the-fabric-onelake-catalog/ba-p/4573422
 
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure Infrastructure]
+[BLOCO: Azure Virtual Desktop]
 
-  ► Visit Azure and AMD at Microsoft Ignite and SC26
-    AI workloads place different demands on infrastructure. Azure is continuing to partner closely with silicon partners including AMD to expand infrastru
-    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/visit-azure-and-amd-at-microsoft-ignite-and-sc26/ba-p/4570345
-
-  ► Join NVIDIA and Microsoft at Ignite 2026
-    Microsoft Ignite will run November 17 to 20 at Moscone Center in San Francisco and online (register for in-person or online attendance access here). M
-    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/join-nvidia-and-microsoft-at-ignite-2026/ba-p/4573012
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: All Things Azure]
-
-  ► Bring Your Expertise to Git-Ape
-    The new Community Skills Feature. Bring Your Expertise to Git-Ape Git-Ape’s community skills open the framework to the people who know the work best. 
-    Link: https://devblogs.microsoft.com/all-things-azure/bring-your-expertise-to-git-ape-the-platform-engineering-framework/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Networking]
-
-  ► What’s new in AKS networking: Connectivity, performance, and observability
-    As organizations scale their cloud-native applications, networking requirements continue to evolve. AI and high-performance computing workloads demand
-    Link: https://techcommunity.microsoft.com/t5/azure-networking-blog/what-s-new-in-aks-networking-connectivity-performance-and/ba-p/4571806
+  ► Now generally available: Regional resiliency for Azure Virtual Desktop
+    Editor’s note (November 2026): This post has been updated to reflect expanded regional availability for Azure Virtual Desktop Regional host pools, cha
+    Link: https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-generally-available-regional-resiliency-for-azure-virtual/ba-p/4540458
 
 [PAUSA]
 

@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-13T19:12:46.062903+00:00",
-  "totalArticles": 203,
+  "lastUpdated": "2026-11-14T17:40:06.847949+00:00",
+  "totalArticles": 199,
   "articles": [
+    {
+      "title": "From Purview Data Governance to the Fabric OneLake Catalog",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-purview-data-governance-to-the-fabric-onelake-catalog/ba-p/4573422",
+      "published": "2026-11-14T04:13:46+00:00",
+      "summary": "What is changing, What is available today, and How to transition without losing GOVERNANCE outcomes! Microsoft's data governance story is moving closer to the data. In Microsoft Fabric, the OneLake catalog is now the primary experience for discovering and governing Fabric data, while Microsoft...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Now generally available: Regional resiliency for Azure Virtual Desktop",
+      "link": "https://techcommunity.microsoft.com/t5/azure-virtual-desktop-blog/now-generally-available-regional-resiliency-for-azure-virtual/ba-p/4540458",
+      "published": "2026-11-13T21:05:09+00:00",
+      "summary": "Editor’s note (November 2026): This post has been updated to reflect expanded regional availability for Azure Virtual Desktop Regional host pools, changes to the deployment scope experience in the Azure portal, and future plans to deprecate the creation of new Geographical host pools. Existing host...",
+      "blog": "Azure Virtual Desktop",
+      "blogId": "azurevirtualdesktopblog",
+      "author": "Vidya_Iyer"
+    },
     {
       "title": "From Silicon to Service: Bringing AMD Helios™ to Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/from-silicon-to-service-bringing-amd-helios-to-azure/ba-p/4573029",
@@ -100,15 +118,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "James Rempt"
-    },
-    {
-      "title": "Redefining Application Load Balancing in Azure Application Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/redefining-application-load-balancing-in-azure-application/ba-p/4572687",
-      "published": "2026-11-12T07:29:59+00:00",
-      "summary": "By Jay Soni (Senior Product Manager) and Jordi Rey (Product Manager), Azure Application Gateway Modern applications change quickly. Teams run A/B experiments, version their APIs, tailor experiences by client and tenant, and serve AI models across reserved and pay-as-you-go capacity. Azure...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "vnamani"
     },
     {
       "title": "Introducing Azure Container Apps as a target workload in Azure Migrate",
@@ -1783,51 +1792,6 @@
       "blog": "Azure Compute",
       "blogId": "azurecompute",
       "author": "HilaryWang"
-    },
-    {
-      "title": "AI Agents: Meet the Azure Cosmos DB vNext Emulator",
-      "link": "https://devblogs.microsoft.com/cosmosdb/ai-agents-meet-the-azure-cosmos-db-vnext-emulator/",
-      "published": "2026-10-15T13:38:16+00:00",
-      "summary": "Over a typical 2 day window, we record 10 times as many emulator sessions lasting more than 30 minutes for vNext as for the legacy emulator. Our bet is that agentic development is helping drive the difference! The appeal is straightforward: coding agents need a database they can run anywhere. They...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Theo van Kraay"
-    },
-    {
-      "title": "From Chat to Decisions: Bringing SLMs into Application Logic with Microsoft Olive and ONNX",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-chat-to-decisions-bringing-slms-into-application-logic-with/ba-p/4559310",
-      "published": "2026-10-15T11:08:04+00:00",
-      "summary": "1. Why Jev Matters: Accelerating the Next Action, Not Just the Next Reply Let us return to the automated ordering scenario we have been exploring. A customer says, “I’ll have a combo, but make the drink not too sweet.” A conversational model can produce a friendly response. For the ordering...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "kinfey"
-    },
-    {
-      "title": "Canada’s 2026 time zone updates: guidance for Microsoft SQL",
-      "link": "https://devblogs.microsoft.com/azure-sql/canadas-2026-time-zone-updates-guidance-for-microsoft-sql/",
-      "published": "2026-10-15T05:21:10+00:00",
-      "summary": "Affected locations in British Columbia, Alberta, and Manitoba will not turn their clocks back at 02:00 local time on November 1, 2026. They will remain at UTC−07:00, UTC−06:00, and UTC−05:00, respectively. Microsoft’s interim guidance for British Columbia, Alberta, and Manitoba describes the new...",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Umachandar Jayachandran (UC)"
-    },
-    {
-      "title": "End of Lifecycle for Windows Server 2012 and 2012 R2",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/end-of-lifecycle-for-windows-server-2012-and-2012-r2/ba-p/4564611",
-      "published": "2026-10-15T00:20:15+00:00",
-      "summary": "On October 13, 2026, the Extended Security Updates (ESU) program for Windows Server 2012 and Windows Server 2012 R2 ended. This closes the three-year extended coverage period that began when these operating systems reached end of support in October 2023. After today, Microsoft will no longer...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Meagan McCrory"
-    },
-    {
-      "title": "Azure MCP Server 3.0 stable release: More tools. More possibilities",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-mcp-server-3-0-stable-release/",
-      "published": "2026-10-14T20:35:34+00:00",
-      "summary": "Explore the new Azure MCP Server 3.0 stable release, with AI agent tools for Terraform, backup, recovery, and troubleshooting, plus stronger security defaults. The post Azure MCP Server 3.0 stable release: More tools. More possibilities appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Sandeep Sen"
     }
   ]
 }
