@@ -1,7 +1,34 @@
 {
-  "lastUpdated": "2026-11-14T17:40:06.847949+00:00",
-  "totalArticles": 199,
+  "lastUpdated": "2026-11-15T18:29:33.905679+00:00",
+  "totalArticles": 196,
   "articles": [
+    {
+      "title": "Deploying an AI Application on Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-an-ai-application-on-azure-container-apps/ba-p/4572612",
+      "published": "2026-11-15T09:51:38+00:00",
+      "summary": "AI applications often start as prototypes running locally on a developer’s machine. A Streamlit application may work perfectly in a development environment, but making it accessible to users introduces a different set of infrastructure and operational considerations. From an infrastructure...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Devi_Priya"
+    },
+    {
+      "title": "Your guide to FinOps for AI at Microsoft Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/your-guide-to-finops-for-ai-at-microsoft-ignite-2026/ba-p/4569117",
+      "published": "2026-11-14T19:38:07+00:00",
+      "summary": "AI has moved from pilots to production, and the questions have changed with it. It is no longer enough to know what AI costs. Leaders want to know whether spend is predictable, who is driving it, and which investments are delivering real business value. That is the job of FinOps for AI: bringing...",
+      "blog": "FinOps",
+      "blogId": "finopsblog",
+      "author": "Fernando_Vasconcellos"
+    },
+    {
+      "title": "Migrating an Entra Connect Sync custom source anchor",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/migrating-an-entra-connect-sync-custom-source-anchor/ba-p/4573237",
+      "published": "2026-11-14T14:17:03+00:00",
+      "summary": "Hello everyone, this is David Loder again, with a topic from a recent customer interaction that was a repeat of a topic I’ve seen several times over the years. That’s my cue to write a blog. This is for the customers who were trying to be consistent with their data governance but ended up making...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "dloder"
+    },
     {
       "title": "From Purview Data Governance to the Fabric OneLake Catalog",
       "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-purview-data-governance-to-the-fabric-onelake-catalog/ba-p/4573422",
@@ -21,6 +48,42 @@
       "author": "Vidya_Iyer"
     },
     {
+      "title": "Run on your schedule: App Service plan start/stop now in public preview",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/run-on-your-schedule-app-service-plan-start-stop-now-in-public/ba-p/4566184",
+      "published": "2026-11-13T20:42:33+00:00",
+      "summary": "Start and stop your apps together Managing an environment with multiple apps shouldn't mean stopping and starting each app individually. App Service plan start/stop brings that control to the plan level, letting you manage the apps and deployment slots it hosts together. Today, we're announcing the...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "jordanselig"
+    },
+    {
+      "title": "Migrate NuGet-based Logic Apps Standard apps and custom built-in connectors to .NET 10",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-nuget-based-logic-apps-standard-apps-and-custom-built-in/ba-p/4573057",
+      "published": "2026-11-13T20:00:24+00:00",
+      "summary": "Less than you might fear. You don't change a line of C#, and you don't touch your workflow definitions. The work is retargeting your projects, resolving a couple of dependency conflicts, running the right host locally, and changing a handful of app settings in Azure. Those last two are where people...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
+    },
+    {
+      "title": "Introducing Azure Container Apps Sandboxes in Visual Studio Code",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-container-apps-sandboxes-in-visual-studio-code/ba-p/4573296",
+      "published": "2026-11-13T19:44:47+00:00",
+      "summary": "We're introducing support for Azure Container Apps Sandboxes in the Azure Container Apps extension for Visual Studio Code. The new experience brings sandbox groups and individual sandboxes into the Azure Resources view, putting everyday sandbox operations alongside your development workflow....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "fiveisprime"
+    },
+    {
+      "title": "What’s new in the Azure Resource Manager MCP server at Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/what-s-new-in-the-azure-resource-manager-mcp-server-at-ignite/ba-p/4571824",
+      "published": "2026-11-13T18:30:14+00:00",
+      "summary": "What’s new since launch At Ignite, we’re announcing a major expansion of the Azure Resource Manager (ARM) MCP server. The initial release (read the blog post here!) introduced the foundation for MCP-based Azure control-plane interaction. This next phase is about operational depth: richer write and...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher"
+    },
+    {
       "title": "From Silicon to Service: Bringing AMD Helios™ to Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/from-silicon-to-service-bringing-amd-helios-to-azure/ba-p/4573029",
       "published": "2026-11-13T17:00:00+00:00",
@@ -28,6 +91,15 @@
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
       "author": "anhoward"
+    },
+    {
+      "title": "Capping tempdb in SQL Server 2025: Resource Governor in Standard Edition",
+      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/capping-tempdb-in-sql-server-2025-resource-governor-in-standard/ba-p/4573219",
+      "published": "2026-11-13T15:03:46+00:00",
+      "summary": "The situation is familiar. One query spills to disk, tempdb grows until the volume fills and every other session on the instance starts failing. The engine has a lever for this since 2008: Resource Governor But for years years it was only available in Enterprise edition. If you were running...",
+      "blog": "Core Infrastructure & Security",
+      "blogId": "coreinfrastructureandsecurityblog",
+      "author": "RyadB"
     },
     {
       "title": "Azure VMs deliver inference performance in line with industry benchmarks",
@@ -183,15 +255,6 @@
       "author": "jevontan"
     },
     {
-      "title": "Deploying an AI Application on Azure Container Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-an-ai-application-on-azure-container-apps/ba-p/4572612",
-      "published": "2026-11-11T19:12:23+00:00",
-      "summary": "AI applications often start as prototypes running locally on a developer’s machine. A Streamlit application may work perfectly in a development environment, but making it accessible to users introduces a different set of infrastructure and operational considerations. From an infrastructure...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Devi_Priya"
-    },
-    {
       "title": "Content Understanding adds GPT-6.1, 6, and 5.6: Choose the right model for your workload",
       "link": "https://devblogs.microsoft.com/foundry/content-understanding-adds-gpt-5-6-gpt-6-and-gpt-6-1-choose-the-right-model-for-your-workload/",
       "published": "2026-11-11T18:24:28+00:00",
@@ -325,15 +388,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "Blanca_Li"
-    },
-    {
-      "title": "Run on your schedule: App Service plan start/stop now in public preview",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/run-on-your-schedule-app-service-plan-start-stop-now-in-public/ba-p/4566184",
-      "published": "2026-11-10T18:32:36+00:00",
-      "summary": "Start and stop your apps together Managing an environment with multiple apps shouldn't mean stopping and starting each app individually. App Service plan start/stop brings that control to the plan level, letting you manage the apps and deployment slots it hosts together. Today, we're announcing the...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "jordanselig"
     },
     {
       "title": "Announcing Visual Studio 2026 LTSC 18.11",
@@ -739,15 +793,6 @@
       "blog": "Azure Network Security",
       "blogId": "azurenetworksecurityblog",
       "author": "saikishor"
-    },
-    {
-      "title": "Your guide to FinOps for AI at Microsoft Ignite 2026",
-      "link": "https://techcommunity.microsoft.com/t5/finops-blog/your-guide-to-finops-for-ai-at-microsoft-ignite-2026/ba-p/4569117",
-      "published": "2026-11-04T15:43:50+00:00",
-      "summary": "AI has moved from pilots to production, and the questions have changed with it. It is no longer enough to know what AI costs. Leaders want to know whether spend is predictable, who is driving it, and which investments are delivering real business value. That is the job of FinOps for AI: bringing...",
-      "blog": "FinOps",
-      "blogId": "finopsblog",
-      "author": "Fernando_Vasconcellos"
     },
     {
       "title": "Keep learning, keep building! Make the most of VSLive! with your Visual Studio Subscription",
@@ -1668,15 +1713,6 @@
       "author": "robertocarli"
     },
     {
-      "title": "Making ACR Data Transfer Visible: The Storage Activity Platform Behind GetBlob Metrics",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/making-acr-data-transfer-visible-the-storage-activity-platform/ba-p/4564893",
-      "published": "2026-10-19T17:32:37+00:00",
-      "summary": "Learn More Use Grafana dashboards in Azure Container Registry - Use Grafana dashboards in Azure Container Registry - Azure Container Registry | Microsoft Learn Monitor Azure Container Registry - Monitor Azure Container Registry - Azure Container Registry | Microsoft Learn Introduction Azure...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "brethompson"
-    },
-    {
       "title": "Connect Azure Service Bus to other messaging systems with a JMS bridge",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/connect-azure-service-bus-to-other-messaging-systems-with-a-jms/ba-p/4564885",
       "published": "2026-10-19T17:00:00+00:00",
@@ -1729,69 +1765,6 @@
       "blog": "ITOpsTalk",
       "blogId": "itopstalkblog",
       "author": "OrinThomas"
-    },
-    {
-      "title": "Threat Modeling Azure MCP: Securing AI-Assisted Infrastructure Operations",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/threat-modeling-azure-mcp-securing-ai-assisted-infrastructure/ba-p/4564892",
-      "published": "2026-10-16T15:14:27+00:00",
-      "summary": "An engineer opens an Azure incident and asks an AI assistant: \"Why is this application slow?\" The assistant queries Azure Monitor, reviews Log Analytics results, inspects an App Service configuration, and compares the affected resource with a healthy deployment. The investigation that once required...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "abhilashasr"
-    },
-    {
-      "title": "SQL developer tools at SQL Modernization Day",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/sql-developer-tools-at-sql-modernization-day/ba-p/4562634",
-      "published": "2026-10-16T07:00:00+00:00",
-      "summary": "SQL developers can now do most of their database work without leaving VS Code. The MSSQL extension ships updates every month, GitHub Copilot understands your schema, and the Microsoft SQL drivers keep pace with SQL Server 2025. And new Microsoft SQL skills, now in public preview, let your coding...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "RicardoDuncan"
-    },
-    {
-      "title": "Migrating Azure Cosmos DB Across Regions",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/migrating-azure-cosmos-db-across-regions/ba-p/4564983",
-      "published": "2026-10-16T04:38:18+00:00",
-      "summary": "What this article delivers? A decision-oriented, implementation-ready walkthrough based on a hands-on Azure Cosmos DB for NoSQL lab. It corrects the online copy sequence, includes the required Azure CLI snippets, and separates migration duration from application cutover downtime. Regional migration...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "Optimizing Oracle-to-Power BI Performance and the Path to Modern Analytics",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/optimizing-oracle-to-power-bi-performance-and-the-path-to-modern/ba-p/4563061",
-      "published": "2026-10-16T04:12:58+00:00",
-      "summary": "Organizations frequently rely on Oracle databases for large-scale operational workloads while using Microsoft Power BI as their enterprise analytics and visualization platform. Although connecting Power BI directly to Oracle is fully supported, performance can become challenging as datasets grow...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
-    },
-    {
-      "title": "What’s new in Microsoft Foundry | September 2026",
-      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-september-2026/",
-      "published": "2026-10-16T02:04:50+00:00",
-      "summary": "Explore September's models, Routines, Tool Search, Model Router, and Insights through one two-agent workflow that turns public releases into a Foundry developer changelog. The post What’s new in Microsoft Foundry | September 2026 appeared first on Microsoft Foundry Blog.",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Nick Brady"
-    },
-    {
-      "title": "Reducing AKS cold starts with Prepared Image Specification",
-      "link": "https://blog.aks.azure.com/2026/10/16/reducing-aks-cold-starts-with-prepared-image-specification",
-      "published": "2026-10-16T00:00:00+00:00",
-      "summary": "Learn how Prepared Image Specification can reduce AKS scale-out latency by preparing container images, models, and host customizations before nodes start.",
-      "blog": "AKS Blog",
-      "blogId": "aksblog",
-      "author": "Microsoft"
-    },
-    {
-      "title": "Generally Available: Automatic Zone Balance for Virtual Machine Scale Sets",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/generally-available-automatic-zone-balance-for-virtual-machine/ba-p/4562654",
-      "published": "2026-10-15T22:38:30+00:00",
-      "summary": "We’re excited to announce the general availability of automatic zone balance for Virtual Machine Scale Sets. Automatic zone balance continuously monitors your scale set and redistributes VM instances across availability zones, reducing the risk that a single-zone failure disproportionately impacts...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "HilaryWang"
     }
   ]
 }
