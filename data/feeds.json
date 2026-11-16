@@ -1,7 +1,115 @@
 {
-  "lastUpdated": "2026-11-15T18:29:33.905679+00:00",
-  "totalArticles": 196,
+  "lastUpdated": "2026-11-16T21:39:18.883497+00:00",
+  "totalArticles": 203,
   "articles": [
+    {
+      "title": "Using AI to help forestry planners prioritise fuel-reduction work",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/using-ai-to-help-forestry-planners-prioritise-fuel-reduction/ba-p/4573152",
+      "published": "2026-11-16T20:54:26+00:00",
+      "summary": "Print / save as PDF Using AI to help forestry planners prioritise fuel-reduction work By Eneko Vallecillo, Principal Solution Engineer, Microsoft UK Forestry companies, including pulp and paper producers, can manage thousands of plantation parcels. EU wildfire-prevention policy promotes reducing...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Enekovb"
+    },
+    {
+      "title": "Lantern: agentic AI for records and provenance on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/lantern-agentic-ai-for-records-and-provenance-on-azure/ba-p/4572947",
+      "published": "2026-11-16T20:53:39+00:00",
+      "summary": "Author: Warren Kahn, Senior Solution Engineer, MicrosoftVersion: 3.5.10, 12 November 2026Written for: Architects and technical leaders at museums, libraries and archives, auction houses, banks, land registries and manufacturers with product passports, and the partners who build for themReading...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "WarrenZA"
+    },
+    {
+      "title": "A year of Azure Deployments: highlights from 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/a-year-of-azure-deployments-highlights-from-2026/ba-p/4571780",
+      "published": "2026-11-16T20:52:58+00:00",
+      "summary": "This year we had a lot of highlights to celebrate - we put out more than ten Bicep releases, What-If for Deployment Stacks went GA, the Bicep MCP server got new tools, and the Azure Verified Modules team joined us. A lot of these features started as GitHub issues, community call questions, or \"why...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "torreyt"
+    },
+    {
+      "title": "Machine Configuration @ Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/machine-configuration-ignite-2026/ba-p/4573872",
+      "published": "2026-11-16T20:52:24+00:00",
+      "summary": "This year at Microsoft Ignite, we are excited to share some big updates to Azure Machine Configuration that will allow you to more efficiently understand and govern your machines in Azure. In this blog, we will share details of the new Machine Configuration hub in Azure Portal and the new features...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "sydneykarimi"
+    },
+    {
+      "title": "Join us in using AI Workflow Preview Feature in Microsoft Planetary Computer Pro",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/join-us-in-using-ai-workflow-preview-feature-in-microsoft/ba-p/4571817",
+      "published": "2026-11-16T18:59:18+00:00",
+      "summary": "The adoption of models continues to grow across industries. As highlighted in a prior blog post, we’ve released a range of geospatial AI models designed to extract valuable insights from satellite imagery. While these models are accessible through Microsoft Foundry, operationalizing these models...",
+      "blog": "Planetary Computer",
+      "blogId": "microsoft-planetary-computer-blog",
+      "author": "nelsontam"
+    },
+    {
+      "title": "Building a Trusted Ecosystem for Sovereign Private Cloud: Azure Local validated partner solutions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/building-a-trusted-ecosystem-for-sovereign-private-cloud-azure/ba-p/4567325",
+      "published": "2026-11-16T17:08:46+00:00",
+      "summary": "When organizations move critical workloads to Azure Local, the first question usually isn't about the platform. It's about everything that runs on and around it: Will my backup tool work? Can my Security Operations Center (SOC) still see the workloads it needs to monitor? Will my identity provider...",
+      "blog": "Azure Arc",
+      "blogId": "azurearcblog",
+      "author": "Bandhan"
+    },
+    {
+      "title": "Engineering an Agentic Scheduler",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/engineering-an-agentic-scheduler/ba-p/4564637",
+      "published": "2026-11-16T15:05:10+00:00",
+      "summary": "Authors: Gabriel Sze and Weixian Zhang 1. Engineering an Agentic Scheduler Moving from low-code to pro-code AI development brings greater flexibility and control, but also raises an important engineering question: how do we give AI the freedom to reason while ensuring its decisions remain reliable,...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "gabrielsze"
+    },
+    {
+      "title": "Unlock multi-region HPC capabilities with Azure CycleCloud",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/unlock-multi-region-hpc-capabilities-with-azure-cyclecloud/ba-p/4573517",
+      "published": "2026-11-16T14:03:28+00:00",
+      "summary": "As HPC workloads grow, organizations need the flexibility to access more compute capacity without adding complexity to how they manage data. Expanding across regions can unlock new resources, but moving data between environments often introduces additional operational overhead. The Azure CycleCloud...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "wolfgangdesalvador"
+    },
+    {
+      "title": "From Purview Data Governance to the Fabric OneLake Catalog",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-purview-data-governance-to-the-fabric-onelake-catalog/ba-p/4573422",
+      "published": "2026-11-16T13:38:38+00:00",
+      "summary": "Paul Singh: PaulSingh and Rafia Aqil: Rafia_Aqil What is changing, What is available today, and How to transition without losing GOVERNANCE outcomes! Microsoft's data governance story is moving closer to the data. In Microsoft Fabric, the OneLake catalog is now the primary experience for...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "Rafia_Aqil"
+    },
+    {
+      "title": "Introducing Azure Durable Task for Pydantic AI agents",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-durable-task-for-pydantic-ai-agents/ba-p/4571024",
+      "published": "2026-11-16T13:00:00+00:00",
+      "summary": "Pydantic AI agents can now use Azure Durable Task Scheduler to preserve progress across worker restarts, recover interrupted runs, and wait for human approval without keeping an activity running. The new Azure Durable Task integration brings durable execution to your existing Pydantic AI agents....",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "tamirdresher"
+    },
+    {
+      "title": "Protecting Microsoft's SAP workload with Microsoft Sentinel for SAP: the RISE with SAP chapter",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/protecting-microsoft-s-sap-workload-with-microsoft-sentinel-for/ba-p/4571716",
+      "published": "2026-11-16T10:04:14+00:00",
+      "summary": "Inside Track | Microsoft Digital When infrastructure operations shift, security visibility must evolve with the operating model Four years ago, we told the story of how Microsoft became Customer Zero for using Microsoft Sentinel as the SIEM for its own SAP estate, pairing a then-new product...",
+      "blog": "Microsoft Sentinel",
+      "blogId": "microsoftsentinelblog",
+      "author": "MartinPankraz"
+    },
+    {
+      "title": "Designing a Reliable AI Workflow on Azure: Production Lessons from Translation Automation",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/designing-a-reliable-ai-workflow-on-azure-production-lessons/ba-p/4571175",
+      "published": "2026-11-16T08:00:00+00:00",
+      "summary": "Many teams can build an AI prototype that works. A trigger arrives, the model produces a plausible response, and the demo ends with the expected file or message. But what happens when that prototype becomes a workflow that other people depend on? Imagine an AI-assisted process that prepares a...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "MinseokSong"
+    },
     {
       "title": "Deploying an AI Application on Azure Container Apps",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/deploying-an-ai-application-on-azure-container-apps/ba-p/4572612",
@@ -28,15 +136,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "dloder"
-    },
-    {
-      "title": "From Purview Data Governance to the Fabric OneLake Catalog",
-      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-purview-data-governance-to-the-fabric-onelake-catalog/ba-p/4573422",
-      "published": "2026-11-14T04:13:46+00:00",
-      "summary": "What is changing, What is available today, and How to transition without losing GOVERNANCE outcomes! Microsoft's data governance story is moving closer to the data. In Microsoft Fabric, the OneLake catalog is now the primary experience for discovering and governing Fabric data, while Microsoft...",
-      "blog": "Analytics on Azure",
-      "blogId": "analyticsonazure",
-      "author": "Rafia_Aqil"
     },
     {
       "title": "Now generally available: Regional resiliency for Azure Virtual Desktop",
@@ -172,15 +271,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "Thomas Wicker"
-    },
-    {
-      "title": "Building a Trusted Ecosystem for Sovereign Private Cloud: Azure Local validated partner solutions",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/building-a-trusted-ecosystem-for-sovereign-private-cloud-azure/ba-p/4567325",
-      "published": "2026-11-12T17:10:16+00:00",
-      "summary": "When organizations move critical workloads to Azure Local, the first question usually isn't about the platform. It's about everything that runs on and around it: Will my backup tool work? Can my Security Operations Center (SOC) still see the workloads it needs to monitor? Will my identity provider...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "Bandhan"
     },
     {
       "title": "Build better applications with Bold BI, a Visual Studio subscriber benefit from Syncfusion",
@@ -325,15 +415,6 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "GeertVanTeylingen"
-    },
-    {
-      "title": "Engineering an Agentic Scheduler",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/engineering-an-agentic-scheduler/ba-p/4564637",
-      "published": "2026-11-11T08:00:00+00:00",
-      "summary": "Authors: Gabriel Sze and Weixian Zhang 1. Engineering an Agentic Scheduler Scheduling looks deceptively simple until multiple constraints, shared resources, and partial commitments start interacting. This post walks through how we built an agentic scheduler that lets an LLM reason about placements...",
-      "blog": "Azure Dev Community",
-      "blogId": "azuredevcommunityblog",
-      "author": "gabrielsze"
     },
     {
       "title": "Logic Apps Standard custom code now supports .NET 10",
@@ -1650,15 +1731,6 @@
       "author": "meenagowdar"
     },
     {
-      "title": "Plan Your Java Upgrade Ahead of Microsoft’s 2027 Support Milestones",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/plan-your-java-upgrade-ahead-of-microsoft-s-2027-support/ba-p/4565984",
-      "published": "2026-10-19T21:34:23+00:00",
-      "summary": "In April 2021, we announced the Microsoft Build of OpenJDK. We were starting with a preview of our Java 11 builds for Windows, Linux, and macOS. Today, if you’re planning a Java upgrade on Azure, you have several generations of that work to build on: 11, 17, 21, and now 25. Java 8 has been part of...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Bruno Borges"
-    },
-    {
       "title": "Secure Sensitive AI on Azure Confidential Computing with NVIDIA and Protopia",
       "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/secure-sensitive-ai-on-azure-confidential-computing-with-nvidia/ba-p/4565932",
       "published": "2026-10-19T19:52:15+00:00",
@@ -1756,15 +1828,6 @@
       "blog": "Azure Dev Community",
       "blogId": "azuredevcommunityblog",
       "author": "bkingms"
-    },
-    {
-      "title": "Troubleshoot Hyper-V guarded fabrics and shielded VMs",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/troubleshoot-hyper-v-guarded-fabrics-and-shielded-vms/ba-p/4565441",
-      "published": "2026-10-17T04:44:13+00:00",
-      "summary": "Use this FAQ when a guarded fabric can't be deployed, a host can't attest, a shielded virtual machine (VM) can't be provisioned or started, or an operation such as migration, servicing, or recovery fails. It accompanies the Microsoft Learn module:...",
-      "blog": "ITOpsTalk",
-      "blogId": "itopstalkblog",
-      "author": "OrinThomas"
     }
   ]
 }
