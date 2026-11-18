@@ -1,5 +1,5 @@
 ============================================================
-ROTEIRO - AZURE NEWS DIÁRIO - 17/11/2026
+ROTEIRO - AZURE NEWS DIÁRIO - 18/11/2026
 ============================================================
 
 [ABERTURA]
@@ -7,9 +7,174 @@ ROTEIRO - AZURE NEWS DIÁRIO - 17/11/2026
 E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
-Hoje é dia 17/11/2026.
-Temos 111 atualizações para cobrir.
+Hoje é dia 18/11/2026.
+Temos 120 atualizações para cobrir.
 Vamos direto ao ponto.
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Observability]
+
+  ► Unified agent observability with end-to-end tracing in Azure Monitor
+    Creating an AI agent can take minutes, with little or no code. Understanding its behavior, tracking its cost, and debugging a response across multiple
+    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/unified-agent-observability-with-end-to-end-tracing-in-azure/ba-p/4574277
+
+  ► Agent observability in Azure Monitor at Ignite 2026
+    AI agents are becoming easier to build. Understanding why an agent gave an incomplete answer, where it spent time, or what drove its cost is harder, e
+    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/agent-observability-in-azure-monitor-at-ignite-2026/ba-p/4573966
+
+  ► What's new in Azure Monitor at Ignite 2026
+    Agents now sit at the center of modern applications, calling models, tools and other agents across a stack of APIs, data and infrastructure, so when a
+    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/what-s-new-in-azure-monitor-at-ignite-2026/ba-p/4573974
+
+  ► Unified agent observability with end-to-end tracing in Azure Monitor
+    Creating an AI agent can take minutes, with little or no code. Understanding its behavior, tracking its cost, and debugging a response across multiple
+    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/unified-agent-observability-with-end-to-end-tracing-in-azure/ba-p/4574276
+
+  ► Introducing Observability in your coding agent for Fabric Apps
+    Introducing Observability in your coding agent for Fabric Apps Today at Microsoft Ignite, we're introducing observability for Fabric Apps. Every app i
+    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/introducing-observability-in-your-coding-agent-for-fabric-apps/ba-p/4573853
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Storage]
+
+  ► Azure Native Commvault Cloud is now generally available
+    As you modernize critical applications and adopt AI, protecting and recovering data becomes essential to innovation. New AI-powered experiences depend
+    Link: https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-native-commvault-cloud-is-now-generally-available/ba-p/4573783
+
+  ► Azure Elastic SAN Next Generation public preview: Mission-critical performance & cloud-native scale
+    Mission-critical applications such as SAP HANA, Epic, and core transactional databases demand consistently high performance and predictable low latenc
+    Link: https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-elastic-san-next-generation-public-preview-mission/ba-p/4573949
+
+  ► Petabyte scale and cost flexibility for Linux workloads with Azure Files NFS
+    Organizations are increasingly looking to migrate on-premises NFS file storage to the cloud to reduce infrastructure costs, simplify operations, and u
+    Link: https://techcommunity.microsoft.com/t5/azure-storage-blog/petabyte-scale-and-cost-flexibility-for-linux-workloads-with/ba-p/4573843
+
+  ► Faster, Secure Reads for AI Workloads: Session-Based Authentication Now in Preview for Azure Blob
+    Data continues to grow exponentially on Azure Blob and Azure Data Lake Storage for a wide range of workloads: AI training and inference, agentic AI, a
+    Link: https://techcommunity.microsoft.com/t5/azure-storage-blog/faster-secure-reads-for-ai-workloads-session-based/ba-p/4573243
+
+  ► Blob Storage Turbo Tier: High performance with object storage scale and economics
+    At Microsoft Ignite, we are introducing the preview of Turbo tier for Azure Blob Storage, built for AI and other data-intensive workloads that increas
+    Link: https://techcommunity.microsoft.com/t5/azure-storage-blog/blob-storage-turbo-tier-high-performance-with-object-storage/ba-p/4573491
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Network Security]
+
+  ► Addressing Java4Shell CVE-2026-114938: upgrade guidance and Azure WAF mitigations
+    Introduction On November 17, 2026, CVE-2026-114938, also known as Java4Shell, a critical remote code execution (RCE) vulnerability affecting OpenJDK, 
+    Link: https://techcommunity.microsoft.com/t5/azure-network-security-blog/addressing-java4shell-cve-2026-114938-upgrade-guidance-and-azure/ba-p/4574305
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Aspire Blog]
+
+  ► Aspire 17 is ready for primetime
+    Aspire 17 gives you more levers to build real enterprise apps and your own platform on top of Aspire, with shared team defaults, larger-app workflows,
+    Link: https://devblogs.microsoft.com/aspire/whats-new-aspire-17/
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Integrations on Azure]
+
+  ► From canvas to run: a better Logic Apps Automation experience
+    Building a workflow is only the beginning. A few weeks later, someone needs to add an approval, change a condition, or understand why an order took an
+    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/from-canvas-to-run-a-better-logic-apps-automation-experience/ba-p/4573879
+
+  ► What’s new in Logic Apps Automation at Ignite 2026
+    Build like a startup. Ship like an enterprise. That's the idea behind Logic Apps Automation launched in Public Preview earlier this year. This Ignite 
+    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/what-s-new-in-logic-apps-automation-at-ignite-2026/ba-p/4573645
+
+  ► Announcing Decision APIs as actions in Azure Logic Apps
+    Today at Microsoft Ignite 2026, we're announcing the public preview of Decision actions powered by decision models in Logic Apps Automation. Three new
+    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-decision-apis-as-actions-in-azure-logic-apps/ba-p/4573643
+
+  ► What's new in Azure API Management at Microsoft Ignite 2026
+    As organizations scale AI adoption, applications increasingly rely on models across providers, while agents access enterprise APIs and tools. Develope
+    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/what-s-new-in-azure-api-management-at-microsoft-ignite-2026/ba-p/4574194
+
+  ► What's new in Azure Logic Apps at Microsoft Ignite 2026
+    Organizations are exploring how AI can make their business processes more intelligent, but many still rely on legacy integration infrastructure that m
+    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/what-s-new-in-azure-logic-apps-at-microsoft-ignite-2026/ba-p/4574191
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure SQL Dev Corner]
+
+  ► New Create and Apply wizards in SSMS (Preview)
+    Need to save a database schema, move schema and data to another environment, or deploy a DACPAC to an existing database but find the existing options 
+    Link: https://devblogs.microsoft.com/azure-sql/new-create-and-apply-wizards-in-ssms-preview/
+
+  ► Build locally with Azure SQL Database container, now in public preview
+    Azure SQL Database container: build locally, test continuously, ship to Azure. Today at Microsoft Ignite, we’re announcing the public preview of Azure
+    Link: https://devblogs.microsoft.com/azure-sql/build-locally-with-azure-sql-database-container-now-in-public-preview/
+
+  ► MSSQL Extension for VS Code: Local Azure SQL Database Provisioning, Query Performance Dashboard, and more
+    A local database is a useful starting point, but deploying it and understanding how queries behave should fit into the same development workflow. The 
+    Link: https://devblogs.microsoft.com/azure-sql/vscode-mssql-november2026/
+
+  ► Fuzzy string matching is now generally available across Microsoft SQL
+    Four native T-SQL functions that tell you how close two strings are, not just whether they’re equal. MICROSFT isn’t MICROSOFT. MARHTA isn’t MARTHA. IN
+    Link: https://devblogs.microsoft.com/azure-sql/fuzzy-string-matching-is-now-generally-available-across-microsoft-sql/
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: High Performance Computing]
+
+  ► Matching Storage Performance to every stage of your AI Workloads on Azure
+    Every minute a GPU spends waiting for data is a minute you pay for and get nothing back. As accelerators get faster and clusters grow, that idle time 
+    Link: https://techcommunity.microsoft.com/t5/azure-high-performance-computing/matching-storage-performance-to-every-stage-of-your-ai-workloads/ba-p/4574196
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure AI Foundry]
+
+  ► Microsoft Retriever 1 brings sub-second agentic retrieval to Foundry IQ
+    By: the Foundry IQ microsoft-retriever-1 teamToday, we’re introducing Microsoft Retriever 1 an agentic search model trained by Microsoft and available
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-retriever-1-brings-sub-second-agentic-retrieval-to/ba-p/4573431
+
+  ► Knowledge graphs in Foundry IQ improve evidence recall with fewer tokens
+    By: the Foundry IQ knowledge graph team We’re introducing knowledge graphs in Foundry IQ to help agents answer questions that connect facts across doc
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/knowledge-graphs-in-foundry-iq-improve-evidence-recall-with/ba-p/4573663
+
+  ► Hosting your LangGraph application on Microsoft Foundry Agents
+    This post was co-authored my Maira Ladeira Tanke, Ying Hua and Muzz Imam Consider a sales team that wants an assistant to handle customer returns. A c
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/hosting-your-langgraph-application-on-microsoft-foundry-agents/ba-p/4573342
+
+  ► From model choice to your durable advantage: Build AI that keeps improving
+    Every organization now has access to the same frontier models. What sets your business apart is how you put those models to work with your data, your 
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-model-choice-to-your-durable-advantage-build-ai-that-keeps/ba-p/4573609
+
+  ► GPT-6.2 Astra and GPT-6.2 Sol now generally available in Microsoft Foundry
+    Better answers for less: the newest Astra reasoning model delivers higher accuracy with fewer output tokens in Foundry testing, bringing down cost per
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-6-2-astra-and-gpt-6-2-sol-now-generally-available-in/ba-p/4574122
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: FinOps]
+
+  ► AI for FinOps: bringing the cost answer to where decisions are made
+    Cloud cost is now everyone's job. Developers want to know what a workload will cost before it ships, FinOps practitioners want to know why the bill ch
+    Link: https://techcommunity.microsoft.com/t5/finops-blog/ai-for-finops-bringing-the-cost-answer-to-where-decisions-are/ba-p/4571510
+
+  ► Build agentic FinOps workflows with Azure SRE Agent and Azure Resource Manager MCP
+    Today, we’re showing how FinOps teams can use Azure SRE Agent with Azure Resource Manager MCP (ARM MCP) to make cost analysis and investigation part o
+    Link: https://techcommunity.microsoft.com/t5/finops-blog/build-agentic-finops-workflows-with-azure-sre-agent-and-azure/ba-p/4571178
+
+  ► Your Azure costs, in context: What’s new in Cost Analysis and Azure Copilot
+    Bringing cost intelligence to Azure Copilot and Cost Analysis Today, we’re expanding Microsoft Cost Management’s AI capabilities in the Azure portal, 
+    Link: https://techcommunity.microsoft.com/t5/finops-blog/your-azure-costs-in-context-what-s-new-in-cost-analysis-and/ba-p/4568824
+
 [PAUSA]
 
 ----------------------------------------
@@ -30,10 +195,6 @@ Vamos direto ao ponto.
   ► Advancing agentic operations on Azure at Ignite 2026
     AI is fundamentally changing what IT teams operate in the cloud and how they operate it. As organizations put more AI agents to work, IT teams face tw
     Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-agentic-operations-on-azure-at-ignite-2026/ba-p/4573831
-
-  ► Introducing new experiences in Kubernetes Center at Microsoft Ignite 2026
-    We are thrilled to announce new Kubernetes Center experiences designed to help you understand your Kubernetes estate and act across clusters from unif
-    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/introducing-new-experiences-in-kubernetes-center-at-microsoft/ba-p/4569688
 
 [PAUSA]
 
@@ -63,49 +224,11 @@ Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure Observability]
-
-  ► Find and fix platform telemetry gaps across your Azure estate with Monitoring Coverage
-    Here's a quick exercise. Pick any key vault in your environment. Is it sending audit logs somewhere you can query them? Okay, now answer the same ques
-    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/find-and-fix-platform-telemetry-gaps-across-your-azure-estate/ba-p/4573903
-
-  ► Azure Monitor pipeline on VMs: zero Kubernetes clusters required
-    Quick question: how many Kubernetes clusters should it take to forward a syslog message? If you said “zero, obviously,” we agree with you. But until n
-    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-pipeline-on-vms-zero-kubernetes-clusters-required/ba-p/4573805
-
-  ► Agent observability in Azure Monitor at Ignite 2026
-    AI agents are becoming easier to build. Understanding why an agent gave an incomplete answer, where it spent time, or what drove its cost is harder, e
-    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/agent-observability-in-azure-monitor-at-ignite-2026/ba-p/4573966
-
-  ► Announcing protected Gen AI content in Azure Monitor Application Insights and Microsoft Foundry
-    Azure Monitor meets a broad range of industry and regulatory compliance standards. Even so, we made a conscious choice to make application log discove
-    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/announcing-protected-gen-ai-content-in-azure-monitor-application/ba-p/4572729
-
-  ► Schema at PR speed: schemaless log ingestion in Azure Monitor
-    It's a quiet Monday, and a coding agent opens a pull request titled "Upgrade payments client to v3." It bumps the SDK version, renames two methods and
-    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/schema-at-pr-speed-schemaless-log-ingestion-in-azure-monitor/ba-p/4573008
-
-[PAUSA]
-
-----------------------------------------
 [BLOCO: Azure DevOps Blog]
 
   ► Azure DevOps and GitHub: Start Your Agentic Journey Where You Are
     Software development is changing fast as developers shift from writing code to directing agents. Today, we’re bringing more of that agentic experience
     Link: https://devblogs.microsoft.com/devops/azure-devops-and-github-start-your-agentic-journey-where-you-are/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: FinOps]
-
-  ► Build agentic FinOps workflows with Azure SRE Agent and Azure Resource Manager MCP
-    Today, we’re showing how FinOps teams can use Azure SRE Agent with Azure Resource Manager MCP (ARM MCP) to make cost analysis and investigation part o
-    Link: https://techcommunity.microsoft.com/t5/finops-blog/build-agentic-finops-workflows-with-azure-sre-agent-and-azure/ba-p/4571178
-
-  ► Your Azure costs, in context: What’s new in Cost Analysis and Azure Copilot
-    Bringing cost intelligence to Azure Copilot and Cost Analysis Today, we’re expanding Microsoft Cost Management’s AI capabilities in the Azure portal, 
-    Link: https://techcommunity.microsoft.com/t5/finops-blog/your-azure-costs-in-context-what-s-new-in-cost-analysis-and/ba-p/4568824
 
 [PAUSA]
 
@@ -192,10 +315,6 @@ Vamos direto ao ponto.
     This year at Microsoft Ignite, we are excited to share some big updates to Azure Machine Configuration that will allow you to more efficiently underst
     Link: https://techcommunity.microsoft.com/t5/azure-governance-and-management/machine-configuration-ignite-2026/ba-p/4573872
 
-  ► A year of Azure Deployments: highlights from 2026
-    This year we had a lot of highlights to celebrate - we put out more than ten Bicep releases, What-If for Deployment Stacks went GA, the Bicep MCP serv
-    Link: https://techcommunity.microsoft.com/t5/azure-governance-and-management/a-year-of-azure-deployments-highlights-from-2026/ba-p/4571780
-
 [PAUSA]
 
 ----------------------------------------
@@ -254,31 +373,6 @@ Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Integrations on Azure]
-
-  ► Announcing HL7 General Availability and MLLP Connector Public Preview in Azure Logic Apps
-    Healthcare organizations run on HL7 v2.x. Admissions, lab results, orders and billing still move between EHR, LIS, RIS and HIS systems as pipe-delimit
-    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-hl7-general-availability-and-mllp-connector-public/ba-p/4574174
-
-  ► Bring-your-own image and Azure Cosmos DB MCP server in Connector Namespace hosted MCP (preview)
-    We're excited to announce two new capabilities for hosted MCP servers in Azure Connector Namespace, now available in public preview: Bring-your-own co
-    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/bring-your-own-image-and-azure-cosmos-db-mcp-server-in-connector/ba-p/4574177
-
-  ► Azure API Management Applications feature now available in public preview to all customers
-    We are excited to announce that the Applications feature in Azure API Management is now available in public preview to all customers, with no sign-up 
-    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-management-applications-feature-now-available-in/ba-p/4573993
-
-  ► Connector Namespace is generally available:
-    A connector namespace is one Azure resource that hosts connections, triggers, connector operations, and MCP server configurations. You create a connec
-    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/connector-namespace-is-generally-available/ba-p/4573019
-
-  ► Run MCP tools as the signed-in user: on-behalf-of authentication in Connector Namespace
-    What is on-behalf-of authentication OBO is a standard Microsoft Entra ID OAuth 2.0 flow. A service receives a user's token, exchanges it for a new tok
-    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/run-mcp-tools-as-the-signed-in-user-on-behalf-of-authentication/ba-p/4573040
-
-[PAUSA]
-
-----------------------------------------
 [BLOCO: Azure Cosmos DB Blog]
 
   ► Accelerate development and AI agent integration with Azure Cosmos DB
@@ -304,15 +398,6 @@ Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure Storage]
-
-  ► Blob Storage Turbo Tier: High performance with object storage scale and economics
-    At Microsoft Ignite, we are introducing the preview of Turbo tier for Azure Blob Storage, built for AI and other data-intensive workloads that increas
-    Link: https://techcommunity.microsoft.com/t5/azure-storage-blog/blob-storage-turbo-tier-high-performance-with-object-storage/ba-p/4573491
-
-[PAUSA]
-
-----------------------------------------
 [BLOCO: Confidential Computing]
 
   ► Announcing gated preview of next-gen Azure confidential VMs with 5th Generation AMD EPYC™ processor
@@ -327,10 +412,6 @@ Vamos direto ao ponto.
     Microsoft is excited to announce a technology preview of Azure Confidential Computing on NVIDIA Vera Rubin NVL72, advancing our joint engineering work
     Link: https://techcommunity.microsoft.com/t5/azure-confidential-computing/confidential-ai-at-rack-scale-introducing-azure-s-vera-rubin/ba-p/4570354
 
-  ► Unlock trusted data collaboration in financial services with Azure Confidential Clean Rooms
-    Why trusted data collaboration is now a business imperative Financial institutions increasingly need insights that no organization can produce alone. 
-    Link: https://techcommunity.microsoft.com/t5/azure-confidential-computing/unlock-trusted-data-collaboration-in-financial-services-with/ba-p/4570666
-
 [PAUSA]
 
 ----------------------------------------
@@ -339,103 +420,6 @@ Vamos direto ao ponto.
   ► From 50 VMs to Fully Managed: Moving 1 PB from Amazon S3 to Azure
     Every wedding, every newborn session, every graduation portrait a professional photographer delivers has to live somewhere safe, fast, and affordable—
     Link: https://techcommunity.microsoft.com/t5/azure-migration-and/from-50-vms-to-fully-managed-moving-1-pb-from-amazon-s3-to-azure/ba-p/4537165
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Planetary Computer]
-
-  ► Join us in using AI Workflow Preview Feature in Microsoft Planetary Computer Pro
-    The adoption of models continues to grow across industries. As highlighted in a prior blog post, we’ve released a range of geospatial AI models design
-    Link: https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/join-us-in-using-ai-workflow-preview-feature-in-microsoft/ba-p/4571817
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: High Performance Computing]
-
-  ► Confidential AI on AKS: Running Phi-4-mini with KAITO and Azure NCC H100 GPUs
-    Why confidential GPUs matter For organizations working with sensitive data, securing AI means more than encrypting storage and network traffic. During
-    Link: https://techcommunity.microsoft.com/t5/azure-high-performance-computing/confidential-ai-on-aks-running-phi-4-mini-with-kaito-and-azure/ba-p/4573943
-
-  ► Accelerating AI Data Processing, HPC, and Agentic Workloads with Azure HDv2 Virtual Machines
-    Advancing model intelligence starts with training, and training starts with data. Before GPU supercomputers can train a model, enormous fleets of CPUs
-    Link: https://techcommunity.microsoft.com/t5/azure-high-performance-computing/accelerating-ai-data-processing-hpc-and-agentic-workloads-with/ba-p/4567877
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure PaaS]
-
-  ► Exempting Identities from Azure Policy Enforcement
-    Introduction Azure Policy is one of the core governance services in Azure that helps organisations enforce standards, maintain security, and ensure re
-    Link: https://techcommunity.microsoft.com/t5/azure-paas-blog/exempting-identities-from-azure-policy-enforcement/ba-p/4566183
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Tools]
-
-  ► Announcing Public Preview of the next generation of Azure CLI and Azure PowerShell
-    Today, we are announcing the public preview of the next generation of Azure CLI and Azure PowerShell: a shared command engine with new experiences for
-    Link: https://techcommunity.microsoft.com/t5/azure-tools-blog/announcing-public-preview-of-the-next-generation-of-azure-cli/ba-p/4573824
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure SQL Dev Corner]
-
-  ► SqlPackage Deployment History and Fast Comparison Preview
-    Database deployments should be repeatable. A SQL database project describes the desired schema, its build produces a .dacpac, and SqlPackage compares 
-    Link: https://devblogs.microsoft.com/azure-sql/sqlpackage-deployment-history-and-fast-comparison-preview/
-
-  ► What’s new across Microsoft SQL at Microsoft Ignite 2026
-    From Microsoft Ignite I’m here in San Francisco enjoying specialty lattes, fall-ish weather (I guess?), and all the excitement around Microsoft announ
-    Link: https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-at-microsoft-ignite-2026/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: AKS Blog]
-
-  ► Strengthening AKS security with platform-initiated upgrades
-    AKS platform-initiated upgrades begin June 1, 2027. Find unsupported clusters and pick an upgrade plan that fits your workloads with Fleet Manager and
-    Link: https://blog.aks.azure.com/2026/11/17/platform-initiated-upgrades
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Network Security]
-
-  ► DDoS Support for NATGWv2 IP - Public Preview
-    Introduction Azure DDoS Protection now covers the public IP addresses used by Azure NAT Gateway StandardV2, in public preview. Customers can protect t
-    Link: https://techcommunity.microsoft.com/t5/azure-network-security-blog/ddos-support-for-natgwv2-ip-public-preview/ba-p/4573913
-
-  ► Azure DDoS Custom Policy GA
-    More control, broader coverage with Azure DDoS Protection custom policy Fine-tune protocol-specific DDoS detection for internet-facing workloads while
-    Link: https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-ddos-custom-policy-ga/ba-p/4573866
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure AI Foundry]
-
-  ► Enterprise Architecture with Microsoft Foundry: Capability Hosts, BYO Resources, Private Networking
-    Introduction An AI agent can deliver an impressive demo—and still face a production roadblock when enterprise data must stay in organization-controlle
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/enterprise-architecture-with-microsoft-foundry-capability-hosts/ba-p/4568936
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Architecture]
-
-  ► Using AI to help forestry planners prioritise fuel-reduction work
-    Print / save as PDF Using AI to help forestry planners prioritise fuel-reduction work By Eneko Vallecillo, Principal Solution Engineer, Microsoft UK F
-    Link: https://techcommunity.microsoft.com/t5/azure-architecture-blog/using-ai-to-help-forestry-planners-prioritise-fuel-reduction/ba-p/4573152
-
-  ► Lantern: agentic AI for records and provenance on Azure
-    Author: Warren Kahn, Senior Solution Engineer, MicrosoftVersion: 3.5.10, 12 November 2026Written for: Architects and technical leaders at museums, lib
-    Link: https://techcommunity.microsoft.com/t5/azure-architecture-blog/lantern-agentic-ai-for-records-and-provenance-on-azure/ba-p/4572947
 
 [PAUSA]
 
