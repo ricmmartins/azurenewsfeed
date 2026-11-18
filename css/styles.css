@@ -450,6 +450,22 @@ main {
   padding: 1.5rem 2rem 2rem;
 }
 
+.feed-intro {
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.feed-intro h2 {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+
+.feed-intro a {
+  color: var(--azure-blue);
+}
+
 .controls {
   display: flex;
   justify-content: space-between;

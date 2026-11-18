@@ -79,6 +79,12 @@ Open [http://localhost:8000](http://localhost:8000) in your browser.
 
 The editable social card is `icons/social-card.svg`. Export it at 1200 x 630 pixels to `og-image.png` after changing the artwork, and bump the image URL version in both Open Graph and Twitter metadata in `index.html`. After deployment, use the [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/) to refresh a cached link preview.
 
+### Search indexing
+
+The homepage includes a canonical URL, WebSite/CollectionPage structured data, and the 30 latest article links as static HTML. JavaScript replaces these with the interactive feed; visitors without JavaScript can still open the original posts. Each feed update runs `python scripts/generate_seo.py` to refresh this preview and `sitemap.xml`. Run `python -m unittest discover -s scripts -p "test_*.py"` to check the generator.
+
+`robots.txt` advertises `https://azurefeed.news/sitemap.xml`. Verify ownership in [Google Search Console](https://search.google.com/search-console), submit this sitemap, and inspect the homepage to request indexing. Search visibility and rankings depend on Google; these changes do not guarantee placement.
+
 ## 🎬 Teleprompter - Roteiro Diário para Vídeo
 
 Gera automaticamente um roteiro em **português brasileiro** para gravar vídeos diários de atualizações do Azure — estilo John Savill, mas em PT-BR.
