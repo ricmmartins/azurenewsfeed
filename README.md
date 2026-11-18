@@ -1,6 +1,6 @@
 # ☁️ Azure News Feed
 
-A daily-updated Azure blog aggregator hosted on GitHub Pages. Collects articles from Azure blogs and presents them in a clean, searchable interface — last 30 days only.
+An Azure blog aggregator hosted on GitHub Pages, scheduled to update every two hours. Collects articles from Azure blogs and presents them in a clean, searchable interface — last 30 days only.
 
 **Live site:** [azurefeed.news](https://azurefeed.news)
 
@@ -12,7 +12,7 @@ A daily-updated Azure blog aggregator hosted on GitHub Pages. Collects articles 
 - ⭐ **Bookmarks** — Save articles for later (stored locally per browser)
 - 🌙 **Dark mode** — Easy on the eyes
 - 📱 **Responsive** — Works on desktop, tablet, and mobile
-- 🤖 **Auto-updated** — GitHub Actions fetches new articles daily at 7 AM EST (12 PM UTC)
+- 🤖 **Auto-updated** — GitHub Actions fetches new articles every two hours, at minute 17 of even-numbered UTC hours. Scheduled runs may be delayed by GitHub.
 - 📅 **Last 30 days** — Keeps only recent articles for a lean, fast experience
 
 ## Blog Sources
@@ -112,7 +112,7 @@ Abra o arquivo `latest.md` em qualquer app de teleprompter (ex: PromptSmart, Tel
 
 ## How It Works
 
-1. **GitHub Actions** runs daily at 7 AM EST / 12 PM UTC (or manually)
+1. **GitHub Actions** runs every two hours at minute 17 of even-numbered UTC hours (or manually); GitHub may delay scheduled runs
 2. **Python script** fetches RSS feeds from all 50 Azure and Microsoft developer blogs
 3. Articles from the last 30 days are deduplicated, sorted, and saved to `data/feeds.json`
 4. **Teleprompter script** generates a daily PT-BR video script from today's articles

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
   <title id="title">Azure Feed</title>
-  <desc id="description">Azure and Microsoft developer blogs in one place. Updated daily. azurefeed.news</desc>
+  <desc id="description">Azure and Microsoft developer blogs in one place. Updates every two hours. azurefeed.news</desc>
   <defs>
     <radialGradient id="blue" cx="10%" cy="0%" r="95%">
       <stop stop-color="#0078d4" stop-opacity=".55"/>
@@ -33,7 +33,7 @@
     <text x="78" y="432" fill="#aebbd0" font-size="30">Fresh posts from the last 30 days.</text>
     <path d="M78 494H1122" stroke="#ffffff" stroke-opacity=".18"/>
     <circle cx="87" cy="550" r="7" fill="#50e6ff"/>
-    <text x="110" y="560" fill="#e0e5ef" font-size="29">Updated daily</text>
+    <text x="110" y="560" fill="#e0e5ef" font-size="29">Updates every 2 hours</text>
     <text x="1122" y="560" fill="#91caff" font-size="32" font-weight="600" text-anchor="end">azurefeed.news</text>
   </g>
 </svg>

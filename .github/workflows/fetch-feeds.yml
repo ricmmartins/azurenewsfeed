@@ -2,7 +2,7 @@ name: Fetch Azure Blog Feeds
 
 on:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '17 */2 * * *'
   workflow_dispatch:
 
 permissions:
