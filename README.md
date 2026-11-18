@@ -8,6 +8,7 @@ A daily-updated Azure blog aggregator hosted on GitHub Pages. Collects articles 
 
 - 📰 **50 blog sources** — Azure, DevOps, Developer Tools, Data & AI, and more
 - 🔍 **Search & filter** — Find articles by keyword, blog category, or date range
+- 📆 **Specific day** — Select a publication day within the last 30 days, using your browser's local time; combines with search, category, and bookmarks. Dates refer to blog posts, not product release dates.
 - ⭐ **Bookmarks** — Save articles for later (stored locally per browser)
 - 🌙 **Dark mode** — Easy on the eyes
 - 📱 **Responsive** — Works on desktop, tablet, and mobile
@@ -73,6 +74,10 @@ python -m http.server 8000
 ```
 
 Open [http://localhost:8000](http://localhost:8000) in your browser.
+
+### Link preview image
+
+The editable social card is `icons/social-card.svg`. Export it at 1200 x 630 pixels to `og-image.png` after changing the artwork, and bump the image URL version in both Open Graph and Twitter metadata in `index.html`. After deployment, use the [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/) to refresh a cached link preview.
 
 ## 🎬 Teleprompter - Roteiro Diário para Vídeo
 

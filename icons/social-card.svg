@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Azure Feed</title>
+  <desc id="description">Azure and Microsoft developer blogs in one place. Updated daily. azurefeed.news</desc>
+  <defs>
+    <radialGradient id="blue" cx="10%" cy="0%" r="95%">
+      <stop stop-color="#0078d4" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#0078d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="purple" cx="90%" cy="10%" r="70%">
+      <stop stop-color="#7856d8" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#7856d8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="icon" x2="1" y2="1">
+      <stop stop-color="#0078d4"/>
+      <stop offset="1" stop-color="#50e6ff"/>
+    </linearGradient>
+    <linearGradient id="heading">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#91caff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#09090b"/>
+  <rect width="1200" height="630" fill="url(#blue)"/>
+  <rect width="1200" height="630" fill="url(#purple)"/>
+  <g transform="translate(76 64)">
+    <rect width="72" height="72" rx="17" fill="url(#icon)"/>
+    <path d="M27.2 69.6L47.6 24H58.8L34 69.6H27.2ZM20 69.6L40.4 24H51.6L26.8 69.6H20ZM56.4 69.6L64 54.4L70.4 40L76 69.6H56.4Z" transform="scale(.75)" fill="#fff"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="170" y="110" fill="#d3e7fb" font-size="28" font-weight="600">AZURE + MICROSOFT DEVELOPER BLOGS</text>
+    <text x="72" y="294" fill="url(#heading)" font-size="132" font-weight="700" letter-spacing="-6">Azure Feed</text>
+    <text x="78" y="370" fill="#e0e5ef" font-size="42">Your Azure reading, in one place.</text>
+    <text x="78" y="432" fill="#aebbd0" font-size="30">Fresh posts from the last 30 days.</text>
+    <path d="M78 494H1122" stroke="#ffffff" stroke-opacity=".18"/>
+    <circle cx="87" cy="550" r="7" fill="#50e6ff"/>
+    <text x="110" y="560" fill="#e0e5ef" font-size="29">Updated daily</text>
+    <text x="1122" y="560" fill="#91caff" font-size="32" font-weight="600" text-anchor="end">azurefeed.news</text>
+  </g>
+</svg>

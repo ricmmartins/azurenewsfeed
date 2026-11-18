@@ -461,8 +461,23 @@ main {
 
 .controls-right {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
   align-items: center;
+}
+
+#publication-date {
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font: inherit;
+  font-size: 0.8rem;
+}
+
+[data-theme="dark"] #publication-date {
+  color-scheme: dark;
 }
 
 #showing-count {

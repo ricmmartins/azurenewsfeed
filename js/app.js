@@ -81,6 +81,7 @@
   var searchInput = document.getElementById("search-input");
   var sortSelect = document.getElementById("sort-by");
   var dateFilter = document.getElementById("date-filter");
+  var publicationDate = document.getElementById("publication-date");
   var themeToggle = document.getElementById("theme-toggle");
   var filterPills = document.getElementById("filter-pills");
   var showingCount = document.getElementById("showing-count");
@@ -126,7 +127,7 @@
   // ===== Service Worker =====
   function registerServiceWorker() {
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("sw.js?v=8").catch(function () {});
+      navigator.serviceWorker.register("sw.js?v=9").catch(function () {});
     }
   }
 
@@ -288,7 +289,16 @@
 
     // Date filter
     var dateVal = dateFilter ? dateFilter.value : "all";
-    if (dateVal !== "all") {
+    if (dateVal === "day") {
+      var start = new Date(publicationDate.value + "T00:00:00");
+      var end = new Date(start);
+      // Calendar arithmetic keeps local days correct across daylight saving changes.
+      end.setDate(end.getDate() + 1);
+      result = result.filter(function (a) {
+        var published = new Date(a.published);
+        return published >= start && published < end;
+      });
+    } else if (dateVal !== "all") {
       var now = new Date();
       var cutoff = new Date();
       switch (dateVal) {
@@ -533,6 +543,24 @@
 
     // Date filter
     dateFilter.addEventListener("change", function () {
+      publicationDate.hidden = dateFilter.value !== "day";
+      if (!publicationDate.hidden) {
+        var today = new Date();
+        var oldest = new Date(today);
+        oldest.setDate(oldest.getDate() - 30);
+        publicationDate.max = localDateValue(today);
+        publicationDate.min = localDateValue(oldest);
+        if (!publicationDate.value) publicationDate.value = publicationDate.max;
+      }
+      applyFilters();
+    });
+    publicationDate.addEventListener("change", function () {
+      if (!publicationDate.value) {
+        dateFilter.value = "all";
+        dateFilter.dispatchEvent(new Event("change"));
+        return;
+      }
+      if (!publicationDate.reportValidity()) return;
       applyFilters();
     });
 
@@ -632,6 +660,12 @@
   }
 
   // ===== Custom select dropdowns (native select stays as source of truth) =====
+  function localDateValue(date) {
+    return date.getFullYear() + "-" +
+      String(date.getMonth() + 1).padStart(2, "0") + "-" +
+      String(date.getDate()).padStart(2, "0");
+  }
+
   function enhanceSelect(select) {
     var wrap = document.createElement("div");
     wrap.className = "dd";
@@ -678,6 +712,7 @@
     wrap.appendChild(btn);
     wrap.appendChild(menu);
     wrap.appendChild(select);
+    select.addEventListener("change", sync);
     sync();
   }
 
