@@ -1,5 +1,5 @@
 ============================================================
-ROTEIRO - AZURE NEWS DIÁRIO - 18/11/2026
+ROTEIRO - AZURE NEWS DIÁRIO - 19/11/2026
 ============================================================
 
 [ABERTURA]
@@ -7,101 +7,33 @@ ROTEIRO - AZURE NEWS DIÁRIO - 18/11/2026
 E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
-Hoje é dia 18/11/2026.
-Temos 57 atualizações para cobrir.
+Hoje é dia 19/11/2026.
+Temos 18 atualizações para cobrir.
 Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure Dev Community]
+[BLOCO: Apps on Azure]
 
-  ► Skills over MCP are now available in VS Code
-    VS Code 1.147+ can now load agent skills straight from an MCP server! If your team runs an MCP server, you can ship skills from the same server as you
-    Link: https://techcommunity.microsoft.com/t5/microsoft-developer-community/skills-over-mcp-are-now-available-in-vs-code/ba-p/4574580
+  ► What’s new in Azure SRE Agent at Microsoft Ignite 2026
+    Over the past year, teams have moved Azure SRE Agent from exploratory pilots into the work that keeps their services running: incident response, debug
+    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-at-microsoft-ignite-2026/ba-p/4573607
 
-[PAUSA]
+  ► Enable and manage Gateway API on Azure Portal
+    Gateway API is the long-term Kubernetes standard for ingress and L7 traffic management. Compared with the traditional Ingress resource, Gateway API se
+    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-and-manage-gateway-api-on-azure-portal/ba-p/4574567
 
-----------------------------------------
-[BLOCO: Azure AI Foundry]
+  ► Public preview: OS-level dependency support via containers for Azure Functions Flex Consumption
+    Your function needs Chromium to generate a PDF. Or GnuPG to encrypt data. Or a native Linux library that isn’t available in the managed execution envi
+    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/public-preview-os-level-dependency-support-via-containers-for/ba-p/4572085
 
-  ► External agents in Microsoft Foundry are now generally available
-    Built your agent somewhere else? Foundry can still help you measure and improve it. External agents in Microsoft Foundry are now generally available. 
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/external-agents-in-microsoft-foundry-are-now-generally-available/ba-p/4572630
+  ► Azure SRE Agent now natively supports AWS and Google Cloud
+    The alert is in Azure. The next clue may be in AWS. Imagine an inventory API running on Azure Container Apps starts returning errors. Azure telemetry 
+    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-now-natively-supports-aws-and-google-cloud/ba-p/4569556
 
-  ► FinOps in Microsoft Foundry: see your token spend, hit your quality bar for less, and set limits
-    An end-to-end walkthrough of FinOps for AI in Microsoft Foundry: plan what an agent should cost, see where the spend goes, find out why it changed, hi
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/finops-in-microsoft-foundry-see-your-token-spend-hit-your/ba-p/4570010
-
-  ► Model router in Foundry Models: start in one line, route intelligently, evaluate cost and quality
-    Build with model router from the agents you already use, steer requests when you need to, and evaluate cost and quality on your own workload. Here’s e
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-router-in-foundry-models-start-in-one-line-route/ba-p/4573543
-
-  ► Turn Human Feedback into a Reusable Quality Bar for AI Agents
-    Human-in-the-loop for evaluation quality is now in public preview in Microsoft Foundry, announced at Microsoft Ignite on November 17, 2026. Your agent
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/turn-human-feedback-into-a-reusable-quality-bar-for-ai-agents/ba-p/4574554
-
-  ► Foundry IQ: now managed for you in every Foundry project
-    Foundry IQ: Now managed for you in every Foundry project Building AI agents that can answer questions from your documents just got simpler. Today we'r
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-now-managed-for-you-in-every-foundry-project/ba-p/4573316
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Arc]
-
-  ► Building a Trusted Ecosystem for Sovereign Private Cloud: Azure Local validated partner solutions
-    When organizations move critical workloads to Azure Local, the first question usually isn't about the platform. It's about everything that runs on and
-    Link: https://techcommunity.microsoft.com/t5/azure-arc-blog/building-a-trusted-ecosystem-for-sovereign-private-cloud-azure/ba-p/4567325
-
-  ► What's new with Sovereign Private Cloud at Microsoft Ignite 2026
-    As organizations are scaling AI adoption at an unprecedented pace, they need to stay in control of their data, operations, and access as regulatory an
-    Link: https://techcommunity.microsoft.com/t5/azure-arc-blog/what-s-new-with-sovereign-private-cloud-at-microsoft-ignite-2026/ba-p/4573886
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Compute]
-
-  ► Announcing preview of new Azure DH/EHasv8 VMs based on 6th Gen AMD EPYC™ (“Venice”) processors
-    We are excited to announce the preview of the new Azure DHasv8, DHalsv8 and EHasv8-series virtual machines (VMs), powered by 6th Generation AMD EPYC™ 
-    Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-preview-of-new-azure-dh-ehasv8-vms-based-on-6th-gen/ba-p/4573295
-
-  ► Announcing Public Preview of Guest RDMA for Azure Boost
-    Today, we're excited to announce the public preview of Guest RDMA on Azure Boost, available in all regions. Guest RDMA on Azure Boost extends Remote D
-    Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-public-preview-of-guest-rdma-for-azure-boost/ba-p/4573027
-
-  ► Direct Virtualization: A New Foundation for Agentic AI in Azure
-    Agentic AI and other modern workloads increasingly need to run in strongly isolated sandboxes, with high performance, high scalability, fast lifecycle
-    Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/direct-virtualization-a-new-foundation-for-agentic-ai-in-azure/ba-p/4573925
-
-  ► Introducing Azure Boost observability for NVMe™ disks
-    Today we are introducing Azure Boost observability for NVMe disks, an open-source command-line tool that you run inside compatible Azure VMs. Backed b
-    Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/introducing-azure-boost-observability-for-nvme-disks/ba-p/4572188
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Confidential Computing]
-
-  ► Advancing confidential computing with Intel TDX: more performance, more resiliency
-    Authored with Simran Parkhe, Nati Alayev, Sarah Stephenson Introduction Today at Ignite, we presented an industry-first demonstration of TEE Device In
-    Link: https://techcommunity.microsoft.com/t5/azure-confidential-computing/advancing-confidential-computing-with-intel-tdx-more-performance/ba-p/4572307
-
-  ► Shrinking the trusted computing base for sensitive cloud workloads
-    A signing service often holds the highest-value key in your architecture while sharing a host with logging agents, web routers, and orchestration daem
-    Link: https://techcommunity.microsoft.com/t5/azure-confidential-computing/shrinking-the-trusted-computing-base-for-sensitive-cloud/ba-p/4573926
-
-  ► Closing the Azure Confidential VM Performance Gap with Intel® TDX
-    The question every customer asks When organizations evaluate confidential computing, the conversation usually starts with security: how memory is prot
-    Link: https://techcommunity.microsoft.com/t5/azure-confidential-computing/closing-the-azure-confidential-vm-performance-gap-with-intel-tdx/ba-p/4573358
-
-  ► Advancing Performance in AMD-Powered Azure Confidential VMs
-    Performance through the customer lens Security is the reason organizations turn to confidential computing. They need assurance that data remains prote
-    Link: https://techcommunity.microsoft.com/t5/azure-confidential-computing/advancing-performance-in-amd-powered-azure-confidential-vms/ba-p/4573370
-
-  ► C-ACI: Security Practices for Healthcare and Financial Services
-    Healthcare and financial services organizations need to put sensitive data to work, whether analyzing patient records, detecting fraud, or running AI 
-    Link: https://techcommunity.microsoft.com/t5/azure-confidential-computing/c-aci-security-practices-for-healthcare-and-financial-services/ba-p/4573344
+  ► Beyond the pilot: Scaling Azure SRE Agent across your enterprise
+    For organizations modernizing with AI, deploying a successful first agent is only the beginning. The real test is moving from a pilot into the core wo
+    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/beyond-the-pilot-scaling-azure-sre-agent-across-your-enterprise/ba-p/4573349
 
 [PAUSA]
 
@@ -131,57 +63,16 @@ Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Apps on Azure]
+[BLOCO: Confidential Computing]
 
-  ► What’s new in Azure SRE Agent at Microsoft Ignite 2026
-    Over the past year, teams have moved Azure SRE Agent from exploratory pilots into the work that keeps their services running: incident response, debug
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-at-microsoft-ignite-2026/ba-p/4573607
-
-  ► Beyond the pilot: Scaling Azure SRE Agent across your enterprise
-    For organizations modernizing with AI, deploying a successful first agent is only the beginning. The real test is moving from a pilot into the core wo
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/beyond-the-pilot-scaling-azure-sre-agent-across-your-enterprise/ba-p/4573349
-
-  ► Azure Catalyst: one connected, agent-led modernization experience across apps, data, and infra
-    Preparing applications for AI requires teams to understand how their systems share data, where business rules reside, and what needs to change. Teams 
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-catalyst-one-connected-agent-led-modernization-experience/ba-p/4573988
-
-  ► Managed connectors in Azure Functions are now generally available
-    Today, we're announcing the general availability of managed connectors in Azure Functions, bringing managed connectivity to business systems directly 
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/managed-connectors-in-azure-functions-are-now-generally/ba-p/4574143
-
-  ► A Rust foundation for Python Functions: evolution of the Python worker
-    When you write a Python function, your focus is on what the function should do. Behind the scenes, the layer that passes requests to your code affects
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/a-rust-foundation-for-python-functions-evolution-of-the-python/ba-p/4573890
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Observability]
-
-  ► Unified agent observability with end-to-end tracing in Azure Monitor
-    Creating an AI agent can take minutes, with little or no code. Understanding its behavior, tracking its cost, and debugging a response across multiple
-    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/unified-agent-observability-with-end-to-end-tracing-in-azure/ba-p/4574277
-
-  ► Agent observability in Azure Monitor at Ignite 2026
-    AI agents are becoming easier to build. Understanding why an agent gave an incomplete answer, where it spent time, or what drove its cost is harder, e
-    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/agent-observability-in-azure-monitor-at-ignite-2026/ba-p/4573966
-
-  ► What's new in Azure Monitor at Ignite 2026
-    Agents now sit at the center of modern applications, calling models, tools and other agents across a stack of APIs, data and infrastructure, so when a
-    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/what-s-new-in-azure-monitor-at-ignite-2026/ba-p/4573974
-
-  ► Unified agent observability with end-to-end tracing in Azure Monitor
-    Creating an AI agent can take minutes, with little or no code. Understanding its behavior, tracking its cost, and debugging a response across multiple
-    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/unified-agent-observability-with-end-to-end-tracing-in-azure/ba-p/4574276
+  ► C-ACI: Security Practices for Healthcare and Financial Services
+    Healthcare and financial services organizations need to put sensitive data to work, whether analyzing patient records, detecting fraud, or running AI 
+    Link: https://techcommunity.microsoft.com/t5/azure-confidential-computing/c-aci-security-practices-for-healthcare-and-financial-services/ba-p/4573344
 
 [PAUSA]
 
 ----------------------------------------
 [BLOCO: Azure Storage]
-
-  ► Azure Native Commvault Cloud is now generally available
-    As you modernize critical applications and adopt AI, protecting and recovering data becomes essential to innovation. New AI-powered experiences depend
-    Link: https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-native-commvault-cloud-is-now-generally-available/ba-p/4573783
 
   ► Azure Elastic SAN Next Generation public preview: Mission-critical performance & cloud-native scale
     Mission-critical applications such as SAP HANA, Epic, and core transactional databases demand consistently high performance and predictable low latenc
@@ -217,46 +108,11 @@ Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Azure SQL Dev Corner]
+[BLOCO: Azure Arc]
 
-  ► New Create and Apply wizards in SSMS (Preview)
-    Need to save a database schema, move schema and data to another environment, or deploy a DACPAC to an existing database but find the existing options 
-    Link: https://devblogs.microsoft.com/azure-sql/new-create-and-apply-wizards-in-ssms-preview/
-
-  ► Build locally with Azure SQL Database container, now in public preview
-    Azure SQL Database container: build locally, test continuously, ship to Azure. Today at Microsoft Ignite, we’re announcing the public preview of Azure
-    Link: https://devblogs.microsoft.com/azure-sql/build-locally-with-azure-sql-database-container-now-in-public-preview/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: High Performance Computing]
-
-  ► Matching Storage Performance to every stage of your AI Workloads on Azure
-    Every minute a GPU spends waiting for data is a minute you pay for and get nothing back. As accelerators get faster and clusters grow, that idle time 
-    Link: https://techcommunity.microsoft.com/t5/azure-high-performance-computing/matching-storage-performance-to-every-stage-of-your-ai-workloads/ba-p/4574196
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: AKS Blog]
-
-  ► DRANET on AKS: From manual orchestration to platform integration for your distributed RDMA workloads
-    Explore managed support for DRANET capabilities on AKS, topology-aware RDMA allocation through Kubernetes DRA, and NCCL benchmarks of GPU/NIC alignmen
-    Link: https://blog.aks.azure.com/2026/11/18/managed-support-for-dranet
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Governance & Management]
-
-  ► [Public Preview] See what's running across your servers with Machine Inventory
-    Which servers have a particular application installed? Where are certificates approaching expiration? Which accounts are used to run Windows services?
-    Link: https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-see-what-s-running-across-your-servers-with/ba-p/4573924
-
-  ► [Public Preview] Introducing Security Baseline Remediation in Machine Configuration
-    Security baselines help organizations define and assess their server security posture. But identifying configuration drift is only part of the work—co
-    Link: https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-introducing-security-baseline-remediation-in/ba-p/4573899
+  ► What's new with Sovereign Private Cloud at Microsoft Ignite 2026
+    As organizations are scaling AI adoption at an unprecedented pace, they need to stay in control of their data, operations, and access as regulatory an
+    Link: https://techcommunity.microsoft.com/t5/azure-arc-blog/what-s-new-with-sovereign-private-cloud-at-microsoft-ignite-2026/ba-p/4573886
 
 [PAUSA]
 
