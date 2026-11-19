@@ -1,24 +1,87 @@
 {
-  "lastUpdated": "2026-11-19T01:41:25.345841+00:00",
-  "totalArticles": 296,
+  "lastUpdated": "2026-11-19T07:25:39.142940+00:00",
+  "totalArticles": 308,
   "articles": [
     {
-      "title": "What’s new in Azure SRE Agent at Microsoft Ignite 2026",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-at-microsoft-ignite-2026/ba-p/4573607",
-      "published": "2026-11-18T21:05:10+00:00",
-      "summary": "Over the past year, teams have moved Azure SRE Agent from exploratory pilots into the work that keeps their services running: incident response, debugging deployments, triaging new issues, and the routine, proactive work that happens between them. That shift changes what customers ask of us. The...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "sanchitmehta"
+      "title": "Citrix DaaS™ Profiles Flex: Profiles that outlive the desktop",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/citrix-daas-profiles-flex-profiles-that-outlive-the-desktop/ba-p/4574224",
+      "published": "2026-11-19T01:53:31+00:00",
+      "summary": "Desktops are temporary, but a user's work shouldn't be. Virtual desktops are routinely reassigned, reimaged, and reprovisioned, yet users still expect their settings, files, and personalized experience to be there every time they sign in. Citrix DaaS Profiles Flex, an add-on to Citrix DaaS Flex,...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "Vybava_Ramadoss"
     },
     {
-      "title": "Enable and manage Gateway API on Azure Portal",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-and-manage-gateway-api-on-azure-portal/ba-p/4574567",
-      "published": "2026-11-18T20:32:19+00:00",
-      "summary": "Gateway API is the long-term Kubernetes standard for ingress and L7 traffic management. Compared with the traditional Ingress resource, Gateway API separates infrastructure entry points from routing configuration, giving platform and application teams clearer ownership boundaries and a more...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "mjranda"
+      "title": "Advancing confidential computing with Intel TDX: more performance, more resiliency",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/advancing-confidential-computing-with-intel-tdx-more-performance/ba-p/4572307",
+      "published": "2026-11-19T01:42:22+00:00",
+      "summary": "Authored with Simran Parkhe, Nati Alayev, Sarah Stephenson Introduction Today at Ignite, we presented an industry-first demonstration of TEE Device Interface Security Protocol (TDISP) with Azure Boost, showcasing up to 400 Gbps of network bandwidth. We also released improvements across our...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "michamcr"
+    },
+    {
+      "title": "Join us in using AI Workflow Preview Feature in Microsoft Planetary Computer Pro",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/join-us-in-using-ai-workflow-preview-feature-in-microsoft/ba-p/4571817",
+      "published": "2026-11-18T20:56:36+00:00",
+      "summary": "The adoption of models continues to grow across industries. As highlighted in a prior blog post, we’ve released a range of geospatial AI models designed to extract valuable insights from satellite imagery. While these models are accessible through Microsoft Foundry, operationalizing these models...",
+      "blog": "Planetary Computer",
+      "blogId": "microsoft-planetary-computer-blog",
+      "author": "nelsontam"
+    },
+    {
+      "title": "Inside the architecture: How connectors work with Azure Functions",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/inside-the-architecture-how-connectors-work-with-azure-functions/ba-p/4573939",
+      "published": "2026-11-18T20:43:32+00:00",
+      "summary": "Say you run a shared support inbox. Each time a customer writes in, you want a function to read the email, pick out the important parts, and post a summary in your team's Teams channel. The business logic might be twenty lines. The rest is authorization, change detection, event delivery, and a...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "swapnil_nagar"
+    },
+    {
+      "title": "Lantern: agentic AI for records and provenance on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/lantern-agentic-ai-for-records-and-provenance-on-azure/ba-p/4572947",
+      "published": "2026-11-18T20:41:36+00:00",
+      "summary": "Author: Warren Kahn, Senior Solution Engineer, MicrosoftVersion: 3.5.10, 12 November 2026Written for: Architects and technical leaders at museums, libraries and archives, auction houses, banks, land registries and manufacturers with product passports, and the partners who build for themReading...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "WarrenZA"
+    },
+    {
+      "title": "Advancing agentic operations on Azure at Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-agentic-operations-on-azure-at-ignite-2026/ba-p/4573831",
+      "published": "2026-11-18T20:04:49+00:00",
+      "summary": "AI is fundamentally changing what IT teams operate in the cloud and how they operate it. As organizations put more AI agents to work, IT teams face two challenges. They need to manage workloads that behave differently from traditional applications while finding better ways to keep systems they...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Brendan Burns"
+    },
+    {
+      "title": "Announcing HL7 General Availability and MLLP Connector Public Preview in Azure Logic Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-hl7-general-availability-and-mllp-connector-public/ba-p/4574174",
+      "published": "2026-11-18T19:29:18+00:00",
+      "summary": "Healthcare organizations run on HL7 v2.x. Admissions, lab results, orders and billing still move between EHR, LIS, RIS and HIS systems as pipe-delimited messages over long-lived TCP connections, and many of those interfaces have been running on BizTalk Server and the BizTalk Accelerator for HL7...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "hcamposu"
+    },
+    {
+      "title": "Join us for the GeoStats preview in Microsoft Planetary Computer Pro",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/join-us-for-the-geostats-preview-in-microsoft-planetary-computer/ba-p/4573856",
+      "published": "2026-11-18T19:02:15+00:00",
+      "summary": "An agricultural lender monitoring a portfolio of farms wants a weekly view of vegetation conditions so its risk team can identify fields that need attention. Satellite imagery contains that signal, but reviewing imagery field by field does not scale. Turning millions of raster pixels into...",
+      "blog": "Planetary Computer",
+      "blogId": "microsoft-planetary-computer-blog",
+      "author": "BrentEHarris"
+    },
+    {
+      "title": "Announcing preview of new Azure DH/EHasv8 VMs based on 6th Gen AMD EPYC™ (“Venice”) processors",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-preview-of-new-azure-dh-ehasv8-vms-based-on-6th-gen/ba-p/4573295",
+      "published": "2026-11-18T18:06:46+00:00",
+      "summary": "We are excited to announce the preview of the new Azure DHasv8, DHalsv8 and EHasv8-series virtual machines (VMs), powered by 6th Generation AMD EPYC™ (“Venice”) processors. Designed for the next generation of cloud applications, these VMs deliver expanded compute and memory scalability, enhanced...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "ArpitaChatterjee"
     },
     {
       "title": "Public preview: OS-level dependency support via containers for Azure Functions Flex Consumption",
@@ -28,6 +91,15 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "madhurabharadwaj"
+    },
+    {
+      "title": "Announcing Public Preview of Guest RDMA for Azure Boost",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-public-preview-of-guest-rdma-for-azure-boost/ba-p/4573027",
+      "published": "2026-11-18T17:04:34+00:00",
+      "summary": "Today, we're excited to announce the public preview of Guest RDMA on Azure Boost, available in all regions. Guest RDMA on Azure Boost extends Remote Direct Memory Access (RDMA) directly into guest VMs over the front-end Network Interface Card (NIC). Applications interact natively with RDMA verbs...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "MengxiWu"
     },
     {
       "title": "Hosted agents in Foundry Agent Service at Ignite 2026: from pilot to production inside your enterprise boundaries",
@@ -75,6 +147,15 @@
       "author": "Linda Li, Nandini Muralidharan"
     },
     {
+      "title": "Shrinking the trusted computing base for sensitive cloud workloads",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/shrinking-the-trusted-computing-base-for-sensitive-cloud/ba-p/4573926",
+      "published": "2026-11-18T17:00:03+00:00",
+      "summary": "A signing service often holds the highest-value key in your architecture while sharing a host with logging agents, web routers, and orchestration daemons that never need that key. The same pattern shows up when an AI agent system brokers credentials or evaluates sensitive policy rules alongside...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "pawankhandavilli"
+    },
+    {
       "title": "Azure SRE Agent now natively supports AWS and Google Cloud",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-now-natively-supports-aws-and-google-cloud/ba-p/4569556",
       "published": "2026-11-18T17:00:00+00:00",
@@ -82,6 +163,24 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Rajneeshmitharwal"
+    },
+    {
+      "title": "Closing the Azure Confidential VM Performance Gap with Intel® TDX",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/closing-the-azure-confidential-vm-performance-gap-with-intel-tdx/ba-p/4573358",
+      "published": "2026-11-18T16:24:19+00:00",
+      "summary": "The question every customer asks When organizations evaluate confidential computing, the conversation usually starts with security: how memory is protected, how attestation works, and who controls the root of trust. But it rarely ends there. The next question is almost always performance. Customers...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "Mihir22_Patel"
+    },
+    {
+      "title": "Advancing Performance in AMD-Powered Azure Confidential VMs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/advancing-performance-in-amd-powered-azure-confidential-vms/ba-p/4573370",
+      "published": "2026-11-18T16:22:21+00:00",
+      "summary": "Performance through the customer lens Security is the reason organizations turn to confidential computing. They need assurance that data remains protected while it is being processed, supported by attestation and a clearly defined root of trust. Once that foundation is understood, attention quickly...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "Mihir22_Patel"
     },
     {
       "title": "C-ACI: Security Practices for Healthcare and Financial Services",
@@ -93,6 +192,15 @@
       "author": "SyedHaider"
     },
     {
+      "title": "What’s new in Azure SRE Agent at Microsoft Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-at-microsoft-ignite-2026/ba-p/4573607",
+      "published": "2026-11-18T14:15:23+00:00",
+      "summary": "Over the past year, teams have moved Azure SRE Agent from exploratory pilots into the work that keeps their services running: incident response, debugging deployments, triaging new issues, and the routine, proactive work that happens between them. That shift changes what customers ask of us. The...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "sanchitmehta"
+    },
+    {
       "title": "Beyond the pilot: Scaling Azure SRE Agent across your enterprise",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/beyond-the-pilot-scaling-azure-sre-agent-across-your-enterprise/ba-p/4573349",
       "published": "2026-11-18T14:00:00+00:00",
@@ -100,6 +208,60 @@
       "blog": "Apps on Azure",
       "blogId": "appsonazureblog",
       "author": "Cary_Chai"
+    },
+    {
+      "title": "Direct Virtualization: A New Foundation for Agentic AI in Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/direct-virtualization-a-new-foundation-for-agentic-ai-in-azure/ba-p/4573925",
+      "published": "2026-11-18T14:00:00+00:00",
+      "summary": "Agentic AI and other modern workloads increasingly need to run in strongly isolated sandboxes, with high performance, high scalability, fast lifecycle operations, and efficient access to GPUs. Traditionally, many of these workloads relied on nested virtualization, trading-off performance and...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "DarrenM"
+    },
+    {
+      "title": "Unified agent observability with end-to-end tracing in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/unified-agent-observability-with-end-to-end-tracing-in-azure/ba-p/4574277",
+      "published": "2026-11-18T13:27:11+00:00",
+      "summary": "Creating an AI agent can take minutes, with little or no code. Understanding its behavior, tracking its cost, and debugging a response across multiple agents is much harder—and sometimes impossible without visibility into the runtimes behind them. Your agent may rely on managed runtimes and...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Hong Gao"
+    },
+    {
+      "title": "Agent observability in Azure Monitor at Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/agent-observability-in-azure-monitor-at-ignite-2026/ba-p/4573966",
+      "published": "2026-11-18T13:26:26+00:00",
+      "summary": "AI agents are becoming easier to build. Understanding why an agent gave an incomplete answer, where it spent time, or what drove its cost is harder, especially when requests cross agents, tools, and runtimes you didn't build. For managed agents, you can't instrument the platform's internal code...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Hong Gao"
+    },
+    {
+      "title": "What's new in Azure Monitor at Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/what-s-new-in-azure-monitor-at-ignite-2026/ba-p/4573974",
+      "published": "2026-11-18T13:24:46+00:00",
+      "summary": "Agents now sit at the center of modern applications, calling models, tools and other agents across a stack of APIs, data and infrastructure, so when a customer says the agent is slow, the cause can sit anywhere. At Microsoft Ignite 2026, Azure Monitor gives developers, SREs and IT operations teams...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Richa_Thakur"
+    },
+    {
+      "title": "Unified agent observability with end-to-end tracing in Azure Monitor",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/unified-agent-observability-with-end-to-end-tracing-in-azure/ba-p/4574276",
+      "published": "2026-11-18T13:03:51+00:00",
+      "summary": "Creating an AI agent can take minutes, with little or no code. Understanding its behavior, tracking its cost, and debugging a response across multiple agents is much harder—and sometimes impossible without visibility into the runtimes behind them. Your agent may rely on managed runtimes and...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Hong Gao"
+    },
+    {
+      "title": "Azure Native Commvault Cloud is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-native-commvault-cloud-is-now-generally-available/ba-p/4573783",
+      "published": "2026-11-18T13:00:00+00:00",
+      "summary": "As you modernize critical applications and adopt AI, protecting and recovering data becomes essential to innovation. New AI-powered experiences depend on the availability and integrity of the systems and data behind them. Protection needs to fit how teams operate in Azure, with clear policies and...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "dmalbrough"
     },
     {
       "title": "Azure Elastic SAN Next Generation public preview: Mission-critical performance & cloud-native scale",
@@ -327,24 +489,6 @@
       "author": "Mayuri_Gupta"
     },
     {
-      "title": "Microsoft Retriever 1 brings sub-second agentic retrieval to Foundry IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-retriever-1-brings-sub-second-agentic-retrieval-to/ba-p/4573431",
-      "published": "2026-11-17T21:30:00+00:00",
-      "summary": "By: the Foundry IQ microsoft-retriever-1 teamToday, we’re introducing Microsoft Retriever 1 an agentic search model trained by Microsoft and available in Foundry IQ. It’s available in preview today, with no provisioning or reindexing. Key Points microsoft-retriever-1 is an agentic search model...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MattGotteiner"
-    },
-    {
-      "title": "Knowledge graphs in Foundry IQ improve evidence recall with fewer tokens",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/knowledge-graphs-in-foundry-iq-improve-evidence-recall-with/ba-p/4573663",
-      "published": "2026-11-17T21:30:00+00:00",
-      "summary": "By: the Foundry IQ knowledge graph team We’re introducing knowledge graphs in Foundry IQ to help agents answer questions that connect facts across documents or gathering evidence across a collection. Knowledge graph entities structures facts and their relationships for precise queries. Knowledge...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "MattGotteiner"
-    },
-    {
       "title": "AI for FinOps: bringing the cost answer to where decisions are made",
       "link": "https://techcommunity.microsoft.com/t5/finops-blog/ai-for-finops-bringing-the-cost-answer-to-where-decisions-are/ba-p/4571510",
       "published": "2026-11-17T21:15:00+00:00",
@@ -453,15 +597,6 @@
       "author": "Rajesh Ramamurthy"
     },
     {
-      "title": "Agent observability in Azure Monitor at Ignite 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/agent-observability-in-azure-monitor-at-ignite-2026/ba-p/4573966",
-      "published": "2026-11-17T20:15:27+00:00",
-      "summary": "AI agents are becoming easier to build. Understanding why an agent gave an incomplete answer, where it spent time, or what drove its cost is harder, especially when requests cross agents, tools, and runtimes you didn't build. For managed agents, you can't instrument the platform's internal code...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Hong Gao"
-    },
-    {
       "title": "Announcing protected Gen AI content in Azure Monitor Application Insights and Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/announcing-protected-gen-ai-content-in-azure-monitor-application/ba-p/4572729",
       "published": "2026-11-17T20:14:53+00:00",
@@ -532,15 +667,6 @@
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
       "author": "Bandhan"
-    },
-    {
-      "title": "What's new in Azure Monitor at Ignite 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/what-s-new-in-azure-monitor-at-ignite-2026/ba-p/4573974",
-      "published": "2026-11-17T20:03:25+00:00",
-      "summary": "Agents now sit at the center of modern applications, calling models, tools and other agents across a stack of APIs, data and infrastructure, so when a customer says the agent is slow, the cause can sit anywhere. At Microsoft Ignite 2026, Azure Monitor gives developers, SREs and IT operations teams...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Richa_Thakur"
     },
     {
       "title": "Announcing Azure Workload Center for Oracle and Azure Copilot Run Oracle Agent",
@@ -732,15 +858,6 @@
       "author": "Ashish__Jain"
     },
     {
-      "title": "Announcing HL7 General Availability and MLLP Connector Public Preview in Azure Logic Apps",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-hl7-general-availability-and-mllp-connector-public/ba-p/4574174",
-      "published": "2026-11-17T19:16:08+00:00",
-      "summary": "Healthcare organizations run on HL7 v2.x. Admissions, lab results, orders and billing still move between EHR, LIS, RIS and HIS systems as pipe-delimited messages over long-lived TCP connections, and many of those interfaces have been running on BizTalk Server and the BizTalk Accelerator for HL7...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "hcamposu"
-    },
-    {
       "title": "Bring-your-own image and Azure Cosmos DB MCP server in Connector Namespace hosted MCP (preview)",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/bring-your-own-image-and-azure-cosmos-db-mcp-server-in-connector/ba-p/4574177",
       "published": "2026-11-17T19:13:26+00:00",
@@ -856,24 +973,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "KashanK"
-    },
-    {
-      "title": "Announcing preview of new Azure DH/EHasv8 VMs based on 6th Gen AMD EPYC™ (“Venice”) processors",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-preview-of-new-azure-dh-ehasv8-vms-based-on-6th-gen/ba-p/4573295",
-      "published": "2026-11-17T18:47:58+00:00",
-      "summary": "We are excited to announce the preview of the new Azure DHasv8, DHalsv8 and EHasv8-series virtual machines (VMs), powered by 6th Generation AMD EPYC™ (“Venice”) processors. Designed for the next generation of cloud applications, these VMs deliver expanded compute and memory scalability, enhanced...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "ArpitaChatterjee"
-    },
-    {
-      "title": "Hosting your LangGraph application on Microsoft Foundry Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/hosting-your-langgraph-application-on-microsoft-foundry-agents/ba-p/4573342",
-      "published": "2026-11-17T18:47:33+00:00",
-      "summary": "This post was co-authored my Maira Ladeira Tanke, Ying Hua and Muzz Imam Consider a sales team that wants an assistant to handle customer returns. A customer asks, “Can I return my order?” The assistant needs to understand the request, look up the order, and use the available tools to help the...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "mairatanke"
     },
     {
       "title": "Accelerate development and AI agent integration with Azure Cosmos DB",
@@ -993,15 +1092,6 @@
       "author": "yunishussein"
     },
     {
-      "title": "Advancing agentic operations on Azure at Ignite 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-agentic-operations-on-azure-at-ignite-2026/ba-p/4573831",
-      "published": "2026-11-17T18:45:00+00:00",
-      "summary": "AI is fundamentally changing what IT teams operate in the cloud and how they operate it. As organizations put more AI agents to work, IT teams face two challenges. They need to manage workloads that behave differently from traditional applications while finding better ways to keep systems they...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Brendan Burns"
-    },
-    {
       "title": "Blob Storage Turbo Tier: High performance with object storage scale and economics",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/blob-storage-turbo-tier-high-performance-with-object-storage/ba-p/4573491",
       "published": "2026-11-17T18:45:00+00:00",
@@ -1083,24 +1173,6 @@
       "author": "Dana_Bargury"
     },
     {
-      "title": "From model choice to your durable advantage: Build AI that keeps improving",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-model-choice-to-your-durable-advantage-build-ai-that-keeps/ba-p/4573609",
-      "published": "2026-11-17T18:15:00+00:00",
-      "summary": "Every organization now has access to the same frontier models. What sets your business apart is how you put those models to work with your data, your expertise, and your definition of success. In our conversations with customers, three priorities come up again and again: flexibility to choose the...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
-    },
-    {
-      "title": "GPT-6.2 Astra and GPT-6.2 Sol now generally available in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/gpt-6-2-astra-and-gpt-6-2-sol-now-generally-available-in/ba-p/4574122",
-      "published": "2026-11-17T18:12:07+00:00",
-      "summary": "Better answers for less: the newest Astra reasoning model delivers higher accuracy with fewer output tokens in Foundry testing, bringing down cost per task. Today, OpenAI's GPT-6.2 Astra and GPT-6.2 Sol are generally available in Microsoft Foundry. Both models build on their predecessors: GPT-6.2...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Naomi Moneypenny"
-    },
-    {
       "title": "Azure Databricks delivers new integrations for enterprise intelligence to use, build, and govern AI",
       "link": "https://techcommunity.microsoft.com/t5/azure-databricks/azure-databricks-delivers-new-integrations-for-enterprise/ba-p/4574157",
       "published": "2026-11-17T18:11:54+00:00",
@@ -1110,13 +1182,13 @@
       "author": "AnaviNahar"
     },
     {
-      "title": "Foundry IQ: Introducing knowledge graphs, engineered for agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-introducing-knowledge-graphs-engineered-for-agents/ba-p/4572683",
-      "published": "2026-11-17T18:00:00+00:00",
-      "summary": "Your applications already help people find business information by keyword, field and facet. Agents use that same information to get work done: checking a policy in SharePoint, finding a supplier contract, or working out which products a new regulation affects. Retrieving the right information from...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "pablocastro"
+      "title": "Azure Container Registry now supports keys in Managed HSM",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-registry-now-supports-keys-in-managed-hsm/ba-p/4572984",
+      "published": "2026-11-17T17:47:53+00:00",
+      "summary": "A dedicated HSM environment for your container registry's encryption key What if your container registry's encryption key could live in an HSM environment reserved for your organization, while Azure handles the infrastructure? Azure Key Vault Managed HSM provides a dedicated, single-tenant...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "cshung"
     },
     {
       "title": "Simplify server management at scale with the new Essential Machine Management dashboard",
@@ -1189,15 +1261,6 @@
       "blog": "Integrations on Azure",
       "blogId": "integrationsonazureblog",
       "author": "WSilveira"
-    },
-    {
-      "title": "Join us in using AI Workflow Preview Feature in Microsoft Planetary Computer Pro",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/join-us-in-using-ai-workflow-preview-feature-in-microsoft/ba-p/4571817",
-      "published": "2026-11-17T15:10:28+00:00",
-      "summary": "The adoption of models continues to grow across industries. As highlighted in a prior blog post, we’ve released a range of geospatial AI models designed to extract valuable insights from satellite imagery. While these models are accessible through Microsoft Foundry, operationalizing these models...",
-      "blog": "Planetary Computer",
-      "blogId": "microsoft-planetary-computer-blog",
-      "author": "nelsontam"
     },
     {
       "title": "Confidential AI on AKS: Running Phi-4-mini with KAITO and Azure NCC H100 GPUs",
@@ -1342,15 +1405,6 @@
       "blog": "Azure Architecture",
       "blogId": "azurearchitectureblog",
       "author": "Enekovb"
-    },
-    {
-      "title": "Lantern: agentic AI for records and provenance on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/lantern-agentic-ai-for-records-and-provenance-on-azure/ba-p/4572947",
-      "published": "2026-11-16T20:53:39+00:00",
-      "summary": "Author: Warren Kahn, Senior Solution Engineer, MicrosoftVersion: 3.5.10, 12 November 2026Written for: Architects and technical leaders at museums, libraries and archives, auction houses, banks, land registries and manufacturers with product passports, and the partners who build for themReading...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "WarrenZA"
     },
     {
       "title": "A year of Azure Deployments: highlights from 2026",
@@ -1558,6 +1612,15 @@
       "blog": "FinOps",
       "blogId": "finopsblog",
       "author": "Michael_Flanakin"
+    },
+    {
+      "title": "Mistral Large 4 in Microsoft Foundry: Build sovereign AI within a consistent platform experience",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/mistral-large-4-in-microsoft-foundry-build-sovereign-ai-within-a/ba-p/4568546",
+      "published": "2026-11-12T00:14:15+00:00",
+      "summary": "What's launching Leading AI delivers more than model quality. For governments, critical infrastructure operators, financial institutions, healthcare organizations, and global enterprises, requirements for data control, deployment location, security, resilience, latency, and operational continuity...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "truptiparkar"
     },
     {
       "title": "Extending confidential computing protection to your data disks",
@@ -2100,6 +2163,15 @@
       "author": "soniagupta"
     },
     {
+      "title": "An engineering guide to Claude Code on Microsoft Foundry with Azure API Management",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/an-engineering-guide-to-claude-code-on-microsoft-foundry-with/ba-p/4569334",
+      "published": "2026-11-03T20:00:00+00:00",
+      "summary": "How do you give developers Claude Code while keeping identity, model access, budgets and private networking under enterprise control? I built Claude Code on Foundry (CCOF) to address that challenge, and I have taken this implementation live in multiple enterprises using this architecture. This...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "NaveenGopalakrishna"
+    },
+    {
       "title": "Sovereign controls for Oracle AI Database@Azure",
       "link": "https://techcommunity.microsoft.com/t5/oracle-on-azure-blog/sovereign-controls-for-oracle-ai-database-azure/ba-p/4567321",
       "published": "2026-11-03T18:48:12+00:00",
@@ -2116,6 +2188,15 @@
       "blog": "Azure Networking",
       "blogId": "azurenetworkingblog",
       "author": "vamsiboya_microsoft"
+    },
+    {
+      "title": "Build a Grounded Package Upgrade Advisor with Microsoft-Decision-1",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-a-grounded-package-upgrade-advisor-with-microsoft-decision/ba-p/4568374",
+      "published": "2026-11-03T17:00:00+00:00",
+      "summary": "About the Microsoft Decision Model In October 2026, Microsoft announced Microsoft-Decision-1, the latest model for fast decision-scoring available on Microsoft Foundry. Unlike LLMs that generate textual outputs, decision models return structured outputs that allow software to immediately act on,...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "SonakshiA"
     },
     {
       "title": "Go beyond the basics: Explore specialized Azure plugins for your AI agent",
@@ -2217,6 +2298,15 @@
       "author": "Kristen Womack"
     },
     {
+      "title": "Turn enterprise knowledge into a personalized voice and avatar agent in minutes with Voice Agent",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/turn-enterprise-knowledge-into-a-personalized-voice-and-avatar/ba-p/4564809",
+      "published": "2026-10-30T17:00:00+00:00",
+      "summary": "A customer asks how a product works, then follows up: “Can you give me an example?” They need a useful explanation based on your product documentation, without searching through pages of information. Now imagine that conversation delivered in a voice and with a face that represent your brand. Voice...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "YufangQin"
+    },
+    {
       "title": "What’s new in Microsoft Sentinel: October 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-october-2026/ba-p/4568804",
       "published": "2026-10-30T16:44:57+00:00",
@@ -2242,6 +2332,24 @@
       "blog": "Azure Arc",
       "blogId": "azurearcblog",
       "author": "yunishussein"
+    },
+    {
+      "title": "Designing Least-Privilege Tool Access for AI Agents with Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/designing-least-privilege-tool-access-for-ai-agents-with/ba-p/4567029",
+      "published": "2026-10-30T16:00:00+00:00",
+      "summary": "An AI agent does not need broad access because it might need a tool. It needs the smallest permission set required for the current task, under the correct identity, with a decision trail that explains every allow or deny. That distinction matters. A prompt can tell an agent not to delete data, but...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Abhishek Kumar"
+    },
+    {
+      "title": "Hypercharging Work IQ with Decision APIs",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/hypercharging-work-iq-with-decision-apis/ba-p/4562938",
+      "published": "2026-10-30T14:00:00+00:00",
+      "summary": "The pattern in this post: a Decision API picks the Work IQ tool before it runs. In short A Decision API picks the Work IQ tool (fetch, retrieve or ask) before anything runs, then checks the result. \"Who is my manager?\" took 20 to 25 seconds with ask and 1.3 seconds with fetch, with the same answer....",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "hieunhu"
     },
     {
       "title": "Does ‘eval’ in the workspace path change what your agent does?",
