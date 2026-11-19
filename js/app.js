@@ -7,7 +7,7 @@
     "Data & AI": ["analyticsonazure", "azure-databricks", "oracleonazureblog", "cosmosdbblog", "azuresqlblog", "foundryblog"],
     "Infrastructure": ["azureinfrastructureblog", "azurearcblog", "azurestackblog", "azurenetworkingblog", "azurenetworksecurityblog", "azurestorageblog"],
     "Architecture": ["azurearchitectureblog", "azure-customer-innovation-blog", "iseblog"],
-    "Apps & Platform": ["appsonazureblog", "azurepaasblog", "integrationsonazureblog", "messagingonazureblog", "aspireblog", "azuresdkblog"],
+    "Apps & Platform": ["appsonazureblog", "azurepaasblog", "integrationsonazureblog", "messagingonazureblog", "aspireblog", "azuresdkblog", "appservicebuilderblog"],
     "Operations": ["azuregovernanceandmanagementblog", "azureobservabilityblog", "finopsblog", "azuretoolsblog", "azuremigrationblog", "azuredevops"],
     "Community": ["azuredevcommunityblog", "azure-events", "linuxandopensourceblog", "allthingsazure", "msdevblog", "gbblog", "azurecitadelblog"],
     "Developer Tools": ["visualstudio", "vscodeblog", "commandline", "developfromthecloud"],
@@ -127,7 +127,7 @@
   // ===== Service Worker =====
   function registerServiceWorker() {
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("sw.js?v=9").catch(function () {});
+      navigator.serviceWorker.register("sw.js?v=11").catch(function () {});
     }
   }
 

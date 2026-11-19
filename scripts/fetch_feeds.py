@@ -11,6 +11,9 @@ import re
 import time
 from datetime import datetime, timedelta, timezone
 from html import unescape
+from html.parser import HTMLParser
+from urllib.parse import urljoin, urlsplit
+from urllib.request import Request, urlopen
 
 # Blog definitions: board_id -> display name
 BLOGS = {
@@ -277,6 +280,62 @@ def fetch_community_blogs():
     return articles
 
 
+class BuilderBlogParser(HTMLParser):
+    """Read article cards from Builder's public archive, which has no RSS feed."""
+
+    def __init__(self):
+        super().__init__()
+        self.articles = []
+        self.current = None
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == "article" and "data-post-card" in attrs:
+            self.current = {
+                "title": attrs.get("data-title", ""),
+                "summary": truncate(attrs.get("data-summary", "")),
+                "blog": "App Service Builder Blog",
+                "blogId": "appservicebuilderblog",
+                "author": "",
+            }
+        elif self.current is not None:
+            if tag == "a" and "link" not in self.current:
+                link = urljoin("https://builder.appservice.azure.com", attrs.get("href", ""))
+                parsed = urlsplit(link)
+                if (parsed.scheme == "https" and
+                        parsed.netloc == "builder.appservice.azure.com" and
+                        parsed.path.startswith("/blog/posts/") and not parsed.fragment):
+                    self.current["link"] = link
+            elif tag == "time" and "datetime" in attrs:
+                date = datetime.fromisoformat(attrs["datetime"].replace("Z", "+00:00"))
+                if date.tzinfo is None:
+                    raise ValueError("Builder blog publication date has no timezone")
+                self.current["published"] = date.astimezone(timezone.utc).isoformat()
+
+    def handle_endtag(self, tag):
+        if tag == "article" and self.current is not None:
+            if not all(self.current.get(key) for key in ("title", "link", "published")):
+                raise ValueError("Builder blog article is missing a title, link, or publication date")
+            self.articles.append(self.current)
+            self.current = None
+
+
+def fetch_builder_blog():
+    print("Fetching: App Service Builder Blog...")
+    request = Request(
+        "https://builder.appservice.azure.com/blog/posts.html",
+        headers={"User-Agent": "AzureFeed/1.0 (+https://azurefeed.news/)"},
+    )
+    with urlopen(request, timeout=30) as response:
+        html = response.read().decode("utf-8")
+    parser = BuilderBlogParser()
+    parser.feed(html)
+    if not parser.articles or parser.current is not None:
+        raise ValueError("Could not read the App Service Builder Blog archive")
+    print(f"  Found {len(parser.articles)} articles")
+    return parser.articles
+
+
 def generate_rss_feed(articles):
     """Generate an RSS feed XML file from the aggregated articles."""
     from xml.etree.ElementTree import Element, SubElement, tostring
@@ -374,6 +433,7 @@ def main():
     all_articles.extend(fetch_aks_blog())
     all_articles.extend(fetch_devblogs_feeds())
     all_articles.extend(fetch_community_blogs())
+    all_articles.extend(fetch_builder_blog())
 
     # Sort by date, newest first
     all_articles.sort(key=lambda x: x.get("published", ""), reverse=True)

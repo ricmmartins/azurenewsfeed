@@ -6,7 +6,7 @@ An Azure blog aggregator hosted on GitHub Pages, scheduled to update every two h
 
 ## Features
 
-- 📰 **50 blog sources** — Azure, DevOps, Developer Tools, Data & AI, and more
+- 📰 **50+ blog sources** — Azure, DevOps, Developer Tools, Data & AI, and more
 - 🔍 **Search & filter** — Find articles by keyword, blog category, or date range
 - 📆 **Specific day** — Select a publication day within the last 30 days, using your browser's local time; combines with search, category, and bookmarks. Dates refer to blog posts, not product release dates.
 - ⭐ **Bookmarks** — Save articles for later (stored locally per browser)
@@ -23,7 +23,7 @@ An Azure blog aggregator hosted on GitHub Pages, scheduled to update every two h
 | **Data & AI** | Analytics on Azure, Azure Databricks, Oracle on Azure, Cosmos DB, Azure SQL, Microsoft Foundry |
 | **Infrastructure** | Azure Infrastructure, Azure Arc, Azure Stack, Azure Networking, Azure Storage |
 | **Architecture** | Azure Architecture, Customer Innovation, ISE Developer Blog |
-| **Apps & Platform** | Apps on Azure, Azure PaaS, Integrations, Messaging, Aspire, Azure SDK |
+| **Apps & Platform** | Apps on Azure, Azure PaaS, Integrations, Messaging, Aspire, Azure SDK, [App Service Builder Blog](https://builder.appservice.azure.com/blog/) |
 | **Operations** | Governance & Management, Observability, FinOps, Azure Tools, Migration, Azure DevOps |
 | **Community** | Azure Dev Community, Azure Events, Linux & Open Source, All Things Azure, Microsoft Developers Blog, Azure Global Black Belt, Azure Citadel |
 | **Developer Tools** | Visual Studio, VS Code, Windows Command Line, Develop from the Cloud |
@@ -118,8 +118,10 @@ Abra o arquivo `latest.md` em qualquer app de teleprompter (ex: PromptSmart, Tel
 
 ## How It Works
 
+The App Service Builder Blog is collected from its public article archive (`/blog/posts.html`) because it does not advertise an RSS feed. Only article cards are imported, with their original publication timestamps; roadmap items and release notes are excluded.
+
 1. **GitHub Actions** runs every two hours at minute 17 of even-numbered UTC hours (or manually); GitHub may delay scheduled runs
-2. **Python script** fetches RSS feeds from all 50 Azure and Microsoft developer blogs
+2. **Python script** collects posts from 50+ Azure and Microsoft developer blogs
 3. Articles from the last 30 days are deduplicated, sorted, and saved to `data/feeds.json`
 4. **Teleprompter script** generates a daily PT-BR video script from today's articles
 5. The commit triggers **GitHub Pages** to redeploy
