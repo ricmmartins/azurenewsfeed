@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-11-19T17:24:19.479727+00:00",
-  "totalArticles": 312,
+  "lastUpdated": "2026-11-20T00:38:00.823744+00:00",
+  "totalArticles": 311,
   "articles": [
+    {
+      "title": "Live technical training, wherever you are: A VSLive! benefit for Visual Studio Subscribers",
+      "link": "https://devblogs.microsoft.com/visualstudio/live-technical-training-wherever-you-are-a-vslive-benefit-for-visual-studio-subscribers/",
+      "published": "2026-11-19T21:30:48+00:00",
+      "summary": "Developers are constantly speaking to me about how AI tool mastery has become an essential part of their everyday work. But learning how to use these tools effectively takes more than experimenting with a few prompts, and it often requires opportunities to learn that go beyond documentation and...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt"
+    },
+    {
+      "title": "Build trusted autonomous agents for your team with Microsoft Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/",
+      "published": "2026-11-19T19:53:30+00:00",
+      "summary": "A new kind of agent can work alongside your team in Microsoft 365, with its own identity, permissions, and a manager accountable for its work. Enterprises are all-in on AI agents, but the ROI hasn’t followed. What’s holding those agents back isn’t capability. Today’s agents can do remarkable work...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Amanda Foster"
+    },
+    {
+      "title": "Announcing public preview of Azure DDoS Protection peacetime telemetry",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-of-azure-ddos-protection-peacetime/ba-p/4574781",
+      "published": "2026-11-19T18:33:48+00:00",
+      "summary": "We're excited to announce the public preview of peacetime telemetry for Azure DDoS Protection. The DDoS traffic metrics you rely on during an attack now show your traffic during normal operation too. You can learn what normal looks like, set alerts and test your monitoring well before you need...",
+      "blog": "Azure Networking",
+      "blogId": "azurenetworkingblog",
+      "author": "OfirSarfaty"
+    },
+    {
+      "title": "Azure Infrastructure for Agentic AI",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-infrastructure-for-agentic-ai/ba-p/4574616",
+      "published": "2026-11-19T18:29:01+00:00",
+      "summary": "From AI that answers to AI that acts Enterprises didn’t move to the cloud by adopting a turnkey platform on day one. They started with services they could trust, like virtual machines and storage, and expanded from there as new applications and operating models emerged. AI is following a similar...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "DanaCozmei"
+    },
+    {
+      "title": "What's new in Azure Monitor at Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/what-s-new-in-azure-monitor-at-ignite-2026/ba-p/4573974",
+      "published": "2026-11-19T18:23:36+00:00",
+      "summary": "Agents now sit at the center of modern applications, calling models, tools and other agents across a stack of APIs, data and infrastructure, so when a customer says the agent is slow, the cause can sit anywhere. At Microsoft Ignite 2026, Azure Monitor gives developers, SREs and IT operations teams...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "Richa_Thakur"
+    },
+    {
+      "title": "Announcing the Inside the Game Developer Hackathon winners",
+      "link": "https://techcommunity.microsoft.com/t5/azure-events/announcing-the-inside-the-game-developer-hackathon-winners/ba-p/4574639",
+      "published": "2026-11-19T17:58:43+00:00",
+      "summary": "Football stories don't start and end with the scoreline. We’re excited to celebrate the six winning teams, from five countries of Inside the Game: Developer Hackathon, presented by Microsoft and the Premier League. The winners were announced at Microsoft Ignite 2026. During Inside the Game,...",
+      "blog": "Azure Events",
+      "blogId": "azure-events",
+      "author": "natiwo"
+    },
+    {
+      "title": "Azure DevOps integration with the GitHub Copilot app (public preview)",
+      "link": "https://devblogs.microsoft.com/devops/azure-devops-integration-with-the-github-copilot-app-public-preview/",
+      "published": "2026-11-19T17:39:09+00:00",
+      "summary": "We’re excited to announce the public preview of Azure DevOps integration in the Copilot app. You can now start agent sessions that work directly with your Azure DevOps repositories to create branches, make code changes, commit changes, and open pull requests. This brings GitHub Copilot’s coding...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem"
+    },
     {
       "title": "Azure Catalyst expands Webapp target coverage",
       "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/azure-catalyst-expands-webapp-target-coverage/ba-p/4574689",
@@ -541,15 +604,6 @@
       "blog": "Azure Observability",
       "blogId": "azureobservabilityblog",
       "author": "Hong Gao"
-    },
-    {
-      "title": "What's new in Azure Monitor at Ignite 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/what-s-new-in-azure-monitor-at-ignite-2026/ba-p/4573974",
-      "published": "2026-11-18T13:24:46+00:00",
-      "summary": "Agents now sit at the center of modern applications, calling models, tools and other agents across a stack of APIs, data and infrastructure, so when a customer says the agent is slow, the cause can sit anywhere. At Microsoft Ignite 2026, Azure Monitor gives developers, SREs and IT operations teams...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Richa_Thakur"
     },
     {
       "title": "Unified agent observability with end-to-end tracing in Azure Monitor",
@@ -2154,15 +2208,6 @@
       "author": "stevenbucher"
     },
     {
-      "title": "Azure DNS Traffic Manager linked records are now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/azure-dns-traffic-manager-linked-records-are-now-generally/ba-p/4547112",
-      "published": "2026-11-05T16:42:14+00:00",
-      "summary": "We're excited to announce the general availability of Azure Traffic Manager linked records, a new Azure DNS capability that enables customers to directly associate Azure Public DNS record sets with Azure Traffic Manager profiles without using a CNAME to trafficmanager.net. With this capability,...",
-      "blog": "Azure Networking",
-      "blogId": "azurenetworkingblog",
-      "author": "samimodak"
-    },
-    {
       "title": "Your best AX fixes are hiding in agent trajectories",
       "link": "https://devblogs.microsoft.com/blog/your-best-ax-fixes-are-hiding-in-agent-trajectories/",
       "published": "2026-11-05T15:40:49+00:00",
@@ -2188,15 +2233,6 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Baiju Meswani, Emma Ning, Tianlei Wu"
-    },
-    {
-      "title": "What’s new in Microsoft Foundry | October 2026",
-      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-october-2026/",
-      "published": "2026-11-05T11:40:48+00:00",
-      "summary": "Plan your Microsoft Ignite November 17-20 viewing, then explore October's Copilot harness preview, GA browser automation and hosted-agent resilience, Decisions API, and SDK updates with chapter-linked Handoff demos. The post What’s new in Microsoft Foundry | October 2026 appeared first on Microsoft...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Nick Brady"
     },
     {
       "title": "Build an AI-assisted invoice approval workflow with Power Automate and AI Builder",
@@ -2748,15 +2784,6 @@
       "author": "Laura Jiang"
     },
     {
-      "title": "Compare today’s code with an earlier commit",
-      "link": "https://devblogs.microsoft.com/visualstudio/compare-todays-code-with-an-earlier-commit/",
-      "published": "2026-10-21T14:00:30+00:00",
-      "summary": "Compare a historical commit with your working tree without checking out the commit or leaving your branch. The post Compare today’s code with an earlier commit appeared first on Visual Studio Blog.",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Leah Tran"
-    },
-    {
       "title": "Microsoft at NVIDIA GTC Berlin 2026: sovereign AI on your terms",
       "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/microsoft-at-nvidia-gtc-berlin-2026-sovereign-ai-on-your-terms/ba-p/4566171",
       "published": "2026-10-21T11:32:12+00:00",
@@ -2773,42 +2800,6 @@
       "blog": "Windows Command Line",
       "blogId": "commandline",
       "author": "Niels Laute"
-    },
-    {
-      "title": "Introducing Azure Copilot for Azure Local: AI-powered operations for distributed infrastructure",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/introducing-azure-copilot-for-azure-local-ai-powered-operations/ba-p/4565723",
-      "published": "2026-10-20T20:25:48+00:00",
-      "summary": "Managing distributed infrastructure can be complex. When an issue occurs, operators may need to navigate multiple tools, review health signals and diagnostics, interpret logs, and determine the right troubleshooting steps before they can move toward resolution. Azure Copilot for Azure Local helps...",
-      "blog": "Azure Arc",
-      "blogId": "azurearcblog",
-      "author": "naafiahsadique"
-    },
-    {
-      "title": "Manage all your Microsoft Sentinel data in one place with Unified Data Management (Public Preview)",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/manage-all-your-microsoft-sentinel-data-in-one-place-with/ba-p/4565940",
-      "published": "2026-10-20T19:34:43+00:00",
-      "summary": "As security teams bring in more data from more sources and use it across SIEM and XDR workflows, decisions about connector health, ingestion volume, and cost optimization get harder. Today, we’re announcing the public preview of Unified Data Management for Microsoft Sentinel, available in the new...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "amybook"
-    },
-    {
-      "title": "Cloud Security Billing, Simplified: Introducing the Defender Workload Unit",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/cloud-security-billing-simplified-introducing-the-defender/ba-p/4559743",
-      "published": "2026-10-20T19:02:27+00:00",
-      "summary": "That's the thinking behind an upcoming improvement to Microsoft Defender for Cloud: the Defender Workload Unit, or DWU. It's a new billing model and product experience that translates workload-specific usage into a common billing unit, with one unit price and one place to estimate and track costs....",
-      "blog": "Microsoft Defender for Cloud",
-      "blogId": "microsoftdefendercloudblog",
-      "author": "danielacardon"
-    },
-    {
-      "title": "Expanded cross-tenant delegated access in Microsoft Defender is generally available",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/expanded-cross-tenant-delegated-access-in-microsoft-defender-is/ba-p/4565941",
-      "published": "2026-10-20T17:24:44+00:00",
-      "summary": "Security operations rarely stop at a single tenant boundary. Managed security service providers (MSSPs) protect many customer environments, and central security teams often operate across a tenant estate spanning business units, regions, or subsidiaries. In both cases, teams need to delegate...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "Robi Czitron"
     }
   ]
 }

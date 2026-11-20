@@ -1,5 +1,5 @@
 ============================================================
-ROTEIRO - AZURE NEWS DIÁRIO - 19/11/2026
+ROTEIRO - AZURE NEWS DIÁRIO - 20/11/2026
 ============================================================
 
 [ABERTURA]
@@ -7,9 +7,72 @@ ROTEIRO - AZURE NEWS DIÁRIO - 19/11/2026
 E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
-Hoje é dia 19/11/2026.
-Temos 41 atualizações para cobrir.
+Hoje é dia 20/11/2026.
+Temos 19 atualizações para cobrir.
 Vamos direto ao ponto.
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Visual Studio Blog]
+
+  ► Live technical training, wherever you are: A VSLive! benefit for Visual Studio Subscribers
+    Developers are constantly speaking to me about how AI tool mastery has become an essential part of their everyday work. But learning how to use these 
+    Link: https://devblogs.microsoft.com/visualstudio/live-technical-training-wherever-you-are-a-vslive-benefit-for-visual-studio-subscribers/
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Microsoft Foundry Blog]
+
+  ► Build trusted autonomous agents for your team with Microsoft Foundry
+    A new kind of agent can work alongside your team in Microsoft 365, with its own identity, permissions, and a manager accountable for its work. Enterpr
+    Link: https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Networking]
+
+  ► Announcing public preview of Azure DDoS Protection peacetime telemetry
+    We're excited to announce the public preview of peacetime telemetry for Azure DDoS Protection. The DDoS traffic metrics you rely on during an attack n
+    Link: https://techcommunity.microsoft.com/t5/azure-networking-blog/announcing-public-preview-of-azure-ddos-protection-peacetime/ba-p/4574781
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Compute]
+
+  ► Azure Infrastructure for Agentic AI
+    From AI that answers to AI that acts Enterprises didn’t move to the cloud by adopting a turnkey platform on day one. They started with services they c
+    Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/azure-infrastructure-for-agentic-ai/ba-p/4574616
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Observability]
+
+  ► What's new in Azure Monitor at Ignite 2026
+    Agents now sit at the center of modern applications, calling models, tools and other agents across a stack of APIs, data and infrastructure, so when a
+    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/what-s-new-in-azure-monitor-at-ignite-2026/ba-p/4573974
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Events]
+
+  ► Announcing the Inside the Game Developer Hackathon winners
+    Football stories don't start and end with the scoreline. We’re excited to celebrate the six winning teams, from five countries of Inside the Game: Dev
+    Link: https://techcommunity.microsoft.com/t5/azure-events/announcing-the-inside-the-game-developer-hackathon-winners/ba-p/4574639
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure DevOps Blog]
+
+  ► Azure DevOps integration with the GitHub Copilot app (public preview)
+    We’re excited to announce the public preview of Azure DevOps integration in the Copilot app. You can now start agent sessions that work directly with 
+    Link: https://devblogs.microsoft.com/devops/azure-devops-integration-with-the-github-copilot-app-public-preview/
+
 [PAUSA]
 
 ----------------------------------------
@@ -75,10 +138,6 @@ Vamos direto ao ponto.
     Self-hosted GitHub Actions runners can execute workflows close to private deployment targets without making those targets publicly reachable. That net
     Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/designing-github-actions-runners-on-private-aks-with-a-secured/ba-p/4574649
 
-  ► Advancing agentic operations on Azure at Ignite 2026
-    AI is fundamentally changing what IT teams operate in the cloud and how they operate it. As organizations put more AI agents to work, IT teams face tw
-    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/advancing-agentic-operations-on-azure-at-ignite-2026/ba-p/4573831
-
 [PAUSA]
 
 ----------------------------------------
@@ -96,118 +155,6 @@ Vamos direto ao ponto.
   ► What your Service Bus messages can tell you about your business
     Which business decisions could benefit from the information already moving through your applications? The messages exchanged through Azure Service Bus
     Link: https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/what-your-service-bus-messages-can-tell-you-about-your-business/ba-p/4574630
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Apps on Azure]
-
-  ► Beyond the pilot: Scaling Azure SRE Agent across your enterprise
-    For organizations modernizing with AI, deploying a successful first agent is only the beginning. The real test is moving from a pilot into the core wo
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/beyond-the-pilot-scaling-azure-sre-agent-across-your-enterprise/ba-p/4573349
-
-  ► What’s new in Azure SRE Agent at Microsoft Ignite 2026
-    Over the past year, teams have moved Azure SRE Agent from exploratory pilots into the work that keeps their services running: incident response, debug
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-at-microsoft-ignite-2026/ba-p/4573607
-
-  ► Enable and manage Gateway API on Azure Portal
-    Gateway API is the long-term Kubernetes standard for ingress and L7 traffic management. Compared with the traditional Ingress resource, Gateway API se
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/enable-and-manage-gateway-api-on-azure-portal/ba-p/4574567
-
-  ► Public preview: OS-level dependency support via containers for Azure Functions Flex Consumption
-    Your function needs Chromium to generate a PDF. Or GnuPG to encrypt data. Or a native Linux library that isn’t available in the managed execution envi
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/public-preview-os-level-dependency-support-via-containers-for/ba-p/4572085
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Arc]
-
-  ► Protect Your AI Models and Data at Edge: Confidential Computing on Azure Local
-    AI is no longer confined to the cloud. It's running on factory floors, in hospitals, at energy sites and in sovereign datacenters, often on hardware f
-    Link: https://techcommunity.microsoft.com/t5/azure-arc-blog/protect-your-ai-models-and-data-at-edge-confidential-computing/ba-p/4572241
-
-  ► Building a Trusted Ecosystem for Sovereign Private Cloud: Azure Local validated partner solutions
-    When organizations move critical workloads to Azure Local, the first question usually isn't about the platform. It's about everything that runs on and
-    Link: https://techcommunity.microsoft.com/t5/azure-arc-blog/building-a-trusted-ecosystem-for-sovereign-private-cloud-azure/ba-p/4567325
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Dev Community]
-
-  ► Skills over MCP are now available in VS Code
-    VS Code 1.147+ can now load agent skills straight from an MCP server! If your team runs an MCP server, you can ship skills from the same server as you
-    Link: https://techcommunity.microsoft.com/t5/microsoft-developer-community/skills-over-mcp-are-now-available-in-vs-code/ba-p/4574580
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure AI Foundry]
-
-  ► External agents in Microsoft Foundry are now generally available
-    Built your agent somewhere else? Foundry can still help you measure and improve it. External agents in Microsoft Foundry are now generally available. 
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/external-agents-in-microsoft-foundry-are-now-generally-available/ba-p/4572630
-
-  ► FinOps in Microsoft Foundry: see your token spend, hit your quality bar for less, and set limits
-    An end-to-end walkthrough of FinOps for AI in Microsoft Foundry: plan what an agent should cost, see where the spend goes, find out why it changed, hi
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/finops-in-microsoft-foundry-see-your-token-spend-hit-your/ba-p/4570010
-
-  ► Model router in Foundry Models: start in one line, route intelligently, evaluate cost and quality
-    Build with model router from the agents you already use, steer requests when you need to, and evaluate cost and quality on your own workload. Here’s e
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-router-in-foundry-models-start-in-one-line-route/ba-p/4573543
-
-  ► Turn Human Feedback into a Reusable Quality Bar for AI Agents
-    Human-in-the-loop for evaluation quality is now in public preview in Microsoft Foundry, announced at Microsoft Ignite on November 17, 2026. Your agent
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/turn-human-feedback-into-a-reusable-quality-bar-for-ai-agents/ba-p/4574554
-
-  ► Foundry IQ: now managed for you in every Foundry project
-    Foundry IQ: Now managed for you in every Foundry project Building AI agents that can answer questions from your documents just got simpler. Today we'r
-    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/foundry-iq-now-managed-for-you-in-every-foundry-project/ba-p/4573316
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Planetary Computer]
-
-  ► Join us in using AI Workflow Preview Feature in Microsoft Planetary Computer Pro
-    The adoption of models continues to grow across industries. As highlighted in a prior blog post, we’ve released a range of geospatial AI models design
-    Link: https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/join-us-in-using-ai-workflow-preview-feature-in-microsoft/ba-p/4571817
-
-  ► Join us for the GeoStats preview in Microsoft Planetary Computer Pro
-    An agricultural lender monitoring a portfolio of farms wants a weekly view of vegetation conditions so its risk team can identify fields that need att
-    Link: https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/join-us-for-the-geostats-preview-in-microsoft-planetary-computer/ba-p/4573856
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Architecture]
-
-  ► Inside the architecture: How connectors work with Azure Functions
-    Say you run a shared support inbox. Each time a customer writes in, you want a function to read the email, pick out the important parts, and post a su
-    Link: https://techcommunity.microsoft.com/t5/azure-architecture-blog/inside-the-architecture-how-connectors-work-with-azure-functions/ba-p/4573939
-
-  ► Lantern: agentic AI for records and provenance on Azure
-    Author: Warren Kahn, Senior Solution Engineer, MicrosoftVersion: 3.5.10, 12 November 2026Written for: Architects and technical leaders at museums, lib
-    Link: https://techcommunity.microsoft.com/t5/azure-architecture-blog/lantern-agentic-ai-for-records-and-provenance-on-azure/ba-p/4572947
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Integrations on Azure]
-
-  ► Announcing HL7 General Availability and MLLP Connector Public Preview in Azure Logic Apps
-    Healthcare organizations run on HL7 v2.x. Admissions, lab results, orders and billing still move between EHR, LIS, RIS and HIS systems as pipe-delimit
-    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-hl7-general-availability-and-mllp-connector-public/ba-p/4574174
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Compute]
-
-  ► Announcing preview of new Azure DH/EHasv8 VMs based on 6th Gen AMD EPYC™ (“Venice”) processors
-    We are excited to announce the preview of the new Azure DHasv8, DHalsv8 and EHasv8-series virtual machines (VMs), powered by 6th Generation AMD EPYC™ 
-    Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-preview-of-new-azure-dh-ehasv8-vms-based-on-6th-gen/ba-p/4573295
 
 [PAUSA]
 
