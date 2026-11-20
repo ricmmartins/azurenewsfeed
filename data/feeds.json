@@ -1,24 +1,42 @@
 {
-  "lastUpdated": "2026-11-20T00:38:00.823744+00:00",
+  "lastUpdated": "2026-11-20T10:01:17.318997+00:00",
   "totalArticles": 311,
   "articles": [
     {
-      "title": "Live technical training, wherever you are: A VSLive! benefit for Visual Studio Subscribers",
+      "title": "Introducing Azure SRE Agent in Azure Managed Grafana: The Dashboard as Command Center",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-sre-agent-in-azure-managed-grafana-the/ba-p/4575039",
+      "published": "2026-11-20T06:01:47+00:00",
+      "summary": "We're introducing the Azure SRE Agent integration in Azure Managed Grafana, now in preview. Pair an Azure SRE Agent with your Grafana workspace, and an agent icon appears in the toolbar of your dashboards. Select it, and the agent opens in a pane beside the dashboard you're looking at. It reads...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng"
+    },
+    {
+      "title": "FinOps in Microsoft Foundry: see your token spend, hit your quality bar for less, and set limits",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/finops-in-microsoft-foundry-see-your-token-spend-hit-your/ba-p/4570010",
+      "published": "2026-11-19T21:57:16+00:00",
+      "summary": "Co-authored by Avinav Jami and Bhuwan Sahni An end-to-end walkthrough of FinOps for AI in Microsoft Foundry: plan what an agent should cost, see where the spend goes, find out why it changed, hit your quality bar for less, and set limits. Most AI agents reach production the same way. A proof of...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Kosti"
+    },
+    {
+      "title": "Model router in Foundry Models: start in one line, route intelligently, evaluate cost and quality",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-router-in-foundry-models-start-in-one-line-route/ba-p/4573543",
+      "published": "2026-11-19T21:56:49+00:00",
+      "summary": "Co-authored by Miseon Park Build with model router from the agents you already use, steer requests when you need to, and evaluate cost and quality on your own workload. Here’s everything new since August. Teams that build with AI now face a new model decision every few weeks. Each new frontier or...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "Kosti"
+    },
+    {
+      "title": "Live technical training, wherever you are: A VSLive! benefit for Visual Studio subscribers",
       "link": "https://devblogs.microsoft.com/visualstudio/live-technical-training-wherever-you-are-a-vslive-benefit-for-visual-studio-subscribers/",
       "published": "2026-11-19T21:30:48+00:00",
       "summary": "Developers are constantly speaking to me about how AI tool mastery has become an essential part of their everyday work. But learning how to use these tools effectively takes more than experimenting with a few prompts, and it often requires opportunities to learn that go beyond documentation and...",
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "James Rempt"
-    },
-    {
-      "title": "Build trusted autonomous agents for your team with Microsoft Foundry",
-      "link": "https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/",
-      "published": "2026-11-19T19:53:30+00:00",
-      "summary": "A new kind of agent can work alongside your team in Microsoft 365, with its own identity, permissions, and a manager accountable for its work. Enterprises are all-in on AI agents, but the ROI hasn’t followed. What’s holding those agents back isn’t capability. Today’s agents can do remarkable work...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Amanda Foster"
     },
     {
       "title": "Announcing public preview of Azure DDoS Protection peacetime telemetry",
@@ -208,24 +226,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "aprilk"
-    },
-    {
-      "title": "FinOps in Microsoft Foundry: see your token spend, hit your quality bar for less, and set limits",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/finops-in-microsoft-foundry-see-your-token-spend-hit-your/ba-p/4570010",
-      "published": "2026-11-18T22:13:10+00:00",
-      "summary": "An end-to-end walkthrough of FinOps for AI in Microsoft Foundry: plan what an agent should cost, see where the spend goes, find out why it changed, hit your quality bar for less, and set limits. Most AI agents reach production the same way. A proof of concept shows the idea works. The team...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Kosti"
-    },
-    {
-      "title": "Model router in Foundry Models: start in one line, route intelligently, evaluate cost and quality",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-router-in-foundry-models-start-in-one-line-route/ba-p/4573543",
-      "published": "2026-11-18T21:57:13+00:00",
-      "summary": "Build with model router from the agents you already use, steer requests when you need to, and evaluate cost and quality on your own workload. Here’s everything new since August. Teams that build with AI now face a new model decision every few weeks. Each new frontier or open model brings its own...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "Kosti"
     },
     {
       "title": "Turn Human Feedback into a Reusable Quality Bar for AI Agents",
@@ -649,15 +649,6 @@
       "blog": "Aspire Blog",
       "blogId": "aspireblog",
       "author": "Maddy Montaquila"
-    },
-    {
-      "title": "Azure Catalyst: one connected, agent-led modernization experience across apps, data, and infra",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-catalyst-one-connected-agent-led-modernization-experience/ba-p/4573988",
-      "published": "2026-11-18T06:29:16+00:00",
-      "summary": "Preparing applications for AI requires teams to understand how their systems share data, where business rules reside, and what needs to change. Teams must do this work while keeping critical applications running, putting a strain on IT and developers while delaying innovation. In Forrester’s Q1...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "NateCeres"
     },
     {
       "title": "From canvas to run: a better Logic Apps Automation experience",
@@ -2233,6 +2224,15 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Baiju Meswani, Emma Ning, Tianlei Wu"
+    },
+    {
+      "title": "What’s new in Microsoft Foundry | October 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-october-2026/",
+      "published": "2026-11-05T11:40:48+00:00",
+      "summary": "Plan your Microsoft Ignite November 17-20 viewing, then explore October's Copilot harness preview, GA browser automation and hosted-agent resilience, Decisions API, and SDK updates with chapter-linked Handoff demos. The post What’s new in Microsoft Foundry | October 2026 appeared first on Microsoft...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nick Brady"
     },
     {
       "title": "Build an AI-assisted invoice approval workflow with Power Automate and AI Builder",

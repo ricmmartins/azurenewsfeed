@@ -8,25 +8,38 @@ E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
 Hoje é dia 20/11/2026.
-Temos 19 atualizações para cobrir.
+Temos 16 atualizações para cobrir.
 Vamos direto ao ponto.
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Apps on Azure]
+
+  ► Introducing Azure SRE Agent in Azure Managed Grafana: The Dashboard as Command Center
+    We're introducing the Azure SRE Agent integration in Azure Managed Grafana, now in preview. Pair an Azure SRE Agent with your Grafana workspace, and a
+    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-sre-agent-in-azure-managed-grafana-the/ba-p/4575039
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure AI Foundry]
+
+  ► FinOps in Microsoft Foundry: see your token spend, hit your quality bar for less, and set limits
+    Co-authored by Avinav Jami and Bhuwan Sahni An end-to-end walkthrough of FinOps for AI in Microsoft Foundry: plan what an agent should cost, see where
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/finops-in-microsoft-foundry-see-your-token-spend-hit-your/ba-p/4570010
+
+  ► Model router in Foundry Models: start in one line, route intelligently, evaluate cost and quality
+    Co-authored by Miseon Park Build with model router from the agents you already use, steer requests when you need to, and evaluate cost and quality on 
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/model-router-in-foundry-models-start-in-one-line-route/ba-p/4573543
+
 [PAUSA]
 
 ----------------------------------------
 [BLOCO: Visual Studio Blog]
 
-  ► Live technical training, wherever you are: A VSLive! benefit for Visual Studio Subscribers
+  ► Live technical training, wherever you are: A VSLive! benefit for Visual Studio subscribers
     Developers are constantly speaking to me about how AI tool mastery has become an essential part of their everyday work. But learning how to use these 
     Link: https://devblogs.microsoft.com/visualstudio/live-technical-training-wherever-you-are-a-vslive-benefit-for-visual-studio-subscribers/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Microsoft Foundry Blog]
-
-  ► Build trusted autonomous agents for your team with Microsoft Foundry
-    A new kind of agent can work alongside your team in Microsoft 365, with its own identity, permissions, and a manager accountable for its work. Enterpr
-    Link: https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/
 
 [PAUSA]
 
@@ -100,10 +113,6 @@ Vamos direto ao ponto.
     Co-authored with Thierry Fevrier, Amir Bredy, Danyal Bukhari, Jakub Szymaszek, Pam Lahoud Introduction Databases are the most valuable assets an organ
     Link: https://techcommunity.microsoft.com/t5/azure-confidential-computing/databases-on-confidential-computing-the-foundation-for-sovereign/ba-p/4572327
 
-  ► Advancing confidential computing with Intel TDX: more performance, more resiliency
-    Authored with Simran Parkhe, Nati Alayev, Sarah Stephenson Introduction Today at Ignite, we presented an industry-first demonstration of TEE Device In
-    Link: https://techcommunity.microsoft.com/t5/azure-confidential-computing/advancing-confidential-computing-with-intel-tdx-more-performance/ba-p/4572307
-
 [PAUSA]
 
 ----------------------------------------
@@ -121,10 +130,6 @@ Vamos direto ao ponto.
     Move petabytes of enterprise file data to Azure without a big-bang migration and without moving every workload. Unless you have spent the last two yea
     Link: https://techcommunity.microsoft.com/t5/azure-storage-blog/stop-paying-more-for-legacy-scale-out-nas-modernize-to-azure/ba-p/4573030
 
-  ► Citrix DaaS™ Profiles Flex: Profiles that outlive the desktop
-    Desktops are temporary, but a user's work shouldn't be. Virtual desktops are routinely reassigned, reimaged, and reprovisioned, yet users still expect
-    Link: https://techcommunity.microsoft.com/t5/azure-storage-blog/citrix-daas-profiles-flex-profiles-that-outlive-the-desktop/ba-p/4574224
-
 [PAUSA]
 
 ----------------------------------------
@@ -133,28 +138,6 @@ Vamos direto ao ponto.
   ► From ChatOps to Agentic Ops: What MCP Changes—and What It Doesn’t
     Most teams already run a form of ChatOps today. During incidents or change windows, people jump into chat, run known commands, check dashboards, and c
     Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/from-chatops-to-agentic-ops-what-mcp-changes-and-what-it-doesn-t/ba-p/4574810
-
-  ► Designing GitHub Actions Runners on Private AKS with a Secured Azure Virtual WAN Hub
-    Self-hosted GitHub Actions runners can execute workflows close to private deployment targets without making those targets publicly reachable. That net
-    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/designing-github-actions-runners-on-private-aks-with-a-secured/ba-p/4574649
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Analytics on Azure]
-
-  ► From Events to Decisions: Real-Time Logistics with Microsoft Fabric and Microsoft-Decision-1.1
-    In logistics, every single shipment carries inherent risks. When delivery timelines are tied to contractual outcomes, or regulatory implications, that
-    Link: https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/from-events-to-decisions-real-time-logistics-with-microsoft/ba-p/4574666
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Messaging on Azure]
-
-  ► What your Service Bus messages can tell you about your business
-    Which business decisions could benefit from the information already moving through your applications? The messages exchanged through Azure Service Bus
-    Link: https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/what-your-service-bus-messages-can-tell-you-about-your-business/ba-p/4574630
 
 [PAUSA]
 
