@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-20T10:01:17.318997+00:00",
-  "totalArticles": 311,
+  "lastUpdated": "2026-11-20T18:37:38.179994+00:00",
+  "totalArticles": 306,
   "articles": [
+    {
+      "title": "Serve open models in production with Foundry Managed Compute",
+      "link": "https://devblogs.microsoft.com/foundry/managed-compute-ga/",
+      "published": "2026-11-20T15:00:44+00:00",
+      "summary": "Managed Compute serves open models on dedicated GPUs in Microsoft Foundry, with Global and US or EU Data Zone deployments. The post Serve open models in production with Foundry Managed Compute appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Manoj Bableshwar"
+    },
     {
       "title": "Introducing Azure SRE Agent in Azure Managed Grafana: The Dashboard as Command Center",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-sre-agent-in-azure-managed-grafana-the/ba-p/4575039",
@@ -2226,15 +2235,6 @@
       "author": "Baiju Meswani, Emma Ning, Tianlei Wu"
     },
     {
-      "title": "What’s new in Microsoft Foundry | October 2026",
-      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-october-2026/",
-      "published": "2026-11-05T11:40:48+00:00",
-      "summary": "Plan your Microsoft Ignite November 17-20 viewing, then explore October's Copilot harness preview, GA browser automation and hosted-agent resilience, Decisions API, and SDK updates with chapter-linked Handoff demos. The post What’s new in Microsoft Foundry | October 2026 appeared first on Microsoft...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Nick Brady"
-    },
-    {
       "title": "Build an AI-assisted invoice approval workflow with Power Automate and AI Builder",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-an-ai-assisted-invoice-approval-workflow-with-power/ba-p/4569292",
       "published": "2026-11-05T08:00:00+00:00",
@@ -2755,51 +2755,6 @@
       "blog": "Linux & Open Source",
       "blogId": "linuxandopensourceblog",
       "author": "poorvinarang"
-    },
-    {
-      "title": "Scale Data Collection Endpoint private connectivity with IP Endpoint Compression - Preview",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/scale-data-collection-endpoint-private-connectivity-with-ip/ba-p/4563958",
-      "published": "2026-10-21T17:22:27+00:00",
-      "summary": "Scale Azure Monitor Private Link with data collection endpoint IP compression As organizations expand their Azure Monitor deployments, private networking needs to scale with them. For enterprises running large, distributed environments, that can create an increasingly important challenge: how do...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Mahesh_Sundaram"
-    },
-    {
-      "title": "Choosing the Right Azure Virtual Machine for Ansys CFX",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/choosing-the-right-azure-virtual-machine-for-ansys-cfx/ba-p/4559394",
-      "published": "2026-10-21T17:11:34+00:00",
-      "summary": "If you are moving Ansys CFX turbomachinery simulation software to the cloud, the first question is not whether Azure can run your computational fluid dynamics (CFD) workloads, but it is which Virtual Machine (VM) delivers the best balance of performance and cost. Azure offers multiple AMD...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "Hugo_Meiland"
-    },
-    {
-      "title": "Introducing Agentic Autofix for code and dependencies",
-      "link": "https://devblogs.microsoft.com/devops/introducing-agentic-autofix-for-code-and-dependencies/",
-      "published": "2026-10-21T15:06:27+00:00",
-      "summary": "Fixing a vulnerability takes more than knowing where it is. You need a change that follows your coding standards and works with the rest of your code. Copilot Autofix for GitHub Advanced Security for Azure DevOps now runs on an agentic foundation. It also supports dependency vulnerability fixes and...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Laura Jiang"
-    },
-    {
-      "title": "Microsoft at NVIDIA GTC Berlin 2026: sovereign AI on your terms",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/microsoft-at-nvidia-gtc-berlin-2026-sovereign-ai-on-your-terms/ba-p/4566171",
-      "published": "2026-10-21T11:32:12+00:00",
-      "summary": "Microsoft is excited to attend NVIDIA GTC Berlin October 20 through 22, bringing news across the AI stack. We are expanding the infrastructure and platform capabilities organizations need to build and run AI across cloud and customer-controlled environments. This includes new capabilities for...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Ben_Sickle"
-    },
-    {
-      "title": "PowerToys 0.102 is here: new mouse utilities, Command Palette improvements and much more",
-      "link": "https://devblogs.microsoft.com/commandline/powertoys-0-102-is-here-new-mouse-utilities-command-palette-improvements-and-much-more/",
-      "published": "2026-10-21T11:06:49+00:00",
-      "summary": "We’re back with a fresh PowerToys release! This one brings two new mouse utilities, Mouse Button Lock and CursorHide, an optional quick-access shelf for Command Palette, snip dictation in ZoomIt, and a set of new command-line tools for automating PowerToys. Color Picker and Text Extractor also move...",
-      "blog": "Windows Command Line",
-      "blogId": "commandline",
-      "author": "Niels Laute"
     }
   ]
 }
