@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-21T01:31:33.346017+00:00",
-  "totalArticles": 306,
+  "lastUpdated": "2026-11-21T09:51:25.409787+00:00",
+  "totalArticles": 307,
   "articles": [
     {
       "title": "Azure API Management Premium v2 now supports private CNAME records",
@@ -30,6 +30,33 @@
       "author": "Kiran_Cherukuwada"
     },
     {
+      "title": "What’s new in Azure SRE Agent at Microsoft Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-at-microsoft-ignite-2026/ba-p/4573607",
+      "published": "2026-11-20T21:38:48+00:00",
+      "summary": "Over the past year, teams have moved Azure SRE Agent from exploratory pilots into the work that keeps their services running: incident response, debugging deployments, triaging new issues, and the routine, proactive work that happens between them. That shift changes what customers ask of us. The...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "sanchitmehta"
+    },
+    {
+      "title": "Databases on confidential computing: the foundation for sovereign AI",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/databases-on-confidential-computing-the-foundation-for-sovereign/ba-p/4572327",
+      "published": "2026-11-20T20:42:51+00:00",
+      "summary": "Co-authored with Thierry Fevrier, Amir Bredy, Danyal Bukhari, Jakub Szymaszek, Pam Lahoud Introduction Databases are the most valuable assets an organization has. They hold enterprise data, intellectual property, conversations, and institutional knowledge, making them the systems of record for AI....",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "michamcr"
+    },
+    {
+      "title": "Advancing confidential computing with Intel TDX: more performance, more resiliency",
+      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/advancing-confidential-computing-with-intel-tdx-more-performance/ba-p/4572307",
+      "published": "2026-11-20T20:42:21+00:00",
+      "summary": "Authored with Simran Parkhe, Nati Alayev, Sarah Stephenson Introduction Today at Ignite, we presented an industry-first demonstration of TEE Device Interface Security Protocol (TDISP) with Azure Boost, showcasing up to 400 Gbps of network bandwidth. We also released improvements across our...",
+      "blog": "Confidential Computing",
+      "blogId": "azureconfidentialcomputingblog",
+      "author": "michamcr"
+    },
+    {
       "title": "Copilot Code Reviews for Azure Repos is generally available",
       "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-is-generally-available/",
       "published": "2026-11-20T18:41:47+00:00",
@@ -37,6 +64,24 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Dan Hellem"
+    },
+    {
+      "title": "Ignite 2026: The next era of enterprise AI starts with the infrastructure beneath it",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the/ba-p/4574943",
+      "published": "2026-11-20T17:30:47+00:00",
+      "summary": "By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can turn possibility into dependable progress, and for enterprise AI, that moment is here. As organizations move beyond isolated experiments toward...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "Arun Kishan"
+    },
+    {
+      "title": "Introducing Azure SRE Agent in Azure Managed Grafana: The Dashboard as Command Center",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-sre-agent-in-azure-managed-grafana-the/ba-p/4575039",
+      "published": "2026-11-20T16:27:25+00:00",
+      "summary": "We're introducing the Azure SRE Agent integration in Azure Managed Grafana, now in preview. Pair an Azure SRE Agent with your Grafana workspace, and an agent icon appears in the toolbar of your dashboards. Select it, and the agent opens in a pane beside the dashboard you're looking at. It reads...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "Wuyi_Weng"
     },
     {
       "title": "Serve open models in production with Foundry Managed Compute",
@@ -84,15 +129,6 @@
       "author": "Gapandey"
     },
     {
-      "title": "Introducing Azure SRE Agent in Azure Managed Grafana: The Dashboard as Command Center",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-sre-agent-in-azure-managed-grafana-the/ba-p/4575039",
-      "published": "2026-11-20T06:01:47+00:00",
-      "summary": "We're introducing the Azure SRE Agent integration in Azure Managed Grafana, now in preview. Pair an Azure SRE Agent with your Grafana workspace, and an agent icon appears in the toolbar of your dashboards. Select it, and the agent opens in a pane beside the dashboard you're looking at. It reads...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "Wuyi_Weng"
-    },
-    {
       "title": "FinOps in Microsoft Foundry: see your token spend, hit your quality bar for less, and set limits",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/finops-in-microsoft-foundry-see-your-token-spend-hit-your/ba-p/4570010",
       "published": "2026-11-19T21:57:16+00:00",
@@ -127,6 +163,15 @@
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
       "author": "sachincsheth"
+    },
+    {
+      "title": "Build trusted autonomous agents for your team with Microsoft Foundry",
+      "link": "https://devblogs.microsoft.com/foundry/build-trusted-autonomous-agents-for-your-team-with-microsoft-foundry/",
+      "published": "2026-11-19T19:53:30+00:00",
+      "summary": "Enterprises are all-in on AI agents, but the ROI hasn’t followed. What’s holding those agents back isn’t capability. Today’s agents can do remarkable work on their own. They can solve math problems that stumped mathematicians for decades, build functional operating systems from scratch, and teach...",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Amanda Foster"
     },
     {
       "title": "Announcing public preview of Azure DDoS Protection peacetime telemetry",
@@ -192,15 +237,6 @@
       "author": "AdityAgarwal"
     },
     {
-      "title": "Databases on confidential computing: the foundation for sovereign AI",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/databases-on-confidential-computing-the-foundation-for-sovereign/ba-p/4572327",
-      "published": "2026-11-19T16:14:58+00:00",
-      "summary": "Co-authored with Thierry Fevrier, Amir Bredy, Danyal Bukhari, Jakub Szymaszek, Pam Lahoud Introduction Databases are the most valuable assets an organization has. They hold enterprise data, intellectual property, conversations, and institutional knowledge, making them the systems of record for AI....",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "michamcr"
-    },
-    {
       "title": "Surviving the Storage Apocalypse with Everpure Cloud Azure Native",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/surviving-the-storage-apocalypse-with-everpure-cloud-azure/ba-p/4573036",
       "published": "2026-11-19T14:30:00+00:00",
@@ -264,15 +300,6 @@
       "author": "EldertGrootenboer"
     },
     {
-      "title": "Advancing confidential computing with Intel TDX: more performance, more resiliency",
-      "link": "https://techcommunity.microsoft.com/t5/azure-confidential-computing/advancing-confidential-computing-with-intel-tdx-more-performance/ba-p/4572307",
-      "published": "2026-11-19T01:42:22+00:00",
-      "summary": "Authored with Simran Parkhe, Nati Alayev, Sarah Stephenson Introduction Today at Ignite, we presented an industry-first demonstration of TEE Device Interface Security Protocol (TDISP) with Azure Boost, showcasing up to 400 Gbps of network bandwidth. We also released improvements across our...",
-      "blog": "Confidential Computing",
-      "blogId": "azureconfidentialcomputingblog",
-      "author": "michamcr"
-    },
-    {
       "title": "Beyond the pilot: Scaling Azure SRE Agent across your enterprise",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/beyond-the-pilot-scaling-azure-sre-agent-across-your-enterprise/ba-p/4573349",
       "published": "2026-11-19T00:08:29+00:00",
@@ -325,15 +352,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "fsunavala-msft"
-    },
-    {
-      "title": "What’s new in Azure SRE Agent at Microsoft Ignite 2026",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-at-microsoft-ignite-2026/ba-p/4573607",
-      "published": "2026-11-18T21:05:10+00:00",
-      "summary": "Over the past year, teams have moved Azure SRE Agent from exploratory pilots into the work that keeps their services running: incident response, debugging deployments, triaging new issues, and the routine, proactive work that happens between them. That shift changes what customers ask of us. The...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "sanchitmehta"
     },
     {
       "title": "Join us in using AI Workflow Preview Feature in Microsoft Planetary Computer Pro",
@@ -2260,15 +2278,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Josef Sin"
-    },
-    {
-      "title": "Bring Agentic Coding On-Device with Foundry Local",
-      "link": "https://devblogs.microsoft.com/foundry/foundry-local-agentic-coding-qwen3-8-27b/",
-      "published": "2026-11-05T14:00:38+00:00",
-      "summary": "Foundry Local brings agentic coding directly to developer hardware. The post Bring Agentic Coding On-Device with Foundry Local appeared first on Microsoft Foundry Blog.",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Baiju Meswani, Emma Ning, Tianlei Wu"
     },
     {
       "title": "Build an AI-assisted invoice approval workflow with Power Automate and AI Builder",

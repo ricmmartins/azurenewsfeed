@@ -8,7 +8,7 @@ E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
 Hoje é dia 21/11/2026.
-Temos 10 atualizações para cobrir.
+Temos 13 atualizações para cobrir.
 Vamos direto ao ponto.
 [PAUSA]
 
@@ -52,6 +52,32 @@ Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
+[BLOCO: Apps on Azure]
+
+  ► What’s new in Azure SRE Agent at Microsoft Ignite 2026
+    Over the past year, teams have moved Azure SRE Agent from exploratory pilots into the work that keeps their services running: incident response, debug
+    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-at-microsoft-ignite-2026/ba-p/4573607
+
+  ► Introducing Azure SRE Agent in Azure Managed Grafana: The Dashboard as Command Center
+    We're introducing the Azure SRE Agent integration in Azure Managed Grafana, now in preview. Pair an Azure SRE Agent with your Grafana workspace, and a
+    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-sre-agent-in-azure-managed-grafana-the/ba-p/4575039
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Confidential Computing]
+
+  ► Databases on confidential computing: the foundation for sovereign AI
+    Co-authored with Thierry Fevrier, Amir Bredy, Danyal Bukhari, Jakub Szymaszek, Pam Lahoud Introduction Databases are the most valuable assets an organ
+    Link: https://techcommunity.microsoft.com/t5/azure-confidential-computing/databases-on-confidential-computing-the-foundation-for-sovereign/ba-p/4572327
+
+  ► Advancing confidential computing with Intel TDX: more performance, more resiliency
+    Authored with Simran Parkhe, Nati Alayev, Sarah Stephenson Introduction Today at Ignite, we presented an industry-first demonstration of TEE Device In
+    Link: https://techcommunity.microsoft.com/t5/azure-confidential-computing/advancing-confidential-computing-with-intel-tdx-more-performance/ba-p/4572307
+
+[PAUSA]
+
+----------------------------------------
 [BLOCO: Azure DevOps Blog]
 
   ► Copilot Code Reviews for Azure Repos is generally available
@@ -61,29 +87,20 @@ Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
+[BLOCO: Azure Compute]
+
+  ► Ignite 2026: The next era of enterprise AI starts with the infrastructure beneath it
+    By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can t
+    Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the/ba-p/4574943
+
+[PAUSA]
+
+----------------------------------------
 [BLOCO: Microsoft Foundry Blog]
 
   ► Serve open models in production with Foundry Managed Compute
     Managed Compute serves open models on dedicated GPUs in Microsoft Foundry, with Global and US or EU Data Zone deployments. The post Serve open models 
     Link: https://devblogs.microsoft.com/foundry/managed-compute-ga/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Infrastructure]
-
-  ► Designing GitHub Actions Runners on Private AKS with a Secured Azure Virtual WAN Hub
-    Self-hosted GitHub Actions runners can execute workflows close to private deployment targets without making those targets publicly reachable. That net
-    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/designing-github-actions-runners-on-private-aks-with-a-secured/ba-p/4574649
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Apps on Azure]
-
-  ► Introducing Azure SRE Agent in Azure Managed Grafana: The Dashboard as Command Center
-    We're introducing the Azure SRE Agent integration in Azure Managed Grafana, now in preview. Pair an Azure SRE Agent with your Grafana workspace, and a
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-sre-agent-in-azure-managed-grafana-the/ba-p/4575039
 
 [PAUSA]
 
