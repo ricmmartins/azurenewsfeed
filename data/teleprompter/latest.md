@@ -8,7 +8,7 @@ E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
 Hoje é dia 21/11/2026.
-Temos 13 atualizações para cobrir.
+Temos 9 atualizações para cobrir.
 Vamos direto ao ponto.
 [PAUSA]
 
@@ -18,18 +18,6 @@ Vamos direto ao ponto.
   ► Azure API Management Premium v2 now supports private CNAME records
     We’re excited to announce support for private CNAME records in Azure API Management Premium v2, providing greater flexibility for customers deploying 
     Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-management-premium-v2-now-supports-private-cname/ba-p/4575312
-
-  ► Announcing the MSMQ built-in connector for Azure Logic Apps Standard
-    MSMQ remains an important messaging technology in many long-running enterprise environments, particularly solutions built on BizTalk Server and other 
-    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-the-msmq-built-in-connector-for-azure-logic-apps/ba-p/4574215
-
-  ► Announcing General Availability of SQL as a Storage Provider for Hybrid Logic Apps
-    Important scope clarification SQL as a storage provider is supported only for Hybrid Logic Apps. It is not supported as a storage provider for regular
-    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-general-availability-of-sql-as-a-storage-provider-for/ba-p/4574517
-
-  ► Announcing Semi-Connected Integration Account Support for Hybrid Logic Apps
-    We are excited to introduce semi-connected Integration Account support for Azure Logic Apps Hybrid, helping customers continue running integration wor
-    Link: https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-semi-connected-integration-account-support-for-hybrid/ba-p/4573784
 
 [PAUSA]
 
@@ -58,10 +46,6 @@ Vamos direto ao ponto.
     Over the past year, teams have moved Azure SRE Agent from exploratory pilots into the work that keeps their services running: incident response, debug
     Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-sre-agent-at-microsoft-ignite-2026/ba-p/4573607
 
-  ► Introducing Azure SRE Agent in Azure Managed Grafana: The Dashboard as Command Center
-    We're introducing the Azure SRE Agent integration in Azure Managed Grafana, now in preview. Pair an Azure SRE Agent with your Grafana workspace, and a
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-azure-sre-agent-in-azure-managed-grafana-the/ba-p/4575039
-
 [PAUSA]
 
 ----------------------------------------
@@ -78,29 +62,24 @@ Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
+[BLOCO: Azure AI Foundry]
+
+  ► Turn Human Feedback into a Reusable Quality Bar for AI Agents
+    Human-in-the-loop for evaluation quality is now in public preview in Microsoft Foundry, announced at Microsoft Ignite on November 17, 2026. Your agent
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/turn-human-feedback-into-a-reusable-quality-bar-for-ai-agents/ba-p/4574554
+
+  ► Microsoft-Decision-1 as a judge in Foundry Evaluations
+    Authors: Charles Kim and Ahmad Qardahji Why this matters Many eval questions have a short, fixed answer. Did the agent follow the policy? Did it compl
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/microsoft-decision-1-as-a-judge-in-foundry-evaluations/ba-p/4572676
+
+[PAUSA]
+
+----------------------------------------
 [BLOCO: Azure DevOps Blog]
 
   ► Copilot Code Reviews for Azure Repos is generally available
     Copilot Code Review for Azure Repos is now generally available. Use GitHub Copilot to review pull requests, identify issues, and suggest code changes.
     Link: https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-is-generally-available/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Compute]
-
-  ► Ignite 2026: The next era of enterprise AI starts with the infrastructure beneath it
-    By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can t
-    Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the/ba-p/4574943
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Microsoft Foundry Blog]
-
-  ► Serve open models in production with Foundry Managed Compute
-    Managed Compute serves open models on dedicated GPUs in Microsoft Foundry, with Global and US or EU Data Zone deployments. The post Serve open models 
-    Link: https://devblogs.microsoft.com/foundry/managed-compute-ga/
 
 [PAUSA]
 
