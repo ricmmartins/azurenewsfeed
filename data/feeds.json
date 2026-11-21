@@ -1,7 +1,43 @@
 {
-  "lastUpdated": "2026-11-20T18:37:38.179994+00:00",
+  "lastUpdated": "2026-11-21T01:31:33.346017+00:00",
   "totalArticles": 306,
   "articles": [
+    {
+      "title": "Azure API Management Premium v2 now supports private CNAME records",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-management-premium-v2-now-supports-private-cname/ba-p/4575312",
+      "published": "2026-11-20T22:33:28+00:00",
+      "summary": "We’re excited to announce support for private CNAME records in Azure API Management Premium v2, providing greater flexibility for customers deploying API gateways in private network environments. Organizations increasingly rely on private networking to securely expose APIs to internal applications,...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Sreekanth_Thirthala"
+    },
+    {
+      "title": "How to Chunk Documents in Azure SQL Database for RAG",
+      "link": "https://devblogs.microsoft.com/azure-sql/how-to-chunk-documents-in-azure-sql-database-for-rag/",
+      "published": "2026-11-20T22:23:17+00:00",
+      "summary": "Quick answer Azure SQL Database can split text into fixed-size chunks using AI_GENERATE_CHUNKS, with the OVERLAP percentage controlling repeated text between chunks. Store embeddings generated through an external Azure OpenAI endpoint in VECTOR columns, then retrieve passages with VECTOR_DISTANCE...",
+      "blog": "Azure SQL Dev Corner",
+      "blogId": "azuresqlblog",
+      "author": "Dhruv Malik"
+    },
+    {
+      "title": "Azure Elastic SAN Next Generation public preview: Mission-critical performance & cloud-native scale",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-elastic-san-next-generation-public-preview-mission/ba-p/4573949",
+      "published": "2026-11-20T22:08:45+00:00",
+      "summary": "Mission-critical applications such as SAP HANA, Epic, and core transactional databases demand consistently high performance and predictable low latency. Cloud-native platforms running stateful applications, vector databases, and fast-growing fleets of AI agent environments need persistent storage...",
+      "blog": "Azure Storage",
+      "blogId": "azurestorageblog",
+      "author": "Kiran_Cherukuwada"
+    },
+    {
+      "title": "Copilot Code Reviews for Azure Repos is generally available",
+      "link": "https://devblogs.microsoft.com/devops/copilot-code-reviews-for-azure-repos-is-generally-available/",
+      "published": "2026-11-20T18:41:47+00:00",
+      "summary": "Copilot Code Review for Azure Repos is now generally available. Use GitHub Copilot to review pull requests, identify issues, and suggest code changes. The post Copilot Code Reviews for Azure Repos is generally available appeared first on Azure DevOps Blog.",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Dan Hellem"
+    },
     {
       "title": "Serve open models in production with Foundry Managed Compute",
       "link": "https://devblogs.microsoft.com/foundry/managed-compute-ga/",
@@ -10,6 +46,42 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Manoj Bableshwar"
+    },
+    {
+      "title": "Announcing the MSMQ built-in connector for Azure Logic Apps Standard",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-the-msmq-built-in-connector-for-azure-logic-apps/ba-p/4574215",
+      "published": "2026-11-20T14:17:23+00:00",
+      "summary": "MSMQ remains an important messaging technology in many long-running enterprise environments, particularly solutions built on BizTalk Server and other Windows-based middleware. Modernizing these environments can be challenging when existing applications still depend on MSMQ queues and changing the...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Shree_Divya_M_V"
+    },
+    {
+      "title": "Announcing General Availability of SQL as a Storage Provider for Hybrid Logic Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-general-availability-of-sql-as-a-storage-provider-for/ba-p/4574517",
+      "published": "2026-11-20T13:51:28+00:00",
+      "summary": "Important scope clarification SQL as a storage provider is supported only for Hybrid Logic Apps. It is not supported as a storage provider for regular Azure-hosted Logic Apps Standard. We are excited to announce the general availability of SQL as a storage provider for Hybrid Logic Apps, giving...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Shree_Divya_M_V"
+    },
+    {
+      "title": "Announcing Semi-Connected Integration Account Support for Hybrid Logic Apps",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/announcing-semi-connected-integration-account-support-for-hybrid/ba-p/4573784",
+      "published": "2026-11-20T13:43:37+00:00",
+      "summary": "We are excited to introduce semi-connected Integration Account support for Azure Logic Apps Hybrid, helping customers continue running integration workflows when connectivity to Azure is temporarily unavailable. With this capability, Hybrid Logic Apps can cache supported Integration Account...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "Shree_Divya_M_V"
+    },
+    {
+      "title": "Designing GitHub Actions Runners on Private AKS with a Secured Azure Virtual WAN Hub",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/designing-github-actions-runners-on-private-aks-with-a-secured/ba-p/4574649",
+      "published": "2026-11-20T09:40:07+00:00",
+      "summary": "Self-hosted GitHub Actions runners can execute workflows close to private deployment targets without making those targets publicly reachable. That network access also makes the runner environment part of the security boundary. A workflow can use the connectivity and credentials available to its...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Gapandey"
     },
     {
       "title": "Introducing Azure SRE Agent in Azure Managed Grafana: The Dashboard as Command Center",
@@ -46,6 +118,15 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "James Rempt"
+    },
+    {
+      "title": "Scale Azure Managed Lustre as your AI and HPC workloads grow",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/scale-azure-managed-lustre-as-your-ai-and-hpc-workloads-grow/ba-p/4573518",
+      "published": "2026-11-19T21:15:19+00:00",
+      "summary": "AI and high-performance computing workloads rarely remain at their originally planned size. New and curated data expands training datasets, larger models generate more checkpoints, and simulation campaigns produce results faster than expected. Adding GPU and CPU resources compounds that growth by...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "sachincsheth"
     },
     {
       "title": "Announcing public preview of Azure DDoS Protection peacetime telemetry",
@@ -172,15 +253,6 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "Vybava_Ramadoss"
-    },
-    {
-      "title": "Designing GitHub Actions Runners on Private AKS with a Secured Azure Virtual WAN Hub",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/designing-github-actions-runners-on-private-aks-with-a-secured/ba-p/4574649",
-      "published": "2026-11-19T05:09:10+00:00",
-      "summary": "Self-hosted GitHub Actions runners can execute workflows close to private deployment targets without making those targets publicly reachable. That network access also makes the runner environment part of the security boundary. A workflow can use the connectivity and credentials available to its...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Gapandey"
     },
     {
       "title": "What your Service Bus messages can tell you about your business",
@@ -597,15 +669,6 @@
       "author": "DarrenM"
     },
     {
-      "title": "Unified agent observability with end-to-end tracing in Azure Monitor",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/unified-agent-observability-with-end-to-end-tracing-in-azure/ba-p/4574277",
-      "published": "2026-11-18T13:27:11+00:00",
-      "summary": "Creating an AI agent can take minutes, with little or no code. Understanding its behavior, tracking its cost, and debugging a response across multiple agents is much harder—and sometimes impossible without visibility into the runtimes behind them. Your agent may rely on managed runtimes and...",
-      "blog": "Azure Observability",
-      "blogId": "azureobservabilityblog",
-      "author": "Hong Gao"
-    },
-    {
       "title": "Agent observability in Azure Monitor at Ignite 2026",
       "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/agent-observability-in-azure-monitor-at-ignite-2026/ba-p/4573966",
       "published": "2026-11-18T13:26:26+00:00",
@@ -631,15 +694,6 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "dmalbrough"
-    },
-    {
-      "title": "Azure Elastic SAN Next Generation public preview: Mission-critical performance & cloud-native scale",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/azure-elastic-san-next-generation-public-preview-mission/ba-p/4573949",
-      "published": "2026-11-18T09:14:47+00:00",
-      "summary": "Mission-critical applications such as SAP HANA, Epic, and core transactional databases demand consistently high performance and predictable low latency. Cloud-native platforms running stateful applications, vector databases, and fast-growing fleets of AI agent environments need persistent storage...",
-      "blog": "Azure Storage",
-      "blogId": "azurestorageblog",
-      "author": "Kiran_Cherukuwada"
     },
     {
       "title": "Addressing Java4Shell CVE-2026-114938: upgrade guidance and Azure WAF mitigations",
@@ -1821,15 +1875,6 @@
       "author": "Vidya_Iyer"
     },
     {
-      "title": "Migrate NuGet-based Logic Apps Standard apps and custom built-in connectors to .NET 10",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/migrate-nuget-based-logic-apps-standard-apps-and-custom-built-in/ba-p/4573057",
-      "published": "2026-11-13T20:00:24+00:00",
-      "summary": "Less than you might fear. You don't change a line of C#, and you don't touch your workflow definitions. The work is retargeting your projects, resolving a couple of dependency conflicts, running the right host locally, and changing a handful of app settings in Azure. Those last two are where people...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
-    },
-    {
       "title": "What’s new in the Azure Resource Manager MCP server at Ignite 2026",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/what-s-new-in-the-azure-resource-manager-mcp-server-at-ignite/ba-p/4571824",
       "published": "2026-11-13T18:30:14+00:00",
@@ -2008,15 +2053,6 @@
       "blog": "Azure Storage",
       "blogId": "azurestorageblog",
       "author": "GeertVanTeylingen"
-    },
-    {
-      "title": "Logic Apps Standard custom code now supports .NET 10",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-standard-custom-code-now-supports-net-10/ba-p/4570808",
-      "published": "2026-11-11T03:45:03+00:00",
-      "summary": "The latest Azure Logic Apps (Standard) extension for Visual Studio Code (VS Code) now supports .NET 10 custom code. You can create new .NET 10 local-function projects and migrate your existing .NET 8 projects without turning them into separate Azure Functions apps. Check your prerequisites Install...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
     },
     {
       "title": "Retirement of Microsoft HPC Pack",
@@ -2325,15 +2361,6 @@
       "author": "Shivani650"
     },
     {
-      "title": "My Favorite Undocumented Feature in SQL MCP Server",
-      "link": "https://devblogs.microsoft.com/azure-sql/sql-mcp-server-hidden-feature-default-configuration/",
-      "published": "2026-11-03T21:29:25+00:00",
-      "summary": "Deploy Microsoft's SQL MCP Server in minutes without a configuration file. Learn how DAB_CONNSTRING enables fast deployment using Docker, Azure Container Apps, ACI, or AKS. The post My Favorite Undocumented Feature in SQL MCP Server appeared first on Azure SQL Dev Corner.",
-      "blog": "Azure SQL Dev Corner",
-      "blogId": "azuresqlblog",
-      "author": "Jerry Nixon"
-    },
-    {
       "title": "Enhanced data protection for Azure Files",
       "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/enhanced-data-protection-for-azure-files/ba-p/4563333",
       "published": "2026-11-03T20:09:10+00:00",
@@ -2415,15 +2442,6 @@
       "author": "EldertGrootenboer"
     },
     {
-      "title": "Logic Apps Aviators Newsletter - November 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-november-2026/ba-p/4569378",
-      "published": "2026-11-02T16:00:00+00:00",
-      "summary": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month November 2026's Ace Aviator: Steef-Jan Wiggers Domain Architect @ Coöperatie VGZ What's your role and title? What are your responsibilities? I'm a Domain Architect Technology in the...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
-    },
-    {
       "title": "My Team Is Growing, How Do I Structure Who Gets Access to What?",
       "link": "https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-access-control-growing-teams/",
       "published": "2026-11-02T12:00:45+00:00",
@@ -2494,15 +2512,6 @@
       "blog": "Microsoft Developers Blog",
       "blogId": "msdevblog",
       "author": "Waldek Mastykarz"
-    },
-    {
-      "title": "Azure API Management v2: Restoring Predictable Outbound IP Addresses with NAT Gateway",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/azure-api-management-v2-restoring-predictable-outbound-ip/ba-p/4566574",
-      "published": "2026-10-29T17:36:31+00:00",
-      "summary": "Introduction A key consideration when deploying Azure API Management Standard v2 or Premium v2 is that outbound networking behavior differs from the classic tiers. This applies both when customers manually rebuild an existing solution on one of these tiers and when they create a new deployment...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "JPCalhau"
     },
     {
       "title": "AKS Pod Scheduling Demystified",
@@ -2746,15 +2755,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "Sunip"
-    },
-    {
-      "title": "Built by experience: The journey to Azure Linux 4.0",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/built-by-experience-the-journey-to-azure-linux-4-0/ba-p/4559114",
-      "published": "2026-10-21T21:06:03+00:00",
-      "summary": "Azure Linux 4.0 builds on years of experience creating, operating, securing, and maintaining a Linux distribution for cloud-scale workloads. That journey began with CBL-Mariner, which emerged publicly in 2020 as Microsoft’s open-source Linux distribution for its cloud infrastructure and edge...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "poorvinarang"
     }
   ]
 }
