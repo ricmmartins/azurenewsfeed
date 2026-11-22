@@ -1,16 +1,7 @@
 {
-  "lastUpdated": "2026-11-21T23:16:33.488830+00:00",
-  "totalArticles": 301,
+  "lastUpdated": "2026-11-22T06:47:34.508966+00:00",
+  "totalArticles": 300,
   "articles": [
-    {
-      "title": "Rotating credentials in Azure API Management",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/rotating-credentials-in-azure-api-management/ba-p/4575478",
-      "published": "2026-11-21T22:12:12+00:00",
-      "summary": "Credentials covered by this guidance Subscription keys Named values that contain secrets Backend credentials (headers, query parameters, client certificates) OAuth 2.0 and OpenID Connect client secrets Connection strings (for example, Event Hubs loggers) Credentials written directly into policies...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "vladvino"
-    },
     {
       "title": "Hosted agents in your own virtual network: five checks when the Agents page times out",
       "link": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/",
@@ -19,15 +10,6 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Muzz Imam"
-    },
-    {
-      "title": "Implement Virtual WAN Secure Hub with Customer-Owned Public IPs for Firewall using AVM",
-      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/implement-virtual-wan-secure-hub-with-customer-owned-public-ips/ba-p/4575390",
-      "published": "2026-11-21T10:27:54+00:00",
-      "summary": "Azure Virtual WAN provides a managed networking architecture that simplifies connectivity between virtual networks, branch locations, VPN connections, and ExpressRoute connections. At the centre of this architecture is the Virtual Hub, which provides managed connectivity and routing. When Azure...",
-      "blog": "Azure Infrastructure",
-      "blogId": "azureinfrastructureblog",
-      "author": "Seema_gupta"
     },
     {
       "title": "Azure API Management Premium v2 now supports private CNAME records",
@@ -1684,6 +1666,15 @@
       "blog": "Azure Migration",
       "blogId": "azuremigrationblog",
       "author": "ohadsenior"
+    },
+    {
+      "title": "Tune your Logic Apps Standard runtime from the portal",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/tune-your-logic-apps-standard-runtime-from-the-portal/ba-p/4573619",
+      "published": "2026-11-17T15:27:16+00:00",
+      "summary": "Until now, the answer lived in host.json. To change a value in Azure, you opened Advanced Tools, went into Kudu, stopped your logic app, hand-edited JSON with a key you copied from the docs, saved, and restarted. Nothing on screen told you the default, or whether someone had already changed it....",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "WSilveira"
     },
     {
       "title": "Confidential AI on AKS: Running Phi-4-mini with KAITO and Azure NCC H100 GPUs",
