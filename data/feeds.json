@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-22T16:17:49.944448+00:00",
-  "totalArticles": 300,
+  "lastUpdated": "2026-11-22T21:54:19.571371+00:00",
+  "totalArticles": 298,
   "articles": [
+    {
+      "title": "Rotating credentials in Azure API Management",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/rotating-credentials-in-azure-api-management/ba-p/4575478",
+      "published": "2026-11-22T17:49:19+00:00",
+      "summary": "Credentials covered Subscription keys Named values that contain secrets Backend credentials (headers, query parameters, client certificates) OAuth 2.0 and OpenID Connect client secrets Connection strings (for example, Event Hubs loggers) Credentials written directly into policies How to rotate...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "vladvino"
+    },
     {
       "title": "Ignite 2026: The next era of enterprise AI starts with the infrastructure beneath it",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the/ba-p/4574943",
@@ -10,15 +19,6 @@
       "blog": "Azure Compute",
       "blogId": "azurecompute",
       "author": "Arun Kishan"
-    },
-    {
-      "title": "Rotating credentials in Azure API Management",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/rotating-credentials-in-azure-api-management/ba-p/4575478",
-      "published": "2026-11-21T22:12:12+00:00",
-      "summary": "Credentials covered by this guidance Subscription keys Named values that contain secrets Backend credentials (headers, query parameters, client certificates) OAuth 2.0 and OpenID Connect client secrets Connection strings (for example, Event Hubs loggers) Credentials written directly into policies...",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "vladvino"
     },
     {
       "title": "Hosted agents in your own virtual network: five checks when the Agents page times out",
@@ -2683,24 +2683,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Jason Chlus, Mads Kristensen"
-    },
-    {
-      "title": "Before Your Next Azure VM Refresh, Revisit the PaaS Options",
-      "link": "https://techcommunity.microsoft.com/t5/azure-migration-and/before-your-next-azure-vm-refresh-revisit-the-paas-options/ba-p/4562940",
-      "published": "2026-10-23T18:57:34+00:00",
-      "summary": "Why review these changes together? MANA and VM lifecycles MANA can change the network adapter on an eligible existing VM after maintenance or a stop, deallocate, and start cycle, even when the VM size stays the same. With Accelerated Networking enabled, check supported OS and driver versions. When...",
-      "blog": "Azure Migration",
-      "blogId": "azuremigrationblog",
-      "author": "Madhura Amlekar"
-    },
-    {
-      "title": "Bracing for BlockNtlmv1SSO",
-      "link": "https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/bracing-for-blockntlmv1sso/ba-p/4567273",
-      "published": "2026-10-23T18:14:10+00:00",
-      "summary": "Hi all. Jerry Devore dropping in for a minute to share some insights about the BlockNtlmv1SSO setting that went into effect with the October 2026 update. Why the change was necessary When MS-CHAPv2 is used for solutions like VPN, Wi-Fi, NPS, and RADIUS, the authentication flow leverages the MD4...",
-      "blog": "Core Infrastructure & Security",
-      "blogId": "coreinfrastructureandsecurityblog",
-      "author": "JerryDevore"
     }
   ]
 }
