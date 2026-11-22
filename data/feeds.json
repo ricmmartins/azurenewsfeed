@@ -1,7 +1,25 @@
 {
-  "lastUpdated": "2026-11-22T06:47:34.508966+00:00",
+  "lastUpdated": "2026-11-22T16:17:49.944448+00:00",
   "totalArticles": 300,
   "articles": [
+    {
+      "title": "Ignite 2026: The next era of enterprise AI starts with the infrastructure beneath it",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the/ba-p/4574943",
+      "published": "2026-11-22T02:13:31+00:00",
+      "summary": "By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can turn possibility into dependable progress, and for enterprise AI, that moment is here. As organizations move beyond isolated experiments toward...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "Arun Kishan"
+    },
+    {
+      "title": "Rotating credentials in Azure API Management",
+      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/rotating-credentials-in-azure-api-management/ba-p/4575478",
+      "published": "2026-11-21T22:12:12+00:00",
+      "summary": "Credentials covered by this guidance Subscription keys Named values that contain secrets Backend credentials (headers, query parameters, client certificates) OAuth 2.0 and OpenID Connect client secrets Connection strings (for example, Event Hubs loggers) Credentials written directly into policies...",
+      "blog": "Integrations on Azure",
+      "blogId": "integrationsonazureblog",
+      "author": "vladvino"
+    },
     {
       "title": "Hosted agents in your own virtual network: five checks when the Agents page times out",
       "link": "https://devblogs.microsoft.com/foundry/hosted-agents-private-network-setup/",
@@ -10,6 +28,15 @@
       "blog": "Microsoft Foundry Blog",
       "blogId": "foundryblog",
       "author": "Muzz Imam"
+    },
+    {
+      "title": "Implement Virtual WAN Secure Hub with Customer-Owned Public IPs for Firewall using AVM",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/implement-virtual-wan-secure-hub-with-customer-owned-public-ips/ba-p/4575390",
+      "published": "2026-11-21T10:27:54+00:00",
+      "summary": "Azure Virtual WAN provides a managed networking architecture that simplifies connectivity between virtual networks, branch locations, VPN connections, and ExpressRoute connections. At the centre of this architecture is the Virtual Hub, which provides managed connectivity and routing. When Azure...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Seema_gupta"
     },
     {
       "title": "Azure API Management Premium v2 now supports private CNAME records",
@@ -91,15 +118,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "amq"
-    },
-    {
-      "title": "Ignite 2026: The next era of enterprise AI starts with the infrastructure beneath it",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-enterprise-ai-starts-with-the/ba-p/4574943",
-      "published": "2026-11-20T17:30:47+00:00",
-      "summary": "By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can turn possibility into dependable progress, and for enterprise AI, that moment is here. As organizations move beyond isolated experiments toward...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Arun Kishan"
     },
     {
       "title": "Gulf Air's Continuous Improvement Journey with Microsoft Foundry",
@@ -1668,15 +1686,6 @@
       "author": "ohadsenior"
     },
     {
-      "title": "Tune your Logic Apps Standard runtime from the portal",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/tune-your-logic-apps-standard-runtime-from-the-portal/ba-p/4573619",
-      "published": "2026-11-17T15:27:16+00:00",
-      "summary": "Until now, the answer lived in host.json. To change a value in Azure, you opened Advanced Tools, went into Kudu, stopped your logic app, hand-edited JSON with a key you copied from the docs, saved, and restarted. Nothing on screen told you the default, or whether someone had already changed it....",
-      "blog": "Integrations on Azure",
-      "blogId": "integrationsonazureblog",
-      "author": "WSilveira"
-    },
-    {
       "title": "Confidential AI on AKS: Running Phi-4-mini with KAITO and Azure NCC H100 GPUs",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/confidential-ai-on-aks-running-phi-4-mini-with-kaito-and-azure/ba-p/4573943",
       "published": "2026-11-17T14:00:00+00:00",
@@ -2692,15 +2701,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "JerryDevore"
-    },
-    {
-      "title": "Protect Your Streaming Data in Use: Confidential Computing for Azure Event Hubs Dedicated",
-      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/protect-your-streaming-data-in-use-confidential-computing-for/ba-p/4515219",
-      "published": "2026-10-23T08:11:46+00:00",
-      "summary": "For organizations in regulated industries — financial services, healthcare, government, defense — the security conversation around data has always revolved around two states: data at rest and data in transit. Encrypt your storage. Encrypt your network traffic. Check, check. But there's a third...",
-      "blog": "Messaging on Azure",
-      "blogId": "messagingonazureblog",
-      "author": "ashish-chhabria"
     }
   ]
 }
