@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-11-23T14:39:21.214235+00:00",
-  "totalArticles": 298,
+  "lastUpdated": "2026-11-24T02:55:36.875671+00:00",
+  "totalArticles": 304,
   "articles": [
+    {
+      "title": "Accelerate Model Loading on AKS with DACS and Run:ai Model Streamer",
+      "link": "https://blog.aks.azure.com/2026/11/24/dacs-runai-model-loading",
+      "published": "2026-11-24T00:00:00+00:00",
+      "summary": "Load GPT-OSS-20B into vLLM on an AKS H100 node with Run:ai Model Streamer and DACS. Configure three NVMe cache servers and verify fresh-pod warm-cache loading and inference.",
+      "blog": "AKS Blog",
+      "blogId": "aksblog",
+      "author": "Microsoft"
+    },
+    {
+      "title": "Agentic Autofix for GitHub Advanced Security for Azure DevOps is in public preview",
+      "link": "https://devblogs.microsoft.com/devops/agentic-autofix-for-advanced-security-for-azure-devops-public-preview/",
+      "published": "2026-11-23T20:21:42+00:00",
+      "summary": "Today, we’re announcing the public preview of Agentic Autofix for GitHub Advanced Security for Azure DevOps. Thank you to everyone who participated in our June private preview and our October limited preview. Your feedback helped us expand alert coverage, improve failure handling, and prepare the...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Laura Jiang"
+    },
+    {
+      "title": "Azure Event Hubs Dedicated: you get the whole cluster",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/azure-event-hubs-dedicated-you-get-the-whole-cluster/ba-p/4576001",
+      "published": "2026-11-23T18:16:00+00:00",
+      "summary": "With Event Hubs Premium, you reserve compute for a namespace. With Dedicated, you reserve the whole cluster. Azure runs it, no other customer uses it, and you decide which of your namespaces share its capacity. Your teams can keep separate namespaces and endpoints without buying compute for each...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "ashish-chhabria"
+    },
+    {
+      "title": "New guidance to optimize Git performance in Azure Repos",
+      "link": "https://devblogs.microsoft.com/devops/new-guidance-to-optimize-git-performance-in-azure-repos/",
+      "published": "2026-11-23T18:00:44+00:00",
+      "summary": "Git works well for most development workflows. But a change that seems harmless can make a repository harder to work with. Here are a few examples of how that can happen. Committing binaries directly to your repository Binaries are more likely than source code files to differ a lot between...",
+      "blog": "Azure DevOps Blog",
+      "blogId": "azuredevops",
+      "author": "Artur Karachev"
+    },
+    {
+      "title": "Azure Linux 4 is generally available",
+      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/azure-linux-4-is-generally-available/ba-p/4573381",
+      "published": "2026-11-23T16:21:37+00:00",
+      "summary": "Today, we're announcing the general availability of Azure Linux 4, Microsoft's own Linux distribution, purpose-built for Azure. Azure Linux is open source, with its code and tooling on GitHub, and already powers millions of cores across Azure services, including AI workloads, Azure Kubernetes...",
+      "blog": "Linux & Open Source",
+      "blogId": "linuxandopensourceblog",
+      "author": "jimperrin"
+    },
+    {
+      "title": "Do AI coding agents struggle with non-REST APIs?",
+      "link": "https://devblogs.microsoft.com/blog/do-ai-coding-agents-struggle-with-non-rest-apis/",
+      "published": "2026-11-23T10:25:28+00:00",
+      "summary": "Should your next API be REST, or something else? And which one will AI coding agents handle best? We tested REST, POST-only and RPC-style APIs with six models across 1,356 runs, and what decided whether agents succeeded had nothing to do with API style.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
+      "title": "Coding, Decisions, and Image Editing: Which AI Models Should Your Business Use?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/coding-decisions-and-image-editing-which-ai-models-should-your/ba-p/4575684",
+      "published": "2026-11-23T05:15:00+00:00",
+      "summary": "Choosing an AI model is not just a leaderboard exercise. Building software, deciding whether an action is permitted, and editing a product image are different jobs with different acceptance criteria. Code must work and survive review. Decisions must be fast without interrupting legitimate work....",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
     {
       "title": "Rotating credentials in Azure API Management",
       "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/rotating-credentials-in-azure-api-management/ba-p/4575478",
@@ -1261,15 +1324,6 @@
       "blog": "Azure Infrastructure",
       "blogId": "azureinfrastructureblog",
       "author": "pangn"
-    },
-    {
-      "title": "Azure Linux 4 is generally available",
-      "link": "https://techcommunity.microsoft.com/t5/linux-and-open-source-blog/azure-linux-4-is-generally-available/ba-p/4573381",
-      "published": "2026-11-17T19:48:21+00:00",
-      "summary": "Today, we're announcing the general availability of Azure Linux 4, Microsoft's own Linux distribution, purpose-built for Azure. Azure Linux is open source, with its code and tooling on GitHub, and already powers millions of cores across Azure services, including AI workloads, Azure Kubernetes...",
-      "blog": "Linux & Open Source",
-      "blogId": "linuxandopensourceblog",
-      "author": "jimperrin"
     },
     {
       "title": "Separating Compute in Azure Functions: Building for Scale, efficiency, and reliability.",
