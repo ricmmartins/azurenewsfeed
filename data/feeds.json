@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-25T11:18:39.921231+00:00",
-  "totalArticles": 322,
+  "lastUpdated": "2026-11-25T21:43:05.640980+00:00",
+  "totalArticles": 320,
   "articles": [
+    {
+      "title": "Measuring Freshness for Web Grounding",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/measuring-freshness-for-web-grounding/ba-p/4576396",
+      "published": "2026-11-25T05:15:00+00:00",
+      "summary": "When picking a web grounding service, most developers evaluate a provider's enterprise readiness, quality, latency, and cost. For applications built on changing information, one more question matters: how fresh are the results? An earnings announcement can reshape a customer brief, and a permitting...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "RyanCassidy"
+    },
     {
       "title": "Upcoming DNS changes for Azure Event Hubs and Azure Service Bus",
       "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/upcoming-dns-changes-for-azure-event-hubs-and-azure-service-bus/ba-p/4576442",
@@ -64,6 +73,15 @@
       "blog": "Governance & Management",
       "blogId": "azuregovernanceandmanagementblog",
       "author": "stevenbucher"
+    },
+    {
+      "title": "Let the LLM Judge, Let Code Do the Math: Using a Rubric to Size Work Consistently",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/let-the-llm-judge-let-code-do-the-math-using-a-rubric-to-size/ba-p/4575343",
+      "published": "2026-11-24T17:00:00+00:00",
+      "summary": "Introduction Many AI workflows end with the same request: \"Give this item a score.\" A priority, a risk level, a quality grade. The model reads something, and you need a number or a label back. Take support ticket triage. Tickets arrive all day, and each one needs an urgency level so the right ones...",
+      "blog": "Azure AI Foundry",
+      "blogId": "azure-ai-foundry-blog",
+      "author": "paggarwal"
     },
     {
       "title": "Visual Studio November Update – Faster Workflows, Better Reviews",
@@ -937,15 +955,6 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "abikomma"
-    },
-    {
-      "title": "From Agents to Digital Coworkers with Foundry autonomous agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-agents-to-digital-coworkers-with-foundry-autonomous-agents/ba-p/4572590",
-      "published": "2026-11-18T17:00:00+00:00",
-      "summary": "We are already building agents that reason, retrieve knowledge, call tools, and execute multistep workflows. Some assist people directly. Others run in the background. Increasingly, multiple agents collaborate to get a job done. So what makes a Foundry autonomous agents different? Is it another...",
-      "blog": "Azure AI Foundry",
-      "blogId": "azure-ai-foundry-blog",
-      "author": "prateekwrites"
     },
     {
       "title": "Closing the Azure Confidential VM Performance Gap with Intel® TDX",
@@ -2872,33 +2881,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "Mark Downie"
-    },
-    {
-      "title": "Azure WAF custom rules for PHP2Shell mitigation",
-      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-waf-custom-rules-for-php2shell-mitigation/ba-p/4566684",
-      "published": "2026-10-26T19:00:38+00:00",
-      "summary": "Written in collaboration with Gunjan Jain​ and yuvalpery​ As described in our earlier blog, Addressing PHP2Shell CVE-2026-109618 and CVE-2026-109619: upgrade guidance and Azure WAF mitigations, we strongly recommend upgrading to a patched version of PHP as soon as possible. Upgrading PHP remains...",
-      "blog": "Azure Network Security",
-      "blogId": "azurenetworksecurityblog",
-      "author": "saikishor"
-    },
-    {
-      "title": "PostgreSQL Like A Pro: Build, query, and troubleshoot without leaving VS Code",
-      "link": "https://devblogs.microsoft.com/blog/postgresql-like-a-pro-vscode/",
-      "published": "2026-10-26T15:05:12+00:00",
-      "summary": "Build, query, and troubleshoot without leaving VS Code.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Cynthia Zanoni"
-    },
-    {
-      "title": "PHP2Shell and Azure DevOps: what to check",
-      "link": "https://devblogs.microsoft.com/devops/php2shell-and-azure-devops-what-to-check/",
-      "published": "2026-10-26T13:00:38+00:00",
-      "summary": "On October 21, 2026, PHP disclosed two critical vulnerabilities that can allow remote code execution. Neither Azure DevOps Services, our cloud-hosted offering, nor Azure DevOps Server, our on-premises product, uses PHP to handle customer requests. PHP runtimes used by pipelines, containers, and...",
-      "blog": "Azure DevOps Blog",
-      "blogId": "azuredevops",
-      "author": "Josef Sin"
     }
   ]
 }

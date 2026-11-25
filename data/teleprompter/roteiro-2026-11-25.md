@@ -8,8 +8,17 @@ E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
 Hoje é dia 25/11/2026.
-Temos 12 atualizações para cobrir.
+Temos 5 atualizações para cobrir.
 Vamos direto ao ponto.
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Dev Community]
+
+  ► Measuring Freshness for Web Grounding
+    When picking a web grounding service, most developers evaluate a provider's enterprise readiness, quality, latency, and cost. For applications built o
+    Link: https://techcommunity.microsoft.com/t5/microsoft-developer-community/measuring-freshness-for-web-grounding/ba-p/4576396
+
 [PAUSA]
 
 ----------------------------------------
@@ -35,73 +44,6 @@ Vamos direto ao ponto.
   ► Announcing public preview for Windows Remote Recovery on Azure VMs
     Resilience is about more than preventing failures. It is also about giving IT teams the tools to recover when something goes wrong. When a critical vi
     Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-public-preview-for-windows-remote-recovery-on-azure/ba-p/4576401
-
-  ► Introducing Periodic Assessment for VMSS Uniform in Azure Update Manager
-    A unified view of update compliance for VMSS Uniform We are excited to announce the public preview of Periodic Assessment for Azure Virtual Machine Sc
-    Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/introducing-periodic-assessment-for-vmss-uniform-in-azure-update/ba-p/4573685
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Cosmos DB Blog]
-
-  ► All or nothing: distributed transactions in Azure Cosmos DB
-    Azure Cosmos DB for NoSQL can now commit writes across partition keys, containers, and databases as one atomic unit. Distributed transactions are curr
-    Link: https://devblogs.microsoft.com/cosmosdb/all-or-nothing-distributed-transactions-in-azure-cosmos-db/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Governance & Management]
-
-  ► Azure Governance & Management @ Microsoft Ignite 2026
-    Managing cloud environments at scale continues to get more complex. Organizations need simple ways to organize their estate, establish consistent guar
-    Link: https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-governance-management-microsoft-ignite-2026/ba-p/4571751
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Visual Studio Blog]
-
-  ► Visual Studio November Update – Faster Workflows, Better Reviews
-    The November Visual Studio update reduces repeated work in large-solution workflows, adds MSBuild Restore in Open Folder, introduces Copilot Chat's ne
-    Link: https://devblogs.microsoft.com/visualstudio/visual-studio-november-update-faster-workflows-better-reviews/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Microsoft Foundry Blog]
-
-  ► What’s new in Microsoft Foundry | Ignite 2026
-    Microsoft Foundry Ignite 2026 updates for agents, developer tools, models, training, enterprise context, and governance, with continuous improvement. 
-    Link: https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Microsoft Developers Blog]
-
-  ► Is “sort by impact” just vibes?
-    You ask an agent for your top five, sorted by impact, and it hands you a confident list. But you never said what impact means, so what did the agent a
-    Link: https://devblogs.microsoft.com/blog/is-sort-by-impact-just-vibes/
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Telecommunications]
-
-  ► Why Autonomous Networks Stall Before Level 4
-    Observe ✓ · Decide ✓ · Execute ✗ A router at 3 a.m. An alarm fires. Correlation analysis has already narrowed the likely cause down to a single link f
-    Link: https://techcommunity.microsoft.com/t5/telecommunications-media/why-autonomous-networks-stall-before-level-4/ba-p/4571864
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Dev Community]
-
-  ► CetiRun: Taking AI Agents from Personal Tools to an Operable Platform on Azure
-    1. The adoption challenge is not whether an agent can write code At developer events, the demo often looks straightforward: describe a requirement, le
-    Link: https://techcommunity.microsoft.com/t5/microsoft-developer-community/cetirun-taking-ai-agents-from-personal-tools-to-an-operable/ba-p/4576068
 
 [PAUSA]
 
