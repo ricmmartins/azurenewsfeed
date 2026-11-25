@@ -8,7 +8,7 @@ E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
 Hoje é dia 25/11/2026.
-Temos 14 atualizações para cobrir.
+Temos 12 atualizações para cobrir.
 Vamos direto ao ponto.
 [PAUSA]
 
@@ -67,10 +67,6 @@ Vamos direto ao ponto.
     The November Visual Studio update reduces repeated work in large-solution workflows, adds MSBuild Restore in Open Folder, introduces Copilot Chat's ne
     Link: https://devblogs.microsoft.com/visualstudio/visual-studio-november-update-faster-workflows-better-reviews/
 
-  ► Beyond the prompt: Discovering trusted technical perspectives with your Visual Studio subscription
-    AI is changing the speed at which developers can produce code. And with this change, a different challenge emerges: how do we ensure that what we’re b
-    Link: https://devblogs.microsoft.com/visualstudio/beyond-the-prompt-discovering-trusted-technical-perspectives-with-your-visual-studio-subscription/
-
 [PAUSA]
 
 ----------------------------------------
@@ -106,15 +102,6 @@ Vamos direto ao ponto.
   ► CetiRun: Taking AI Agents from Personal Tools to an Operable Platform on Azure
     1. The adoption challenge is not whether an agent can write code At developer events, the demo often looks straightforward: describe a requirement, le
     Link: https://techcommunity.microsoft.com/t5/microsoft-developer-community/cetirun-taking-ai-agents-from-personal-tools-to-an-operable/ba-p/4576068
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Observability]
-
-  ► Looking for a managed OpenTelemetry collector? Azure Monitor pipeline now does the job
-    You did the hard part. Your teams instrumented applications, and increasingly, AI agents, with OpenTelemetry, so their logs, metrics, and traces and e
-    Link: https://techcommunity.microsoft.com/t5/azure-observability-blog/looking-for-a-managed-opentelemetry-collector-azure-monitor/ba-p/4576014
 
 [PAUSA]
 
