@@ -1,7 +1,133 @@
 {
-  "lastUpdated": "2026-11-24T14:52:49.956970+00:00",
-  "totalArticles": 311,
+  "lastUpdated": "2026-11-25T00:45:50.132663+00:00",
+  "totalArticles": 322,
   "articles": [
+    {
+      "title": "Upcoming DNS changes for Azure Event Hubs and Azure Service Bus",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/upcoming-dns-changes-for-azure-event-hubs-and-azure-service-bus/ba-p/4576442",
+      "published": "2026-11-24T23:43:01+00:00",
+      "summary": "What is happening In Azure public cloud, the new hostname format is namespace-name.zN.eventhubs.azure.net for Event Hubs and namespace-name.zN.servicebus.azure.net for Service Bus. Here, namespace-name is your namespace name and N is the partition number assigned by the service. Azure Relay also...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer"
+    },
+    {
+      "title": "Ignite 2026: The next era of AI starts with the infrastructure beneath it",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-ai-starts-with-the-infrastructure/ba-p/4574943",
+      "published": "2026-11-24T23:34:39+00:00",
+      "summary": "By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can turn possibility into dependable progress, and for AI, that moment is here. As organizations move beyond isolated experiments toward models,...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "Arun Kishan"
+    },
+    {
+      "title": "Strengthen your Azure security baseline with Metadata Security Protocol",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/strengthen-your-azure-security-baseline-with-metadata-security/ba-p/4576391",
+      "published": "2026-11-24T21:52:02+00:00",
+      "summary": "Managed identities make it easier to securely authenticate applications running on Azure Virtual Machines without storing credentials in application code. However, they introduce an important security consideration: which applications and processes running inside a VM should be able to request...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "KaiSulkin"
+    },
+    {
+      "title": "Announcing public preview for Windows Remote Recovery on Azure VMs",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-public-preview-for-windows-remote-recovery-on-azure/ba-p/4576401",
+      "published": "2026-11-24T21:51:38+00:00",
+      "summary": "Resilience is about more than preventing failures. It is also about giving IT teams the tools to recover when something goes wrong. When a critical virtual machine cannot start, restoring the operating system becomes the first step toward restoring the business services that depend on it. Today...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "GabstaMSFT"
+    },
+    {
+      "title": "All or nothing: distributed transactions in Azure Cosmos DB",
+      "link": "https://devblogs.microsoft.com/cosmosdb/all-or-nothing-distributed-transactions-in-azure-cosmos-db/",
+      "published": "2026-11-24T21:39:03+00:00",
+      "summary": "Azure Cosmos DB for NoSQL can now commit writes across partition keys, containers, and databases as one atomic unit. Distributed transactions are currently in public preview. Every operation commits, or none of them do. Previously, applications that needed atomic operations across multiple logical...",
+      "blog": "Azure Cosmos DB Blog",
+      "blogId": "cosmosdbblog",
+      "author": "Sergiy Smyrnov, Sushant Rane"
+    },
+    {
+      "title": "Introducing Periodic Assessment for VMSS Uniform in Azure Update Manager",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/introducing-periodic-assessment-for-vmss-uniform-in-azure-update/ba-p/4573685",
+      "published": "2026-11-24T21:10:41+00:00",
+      "summary": "A unified view of update compliance for VMSS Uniform We are excited to announce the public preview of Periodic Assessment for Azure Virtual Machine Scale Sets (VMSS) using Uniform orchestration mode in Azure Update Manager. Periodic Assessment automatically reviews the update-compliance state of a...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "KamalMaini"
+    },
+    {
+      "title": "Azure Governance & Management @ Microsoft Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-governance-management-microsoft-ignite-2026/ba-p/4571751",
+      "published": "2026-11-24T18:33:49+00:00",
+      "summary": "Managing cloud environments at scale continues to get more complex. Organizations need simple ways to organize their estate, establish consistent guardrails, understand what is happening across their resources and machines, and enable AI agents to safely interact with Azure. We announced a lot at...",
+      "blog": "Governance & Management",
+      "blogId": "azuregovernanceandmanagementblog",
+      "author": "stevenbucher"
+    },
+    {
+      "title": "Visual Studio November Update – Faster Workflows, Better Reviews",
+      "link": "https://devblogs.microsoft.com/visualstudio/visual-studio-november-update-faster-workflows-better-reviews/",
+      "published": "2026-11-24T17:00:00+00:00",
+      "summary": "The November Visual Studio update reduces repeated work in large-solution workflows, adds MSBuild Restore in Open Folder, introduces Copilot Chat's new engine and work controls, helps organize large pull-request reviews, and adds CSS color previews and IntelliSense. The post Visual Studio November...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "Mark Downie"
+    },
+    {
+      "title": "What’s new in Microsoft Foundry | Ignite 2026",
+      "link": "https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/",
+      "published": "2026-11-24T16:00:51+00:00",
+      "summary": "Microsoft Foundry Ignite 2026 updates for agents, developer tools, models, training, enterprise context, and governance, with continuous improvement. The post What’s new in Microsoft Foundry | Ignite 2026 appeared first on Microsoft Foundry Blog.",
+      "blog": "Microsoft Foundry Blog",
+      "blogId": "foundryblog",
+      "author": "Nick Brady"
+    },
+    {
+      "title": "Is “sort by impact” just vibes?",
+      "link": "https://devblogs.microsoft.com/blog/is-sort-by-impact-just-vibes/",
+      "published": "2026-11-24T15:23:13+00:00",
+      "summary": "You ask an agent for your top five, sorted by impact, and it hands you a confident list. But you never said what impact means, so what did the agent actually sort by? We ran four models through the same lists 1,500 times to find out, and what we found should change how you ask for a ranking.",
+      "blog": "Microsoft Developers Blog",
+      "blogId": "msdevblog",
+      "author": "Waldek Mastykarz"
+    },
+    {
+      "title": "Why Autonomous Networks Stall Before Level 4",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/why-autonomous-networks-stall-before-level-4/ba-p/4571864",
+      "published": "2026-11-24T13:47:21+00:00",
+      "summary": "Observe ✓ · Decide ✓ · Execute ✗ A router at 3 a.m. An alarm fires. Correlation analysis has already narrowed the likely cause down to a single link failure. The AI recommends a fix: raise the cost on that link and steer traffic around it. The dashboard lays all of this out in a matter of seconds....",
+      "blog": "Telecommunications",
+      "blogId": "telecommunications-industry-blog",
+      "author": "HiroyukiHikino"
+    },
+    {
+      "title": "CetiRun: Taking AI Agents from Personal Tools to an Operable Platform on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/cetirun-taking-ai-agents-from-personal-tools-to-an-operable/ba-p/4576068",
+      "published": "2026-11-24T12:10:44+00:00",
+      "summary": "1. The adoption challenge is not whether an agent can write code At developer events, the demo often looks straightforward: describe a requirement, let AI inspect a project, change files, and run tests, and a few minutes later a feature is ready. But when a team tries to turn that demo into...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kinfey"
+    },
+    {
+      "title": "Beyond the prompt: Discovering trusted technical perspectives with your Visual Studio subscription",
+      "link": "https://devblogs.microsoft.com/visualstudio/beyond-the-prompt-discovering-trusted-technical-perspectives-with-your-visual-studio-subscription/",
+      "published": "2026-11-24T11:00:58+00:00",
+      "summary": "AI is changing the speed at which developers can produce code. And with this change, a different challenge emerges: how do we ensure that what we’re building is secure, reliable, and maintainable? Not just an immediate answer AI-generated code can look convincing, compile successfully, and even...",
+      "blog": "Visual Studio Blog",
+      "blogId": "visualstudio",
+      "author": "James Rempt"
+    },
+    {
+      "title": "Looking for a managed OpenTelemetry collector? Azure Monitor pipeline now does the job",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/looking-for-a-managed-opentelemetry-collector-azure-monitor/ba-p/4576014",
+      "published": "2026-11-24T01:26:25+00:00",
+      "summary": "You did the hard part. Your teams instrumented applications, and increasingly, AI agents, with OpenTelemetry, so their logs, metrics, and traces and events aren’t locked to any one vendor’s SDK. In the AI era, those signals do double duty: they help people understand systems and give agents context...",
+      "blog": "Azure Observability",
+      "blogId": "azureobservabilityblog",
+      "author": "shayoni_seth"
+    },
     {
       "title": "Accelerate Model Loading on AKS with DACS and Run:ai Model Streamer",
       "link": "https://blog.aks.azure.com/2026/11/24/dacs-runai-model-loading",
@@ -48,13 +174,13 @@
       "author": "Laura Jiang"
     },
     {
-      "title": "Ignite 2026: The next era of customer AI starts with the infrastructure beneath it",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-customer-ai-starts-with-the/ba-p/4574943",
-      "published": "2026-11-23T19:23:52+00:00",
-      "summary": "By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can turn possibility into dependable progress, and for customer AI, that moment is here. As organizations move beyond isolated experiments toward models,...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "Arun Kishan"
+      "title": "From Commercial Imagery to Physical-World Intelligence with SkyWatch and Planetary Computer Pro",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-planetary-computer/from-commercial-imagery-to-physical-world-intelligence-with/ba-p/4572066",
+      "published": "2026-11-23T19:31:36+00:00",
+      "summary": "Microsoft Planetary Computer Pro is designed to help organizations deliver Physical-World Intelligence to decision makers with less toil, and as little time as possible. Geospatial remote sensing data and derived datasets capture vital information about the planet, but the tools and processes...",
+      "blog": "Planetary Computer",
+      "blogId": "microsoft-planetary-computer-blog",
+      "author": "AdamLoverro"
     },
     {
       "title": "Azure Event Hubs Dedicated: you get the whole cluster",
@@ -2253,15 +2379,6 @@
       "author": "Dalia Abo Sheasha"
     },
     {
-      "title": "When one pass isn’t enough: agentic mode in Azure Content Understanding",
-      "link": "https://devblogs.microsoft.com/foundry/when-one-pass-isnt-enough-agentic-mode-in-azure-content-understanding/",
-      "published": "2026-11-09T20:04:00+00:00",
-      "summary": "Most document analysis takes one efficient pass. Learn how agentic mode gives AI a document-native harness for the hardest tasks, and when to choose it over standard mode. “Some books are to be tasted, others to be swallowed, and some few to be chewed and digested.” Francis Bacon, “Of Studies”,...",
-      "blog": "Microsoft Foundry Blog",
-      "blogId": "foundryblog",
-      "author": "Joe Filcik"
-    },
-    {
       "title": "Granular control with scoped enforcement actions in Azure Policy for AKS",
       "link": "https://techcommunity.microsoft.com/t5/azure-governance-and-management/granular-control-with-scoped-enforcement-actions-in-azure-policy/ba-p/4571773",
       "published": "2026-11-09T18:34:10+00:00",
@@ -2757,15 +2874,6 @@
       "author": "Mark Downie"
     },
     {
-      "title": "Inspecting Local Data with Azure Cosmos DB Shell",
-      "link": "https://devblogs.microsoft.com/cosmosdb/inspecting-local-data-with-azure-cosmos-db-shell/",
-      "published": "2026-10-27T13:31:06+00:00",
-      "summary": "Explore local data from the terminal with Azure Cosmos DB Shell. Connect to the emulator, inspect FleetCharge documents, run queries, and point-read depot partitions. The post Inspecting Local Data with Azure Cosmos DB Shell appeared first on Azure Cosmos DB Blog.",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Jay Gordon"
-    },
-    {
       "title": "Azure WAF custom rules for PHP2Shell mitigation",
       "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/azure-waf-custom-rules-for-php2shell-mitigation/ba-p/4566684",
       "published": "2026-10-26T19:00:38+00:00",
@@ -2791,15 +2899,6 @@
       "blog": "Azure DevOps Blog",
       "blogId": "azuredevops",
       "author": "Josef Sin"
-    },
-    {
-      "title": "Keep your investigation between sessions",
-      "link": "https://devblogs.microsoft.com/visualstudio/keep-your-investigation-between-sessions/",
-      "published": "2026-10-26T12:00:10+00:00",
-      "summary": "Start a standalone Markdown note and use the opt-in Hot Exit preview to resume unsaved work next session. The post Keep your investigation between sessions appeared first on Visual Studio Blog.",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "Jason Chlus, Mads Kristensen"
     }
   ]
 }
