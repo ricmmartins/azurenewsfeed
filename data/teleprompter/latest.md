@@ -1,5 +1,5 @@
 ============================================================
-ROTEIRO - AZURE NEWS DIÁRIO - 25/11/2026
+ROTEIRO - AZURE NEWS DIÁRIO - 26/11/2026
 ============================================================
 
 [ABERTURA]
@@ -7,9 +7,57 @@ ROTEIRO - AZURE NEWS DIÁRIO - 25/11/2026
 E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
-Hoje é dia 25/11/2026.
-Temos 5 atualizações para cobrir.
+Hoje é dia 26/11/2026.
+Temos 8 atualizações para cobrir.
 Vamos direto ao ponto.
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Apps on Azure]
+
+  ► Azure Functions and AWS Lambda: One Trigger vs. Multiple Triggers—What Changes in Your Design?
+    When moving between Azure Functions and AWS Lambda, one difference quickly stands out: An individual Azure function must have exactly one trigger. An 
+    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-and-aws-lambda-one-trigger-vs-multiple-triggers/ba-p/4574749
+
+  ► Introducing Brewlet: Manage Golden Images at Platform Speed
+    In October 2026, the PHP project released security updates for critical vulnerabilities that could allow unauthenticated remote code execution. For te
+    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-brewlet-manage-golden-images-at-platform-speed/ba-p/4576767
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Compute]
+
+  ► Ignite 2026: The next era of AI starts with the infrastructure beneath it
+    Windows Remote Recovery for Azure VMsBy Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventua
+    Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-ai-starts-with-the-infrastructure/ba-p/4574943
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Microsoft Sentinel]
+
+  ► Microsoft Ignite 2026: New Sentinel Connectors Announcement
+    Microsoft Sentinel helps organizations detect, investigate, and respond to threats across increasingly complex environments. As AI transforms security
+    Link: https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/microsoft-ignite-2026-new-sentinel-connectors-announcement/ba-p/4565258
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure AI Foundry]
+
+  ► From inline tools to a shared Toolbox in Microsoft Foundry
+    A travel agent needs weather forecasts, exchange rates, and local time. When a second agent needs those same capabilities, the team can configure each
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-inline-tools-to-a-shared-toolbox-in-microsoft-foundry/ba-p/4575475
+
+  ► Build a multi-model video generation workflow with fal on Microsoft Foundry
+    Building a compelling video experience rarely comes down to finding one model that does everything. Early in the creative process, you may want fast t
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/build-a-multi-model-video-generation-workflow-with-fal-on/ba-p/4573786
+
+  ► Hosted agents in your own virtual network: five checks when the Agents page times out
+    Over the last few weeks I have worked with several teams moving hosted agents into their own virtual network. Different industries, same five question
+    Link: https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/hosted-agents-in-your-own-virtual-network-five-checks-when-the/ba-p/4575468
+
 [PAUSA]
 
 ----------------------------------------
@@ -18,32 +66,6 @@ Vamos direto ao ponto.
   ► Measuring Freshness for Web Grounding
     When picking a web grounding service, most developers evaluate a provider's enterprise readiness, quality, latency, and cost. For applications built o
     Link: https://techcommunity.microsoft.com/t5/microsoft-developer-community/measuring-freshness-for-web-grounding/ba-p/4576396
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Messaging on Azure]
-
-  ► Upcoming DNS changes for Azure Event Hubs and Azure Service Bus
-    What is happening In Azure public cloud, the new hostname format is namespace-name.zN.eventhubs.azure.net for Event Hubs and namespace-name.zN.service
-    Link: https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/upcoming-dns-changes-for-azure-event-hubs-and-azure-service-bus/ba-p/4576442
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: Azure Compute]
-
-  ► Ignite 2026: The next era of AI starts with the infrastructure beneath it
-    By Arun Kishan, Technical Fellow and Corporate Vice President, Azure Compute Every major technology shift eventually asks whether infrastructure can t
-    Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-ai-starts-with-the-infrastructure/ba-p/4574943
-
-  ► Strengthen your Azure security baseline with Metadata Security Protocol
-    Managed identities make it easier to securely authenticate applications running on Azure Virtual Machines without storing credentials in application c
-    Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/strengthen-your-azure-security-baseline-with-metadata-security/ba-p/4576391
-
-  ► Announcing public preview for Windows Remote Recovery on Azure VMs
-    Resilience is about more than preventing failures. It is also about giving IT teams the tools to recover when something goes wrong. When a critical vi
-    Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-public-preview-for-windows-remote-recovery-on-azure/ba-p/4576401
 
 [PAUSA]
 
