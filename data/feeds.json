@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-27T08:32:40.274524+00:00",
-  "totalArticles": 321,
+  "lastUpdated": "2026-11-27T19:28:53.341294+00:00",
+  "totalArticles": 318,
   "articles": [
     {
       "title": "Run Slurm on Kubernetes with Slinky",
@@ -19,6 +19,15 @@
       "blog": "Azure Maps",
       "blogId": "azuremapsblog",
       "author": "IoTGirl"
+    },
+    {
+      "title": "Microsoft Ignite 2026: Sovereign Cloud, Azure Local and Azure Catalyst",
+      "link": "https://www.azurecitadel.com/blog/2026-11-27-post-ignite/",
+      "published": "2026-11-27T00:00:00+00:00",
+      "summary": "Microsoft Ignite 2026 delivered a substantial number of announcements across Azure, AI, infrastructure and security. Of particular interest were the continued development of Microsoft’s sovereign cloud capabilities, significant additions to Azure Local, and the introduction of Azure Catalyst for...",
+      "blog": "Azure Citadel Blog",
+      "blogId": "azurecitadelblog",
+      "author": "Microsoft"
     },
     {
       "title": "Azure Local: 10 anti-patterns that quietly break a running cluster",
@@ -2854,42 +2863,6 @@
       "blog": "Visual Studio Blog",
       "blogId": "visualstudio",
       "author": "James Rempt"
-    },
-    {
-      "title": "Publish Visual Studio Marketplace extensions securely with Trusted Publishing",
-      "link": "https://devblogs.microsoft.com/blog/trusted-publishing-visual-studio-marketplace/",
-      "published": "2026-10-28T16:59:00+00:00",
-      "summary": "Publish Visual Studio Code and Visual Studio extensions from GitHub Actions or Azure Pipelines without storing a long-lived personal access token.",
-      "blog": "Microsoft Developers Blog",
-      "blogId": "msdevblog",
-      "author": "Lynn Dai"
-    },
-    {
-      "title": "Growing our connector ecosystem with 500+ Microsoft Sentinel connectors",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/growing-our-connector-ecosystem-with-500-microsoft-sentinel/ba-p/4567832",
-      "published": "2026-10-28T16:00:00+00:00",
-      "summary": "Connecting the modern security environment Having spent years working across Microsoft's cloud, AI, and customer-facing organizations. I have seen that technology delivers the greatest value when it works with the environments customers already operate. That's especially true in cybersecurity. Most...",
-      "blog": "Microsoft Sentinel",
-      "blogId": "microsoftsentinelblog",
-      "author": "alihob"
-    },
-    {
-      "title": "Azure SDK Release (October 2026)",
-      "link": "https://devblogs.microsoft.com/azure-sdk/azure-sdk-release-october-2026/",
-      "published": "2026-10-28T15:00:44+00:00",
-      "summary": "October's Azure SDK highlights include Azure Core authentication updates, managed identity improvements for Python and Java, and the first stable Cosmos DB libraries for Rust. The post Azure SDK Release (October 2026) appeared first on Azure SDK Blog.",
-      "blog": "Azure SDK Blog",
-      "blogId": "azuresdkblog",
-      "author": "Sandeep Sen"
-    },
-    {
-      "title": "Agentic CI/CD with Azure Cosmos DB: Isolated Environments for a Swarm of AI Agents",
-      "link": "https://devblogs.microsoft.com/cosmosdb/agentic-ci-cd-with-azure-cosmos-db-isolated-environments-for-a-swarm-of-ai-agents/",
-      "published": "2026-10-28T11:00:02+00:00",
-      "summary": "Give each coding task its own disposable database environment, then merge the reviewed changes – not the test database. When parallel coding agents share a database In From Local Development to CI Workflows with the Azure Cosmos DB Emulator, we used FleetCharge to make local development and CI...",
-      "blog": "Azure Cosmos DB Blog",
-      "blogId": "cosmosdbblog",
-      "author": "Jay Gordon"
     }
   ]
 }
