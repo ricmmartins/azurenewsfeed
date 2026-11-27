@@ -1,7 +1,79 @@
 {
-  "lastUpdated": "2026-11-26T22:59:53.035434+00:00",
-  "totalArticles": 313,
+  "lastUpdated": "2026-11-27T08:32:40.274524+00:00",
+  "totalArticles": 321,
   "articles": [
+    {
+      "title": "Run Slurm on Kubernetes with Slinky",
+      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/run-slurm-on-kubernetes-with-slinky/ba-p/4577289",
+      "published": "2026-11-27T08:08:25+00:00",
+      "summary": "Run Slurm on Kubernetes with Slinky What Slinky does Slurm is a workload manager for jobs with explicit resource requirements: a simulation needs a number of nodes, a training run needs GPUs, and a parameter sweep needs hundreds of independent tasks. It provides queues, priorities, reservations,...",
+      "blog": "High Performance Computing",
+      "blogId": "azurehighperformancecomputingblog",
+      "author": "Hugo_Meiland"
+    },
+    {
+      "title": "Maps Visualization",
+      "link": "https://techcommunity.microsoft.com/t5/azure-maps-blog/maps-visualization/ba-p/4399823",
+      "published": "2026-11-27T00:30:00+00:00",
+      "summary": "Azure Maps offers an integrated suite of geospatial map visualization tools to simplify data interpretation and empower decision-making. Businesses can leverage these tools, including the location API for real-time geocoding and spatial data enrichment, to transform static datasets into actionable...",
+      "blog": "Azure Maps",
+      "blogId": "azuremapsblog",
+      "author": "IoTGirl"
+    },
+    {
+      "title": "Azure Local: 10 anti-patterns that quietly break a running cluster",
+      "link": "https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-anti-patterns-that-quietly-break-a-running/ba-p/4577143",
+      "published": "2026-11-26T18:00:52+00:00",
+      "summary": "Part 2: Design and operations anti-patterns for Azure Local An anti-pattern is a recurring design or operating choice that looks like a good solution to an immediate problem but creates a bigger problem elsewhere. A storage optimization can look good on a capacity report, for example, and still be...",
+      "blog": "Azure Infrastructure",
+      "blogId": "azureinfrastructureblog",
+      "author": "Azure-Hacker"
+    },
+    {
+      "title": "Unlocking Data Value with Fabric and Microsoft AI Agents: Choose, Deploy, Optimise",
+      "link": "https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/unlocking-data-value-with-fabric-and-microsoft-ai-agents-choose/ba-p/4574895",
+      "published": "2026-11-26T15:45:59+00:00",
+      "summary": "Over the past few years, most organisations I work with have invested heavily in their data platforms: landing data, modelling it and publishing reports. Yet when a business leader has a new question, the answer is often still a request to the BI team, a hunt for the right report, or someone...",
+      "blog": "Analytics on Azure",
+      "blogId": "analyticsonazure",
+      "author": "limaoncloud"
+    },
+    {
+      "title": "Running green hydrogen export plants with AI agents on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/running-green-hydrogen-export-plants-with-ai-agents-on-azure/ba-p/4576731",
+      "published": "2026-11-26T13:35:43+00:00",
+      "summary": "Before you read. I wrote this paper for my capstone in the Azure Master Architect Program. The design has not been built, and the test in section 9 is a simulation. The value figures come from the case and from that simulation, and the cost figures are my estimates at Azure list prices. All of them...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "sahoumym"
+    },
+    {
+      "title": "Announcing Public Preview of Guest RDMA for Azure Boost",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-public-preview-of-guest-rdma-for-azure-boost/ba-p/4573027",
+      "published": "2026-11-26T12:19:57+00:00",
+      "summary": "Today, we're excited to announce the public preview of Guest RDMA on Azure Boost, available in all regions. Guest RDMA on Azure Boost extends Remote Direct Memory Access (RDMA) directly into guest VMs over the front-end Network Interface Card (NIC). Applications interact natively with RDMA verbs...",
+      "blog": "Azure Compute",
+      "blogId": "azurecompute",
+      "author": "MengxiWu"
+    },
+    {
+      "title": "Where should LLM weights live on AKS? Three options for GPU cold starts, measured",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/where-should-llm-weights-live-on-aks-three-options-for-gpu-cold/ba-p/4574887",
+      "published": "2026-11-26T05:30:00+00:00",
+      "summary": "Summary When you self-host an open-weight large language model (LLM) on Azure Kubernetes Service (AKS), each new replica needs two payloads before it can answer a request: the container image that holds the inference runtime, and the model weights. That wait is the cold start. On CPU services it is...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "kumarsagar"
+    },
+    {
+      "title": "Azure Functions and AWS Lambda: One Trigger vs. Multiple Triggers—What Changes in Your Design?",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-and-aws-lambda-one-trigger-vs-multiple-triggers/ba-p/4574749",
+      "published": "2026-11-26T02:28:19+00:00",
+      "summary": "When moving between Azure Functions and AWS Lambda, one difference quickly stands out: An individual Azure function must have exactly one trigger. An AWS Lambda function can have multiple triggers. At first glance, Lambda appears more flexible. But what does this difference actually mean for code...",
+      "blog": "Apps on Azure",
+      "blogId": "appsonazureblog",
+      "author": "singh_abhi"
+    },
     {
       "title": "Ignite 2026: The next era of AI starts with the infrastructure beneath it",
       "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/ignite-2026-the-next-era-of-ai-starts-with-the-infrastructure/ba-p/4574943",
@@ -55,6 +127,24 @@
       "blog": "Azure AI Foundry",
       "blogId": "azure-ai-foundry-blog",
       "author": "muzzimam"
+    },
+    {
+      "title": "Measuring Freshness for Web Grounding",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/measuring-freshness-for-web-grounding/ba-p/4576396",
+      "published": "2026-11-25T05:15:00+00:00",
+      "summary": "When picking a web grounding service, most developers evaluate a provider's enterprise readiness, quality, latency, and cost. For applications built on changing information, one more question matters: how fresh are the results? An earnings announcement can reshape a customer brief, and a permitting...",
+      "blog": "Azure Dev Community",
+      "blogId": "azuredevcommunityblog",
+      "author": "RyanCassidy"
+    },
+    {
+      "title": "Upcoming DNS changes for Azure Event Hubs and Azure Service Bus",
+      "link": "https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/upcoming-dns-changes-for-azure-event-hubs-and-azure-service-bus/ba-p/4576442",
+      "published": "2026-11-24T23:43:01+00:00",
+      "summary": "What is happening In Azure public cloud, the new hostname format is namespace-name.zN.eventhubs.azure.net for Event Hubs and namespace-name.zN.servicebus.azure.net for Service Bus. Here, namespace-name is your namespace name and N is the partition number assigned by the service. Azure Relay also...",
+      "blog": "Messaging on Azure",
+      "blogId": "messagingonazureblog",
+      "author": "EldertGrootenboer"
     },
     {
       "title": "Strengthen your Azure security baseline with Metadata Security Protocol",
@@ -867,15 +957,6 @@
       "author": "ronglums"
     },
     {
-      "title": "Announcing Public Preview of Guest RDMA for Azure Boost",
-      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-public-preview-of-guest-rdma-for-azure-boost/ba-p/4573027",
-      "published": "2026-11-18T17:04:34+00:00",
-      "summary": "Today, we're excited to announce the public preview of Guest RDMA on Azure Boost, available in all regions. Guest RDMA on Azure Boost extends Remote Direct Memory Access (RDMA) directly into guest VMs over the front-end Network Interface Card (NIC). Applications interact natively with RDMA verbs...",
-      "blog": "Azure Compute",
-      "blogId": "azurecompute",
-      "author": "MengxiWu"
-    },
-    {
       "title": "Hosted agents in Foundry Agent Service at Ignite 2026: from pilot to production inside your enterprise boundaries",
       "link": "https://devblogs.microsoft.com/foundry/hosted-agents-foundry-agent-service-ignite-2026/",
       "published": "2026-11-18T17:00:54+00:00",
@@ -1684,15 +1765,6 @@
       "blog": "Azure Cosmos DB Blog",
       "blogId": "cosmosdbblog",
       "author": "Richa Gaur"
-    },
-    {
-      "title": "What's new in Azure Container Apps at Ignite'26",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-container-apps-at-ignite-26/ba-p/4573042",
-      "published": "2026-11-17T18:45:12+00:00",
-      "summary": "Azure Container Apps (ACA) is a fully managed serverless container platform that enables developers to design and deploy microservices and modern apps without requiring container expertise or needing infrastructure management. With built-in autoscaling (including scale to zero), per-second billing,...",
-      "blog": "Apps on Azure",
-      "blogId": "appsonazureblog",
-      "author": "vyomnagrani"
     },
     {
       "title": "Improve search relevance with semantic reranking and BM25 score projection in Azure Cosmos DB",

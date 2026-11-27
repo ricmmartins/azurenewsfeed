@@ -1,5 +1,5 @@
 ============================================================
-ROTEIRO - AZURE NEWS DIÁRIO - 26/11/2026
+ROTEIRO - AZURE NEWS DIÁRIO - 27/11/2026
 ============================================================
 
 [ABERTURA]
@@ -7,21 +7,62 @@ ROTEIRO - AZURE NEWS DIÁRIO - 26/11/2026
 E aí pessoal, tudo bem?
 [PAUSA]
 Bem-vindos a mais um Azure News Diário.
-Hoje é dia 26/11/2026.
-Temos 2 atualizações para cobrir.
+Hoje é dia 27/11/2026.
+Temos 6 atualizações para cobrir.
 Vamos direto ao ponto.
 [PAUSA]
 
 ----------------------------------------
-[BLOCO: Apps on Azure]
+[BLOCO: High Performance Computing]
 
-  ► Azure Functions and AWS Lambda: One Trigger vs. Multiple Triggers—What Changes in Your Design?
-    When moving between Azure Functions and AWS Lambda, one difference quickly stands out: An individual Azure function must have exactly one trigger. An 
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-and-aws-lambda-one-trigger-vs-multiple-triggers/ba-p/4574749
+  ► Run Slurm on Kubernetes with Slinky
+    Run Slurm on Kubernetes with Slinky What Slinky does Slurm is a workload manager for jobs with explicit resource requirements: a simulation needs a nu
+    Link: https://techcommunity.microsoft.com/t5/azure-high-performance-computing/run-slurm-on-kubernetes-with-slinky/ba-p/4577289
 
-  ► Introducing Brewlet: Manage Golden Images at Platform Speed
-    In October 2026, the PHP project released security updates for critical vulnerabilities that could allow unauthenticated remote code execution. For te
-    Link: https://techcommunity.microsoft.com/t5/apps-on-azure-blog/introducing-brewlet-manage-golden-images-at-platform-speed/ba-p/4576767
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Maps]
+
+  ► Maps Visualization
+    Azure Maps offers an integrated suite of geospatial map visualization tools to simplify data interpretation and empower decision-making. Businesses ca
+    Link: https://techcommunity.microsoft.com/t5/azure-maps-blog/maps-visualization/ba-p/4399823
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Infrastructure]
+
+  ► Azure Local: 10 anti-patterns that quietly break a running cluster
+    Part 2: Design and operations anti-patterns for Azure Local An anti-pattern is a recurring design or operating choice that looks like a good solution 
+    Link: https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/azure-local-10-anti-patterns-that-quietly-break-a-running/ba-p/4577143
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Analytics on Azure]
+
+  ► Unlocking Data Value with Fabric and Microsoft AI Agents: Choose, Deploy, Optimise
+    Over the past few years, most organisations I work with have invested heavily in their data platforms: landing data, modelling it and publishing repor
+    Link: https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/unlocking-data-value-with-fabric-and-microsoft-ai-agents-choose/ba-p/4574895
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Architecture]
+
+  ► Running green hydrogen export plants with AI agents on Azure
+    Before you read. I wrote this paper for my capstone in the Azure Master Architect Program. The design has not been built, and the test in section 9 is
+    Link: https://techcommunity.microsoft.com/t5/azure-architecture-blog/running-green-hydrogen-export-plants-with-ai-agents-on-azure/ba-p/4576731
+
+[PAUSA]
+
+----------------------------------------
+[BLOCO: Azure Compute]
+
+  ► Announcing Public Preview of Guest RDMA for Azure Boost
+    Today, we're excited to announce the public preview of Guest RDMA on Azure Boost, available in all regions. Guest RDMA on Azure Boost extends Remote D
+    Link: https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-public-preview-of-guest-rdma-for-azure-boost/ba-p/4573027
 
 [PAUSA]
 
