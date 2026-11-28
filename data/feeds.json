@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-27T19:28:53.341294+00:00",
+  "lastUpdated": "2026-11-28T02:41:20.129433+00:00",
   "totalArticles": 318,
   "articles": [
+    {
+      "title": "Agentic disruption recovery for airlines on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/agentic-disruption-recovery-for-airlines-on-azure/ba-p/4577378",
+      "published": "2026-11-27T14:44:17+00:00",
+      "summary": "The business problem Disruption is a network problem: 44% of Europe's average departure delay in 2025 was knock-on delay from earlier flights [1]. Lisbon, on one runway near capacity, was the least punctual of Europe's 30 busiest airports [2]. A minute of delay at the gate costs an airline about...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "simon10"
+    },
     {
       "title": "Run Slurm on Kubernetes with Slinky",
       "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/run-slurm-on-kubernetes-with-slinky/ba-p/4577289",
@@ -2854,15 +2863,6 @@
       "blog": "High Performance Computing",
       "blogId": "azurehighperformancecomputingblog",
       "author": "vinilv"
-    },
-    {
-      "title": "Preparing for your next certification could start with your Visual Studio Subscription",
-      "link": "https://devblogs.microsoft.com/visualstudio/preparing-for-your-next-certification-could-start-with-your-visual-studio-subscription/",
-      "published": "2026-10-28T22:30:00+00:00",
-      "summary": "Are you thinking about earning a Microsoft certification to help advance your career, build on your existing skills, or meet new requirements at work? If so, you may already be wondering where to start. Which courses, labs, and hands-on exercises will help you prepare? How much time will it take to...",
-      "blog": "Visual Studio Blog",
-      "blogId": "visualstudio",
-      "author": "James Rempt"
     }
   ]
 }
