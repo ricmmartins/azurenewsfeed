@@ -1,7 +1,16 @@
 {
-  "lastUpdated": "2026-11-28T02:41:20.129433+00:00",
-  "totalArticles": 318,
+  "lastUpdated": "2026-11-28T13:00:16.433317+00:00",
+  "totalArticles": 317,
   "articles": [
+    {
+      "title": "The Model Isn’t the Boss: An Azure Architecture for Accountable AI Agents",
+      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/the-model-isn-t-the-boss-an-azure-architecture-for-accountable/ba-p/4571335",
+      "published": "2026-11-28T11:09:22+00:00",
+      "summary": "Imagine a housing organization that maintains several thousand rented homes. Tenants report repairs through a website, an app, a phone line or a support worker who completes the form with them, and many reports include a photo. Asset history, approved repair guidance, contractor availability and...",
+      "blog": "Azure Architecture",
+      "blogId": "azurearchitectureblog",
+      "author": "Jiri Binko"
+    },
     {
       "title": "Agentic disruption recovery for airlines on Azure",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/agentic-disruption-recovery-for-airlines-on-azure/ba-p/4577378",
@@ -2514,15 +2523,6 @@
       "author": "Microsoft"
     },
     {
-      "title": "The Model Isn’t the Boss: An Azure Architecture for Accountable AI Agents",
-      "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/the-model-isn-t-the-boss-an-azure-architecture-for-accountable/ba-p/4571335",
-      "published": "2026-11-07T20:50:12+00:00",
-      "summary": "Imagine a housing organization that maintains several thousand rented homes. Tenants report repairs through a website, an app, a phone line or a support worker who completes the form with them, and many reports include a photo. Asset history, approved repair guidance, contractor availability and...",
-      "blog": "Azure Architecture",
-      "blogId": "azurearchitectureblog",
-      "author": "Jiri Binko"
-    },
-    {
       "title": "Repairs and Renovation Should Not Compete Blindly for the Same Capacity",
       "link": "https://techcommunity.microsoft.com/t5/azure-architecture-blog/repairs-and-renovation-should-not-compete-blindly-for-the-same/ba-p/4571312",
       "published": "2026-11-07T16:06:48+00:00",
@@ -2854,15 +2854,6 @@
       "blog": "Core Infrastructure & Security",
       "blogId": "coreinfrastructureandsecurityblog",
       "author": "varghesejoji"
-    },
-    {
-      "title": "Upgrade Azure CycleCloud Slurm Node OS Images Without Recreating the VM Scale Set",
-      "link": "https://techcommunity.microsoft.com/t5/azure-high-performance-computing/upgrade-azure-cyclecloud-slurm-node-os-images-without-recreating/ba-p/4568581",
-      "published": "2026-10-29T04:41:47+00:00",
-      "summary": "Overview Operating-system image updates in an Azure CycleCloud Slurm cluster are not the same as installing ordinary packages inside a running node. A CycleCloud Slurm node is typically an instance in an Azure Virtual Machine Scale Set (VMSS), and the VMSS model defines the image from which its OS...",
-      "blog": "High Performance Computing",
-      "blogId": "azurehighperformancecomputingblog",
-      "author": "vinilv"
     }
   ]
 }

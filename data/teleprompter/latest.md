@@ -15,18 +15,13 @@ Vamos direto ao ponto.
 ----------------------------------------
 [BLOCO: Azure Architecture]
 
+  ► The Model Isn’t the Boss: An Azure Architecture for Accountable AI Agents
+    Imagine a housing organization that maintains several thousand rented homes. Tenants report repairs through a website, an app, a phone line or a suppo
+    Link: https://techcommunity.microsoft.com/t5/azure-architecture-blog/the-model-isn-t-the-boss-an-azure-architecture-for-accountable/ba-p/4571335
+
   ► Agentic disruption recovery for airlines on Azure
     The business problem Disruption is a network problem: 44% of Europe's average departure delay in 2025 was knock-on delay from earlier flights [1]. Lis
     Link: https://techcommunity.microsoft.com/t5/azure-architecture-blog/agentic-disruption-recovery-for-airlines-on-azure/ba-p/4577378
-
-[PAUSA]
-
-----------------------------------------
-[BLOCO: High Performance Computing]
-
-  ► Run Slurm on Kubernetes with Slinky
-    Run Slurm on Kubernetes with Slinky What Slinky does Slurm is a workload manager for jobs with explicit resource requirements: a simulation needs a nu
-    Link: https://techcommunity.microsoft.com/t5/azure-high-performance-computing/run-slurm-on-kubernetes-with-slinky/ba-p/4577289
 
 [PAUSA]
 
